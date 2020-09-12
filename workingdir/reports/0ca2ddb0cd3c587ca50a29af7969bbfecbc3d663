@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 0ca2ddb0cd3c ("fscrypt: make test_dummy_encryption use v2 by default") has no obvious style problems and is ready for submission.

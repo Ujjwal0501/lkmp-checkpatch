@@ -1,0 +1,29 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#226: FILE: include/trace/events/f2fs.h:1856:
++	TP_printk("dev = (%d,%d), "
++		"app [write=%llu (direct=%llu, buffered=%llu), mapped=%llu], "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#227: FILE: include/trace/events/f2fs.h:1857:
++		"app [write=%llu (direct=%llu, buffered=%llu), mapped=%llu], "
++		"fs [data=%llu, node=%llu, meta=%llu, discard=%llu], "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#228: FILE: include/trace/events/f2fs.h:1858:
++		"fs [data=%llu, node=%llu, meta=%llu, discard=%llu], "
++		"gc [data=%llu, node=%llu], "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#229: FILE: include/trace/events/f2fs.h:1859:
++		"gc [data=%llu, node=%llu], "
++		"cp [data=%llu, node=%llu, meta=%llu]",
+
+total: 0 errors, 4 warnings, 187 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2bc4bea33848 ("f2fs: add tracepoint for f2fs iostat") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 9ef4e6e5e314 ("crypto: omap-aes - prevent unregistering algorithms twice") has no obvious style problems and is ready for submission.

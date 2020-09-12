@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+Clean up some of the patching of kvm_x86_ops, by moving kvm_x86_ops related to
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#91: FILE: arch/x86/include/asm/kvm_host.h:1262:
++			 unsigned user_data_size);
+
+total: 0 errors, 2 warnings, 269 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 33b22172452f ("KVM: x86: move nested-related kvm_x86_ops to a separate struct") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

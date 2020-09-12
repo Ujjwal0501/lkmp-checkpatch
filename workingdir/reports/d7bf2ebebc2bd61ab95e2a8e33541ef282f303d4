@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 357 lines checked
+
+Commit d7bf2ebebc2b ("sched: consistently handle layer3 header accesses in the presence of VLANs") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 571cfadcc628 ("clk: mediatek: assign the initial value to clk_init_data of mtk_mux") has no obvious style problems and is ready for submission.

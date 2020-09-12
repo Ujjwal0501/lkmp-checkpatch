@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit f779ad09109e ("soundwire: (cosmetic) remove multiple superfluous "else" statements") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit e274fb32ffc8 ("drm/i915: Include DP HDR Metadata Infoframe SDP in the crtc state dump") has no obvious style problems and is ready for submission.

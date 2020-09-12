@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit 6f72a07aa6e9 ("power: supply: sbs-battery: add POWER_SUPPLY_HEALTH_CALIBRATION_REQUIRED support") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit 333cff6c963f ("powercap/drivers/idle_inject: Specify idle state max latency") has no obvious style problems and is ready for submission.

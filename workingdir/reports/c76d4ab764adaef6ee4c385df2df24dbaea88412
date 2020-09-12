@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit c76d4ab764ad ("drm/virtio: make virtio_gpu_object_attach void") has no obvious style problems and is ready for submission.

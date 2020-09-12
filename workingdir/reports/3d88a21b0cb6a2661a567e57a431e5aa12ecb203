@@ -1,0 +1,17 @@
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#68: FILE: net/smc/smc_llc.c:396:
++			rkeyllc->rtoken[rtok_ix].rmb_vaddr = cpu_to_be64(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#69: FILE: net/smc/smc_llc.c:397:
++				(u64)sg_dma_address(
+
+total: 0 errors, 0 warnings, 2 checks, 132 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3d88a21b0cb6 ("net/smc: multiple link support and LLC flow for smc_llc_do_confirm_rkey") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 319 lines checked
+
+Commit f650af72e5ba ("drm/i915: s/pipe_config/crtc_state/ in pfit functions") has no obvious style problems and is ready for submission.

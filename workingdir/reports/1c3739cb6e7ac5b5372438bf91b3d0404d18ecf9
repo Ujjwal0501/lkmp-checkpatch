@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 136 lines checked
+
+Commit 1c3739cb6e7a ("igc: Remove IGC_MAC_STATE_SRC_ADDR flag") has no obvious style problems and is ready for submission.

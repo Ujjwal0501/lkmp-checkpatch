@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 23 lines checked
+
+Commit 93fdddfefc83 ("kbuild: add this-makefile as a shorthand for $(lastword $(MAKEFILE_LIST))") has no obvious style problems and is ready for submission.

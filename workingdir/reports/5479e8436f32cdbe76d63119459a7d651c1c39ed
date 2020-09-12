@@ -1,0 +1,19 @@
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'queue' - possible side-effects?
+#156: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_llh_internal.h:178:
++#define HW_ATL2_TX_Q_TC_MAP_ADR(queue) \
++	(((queue) < 32) ? 0x0000799C + ((queue) / 4) * 4 : 0)
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'queue' - possible side-effects?
+#159: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_llh_internal.h:181:
++#define HW_ATL2_TX_Q_TC_MAP_SHIFT(queue) \
++	(((queue) < 32) ? ((queue) * 8) % 32 : 0)
+
+total: 0 errors, 0 warnings, 2 checks, 126 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5479e8436f32 ("net: atlantic: always use random TC-queue mapping for TX on A2.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

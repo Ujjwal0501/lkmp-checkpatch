@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 450 lines checked
+
+Commit 9556dfa28b4d ("ath11k: Add sta debugfs support to configure ADDBA and DELBA") has no obvious style problems and is ready for submission.

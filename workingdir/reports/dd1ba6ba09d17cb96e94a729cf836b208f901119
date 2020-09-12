@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit dd1ba6ba09d1 ("drm/i915/stolen: prefer struct drm_device based logging") has no obvious style problems and is ready for submission.

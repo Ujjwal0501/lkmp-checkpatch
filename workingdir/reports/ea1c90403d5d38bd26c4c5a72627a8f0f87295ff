@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit ea1c90403d5d ("xfs: remove unnecessary variable udqp from xfs_ioctl_setattr") has no obvious style problems and is ready for submission.

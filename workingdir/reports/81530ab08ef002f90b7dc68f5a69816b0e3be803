@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 81530ab08ef0 ("RDMA/mlx5: Allow providing extra scatter CQE QP flag") has no obvious style problems and is ready for submission.

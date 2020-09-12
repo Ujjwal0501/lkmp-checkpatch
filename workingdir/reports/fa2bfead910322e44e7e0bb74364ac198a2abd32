@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 153 lines checked
+
+Commit fa2bfead9103 ("PM: sleep: core: Rename dev_pm_smart_suspend_and_suspended()") has no obvious style problems and is ready for submission.

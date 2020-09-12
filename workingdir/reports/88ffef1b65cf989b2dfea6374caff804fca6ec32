@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 395 lines checked
+
+Commit 88ffef1b65cf ("mtd: rawnand: arasan: Support the hardware BCH ECC engine") has no obvious style problems and is ready for submission.

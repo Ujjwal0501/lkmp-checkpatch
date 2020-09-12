@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit bf10bd0be532 ("KVM: X86: Fix MSR range of APIC registers in X2APIC mode") has no obvious style problems and is ready for submission.

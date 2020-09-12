@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit b01401a228bc ("iio:accel:mxc4005: Drop unnecessary explicit casts in regmap_bulk_read calls") has no obvious style problems and is ready for submission.

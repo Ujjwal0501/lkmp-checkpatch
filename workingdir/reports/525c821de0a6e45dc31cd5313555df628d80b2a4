@@ -1,0 +1,29 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#15: 
+  FAILED: Ljava/lang/StringLatin1;equals([B[B)Z: bool class java.lang.StringLatin1.equals(byte[], byte[]) != boolean java.lang.StringLatin1.equals(byte[], byte[])
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#75: 
+new file mode 100644
+
+WARNING:LONG_LINE_STRING: line length of 120 exceeds 100 columns
+#102: FILE: tools/perf/tests/demangle-java-test.c:23:
++		{ "Ljava/util/regex/Pattern$BmpCharProperty;match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z",
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#103: FILE: tools/perf/tests/demangle-java-test.c:24:
++		  "boolean java.util.regex.Pattern$BmpCharProperty.match(java.util.regex.Matcher, int, java.lang.CharSequence)" },
+
+WARNING:ARRAY_SIZE: Prefer ARRAY_SIZE(test_cases)
+#110: FILE: tools/perf/tests/demangle-java-test.c:31:
++	for (i = 0; i < sizeof(test_cases) / sizeof(test_cases[0]); i++) {
+
+total: 0 errors, 5 warnings, 66 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 525c821de0a6 ("perf tests: Add test for the java demangler") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

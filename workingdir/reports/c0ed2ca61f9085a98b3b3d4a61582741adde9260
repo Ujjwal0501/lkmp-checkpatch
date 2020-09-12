@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit c0ed2ca61f90 ("drm/amd/display: remove mod_hdcp_hdcp2_get_link_encryption_status()") has no obvious style problems and is ready for submission.

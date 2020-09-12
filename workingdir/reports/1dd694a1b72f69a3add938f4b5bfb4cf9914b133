@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 2c4704756cab ("pids: Move the pgrp and session pid pointers from task_struct to signal_struct")'
+#7: 
+Starting from 2c4704756cab ("pids: Move the pgrp and session pid pointers
+
+total: 1 errors, 0 warnings, 9 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1dd694a1b72f ("remove the no longer needed pid_alive() check in __task_pid_nr_ns()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

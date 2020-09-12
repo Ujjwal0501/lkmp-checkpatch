@@ -1,0 +1,23 @@
+WARNING:CONST_STRUCT: struct address_space_operations should normally be const
+#121: FILE: mm/debug.c:126:
++				sizeof(struct address_space_operations *))) {
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#133: FILE: mm/debug.c:138:
++			pr_warn("mapping->a_ops:%ps with invalid mapping->host inode address %px\n",
++				a_ops, host);
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#146: FILE: mm/debug.c:151:
++			pr_warn("mapping->aops:%ps with invalid mapping->host->i_dentry.first %px\n",
++				a_ops, dentry_ptr);
+
+total: 0 errors, 3 warnings, 63 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 002ae7057069 ("mm, dump_page(): do not crash with invalid mapping pointer") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

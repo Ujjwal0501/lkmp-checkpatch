@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 167 lines checked
+
+Commit e4f9ba20d3b8 ("fs/xfs: Update xfs_ioctl_setattr_dax_invalidate()") has no obvious style problems and is ready for submission.

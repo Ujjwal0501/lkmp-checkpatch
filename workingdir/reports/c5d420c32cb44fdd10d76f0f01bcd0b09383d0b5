@@ -1,0 +1,81 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#11: 
+a lot of cases there will be a lot of noise from syscalls triggered by other
+
+WARNING:TYPO_SPELLING: 'amoung' may be misspelled - perhaps 'among'?
+#31: 
+Fentry, though, seems to be adding the least amoung of overhead and achieves
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#81: FILE: tools/testing/selftests/bpf/bench.c:307:
++extern const struct bench bench_trig_base;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#82: FILE: tools/testing/selftests/bpf/bench.c:308:
++extern const struct bench bench_trig_tp;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#83: FILE: tools/testing/selftests/bpf/bench.c:309:
++extern const struct bench bench_trig_rawtp;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#84: FILE: tools/testing/selftests/bpf/bench.c:310:
++extern const struct bench bench_trig_kprobe;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#85: FILE: tools/testing/selftests/bpf/bench.c:311:
++extern const struct bench bench_trig_fentry;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#86: FILE: tools/testing/selftests/bpf/bench.c:312:
++extern const struct bench bench_trig_fmodret;
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#104: 
+new file mode 100644
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void trigger_validate() should probably be void trigger_validate(void)
+#121: FILE: tools/testing/selftests/bpf/benchs/bench_trigger.c:13:
++static void trigger_validate()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_ctx() should probably be void setup_ctx(void)
+#155: FILE: tools/testing/selftests/bpf/benchs/bench_trigger.c:47:
++static void setup_ctx()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void trigger_tp_setup() should probably be void trigger_tp_setup(void)
+#177: FILE: tools/testing/selftests/bpf/benchs/bench_trigger.c:69:
++static void trigger_tp_setup()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void trigger_rawtp_setup() should probably be void trigger_rawtp_setup(void)
+#183: FILE: tools/testing/selftests/bpf/benchs/bench_trigger.c:75:
++static void trigger_rawtp_setup()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void trigger_kprobe_setup() should probably be void trigger_kprobe_setup(void)
+#189: FILE: tools/testing/selftests/bpf/benchs/bench_trigger.c:81:
++static void trigger_kprobe_setup()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void trigger_fentry_setup() should probably be void trigger_fentry_setup(void)
+#195: FILE: tools/testing/selftests/bpf/benchs/bench_trigger.c:87:
++static void trigger_fentry_setup()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void trigger_fmodret_setup() should probably be void trigger_fmodret_setup(void)
+#201: FILE: tools/testing/selftests/bpf/benchs/bench_trigger.c:93:
++static void trigger_fmodret_setup()
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 2
+#283: FILE: tools/testing/selftests/bpf/benchs/run_bench_trigger.sh:2:
++
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#307: FILE: tools/testing/selftests/bpf/progs/trigger_bench.c:11:
++long hits = 0;
+
+total: 8 errors, 10 warnings, 261 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c5d420c32cb4 ("selftest/bpf: Add BPF triggering benchmark") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

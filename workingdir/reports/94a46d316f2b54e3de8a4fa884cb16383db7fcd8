@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 94 lines checked
+
+Commit 94a46d316f2b ("x86/mce: Move nmi_enter/exit() into the entry point") has no obvious style problems and is ready for submission.

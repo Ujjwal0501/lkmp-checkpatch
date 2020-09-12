@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit c1909ab07f0a ("iio: adc: ad_sigma_delta: Use {get,put}_unaligned_be24()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e965bcb06256 ("arm64/cpufeature: Make doublelock a signed feature in ID_AA64DFR0") has no obvious style problems and is ready for submission.

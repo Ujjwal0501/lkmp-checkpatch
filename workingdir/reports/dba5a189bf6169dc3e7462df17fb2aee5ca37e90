@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 244 lines checked
+
+Commit dba5a189bf61 ("Revert "rtw88: no need to set registers for SDIO"") has no obvious style problems and is ready for submission.

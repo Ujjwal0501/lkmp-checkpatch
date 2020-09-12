@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit c30b20cd96a7 ("pstore: Rename "pstore_lock" to "psinfo_lock"") has no obvious style problems and is ready for submission.

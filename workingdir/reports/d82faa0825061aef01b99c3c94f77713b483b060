@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit fatal: bad o ("0f4aeec59dabb476c")'
+#6: 
+ACPICA commit 4d938d048790983b8b4252b0f4aeec59dabb476c
+
+total: 1 errors, 0 warnings, 47 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d82faa082506 ("ACPICA: acpidump: Removed dead code from oslinuxtbl.c") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

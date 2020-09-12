@@ -1,0 +1,75 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit ef22d8abd876 ("m68k: mm: Restructure Motorola MMU page-table layout")'
+#15: 
+In a manner similar to ef22d8abd876 ("m68k: mm: Restructure Motorola
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#46: FILE: arch/sparc/include/asm/page_32.h:57:
++typedef struct { unsigned long pmd; } pmd_t;
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#64: FILE: arch/sparc/include/asm/page_32.h:85:
++typedef unsigned long pmd_t;
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#115: FILE: arch/sparc/include/asm/pgtable_32.h:15:
++#define PMD_SIZE        ^I(1UL << PMD_SHIFT)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#116: FILE: arch/sparc/include/asm/pgtable_32.h:16:
++#define PMD_MASK        ^I(~(PMD_SIZE-1))$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#117: FILE: arch/sparc/include/asm/pgtable_32.h:17:
++#define PMD_ALIGN(__addr) ^I(((__addr) + ~PMD_MASK) & PMD_MASK)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#119: FILE: arch/sparc/include/asm/pgtable_32.h:19:
++#define PGDIR_SHIFT     ^I24$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#120: FILE: arch/sparc/include/asm/pgtable_32.h:20:
++#define PGDIR_SIZE      ^I(1UL << PGDIR_SHIFT)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#121: FILE: arch/sparc/include/asm/pgtable_32.h:21:
++#define PGDIR_MASK      ^I(~(PGDIR_SIZE-1))$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#122: FILE: arch/sparc/include/asm/pgtable_32.h:22:
++#define PGDIR_ALIGN(__addr) ^I(((__addr) + ~PGDIR_MASK) & PGDIR_MASK)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#142: FILE: arch/sparc/include/asm/pgtable_32.h:47:
++#define PTRS_PER_PTE    ^I64$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#143: FILE: arch/sparc/include/asm/pgtable_32.h:48:
++#define PTRS_PER_PMD    ^I64$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#144: FILE: arch/sparc/include/asm/pgtable_32.h:49:
++#define PTRS_PER_PGD    ^I256$
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#145: FILE: arch/sparc/include/asm/pgtable_32.h:50:
++#define USER_PTRS_PER_PGD	PAGE_OFFSET / PGDIR_SIZE
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#315: FILE: arch/sparc/mm/srmmu.c:140:
++	unsigned long ptp = __nocache_pa(ptep) >> 4;
++	set_pte((pte_t *)&pmd_val(*pmdp), __pte(SRMMU_ET_PTD | ptp));
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#329: FILE: arch/sparc/mm/srmmu.c:146:
++	unsigned long ptp = page_to_pfn(ptep) << (PAGE_SHIFT-4); /* watch for overflow */
++	set_pte((pte_t *)&pmd_val(*pmdp), __pte(SRMMU_ET_PTD | ptp));
+
+total: 2 errors, 14 warnings, 359 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8e958839e4b9 ("sparc32: mm: Restructure sparc32 MMU page-table layout") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

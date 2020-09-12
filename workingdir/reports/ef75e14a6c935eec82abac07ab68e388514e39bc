@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 22 lines checked
+
+Commit ef75e14a6c93 ("staging: comedi: verify array index is correct before using it") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 124 lines checked
+
+Commit f840ebfe5802 ("ASoC: wm8990: remove some defined but unused symbols") has no obvious style problems and is ready for submission.

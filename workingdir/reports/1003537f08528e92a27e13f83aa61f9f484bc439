@@ -1,0 +1,29 @@
+WARNING:LONG_LINE: line length of 162 exceeds 100 columns
+#34: FILE: drivers/staging/rtl8188eu/core/rtw_ap.c:660:
++	p = rtw_get_ie(pnetwork->ies + sizeof(struct ndis_802_11_fixed_ie), _HT_ADD_INFO_IE_, &ie_len, pnetwork->ie_length - sizeof(struct ndis_802_11_fixed_ie));
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#43: FILE: drivers/staging/rtl8188eu/core/rtw_ap.c:774:
++	p = rtw_get_ie(ie + _BEACON_IE_OFFSET_, _SSID_IE_, &ie_len, pbss_network->ie_length - _BEACON_IE_OFFSET_);
+
+WARNING:LONG_LINE: line length of 124 exceeds 100 columns
+#56: FILE: drivers/staging/rtl8188eu/core/rtw_ap.c:792:
++	p = rtw_get_ie(ie + _BEACON_IE_OFFSET_, _SUPPORTEDRATES_IE_, &ie_len, pbss_network->ie_length - _BEACON_IE_OFFSET_);
+
+WARNING:LONG_LINE: line length of 117 exceeds 100 columns
+#65: FILE: drivers/staging/rtl8188eu/core/rtw_ap.c:810:
++	p = rtw_get_ie(ie + _BEACON_IE_OFFSET_, _ERPINFO_IE_, &ie_len, pbss_network->ie_length - _BEACON_IE_OFFSET_);
+
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#74: FILE: drivers/staging/rtl8188eu/core/rtw_ap.c:827:
++	p = rtw_get_ie(ie + _BEACON_IE_OFFSET_, _RSN_IE_2_, &ie_len, pbss_network->ie_length - _BEACON_IE_OFFSET_);
+
+total: 0 errors, 5 warnings, 0 checks, 84 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1003537f0852 ("staging: rtl8188eu: Remove unnecessary extra parentheses") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

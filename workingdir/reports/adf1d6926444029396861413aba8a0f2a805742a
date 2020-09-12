@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 36 lines checked
+
+Commit adf1d6926444 ("Bluetooth: Handle Inquiry Cancel error after Inquiry Complete") has no obvious style problems and is ready for submission.

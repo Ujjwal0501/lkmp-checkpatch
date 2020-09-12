@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 232 lines checked
+
+Commit f0e45fb4da29 ("mm: memcontrol: drop unused try/commit/cancel charge API") has no obvious style problems and is ready for submission.

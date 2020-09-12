@@ -1,0 +1,13 @@
+ERROR:BAD_SIGN_OFF: Unrecognized email address: 'Arnd Bergmann <arnd@arndb.de'
+#12: 
+Acked-by: Arnd Bergmann <arnd@arndb.de
+
+total: 1 errors, 0 warnings, 104 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ebcea694e692 ("arm64: Sort vendor-specific errata") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

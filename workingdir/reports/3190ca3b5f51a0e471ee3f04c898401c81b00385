@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit 3190ca3b5f51 ("net: phy: broadcom: don't export RDB/legacy access methods") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 602 lines checked
+
+Commit e0b4b4722dfa ("net/mlx5: Update transobj.c new cmd interface") has no obvious style problems and is ready for submission.

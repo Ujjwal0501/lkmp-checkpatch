@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 71e9378bcfd2 ("iwlwifi: mvm: initialize iwl_dev_tx_power_cmd to zero") has no obvious style problems and is ready for submission.

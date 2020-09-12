@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit f0d69678083f ("drm/amdgpu: drop pm_runtime_set_active") has no obvious style problems and is ready for submission.

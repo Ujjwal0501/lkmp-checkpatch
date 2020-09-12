@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit fa33e6236f5f ("selftests/ftrace: Add "requires:" list support") has no obvious style problems and is ready for submission.

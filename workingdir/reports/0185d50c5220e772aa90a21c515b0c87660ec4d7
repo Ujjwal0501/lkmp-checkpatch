@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit 0185d50c5220 ("mtd: rawnand: stm32_fmc2: use FMC2_TIMEOUT_MS for timeouts") has no obvious style problems and is ready for submission.

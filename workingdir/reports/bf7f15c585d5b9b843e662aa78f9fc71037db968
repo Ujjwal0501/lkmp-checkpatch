@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit bf7f15c585d5 ("arm64: elf: Fix allnoconfig kernel build with !ARCH_USE_GNU_PROPERTY") has no obvious style problems and is ready for submission.

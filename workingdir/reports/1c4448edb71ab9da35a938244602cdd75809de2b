@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 1c4448edb71a ("mm: memcontrol: simplify value comparison between count and limit") has no obvious style problems and is ready for submission.

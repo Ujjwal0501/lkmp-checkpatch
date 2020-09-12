@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 4d1a2d9ec1c1 ("Revert Backoff [v3]: Rename skb to icmp_skb in tcp_v4_err()")'
+#8: 
+After commit 4d1a2d9ec1c1 ("Rename skb to icmp_skb in tcp_v4_err()")
+
+total: 1 errors, 0 warnings, 0 checks, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 239174945dac ("tcp: tcp_v4_err() icmp skb is named icmp_skb") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

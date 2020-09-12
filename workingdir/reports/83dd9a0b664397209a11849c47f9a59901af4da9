@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 83dd9a0b6643 ("MIPS: SGI-IP27: Use the _AC() macro in spaces.h") has no obvious style problems and is ready for submission.

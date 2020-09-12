@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 58 lines checked
+
+Commit 9f8a93b742e9 ("arm64: dts: allwinner: h6: Add thermal trip points/cooling map") has no obvious style problems and is ready for submission.

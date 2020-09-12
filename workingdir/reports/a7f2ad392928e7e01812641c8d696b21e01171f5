@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit a7f2ad392928 ("drm/i915/display/frontbuffer: Prefer drm_WARN_ON over WARN_ON") has no obvious style problems and is ready for submission.

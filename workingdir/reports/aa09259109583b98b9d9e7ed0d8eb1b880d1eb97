@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit aa0925910958 ("mm, page_alloc: reset the zone->watermark_boost early") has no obvious style problems and is ready for submission.

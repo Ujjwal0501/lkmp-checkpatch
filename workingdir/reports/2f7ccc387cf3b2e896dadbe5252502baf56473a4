@@ -1,0 +1,41 @@
+CHECK:CAMELCASE: Avoid CamelCase: <uAckTime>
+#29: FILE: drivers/staging/vt6655/rxtx.c:269:
++				uAckTime = BBuGetFrameTime(pDevice->byPreambleType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <BBuGetFrameTime>
+#29: FILE: drivers/staging/vt6655/rxtx.c:269:
++				uAckTime = BBuGetFrameTime(pDevice->byPreambleType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <pDevice>
+#29: FILE: drivers/staging/vt6655/rxtx.c:269:
++				uAckTime = BBuGetFrameTime(pDevice->byPreambleType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <byPreambleType>
+#29: FILE: drivers/staging/vt6655/rxtx.c:269:
++				uAckTime = BBuGetFrameTime(pDevice->byPreambleType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopCCKBasicRate>
+#31: FILE: drivers/staging/vt6655/rxtx.c:271:
++							   pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <uNextPktTime>
+#41: FILE: drivers/staging/vt6655/rxtx.c:286:
++			uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len,
+
+CHECK:CAMELCASE: Avoid CamelCase: <s_uGetTxRsvTime>
+#41: FILE: drivers/staging/vt6655/rxtx.c:286:
++			uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len,
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopOFDMBasicRate>
+#49: FILE: drivers/staging/vt6655/rxtx.c:292:
++							   pDevice->byTopOFDMBasicRate);
+
+total: 0 errors, 0 warnings, 8 checks, 82 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2f7ccc387cf3 ("Staging: vt6655: Format long lines.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

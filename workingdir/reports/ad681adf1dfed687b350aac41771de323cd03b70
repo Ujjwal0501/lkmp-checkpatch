@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 138 lines checked
+
+Commit ad681adf1dfe ("perf evsel: Rename perf_evsel__*filter*() to evsel__*filter*()") has no obvious style problems and is ready for submission.

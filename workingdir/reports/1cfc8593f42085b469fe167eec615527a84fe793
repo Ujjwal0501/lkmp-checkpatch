@@ -1,0 +1,21 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#179: FILE: drivers/staging/media/atomisp/pci/atomisp_ioctl.c:1848:
++				      isp->saved_regs.csi_control | MRFLD_PCI_CSI_CONTROL_CSI_READY);
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#199: FILE: drivers/staging/media/atomisp/pci/atomisp_ioctl.c:2080:
++				      isp->saved_regs.csi_control & ~MRFLD_PCI_CSI_CONTROL_CSI_READY);
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#210: FILE: drivers/staging/media/atomisp/pci/atomisp_ioctl.c:2114:
++				       isp->saved_regs.i_control | MRFLD_PCI_I_CONTROL_SRSE_RESET_MASK);
+
+total: 0 errors, 3 warnings, 0 checks, 288 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1cfc8593f420 ("media: atomisp: Get rid of struct pci_dev in struct atomisp_device") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

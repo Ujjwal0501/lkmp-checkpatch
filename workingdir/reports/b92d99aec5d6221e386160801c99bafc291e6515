@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 132 lines checked
+
+Commit b92d99aec5d6 ("media: atomisp: go one step further to drop ia_css_memory_access.c") has no obvious style problems and is ready for submission.

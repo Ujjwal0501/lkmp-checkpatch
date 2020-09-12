@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#17: 
+ .../networking/{l2tp.txt => l2tp.rst}         | 159 ++++++++++--------
+
+WARNING:REPEATED_WORD: Possible repeated word: 'debugfs'
+#92: FILE: Documentation/networking/l2tp.rst:199:
++	# mount -t debugfs debugfs /debug
+
+total: 0 errors, 2 warnings, 219 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 10ebb22137ac ("docs: networking: convert l2tp.txt to ReST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,79 @@
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#206: FILE: drivers/video/fbdev/controlfb.c:218:
++	out_le32(CNTRL_REG(p,start_addr),
+ 	                    ^
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#222: FILE: drivers/video/fbdev/controlfb.c:636:
++static int controlfb_check_var (struct fb_var_screeninfo *var, struct fb_info *info)
+
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#229: FILE: drivers/video/fbdev/controlfb.c:643:
++^I^Ireturn err;^I$
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#238: FILE: drivers/video/fbdev/controlfb.c:652:
++static int controlfb_set_par (struct fb_info *info)
+
+ERROR:SPACING: space required before the open parenthesis '('
+#245: FILE: drivers/video/fbdev/controlfb.c:659:
++	if((err = control_var_to_par(&info->var, &par, info))) {
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#245: FILE: drivers/video/fbdev/controlfb.c:659:
++	if((err = control_var_to_par(&info->var, &par, info))) {
+
+WARNING:PREFER_PR_LEVEL: Prefer [subsystem eg: netdev]_err([subsystem]dev, ... then dev_err(dev, ... then pr_err(...  to printk(KERN_ERR ...
+#246: FILE: drivers/video/fbdev/controlfb.c:660:
++		printk (KERN_ERR "controlfb_set_par: error calling"
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#246: FILE: drivers/video/fbdev/controlfb.c:660:
++		printk (KERN_ERR "controlfb_set_par: error calling"
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'controlfb_set_par', this function's name, in a string
+#246: FILE: drivers/video/fbdev/controlfb.c:660:
++		printk (KERN_ERR "controlfb_set_par: error calling"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#247: FILE: drivers/video/fbdev/controlfb.c:661:
++		printk (KERN_ERR "controlfb_set_par: error calling"
++				 " control_var_to_par: %d.\n", err);
+
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#250: FILE: drivers/video/fbdev/controlfb.c:664:
++^I$
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#289: FILE: drivers/video/fbdev/controlfb.c:703:
++	unsigned ctrl;
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#302: FILE: drivers/video/fbdev/controlfb.c:716:
++			/* fall through */
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#313: FILE: drivers/video/fbdev/controlfb.c:727:
++	out_le32(CNTRL_REG(p,ctrl), ctrl);
+ 	                    ^
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#324: FILE: drivers/video/fbdev/controlfb.c:738:
++                       struct vm_area_struct *vma)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#324: FILE: drivers/video/fbdev/controlfb.c:738:
++                       struct vm_area_struct *vma)$
+
+total: 7 errors, 9 warnings, 326 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 04dff10ffb55 ("video: fbdev: controlfb: remove function prototypes part #3") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

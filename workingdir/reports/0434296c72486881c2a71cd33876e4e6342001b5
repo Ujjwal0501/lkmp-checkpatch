@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit 0434296c7248 ("selftests: bpf: Pass program and target_fd in flow_dissector_reattach") has no obvious style problems and is ready for submission.

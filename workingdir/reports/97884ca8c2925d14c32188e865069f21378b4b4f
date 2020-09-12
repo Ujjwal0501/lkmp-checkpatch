@@ -1,0 +1,17 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#37: FILE: arch/arm64/include/asm/vdso/clocksource.h:5:
++#define VDSO_ARCH_CLOCKMODES					\
++	/* vdso clocksource for both 32 and 64bit tasks */	\
++	VDSO_CLOCKMODE_ARCHTIMER,				\
++	/* vdso clocksource for 64bit tasks only */		\
++	VDSO_CLOCKMODE_ARCHTIMER_NOCOMPAT
+
+total: 1 errors, 0 warnings, 32 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 97884ca8c292 ("arm64: Introduce a way to disable the 32bit vdso") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

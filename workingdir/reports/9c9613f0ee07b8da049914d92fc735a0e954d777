@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 72 lines checked
+
+Commit 9c9613f0ee07 ("iwlwifi: pcie: add new structure for Qu devices with medium latency") has no obvious style problems and is ready for submission.

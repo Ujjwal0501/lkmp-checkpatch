@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit c4f0126d487f ("HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option") has no obvious style problems and is ready for submission.

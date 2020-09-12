@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'for'
+#442: FILE: drivers/soc/qcom/rpmh-rsc.c:728:
++ * This should only be called for for sleep/wake state, never active-only
+
+total: 0 errors, 1 warnings, 416 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e40b0c1628f2 ("soc: qcom: rpmh-rsc: A lot of comments") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

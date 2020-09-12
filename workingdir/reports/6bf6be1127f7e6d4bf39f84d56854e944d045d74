@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 28 lines checked
+
+Commit 6bf6be1127f7 ("e1000e: Do not wake up the system via WOL if device wakeup is disabled") has no obvious style problems and is ready for submission.

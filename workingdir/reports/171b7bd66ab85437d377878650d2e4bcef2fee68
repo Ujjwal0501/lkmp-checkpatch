@@ -1,0 +1,19 @@
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#98: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:6018:
++		__func__, pipe->pix.sizeimage,pipe-> pix.bytesperline);
+ 		                             ^
+
+ERROR:SPACING: spaces prohibited around that '->' (ctx:VxW)
+#98: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:6018:
++		__func__, pipe->pix.sizeimage,pipe-> pix.bytesperline);
+ 		                                  ^
+
+total: 2 errors, 0 warnings, 0 checks, 77 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 171b7bd66ab8 ("media: atomisp: improve debug messages for set format") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

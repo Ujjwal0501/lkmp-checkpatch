@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#39: FILE: drivers/gpu/drm/amd/display/dc/core/dc.c:1025:
++					pipe_set[j]->stream_res.opp->funcs->dpg_is_blanked(pipe_set[j]->stream_res.opp);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#42: FILE: drivers/gpu/drm/amd/display/dc/core/dc.c:1028:
++					pipe_set[j]->stream_res.tg->funcs->is_blanked(pipe_set[j]->stream_res.tg);
+
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#59: FILE: drivers/gpu/drm/amd/display/dc/core/dc.c:1056:
++					pipe_set[j]->stream_res.opp->funcs->dpg_is_blanked(pipe_set[j]->stream_res.opp);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#62: FILE: drivers/gpu/drm/amd/display/dc/core/dc.c:1059:
++					pipe_set[j]->stream_res.tg->funcs->is_blanked(pipe_set[j]->stream_res.tg);
+
+total: 0 errors, 4 warnings, 38 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b7f839d29294 ("drm/amdgpu/display: use blanked rather than plane state for sync groups") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

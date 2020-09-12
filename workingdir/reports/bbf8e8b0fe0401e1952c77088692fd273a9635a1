@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit bbf8e8b0fe04 ("efi/libstub: Optimize for size instead of speed") has no obvious style problems and is ready for submission.

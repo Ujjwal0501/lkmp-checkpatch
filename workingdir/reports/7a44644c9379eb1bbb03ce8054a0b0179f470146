@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 115 lines checked
+
+Commit 7a44644c9379 ("staging: wfx: introduce wfx_set_default_unicast_key()") has no obvious style problems and is ready for submission.

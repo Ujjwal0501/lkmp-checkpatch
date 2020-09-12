@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 10d5e97c1bf8 ("arm64: use PAGE_KERNEL_ROX directly in alloc_insn_page") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 4e3319c23a66 ("powerpc/mm: Fix conditions to perform MMU specific management by blocks on PPC32.") has no obvious style problems and is ready for submission.

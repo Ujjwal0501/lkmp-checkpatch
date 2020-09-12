@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 101 lines checked
+
+Commit ad83396891cd ("staging: wfx: call wfx_tx_update_sta() before to destroy tx_priv") has no obvious style problems and is ready for submission.

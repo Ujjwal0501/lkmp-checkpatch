@@ -1,0 +1,50 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#124: FILE: net/mac80211/mlme.c:401:
++		   "AP %pM changed bandwidth, new config is %d.%03d MHz, "
++		   "width %d (%d.%03d/%d MHz)\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#138: FILE: net/mac80211/mlme.c:1372:
++			   "AP %pM switches to unsupported channel "
++			   "(%d.%03d MHz, width:%d, CF1/2: %d.%03d/%d MHz), "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#139: FILE: net/mac80211/mlme.c:1373:
++			   "(%d.%03d MHz, width:%d, CF1/2: %d.%03d/%d MHz), "
++			   "disconnecting\n",
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#205: FILE: net/mac80211/trace.h:47:
++			__entry->freq_offset = (c) ? ((c)->chan ? (c)->chan->freq_offset : 0) : 0;	\
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#214: FILE: net/mac80211/trace.h:53:
++#define CHANDEF_PR_ARG	__entry->control_freq, __entry->freq_offset, __entry->chan_width, \
++			__entry->center_freq1, __entry->freq1_offset, __entry->center_freq2
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#236: FILE: net/mac80211/trace.h:72:
++#define MIN_CHANDEF_PR_ARG	__entry->min_control_freq, __entry->min_freq_offset,	\
++			__entry->min_chan_width,					\
++			__entry->min_center_freq1, __entry->min_freq1_offset,		\
++			__entry->min_center_freq2
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#302: FILE: net/mac80211/trace.h:1618:
++				SWITCH_ENTRY_ASSIGN(old_chandef.freq_offset,
++						old_ctx->def.chan->freq_offset);
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#314: FILE: net/mac80211/trace.h:1630:
++				SWITCH_ENTRY_ASSIGN(new_chandef.freq_offset,
++						new_ctx->def.chan->freq_offset);
+
+total: 2 errors, 4 warnings, 2 checks, 235 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b6011960f392 ("mac80211: handle channel frequency offset") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

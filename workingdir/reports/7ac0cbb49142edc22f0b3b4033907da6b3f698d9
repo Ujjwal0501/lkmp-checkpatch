@@ -1,0 +1,13 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#18: 
+ .../{spider_net.txt => spider_net.rst}        | 60 +++++++++----------
+
+total: 0 errors, 1 warnings, 98 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7ac0cbb49142 ("docs: networking: device drivers: convert toshiba/spider_net.txt to ReST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,94 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#138: FILE: net/smc/smc_core.c:1071:
++	pr_warn_ratelimited("smc: SMC-R lg %*phN state changed: "
++			    "%s, pnetid %.16s\n", SMC_LGR_ID_SIZE, &lgr->id,
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#183: FILE: net/smc/smc_ib.c:589:
++		pr_warn_ratelimited("smc:    ib device %s port %d has pnetid "
++				    "%.16s%s\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#278: FILE: net/smc/smc_llc.c:1715:
++	pr_warn_ratelimited("smc: SMC-R lg %*phN link added: id %*phN, "
++			    "peerid %*phN, ibdev %s, ibport %d\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#295: FILE: net/smc/smc_llc.c:1733:
++		pr_warn_ratelimited("smc: SMC-R lg %*phN link removed: id %*phN"
++				    ", peerid %*phN, ibdev %s, ibport %d\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#328: FILE: net/smc/smc_pnet.c:116:
++				pr_warn_ratelimited("smc: net device %s "
++						    "erased user defined "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#329: FILE: net/smc/smc_pnet.c:117:
++						    "erased user defined "
++						    "pnetid %.16s\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#341: FILE: net/smc/smc_pnet.c:140:
++				pr_warn_ratelimited("smc: ib device %s ibport "
++						    "%d erased user defined "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#342: FILE: net/smc/smc_pnet.c:141:
++						    "%d erased user defined "
++						    "pnetid %.16s\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#354: FILE: net/smc/smc_pnet.c:160:
++			pr_warn_ratelimited("smc: smcd device %s "
++					    "erased user defined pnetid "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#355: FILE: net/smc/smc_pnet.c:161:
++					    "erased user defined pnetid "
++					    "%.16s\n", dev_name(&smcd_dev->dev),
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#365: FILE: net/smc/smc_pnet.c:194:
++			pr_warn_ratelimited("smc: adding net device %s with "
++					    "user defined pnetid %.16s\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#376: FILE: net/smc/smc_pnet.c:225:
++			pr_warn_ratelimited("smc: removing net device %s with "
++					    "user defined pnetid %.16s\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#388: FILE: net/smc/smc_pnet.c:386:
++		pr_warn_ratelimited("smc: net device %s "
++				    "applied user defined pnetid %.16s\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#402: FILE: net/smc/smc_pnet.c:412:
++			pr_warn_ratelimited("smc: ib device %s ibport %d "
++					    "applied user defined pnetid "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#403: FILE: net/smc/smc_pnet.c:413:
++					    "applied user defined pnetid "
++					    "%.16s\n", ib_dev->ibdev->name,
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#413: FILE: net/smc/smc_pnet.c:422:
++			pr_warn_ratelimited("smc: smcd device %s "
++					    "applied user defined pnetid "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#414: FILE: net/smc/smc_pnet.c:423:
++					    "applied user defined pnetid "
++					    "%.16s\n", dev_name(&smcd_dev->dev),
+
+total: 0 errors, 17 warnings, 0 checks, 330 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0a99be434d14 ("net/smc: log important pnetid and state change events") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

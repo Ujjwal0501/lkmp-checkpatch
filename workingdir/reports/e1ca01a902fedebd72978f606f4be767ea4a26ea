@@ -1,0 +1,13 @@
+WARNING:LINUX_VERSION_CODE: LINUX_VERSION_CODE should be avoided, code should be for the version to which it is merged
+#221: FILE: drivers/infiniband/hw/efa/efa_main.c:215:
++	hinf->kernel_ver = LINUX_VERSION_CODE;
+
+total: 0 errors, 1 warnings, 200 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e1ca01a902fe ("RDMA/efa: Report host information to the device") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

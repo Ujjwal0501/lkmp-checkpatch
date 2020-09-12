@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 294 lines checked
+
+Commit b1593f8a431c ("mtd: rawnand: au1550nd: Get rid of the legacy interface implementation") has no obvious style problems and is ready for submission.

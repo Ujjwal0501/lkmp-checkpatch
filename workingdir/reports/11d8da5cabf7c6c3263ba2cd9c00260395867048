@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 11d8da5cabf7 ("pinctrl: freescale: imx: Fix an error handling path in 'imx_pinctrl_probe()'") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 0e2e7aa57b80 ("net/mlx5e: Fix missing cleanup of ethtool steering during rep rx cleanup") has no obvious style problems and is ready for submission.

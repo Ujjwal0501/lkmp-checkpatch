@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 75b27745097d ("iommu/amd: Free page-table in protection_domain_free()") has no obvious style problems and is ready for submission.

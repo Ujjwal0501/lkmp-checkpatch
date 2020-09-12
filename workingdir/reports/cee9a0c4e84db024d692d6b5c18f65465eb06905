@@ -1,0 +1,45 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct address_space *' should also have an identifier name
+#120: FILE: include/linux/pagemap.h:623:
++void page_cache_sync_readahead(struct address_space *, struct file_ra_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct file_ra_state *' should also have an identifier name
+#120: FILE: include/linux/pagemap.h:623:
++void page_cache_sync_readahead(struct address_space *, struct file_ra_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct file *' should also have an identifier name
+#120: FILE: include/linux/pagemap.h:623:
++void page_cache_sync_readahead(struct address_space *, struct file_ra_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct address_space *' should also have an identifier name
+#122: FILE: include/linux/pagemap.h:625:
++void page_cache_async_readahead(struct address_space *, struct file_ra_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct file_ra_state *' should also have an identifier name
+#122: FILE: include/linux/pagemap.h:625:
++void page_cache_async_readahead(struct address_space *, struct file_ra_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct file *' should also have an identifier name
+#122: FILE: include/linux/pagemap.h:625:
++void page_cache_async_readahead(struct address_space *, struct file_ra_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct page *' should also have an identifier name
+#122: FILE: include/linux/pagemap.h:625:
++void page_cache_async_readahead(struct address_space *, struct file_ra_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct address_space *' should also have an identifier name
+#150: FILE: mm/internal.h:52:
++int force_page_cache_readahead(struct address_space *, struct file *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct file *' should also have an identifier name
+#150: FILE: mm/internal.h:52:
++int force_page_cache_readahead(struct address_space *, struct file *,
+
+total: 0 errors, 9 warnings, 62 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cee9a0c4e84d ("mm: move readahead prototypes from mm.h") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

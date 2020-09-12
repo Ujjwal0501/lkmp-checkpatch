@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 56 lines checked
+
+Commit 45b1c87313cd ("mlxsw: spectrum_trap: Factor out common Rx listener function") has no obvious style problems and is ready for submission.

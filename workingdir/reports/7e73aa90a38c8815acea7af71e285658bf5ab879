@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 7e73aa90a38c ("gpio: merrifield: Better show how GPIO and IRQ bases are derived from hardware") has no obvious style problems and is ready for submission.

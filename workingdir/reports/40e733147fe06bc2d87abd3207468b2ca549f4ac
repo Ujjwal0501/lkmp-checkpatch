@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit 40e733147fe0 ("drm/amdgpu: switch to SMN interface to operate RSMU index mode") has no obvious style problems and is ready for submission.

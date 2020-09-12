@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 18 lines checked
+
+Commit 07c12d618f06 ("mac80211: set short_slot for 6 GHz band") has no obvious style problems and is ready for submission.

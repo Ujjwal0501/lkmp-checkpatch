@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 38 lines checked
+
+Commit 3aff9b549247 ("clk: sprd: mark the local clock symbols static") has no obvious style problems and is ready for submission.

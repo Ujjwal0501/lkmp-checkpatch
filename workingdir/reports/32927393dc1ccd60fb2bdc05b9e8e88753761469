@@ -1,0 +1,632 @@
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#494: FILE: fs/file_table.c:83:
++                     void *buffer, size_t *lenp, loff_t *ppos)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#494: FILE: fs/file_table.c:83:
++                     void *buffer, size_t *lenp, loff_t *ppos)$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#502: FILE: fs/file_table.c:90:
++                     void *buffer, size_t *lenp, loff_t *ppos)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#502: FILE: fs/file_table.c:90:
++                     void *buffer, size_t *lenp, loff_t *ppos)$
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#677: FILE: include/linux/bpf-cgroup.h:431:
++#define BPF_CGROUP_RUN_PROG_SYSCTL(head,table,write,buf,count,pos) ({ 0; })
+                                        ^
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#677: FILE: include/linux/bpf-cgroup.h:431:
++#define BPF_CGROUP_RUN_PROG_SYSCTL(head,table,write,buf,count,pos) ({ 0; })
+                                              ^
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#677: FILE: include/linux/bpf-cgroup.h:431:
++#define BPF_CGROUP_RUN_PROG_SYSCTL(head,table,write,buf,count,pos) ({ 0; })
+                                                    ^
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#677: FILE: include/linux/bpf-cgroup.h:431:
++#define BPF_CGROUP_RUN_PROG_SYSCTL(head,table,write,buf,count,pos) ({ 0; })
+                                                        ^
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#677: FILE: include/linux/bpf-cgroup.h:431:
++#define BPF_CGROUP_RUN_PROG_SYSCTL(head,table,write,buf,count,pos) ({ 0; })
+                                                              ^
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#743: FILE: include/linux/hugetlb.h:108:
++int hugetlb_sysctl_handler(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#743: FILE: include/linux/hugetlb.h:108:
++int hugetlb_sysctl_handler(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#743: FILE: include/linux/hugetlb.h:108:
++int hugetlb_sysctl_handler(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#743: FILE: include/linux/hugetlb.h:108:
++int hugetlb_sysctl_handler(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#743: FILE: include/linux/hugetlb.h:108:
++int hugetlb_sysctl_handler(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#744: FILE: include/linux/hugetlb.h:109:
++int hugetlb_overcommit_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#744: FILE: include/linux/hugetlb.h:109:
++int hugetlb_overcommit_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#744: FILE: include/linux/hugetlb.h:109:
++int hugetlb_overcommit_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#744: FILE: include/linux/hugetlb.h:109:
++int hugetlb_overcommit_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#744: FILE: include/linux/hugetlb.h:109:
++int hugetlb_overcommit_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#746: FILE: include/linux/hugetlb.h:111:
++int hugetlb_treat_movable_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#746: FILE: include/linux/hugetlb.h:111:
++int hugetlb_treat_movable_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#746: FILE: include/linux/hugetlb.h:111:
++int hugetlb_treat_movable_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#746: FILE: include/linux/hugetlb.h:111:
++int hugetlb_treat_movable_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#746: FILE: include/linux/hugetlb.h:111:
++int hugetlb_treat_movable_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#748: FILE: include/linux/hugetlb.h:113:
++int hugetlb_mempolicy_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#748: FILE: include/linux/hugetlb.h:113:
++int hugetlb_mempolicy_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#748: FILE: include/linux/hugetlb.h:113:
++int hugetlb_mempolicy_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#748: FILE: include/linux/hugetlb.h:113:
++int hugetlb_mempolicy_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#748: FILE: include/linux/hugetlb.h:113:
++int hugetlb_mempolicy_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#793: FILE: include/linux/mm.h:204:
++int overcommit_ratio_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#793: FILE: include/linux/mm.h:204:
++int overcommit_ratio_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#793: FILE: include/linux/mm.h:204:
++int overcommit_ratio_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#793: FILE: include/linux/mm.h:204:
++int overcommit_ratio_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#793: FILE: include/linux/mm.h:204:
++int overcommit_ratio_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#795: FILE: include/linux/mm.h:206:
++int overcommit_kbytes_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#795: FILE: include/linux/mm.h:206:
++int overcommit_kbytes_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#795: FILE: include/linux/mm.h:206:
++int overcommit_kbytes_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#795: FILE: include/linux/mm.h:206:
++int overcommit_kbytes_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#795: FILE: include/linux/mm.h:206:
++int overcommit_kbytes_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#806: FILE: include/linux/mm.h:2960:
++int drop_caches_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#806: FILE: include/linux/mm.h:2960:
++int drop_caches_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#806: FILE: include/linux/mm.h:2960:
++int drop_caches_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#806: FILE: include/linux/mm.h:2960:
++int drop_caches_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#806: FILE: include/linux/mm.h:2960:
++int drop_caches_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#823: FILE: include/linux/mmzone.h:913:
++int min_free_kbytes_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#823: FILE: include/linux/mmzone.h:913:
++int min_free_kbytes_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#823: FILE: include/linux/mmzone.h:913:
++int min_free_kbytes_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#823: FILE: include/linux/mmzone.h:913:
++int min_free_kbytes_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#823: FILE: include/linux/mmzone.h:913:
++int min_free_kbytes_sysctl_handler(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#825: FILE: include/linux/mmzone.h:915:
++int watermark_scale_factor_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#825: FILE: include/linux/mmzone.h:915:
++int watermark_scale_factor_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#825: FILE: include/linux/mmzone.h:915:
++int watermark_scale_factor_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#825: FILE: include/linux/mmzone.h:915:
++int watermark_scale_factor_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#825: FILE: include/linux/mmzone.h:915:
++int watermark_scale_factor_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#830: FILE: include/linux/mmzone.h:918:
++int lowmem_reserve_ratio_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#830: FILE: include/linux/mmzone.h:918:
++int lowmem_reserve_ratio_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#830: FILE: include/linux/mmzone.h:918:
++int lowmem_reserve_ratio_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#830: FILE: include/linux/mmzone.h:918:
++int lowmem_reserve_ratio_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#830: FILE: include/linux/mmzone.h:918:
++int lowmem_reserve_ratio_sysctl_handler(struct ctl_table *, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#844: FILE: include/linux/mmzone.h:926:
++int numa_zonelist_order_handler(struct ctl_table *, int,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#844: FILE: include/linux/mmzone.h:926:
++int numa_zonelist_order_handler(struct ctl_table *, int,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#844: FILE: include/linux/mmzone.h:926:
++int numa_zonelist_order_handler(struct ctl_table *, int,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#844: FILE: include/linux/mmzone.h:926:
++int numa_zonelist_order_handler(struct ctl_table *, int,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#844: FILE: include/linux/mmzone.h:926:
++int numa_zonelist_order_handler(struct ctl_table *, int,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#867: FILE: include/linux/nmi.h:205:
++int proc_watchdog(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#867: FILE: include/linux/nmi.h:205:
++int proc_watchdog(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#867: FILE: include/linux/nmi.h:205:
++int proc_watchdog(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#867: FILE: include/linux/nmi.h:205:
++int proc_watchdog(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#867: FILE: include/linux/nmi.h:205:
++int proc_watchdog(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+ERROR:SPACING: space prohibited before that ',' (ctx:WxW)
+#868: FILE: include/linux/nmi.h:206:
++int proc_nmi_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+                                               ^
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#868: FILE: include/linux/nmi.h:206:
++int proc_nmi_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#868: FILE: include/linux/nmi.h:206:
++int proc_nmi_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#868: FILE: include/linux/nmi.h:206:
++int proc_nmi_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#868: FILE: include/linux/nmi.h:206:
++int proc_nmi_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#868: FILE: include/linux/nmi.h:206:
++int proc_nmi_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+ERROR:SPACING: space prohibited before that ',' (ctx:WxW)
+#869: FILE: include/linux/nmi.h:207:
++int proc_soft_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+                                                ^
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#869: FILE: include/linux/nmi.h:207:
++int proc_soft_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#869: FILE: include/linux/nmi.h:207:
++int proc_soft_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#869: FILE: include/linux/nmi.h:207:
++int proc_soft_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#869: FILE: include/linux/nmi.h:207:
++int proc_soft_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#869: FILE: include/linux/nmi.h:207:
++int proc_soft_watchdog(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+ERROR:SPACING: space prohibited before that ',' (ctx:WxW)
+#870: FILE: include/linux/nmi.h:208:
++int proc_watchdog_thresh(struct ctl_table *, int , void *, size_t *, loff_t *);
+                                                  ^
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#870: FILE: include/linux/nmi.h:208:
++int proc_watchdog_thresh(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#870: FILE: include/linux/nmi.h:208:
++int proc_watchdog_thresh(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#870: FILE: include/linux/nmi.h:208:
++int proc_watchdog_thresh(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#870: FILE: include/linux/nmi.h:208:
++int proc_watchdog_thresh(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#870: FILE: include/linux/nmi.h:208:
++int proc_watchdog_thresh(struct ctl_table *, int , void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#871: FILE: include/linux/nmi.h:209:
++int proc_watchdog_cpumask(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#871: FILE: include/linux/nmi.h:209:
++int proc_watchdog_cpumask(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#871: FILE: include/linux/nmi.h:209:
++int proc_watchdog_cpumask(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#871: FILE: include/linux/nmi.h:209:
++int proc_watchdog_cpumask(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#871: FILE: include/linux/nmi.h:209:
++int proc_watchdog_cpumask(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1038: FILE: include/linux/sysctl.h:50:
++int proc_dostring(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1038: FILE: include/linux/sysctl.h:50:
++int proc_dostring(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1038: FILE: include/linux/sysctl.h:50:
++int proc_dostring(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1038: FILE: include/linux/sysctl.h:50:
++int proc_dostring(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1038: FILE: include/linux/sysctl.h:50:
++int proc_dostring(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1039: FILE: include/linux/sysctl.h:51:
++int proc_dointvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1039: FILE: include/linux/sysctl.h:51:
++int proc_dointvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1039: FILE: include/linux/sysctl.h:51:
++int proc_dointvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1039: FILE: include/linux/sysctl.h:51:
++int proc_dointvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1039: FILE: include/linux/sysctl.h:51:
++int proc_dointvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1040: FILE: include/linux/sysctl.h:52:
++int proc_douintvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1040: FILE: include/linux/sysctl.h:52:
++int proc_douintvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1040: FILE: include/linux/sysctl.h:52:
++int proc_douintvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1040: FILE: include/linux/sysctl.h:52:
++int proc_douintvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1040: FILE: include/linux/sysctl.h:52:
++int proc_douintvec(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1041: FILE: include/linux/sysctl.h:53:
++int proc_dointvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1041: FILE: include/linux/sysctl.h:53:
++int proc_dointvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1041: FILE: include/linux/sysctl.h:53:
++int proc_dointvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1041: FILE: include/linux/sysctl.h:53:
++int proc_dointvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1041: FILE: include/linux/sysctl.h:53:
++int proc_dointvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1044: FILE: include/linux/sysctl.h:56:
++int proc_dointvec_jiffies(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1044: FILE: include/linux/sysctl.h:56:
++int proc_dointvec_jiffies(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1044: FILE: include/linux/sysctl.h:56:
++int proc_dointvec_jiffies(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1044: FILE: include/linux/sysctl.h:56:
++int proc_dointvec_jiffies(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1044: FILE: include/linux/sysctl.h:56:
++int proc_dointvec_jiffies(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1045: FILE: include/linux/sysctl.h:57:
++int proc_dointvec_userhz_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1045: FILE: include/linux/sysctl.h:57:
++int proc_dointvec_userhz_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1045: FILE: include/linux/sysctl.h:57:
++int proc_dointvec_userhz_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1045: FILE: include/linux/sysctl.h:57:
++int proc_dointvec_userhz_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1045: FILE: include/linux/sysctl.h:57:
++int proc_dointvec_userhz_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1047: FILE: include/linux/sysctl.h:59:
++int proc_dointvec_ms_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1047: FILE: include/linux/sysctl.h:59:
++int proc_dointvec_ms_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1047: FILE: include/linux/sysctl.h:59:
++int proc_dointvec_ms_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1047: FILE: include/linux/sysctl.h:59:
++int proc_dointvec_ms_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1047: FILE: include/linux/sysctl.h:59:
++int proc_dointvec_ms_jiffies(struct ctl_table *, int, void *, size_t *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1049: FILE: include/linux/sysctl.h:61:
++int proc_doulongvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1049: FILE: include/linux/sysctl.h:61:
++int proc_doulongvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1049: FILE: include/linux/sysctl.h:61:
++int proc_doulongvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1049: FILE: include/linux/sysctl.h:61:
++int proc_doulongvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1049: FILE: include/linux/sysctl.h:61:
++int proc_doulongvec_minmax(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1050: FILE: include/linux/sysctl.h:62:
++int proc_doulongvec_ms_jiffies_minmax(struct ctl_table *table, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1050: FILE: include/linux/sysctl.h:62:
++int proc_doulongvec_ms_jiffies_minmax(struct ctl_table *table, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1050: FILE: include/linux/sysctl.h:62:
++int proc_doulongvec_ms_jiffies_minmax(struct ctl_table *table, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1050: FILE: include/linux/sysctl.h:62:
++int proc_doulongvec_ms_jiffies_minmax(struct ctl_table *table, int, void *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1052: FILE: include/linux/sysctl.h:64:
++int proc_do_large_bitmap(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#1052: FILE: include/linux/sysctl.h:64:
++int proc_do_large_bitmap(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#1052: FILE: include/linux/sysctl.h:64:
++int proc_do_large_bitmap(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size_t *' should also have an identifier name
+#1052: FILE: include/linux/sysctl.h:64:
++int proc_do_large_bitmap(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'loff_t *' should also have an identifier name
+#1052: FILE: include/linux/sysctl.h:64:
++int proc_do_large_bitmap(struct ctl_table *, int, void *, size_t *, loff_t *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct ctl_table *' should also have an identifier name
+#1103: FILE: include/linux/vmstat.h:277:
++int vmstat_refresh(struct ctl_table *, int write, void *buffer, size_t *lenp,
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#2140: FILE: kernel/sysctl.c:1570:
++	return -ENOSYS;
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2726: FILE: net/decnet/dn_dev.c:164:
++static int dn_forwarding_proc(struct ctl_table *, int, void *, size_t *,
++		loff_t *);
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3006: FILE: net/ipv6/addrconf.c:6112:
++static int addrconf_sysctl_forward(struct ctl_table *ctl, int write,
++		void *buffer, size_t *lenp, loff_t *ppos)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3018: FILE: net/ipv6/addrconf.c:6137:
++static int addrconf_sysctl_mtu(struct ctl_table *ctl, int write,
++		void *buffer, size_t *lenp, loff_t *ppos)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3030: FILE: net/ipv6/addrconf.c:6208:
++static int addrconf_sysctl_disable(struct ctl_table *ctl, int write,
++		void *buffer, size_t *lenp, loff_t *ppos)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3042: FILE: net/ipv6/addrconf.c:6233:
++static int addrconf_sysctl_proxy_ndp(struct ctl_table *ctl, int write,
++		void *buffer, size_t *lenp, loff_t *ppos)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3083: FILE: net/ipv6/addrconf.c:6504:
++static int addrconf_sysctl_disable_policy(struct ctl_table *ctl, int write,
++				   void *buffer, size_t *lenp, loff_t *ppos)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3097: FILE: net/ipv6/ndisc.c:1839:
++int ndisc_ifinfo_sysctl_change(struct ctl_table *ctl, int write, void *buffer,
++		size_t *lenp, loff_t *ppos)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3113: FILE: net/ipv6/route.c:6092:
++static int ipv6_sysctl_rtcache_flush(struct ctl_table *ctl, int write,
++			      void *buffer, size_t *lenp, loff_t *ppos)
+
+total: 10 errors, 133 warnings, 2761 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 32927393dc1c ("sysctl: pass kernel pointers to ->proc_handler") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

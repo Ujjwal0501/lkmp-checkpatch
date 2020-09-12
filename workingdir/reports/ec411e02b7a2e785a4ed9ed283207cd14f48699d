@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit ec411e02b7a2 ("PCI/PM: Assume ports without DLL Link Active train links in 100 ms") has no obvious style problems and is ready for submission.

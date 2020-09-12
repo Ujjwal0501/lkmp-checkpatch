@@ -1,0 +1,33 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#21: 
+new file mode 100644
+
+ERROR:MULTISTATEMENT_MACRO_USE_DO_WHILE: Macros with multiple statements should be enclosed in a do - while loop
+#755: FILE: drivers/infiniband/ulp/rtrs/rtrs-clt.c:730:
++#define do_each_path(path, clt, it) {					\
++	path_it_init(it, clt);						\
++	rcu_read_lock();						\
++	for ((it)->i = 0; ((path) = ((it)->next_path)(it)) &&		\
++			  (it)->i < (it)->clt->paths_num;		\
++	     (it)->i++)
+
+ERROR:MULTISTATEMENT_MACRO_USE_DO_WHILE: Macros with multiple statements should be enclosed in a do - while loop
+#762: FILE: drivers/infiniband/ulp/rtrs/rtrs-clt.c:737:
++#define while_each_path(it)						\
++	path_it_deinit(it);						\
++	rcu_read_unlock();						\
++	}
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#2983: FILE: drivers/infiniband/ulp/rtrs/rtrs-clt.c:2958:
++		return -ENOTSUPP;
+
+total: 2 errors, 2 warnings, 2994 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6a98d71daea1 ("RDMA/rtrs: client: main functionality") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

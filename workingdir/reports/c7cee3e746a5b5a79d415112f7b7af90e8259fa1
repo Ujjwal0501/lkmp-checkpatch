@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit c7cee3e746a5 ("scsi: ufs: Allow WriteBooster on UFS 2.2 devices") has no obvious style problems and is ready for submission.

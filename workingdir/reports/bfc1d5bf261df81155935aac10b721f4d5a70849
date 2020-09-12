@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit bfc1d5bf261d ("dmaengine: fsl-edma: Add lockdep assert for exported function") has no obvious style problems and is ready for submission.

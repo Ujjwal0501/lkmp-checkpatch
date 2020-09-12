@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit ac938052e571 ("drm/i915: Pull waiting on an external dma-fence into its routine") has no obvious style problems and is ready for submission.

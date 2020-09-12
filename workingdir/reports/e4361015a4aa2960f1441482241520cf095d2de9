@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 83 lines checked
+
+Commit e4361015a4aa ("media: si2157: module debug option to wait on signal lock") has no obvious style problems and is ready for submission.

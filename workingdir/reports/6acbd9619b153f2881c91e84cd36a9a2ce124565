@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 6acbd9619b15 ("nvme-tcp: constify nvme_tcp_mq_ops and nvme_tcp_admin_mq_ops") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 26af180c1bd9 ("nvmet: rename nvmet_rw_len to nvmet_rw_data_len") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit 4cd9973f9ff6 ("ocfs2: avoid inode removal while nfsd is accessing it") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit dc2745b61907 ("x86,ftrace: Use SIZEOF_PTREGS") has no obvious style problems and is ready for submission.

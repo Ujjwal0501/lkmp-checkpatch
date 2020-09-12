@@ -1,0 +1,21 @@
+CHECK:MACRO_ARG_REUSE: Macro argument reuse '_NIC_' - possible side-effects?
+#367: FILE: drivers/net/ethernet/aquantia/atlantic/aq_nic.h:90:
++#define AQ_NIC_RING2QMAP(_NIC_, _ID_) \
++	((_ID_) / AQ_NIC_RING_PER_TC(_NIC_) * (_NIC_)->aq_vecs + \
++	((_ID_) % AQ_NIC_RING_PER_TC(_NIC_)))
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse '_ID_' - possible side-effects?
+#367: FILE: drivers/net/ethernet/aquantia/atlantic/aq_nic.h:90:
++#define AQ_NIC_RING2QMAP(_NIC_, _ID_) \
++	((_ID_) / AQ_NIC_RING_PER_TC(_NIC_) * (_NIC_)->aq_vecs + \
++	((_ID_) % AQ_NIC_RING_PER_TC(_NIC_)))
+
+total: 0 errors, 0 warnings, 2 checks, 711 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a83fe6b6ad6b ("net: atlantic: QoS implementation: multi-TC support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,18 @@
+ERROR:OPEN_BRACE: that open brace { should be on the previous line
+#25: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v10_0.c:1961:
++static const struct soc15_reg_golden golden_settings_gc_rlc_spm_10_1_2_nv12[] =
++{
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#1089: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v10_0.c:3194:
++						(const u32)ARRAY_SIZE(golden_settings_gc_rlc_spm_10_1_2_nv12));
+
+total: 1 errors, 1 warnings, 1071 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b2d92682ff6a ("drm/amdgpu: add SPM golden settings for Navi12") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,27 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#36: FILE: fs/ext4/mballoc.c:520:
++	BUG_ON(grp->bb_bitmap == NULL);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#39: FILE: fs/ext4/mballoc.c:523:
++	BUG_ON(IS_ERR_OR_NULL(bh));
+
+WARNING:RETURN_VOID: void function return statements are not generally useful
+#62: FILE: fs/ext4/mballoc.c:554:
++	return;
++}
+
+WARNING:RETURN_VOID: void function return statements are not generally useful
+#67: FILE: fs/ext4/mballoc.c:559:
++	return;
++}
+
+total: 0 errors, 4 warnings, 74 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a345021553f7 ("ext4: mballoc: refactor code inside DOUBLE_CHECK into separate function") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

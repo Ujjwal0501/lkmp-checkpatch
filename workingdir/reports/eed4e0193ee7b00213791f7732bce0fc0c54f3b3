@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 91 lines checked
+
+Commit eed4e0193ee7 ("efi/libstub: Add a helper function to split 64-bit values") has no obvious style problems and is ready for submission.

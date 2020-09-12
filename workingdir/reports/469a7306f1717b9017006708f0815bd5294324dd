@@ -1,0 +1,33 @@
+WARNING:INCLUDE_LINUX: Use #include <linux/processor.h> instead of <asm/processor.h>
+#55: FILE: drivers/staging/media/atomisp/include/linux/atomisp_platform.h:22:
++#include <asm/processor.h>
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#65: FILE: drivers/staging/media/atomisp/include/linux/atomisp_platform.h:245:
++#define __IS_SOCS(x,y) (boot_cpu_data.x86_vendor == X86_VENDOR_INTEL && \
+                    ^
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#66: FILE: drivers/staging/media/atomisp/include/linux/atomisp_platform.h:246:
++^I^I        boot_cpu_data.x86 == 6 &&                       \$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#67: FILE: drivers/staging/media/atomisp/include/linux/atomisp_platform.h:247:
++^I^I        (boot_cpu_data.x86_model == (x) || \$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#68: FILE: drivers/staging/media/atomisp/include/linux/atomisp_platform.h:248:
++^I^I         boot_cpu_data.x86_model == (y)))$
+
+total: 4 errors, 1 warnings, 0 checks, 851 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 469a7306f171 ("media: atomisp: change the detection of ISP2401 at runtime") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,13 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#18: 
+ .../device_drivers/ti/{tlan.txt => tlan.rst}  | 73 ++++++++++++-------
+
+total: 0 errors, 1 warnings, 0 checks, 179 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e9a5475e735c ("docs: networking: device drivers: convert ti/tlan.txt to ReST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

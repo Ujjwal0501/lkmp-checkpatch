@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 273 lines checked
+
+Commit b23096af0be4 ("media: staging: rkisp1: cap: remove field fmt_type from struct rkisp1_capture_fmt_cfg") has no obvious style problems and is ready for submission.

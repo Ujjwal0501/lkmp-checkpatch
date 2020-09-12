@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 8d5e202802a5 ("scsi: isci: Use true, false for bool variables") has no obvious style problems and is ready for submission.

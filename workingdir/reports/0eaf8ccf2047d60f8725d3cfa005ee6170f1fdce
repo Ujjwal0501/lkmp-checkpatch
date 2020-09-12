@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 45 lines checked
+
+Commit 0eaf8ccf2047 ("net: phy: dp83869: Set opmode from straps") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 264 lines checked
+
+Commit 8ccf0e20769d ("drm/amd/display: determine USB C DP2 mode only when USB DP Alt is enabled") has no obvious style problems and is ready for submission.

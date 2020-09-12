@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 419 lines checked
+
+Commit 89e01caac641 ("drm/i915: Use single set of AUX powerwell ops for gen11+") has no obvious style problems and is ready for submission.

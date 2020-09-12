@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit 655da8e57a46 ("scsi: sr: Use {get,put}_unaligned_be*() instead of open-coding these functions") has no obvious style problems and is ready for submission.

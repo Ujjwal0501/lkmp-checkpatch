@@ -1,0 +1,14 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#141: FILE: drivers/net/ethernet/aquantia/atlantic/aq_nic.c:1396:
++		netdev_warn(self->ndev,
++			"Setting %s to the minimum usable value of %dMbps.\n",
+
+total: 0 errors, 0 warnings, 1 checks, 516 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2deac71ac492 ("net: atlantic: QoS implementation: min_rate") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

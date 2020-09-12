@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 51 lines checked
+
+Commit cf51f55311f4 ("staging: vt6656: Move key_buffer inside vnt_fill_txkey.") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit bf2654017e02 ("nfsd: fix nfsdfs inode reference count leak") has no obvious style problems and is ready for submission.

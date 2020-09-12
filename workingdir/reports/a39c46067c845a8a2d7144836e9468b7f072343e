@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 36 lines checked
+
+Commit a39c46067c84 ("net/9p: validate fds in p9_fd_open") has no obvious style problems and is ready for submission.

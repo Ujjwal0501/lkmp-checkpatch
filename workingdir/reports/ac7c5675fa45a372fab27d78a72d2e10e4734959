@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 131 lines checked
+
+Commit ac7c5675fa45 ("blk-mq: allow blk_mq_make_request to consume the q_usage_counter reference") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 342 lines checked
+
+Commit 327d5b2fee91 ("iommu/vt-d: Allow 32bit devices to uses DMA domain") has no obvious style problems and is ready for submission.

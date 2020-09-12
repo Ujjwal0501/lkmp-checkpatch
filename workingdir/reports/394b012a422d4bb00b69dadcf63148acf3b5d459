@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 394b012a422d ("dt-bindings: usb: tegra-xudc: Add Tegra194 XUSB controller support") has no obvious style problems and is ready for submission.

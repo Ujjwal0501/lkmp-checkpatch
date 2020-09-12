@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 196 lines checked
+
+Commit 4e7573e7a54e ("ARM: dts: qcom: msm8974-klte: Add pma8084 regulator nodes") has no obvious style problems and is ready for submission.

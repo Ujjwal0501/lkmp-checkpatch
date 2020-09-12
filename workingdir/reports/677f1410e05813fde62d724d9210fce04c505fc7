@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 75 lines checked
+
+Commit 677f1410e058 ("scripts/checkstack.pl: don't display $dre as different entity") has no obvious style problems and is ready for submission.

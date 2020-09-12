@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 25 lines checked
+
+Commit 9576e9fa1c02 ("net: phy: clear phydev->suspended after soft reset") has no obvious style problems and is ready for submission.

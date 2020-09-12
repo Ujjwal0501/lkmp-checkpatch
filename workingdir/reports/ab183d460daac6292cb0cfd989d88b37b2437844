@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit ab183d460daa ("RDMA/mlx5: Add missed RST2INIT and INIT2INIT steps during ECE handshake") has no obvious style problems and is ready for submission.

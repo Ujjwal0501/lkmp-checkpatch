@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit c68df440b07f ("thermal: Move struct thermal_attr to the private header") has no obvious style problems and is ready for submission.

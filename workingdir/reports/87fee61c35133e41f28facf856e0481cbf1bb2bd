@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit 87fee61c3513 ("RDMA/srp: Make the channel count configurable per target") has no obvious style problems and is ready for submission.

@@ -1,0 +1,42 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#104: 
+deleted file mode 100644
+
+CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+#291: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/src/bufq.c:393:
+ {
++
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#292: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/src/bufq.c:394:
++    int error = 0;$
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#404: FILE: drivers/staging/media/atomisp/pci/runtime/eventq/src/eventq.c:53:
++	int error = -ENOSYS;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#741: FILE: drivers/staging/media/atomisp/pci/runtime/queue/src/queue_access.c:72:
++		return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#759: FILE: drivers/staging/media/atomisp/pci/runtime/queue/src/queue_access.c:119:
++		return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#777: FILE: drivers/staging/media/atomisp/pci/runtime/queue/src/queue_access.c:146:
++		return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#795: FILE: drivers/staging/media/atomisp/pci/runtime/queue/src/queue_access.c:173:
++		return -ENOTSUPP;
+
+total: 0 errors, 7 warnings, 1 checks, 632 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a86b4936ba68 ("media: atomisp: get rid of an error abstraction layer") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

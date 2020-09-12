@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 73a807793882 ("powerpc/vas: Define nx_fault_stamp in coprocessor_request_block") has no obvious style problems and is ready for submission.

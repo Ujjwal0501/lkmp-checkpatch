@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e1b586f2b83d ("blk-mq: make function '__blk_mq_sched_dispatch_requests' static") has no obvious style problems and is ready for submission.

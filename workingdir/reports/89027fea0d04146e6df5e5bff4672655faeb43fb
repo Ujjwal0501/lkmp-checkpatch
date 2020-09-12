@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 611 lines checked
+
+Commit 89027fea0d04 ("media: atomisp: Unify pdev to be pointer to struct pci_device") has no obvious style problems and is ready for submission.

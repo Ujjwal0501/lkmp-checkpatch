@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit de4c2875a5ff ("spi: dw: Set xfer effective_speed_hz") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit 260a63395f90 ("btrfs: fix RWF_NOWAIT write not failling when we need to cow") has no obvious style problems and is ready for submission.

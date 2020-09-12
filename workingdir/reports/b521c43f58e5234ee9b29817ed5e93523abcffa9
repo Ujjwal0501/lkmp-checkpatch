@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 146 lines checked
+
+Commit b521c43f58e5 ("mm: remove vmap_page_range_noflush and vunmap_page_range") has no obvious style problems and is ready for submission.

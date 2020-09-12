@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 6544abc520f0 ("opp: Increase parsed_static_opps in _of_add_opp_table_v1()") has no obvious style problems and is ready for submission.

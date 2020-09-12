@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 63b1be78774f ("iio: light: cm32181: Make lux_per_bit and lux_per_bit_base_it runtime settings") has no obvious style problems and is ready for submission.

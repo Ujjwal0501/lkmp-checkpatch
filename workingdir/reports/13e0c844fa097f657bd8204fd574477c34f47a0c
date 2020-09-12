@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit 13e0c844fa09 ("perf top: Add option to enable the LBR stitching approach") has no obvious style problems and is ready for submission.

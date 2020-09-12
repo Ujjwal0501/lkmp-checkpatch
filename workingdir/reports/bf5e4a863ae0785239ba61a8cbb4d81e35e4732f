@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit bf5e4a863ae0 ("drm/edid: Swap some operands in for_each_displayid_db()") has no obvious style problems and is ready for submission.

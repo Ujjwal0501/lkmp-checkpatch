@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 2d9cf6f129f8 ("mtd: rawnand: oxnas: Stop using nand_release()") has no obvious style problems and is ready for submission.

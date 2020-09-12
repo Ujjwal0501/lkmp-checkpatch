@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 596 lines checked
+
+Commit 3fba69a56e16 ("mm: memcontrol: drop @compound parameter from memcg charging API") has no obvious style problems and is ready for submission.

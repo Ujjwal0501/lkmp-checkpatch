@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit c085c664155e ("mfd: sprd: Remove unnecessary spi_bus_type setting") has no obvious style problems and is ready for submission.

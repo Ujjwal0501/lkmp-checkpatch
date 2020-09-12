@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 155 lines checked
+
+Commit c3e2fe9222d4 ("scsi: scsi_debug: Implement VERIFY(10), add VERIFY(16)") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 61 lines checked
+
+Commit d4870b89acd7 ("powerpc/8xx: Only 8M pages are hugepte pages now") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit fa72ef7abc90 ("media: ti-vpe: cal: use reg_write_field") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 17 lines checked
+
+Commit e79409526445 ("spi: dw: Move few headers under #ifdef CONFIG_SPI_DW_MID_DMA") has no obvious style problems and is ready for submission.

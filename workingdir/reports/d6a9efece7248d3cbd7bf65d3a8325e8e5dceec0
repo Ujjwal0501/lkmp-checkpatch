@@ -1,0 +1,61 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#74: FILE: drivers/gpu/drm/nouveau/nouveau_connector.c:1039:
++			      const unsigned min_clock,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#75: FILE: drivers/gpu/drm/nouveau/nouveau_connector.c:1040:
++			      const unsigned max_clock,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct drm_display_mode *' should also have an identifier name
+#147: FILE: drivers/gpu/drm/nouveau/nouveau_connector.h:198:
++enum drm_mode_status
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#149: FILE: drivers/gpu/drm/nouveau/nouveau_connector.h:200:
++			      const unsigned min_clock,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#150: FILE: drivers/gpu/drm/nouveau/nouveau_connector.h:201:
++			      const unsigned max_clock,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int *' to bare use of 'unsigned *'
+#151: FILE: drivers/gpu/drm/nouveau/nouveau_connector.h:202:
++			      unsigned *clock);
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int *' to bare use of 'unsigned *'
+#176: FILE: drivers/gpu/drm/nouveau/nouveau_dp.c:114:
++		   unsigned *out_clock)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#178: FILE: drivers/gpu/drm/nouveau/nouveau_dp.c:116:
++	const unsigned min_clock = 25000;
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#179: FILE: drivers/gpu/drm/nouveau/nouveau_dp.c:117:
++	unsigned max_clock, clock;
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct drm_connector *' should also have an identifier name
+#202: FILE: drivers/gpu/drm/nouveau/nouveau_encoder.h:107:
++enum drm_mode_status nv50_dp_mode_valid(struct drm_connector *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct nouveau_encoder *' should also have an identifier name
+#202: FILE: drivers/gpu/drm/nouveau/nouveau_encoder.h:107:
++enum drm_mode_status nv50_dp_mode_valid(struct drm_connector *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct drm_display_mode *' should also have an identifier name
+#202: FILE: drivers/gpu/drm/nouveau/nouveau_encoder.h:107:
++enum drm_mode_status nv50_dp_mode_valid(struct drm_connector *,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int *' to bare use of 'unsigned *'
+#205: FILE: drivers/gpu/drm/nouveau/nouveau_encoder.h:110:
++					unsigned *clock);
+
+total: 0 errors, 13 warnings, 145 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d6a9efece724 ("drm/nouveau/kms/nv50-: Share DP SST mode_valid() handling with MST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

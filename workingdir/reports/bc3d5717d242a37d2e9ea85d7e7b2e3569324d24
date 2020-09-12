@@ -1,0 +1,18 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#9: 
+0 <size> zoned <nr_zones> zones <nr_unmap_rnd>/<nr_rnd> random <nr_unmap_seq>/<nr_seq> sequential
+
+WARNING:RETURN_VOID: void function return statements are not generally useful
+#116: FILE: drivers/md/dm-zoned-target.c:991:
++	return;
++}
+
+total: 0 errors, 2 warnings, 95 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bc3d5717d242 ("dm zoned: add 'status' callback") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

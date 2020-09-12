@@ -1,0 +1,41 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#94: FILE: Documentation/filesystems/proc.rst:2219:
++# mount -o hidepid=invisible -t proc proc /proc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#95: FILE: Documentation/filesystems/proc.rst:2220:
++# mount -o hidepid=noaccess -t proc proc /tmp/proc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#99: FILE: Documentation/filesystems/proc.rst:2222:
++proc /proc proc rw,relatime,hidepid=invisible 0 0
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#100: FILE: Documentation/filesystems/proc.rst:2223:
++proc /tmp/proc proc rw,relatime,hidepid=noaccess 0 0
+
+ERROR:SWITCH_CASE_INDENT_LEVEL: switch and case should be at the same indent
+#119: FILE: fs/proc/inode.c:171:
++	switch (v) {
++		case HIDEPID_OFF: return "off";
++		case HIDEPID_NO_ACCESS: return "noaccess";
++		case HIDEPID_INVISIBLE: return "invisible";
++		case HIDEPID_NOT_PTRACEABLE: return "ptraceable";
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#228: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#233: FILE: tools/testing/selftests/proc/proc-fsconfig-hidepid.c:1:
++/*
+
+total: 1 errors, 6 warnings, 214 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1c6c4d112e81 ("proc: use human-readable values for hidepid") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

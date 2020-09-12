@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 2adb8187e543 ("net: hns3: fix two coding style issues in hclgevf_main.c") has no obvious style problems and is ready for submission.

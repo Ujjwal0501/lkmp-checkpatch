@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'overriden' may be misspelled - perhaps 'overridden'?
+#12: 
+Remove the first set, as this will be overriden anyway.
+
+total: 0 errors, 1 warnings, 0 checks, 23 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 17c3827b4c57 ("media: atomisp: don't set hpll_freq twice with different values") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

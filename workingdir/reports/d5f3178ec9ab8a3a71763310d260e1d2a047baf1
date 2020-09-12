@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit d5f3178ec9ab ("block: simplify block device syncing in bdev_del_partition") has no obvious style problems and is ready for submission.

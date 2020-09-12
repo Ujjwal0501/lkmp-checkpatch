@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit a74d19ba7c41 ("net: fec: disable correct clk in the err path of fec_enet_clk_enable") has no obvious style problems and is ready for submission.

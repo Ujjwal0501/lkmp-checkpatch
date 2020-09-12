@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 3f0dcfbcd2e1 ("scsi: core: Run queue in case of I/O resource contention failure") has no obvious style problems and is ready for submission.

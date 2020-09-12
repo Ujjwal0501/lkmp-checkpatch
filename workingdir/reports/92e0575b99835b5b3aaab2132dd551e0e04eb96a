@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit 92e0575b9983 ("drm/i915: Recalculate FBC w/a stride when needed") has no obvious style problems and is ready for submission.

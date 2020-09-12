@@ -1,0 +1,13 @@
+ERROR:DEFINE_ARCH_HAS: #define of 'ARCH_HAS_FLUSH_ON_KUNMAP' is wrong - use Kconfig variables or standard guards instead
+#77: FILE: arch/parisc/include/asm/cacheflush.h:103:
++#define ARCH_HAS_FLUSH_ON_KUNMAP
+
+total: 1 errors, 0 warnings, 72 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7438f36310dd ("parisc/kmap: remove duplicate kmap code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

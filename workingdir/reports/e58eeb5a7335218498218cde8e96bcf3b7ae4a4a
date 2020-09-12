@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit e58eeb5a7335 ("media: atomisp: replace VFL_TYPE_GRABBER by VFL_TYPE_VIDEO") has no obvious style problems and is ready for submission.

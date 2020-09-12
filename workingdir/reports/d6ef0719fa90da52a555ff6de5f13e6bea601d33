@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit d6ef0719fa90 ("media: v4l2-fh: define v4l2_fh struct regardless of condition") has no obvious style problems and is ready for submission.

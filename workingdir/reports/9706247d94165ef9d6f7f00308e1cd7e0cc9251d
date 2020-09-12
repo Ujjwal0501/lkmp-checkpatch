@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 9706247d9416 ("usb: gadget: udc: atmel: remove outdated comment in usba_ep_disable()") has no obvious style problems and is ready for submission.

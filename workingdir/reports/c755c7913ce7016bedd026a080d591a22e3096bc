@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit c755c7913ce7 ("arm64: dts: meson: libretech-ac: add initial audio playback support") has no obvious style problems and is ready for submission.

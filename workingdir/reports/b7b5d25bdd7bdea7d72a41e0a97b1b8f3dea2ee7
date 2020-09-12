@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 39 lines checked
+
+Commit b7b5d25bdd7b ("net: hns3: fix for VLAN config when reset failed") has no obvious style problems and is ready for submission.

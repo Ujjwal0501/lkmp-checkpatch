@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 112 lines checked
+
+Commit 09f82b063aa9 ("powerpc/watchpoint: Rename current DAWR macros") has no obvious style problems and is ready for submission.

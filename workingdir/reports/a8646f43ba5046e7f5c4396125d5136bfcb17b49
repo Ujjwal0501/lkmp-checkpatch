@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit a8646f43ba50 ("powerpc/kprobes: Use patch_instruction()") has no obvious style problems and is ready for submission.

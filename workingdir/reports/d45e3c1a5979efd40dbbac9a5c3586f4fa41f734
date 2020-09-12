@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 384 lines checked
+
+Commit d45e3c1a5979 ("PCI: endpoint: Add support to handle multiple base for mapping outbound memory") has no obvious style problems and is ready for submission.

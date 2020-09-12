@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit f4aa5e214eea ("ASoC: dapm: Move dai_link widgets to runtime to fix use after free") has no obvious style problems and is ready for submission.

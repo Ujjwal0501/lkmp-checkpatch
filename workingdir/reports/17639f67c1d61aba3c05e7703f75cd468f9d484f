@@ -1,0 +1,17 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#51: FILE: fs/pstore/Kconfig:164:
++config PSTORE_BLK
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#126: 
+new file mode 100644
+
+total: 0 errors, 2 warnings, 558 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 17639f67c1d6 ("pstore/blk: Introduce backend for block devices") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

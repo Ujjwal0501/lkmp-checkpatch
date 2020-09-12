@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 561 lines checked
+
+Commit cd1b7ae3435c ("crypto: hisilicon - unify SR-IOV related codes into QM") has no obvious style problems and is ready for submission.

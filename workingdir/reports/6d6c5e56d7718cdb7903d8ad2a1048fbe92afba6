@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 6d6c5e56d771 ("iio: accel: dmard06: Use mod_devicetable.h and drop of_match_ptr macro") has no obvious style problems and is ready for submission.

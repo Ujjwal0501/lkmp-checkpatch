@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 3a06c204fbc8 ("MIPS: tools: Move "returns" after "loongson3-llsc-check"") has no obvious style problems and is ready for submission.

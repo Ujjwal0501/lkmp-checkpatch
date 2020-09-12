@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 38 lines checked
+
+Commit a037f3ca0ea0 ("x86/mce/amd: Make threshold bank setting hotplug robust") has no obvious style problems and is ready for submission.

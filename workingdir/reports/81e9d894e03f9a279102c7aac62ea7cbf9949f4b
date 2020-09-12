@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit 81e9d894e03f ("dma-pool: make sure atomic pool suits device") has no obvious style problems and is ready for submission.

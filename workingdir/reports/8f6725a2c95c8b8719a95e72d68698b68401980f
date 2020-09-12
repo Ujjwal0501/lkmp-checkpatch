@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 220 lines checked
+
+Commit 8f6725a2c95c ("perf evsel: Rename perf_evsel__new*() to evsel__new*()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 93 lines checked
+
+Commit 56ba77a459a7 ("KVM: x86: Save L1 TSC offset in 'struct kvm_vcpu_arch'") has no obvious style problems and is ready for submission.

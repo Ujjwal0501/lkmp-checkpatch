@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 16aed29d7c01 ("clk: ti: dm816: enable sysclk6_ck on init") has no obvious style problems and is ready for submission.

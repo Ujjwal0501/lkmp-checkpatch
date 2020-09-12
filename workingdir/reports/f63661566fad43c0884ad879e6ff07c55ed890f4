@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit f63661566fad ("mm/page_alloc.c: clear out zone->lowmem_reserve[] if the zone is empty") has no obvious style problems and is ready for submission.

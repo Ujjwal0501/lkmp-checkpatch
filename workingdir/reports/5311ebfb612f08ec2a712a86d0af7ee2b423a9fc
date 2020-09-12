@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 5311ebfb612f ("arm64: debug: mark a function as __init to save some memory") has no obvious style problems and is ready for submission.

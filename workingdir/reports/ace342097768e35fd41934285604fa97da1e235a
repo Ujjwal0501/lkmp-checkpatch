@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit ace342097768 ("clk: renesas: cpg-mssr: Fix STBCR suspend/resume handling") has no obvious style problems and is ready for submission.

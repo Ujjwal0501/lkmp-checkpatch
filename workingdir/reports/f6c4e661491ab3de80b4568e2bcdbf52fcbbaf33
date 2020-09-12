@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit f6c4e661491a ("mtd: rawnand: fsl_upm: Stop using nand_release()") has no obvious style problems and is ready for submission.

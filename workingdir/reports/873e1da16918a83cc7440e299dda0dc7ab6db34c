@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 873e1da16918 ("KVM: VMX: Optimize handling of VM-Entry failures in vmx_vcpu_run()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,19 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#49: 
+  valid terms: event,edge,inv,umask,cmask,config,config1,config2,name,period,percore
+
+WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#70: 
+Requested-by: Thomas Richter <tmricht@linux.ibm.com>
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Jiri Olsa <jolsa@redhat.com>'
+
+total: 0 errors, 3 warnings, 62 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3a6c51e4d66c ("perf parser: Add support to specify rXXX event with pmu") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

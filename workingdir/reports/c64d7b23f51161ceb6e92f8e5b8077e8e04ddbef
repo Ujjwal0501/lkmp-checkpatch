@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit c64d7b23f511 ("net: atlantic: remove TPO2 check from A0 code") has no obvious style problems and is ready for submission.

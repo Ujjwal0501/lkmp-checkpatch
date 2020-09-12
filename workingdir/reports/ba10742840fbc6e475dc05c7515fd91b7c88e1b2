@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 173 lines checked
+
+Commit ba10742840fb ("net: ethernet: ti: cpts: rework locking") has no obvious style problems and is ready for submission.

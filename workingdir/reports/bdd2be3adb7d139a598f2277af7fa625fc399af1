@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 27 lines checked
+
+Commit bdd2be3adb7d ("r8169: improve interrupt coalescing parameter handling") has no obvious style problems and is ready for submission.

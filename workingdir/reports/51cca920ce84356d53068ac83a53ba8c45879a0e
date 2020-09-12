@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 80 lines checked
+
+Commit 51cca920ce84 ("ARM: dts: at91: sama5d2_xplained: Add QSPI0 + SPI NOR memory nodes") has no obvious style problems and is ready for submission.

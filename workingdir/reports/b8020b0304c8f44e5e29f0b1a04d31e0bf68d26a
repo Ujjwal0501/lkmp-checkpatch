@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 184 lines checked
+
+Commit b8020b0304c8 ("drm/amdkfd: Enable over-subscription with >1 GWS queue") has no obvious style problems and is ready for submission.

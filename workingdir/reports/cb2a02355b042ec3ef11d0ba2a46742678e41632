@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 91 lines checked
+
+Commit cb2a02355b04 ("x86/cr4: Sanitize CR4.PCE update") has no obvious style problems and is ready for submission.

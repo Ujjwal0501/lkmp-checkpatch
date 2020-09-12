@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 03894573f291 ("cdc-acm: Add DISABLE_ECHO quirk for Microchip/SMSC chip") has no obvious style problems and is ready for submission.

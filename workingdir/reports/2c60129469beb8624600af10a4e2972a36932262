@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#24: FILE: drivers/gpu/drm/amd/include/asic_reg/gc/gc_10_1_0_sh_mask.h:5602:
++#define GRBM_STATUS__RSMU_RQ_PENDING__SHIFT                                                                   0x5
+
+WARNING:LONG_LINE: line length of 121 exceeds 100 columns
+#32: FILE: drivers/gpu/drm/amd/include/asic_reg/gc/gc_10_1_0_sh_mask.h:5623:
++#define GRBM_STATUS__RSMU_RQ_PENDING_MASK                                                                     0x00000020L
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#40: FILE: drivers/gpu/drm/amd/include/asic_reg/gc/gc_10_1_0_sh_mask.h:5837:
++#define GRBM_READ_ERROR2__READ_REQUESTER_RSMU__SHIFT                                                          0x11
+
+WARNING:LONG_LINE: line length of 121 exceeds 100 columns
+#48: FILE: drivers/gpu/drm/amd/include/asic_reg/gc/gc_10_1_0_sh_mask.h:5853:
++#define GRBM_READ_ERROR2__READ_REQUESTER_RSMU_MASK                                                            0x00020000L
+
+total: 0 errors, 4 warnings, 28 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2c60129469be ("drm/amd/amdgpu: Add missing GRBM bits for GFX 10.1") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

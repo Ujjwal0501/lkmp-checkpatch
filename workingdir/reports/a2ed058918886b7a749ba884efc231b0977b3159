@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit a2ed05891888 ("staging: wfx: drop protection for asynchronous join during scan") has no obvious style problems and is ready for submission.

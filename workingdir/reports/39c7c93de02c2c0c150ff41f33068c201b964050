@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 39c7c93de02c ("dt-bindings: gpio: renesas, rcar-gpio: Add r8a7742 (RZ/G1H) support") has no obvious style problems and is ready for submission.

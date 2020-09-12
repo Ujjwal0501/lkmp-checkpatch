@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 45 lines checked
+
+Commit 5b384f933590 ("x86/module: Use text_mutex in apply_relocate_add()") has no obvious style problems and is ready for submission.

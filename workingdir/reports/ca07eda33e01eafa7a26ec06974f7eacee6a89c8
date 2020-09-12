@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 170 lines checked
+
+Commit ca07eda33e01 ("SUNRPC: Refactor svc_recvfrom()") has no obvious style problems and is ready for submission.

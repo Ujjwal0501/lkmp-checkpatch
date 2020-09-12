@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 4052d3d2e8f4 ("cfg80211: check vendor command doit pointer before use") has no obvious style problems and is ready for submission.

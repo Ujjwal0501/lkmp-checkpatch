@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit f06da27eb82e ("MIPS: Expose Loongson CPUCFG availability via HWCAP") has no obvious style problems and is ready for submission.

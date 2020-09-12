@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 88 lines checked
+
+Commit 39e0ce6cd1bf ("arm64: dts: qcom: apq8016-sbc: Add CCI/Sensor nodes") has no obvious style problems and is ready for submission.

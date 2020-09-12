@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 3a50dc76058d ("perf pmu: Add perf_pmu__find_by_type helper") has no obvious style problems and is ready for submission.

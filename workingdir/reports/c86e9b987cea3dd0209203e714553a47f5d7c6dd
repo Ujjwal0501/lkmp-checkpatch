@@ -1,0 +1,17 @@
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#34: FILE: include/linux/irqflags.h:22:
++  extern void lockdep_hardirqs_on_prepare(unsigned long ip);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#40: FILE: include/linux/irqflags.h:28:
++  static inline void lockdep_hardirqs_on_prepare(unsigned long ip) { }$
+
+total: 0 errors, 2 warnings, 187 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c86e9b987cea ("lockdep: Prepare for noinstr sections") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

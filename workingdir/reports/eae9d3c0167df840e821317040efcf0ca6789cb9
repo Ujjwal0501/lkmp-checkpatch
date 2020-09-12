@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit eae9d3c0167d ("net: dsa: sja1105: suppress -Wmissing-prototypes in sja1105_vl.c") has no obvious style problems and is ready for submission.

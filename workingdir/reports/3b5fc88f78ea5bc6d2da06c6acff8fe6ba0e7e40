@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 25 lines checked
+
+Commit 3b5fc88f78ea ("igc: Remove obsolete circuit breaker registers") has no obvious style problems and is ready for submission.

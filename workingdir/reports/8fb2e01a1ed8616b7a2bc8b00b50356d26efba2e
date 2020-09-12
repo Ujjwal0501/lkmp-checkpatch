@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 8fb2e01a1ed8 ("drm/amdgpu: enable TMZ bit in FRAME_CONTROL for gfx10") has no obvious style problems and is ready for submission.

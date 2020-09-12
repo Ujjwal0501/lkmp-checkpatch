@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 79 lines checked
+
+Commit ba9f0d1b8d9d ("rtw88: 8723d: implement set_tx_power_index ops") has no obvious style problems and is ready for submission.

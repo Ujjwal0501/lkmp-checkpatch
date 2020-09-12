@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit fatal: bad o ("2f60a388647f56622")'
+#6: 
+ACPICA commit 4b0e043386c7e698bea9e862f60a388647f56622
+
+total: 1 errors, 0 warnings, 12 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e3f7ae9ebb44 ("ACPICA: Fix required parameters for _NIG and _NIH") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

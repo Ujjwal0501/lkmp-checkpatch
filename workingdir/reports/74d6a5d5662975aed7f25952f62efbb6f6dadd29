@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 31 lines checked
+
+Commit 74d6a5d56629 ("9p/trans_fd: Fix concurrency del of req_list in p9_fd_cancelled/p9_read_work") has no obvious style problems and is ready for submission.

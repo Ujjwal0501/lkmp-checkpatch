@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 3d1c60460fb2 ("ath10k: Fix the race condition in firmware dump work queue") has no obvious style problems and is ready for submission.

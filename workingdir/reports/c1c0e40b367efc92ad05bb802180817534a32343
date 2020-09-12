@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit c1c0e40b367e ("net: ena: use SHUTDOWN as reset reason when closing interface") has no obvious style problems and is ready for submission.

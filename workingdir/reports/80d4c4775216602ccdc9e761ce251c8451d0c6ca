@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 55 lines checked
+
+Commit 80d4c4775216 ("kcsan: Expose core configuration parameters as module params") has no obvious style problems and is ready for submission.

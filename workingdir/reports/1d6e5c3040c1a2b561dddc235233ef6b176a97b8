@@ -1,0 +1,19 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#69: FILE: drivers/staging/media/atomisp/pci/atomisp_v4l2.c:1089:
++		int camera_count = 0;
++		for (subdevs = pdata->subdevs; subdevs->type; ++subdevs) {
+
+ERROR:SPACING: space prohibited before that '++' (ctx:WxO)
+#72: FILE: drivers/staging/media/atomisp/pci/atomisp_v4l2.c:1092:
++				camera_count ++;
+ 				             ^
+
+total: 1 errors, 1 warnings, 0 checks, 58 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1d6e5c3040c1 ("media: atomisp: change the code to properly wait for sensor") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

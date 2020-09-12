@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 39 lines checked
+
+Commit bf604bc90b30 ("net: dsa: mv88e6xxx: use generic clause 45 definitions") has no obvious style problems and is ready for submission.

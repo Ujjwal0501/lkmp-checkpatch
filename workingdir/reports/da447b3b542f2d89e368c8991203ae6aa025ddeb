@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 15 lines checked
+
+Commit da447b3b542f ("net: ena: simplify ena_com_update_intr_delay_resolution()") has no obvious style problems and is ready for submission.

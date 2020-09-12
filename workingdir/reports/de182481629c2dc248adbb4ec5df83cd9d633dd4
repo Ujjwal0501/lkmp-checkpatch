@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit de182481629c ("KVM: SVM: Remove unnecessary V_IRQ unsetting") has no obvious style problems and is ready for submission.

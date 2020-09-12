@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ccf6fb858e17 ("tpm_tis: extra chip->ops check on error path in tpm_tis_core_init") has no obvious style problems and is ready for submission.

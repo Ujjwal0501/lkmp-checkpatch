@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit e337bf19f6af ("ALSA: usb-audio: add quirk for MacroSilicon MS2109") has no obvious style problems and is ready for submission.

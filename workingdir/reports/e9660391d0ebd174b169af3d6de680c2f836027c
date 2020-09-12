@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit e9660391d0eb ("x86/doublefault: Remove memmove() call") has no obvious style problems and is ready for submission.

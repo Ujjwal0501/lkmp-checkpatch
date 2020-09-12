@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit cf91baf3f7f3 ("parisc/perf: open access for CAP_PERFMON privileged process") has no obvious style problems and is ready for submission.

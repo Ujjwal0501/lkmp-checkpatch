@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit 16ecf10e815d ("iommu/vt-d: Set U/S bit in first level page table by default") has no obvious style problems and is ready for submission.

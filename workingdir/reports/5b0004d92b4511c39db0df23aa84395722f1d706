@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 5b0004d92b45 ("selftest/bpf: Fix spelling mistake "SIGALARM" -> "SIGALRM"") has no obvious style problems and is ready for submission.

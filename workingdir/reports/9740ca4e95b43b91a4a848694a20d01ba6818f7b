@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#71: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#76: FILE: include/linux/mmap_lock.h:1:
++#ifndef _LINUX_MMAP_LOCK_H
+
+total: 0 errors, 2 warnings, 61 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9740ca4e95b4 ("mmap locking API: initial implementation as rwsem wrappers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

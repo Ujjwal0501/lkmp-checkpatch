@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit f342df67b19a ("mtd: rawnand: orion: Stop using nand_release()") has no obvious style problems and is ready for submission.

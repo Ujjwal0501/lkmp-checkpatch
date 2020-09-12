@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit bf6c99f3aeda ("ARM: dts: aspeed: tacoma: Add iio-hwmon nodes for IIO devices") has no obvious style problems and is ready for submission.

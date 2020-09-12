@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 80 lines checked
+
+Commit ec7bd78498f2 ("driver core: Rename dev_links_info.defer_sync to defer_hook") has no obvious style problems and is ready for submission.

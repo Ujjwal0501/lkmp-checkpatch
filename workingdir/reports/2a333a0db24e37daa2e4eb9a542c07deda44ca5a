@@ -1,0 +1,22 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#8: 
+BW Support", then we cannot use any MCSes in the the higher bandwidth.
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#359: FILE: net/mac80211/util.c:3165:
++	/*
++	 * Cf. IEEE 802.11 Table 9-250
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#373: FILE: net/mac80211/util.c:3179:
++		/* fall through */
+
+total: 0 errors, 3 warnings, 0 checks, 313 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2a333a0db24e ("mac80211: avoid using ext NSS high BW if not supported") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

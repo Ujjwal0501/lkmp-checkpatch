@@ -1,0 +1,27 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 8577370fb0cb ("KVM: Use simple waitqueue for vcpu->wq")'
+#27: 
+The x86 tscdeadline_latency test mentioned in 8577370fb0cb
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#170: FILE: arch/powerpc/kvm/book3s_hv.c:3940:
++^I^I        rcuwait_wake_up(&vc->wait);$
+
+ERROR:SPACING: spaces required around that '&&' (ctx:WxV)
+#289: FILE: virt/kvm/arm/arm.c:591:
++			   (!vcpu->arch.power_off) &&(!vcpu->arch.pause),
+ 			                           ^
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Davidlohr Bueso <dave@stgolabs.net>'
+
+total: 3 errors, 1 warnings, 251 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit da4ad88cab58 ("kvm: Replace vcpu->swait with rcuwait") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

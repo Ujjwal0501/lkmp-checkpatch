@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit d24224dea571 ("dmaengine: qcom_hidma: use true,false for bool variable") has no obvious style problems and is ready for submission.

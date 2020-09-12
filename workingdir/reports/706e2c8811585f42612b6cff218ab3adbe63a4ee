@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit 706e2c881158 ("ASoC: fsl_asrc_dma: Reuse the dma channel if available in Back-End") has no obvious style problems and is ready for submission.

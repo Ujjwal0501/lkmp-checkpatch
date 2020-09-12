@@ -1,0 +1,14 @@
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#127: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c:436:
++	/*
++	 * TODO: Beacon interval is currently unknown, so use the common value
+
+total: 0 errors, 1 warnings, 0 checks, 121 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 018971b11ab4 ("iwlwifi: mvm: add support for range request version 10") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

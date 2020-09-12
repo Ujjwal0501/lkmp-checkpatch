@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit c583eed6d72b ("KVM: x86/mmu: Set @writable to false for non-visible accesses by L2") has no obvious style problems and is ready for submission.

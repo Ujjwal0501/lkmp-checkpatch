@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 170 lines checked
+
+Commit 797f4016f6da ("powerpc/40x: Avoid using r12 in TLB miss handlers") has no obvious style problems and is ready for submission.

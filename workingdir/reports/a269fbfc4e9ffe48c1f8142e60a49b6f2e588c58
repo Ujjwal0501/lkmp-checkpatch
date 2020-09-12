@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 161 lines checked
+
+Commit a269fbfc4e9f ("xfrm: state: remove extract_input indirection from xfrm_state_afinfo") has no obvious style problems and is ready for submission.

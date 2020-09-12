@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit c9a4bb416676 ("drivers/fpga/dfl-fme-pr.c: get rid of pointless access_ok()") has no obvious style problems and is ready for submission.

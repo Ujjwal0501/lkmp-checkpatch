@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit aef6f2e7cec1 ("i2c: brcmstb: Fix handling of optional interrupt") has no obvious style problems and is ready for submission.

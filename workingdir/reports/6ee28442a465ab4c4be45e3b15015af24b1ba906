@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 6ee28442a465 ("ima: Remove redundant policy rule set in add_rules()") has no obvious style problems and is ready for submission.

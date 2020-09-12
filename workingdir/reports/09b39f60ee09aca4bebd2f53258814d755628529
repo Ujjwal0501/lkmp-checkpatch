@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit 09b39f60ee09 ("ARM: dts: s5pv210: Disable pulls on GPIO I2C adapters for Aries") has no obvious style problems and is ready for submission.

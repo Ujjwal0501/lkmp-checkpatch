@@ -1,0 +1,45 @@
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1188: FILE: drivers/scsi/qla2xxx/qla_def.h:131:
++static inline u8 rd_reg_byte(const volatile u8 __iomem *addr)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1194: FILE: drivers/scsi/qla2xxx/qla_def.h:136:
++static inline u16 rd_reg_word(const volatile __le16 __iomem *addr)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1200: FILE: drivers/scsi/qla2xxx/qla_def.h:141:
++static inline u32 rd_reg_dword(const volatile __le32 __iomem *addr)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1206: FILE: drivers/scsi/qla2xxx/qla_def.h:146:
++static inline u8 rd_reg_byte_relaxed(const volatile u8 __iomem *addr)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1212: FILE: drivers/scsi/qla2xxx/qla_def.h:151:
++static inline u16 rd_reg_word_relaxed(const volatile __le16 __iomem *addr)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1218: FILE: drivers/scsi/qla2xxx/qla_def.h:156:
++static inline u32 rd_reg_dword_relaxed(const volatile __le32 __iomem *addr)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1224: FILE: drivers/scsi/qla2xxx/qla_def.h:161:
++static inline void wrt_reg_byte(volatile u8 __iomem *addr, u8 data)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1230: FILE: drivers/scsi/qla2xxx/qla_def.h:166:
++static inline void wrt_reg_word(volatile __le16 __iomem *addr, u16 data)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1236: FILE: drivers/scsi/qla2xxx/qla_def.h:171:
++static inline void wrt_reg_dword(volatile __le32 __iomem *addr, u32 data)
+
+total: 0 errors, 9 warnings, 3534 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 04474d3a1c96 ("scsi: qla2xxx: Change {RD,WRT}_REG_*() function names from upper case into lower case") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

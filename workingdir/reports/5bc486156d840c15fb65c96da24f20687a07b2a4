@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 5bc486156d84 ("spi: uniphier: Use devm_platform_get_and_ioremap_resource() to simplify code") has no obvious style problems and is ready for submission.

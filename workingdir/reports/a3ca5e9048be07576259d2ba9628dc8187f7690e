@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 97 lines checked
+
+Commit a3ca5e9048be ("net: hns3: add debug information for flow table when failed") has no obvious style problems and is ready for submission.

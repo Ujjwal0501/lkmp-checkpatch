@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 106 lines checked
+
+Commit cb6ad0993eb8 ("xfs: refactor failed buffer resubmission into xfsaild") has no obvious style problems and is ready for submission.

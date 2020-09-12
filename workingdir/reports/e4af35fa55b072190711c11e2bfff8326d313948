@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 276 lines checked
+
+Commit e4af35fa55b0 ("cifs: handle hostnames that resolve to same ip in failover") has no obvious style problems and is ready for submission.

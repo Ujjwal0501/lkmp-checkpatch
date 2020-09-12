@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 70 lines checked
+
+Commit 94f17e89c956 ("bnxt_en: refactor ethtool firmware reset types") has no obvious style problems and is ready for submission.

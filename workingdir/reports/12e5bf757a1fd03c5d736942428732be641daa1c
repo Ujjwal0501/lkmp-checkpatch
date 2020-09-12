@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 12e5bf757a1f ("mfd: max77620: Use single-byte writes on MAX77620") has no obvious style problems and is ready for submission.

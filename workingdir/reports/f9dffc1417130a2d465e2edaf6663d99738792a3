@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit f9dffc141713 ("platform/x86: wmi: Replace UUID redefinitions by their originals") has no obvious style problems and is ready for submission.

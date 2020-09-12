@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 202 lines checked
+
+Commit ebf64bf4df63 ("net: qed: introduce critical hardware error handler") has no obvious style problems and is ready for submission.

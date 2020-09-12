@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#22: 
+Signed-off-by: Bjorn Andersson <bjorn.andersson@linaro.org>
+
+total: 0 errors, 1 warnings, 112 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9375e7d719b3 ("arm64: dts: qcom: qcs404: Add USB devices and PHYs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

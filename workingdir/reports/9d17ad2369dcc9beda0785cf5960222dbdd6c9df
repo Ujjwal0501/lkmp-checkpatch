@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit 9d17ad2369dc ("Input: atkbd - receive and use physcode->keycode mapping from FW") has no obvious style problems and is ready for submission.

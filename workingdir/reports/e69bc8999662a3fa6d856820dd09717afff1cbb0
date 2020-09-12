@@ -1,0 +1,13 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#24: 
+ .../devicetree/bindings/{rtc => timer}/snps,dw-apb-timer.yaml   | 2 +-
+
+total: 0 errors, 1 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e69bc8999662 ("dt-bindings: timer: Move snps,dw-apb-timer DT schema from rtc") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

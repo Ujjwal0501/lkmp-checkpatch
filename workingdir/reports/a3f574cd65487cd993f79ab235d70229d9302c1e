@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit a3f574cd6548 ("KVM: arm64: vgic-v4: Plug race between non-residency and v4.1 doorbell") has no obvious style problems and is ready for submission.

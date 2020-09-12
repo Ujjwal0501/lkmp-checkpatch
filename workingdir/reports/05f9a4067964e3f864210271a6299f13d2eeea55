@@ -1,0 +1,13 @@
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#74: FILE: kernel/kcsan/report.c:64:
++	(CONFIG_KCSAN_REPORT_ONCE_IN_MS > REPORT_TIMES_MAX ?                   \
+
+total: 0 errors, 1 warnings, 174 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 05f9a4067964 ("kcsan: Rate-limit reporting per data races") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

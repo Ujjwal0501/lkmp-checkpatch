@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit ef2d1363c55a ("arm64: dts: ti: k3-am65/j721e-mcu: update cpts node") has no obvious style problems and is ready for submission.

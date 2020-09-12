@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit b16751f7adae ("net: microchip: Remove unused inline function is_bits_set") has no obvious style problems and is ready for submission.

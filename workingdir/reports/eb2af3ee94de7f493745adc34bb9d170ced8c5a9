@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 29 lines checked
+
+Commit eb2af3ee94de ("ice: Add function to set trust mode bit on reset") has no obvious style problems and is ready for submission.

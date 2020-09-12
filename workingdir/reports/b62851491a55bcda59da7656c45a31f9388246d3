@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit b62851491a55 ("usb: typec: mux: Convert the Intel PMC Mux driver to use new SCU IPC API") has no obvious style problems and is ready for submission.

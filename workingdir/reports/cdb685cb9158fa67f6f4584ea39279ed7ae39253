@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit cdb685cb9158 ("RDMA/rnbd: Fix compilation error when CONFIG_MODULES is disabled") has no obvious style problems and is ready for submission.

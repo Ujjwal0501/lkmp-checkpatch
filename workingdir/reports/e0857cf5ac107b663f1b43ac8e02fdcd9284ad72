@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e0857cf5ac10 ("mm/page-writeback: fix a typo in comment "effictive"->"effective"") has no obvious style problems and is ready for submission.

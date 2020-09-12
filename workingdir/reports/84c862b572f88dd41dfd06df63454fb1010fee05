@@ -1,0 +1,25 @@
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#140: FILE: drivers/gpu/drm/nouveau/nvc0_fbcon.c:242:
++	OUT_RING  (chan, upper_32_bits(nfbdev->vma->addr));
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#141: FILE: drivers/gpu/drm/nouveau/nvc0_fbcon.c:243:
++	OUT_RING  (chan, lower_32_bits(nfbdev->vma->addr));
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#151: FILE: drivers/gpu/drm/nouveau/nvc0_fbcon.c:253:
++	OUT_RING  (chan, upper_32_bits(nfbdev->vma->addr));
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#152: FILE: drivers/gpu/drm/nouveau/nvc0_fbcon.c:254:
++	OUT_RING  (chan, lower_32_bits(nfbdev->vma->addr));
+
+total: 0 errors, 4 warnings, 100 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 84c862b572f8 ("drm/nouveau/kms: Move struct nouveau_framebuffer.vma to struct nouveau_fbdev") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

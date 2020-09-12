@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 3d3185ae593d ("esas2r: don't bother with __copy_to_user()") has no obvious style problems and is ready for submission.

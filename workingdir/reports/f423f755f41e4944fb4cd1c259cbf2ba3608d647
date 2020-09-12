@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 78 lines checked
+
+Commit f423f755f41e ("xprtrdma: Clean up synopsis of rpcrdma_flush_disconnect()") has no obvious style problems and is ready for submission.

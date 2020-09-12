@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 183 lines checked
+
+Commit 3c1ccbad8080 ("media: cx231xx: Add i2c device analog tuner support") has no obvious style problems and is ready for submission.

@@ -1,0 +1,314 @@
+   1092 ERROR:OPEN_BRACE
+   1039 ERROR:SPACING
+    904 ERROR:TRAILING_WHITESPACE
+    660 ERROR:COMPLEX_MACRO
+    342 ERROR:CODE_INDENT
+    272 ERROR:GIT_COMMIT_ID
+    120 ERROR:TRAILING_STATEMENTS
+    109 ERROR:POINTER_LOCATION
+     36 ERROR:GLOBAL_INITIALISERS
+     36 ERROR:FUNCTION_WITHOUT_ARGS
+     27 ERROR:ASSIGN_IN_IF
+     26 ERROR:ELSE_AFTER_BRACE
+     20 ERROR:SWITCH_CASE_INDENT_LEVEL
+     14 ERROR:BAD_SIGN_OFF
+     11 ERROR:INITIALISED_STATIC
+     10 ERROR:BRACKET_SPACE
+      9 ERROR:MULTISTATEMENT_MACRO_USE_DO_WHILE
+      7 ERROR:DIFF_IN_COMMIT_MSG
+      6 ERROR:FSF_MAILING_ADDRESS
+      5 ERROR:RETURN_PARENTHESES
+      4 ERROR:DEFINE_ARCH_HAS
+      3 ERROR:EXECUTE_PERMISSIONS
+      2 ERROR:INLINE_LOCATION
+      2 ERROR:IN_ATOMIC
+      1 ERROR:WHILE_AFTER_BRACE
+
+   4906 WARNING:LEADING_SPACE
+   3511 WARNING:LONG_LINE
+   1741 WARNING:BLOCK_COMMENT_STYLE
+   1712 WARNING:EMBEDDED_FUNCTION_NAME
+   1389 WARNING:REPEATED_WORD
+   1319 WARNING:SPDX_LICENSE_TAG
+   1269 WARNING:LONG_LINE_COMMENT
+   1257 WARNING:UNSPECIFIED_INT
+   1059 WARNING:COMMIT_LOG_LONG_LINE
+   1039 WARNING:FILE_PATH_CHANGES
+    788 WARNING:SPACE_BEFORE_TAB
+    670 WARNING:LONG_LINE_STRING
+    616 WARNING:FUNCTION_ARGUMENTS
+    609 WARNING:SPLIT_STRING
+    597 WARNING:LINE_SPACING
+    419 WARNING:NEW_TYPEDEFS
+    375 WARNING:DT_SPLIT_BINDING_PATCH
+    322 WARNING:TYPO_SPELLING
+    286 WARNING:NO_AUTHOR_SIGN_OFF
+    280 WARNING:BAD_SIGN_OFF
+    218 WARNING:BRACES
+    171 WARNING:SPACING
+    158 WARNING:COMMIT_MESSAGE
+    146 WARNING:RETURN_VOID
+    126 WARNING:VOLATILE
+    117 WARNING:SUSPECT_CODE_INDENT
+    109 WARNING:AVOID_BUG
+    107 WARNING:PRINTK_WITHOUT_KERN_LEVEL
+     97 WARNING:CONFIG_DESCRIPTION
+     89 WARNING:LOGGING_CONTINUATION
+     83 WARNING:UNDOCUMENTED_DT_STRING
+     83 WARNING:QUOTED_WHITESPACE_BEFORE_NEWLINE
+     76 WARNING:MULTILINE_DEREFERENCE
+     65 WARNING:MEMORY_BARRIER
+     65 WARNING:AVOID_EXTERNS
+     64 WARNING:CONSTANT_COMPARISON
+     58 WARNING:NETWORKING_BLOCK_COMMENT_STYLE
+     58 WARNING:ENOTSUPP
+     57 WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO
+     53 WARNING:PREFER_FALLTHROUGH
+     47 WARNING:DATA_RACE
+     44 WARNING:USE_NEGATIVE_ERRNO
+     42 WARNING:PREFER_PR_LEVEL
+     41 WARNING:IF_0
+     38 WARNING:USE_RELATIVE_PATH
+     38 WARNING:SYMBOLIC_PERMS
+     37 WARNING:UNNECESSARY_ELSE
+     33 WARNING:TABSTOP
+     31 WARNING:MAINTAINERS_STYLE
+     26 WARNING:UNKNOWN_COMMIT_ID
+     25 WARNING:PREFER_SEQ_PUTS
+     23 WARNING:VSPRINTF_SPECIFIER_PX
+     22 WARNING:UNNECESSARY_BREAK
+     22 WARNING:LINE_CONTINUATIONS
+     21 WARNING:OBSOLETE
+     21 WARNING:ENOSYS
+     18 WARNING:PREFER_DEV_LEVEL
+     18 WARNING:EMAIL_SUBJECT
+     17 WARNING:MSLEEP
+     17 WARNING:DEEP_INDENTATION
+     17 WARNING:CONST_STRUCT
+     16 WARNING:OOM_MESSAGE
+     16 WARNING:MACRO_WITH_FLOW_CONTROL
+     14 WARNING:STATIC_CONST_CHAR_ARRAY
+     14 WARNING:EXPORT_SYMBOL
+     11 WARNING:SUSPECT_COMMA_SEMICOLON
+     11 WARNING:ALLOC_WITH_MULTIPLY
+     10 WARNING:PRINTF_L
+      9 WARNING:TYPECAST_INT_CONSTANT
+      8 WARNING:TRAILING_SEMICOLON
+      8 WARNING:INDENTED_LABEL
+      7 WARNING:PREFER_ALIGNED
+      7 WARNING:MINMAX
+      7 WARNING:DT_SCHEMA_BINDING_PATCH
+      7 WARNING:DEVICE_ATTR_FUNCTIONS
+      6 WARNING:CONSIDER_KSTRTO
+      5 WARNING:UNNECESSARY_PARENTHESES
+      5 WARNING:MISPLACED_INIT
+      5 WARNING:INLINE
+      5 WARNING:INCLUDE_LINUX
+      4 WARNING:PREFER_PACKED
+      4 WARNING:PREFER_IS_ENABLED
+      4 WARNING:NEEDLESS_IF
+      4 WARNING:DEVICE_ATTR_PERMS
+      3 WARNING:USE_LOCKDEP
+      3 WARNING:USE_FUNC
+      3 WARNING:UNNECESSARY_INT
+      3 WARNING:ONE_SEMICOLON
+      3 WARNING:NR_CPUS
+      3 WARNING:IF_1
+      2 WARNING:UNNECESSARY_KERN_LEVEL
+      2 WARNING:TRACE_PRINTK
+      2 WARNING:SIZEOF_PARENTHESIS
+      2 WARNING:PREFER_SECTION
+      2 WARNING:MISSING_EOF_NEWLINE
+      2 WARNING:LINUX_VERSION_CODE
+      2 WARNING:DO_WHILE_MACRO_WITH_TRAILING_SEMICOLON
+      1 WARNING:YIELD
+      1 WARNING:WAITQUEUE_ACTIVE
+      1 WARNING:STORAGE_CLASS
+      1 WARNING:PREFER_PRINTF
+      1 WARNING:MISSING_SPACE
+      1 WARNING:LIKELY_MISUSE
+      1 WARNING:KREALLOC_ARG_REUSE
+      1 WARNING:IS_ENABLED_CONFIG
+      1 WARNING:ARRAY_SIZE
+      1 WARNING:ALLOC_ARRAY_ARGS
+
+   5125 CHECK:SPACING
+   3409 CHECK:PARENTHESIS_ALIGNMENT
+   2381 CHECK:OPEN_ENDED_LINE
+   1736 CHECK:PREFER_KERNEL_TYPES
+   1637 CHECK:COMPARISON_TO_NULL
+    605 CHECK:LINE_SPACING
+    452 CHECK:BRACES
+    256 CHECK:CAMELCASE
+    239 CHECK:MACRO_ARG_REUSE
+    180 CHECK:AVOID_EXTERNS
+    167 CHECK:LOGICAL_CONTINUATIONS
+    133 CHECK:UNNECESSARY_PARENTHESES
+    123 CHECK:MACRO_ARG_PRECEDENCE
+     97 CHECK:BIT_MACRO
+     39 CHECK:MULTIPLE_ASSIGNMENTS
+     39 CHECK:BOOL_COMPARISON
+     39 CHECK:ASSIGNMENT_CONTINUATIONS
+     25 CHECK:UNCOMMENTED_DEFINITION
+     17 CHECK:ALLOC_SIZEOF_STRUCT
+      8 CHECK:USLEEP_RANGE
+      3 CHECK:CONCATENATED_STRING
+
+
+	OCCURRENCES     COMMITS         TYPE                                    
+	1               1               ALLOC_ARRAY_ARGS                        
+	1               1               ARRAY_SIZE                              
+	1               1               IS_ENABLED_CONFIG                       
+	1               1               KREALLOC_ARG_REUSE                      
+	1               1               LIKELY_MISUSE                           
+	1               1               MISSING_SPACE                           
+	1               1               PREFER_PRINTF                           
+	1               1               STORAGE_CLASS                           
+	1               1               WAITQUEUE_ACTIVE                        
+	1               1               WHILE_AFTER_BRACE                       
+	1               1               YIELD                                   
+	2               1               IN_ATOMIC                               
+	2               1               INLINE_LOCATION                         
+	2               1               PREFER_SECTION                          
+	2               1               TRACE_PRINTK                            
+	2               2               DO_WHILE_MACRO_WITH_TRAILING_SEMICOLON  
+	2               2               LINUX_VERSION_CODE                      
+	2               2               MISSING_EOF_NEWLINE                     
+	2               2               SIZEOF_PARENTHESIS                      
+	2               2               UNNECESSARY_KERN_LEVEL                  
+	3               1               IF_1                                    
+	3               1               UNNECESSARY_INT                         
+	3               2               CONCATENATED_STRING                     
+	3               2               EXECUTE_PERMISSIONS                     
+	3               2               USE_FUNC                                
+	3               3               NR_CPUS                                 
+	3               3               ONE_SEMICOLON                           
+	3               3               USE_LOCKDEP                             
+	4               1               PREFER_PACKED                           
+	4               2               DEVICE_ATTR_PERMS                       
+	4               3               DEFINE_ARCH_HAS                         
+	4               3               PREFER_IS_ENABLED                       
+	4               4               NEEDLESS_IF                             
+	5               2               RETURN_PARENTHESES                      
+	5               4               MISPLACED_INIT                          
+	5               5               INCLUDE_LINUX                           
+	6               4               CONSIDER_KSTRTO                         
+	6               5               FSF_MAILING_ADDRESS                     
+	7               3               INLINE                                  
+	7               3               MINMAX                                  
+	7               4               DEVICE_ATTR_FUNCTIONS                   
+	7               6               PREFER_ALIGNED                          
+	7               7               DIFF_IN_COMMIT_MSG                      
+	7               7               DT_SCHEMA_BINDING_PATCH                 
+	8               4               USLEEP_RANGE                            
+	8               8               INDENTED_LABEL                          
+	9               3               TYPECAST_INT_CONSTANT                   
+	9               6               MULTISTATEMENT_MACRO_USE_DO_WHILE       
+	10              4               BRACKET_SPACE                           
+	10              4               PRINTF_L                                
+	10              7               TRAILING_SEMICOLON                      
+	11              4               ALLOC_WITH_MULTIPLY                     
+	11              6               INITIALISED_STATIC                      
+	11              8               SUSPECT_COMMA_SEMICOLON                 
+	14              11              STATIC_CONST_CHAR_ARRAY                 
+	14              7               EXPORT_SYMBOL                           
+	16              10              OOM_MESSAGE                             
+	16              13              MACRO_WITH_FLOW_CONTROL                 
+	17              10              CONST_STRUCT                            
+	17              11              MSLEEP                                  
+	17              6               DEEP_INDENTATION                        
+	17              7               ALLOC_SIZEOF_STRUCT                     
+	18              18              EMAIL_SUBJECT                           
+	18              1               PREFER_DEV_LEVEL                        
+	20              5               SWITCH_CASE_INDENT_LEVEL                
+	21              13              ENOSYS                                  
+	21              8               OBSOLETE                                
+	22              12              LINE_CONTINUATIONS                      
+	22              2               UNNECESSARY_BREAK                       
+	23              17              VSPRINTF_SPECIFIER_PX                   
+	25              11              UNCOMMENTED_DEFINITION                  
+	25              8               PREFER_SEQ_PUTS                         
+	26              25              UNKNOWN_COMMIT_ID                       
+	26              4               ELSE_AFTER_BRACE                        
+	27              15              ASSIGN_IN_IF                            
+	31              24              MAINTAINERS_STYLE                       
+	33              10              TABSTOP                                 
+	36              13              GLOBAL_INITIALISERS                     
+	36              9               FUNCTION_WITHOUT_ARGS                   
+	37              11              UNNECESSARY_ELSE                        
+	38              10              USE_RELATIVE_PATH                       
+	38              23              SYMBOLIC_PERMS                          
+	39              11              MULTIPLE_ASSIGNMENTS                    
+	39              4               ASSIGNMENT_CONTINUATIONS                
+	39              6               BOOL_COMPARISON                         
+	41              7               IF_0                                    
+	42              11              PREFER_PR_LEVEL                         
+	44              4               USE_NEGATIVE_ERRNO                      
+	47              19              DATA_RACE                               
+	53              28              PREFER_FALLTHROUGH                      
+	57              6               SINGLE_STATEMENT_DO_WHILE_MACRO         
+	58              32              ENOTSUPP                                
+	58              37              NETWORKING_BLOCK_COMMENT_STYLE          
+	64              11              CONSTANT_COMPARISON                     
+	65              24              MEMORY_BARRIER                          
+	76              4               MULTILINE_DEREFERENCE                   
+	83              10              QUOTED_WHITESPACE_BEFORE_NEWLINE        
+	83              42              UNDOCUMENTED_DT_STRING                  
+	89              20              LOGGING_CONTINUATION                    
+	97              4               BIT_MACRO                               
+	97              71              CONFIG_DESCRIPTION                      
+	107             39              PRINTK_WITHOUT_KERN_LEVEL               
+	109             28              POINTER_LOCATION                        
+	109             59              AVOID_BUG                               
+	117             26              SUSPECT_CODE_INDENT                     
+	120             18              TRAILING_STATEMENTS                     
+	123             10              MACRO_ARG_PRECEDENCE                    
+	126             40              VOLATILE                                
+	138             7               UNNECESSARY_PARENTHESES                 
+	146             7               RETURN_VOID                             
+	158             158             COMMIT_MESSAGE                          
+	167             5               LOGICAL_CONTINUATIONS                   
+	239             23              MACRO_ARG_REUSE                         
+	245             24              AVOID_EXTERNS                           
+	256             47              CAMELCASE                               
+	272             222             GIT_COMMIT_ID                           
+	286             286             NO_AUTHOR_SIGN_OFF                      
+	294             268             BAD_SIGN_OFF                            
+	322             207             TYPO_SPELLING                           
+	375             212             DT_SPLIT_BINDING_PATCH                  
+	419             13              NEW_TYPEDEFS                            
+	459             54              CODE_INDENT                             
+	609             87              SPLIT_STRING                            
+	616             71              FUNCTION_ARGUMENTS                      
+	660             51              COMPLEX_MACRO                           
+	670             51              BRACES                                  
+	670             51              LONG_LINE_STRING                        
+	788             49              SPACE_BEFORE_TAB                        
+	904             11              TRAILING_WHITESPACE                     
+	1039            1039            FILE_PATH_CHANGES                       
+	1059            1059            COMMIT_LOG_LONG_LINE                    
+	1092            20              OPEN_BRACE                              
+	1202            115             LINE_SPACING                            
+	1257            62              UNSPECIFIED_INT                         
+	1269            33              LONG_LINE_COMMENT                       
+	1319            108             SPDX_LICENSE_TAG                        
+	1389            264             REPEATED_WORD                           
+	1637            2               COMPARISON_TO_NULL                      
+	1712            33              EMBEDDED_FUNCTION_NAME                  
+	1736            5               PREFER_KERNEL_TYPES                     
+	1799            53              BLOCK_COMMENT_STYLE                     
+	2381            35              OPEN_ENDED_LINE                         
+	3409            94              PARENTHESIS_ALIGNMENT                   
+	4906            71              LEADING_SPACE                           
+	6509            211             LONG_LINE                               
+	7537            157             SPACING                                 
+
+
+Total ERRORS:	4757
+Total WARNINGS:	26991
+Total CHECKS:	16710
+
+Type of ERRORS:		25
+Type of WARNINGS:	107
+Type of CHECKS:		21
+

@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#14: 
+Fix the second by insuring the the list entry within the txreq is inited
+
+total: 0 errors, 1 warnings, 65 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 82172b765530 ("IB/hfi1: Correct -EBUSY handling in tx code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

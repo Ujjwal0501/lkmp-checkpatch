@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 139 lines checked
+
+Commit 63960260457a ("bpf: Check correct cred for CAP_SYSLOG in bpf_dump_raw_ok()") has no obvious style problems and is ready for submission.

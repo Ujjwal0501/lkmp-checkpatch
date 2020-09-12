@@ -1,0 +1,275 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit cd0e00c10672 ("alpha: io: reorder barriers to guarantee writeX() and iowriteX() ordering")'
+#7: 
+The commits cd0e00c10672 and 92d7223a7423 broke boot on the Alpha Avanti
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#47: FILE: arch/alpha/include/asm/io.h:313:
++	unsigned int ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#47: FILE: arch/alpha/include/asm/io.h:313:
++	mb();
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#48: FILE: arch/alpha/include/asm/io.h:314:
++	ret = IO_CONCAT(__IO_PREFIX,ioread8)(addr);
+ 	                           ^
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#57: FILE: arch/alpha/include/asm/io.h:322:
++	unsigned int ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#57: FILE: arch/alpha/include/asm/io.h:322:
++	mb();
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#58: FILE: arch/alpha/include/asm/io.h:323:
++	ret = IO_CONCAT(__IO_PREFIX,ioread16)(addr);
+ 	                           ^
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#68: FILE: arch/alpha/include/asm/io.h:365:
++	unsigned int ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#68: FILE: arch/alpha/include/asm/io.h:365:
++	mb();
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#69: FILE: arch/alpha/include/asm/io.h:366:
++	ret = IO_CONCAT(__IO_PREFIX,ioread32)(addr);
+ 	                           ^
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#79: FILE: arch/alpha/include/asm/io.h:412:
++	u8 ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#79: FILE: arch/alpha/include/asm/io.h:412:
++	mb();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#89: FILE: arch/alpha/include/asm/io.h:421:
++	u16 ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#89: FILE: arch/alpha/include/asm/io.h:421:
++	mb();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#100: FILE: arch/alpha/include/asm/io.h:464:
++	u32 ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#100: FILE: arch/alpha/include/asm/io.h:464:
++	mb();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#110: FILE: arch/alpha/include/asm/io.h:473:
++	u64 ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#110: FILE: arch/alpha/include/asm/io.h:473:
++	mb();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#128: FILE: arch/alpha/include/asm/io.h:504:
++extern u8 readb_relaxed(const volatile void __iomem *addr);
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#129: FILE: arch/alpha/include/asm/io.h:505:
++extern u16 readw_relaxed(const volatile void __iomem *addr);
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#130: FILE: arch/alpha/include/asm/io.h:506:
++extern u32 readl_relaxed(const volatile void __iomem *addr);
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#131: FILE: arch/alpha/include/asm/io.h:507:
++extern u64 readq_relaxed(const volatile void __iomem *addr);
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#133: FILE: arch/alpha/include/asm/io.h:509:
++#if IO_CONCAT(__IO_PREFIX,trivial_io_bw)
+                          ^
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#134: FILE: arch/alpha/include/asm/io.h:510:
++extern inline u8 readb_relaxed(const volatile void __iomem *addr)
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#136: FILE: arch/alpha/include/asm/io.h:512:
++	mb();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#140: FILE: arch/alpha/include/asm/io.h:516:
++extern inline u16 readw_relaxed(const volatile void __iomem *addr)
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#142: FILE: arch/alpha/include/asm/io.h:518:
++	mb();
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#147: FILE: arch/alpha/include/asm/io.h:523:
++#if IO_CONCAT(__IO_PREFIX,trivial_io_lq)
+                          ^
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#148: FILE: arch/alpha/include/asm/io.h:524:
++extern inline u32 readl_relaxed(const volatile void __iomem *addr)
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#150: FILE: arch/alpha/include/asm/io.h:526:
++	mb();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#154: FILE: arch/alpha/include/asm/io.h:530:
++extern inline u64 readq_relaxed(const volatile void __iomem *addr)
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#156: FILE: arch/alpha/include/asm/io.h:532:
++	mb();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#178: FILE: arch/alpha/kernel/io.c:20:
++	unsigned int ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#178: FILE: arch/alpha/kernel/io.c:20:
++	mb();
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#179: FILE: arch/alpha/kernel/io.c:21:
++	ret = IO_CONCAT(__IO_PREFIX,ioread8)(addr);
+ 	                           ^
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#188: FILE: arch/alpha/kernel/io.c:29:
++	unsigned int ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#188: FILE: arch/alpha/kernel/io.c:29:
++	mb();
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#189: FILE: arch/alpha/kernel/io.c:30:
++	ret = IO_CONCAT(__IO_PREFIX,ioread16)(addr);
+ 	                           ^
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#198: FILE: arch/alpha/kernel/io.c:38:
++	unsigned int ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#198: FILE: arch/alpha/kernel/io.c:38:
++	mb();
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#199: FILE: arch/alpha/kernel/io.c:39:
++	ret = IO_CONCAT(__IO_PREFIX,ioread32)(addr);
+ 	                           ^
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#209: FILE: arch/alpha/kernel/io.c:158:
++	u8 ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#209: FILE: arch/alpha/kernel/io.c:158:
++	mb();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#219: FILE: arch/alpha/kernel/io.c:167:
++	u16 ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#219: FILE: arch/alpha/kernel/io.c:167:
++	mb();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#229: FILE: arch/alpha/kernel/io.c:176:
++	u32 ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#229: FILE: arch/alpha/kernel/io.c:176:
++	mb();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#239: FILE: arch/alpha/kernel/io.c:185:
++	u64 ret;
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#239: FILE: arch/alpha/kernel/io.c:185:
++	mb();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#252: FILE: arch/alpha/kernel/io.c:228:
++u8 readb_relaxed(const volatile void __iomem *addr)
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#254: FILE: arch/alpha/kernel/io.c:230:
++	mb();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#258: FILE: arch/alpha/kernel/io.c:234:
++u16 readw_relaxed(const volatile void __iomem *addr)
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#260: FILE: arch/alpha/kernel/io.c:236:
++	mb();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#264: FILE: arch/alpha/kernel/io.c:240:
++u32 readl_relaxed(const volatile void __iomem *addr)
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#266: FILE: arch/alpha/kernel/io.c:242:
++	mb();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#270: FILE: arch/alpha/kernel/io.c:246:
++u64 readq_relaxed(const volatile void __iomem *addr)
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#272: FILE: arch/alpha/kernel/io.c:248:
++	mb();
+
+WARNING:EXPORT_SYMBOL: EXPORT_SYMBOL(foo); should immediately follow its function/variable
+#276: FILE: arch/alpha/kernel/io.c:252:
++EXPORT_SYMBOL(readb_relaxed);
+
+WARNING:EXPORT_SYMBOL: EXPORT_SYMBOL(foo); should immediately follow its function/variable
+#277: FILE: arch/alpha/kernel/io.c:253:
++EXPORT_SYMBOL(readw_relaxed);
+
+WARNING:EXPORT_SYMBOL: EXPORT_SYMBOL(foo); should immediately follow its function/variable
+#278: FILE: arch/alpha/kernel/io.c:254:
++EXPORT_SYMBOL(readl_relaxed);
+
+WARNING:EXPORT_SYMBOL: EXPORT_SYMBOL(foo); should immediately follow its function/variable
+#279: FILE: arch/alpha/kernel/io.c:255:
++EXPORT_SYMBOL(readq_relaxed);
+
+total: 9 errors, 52 warnings, 230 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 54505a1e2083 ("alpha: fix memory barriers so that they conform to the specification") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

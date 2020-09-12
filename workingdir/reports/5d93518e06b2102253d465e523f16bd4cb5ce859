@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 41 lines checked
+
+Commit 5d93518e06b2 ("net: hsr: check for return value of skb_put_padto()") has no obvious style problems and is ready for submission.

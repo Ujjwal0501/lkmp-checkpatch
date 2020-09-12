@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 112 lines checked
+
+Commit 04b24409b42a ("efi/libstub: Use snprintf with %ls to convert the command line") has no obvious style problems and is ready for submission.

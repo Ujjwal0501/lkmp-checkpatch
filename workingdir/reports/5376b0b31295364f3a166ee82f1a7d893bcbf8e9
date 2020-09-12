@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 5376b0b31295 ("gpio: pch: Use in pch_irq_type() macros provided by IRQ core") has no obvious style problems and is ready for submission.

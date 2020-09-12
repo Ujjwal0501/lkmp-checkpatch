@@ -1,0 +1,89 @@
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#41: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:36:
++static inline hrt_data csi_rx_fe_ctrl_reg_load(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#42: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:37:
++    const csi_rx_frontend_ID_t ID,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#43: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:38:
++    const hrt_address reg)$
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#47: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:42:
++	return ia_css_device_load_uint32(CSI_RX_FE_CTRL_BASE[ID] + reg * sizeof(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#55: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:50:
++static inline void csi_rx_fe_ctrl_reg_store(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#56: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:51:
++    const csi_rx_frontend_ID_t ID,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#57: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:52:
++    const hrt_address reg,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#58: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:53:
++    const hrt_data value)$
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#71: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:66:
++static inline hrt_data csi_rx_be_ctrl_reg_load(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#72: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:67:
++    const csi_rx_backend_ID_t ID,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#73: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:68:
++    const hrt_address reg)$
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#77: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:72:
++	return ia_css_device_load_uint32(CSI_RX_BE_CTRL_BASE[ID] + reg * sizeof(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#85: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:80:
++static inline void csi_rx_be_ctrl_reg_store(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#86: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:81:
++    const csi_rx_backend_ID_t ID,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#87: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:82:
++    const hrt_address reg,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#88: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:83:
++    const hrt_data value)$
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#108: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:103:
++static inline void csi_rx_fe_ctrl_get_dlane_state(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#109: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:104:
++    const csi_rx_frontend_ID_t ID,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#110: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:105:
++    const u32 lane,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#111: FILE: drivers/staging/media/atomisp/pci/css_2401_csi2p_system/host/csi_rx_private.h:106:
++    csi_rx_fe_ctrl_lane_t *dlane_state)$
+
+total: 0 errors, 13 warnings, 7 checks, 193 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fe4586ca23ae ("media: atomisp: change function worders and fix include") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

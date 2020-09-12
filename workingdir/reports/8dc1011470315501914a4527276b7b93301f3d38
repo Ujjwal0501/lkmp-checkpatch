@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit 8dc101147031 ("ASoC: sta32x: add missed function calls in error paths") has no obvious style problems and is ready for submission.

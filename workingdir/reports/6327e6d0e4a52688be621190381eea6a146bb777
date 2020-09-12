@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit 6327e6d0e4a5 ("efi/gop: Get mode information outside the loop") has no obvious style problems and is ready for submission.

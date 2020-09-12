@@ -1,0 +1,21 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#48: FILE: drivers/gpu/drm/nouveau/nouveau_display.c:207:
++	BUG_ON(drm->client.device.info.family < NV_DEVICE_INFO_V0_TESLA);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#68: FILE: drivers/gpu/drm/nouveau/nouveau_display.c:227:
++	BUG_ON(drm->client.device.info.family < NV_DEVICE_INFO_V0_TESLA);
+
+WARNING:LONG_LINE_STRING: line length of 114 exceeds 100 columns
+#89: FILE: drivers/gpu/drm/nouveau/nouveau_display.c:248:
++	DRM_DEBUG_KMS("offset=%u stride=%u h=%u tile_mode=0x%02x bw=%u bh=%u gob_size=%u bl_size=%llu size=%lu\n",
+
+total: 0 errors, 3 warnings, 117 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4f5746c863db ("drm/nouveau/kms: Check framebuffer size against bo") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

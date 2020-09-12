@@ -1,0 +1,19 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#222: FILE: drivers/scsi/lpfc/lpfc_attr.c:5828:
++					"8533 Could not identify CPUS for "
++					"mode %d, ignoring\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#239: FILE: drivers/scsi/lpfc/lpfc_attr.c:5843:
+ 					"8543 lpfc_irq_chann set to %u "
++					"(mode: %d)\n", phba->cfg_irq_chann,
+
+total: 0 errors, 2 warnings, 371 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3048e3e805e3 ("scsi: lpfc: Change default queue allocation for reduced memory consumption") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

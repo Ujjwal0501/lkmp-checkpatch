@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit f2f02ebd8f38 ("kbuild: improve cc-option to clean up all temporary files") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit c2c3657f0aed ("ALSA: hda/hdmi: Fix keep_power assignment for non-component devices") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 34 lines checked
+
+Commit 824f830fc094 ("staging: wfx: drop useless wfx_fwd_probe_req()") has no obvious style problems and is ready for submission.

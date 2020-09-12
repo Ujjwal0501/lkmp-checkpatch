@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 2a7833899f6a ("KVM: nVMX: Cast exit_reason to u16 to check for nested EXTERNAL_INTERRUPT") has no obvious style problems and is ready for submission.

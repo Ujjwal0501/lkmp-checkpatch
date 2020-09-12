@@ -1,0 +1,15 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#36: FILE: net/bluetooth/smp.c:888:
++	 * confirmation */
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Sonny Sasaka <sonnysasaka@gmail.com>'
+
+total: 0 errors, 2 warnings, 0 checks, 25 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 92516cd97fd4 ("Bluetooth: Always request for user confirmation for Just Works") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

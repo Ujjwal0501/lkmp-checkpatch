@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 6555781b3fde ("scsi: sr: Fix sr_probe() missing deallocate of device minor") has no obvious style problems and is ready for submission.

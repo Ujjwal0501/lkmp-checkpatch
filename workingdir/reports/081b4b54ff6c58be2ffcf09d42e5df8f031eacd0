@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 081b4b54ff6c ("unicore32: do not evaluate compiler's library path when cleaning") has no obvious style problems and is ready for submission.

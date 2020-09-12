@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 9253d71011c3 ("mmc: sdhci-msm: Clear tuning done flag while hs400 tuning") has no obvious style problems and is ready for submission.

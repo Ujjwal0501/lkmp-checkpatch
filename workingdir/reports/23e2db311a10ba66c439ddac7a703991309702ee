@@ -1,0 +1,13 @@
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#26: FILE: net/rxrpc/peer_event.c:276:
++		/* Fall through */
+
+total: 0 errors, 1 warnings, 0 checks, 9 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 23e2db311a10 ("rxrpc: Map the EACCES error produced by some ICMP6 to EHOSTUNREACH") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

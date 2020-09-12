@@ -1,0 +1,16 @@
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#452: FILE: include/linux/hmm.h:23:
++ * 0             - The page is faultable and a future call with $
+
+total: 1 errors, 0 warnings, 825 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 2733ea144dcc ("mm/hmm: remove the customizable pfn format from hmm_range_fault") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

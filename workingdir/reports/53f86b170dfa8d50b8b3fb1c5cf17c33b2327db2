@@ -1,0 +1,29 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#78: FILE: fs/ext4/mballoc.c:1961:
++		BUG_ON(ac->ac_f_ex.fe_len != ac->ac_g_ex.fe_len);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#95: FILE: fs/ext4/mballoc.c:3700:
++	BUG_ON(ac->ac_pa == NULL);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#139: FILE: fs/ext4/mballoc.c:3787:
++	BUG_ON(ac->ac_pa == NULL);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#195: FILE: fs/ext4/mballoc.c:4151:
++	BUG_ON(ext4_pspace_cachep == NULL);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#208: FILE: fs/ext4/mballoc.c:4164:
++	BUG_ON(!pa);
+
+total: 0 errors, 5 warnings, 205 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 53f86b170dfa ("ext4: mballoc: add blocks to PA list under same spinlock after allocating blocks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit cea7a0449ea3 ("habanalabs: prevent possible out-of-bounds array access") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit d81709346cea ("ath11k: remove conversion to bool in ath11k_debug_fw_stats_process()") has no obvious style problems and is ready for submission.

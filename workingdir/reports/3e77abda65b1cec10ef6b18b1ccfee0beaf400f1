@@ -1,0 +1,17 @@
+WARNING:MISPLACED_INIT: __initconst should be placed after early_pf_idts[]
+#134: FILE: arch/x86/kernel/idt.c:251:
++static const __initconst struct idt_data early_pf_idts[] = {
+
+WARNING:MISPLACED_INIT: __initconst should be placed after ist_idts[]
+#142: FILE: arch/x86/kernel/idt.c:259:
++static const __initconst struct idt_data ist_idts[] = {
+
+total: 0 errors, 2 warnings, 151 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3e77abda65b1 ("x86/idt: Consolidate idt functionality") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

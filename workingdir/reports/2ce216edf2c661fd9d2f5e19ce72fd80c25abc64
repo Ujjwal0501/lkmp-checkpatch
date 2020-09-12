@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 55 lines checked
+
+Commit 2ce216edf2c6 ("drm/lima: Clean up redundant pdev pointer") has no obvious style problems and is ready for submission.

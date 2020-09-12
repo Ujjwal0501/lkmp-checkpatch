@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 4405bdf3c57e ("ARM: 8987/1: VDSO: Fix incorrect clock_gettime64") has no obvious style problems and is ready for submission.

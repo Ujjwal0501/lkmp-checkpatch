@@ -1,0 +1,33 @@
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#26: FILE: include/trace/events/sunrpc.h:584:
++	EM( SS_CONNECTING, "CONNECTING" )	\
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#26: FILE: include/trace/events/sunrpc.h:584:
++	EM( SS_CONNECTING, "CONNECTING" )	\
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#27: FILE: include/trace/events/sunrpc.h:585:
++	EM( SS_CONNECTED, "CONNECTED" )		\
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#27: FILE: include/trace/events/sunrpc.h:585:
++	EM( SS_CONNECTED, "CONNECTED" )		\
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#28: FILE: include/trace/events/sunrpc.h:586:
++	EMe( SS_DISCONNECTING, "DISCONNECTING" )
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#28: FILE: include/trace/events/sunrpc.h:586:
++	EMe( SS_DISCONNECTING, "DISCONNECTING" )
+
+total: 6 errors, 0 warnings, 12 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 82909dc54646 ("SUNRPC: Update the RPC_SHOW_SOCKET() macro") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

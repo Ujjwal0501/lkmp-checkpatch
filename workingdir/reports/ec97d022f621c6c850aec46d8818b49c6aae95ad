@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit ec97d022f621 ("powerpc/kasan: Declare kasan_init_region() weak") has no obvious style problems and is ready for submission.

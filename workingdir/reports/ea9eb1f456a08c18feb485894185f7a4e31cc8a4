@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ea9eb1f456a0 ("perf stat: Fix duration_time value for higher intervals") has no obvious style problems and is ready for submission.

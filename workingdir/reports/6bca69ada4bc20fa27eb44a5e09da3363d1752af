@@ -1,0 +1,13 @@
+ERROR:SPACING: space required before the open parenthesis '('
+#119: FILE: arch/x86/include/asm/kvm_para.h:116:
++#define kvm_async_pf_task_wait_schedule(T) do {} while(0)
+
+total: 1 errors, 0 warnings, 310 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6bca69ada4bc ("x86/kvm: Sanitize kvm_async_pf_task_wait()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

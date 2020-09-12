@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 92 lines checked
+
+Commit fdb9c405e35b ("netfilter: nf_tables: allow up to 64 bytes in the set element data area") has no obvious style problems and is ready for submission.

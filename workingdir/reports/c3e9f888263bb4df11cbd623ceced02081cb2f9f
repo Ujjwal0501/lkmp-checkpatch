@@ -1,0 +1,29 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#30: FILE: fs/afs/afs.h:13:
++#define AFS_MAXCELLNAME^I^I256  ^I/* Maximum length of a cell name */$
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_vl_cursor *' should also have an identifier name
+#62: FILE: fs/afs/internal.h:1377:
++extern char *afs_yfsvl_get_cell_name(struct afs_vl_cursor *);
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#105: FILE: fs/afs/vlclient.c:666:
++		/* Fall through - and extract the cell name length */
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#127: FILE: fs/afs/vlclient.c:688:
++		/* Fall through - and extract cell name */
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#136: FILE: fs/afs/vlclient.c:697:
++		/* Fall through - and extract padding */
+
+total: 0 errors, 5 warnings, 179 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c3e9f888263b ("afs: Implement client support for the YFSVL.GetCellName RPC op") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

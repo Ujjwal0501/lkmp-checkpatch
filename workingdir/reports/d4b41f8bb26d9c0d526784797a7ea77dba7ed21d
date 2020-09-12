@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit d4b41f8bb26d ("pinctrl: tigerlake: Use generic flag for special GPIO base treatment") has no obvious style problems and is ready for submission.

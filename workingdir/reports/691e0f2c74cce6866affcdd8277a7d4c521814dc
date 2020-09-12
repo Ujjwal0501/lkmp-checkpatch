@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 691e0f2c74cc ("VMCI: Avoid extra check for access_ok()") has no obvious style problems and is ready for submission.

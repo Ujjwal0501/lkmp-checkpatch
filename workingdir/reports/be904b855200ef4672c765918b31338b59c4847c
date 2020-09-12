@@ -1,0 +1,25 @@
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'efx' - possible side-effects?
+#80: FILE: drivers/net/ethernet/sfc/mcdi.h:336:
++#define efx_has_cap(efx, flag, field) \
++	efx->type->check_caps(efx, \
++			      MCDI_CAPABILITY(flag), \
++			      MCDI_CAPABILITY_OFST(field))
+
+CHECK:MACRO_ARG_PRECEDENCE: Macro argument 'efx' may be better as '(efx)' to avoid precedence issues
+#80: FILE: drivers/net/ethernet/sfc/mcdi.h:336:
++#define efx_has_cap(efx, flag, field) \
++	efx->type->check_caps(efx, \
++			      MCDI_CAPABILITY(flag), \
++			      MCDI_CAPABILITY_OFST(field))
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Tom Zhao <tzhao@solarflare.com>'
+
+total: 0 errors, 1 warnings, 2 checks, 74 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit be904b855200 ("sfc: make capability checking a nic_type function") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

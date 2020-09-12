@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 209 lines checked
+
+Commit c36cac28cb94 ("btrfs: fix double __endio_write_update_ordered in direct I/O") has no obvious style problems and is ready for submission.

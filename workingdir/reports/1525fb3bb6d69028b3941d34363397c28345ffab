@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 87 lines checked
+
+Commit 1525fb3bb6d6 ("pstore/blk: Provide way to query pstore configuration") has no obvious style problems and is ready for submission.

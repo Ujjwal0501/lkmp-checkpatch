@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 10 lines checked
+
+Commit 2684bda34786 ("net: phy: mscc: fix PHYs using the vsc8574_probe") has no obvious style problems and is ready for submission.

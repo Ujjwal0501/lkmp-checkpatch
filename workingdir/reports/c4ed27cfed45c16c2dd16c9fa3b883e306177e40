@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c4ed27cfed45 ("media: m88ds3103: error in set_frontend is swallowed and not reported") has no obvious style problems and is ready for submission.

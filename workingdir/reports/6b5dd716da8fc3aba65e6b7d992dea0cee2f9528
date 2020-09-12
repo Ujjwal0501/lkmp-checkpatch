@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit 6b5dd716da8f ("objtool: optimize add_dead_ends for split sections") has no obvious style problems and is ready for submission.

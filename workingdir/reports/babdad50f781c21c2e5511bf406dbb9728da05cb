@@ -1,0 +1,21 @@
+WARNING:TYPO_SPELLING: 'sucessful' may be misspelled - perhaps 'successful'?
+#54: FILE: drivers/net/wireless/mediatek/mt76/mt7915/debugfs.c:176:
++	seq_printf(s, "Tx Beamformee sucessful feedback frames: %ld\n",
+
+WARNING:TYPO_SPELLING: 'triggerd' may be misspelled - perhaps 'triggered'?
+#56: FILE: drivers/net/wireless/mediatek/mt76/mt7915/debugfs.c:178:
++	seq_printf(s, "Tx Beamformee feedback triggerd counts: %ld\n",
+
+WARNING:TYPO_SPELLING: 'sucessful' may be misspelled - perhaps 'successful'?
+#61: FILE: drivers/net/wireless/mediatek/mt76/mt7915/debugfs.c:183:
++	seq_printf(s, "Tx single-user sucessful MPDU counts: %d\n", cnt);
+
+total: 0 errors, 3 warnings, 0 checks, 90 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit babdad50f781 ("mt76: mt7915: add debugfs to track TxBF status") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

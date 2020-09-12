@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 114 lines checked
+
+Commit c4eadee21fa9 ("spi: dw: Add update_cr0() callback to update CTRLR0") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 15 lines checked
+
+Commit b4d74f7ad1cd ("staging: wfx: reduce hold duration of cfg80211_bss") has no obvious style problems and is ready for submission.

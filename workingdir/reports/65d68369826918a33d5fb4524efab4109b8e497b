@@ -1,0 +1,33 @@
+WARNING:LONG_LINE: line length of 129 exceeds 100 columns
+#105: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2660:
++				|| context->bw_ctx.dml.vba.NoOfDPP[vlevel][context->bw_ctx.dml.vba.maxMpcComb][pipe_plane] > 1) {
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#107: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2662:
++					&& dc->config.enable_4to1MPC && dc->res_pool->pipe_count >= 4)
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#144: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2691:
++					&& dc->config.enable_4to1MPC && dc->res_pool->pipe_count >= 4) {
+
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#150: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2697:
++		} else if (pipe->prev_odm_pipe || (dcn20_find_previous_split_count(pipe) == 2 && pipe->top_pipe)) {
+
+WARNING:LONG_LINE: line length of 126 exceeds 100 columns
+#198: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2736:
++				&& context->bw_ctx.dml.vba.NoOfDPP[vlevel][context->bw_ctx.dml.vba.maxMpcComb][pipe_idx] == 1)
+
+WARNING:LONG_LINE: line length of 128 exceeds 100 columns
+#231: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2832:
++					if (!resource_build_scaling_params(pipe) || !resource_build_scaling_params(hsplit_pipe))
+
+total: 0 errors, 6 warnings, 212 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 65d683698269 ("drm/amd/display: Add 4 to 1 MPC split support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

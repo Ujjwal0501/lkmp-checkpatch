@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit b6dbb8ff9dbf ("drm/amd/display: Avoid pipe split when plane is too small") has no obvious style problems and is ready for submission.

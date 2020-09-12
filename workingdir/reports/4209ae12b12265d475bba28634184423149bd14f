@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 581 lines checked
+
+Commit 4209ae12b122 ("ext4: handle ext4_mark_inode_dirty errors") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit ab01cf03f245 ("drm/amdgpu/jpeg2.5: Remove JPEG_ENC_MASK from clock ungating") has no obvious style problems and is ready for submission.

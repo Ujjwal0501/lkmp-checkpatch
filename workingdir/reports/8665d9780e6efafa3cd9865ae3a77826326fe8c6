@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 89 lines checked
+
+Commit 8665d9780e6e ("dpaa2-eth: use bulk enqueue in .ndo_xdp_xmit") has no obvious style problems and is ready for submission.

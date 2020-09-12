@@ -1,0 +1,22 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#39: FILE: include/net/sctp/constants.h:359:
++#define SCTP_ADDR6_ALLOWED	0x00000002	/* IPv6 address is allowed by
++						   local sock family */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#39: FILE: include/net/sctp/constants.h:359:
++						   local sock family */
+
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#62: FILE: net/sctp/associola.c:1574:
++	flags = (PF_INET6 == sk->sk_family) ? SCTP_ADDR6_ALLOWED : 0;
+
+total: 0 errors, 3 warnings, 0 checks, 48 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 471e39df96b9 ("sctp: Don't advertise IPv4 addresses if ipv6only is set on the socket") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

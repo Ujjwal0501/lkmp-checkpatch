@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit df65bba1dcd8 ("lib/bsearch: Provide __always_inline variant") has no obvious style problems and is ready for submission.

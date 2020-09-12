@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 9f56bb531a80 ("selftests/bpf: Fix memory leak in extract_build_id()") has no obvious style problems and is ready for submission.

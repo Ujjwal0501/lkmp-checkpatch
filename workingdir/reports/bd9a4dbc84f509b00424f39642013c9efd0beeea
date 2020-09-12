@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit bd9a4dbc84f5 ("drm/i915: Remove manual save/resume of fence register state") has no obvious style problems and is ready for submission.

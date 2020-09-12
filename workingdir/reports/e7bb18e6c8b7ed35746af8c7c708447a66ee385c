@@ -1,0 +1,19 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#77: FILE: net/ipv6/ip6_tunnel.c:1307:
++			offset = ip6_tnl_parse_tlv_enc_lim(skb,
++						skb_network_header(skb));
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#167: FILE: net/ipv6/ip6_tunnel.c:1317:
++					icmpv6_send(skb, ICMPV6_PARAMPROB,
++						ICMPV6_HDR_FIELD, offset + 2);
+
+total: 0 errors, 0 warnings, 2 checks, 251 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e7bb18e6c8b7 ("ip6_tunnel: simplify transmit path") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit 383499f8863e ("arm64: BTI: Add Kconfig entry for userspace BTI") has no obvious style problems and is ready for submission.

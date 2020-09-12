@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 69 lines checked
+
+Commit 11aa40a0eb24 ("isofs: stop using ioctl_by_bdev") has no obvious style problems and is ready for submission.

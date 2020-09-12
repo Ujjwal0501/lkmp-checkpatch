@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 719 lines checked
+
+Commit 03414a49ad5f ("selinux: do not allocate hashtabs dynamically") has no obvious style problems and is ready for submission.

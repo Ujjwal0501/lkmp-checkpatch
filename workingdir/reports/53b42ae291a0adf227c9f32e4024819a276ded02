@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 88 lines checked
+
+Commit 53b42ae291a0 ("mt76: mt7615: introduce mt7615_check_offload_capability routine") has no obvious style problems and is ready for submission.

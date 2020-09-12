@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'Commit d9258898ad49 ("arm64: dts: vexpress: Move fixed devices out of bus node")'
+#6: 
+Commit d9258898ad49 ("arm64: dts: arm: vexpress: Move fixed devices
+
+total: 1 errors, 0 warnings, 158 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 38ac46002d1d ("arm: dts: vexpress: Move mcc node back into motherboard node") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

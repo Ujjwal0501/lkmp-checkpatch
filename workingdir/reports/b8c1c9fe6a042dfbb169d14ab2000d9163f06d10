@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b8c1c9fe6a04 ("arm64: entry: Fix the typo in the comment of el1_dbg()") has no obvious style problems and is ready for submission.

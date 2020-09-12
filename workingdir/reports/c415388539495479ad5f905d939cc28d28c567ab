@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit c41538853949 ("arm64: tegra: Add Tegra VI CSI support in device tree") has no obvious style problems and is ready for submission.

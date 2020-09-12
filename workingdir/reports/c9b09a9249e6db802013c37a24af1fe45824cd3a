@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c9b09a9249e6 ("kconfig: qconf: use delete[] instead of delete to free array") has no obvious style problems and is ready for submission.

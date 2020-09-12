@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit a5cb5fa6c3a5 ("drm/dp_mst: Reformat drm_dp_check_act_status() a bit") has no obvious style problems and is ready for submission.

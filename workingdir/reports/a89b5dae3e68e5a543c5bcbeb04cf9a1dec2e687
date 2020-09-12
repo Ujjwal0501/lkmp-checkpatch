@@ -1,0 +1,27 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#40: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_xgmi.c:329:
++	char node[10];
++	memset(node, 0, sizeof(node));
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#48: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_xgmi.c:335:
++		sysfs_remove_link(&adev->dev->kobj,"xgmi_hive_info");
+ 		                                  ^
+
+ERROR:SPACING: space required before the open brace '{'
+#65: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_xgmi.c:599:
++	if(!(--hive->number_devices)){
+
+ERROR:SPACING: space required before the open parenthesis '('
+#65: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_xgmi.c:599:
++	if(!(--hive->number_devices)){
+
+total: 3 errors, 1 warnings, 39 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a89b5dae3e68 ("drm/amdgpu fix incorrect sysfs remove behavior for xgmi") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

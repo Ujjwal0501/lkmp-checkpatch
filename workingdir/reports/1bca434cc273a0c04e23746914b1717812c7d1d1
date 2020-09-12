@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 23 lines checked
+
+Commit 1bca434cc273 ("staging: wfx: fix access to le32 attribute 'event_id'") has no obvious style problems and is ready for submission.

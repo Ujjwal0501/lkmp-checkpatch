@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 7e3b70e0703b ("rcu-tasks: Handle the running-offline idle-task special case") has no obvious style problems and is ready for submission.

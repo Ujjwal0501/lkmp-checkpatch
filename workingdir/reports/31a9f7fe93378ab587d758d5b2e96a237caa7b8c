@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#30: 
+new file mode 100644
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#96: FILE: tools/testing/selftests/bpf/progs/test_enable_stats.c:11:
++__u64 count = 0;
+
+total: 1 errors, 1 warnings, 63 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 31a9f7fe9337 ("bpf: Add selftest for BPF_ENABLE_STATS") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

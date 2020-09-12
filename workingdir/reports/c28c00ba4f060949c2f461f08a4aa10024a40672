@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit c28c00ba4f06 ("scsi: ufs: Introduce fixup_dev_quirks vops") has no obvious style problems and is ready for submission.

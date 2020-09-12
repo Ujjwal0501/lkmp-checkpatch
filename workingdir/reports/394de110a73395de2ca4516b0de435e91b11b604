@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 394de110a733 ("net: Added pointer check for dst->ops->neigh_lookup in dst_neigh_lookup_skb") has no obvious style problems and is ready for submission.

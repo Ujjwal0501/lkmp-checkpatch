@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 72 lines checked
+
+Commit 7d7e7bce768b ("net: phy: broadcom: add exp register access methods without buslock") has no obvious style problems and is ready for submission.

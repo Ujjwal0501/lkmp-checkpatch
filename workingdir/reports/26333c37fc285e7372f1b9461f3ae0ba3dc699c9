@@ -1,0 +1,33 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#61: FILE: net/ipv6/Kconfig:91:
++config INET6_ESPINTCP
+
+WARNING:CONST_STRUCT: struct proto_ops should normally be const
+#394: FILE: net/xfrm/espintcp.c:359:
++static struct proto_ops espintcp6_ops;
+
+WARNING:CONST_STRUCT: struct proto_ops should normally be const
+#409: FILE: net/xfrm/espintcp.c:403:
++			 struct proto_ops *espintcp_ops,
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#428: FILE: net/xfrm/espintcp.c:440:
++			build_protos(&espintcp6_prot, &espintcp6_ops, sk->sk_prot, sk->sk_socket->ops);
+
+WARNING:CONST_STRUCT: struct proto_ops should normally be const
+#442: FILE: net/xfrm/espintcp.c:519:
++			 struct proto_ops *espintcp_ops,
+
+WARNING:CONST_STRUCT: struct proto_ops should normally be const
+#447: FILE: net/xfrm/espintcp.c:524:
++	memcpy(espintcp_ops, orig_ops, sizeof(struct proto_ops));
+
+total: 0 errors, 6 warnings, 0 checks, 392 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 26333c37fc28 ("xfrm: add IPv6 support for espintcp") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

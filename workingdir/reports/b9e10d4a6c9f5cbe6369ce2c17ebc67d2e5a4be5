@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit b9e10d4a6c9f ("KVM: arm64: Stop clobbering x0 for HVC_SOFT_RESTART") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit b34e7e298d7a ("/dev/mem: Add missing memory barriers for devmem_inode") has no obvious style problems and is ready for submission.

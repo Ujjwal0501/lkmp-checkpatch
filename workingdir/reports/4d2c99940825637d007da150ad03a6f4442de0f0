@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit 4d2c99940825 ("net: tg3: tidy up loop, remove need to compute off with a multiply") has no obvious style problems and is ready for submission.

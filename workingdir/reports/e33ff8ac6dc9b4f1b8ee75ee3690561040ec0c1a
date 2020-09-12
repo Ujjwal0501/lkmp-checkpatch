@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit e33ff8ac6dc9 ("iio: gyro: adis16130: Use get_unaligned_be24()") has no obvious style problems and is ready for submission.

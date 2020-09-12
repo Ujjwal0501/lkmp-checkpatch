@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit dff681e95a23 ("powerpc/pseries/ras: fwnmi avoid modifying r3 in error case") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 181 lines checked
+
+Commit cbd14ae7ea93 ("drm/amd/display: Fix incorrectly pruned modes with deep color") has no obvious style problems and is ready for submission.

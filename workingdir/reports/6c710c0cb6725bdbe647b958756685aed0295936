@@ -1,0 +1,25 @@
+WARNING:BAD_SIGN_OFF: Co-developed-by: must be immediately followed by Signed-off-by:
+#19: 
+Co-developed-by: Georgy Vlasov <Georgy.Vlasov@baikalelectronics.ru>
+Co-developed-by: Ramil Zaripov <Ramil.Zaripov@baikalelectronics.ru>
+WARNING:BAD_SIGN_OFF: Co-developed-by and Signed-off-by: name/email do not match 
+#20: 
+Co-developed-by: Ramil Zaripov <Ramil.Zaripov@baikalelectronics.ru>
+Signed-off-by: Georgy Vlasov <Georgy.Vlasov@baikalelectronics.ru>
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#38: 
+ drivers/spi/{spi-dw-mid.c => spi-dw-dma.c} | 66 +++-------------------
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#52: FILE: drivers/spi/Kconfig:229:
++config SPI_DW_DMA
+
+total: 0 errors, 4 warnings, 217 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6c710c0cb672 ("spi: dw: Move Non-DMA code to the DW PCIe-SPI driver") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

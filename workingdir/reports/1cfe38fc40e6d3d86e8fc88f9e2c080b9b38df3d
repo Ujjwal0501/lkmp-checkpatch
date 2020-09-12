@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 116 lines checked
+
+Commit 1cfe38fc40e6 ("iio: adc: ad7793: use read_avail iio hook for scale available") has no obvious style problems and is ready for submission.

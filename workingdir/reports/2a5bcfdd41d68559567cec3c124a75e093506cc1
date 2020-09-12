@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 125 lines checked
+
+Commit 2a5bcfdd41d6 ("nvme-pci: align io queue count with allocted nvme_queue in nvme_probe") has no obvious style problems and is ready for submission.

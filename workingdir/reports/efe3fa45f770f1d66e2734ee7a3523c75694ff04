@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 95 lines checked
+
+Commit efe3fa45f770 ("net: hns3: fix aRFS FD rules leftover after add a user FD rule") has no obvious style problems and is ready for submission.

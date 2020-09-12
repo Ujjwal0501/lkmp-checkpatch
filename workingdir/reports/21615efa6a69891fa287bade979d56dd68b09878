@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 35 lines checked
+
+Commit 21615efa6a69 ("Revert "net: ethernet: fec: Prevent MII event after MII_SPEED write"") has no obvious style problems and is ready for submission.

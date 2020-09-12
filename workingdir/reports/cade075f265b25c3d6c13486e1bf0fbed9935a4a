@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 193 lines checked
+
+Commit cade075f265b ("vfio iommu: Cache pgsize_bitmap in struct vfio_iommu") has no obvious style problems and is ready for submission.

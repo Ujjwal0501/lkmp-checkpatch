@@ -1,0 +1,41 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#89: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:38:
++	{ MEDIA_BUS_FMT_SBGGR10_1X10, 10, 10, ATOMISP_INPUT_FORMAT_RAW_10, IA_CSS_BAYER_ORDER_BGGR },
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#90: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:39:
++	{ MEDIA_BUS_FMT_SGBRG10_1X10, 10, 10, ATOMISP_INPUT_FORMAT_RAW_10, IA_CSS_BAYER_ORDER_GBRG },
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#91: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:40:
++	{ MEDIA_BUS_FMT_SGRBG10_1X10, 10, 10, ATOMISP_INPUT_FORMAT_RAW_10, IA_CSS_BAYER_ORDER_GRBG },
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#92: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:41:
++	{ MEDIA_BUS_FMT_SRGGB10_1X10, 10, 10, ATOMISP_INPUT_FORMAT_RAW_10, IA_CSS_BAYER_ORDER_RGGB },
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#93: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:42:
++	{ MEDIA_BUS_FMT_SBGGR12_1X12, 12, 12, ATOMISP_INPUT_FORMAT_RAW_12, IA_CSS_BAYER_ORDER_BGGR },
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#94: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:43:
++	{ MEDIA_BUS_FMT_SGBRG12_1X12, 12, 12, ATOMISP_INPUT_FORMAT_RAW_12, IA_CSS_BAYER_ORDER_GBRG },
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#95: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:44:
++	{ MEDIA_BUS_FMT_SGRBG12_1X12, 12, 12, ATOMISP_INPUT_FORMAT_RAW_12, IA_CSS_BAYER_ORDER_GRBG },
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#96: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:45:
++	{ MEDIA_BUS_FMT_SRGGB12_1X12, 12, 12, ATOMISP_INPUT_FORMAT_RAW_12, IA_CSS_BAYER_ORDER_RGGB },
+
+total: 0 errors, 8 warnings, 0 checks, 98 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fb1f6ae692fc ("media: atomisp: remove format duplication at mbus->fourcc table") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

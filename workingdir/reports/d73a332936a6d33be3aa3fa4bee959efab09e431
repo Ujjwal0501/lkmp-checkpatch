@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit d73a332936a6 ("x86/traps: Mark fixup_bad_iret() noinstr") has no obvious style problems and is ready for submission.

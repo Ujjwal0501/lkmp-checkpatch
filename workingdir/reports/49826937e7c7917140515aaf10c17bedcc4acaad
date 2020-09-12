@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 49826937e7c7 ("ipmi:bt-bmc: Fix error handling and status check") has no obvious style problems and is ready for submission.

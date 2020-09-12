@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 159 lines checked
+
+Commit 90b5363acd47 ("sched: Clean up scheduler_ipi()") has no obvious style problems and is ready for submission.

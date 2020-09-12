@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit 35eba185fd1a ("i2c: designware: Calculate SCL timing parameter for High Speed Mode") has no obvious style problems and is ready for submission.

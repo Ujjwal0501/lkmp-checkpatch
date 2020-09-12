@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 53dd7028dc39 ("drm/i915/evict: watch out for unevictable nodes") has no obvious style problems and is ready for submission.

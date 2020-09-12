@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit e51c3e13709f ("powerpc/entry32: Blacklist exception exit points for kprobe.") has no obvious style problems and is ready for submission.

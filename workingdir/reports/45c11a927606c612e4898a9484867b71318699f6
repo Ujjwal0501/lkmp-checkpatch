@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 99 lines checked
+
+Commit 45c11a927606 ("pinctrl: baytrail: Fix pin being driven low for a while on gpiod_get(..., GPIOD_OUT_HIGH)") has no obvious style problems and is ready for submission.

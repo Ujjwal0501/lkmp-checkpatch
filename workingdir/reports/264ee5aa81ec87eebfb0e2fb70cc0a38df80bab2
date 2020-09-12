@@ -1,0 +1,28 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#30: FILE: drivers/vhost/test.c:266:
++static long vhost_test_set_backend(struct vhost_test *n, unsigned index, int fd)
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#68: FILE: drivers/vhost/test.c:304:
++	if (enable) {
++		vhost_test_flush_vq(n, index);
++	}
+
+WARNING:SIZEOF_PARENTHESIS: sizeof backend should be sizeof(backend)
+#94: FILE: drivers/vhost/test.c:334:
++		if (copy_from_user(&backend, argp, sizeof backend))
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#189: FILE: tools/virtio/virtio_test.c:308:
+ 		" [--batch=random/N]"
++		" [--reset=N]"
+
+total: 0 errors, 4 warnings, 180 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 264ee5aa81ec ("tools/virtio: Add --reset") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

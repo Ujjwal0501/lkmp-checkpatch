@@ -1,0 +1,17 @@
+WARNING:DATA_RACE: data_race without comment
+#55: FILE: kernel/rcu/tasks.h:1160:
++		data_race(n_heavy_reader_updates),
+
+WARNING:DATA_RACE: data_race without comment
+#56: FILE: kernel/rcu/tasks.h:1161:
++		data_race(n_heavy_reader_attempts));
+
+total: 0 errors, 2 warnings, 35 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 40471509be3c ("rcu-tasks: Add rcu_dynticks_zero_in_eqs() effectiveness statistics") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

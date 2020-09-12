@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 166 lines checked
+
+Commit c43dd6b4144a ("drm/i915/selftests: Check power consumption at min/max frequencies") has no obvious style problems and is ready for submission.

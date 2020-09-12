@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 15 lines checked
+
+Commit bc1c5745d779 ("qlogic/qede: Add XDP frame size to driver") has no obvious style problems and is ready for submission.

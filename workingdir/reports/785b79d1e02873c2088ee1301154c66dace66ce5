@@ -1,0 +1,65 @@
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#114: FILE: arch/powerpc/lib/feature-fixups.c:695:
++	extern unsigned int ftr_fixup_prefix1[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#115: FILE: arch/powerpc/lib/feature-fixups.c:696:
++	extern unsigned int end_ftr_fixup_prefix1[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#116: FILE: arch/powerpc/lib/feature-fixups.c:697:
++	extern unsigned int ftr_fixup_prefix1_orig[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#117: FILE: arch/powerpc/lib/feature-fixups.c:698:
++	extern unsigned int ftr_fixup_prefix1_expected[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#135: FILE: arch/powerpc/lib/feature-fixups.c:716:
++	extern unsigned int ftr_fixup_prefix2[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#136: FILE: arch/powerpc/lib/feature-fixups.c:717:
++	extern unsigned int end_ftr_fixup_prefix2[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#137: FILE: arch/powerpc/lib/feature-fixups.c:718:
++	extern unsigned int ftr_fixup_prefix2_orig[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#138: FILE: arch/powerpc/lib/feature-fixups.c:719:
++	extern unsigned int ftr_fixup_prefix2_expected[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#139: FILE: arch/powerpc/lib/feature-fixups.c:720:
++	extern unsigned int ftr_fixup_prefix2_alt[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#157: FILE: arch/powerpc/lib/feature-fixups.c:738:
++	extern unsigned int ftr_fixup_prefix3[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#158: FILE: arch/powerpc/lib/feature-fixups.c:739:
++	extern unsigned int end_ftr_fixup_prefix3[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#159: FILE: arch/powerpc/lib/feature-fixups.c:740:
++	extern unsigned int ftr_fixup_prefix3_orig[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#160: FILE: arch/powerpc/lib/feature-fixups.c:741:
++	extern unsigned int ftr_fixup_prefix3_expected[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#161: FILE: arch/powerpc/lib/feature-fixups.c:742:
++	extern unsigned int ftr_fixup_prefix3_alt[];
+
+total: 0 errors, 14 warnings, 165 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 785b79d1e028 ("powerpc: Test prefixed instructions in feature fixups") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,21 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+Fix 2 typos in L2CAP_CREDIT_BASED_CONNECTION_REQ (0x17) handling function, that
+
+WARNING:TYPO_SPELLING: 'Enchanced' may be misspelled - perhaps 'Enhanced'?
+#11: 
+Enchanced Credit Based Mode support was recently introduced with the commit
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 15f02b910562 ("Bluetooth: L2CAP: Add initial code for Enhanced Credit Based Mode")'
+#12: 
+15f02b91056253e8cdc592888f431da0731337b8 ("Bluetooth: L2CAP: Add initial code
+
+total: 1 errors, 2 warnings, 0 checks, 16 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 69d67b461a18 ("Bluetooth: L2CAP: Fix errors during L2CAP_CREDIT_BASED_CONNECTION_REQ (0x17)") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

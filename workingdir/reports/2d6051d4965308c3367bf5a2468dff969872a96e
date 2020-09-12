@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 2d6051d49653 ("xfs: call xfs_dinode_verify from xfs_inode_from_disk") has no obvious style problems and is ready for submission.

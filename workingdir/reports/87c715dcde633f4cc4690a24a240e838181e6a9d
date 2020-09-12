@@ -1,0 +1,13 @@
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO | S_IWUSR' are not preferred. Consider using octal permissions '0644'.
+#820: FILE: drivers/scsi/scsi_debug.c:4541:
++		   S_IRUGO | S_IWUSR);
+
+total: 0 errors, 1 warnings, 1352 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 87c715dcde63 ("scsi: scsi_debug: Add per_host_store option") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

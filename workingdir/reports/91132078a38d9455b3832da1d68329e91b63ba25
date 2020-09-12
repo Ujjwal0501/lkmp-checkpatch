@@ -1,0 +1,13 @@
+WARNING:CONST_STRUCT: struct clk_ops should normally be const
+#62: FILE: arch/m68k/coldfire/m5441x.c:217:
++struct clk_ops clk_ops2 = {
+
+total: 0 errors, 1 warnings, 42 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 91132078a38d ("m68k: coldfire/clk.c: move m5441x specific code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

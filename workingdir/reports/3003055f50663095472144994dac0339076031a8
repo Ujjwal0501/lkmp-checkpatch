@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 69 lines checked
+
+Commit 3003055f5066 ("netfilter: nf_tables: hook list memleak in flowtable deletion") has no obvious style problems and is ready for submission.

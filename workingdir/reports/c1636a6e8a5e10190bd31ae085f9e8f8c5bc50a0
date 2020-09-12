@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit c1636a6e8a5e ("ice: support adding 16 unicast/multicast filter on untrusted VF") has no obvious style problems and is ready for submission.

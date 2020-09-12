@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit cc8c0363ddce ("media: s5p-mfc: Properly handle dma_parms for the allocated devices") has no obvious style problems and is ready for submission.

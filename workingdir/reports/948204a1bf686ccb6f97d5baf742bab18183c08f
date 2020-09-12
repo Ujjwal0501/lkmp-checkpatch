@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 175 lines checked
+
+Commit 948204a1bf68 ("arm64: dts: juno: Move fixed devices out of bus node") has no obvious style problems and is ready for submission.

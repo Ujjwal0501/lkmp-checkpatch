@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit b3df80ab6d14 ("ASoC: Intel: bytcht_es8316: Add missed put_device()") has no obvious style problems and is ready for submission.

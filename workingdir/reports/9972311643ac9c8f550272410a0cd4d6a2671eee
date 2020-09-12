@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 35 lines checked
+
+Commit 9972311643ac ("media: atomisp: make dfs_config_merr_117a struct const") has no obvious style problems and is ready for submission.

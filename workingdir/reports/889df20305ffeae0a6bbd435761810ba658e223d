@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit 889df20305ff ("net: stmmac: dwmac-meson8b: Move the documentation for the TX delay") has no obvious style problems and is ready for submission.

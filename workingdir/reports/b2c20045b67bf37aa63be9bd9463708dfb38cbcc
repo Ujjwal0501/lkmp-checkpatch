@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit b2c20045b67b ("xfs: remove xfs_ifree_local_data") has no obvious style problems and is ready for submission.

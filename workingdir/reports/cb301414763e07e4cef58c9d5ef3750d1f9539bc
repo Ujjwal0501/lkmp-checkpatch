@@ -1,0 +1,14 @@
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#24: FILE: MAINTAINERS:2145:
+ F:	drivers/*/*npcm*
++F:	drivers/*/*/*npcm*
+
+total: 0 errors, 1 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cb301414763e ("MAINTAINERS: npcm7xx: Add maintainer for Nuvoton NPCM BMC") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

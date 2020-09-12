@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#42: 
+new file mode 100644
+
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#161: FILE: arch/arm64/boot/dts/renesas/r8a774c0-ek874-mipi-2.1.dts:15:
++	model = "Silicon Linux RZ/G2E evaluation kit EK874 (CAT874 + CAT875) with aistarvision-mipi-v2-adapter board";
+
+total: 0 errors, 2 warnings, 175 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0e36587c0832 ("arm64: dts: renesas: r8a774c0-cat874: Add support for AISTARVISION MIPI Adapter V2.1") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,15 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit c6f03e2903c9 ("mm, memory_hotplug: remove zone restrictions")'
+#6: 
+Memory hotlug is broken for 32b systems at least since c6f03e2903c9 ("mm,
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Michal Hocko <mhocko@kernel.org>'
+
+total: 1 errors, 1 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b59d02ed0869 ("mm/memory_hotplug: disable the functionality for 32b") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

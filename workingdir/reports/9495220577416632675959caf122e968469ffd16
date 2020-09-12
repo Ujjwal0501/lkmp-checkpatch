@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit 949522057741 ("drm/amd/powerplay: try to do a graceful shutdown on SW CTF") has no obvious style problems and is ready for submission.

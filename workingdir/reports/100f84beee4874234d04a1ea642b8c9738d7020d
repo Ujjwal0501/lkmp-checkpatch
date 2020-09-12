@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit 100f84beee48 ("crypto: stm32/crc32 - don't sleep in runtime pm") has no obvious style problems and is ready for submission.

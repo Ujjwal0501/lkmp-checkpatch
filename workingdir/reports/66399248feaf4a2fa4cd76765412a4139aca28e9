@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 55 lines checked
+
+Commit 66399248feaf ("drm/amdgpu: added xgmi ras error reset sequence") has no obvious style problems and is ready for submission.

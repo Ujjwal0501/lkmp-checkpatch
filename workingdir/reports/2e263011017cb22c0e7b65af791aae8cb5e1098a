@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 2e263011017c ("mtd: rawnand: ingenic: Fix the RB gpio active-high property on qi, lb60") has no obvious style problems and is ready for submission.

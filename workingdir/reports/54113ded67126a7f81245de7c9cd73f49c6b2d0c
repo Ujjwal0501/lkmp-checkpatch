@@ -1,0 +1,13 @@
+CHECK:CAMELCASE: Avoid CamelCase: <MagicPacket_v2>
+#72: FILE: drivers/net/ethernet/realtek/r8169_main.c:1370:
++			rtl_eri_set_bits(tp, 0x0dc, MagicPacket_v2);
+
+total: 0 errors, 0 warnings, 1 checks, 184 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 54113ded6712 ("r8169: remove mask argument from rtl_w0w1_eri") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

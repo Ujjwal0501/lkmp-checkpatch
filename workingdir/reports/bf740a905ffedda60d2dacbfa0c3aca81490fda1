@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit bf740a905ffe ("arm64: vdso: Map the vDSO text with guarded pages when built for BTI") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c22f90750440 ("xtensa: fix type conversion in __get_user_size") has no obvious style problems and is ready for submission.

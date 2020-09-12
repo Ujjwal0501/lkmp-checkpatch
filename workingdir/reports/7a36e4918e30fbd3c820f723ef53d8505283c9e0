@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 155 lines checked
+
+Commit 7a36e4918e30 ("octeontx2-pf: Use the napi_alloc_frag() to alloc the pool buffers") has no obvious style problems and is ready for submission.

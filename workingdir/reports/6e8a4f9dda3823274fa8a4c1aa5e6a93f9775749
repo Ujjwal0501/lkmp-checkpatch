@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 6e8a4f9dda38 ("net: ignore sock_from_file errors in __scm_install_fd") has no obvious style problems and is ready for submission.

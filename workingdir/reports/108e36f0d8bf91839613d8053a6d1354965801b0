@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 108e36f0d8bf ("scsi: scsi_debug: Disallow zone sizes that are not powers of 2") has no obvious style problems and is ready for submission.

@@ -1,0 +1,18 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#236: FILE: fs/exec.c:1773:
++		struct file *exec;
++		if (depth > 5)
+
+ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+#279: FILE: include/linux/binfmts.h:54:
++	struct file * interpreter;
+
+total: 1 errors, 1 warnings, 204 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bc2bf338d54b ("exec: Remove recursion from search_binary_handler") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

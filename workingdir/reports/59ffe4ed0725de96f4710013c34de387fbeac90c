@@ -1,0 +1,13 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#9: 
+Allow that property in the DT bindings to fix a complaint about the Arm Juno
+
+total: 0 errors, 1 warnings, 18 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 59ffe4ed0725 ("dt-bindings: ehci/ohci: Allow iommus property") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

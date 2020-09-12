@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 276 lines checked
+
+Commit 488a23b89d17 ("selftests/bpf: Move existing common networking parts into network_helpers") has no obvious style problems and is ready for submission.

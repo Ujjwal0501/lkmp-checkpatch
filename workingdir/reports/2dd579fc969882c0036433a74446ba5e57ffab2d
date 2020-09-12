@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 2dd579fc9698 ("ARM: dts: remove disable-wp from rk3229-xms6 emmc") has no obvious style problems and is ready for submission.

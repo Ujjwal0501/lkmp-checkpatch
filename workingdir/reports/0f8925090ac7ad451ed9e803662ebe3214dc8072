@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 89 lines checked
+
+Commit 0f8925090ac7 ("drm/i915/tc: Do not warn when aux power well of static TC ports timeout") has no obvious style problems and is ready for submission.

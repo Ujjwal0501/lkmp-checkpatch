@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 69 lines checked
+
+Commit d073569363d9 ("x86/mm: Cleanup pgprot_4k_2_large() and pgprot_large_2_4k()") has no obvious style problems and is ready for submission.

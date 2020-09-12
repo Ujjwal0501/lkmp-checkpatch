@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit f427f4d6214c ("IB/sa: Resolv use-after-free in ib_nl_make_request()") has no obvious style problems and is ready for submission.

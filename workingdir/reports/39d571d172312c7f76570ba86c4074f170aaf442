@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit 39d571d17231 ("drm/i915/gem: Take DBG_FORCE_RELOC into account prior to using reloc_gpu") has no obvious style problems and is ready for submission.

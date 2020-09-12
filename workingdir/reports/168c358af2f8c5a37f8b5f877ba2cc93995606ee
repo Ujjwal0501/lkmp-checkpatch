@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#35: FILE: drivers/virtio/virtio_balloon.c:587:
++			vb->cmd_id_received_cache = le32_to_cpu((__force __le32)vb->cmd_id_received_cache);
+
+total: 0 errors, 1 warnings, 15 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 168c358af2f8 ("virtio_balloon: fix up endian-ness for free cmd id") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

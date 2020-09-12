@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f4a9fdd5f12a ("KVM: VMX: Replace zero-length array with flexible-array") has no obvious style problems and is ready for submission.

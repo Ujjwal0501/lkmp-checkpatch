@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 96 lines checked
+
+Commit c6e7bd7afaeb ("sched/core: Optimize ttwu() spinning on p->on_cpu") has no obvious style problems and is ready for submission.

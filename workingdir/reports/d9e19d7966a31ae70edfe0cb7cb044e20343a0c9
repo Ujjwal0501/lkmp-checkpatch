@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit d9e19d7966a3 ("drm/msm/a6xx: skip HFI set freq if GMU is powered down") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 97 lines checked
+
+Commit b2b1046f1de6 ("media: v4l2-ctrls: add __v4l2_ctrl_s_ctrl_compound()") has no obvious style problems and is ready for submission.

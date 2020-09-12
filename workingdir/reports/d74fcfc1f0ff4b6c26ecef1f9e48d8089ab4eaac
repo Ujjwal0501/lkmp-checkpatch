@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'blah'
+#11: 
+    57-bit linear addresses (bit 12 of CR4) ... blah blah blah ...
+
+WARNING:REPEATED_WORD: Possible repeated word: 'blah'
+#11: 
+    57-bit linear addresses (bit 12 of CR4) ... blah blah blah ...
+
+total: 0 errors, 2 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d74fcfc1f0ff ("KVM: x86: Inject #GP if guest attempts to toggle CR4.LA57 in 64-bit mode") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

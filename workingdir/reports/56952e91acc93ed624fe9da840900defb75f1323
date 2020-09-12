@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 56952e91acc9 ("io_uring: reap poll completions while waiting for refs to drop on exit") has no obvious style problems and is ready for submission.

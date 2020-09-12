@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 44ed240d6273 ("usb: host: ehci-exynos: Fix error check in exynos_ehci_probe()") has no obvious style problems and is ready for submission.

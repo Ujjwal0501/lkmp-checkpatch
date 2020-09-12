@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit ac60b2294c9e ("drm/amd/display: Move backlight pwm enable function call") has no obvious style problems and is ready for submission.

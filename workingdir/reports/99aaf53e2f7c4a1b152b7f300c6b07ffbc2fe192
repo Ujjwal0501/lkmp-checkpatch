@@ -1,0 +1,24 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#25: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#30: FILE: tools/testing/selftests/bpf/README.rst:1:
++==================
+
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#69: FILE: tools/testing/selftests/bpf/README.rst:40:
++This is due to a llvm BPF backend bug. The fix $
+
+total: 1 errors, 2 warnings, 43 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 99aaf53e2f7c ("tools/bpf: selftests : Explain bpf_iter test failures with llvm 10.0.0") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

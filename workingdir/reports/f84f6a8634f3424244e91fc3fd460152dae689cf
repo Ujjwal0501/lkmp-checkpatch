@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 31 lines checked
+
+Commit f84f6a8634f3 ("net: hns3: remove two unused structures in hclge_cmd.h") has no obvious style problems and is ready for submission.

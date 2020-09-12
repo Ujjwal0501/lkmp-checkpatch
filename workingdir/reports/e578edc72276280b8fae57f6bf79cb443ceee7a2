@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit e578edc72276 ("kbuild: remove ifdef builtin-target / lib-target") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 47 lines checked
+
+Commit e256ec83fabd ("igc: Fix NFC rules leak when driver is unloaded") has no obvious style problems and is ready for submission.

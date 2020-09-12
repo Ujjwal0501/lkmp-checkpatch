@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 0a2bc9919cf7 ("mtd: rawnand: qcom: Stop using nand_release()") has no obvious style problems and is ready for submission.

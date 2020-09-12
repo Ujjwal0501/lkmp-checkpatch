@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#11: 
+one is too high. If the the temperature is even higher, the chipis also
+
+CHECK:CAMELCASE: Avoid CamelCase: <pStatus>
+#34: FILE: drivers/staging/wfx/hif_rx.c:285:
++			*pStatus);
+
+total: 0 errors, 1 warnings, 1 checks, 10 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5f041538e276 ("staging: wfx: add an explicit warning when chip detect too high temperature") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

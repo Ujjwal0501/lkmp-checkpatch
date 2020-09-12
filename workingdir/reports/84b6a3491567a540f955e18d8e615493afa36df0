@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 82 lines checked
+
+Commit 84b6a3491567 ("x86/entry: Optimize local_db_save() for virt") has no obvious style problems and is ready for submission.

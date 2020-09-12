@@ -1,0 +1,13 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#6: 
+Copy'n'paste without thinking is not a good idea and in this case it brought
+
+total: 0 errors, 1 warnings, 0 checks, 53 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e578f043ffcf ("stmmac: intel: Remove unnecessary loop for PCI BARs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

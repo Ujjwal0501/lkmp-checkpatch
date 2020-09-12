@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit 1f2aaed2db03 ("powerpc/module_64: Simplify check for -mprofile-kernel ftrace relocations") has no obvious style problems and is ready for submission.

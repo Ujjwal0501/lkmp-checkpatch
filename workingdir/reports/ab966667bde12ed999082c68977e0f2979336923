@@ -1,0 +1,185 @@
+CHECK:CAMELCASE: Avoid CamelCase: <Configuration>
+#33: FILE: drivers/staging/rtl8188eu/core/rtw_ieee80211.c:256:
++	ie = rtw_set_ie(ie, _DSSET_IE_, 1, (u8 *)&pdev_network->Configuration.DSConfig, &sz);
+
+CHECK:CAMELCASE: Avoid CamelCase: <DSConfig>
+#33: FILE: drivers/staging/rtl8188eu/core/rtw_ieee80211.c:256:
++	ie = rtw_set_ie(ie, _DSSET_IE_, 1, (u8 *)&pdev_network->Configuration.DSConfig, &sz);
+
+CHECK:CAMELCASE: Avoid CamelCase: <ATIMWindow>
+#38: FILE: drivers/staging/rtl8188eu/core/rtw_ieee80211.c:260:
++	ie = rtw_set_ie(ie, _IBSS_PARA_IE_, 2, (u8 *)&pdev_network->Configuration.ATIMWindow, &sz);
+
+CHECK:CAMELCASE: Avoid CamelCase: <pDM_Odm>
+#69: FILE: drivers/staging/rtl8188eu/hal/odm.c:196:
++	if (*pDM_Odm->pbPowerSaving)
+
+CHECK:CAMELCASE: Avoid CamelCase: <pbPowerSaving>
+#69: FILE: drivers/staging/rtl8188eu/hal/odm.c:196:
++	if (*pDM_Odm->pbPowerSaving)
+
+CHECK:CAMELCASE: Avoid CamelCase: <pBandWidth>
+#82: FILE: drivers/staging/rtl8188eu/hal/odm.c:232:
++	if (*pDM_Odm->pBandWidth == ODM_BW40M) {
+
+CHECK:CAMELCASE: Avoid CamelCase: <pSecChOffset>
+#83: FILE: drivers/staging/rtl8188eu/hal/odm.c:233:
++		if (*pDM_Odm->pSecChOffset == 1)
+
+CHECK:CAMELCASE: Avoid CamelCase: <ControlChannel>
+#84: FILE: drivers/staging/rtl8188eu/hal/odm.c:234:
++			pDM_Odm->ControlChannel = *pDM_Odm->pChannel - 2;
+
+CHECK:CAMELCASE: Avoid CamelCase: <pChannel>
+#84: FILE: drivers/staging/rtl8188eu/hal/odm.c:234:
++			pDM_Odm->ControlChannel = *pDM_Odm->pChannel - 2;
+
+WARNING:LONG_LINE: line length of 122 exceeds 100 columns
+#107: FILE: drivers/staging/rtl8188eu/hal/odm.c:273:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pNumTxBytesUnicast=%llu\n", *pDM_Odm->pNumTxBytesUnicast));
+
+CHECK:CAMELCASE: Avoid CamelCase: <pNumTxBytesUnicast>
+#107: FILE: drivers/staging/rtl8188eu/hal/odm.c:273:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pNumTxBytesUnicast=%llu\n", *pDM_Odm->pNumTxBytesUnicast));
+
+WARNING:LONG_LINE: line length of 122 exceeds 100 columns
+#108: FILE: drivers/staging/rtl8188eu/hal/odm.c:274:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pNumRxBytesUnicast=%llu\n", *pDM_Odm->pNumRxBytesUnicast));
+
+CHECK:CAMELCASE: Avoid CamelCase: <pNumRxBytesUnicast>
+#108: FILE: drivers/staging/rtl8188eu/hal/odm.c:274:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pNumRxBytesUnicast=%llu\n", *pDM_Odm->pNumRxBytesUnicast));
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#109: FILE: drivers/staging/rtl8188eu/hal/odm.c:275:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pWirelessMode=0x%x\n", *pDM_Odm->pWirelessMode));
+
+CHECK:CAMELCASE: Avoid CamelCase: <pWirelessMode>
+#109: FILE: drivers/staging/rtl8188eu/hal/odm.c:275:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pWirelessMode=0x%x\n", *pDM_Odm->pWirelessMode));
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#110: FILE: drivers/staging/rtl8188eu/hal/odm.c:276:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pSecChOffset=%d\n", *pDM_Odm->pSecChOffset));
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#111: FILE: drivers/staging/rtl8188eu/hal/odm.c:277:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pSecurity=%d\n", *pDM_Odm->pSecurity));
+
+CHECK:CAMELCASE: Avoid CamelCase: <pSecurity>
+#111: FILE: drivers/staging/rtl8188eu/hal/odm.c:277:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pSecurity=%d\n", *pDM_Odm->pSecurity));
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#112: FILE: drivers/staging/rtl8188eu/hal/odm.c:278:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pBandWidth=%d\n", *pDM_Odm->pBandWidth));
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#115: FILE: drivers/staging/rtl8188eu/hal/odm.c:281:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pbScanInProcess=%d\n", *pDM_Odm->pbScanInProcess));
+
+CHECK:CAMELCASE: Avoid CamelCase: <pbScanInProcess>
+#115: FILE: drivers/staging/rtl8188eu/hal/odm.c:281:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pbScanInProcess=%d\n", *pDM_Odm->pbScanInProcess));
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#116: FILE: drivers/staging/rtl8188eu/hal/odm.c:282:
++	ODM_RT_TRACE(pDM_Odm, ODM_COMP_COMMON, ODM_DBG_LOUD, ("pbPowerSaving=%d\n", *pDM_Odm->pbPowerSaving));
+
+CHECK:CAMELCASE: Avoid CamelCase: <FalseAlmCnt>
+#134: FILE: drivers/staging/rtl8188eu/hal/odm.c:511:
++	struct false_alarm_stats *FalseAlmCnt = &pDM_Odm->FalseAlmCnt;
+
+CHECK:CAMELCASE: Avoid CamelCase: <Adapter>
+#171: FILE: drivers/staging/rtl8188eu/hal/odm.c:1038:
++	struct xmit_priv		*pxmitpriv = &Adapter->xmitpriv;
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'dm_txpwr_track_setpwr', this function's name, in a string
+#191: FILE: drivers/staging/rtl8188eu/hal/phy.c:348:
++			     ("dm_txpwr_track_setpwr CH=%d\n", *dm_odm->pChannel));
+
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#236: FILE: drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c:259:
++	pframe = rtw_set_ie(pframe, _DSSET_IE_, 1, (unsigned char *)&cur_network->Configuration.DSConfig, &pktlen);
+
+WARNING:LONG_LINE: line length of 117 exceeds 100 columns
+#271: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:420:
++			memcpy(&psecuritypriv->dot11DefKey[wep_key_idx].skey[0], pwep->KeyMaterial, pwep->KeyLength);
+
+CHECK:CAMELCASE: Avoid CamelCase: <dot11DefKey>
+#271: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:420:
++			memcpy(&psecuritypriv->dot11DefKey[wep_key_idx].skey[0], pwep->KeyMaterial, pwep->KeyLength);
+
+CHECK:CAMELCASE: Avoid CamelCase: <KeyMaterial>
+#271: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:420:
++			memcpy(&psecuritypriv->dot11DefKey[wep_key_idx].skey[0], pwep->KeyMaterial, pwep->KeyLength);
+
+CHECK:CAMELCASE: Avoid CamelCase: <KeyLength>
+#271: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:420:
++			memcpy(&psecuritypriv->dot11DefKey[wep_key_idx].skey[0], pwep->KeyMaterial, pwep->KeyLength);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#281: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:447:
++						memcpy(psta->dot11tkiptxmickey.skey, &param->u.crypt.key[16], 8);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#282: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:448:
++						memcpy(psta->dot11tkiprxmickey.skey, &param->u.crypt.key[24], 8);
+
+WARNING:LONG_LINE: line length of 146 exceeds 100 columns
+#292: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:457:
++					memcpy(padapter->securitypriv.dot118021XGrptxmickey[param->u.crypt.idx].skey, &param->u.crypt.key[16], 8);
+
+CHECK:CAMELCASE: Avoid CamelCase: <dot118021XGrptxmickey>
+#292: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:457:
++					memcpy(padapter->securitypriv.dot118021XGrptxmickey[param->u.crypt.idx].skey, &param->u.crypt.key[16], 8);
+
+WARNING:LONG_LINE: line length of 146 exceeds 100 columns
+#293: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:458:
++					memcpy(padapter->securitypriv.dot118021XGrprxmickey[param->u.crypt.idx].skey, &param->u.crypt.key[24], 8);
+
+CHECK:CAMELCASE: Avoid CamelCase: <dot118021XGrprxmickey>
+#293: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:458:
++					memcpy(padapter->securitypriv.dot118021XGrprxmickey[param->u.crypt.idx].skey, &param->u.crypt.key[24], 8);
+
+WARNING:LONG_LINE: line length of 117 exceeds 100 columns
+#436: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2248:
++			memcpy(&psecuritypriv->dot11DefKey[wep_key_idx].skey[0], pwep->KeyMaterial, pwep->KeyLength);
+
+WARNING:LONG_LINE: line length of 117 exceeds 100 columns
+#445: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2259:
++			memcpy(&psecuritypriv->dot11DefKey[wep_key_idx].skey[0], pwep->KeyMaterial, pwep->KeyLength);
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#455: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2286:
++				memcpy(psecuritypriv->dot118021XGrptxmickey[param->u.crypt.idx].skey, &param->u.crypt.key[16], 8);
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#456: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2287:
++				memcpy(psecuritypriv->dot118021XGrprxmickey[param->u.crypt.idx].skey, &param->u.crypt.key[24], 8);
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#466: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2329:
++					memcpy(psta->dot11tkiptxmickey.skey, &param->u.crypt.key[16], 8);
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#467: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2330:
++					memcpy(psta->dot11tkiprxmickey.skey, &param->u.crypt.key[24], 8);
+
+WARNING:LONG_LINE: line length of 138 exceeds 100 columns
+#477: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2360:
++					memcpy(psecuritypriv->dot118021XGrptxmickey[param->u.crypt.idx].skey, &param->u.crypt.key[16], 8);
+
+WARNING:LONG_LINE: line length of 138 exceeds 100 columns
+#478: FILE: drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2361:
++					memcpy(psecuritypriv->dot118021XGrprxmickey[param->u.crypt.idx].skey, &param->u.crypt.key[24], 8);
+
+total: 0 errors, 23 warnings, 21 checks, 504 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ab966667bde1 ("staging: rtl8188eu: remove unnecessary parentheses") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

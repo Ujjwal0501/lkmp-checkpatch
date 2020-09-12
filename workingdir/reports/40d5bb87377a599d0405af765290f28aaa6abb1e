@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit 40d5bb87377a ("HID: multitouch: enable multi-input as a quirk for some devices") has no obvious style problems and is ready for submission.

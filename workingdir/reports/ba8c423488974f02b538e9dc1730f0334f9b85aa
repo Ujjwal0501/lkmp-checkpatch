@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ba8c42348897 ("xen/xenbus: Fix a double free in xenbus_map_ring_pv()") has no obvious style problems and is ready for submission.

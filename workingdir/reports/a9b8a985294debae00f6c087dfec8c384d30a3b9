@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 623 lines checked
+
+Commit a9b8a985294d ("workqueue: Convert the pool::lock and wq_mayday_lock to raw_spinlock_t") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit a5047a3400d5 ("media: staging: atomisp: Check return value from compat_alloc_user_space") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b9ddee1ee15f ("scsi: bfa: bfa_core.c: make bfa_isr_rspq() static") has no obvious style problems and is ready for submission.

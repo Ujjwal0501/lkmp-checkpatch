@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit e6eff4376e28 ("module: Make module_enable_ro() static again") has no obvious style problems and is ready for submission.

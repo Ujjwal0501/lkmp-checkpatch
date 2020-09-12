@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit cb3d1085019d ("drm/amdgpu/ring: add no_scheduler flag") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:PREFER_PRINTF: __printf(string-index, first-to-check) is preferred over __attribute__((format(printf, string-index, first-to-check)))
+#40: FILE: tools/testing/selftests/vm/pkey-helpers.h:32:
++__attribute__((format(printf, 1, 2)))
+
+total: 0 errors, 1 warnings, 10 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a09160e694cc ("selftests/vm/pkeys: make gcc check arguments of sigsafe_printf()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

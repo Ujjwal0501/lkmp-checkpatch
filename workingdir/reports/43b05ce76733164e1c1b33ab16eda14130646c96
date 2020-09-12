@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 43b05ce76733 ("crypto: stm32/hash - defer probe for reset controller") has no obvious style problems and is ready for submission.

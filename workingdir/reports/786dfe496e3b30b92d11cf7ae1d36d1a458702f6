@@ -1,0 +1,17 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#85: FILE: drivers/iommu/amd_iommu.h:36:
++extern int amd_iommu_reenable(int);
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#194: 
+deleted file mode 100644
+
+total: 0 errors, 2 warnings, 163 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 786dfe496e3b ("iommu/amd: Merge private header files") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

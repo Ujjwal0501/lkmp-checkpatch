@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 4bc90f492230 ("mmc: sdio: Fix macro name for Marvell device with ID 0x9134") has no obvious style problems and is ready for submission.

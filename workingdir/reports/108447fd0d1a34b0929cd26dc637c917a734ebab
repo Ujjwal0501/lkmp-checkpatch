@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 108447fd0d1a ("arm64: Add KRYO{3,4}XX silver CPU cores to SSB safelist") has no obvious style problems and is ready for submission.

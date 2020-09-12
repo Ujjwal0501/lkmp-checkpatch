@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#45: FILE: arch/arm64/kernel/cpufeature.c:177:
++	ARM64_FTR_BITS(FTR_HIDDEN, FTR_NONSTRICT, FTR_LOWER_SAFE, ID_AA64PFR0_EL1_SHIFT, 4, ID_AA64PFR0_EL1_64BIT_ONLY),
+
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#46: FILE: arch/arm64/kernel/cpufeature.c:178:
++	ARM64_FTR_BITS(FTR_HIDDEN, FTR_NONSTRICT, FTR_LOWER_SAFE, ID_AA64PFR0_EL0_SHIFT, 4, ID_AA64PFR0_EL0_64BIT_ONLY),
+
+total: 0 errors, 2 warnings, 23 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 98448cdfe706 ("arm64: cpufeature: Relax checks for AArch32 support at EL[0-2]") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

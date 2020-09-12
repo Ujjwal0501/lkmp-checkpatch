@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit cca98e9f8b5e ("mm: enforce that vmap can't map pages executable") has no obvious style problems and is ready for submission.

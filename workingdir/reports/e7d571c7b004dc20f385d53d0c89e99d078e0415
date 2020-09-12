@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 218 lines checked
+
+Commit e7d571c7b004 ("btrfs: reloc: remove the open-coded goto loop for breadth-first search") has no obvious style problems and is ready for submission.

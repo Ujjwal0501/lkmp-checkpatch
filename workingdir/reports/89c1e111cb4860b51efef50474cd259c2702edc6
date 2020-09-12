@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 89c1e111cb48 ("switchdev: mrp: Remove the variable mrp_ring_state") has no obvious style problems and is ready for submission.

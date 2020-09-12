@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 1268c33382fa ("asm-generic: add a flush_icache_user_range stub") has no obvious style problems and is ready for submission.

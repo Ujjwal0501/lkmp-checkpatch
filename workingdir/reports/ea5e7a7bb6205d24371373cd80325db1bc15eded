@@ -1,0 +1,18 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#38: FILE: drivers/iio/humidity/hdc100x.c:44:
++		__be16 channels[2];
++		s64 ts __aligned(8);
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#38: FILE: drivers/iio/humidity/hdc100x.c:44:
++		s64 ts __aligned(8);
+
+total: 0 errors, 2 warnings, 33 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ea5e7a7bb620 ("iio:humidity:hdc100x Fix alignment and data leak issues") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

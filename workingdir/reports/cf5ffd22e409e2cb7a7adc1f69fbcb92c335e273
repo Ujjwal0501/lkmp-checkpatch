@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 92 lines checked
+
+Commit cf5ffd22e409 ("staging: vt6656: use usb_anchor for tx queue.") has no obvious style problems and is ready for submission.

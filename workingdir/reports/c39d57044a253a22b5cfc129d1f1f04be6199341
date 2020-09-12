@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 84 lines checked
+
+Commit c39d57044a25 ("media: Kconfig: use a sub-menu to select supported devices") has no obvious style problems and is ready for submission.

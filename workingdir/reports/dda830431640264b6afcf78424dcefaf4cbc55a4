@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit dda830431640 ("ARM: dts: stm32: add cortex-M4 pdds management in Cortex-M4 node") has no obvious style problems and is ready for submission.

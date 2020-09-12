@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit 47891bf1da31 ("drm/amdgpu: drop unnecessary cancel_delayed_work_sync on PG ungate") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 7a1c4f28ead6 ("binderfs: Fix binderfs.c selftest compilation warning") has no obvious style problems and is ready for submission.

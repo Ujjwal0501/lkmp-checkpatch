@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c696afd331be ("ARM: dts: imx6sx-sdb: Fix the phy-mode on fec2") has no obvious style problems and is ready for submission.

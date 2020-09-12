@@ -1,0 +1,17 @@
+CHECK:PREFER_KERNEL_TYPES: Prefer kernel type 'u8' over 'uint8_t'
+#97: FILE: drivers/staging/wfx/hif_tx.c:498:
++			 const uint8_t *pubkey, const uint8_t *pubkey_hmac)
+
+CHECK:PREFER_KERNEL_TYPES: Prefer kernel type 'u8' over 'uint8_t'
+#108: FILE: drivers/staging/wfx/hif_tx.c:533:
++		       const uint8_t *slk_key, int destination)
+
+total: 0 errors, 0 warnings, 2 checks, 152 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b356aed9ec0c ("staging: wfx: fix alignements of function prototypes") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#45: FILE: drivers/i2c/i2c-slave-eeprom.c:204:
++	{ "slave-24c512ro", I2C_SLAVE_DEVICE_MAGIC(524288 / 8, I2C_SLAVE_FLAG_ADDR16 | I2C_SLAVE_FLAG_RO) },
+
+total: 0 errors, 1 warnings, 24 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5c71ca4d4f98 ("i2c: slave-eeprom: add support for 24c512 EEPROMs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,15 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#24: FILE: drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c:927:
++		adev->dm.dc->debug.disable_stutter = amdgpu_pp_feature_mask & PP_STUTTER_MODE ? false : true;
+
+total: 0 errors, 2 warnings, 18 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f99d8762501d ("drm/amd/display: Respect PP_STUTTER_MODE but don't override DC_DISABLE_STUTTER") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

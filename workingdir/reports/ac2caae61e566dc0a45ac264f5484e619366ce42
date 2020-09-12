@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit ac2caae61e56 ("drm/tegra: Clean up GPIO includes") has no obvious style problems and is ready for submission.

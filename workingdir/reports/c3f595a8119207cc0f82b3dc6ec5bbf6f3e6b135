@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c3f595a81192 ("usb: dwc3: pci: add support for the Intel Tiger Lake PCH -H variant") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 213f272b754f ("arm64: dts: rockchip: replace RK_FUNC defines in rk3326-odroid-go2") has no obvious style problems and is ready for submission.

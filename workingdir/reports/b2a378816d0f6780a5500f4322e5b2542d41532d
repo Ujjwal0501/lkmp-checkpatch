@@ -1,0 +1,16 @@
+WARNING:DT_SPLIT_BINDING_PATCH: DT binding docs and includes should be a separate patch. See: Documentation/devicetree/bindings/submitting-patches.rst
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#96: FILE: sound/soc/codecs/da7213.c:1867:
++	struct da7213_priv *da7213 = data;
++	regulator_bulk_disable(DA7213_NUM_SUPPLIES, da7213->supplies);
+
+total: 0 errors, 2 warnings, 177 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b2a378816d0f ("ASoC: da7213: Add regulator support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

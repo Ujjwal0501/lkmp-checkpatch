@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit b54369a248c2 ("NTB: perf: Fix support for hardware that doesn't have port numbers") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 35 lines checked
+
+Commit 5fdba8a77be6 ("mt76: mt7663: add support to sched scan with randomise addr") has no obvious style problems and is ready for submission.

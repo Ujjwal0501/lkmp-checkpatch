@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit df6e71256c84 ("iio: pressure: bmp280: Explicitly mark GPIO optional") has no obvious style problems and is ready for submission.

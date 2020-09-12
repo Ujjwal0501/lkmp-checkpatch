@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 93 lines checked
+
+Commit a041e672cb57 ("spi: dw: Get rid of dma_inited flag") has no obvious style problems and is ready for submission.

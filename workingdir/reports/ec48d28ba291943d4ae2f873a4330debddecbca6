@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 48 lines checked
+
+Commit ec48d28ba291 ("ath11k: Fix rx_filter flags setting for per peer rx_stats") has no obvious style problems and is ready for submission.

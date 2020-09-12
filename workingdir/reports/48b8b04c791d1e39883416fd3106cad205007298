@@ -1,0 +1,14 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#68: FILE: drivers/gpu/drm/i915/display/intel_audio.c:541:
++	drm_dbg_kms(&i915->drm, "h_active = %u link_clk = %u :"
++		    "lanes = %u vdsc_bpp = %u cdclk = %u\n",
+
+total: 0 errors, 1 warnings, 180 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 48b8b04c791d ("drm/i915/display: Enable DP Display Audio WA") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit e218325ff9c3 ("clk: at91: pmc: decrement node's refcount") has no obvious style problems and is ready for submission.

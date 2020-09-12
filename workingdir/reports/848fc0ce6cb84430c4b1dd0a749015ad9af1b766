@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 29 lines checked
+
+Commit 848fc0ce6cb8 ("net: ks8851: Pass device node into ks8851_init_mac()") has no obvious style problems and is ready for submission.

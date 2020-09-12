@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 82 lines checked
+
+Commit 88d8822d30cc ("ALSA: usb-audio: Manage auto-pm of all bundled interfaces") has no obvious style problems and is ready for submission.

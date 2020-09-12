@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit afb7f565249a ("spi: dw: Drop duplicate error message when remap resource") has no obvious style problems and is ready for submission.

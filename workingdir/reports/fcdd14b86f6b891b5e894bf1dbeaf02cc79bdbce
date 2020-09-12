@@ -1,0 +1,17 @@
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#45: FILE: drivers/scsi/lpfc/lpfc_nvmet.c:3213:
++	}
+ 
+ 	lpfc_printf_log(phba, KERN_INFO, LOG_NVME_ABTS,
+ 			"6083 Abort cmpl: ctx x%px WCQE:%08x %08x %08x %08x\n",
+@@ -3244,7 +3246,7 @@ lpfc_nvmet_unsol_issue_abort(struct lpfc_hba *phba,
+
+total: 0 errors, 1 warnings, 70 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fcdd14b86f6b ("lpfc: Fix pointer checks and comments in LS receive refactoring") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

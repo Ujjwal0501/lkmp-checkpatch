@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 1ef1380ca5dd ("drm/sun4i: Sort includes in VI and UI layer code") has no obvious style problems and is ready for submission.

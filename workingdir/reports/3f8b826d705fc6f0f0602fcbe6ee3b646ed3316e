@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 43 lines checked
+
+Commit 3f8b826d705f ("dpaa2-eth: Update FQ taildrop threshold and buffer pool count") has no obvious style problems and is ready for submission.

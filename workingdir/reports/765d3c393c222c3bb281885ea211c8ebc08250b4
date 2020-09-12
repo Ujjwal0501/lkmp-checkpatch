@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 765d3c393c22 ("xfs: don't allow SWAPEXT if we'd screw up quota accounting") has no obvious style problems and is ready for submission.

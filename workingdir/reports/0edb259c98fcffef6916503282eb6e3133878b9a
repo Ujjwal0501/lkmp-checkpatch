@@ -1,0 +1,13 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#43: FILE: drivers/power/reset/Kconfig:126:
++config POWER_RESET_OXNAS
+
+total: 0 errors, 1 warnings, 260 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0edb259c98fc ("power: reset: introduce oxnas-restart") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

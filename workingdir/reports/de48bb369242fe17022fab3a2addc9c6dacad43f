@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit de48bb369242 ("arm64: mm: Display guarded pages in ptdump") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit fa7cc725a343 ("power: supply: smb347-charger: Add delay before getting IRQSTAT") has no obvious style problems and is ready for submission.

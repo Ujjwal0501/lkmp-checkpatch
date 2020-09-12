@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit e77132e75845 ("kernel/sysctl.c: ignore out-of-range taint bits introduced via kernel.tainted") has no obvious style problems and is ready for submission.

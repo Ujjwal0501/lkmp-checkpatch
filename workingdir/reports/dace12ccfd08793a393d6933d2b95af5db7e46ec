@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit dace12ccfd08 ("mtd: rawnand: diskonchip: Set the NAND_NO_BBM_QUIRK flag") has no obvious style problems and is ready for submission.

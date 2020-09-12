@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 83 lines checked
+
+Commit aed65285fb9e ("mlxsw: spectrum_matchall: Expose a function to get min and max rule priority") has no obvious style problems and is ready for submission.

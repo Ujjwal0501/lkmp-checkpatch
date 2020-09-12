@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 156 lines checked
+
+Commit ceabef7dd717 ("dynamic_debug: add an option to enable dynamic debug for modules only") has no obvious style problems and is ready for submission.

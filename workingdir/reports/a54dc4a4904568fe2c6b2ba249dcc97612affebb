@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 40 lines checked
+
+Commit a54dc4a49045 ("net: stmmac: dwmac-meson8b: Make the clock enabling code re-usable") has no obvious style problems and is ready for submission.

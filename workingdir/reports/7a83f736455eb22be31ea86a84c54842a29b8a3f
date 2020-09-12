@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 54 lines checked
+
+Commit 7a83f736455e ("staging: vt6656: vnt_get_rtscts_duration_le use ieee80211_ctstoself_duration") has no obvious style problems and is ready for submission.

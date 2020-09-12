@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 85 lines checked
+
+Commit 6fdeb6cbe1ef ("gpio: pca953x: drop unused parameters of pca953x_recalc_addr()") has no obvious style problems and is ready for submission.

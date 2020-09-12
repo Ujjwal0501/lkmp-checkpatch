@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 70 lines checked
+
+Commit ca1c933bcee9 ("net: phy: tja11xx: execute cable test on link up") has no obvious style problems and is ready for submission.

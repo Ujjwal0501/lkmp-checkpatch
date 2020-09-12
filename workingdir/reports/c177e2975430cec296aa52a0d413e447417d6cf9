@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit c177e2975430 ("clocksource/drivers/timer-ti-dm: Fix warning for set but not used") has no obvious style problems and is ready for submission.

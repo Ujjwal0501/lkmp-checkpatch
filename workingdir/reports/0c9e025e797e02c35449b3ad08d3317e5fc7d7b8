@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 82 lines checked
+
+Commit 0c9e025e797e ("iwlwifi: yoyo: don't access TLV before verifying len") has no obvious style problems and is ready for submission.

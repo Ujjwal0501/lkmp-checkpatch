@@ -1,0 +1,13 @@
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#152: FILE: arch/x86/xen/enlighten_pv.c:626:
++	TRAP_ENTRY(exc_bounds,				false ),
+
+total: 1 errors, 0 warnings, 93 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 58d9c81facf5 ("x86/entry: Convert Bounds exception to IDTENTRY") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

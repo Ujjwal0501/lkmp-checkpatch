@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit 9bcaa3fe58ab ("drm: Replace drm_modeset_lock/unlock_all with DRM_MODESET_LOCK_ALL_* helpers") has no obvious style problems and is ready for submission.

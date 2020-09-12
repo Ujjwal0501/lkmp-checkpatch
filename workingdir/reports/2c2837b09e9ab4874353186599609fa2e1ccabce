@@ -1,0 +1,34 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#108: FILE: tools/testing/selftests/bpf/prog_tests/bpf_obj_id.c:140:
++			  "err %d errno %d i %d type %d(%d) info_len %u(%zu) "
++			  "jit_enabled %d jited_prog_len %u xlated_prog_len %u "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#109: FILE: tools/testing/selftests/bpf/prog_tests/bpf_obj_id.c:141:
++			  "jit_enabled %d jited_prog_len %u xlated_prog_len %u "
++			  "jited_prog %d xlated_prog %d load_time %lu(%lu) "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#110: FILE: tools/testing/selftests/bpf/prog_tests/bpf_obj_id.c:142:
++			  "jited_prog %d xlated_prog %d load_time %lu(%lu) "
++			  "uid %u(%u) nr_map_ids %u(%u) map_id %u(%u) "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#111: FILE: tools/testing/selftests/bpf/prog_tests/bpf_obj_id.c:143:
++			  "uid %u(%u) nr_map_ids %u(%u) map_id %u(%u) "
++			  "name %s(%s)\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#136: FILE: tools/testing/selftests/bpf/prog_tests/bpf_obj_id.c:175:
++			  "err %d errno %d info_len %u(%zu) type %d(%d) id %d "
++			  "prog_id %d (%d) tp_name %s(%s)\n",
+
+total: 0 errors, 5 warnings, 206 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2c2837b09e9a ("selftests/bpf: Test bpf_link's get_next_id, get_fd_by_id, and get_obj_info") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

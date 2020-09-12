@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 7ed1c1901fe5 ("tools: fix cross-compile var clobbering")'
+#7: 
+relying on 7ed1c1901fe5 ("tools: fix cross-compile var clobbering").
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 9e88b9312acb ("tools: bpftool: do not force gcc as CC")'
+#10: 
+9e88b9312acb ("tools: bpftool: do not force gcc as CC").
+
+total: 2 errors, 0 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 47f6bc4ce1ff ("tools, bpf: Do not force gcc as CC") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

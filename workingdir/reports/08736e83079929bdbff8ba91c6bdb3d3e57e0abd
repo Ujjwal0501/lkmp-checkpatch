@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 08736e830799 ("i2c: stm32f7: prevent array underflow in stm32f7_get_lower_rate()") has no obvious style problems and is ready for submission.

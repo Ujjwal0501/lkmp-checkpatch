@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit ca1b409a3b8a ("floppy: cleanup: make set_fdc() always set current_drive and current_fd") has no obvious style problems and is ready for submission.

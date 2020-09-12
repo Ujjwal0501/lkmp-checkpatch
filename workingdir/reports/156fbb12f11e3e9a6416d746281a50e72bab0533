@@ -1,0 +1,33 @@
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ibm,fsi2pib" appears un-documented -- check ./Documentation/devicetree/bindings/
+#39: FILE: arch/arm/boot/dts/aspeed-bmc-ibm-rainier.dts:89:
++			compatible = "ibm,fsi2pib";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ibm,p9-sbefifo" appears un-documented -- check ./Documentation/devicetree/bindings/
+#44: FILE: arch/arm/boot/dts/aspeed-bmc-ibm-rainier.dts:94:
++			compatible = "ibm,p9-sbefifo";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "fsi-master-hub" appears un-documented -- check ./Documentation/devicetree/bindings/
+#55: FILE: arch/arm/boot/dts/aspeed-bmc-ibm-rainier.dts:105:
++			compatible = "fsi-master-hub";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ibm,fsi2pib" appears un-documented -- check ./Documentation/devicetree/bindings/
+#73: FILE: arch/arm/boot/dts/aspeed-bmc-ibm-rainier.dts:123:
++			compatible = "ibm,fsi2pib";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ibm,p9-sbefifo" appears un-documented -- check ./Documentation/devicetree/bindings/
+#78: FILE: arch/arm/boot/dts/aspeed-bmc-ibm-rainier.dts:128:
++			compatible = "ibm,p9-sbefifo";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "fsi-master-hub" appears un-documented -- check ./Documentation/devicetree/bindings/
+#89: FILE: arch/arm/boot/dts/aspeed-bmc-ibm-rainier.dts:139:
++			compatible = "fsi-master-hub";
+
+total: 0 errors, 6 warnings, 88 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 156fbb12f11e ("ARM: dts: aspeed: rainier: Add host FSI description") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

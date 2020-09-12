@@ -1,0 +1,14 @@
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#33: FILE: drivers/staging/media/atomisp/platform/intel-mid/atomisp_gmin_platform.c:407:
++
++
+
+total: 0 errors, 0 warnings, 1 checks, 17 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1c874c13cd54 ("media: atomisp: add support for possible new names") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

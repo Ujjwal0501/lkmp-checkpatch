@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 134 lines checked
+
+Commit d01aa2633b5d ("rcu-tasks: Code movement to allow more Tasks RCU variants") has no obvious style problems and is ready for submission.

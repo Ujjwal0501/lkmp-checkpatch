@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit b35833479e53 ("drm/amdgpu: remove set but not used variable 'direct_poll' in vcn_v2_0.c") has no obvious style problems and is ready for submission.

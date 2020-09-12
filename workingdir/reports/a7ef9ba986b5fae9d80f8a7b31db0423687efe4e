@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit a7ef9ba986b5 ("x86/speculation/mds: Mark mds_user_clear_cpu_buffers() __always_inline") has no obvious style problems and is ready for submission.

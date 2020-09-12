@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit e669c1da03a9 ("block: don't call invalidate_partition from blk_drop_partitions") has no obvious style problems and is ready for submission.

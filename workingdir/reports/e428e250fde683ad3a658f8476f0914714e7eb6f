@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 524 lines checked
+
+Commit e428e250fde6 ("ARM: dts: Configure system timers for omap3") has no obvious style problems and is ready for submission.

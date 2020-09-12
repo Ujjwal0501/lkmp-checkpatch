@@ -1,0 +1,50 @@
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#241: FILE: net/netlink/genetlink.c:1067:
++			rt = genl_family_find_byname(
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#309: 
+new file mode 100644
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#316: FILE: net/netlink/policy.c:3:
++/*
++ * NETLINK      Policy advertisement to userspace
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#318: FILE: net/netlink/policy.c:5:
++ * ^I^IAuthors:^IJohannes Berg <johannes@sipsolutions.net>$
+
+WARNING:KREALLOC_ARG_REUSE: Reusing the krealloc arg is almost always a bug
+#362: FILE: net/netlink/policy.c:49:
++	state = krealloc(state, struct_size(state, policies, n_alloc),
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#391: FILE: net/netlink/policy.c:78:
++                              unsigned long *_state)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#391: FILE: net/netlink/policy.c:78:
++                              unsigned long *_state)$
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#402: FILE: net/netlink/policy.c:89:
++	/*
++	 * walk the policies and nested ones first, and build
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#501: FILE: net/netlink/policy.c:188:
++		/* fall through */
+
+total: 1 errors, 7 warnings, 1 checks, 537 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit d07dcf9aadd6 ("netlink: add infrastructure to expose policies to userspace") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

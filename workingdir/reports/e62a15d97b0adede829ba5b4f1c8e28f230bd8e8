@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit e62a15d97b0a ("spi: dw: Downgrade interrupt.h to irqreturn.h where appropriate") has no obvious style problems and is ready for submission.

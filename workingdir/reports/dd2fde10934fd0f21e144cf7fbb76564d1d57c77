@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit dd2fde10934f ("habanalabs: rename mmu_write() to mmu_asid_va_write()") has no obvious style problems and is ready for submission.

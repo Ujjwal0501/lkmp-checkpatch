@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 47548aa94c21 ("staging: rtl8723bs: core: remove set but not used 'listen_interval'") has no obvious style problems and is ready for submission.

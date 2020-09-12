@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 9516352150c0 ("net: hns3: add a missing mutex destroy in hclge_init_ad_dev()") has no obvious style problems and is ready for submission.

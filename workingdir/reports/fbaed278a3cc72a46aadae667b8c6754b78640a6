@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit fbaed278a3cc ("x86/idt: Remove address operator on function machine_check()") has no obvious style problems and is ready for submission.

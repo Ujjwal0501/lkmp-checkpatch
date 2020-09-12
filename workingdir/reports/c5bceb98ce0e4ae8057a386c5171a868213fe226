@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit c5bceb98ce0e ("firmware: arm_scmi: Fix handling of unexpected delayed responses") has no obvious style problems and is ready for submission.

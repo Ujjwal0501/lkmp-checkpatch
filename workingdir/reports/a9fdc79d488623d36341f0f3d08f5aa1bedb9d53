@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 236 lines checked
+
+Commit a9fdc79d4886 ("remoteproc: qcom_q6v5_mss: Drop accesses to MPSS PERPH register space") has no obvious style problems and is ready for submission.

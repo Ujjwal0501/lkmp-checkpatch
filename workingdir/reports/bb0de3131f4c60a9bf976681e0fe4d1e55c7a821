@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 136 lines checked
+
+Commit bb0de3131f4c ("bpf: sockmap: Require attach_bpf_fd when detaching a program") has no obvious style problems and is ready for submission.

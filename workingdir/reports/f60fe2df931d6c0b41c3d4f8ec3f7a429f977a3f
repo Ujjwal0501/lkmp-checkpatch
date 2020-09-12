@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 151 lines checked
+
+Commit f60fe2df931d ("sit: impement ->ndo_tunnel_ctl") has no obvious style problems and is ready for submission.

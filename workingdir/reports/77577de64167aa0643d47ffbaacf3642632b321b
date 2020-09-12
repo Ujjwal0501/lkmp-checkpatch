@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 77577de64167 ("cifs: Fix cached_fid refcnt leak in open_shroot") has no obvious style problems and is ready for submission.

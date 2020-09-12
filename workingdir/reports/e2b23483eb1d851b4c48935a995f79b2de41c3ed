@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 171 lines checked
+
+Commit e2b23483eb1d ("perf machine: Factor out lbr_callchain_add_lbr_ip()") has no obvious style problems and is ready for submission.

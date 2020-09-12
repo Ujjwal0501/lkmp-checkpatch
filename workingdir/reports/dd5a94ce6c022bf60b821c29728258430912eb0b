@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit dd5a94ce6c02 ("drm/amd/display: Move enable fractional pwm call") has no obvious style problems and is ready for submission.

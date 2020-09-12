@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 79 lines checked
+
+Commit 3c42e198e668 ("virtio-mem: Drop manual check for already present memory") has no obvious style problems and is ready for submission.

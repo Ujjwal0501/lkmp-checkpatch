@@ -1,0 +1,13 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct xfs_inode *' should also have an identifier name
+#84: FILE: fs/xfs/xfs_inode_item.h:37:
++extern void xfs_iflush_abort(struct xfs_inode *);
+
+total: 0 errors, 1 warnings, 44 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 88fc187984c9 ("xfs: remove unused iflush stale parameter") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

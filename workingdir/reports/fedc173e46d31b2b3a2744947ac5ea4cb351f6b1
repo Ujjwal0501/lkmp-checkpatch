@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit fedc173e46d3 ("scsi: qedf: Honor status qualifier in FCP_RSP per spec") has no obvious style problems and is ready for submission.

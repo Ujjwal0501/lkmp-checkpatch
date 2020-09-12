@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 188 lines checked
+
+Commit fc4a4515acac ("s390/net: remove pm ops from ccwgroup drivers") has no obvious style problems and is ready for submission.

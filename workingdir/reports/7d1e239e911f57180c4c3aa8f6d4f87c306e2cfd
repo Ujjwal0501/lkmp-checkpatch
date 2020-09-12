@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 173 lines checked
+
+Commit 7d1e239e911f ("perf counts: Rename perf_evsel__*counts() to evsel__*counts()") has no obvious style problems and is ready for submission.

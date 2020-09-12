@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit 1569a3c44303 ("net/faraday: Fix unnecessary check in ftmac100_probe()") has no obvious style problems and is ready for submission.

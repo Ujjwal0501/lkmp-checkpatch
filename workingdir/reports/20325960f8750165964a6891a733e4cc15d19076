@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 1309 lines checked
+
+Commit 20325960f875 ("afs: Reorganise volume and server trees to be rooted on the cell") has no obvious style problems and is ready for submission.

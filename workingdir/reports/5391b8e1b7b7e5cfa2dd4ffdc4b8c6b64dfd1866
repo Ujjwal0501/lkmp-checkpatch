@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 17 lines checked
+
+Commit 5391b8e1b7b7 ("SMB3: Honor 'posix' flag for multiuser mounts") has no obvious style problems and is ready for submission.

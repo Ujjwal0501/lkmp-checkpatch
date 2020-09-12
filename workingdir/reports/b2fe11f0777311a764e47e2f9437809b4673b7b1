@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 30 lines checked
+
+Commit b2fe11f07773 ("brcmfmac: fix WPA/WPA2-PSK 4-way handshake offload and SAE offload failures") has no obvious style problems and is ready for submission.

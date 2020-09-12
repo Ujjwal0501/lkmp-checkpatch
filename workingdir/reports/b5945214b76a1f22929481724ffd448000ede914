@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit b5945214b76a ("kernel/cpu_pm: Fix uninitted local in cpu_pm") has no obvious style problems and is ready for submission.

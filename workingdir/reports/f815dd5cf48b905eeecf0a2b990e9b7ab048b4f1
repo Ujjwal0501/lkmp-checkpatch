@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit f815dd5cf48b ("net: usb: qmi_wwan: add support for Quectel EG95 LTE modem") has no obvious style problems and is ready for submission.

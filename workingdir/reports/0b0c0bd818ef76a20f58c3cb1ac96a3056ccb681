@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 0b0c0bd818ef ("regulator: max8998: max8998_set_current_limit() can be static") has no obvious style problems and is ready for submission.

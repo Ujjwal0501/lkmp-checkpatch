@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit d431f8939c14 ("ath10k: remove the max_sched_scan_reqs value") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:MISPLACED_INIT: __initdata should be placed after parsed_default_hugepagesz
+#203: FILE: mm/hugetlb.c:63:
++static bool __initdata parsed_default_hugepagesz;
+
+WARNING:LONG_LINE: line length of 124 exceeds 100 columns
+#320: FILE: mm/hugetlb.c:3341:
++		pr_warn("HugeTLB: hugepages= specified twice without interleaving hugepagesz=, ignoring hugepages=%s\n", s);
+
+total: 0 errors, 2 warnings, 332 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 282f4214384e ("hugetlbfs: clean up command line processing") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

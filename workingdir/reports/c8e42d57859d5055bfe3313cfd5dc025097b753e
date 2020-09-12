@@ -1,0 +1,53 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#75: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu.h:449:
++		  unsigned size,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#112: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:64:
++		unsigned size,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#130: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:286:
++	unsigned size;
+
+WARNING:QUOTED_WHITESPACE_BEFORE_NEWLINE: unnecessary whitespace before a quoted newline
+#178: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:422:
++	seq_printf(m, "-------------------- NORMAL -------------------- \n");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#178: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:422:
++	seq_printf(m, "-------------------- NORMAL -------------------- \n");
+
+WARNING:QUOTED_WHITESPACE_BEFORE_NEWLINE: unnecessary whitespace before a quoted newline
+#180: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:424:
++	seq_printf(m, "---------------------- VM ---------------------- \n");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#180: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:424:
++	seq_printf(m, "---------------------- VM ---------------------- \n");
+
+WARNING:QUOTED_WHITESPACE_BEFORE_NEWLINE: unnecessary whitespace before a quoted newline
+#182: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:426:
++	seq_printf(m, "-------------------- DIRECT--------------------- \n");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#182: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:426:
++	seq_printf(m, "-------------------- DIRECT--------------------- \n");
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#256: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ttm.c:2047:
++									AMDGPU_IB_POOL_NORMAL, &job);
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#371: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_vm_sdma.c:228:
++					p->direct ? AMDGPU_IB_POOL_VM : AMDGPU_IB_POOL_NORMAL, &p->job);
+
+total: 0 errors, 11 warnings, 416 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c8e42d57859d ("drm/amdgpu: implement more ib pools (v2)") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit 550713e33f43 ("pinctrl: ocelot: Always register GPIO driver") has no obvious style problems and is ready for submission.

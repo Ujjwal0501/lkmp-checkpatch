@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 4b4e8e93eccc ("pinctrl: rza1: Fix wrong array assignment of rza1l_swio_entries") has no obvious style problems and is ready for submission.

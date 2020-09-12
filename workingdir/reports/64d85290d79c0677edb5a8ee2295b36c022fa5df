@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 126 lines checked
+
+Commit 64d85290d79c ("bpf: Allow bpf_map_lookup_elem for SOCKMAP and SOCKHASH") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 646 lines checked
+
+Commit e54dcf4bba3e ("net: atlantic: basic A2 init/deinit hw_ops") has no obvious style problems and is ready for submission.

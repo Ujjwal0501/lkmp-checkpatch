@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 966334dfc472 ("Input: elan_i2c - only increment wakeup count on touch") has no obvious style problems and is ready for submission.

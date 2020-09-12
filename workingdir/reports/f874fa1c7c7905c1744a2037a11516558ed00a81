@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 109 lines checked
+
+Commit f874fa1c7c79 ("f2fs: split f2fs_d_compare() from f2fs_match_name()") has no obvious style problems and is ready for submission.

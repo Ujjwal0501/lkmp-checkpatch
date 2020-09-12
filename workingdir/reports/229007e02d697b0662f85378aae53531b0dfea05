@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 67 lines checked
+
+Commit 229007e02d69 ("drm/i915: Wrap i915_active in a simple kreffed struct") has no obvious style problems and is ready for submission.

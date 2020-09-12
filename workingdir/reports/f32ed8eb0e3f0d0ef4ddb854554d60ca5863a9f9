@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 91 lines checked
+
+Commit f32ed8eb0e3f ("drivers/perf: Prevent forced unbinding of PMU drivers") has no obvious style problems and is ready for submission.

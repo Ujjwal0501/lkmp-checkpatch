@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 177 lines checked
+
+Commit ff3f7e049aef ("iio: buffer: extend short-hand use for 'indio_dev->buffer'") has no obvious style problems and is ready for submission.

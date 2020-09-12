@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 194 lines checked
+
+Commit 400dc0f86102 ("powerpc/8xx: Drop special handling of Linear and IMMR mappings in I/D TLB handlers") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 37 lines checked
+
+Commit ad46bd5ec357 ("net: atlantic: remove hw_atl_b0_hw_rss_set call from A2 code") has no obvious style problems and is ready for submission.

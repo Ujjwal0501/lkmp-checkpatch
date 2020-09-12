@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit 5707dd73c71b ("pinctrl: cherryview: Use GENMASK() consistently") has no obvious style problems and is ready for submission.

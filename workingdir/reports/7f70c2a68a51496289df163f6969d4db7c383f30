@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 58 lines checked
+
+Commit 7f70c2a68a51 ("mm/memory.c: properly pte_offset_map_lock/unlock in vm_insert_pages()") has no obvious style problems and is ready for submission.

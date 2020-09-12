@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit c2cf318df87c ("iwlwifi: nvm: use iwl_nl80211_band_from_channel_idx") has no obvious style problems and is ready for submission.

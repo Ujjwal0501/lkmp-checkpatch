@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 19 lines checked
+
+Commit f391503b7a11 ("net: ena: use explicit variable size for clarity") has no obvious style problems and is ready for submission.

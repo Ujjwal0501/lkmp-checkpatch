@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit ce06d3ec2b5a ("btrfs: make btrfs_check_repairable() static") has no obvious style problems and is ready for submission.

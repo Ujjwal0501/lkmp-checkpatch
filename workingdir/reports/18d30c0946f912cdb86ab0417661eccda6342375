@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 18d30c0946f9 ("i2c: pxa: remove some unnecessary debug") has no obvious style problems and is ready for submission.

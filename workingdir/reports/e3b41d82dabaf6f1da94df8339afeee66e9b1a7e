@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#72: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_vcn.c:348:
++				fences += amdgpu_fence_count_emitted(&adev->vcn.inst[ring->me].ring_enc[i]);
+
+total: 0 errors, 1 warnings, 66 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e3b41d82daba ("drm/amdgpu/vcn: fix race condition issue for dpg unpause mode switch") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

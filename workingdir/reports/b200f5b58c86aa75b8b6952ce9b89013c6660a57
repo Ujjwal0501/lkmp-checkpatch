@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit b200f5b58c86 ("s390: use __vmalloc_node in stack_alloc") has no obvious style problems and is ready for submission.

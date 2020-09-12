@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit ee0b8e6d0218 ("dt-bindings: net: dwmac-meson: Document the "timing-adjustment" clock") has no obvious style problems and is ready for submission.

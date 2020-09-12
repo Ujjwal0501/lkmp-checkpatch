@@ -1,0 +1,26 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#20: 
+  Code: eb f2 0f 1f 00 66 66 66 66 90 83 7e 04 33 48 89 f8 44 8b 46 10 48 89 f7 76 40 41 8d 50 ff 83 fa 19 77 23 8b 56 20 85 d2 75 07 <c7> 46 20 ff ff ff ff 4b 8d 14 40 48 c1 e2 04 48 8d b4 10 00 05 00
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#20: 
+  Code: eb f2 0f 1f 00 66 66 66 66 90 83 7e 04 33 48 89 f8 44 8b 46 10 48 89 f7 76 40 41 8d 50 ff 83 fa 19 77 23 8b 56 20 85 d2 75 07 <c7> 46 20 ff ff ff ff 4b 8d 14 40 48 c1 e2 04 48 8d b4 10 00 05 00
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#20: 
+  Code: eb f2 0f 1f 00 66 66 66 66 90 83 7e 04 33 48 89 f8 44 8b 46 10 48 89 f7 76 40 41 8d 50 ff 83 fa 19 77 23 8b 56 20 85 d2 75 07 <c7> 46 20 ff ff ff ff 4b 8d 14 40 48 c1 e2 04 48 8d b4 10 00 05 00
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#89: FILE: drivers/net/wireless/intel/iwlwifi/iwl-dbg-tlv.c:290:
++		dup = kmemdup(tlv, sizeof(*tlv) + le32_to_cpu(tlv->length),
++				GFP_KERNEL);
+
+total: 0 errors, 3 warnings, 1 checks, 30 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ea0cca61d628 ("iwlwifi: fix crash in iwl_dbg_tlv_alloc_trigger") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

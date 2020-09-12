@@ -1,0 +1,13 @@
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'ldmxcsr', this function's name, in a string
+#37: FILE: arch/x86/include/asm/fpu/internal.h:628:
++	asm volatile("ldmxcsr %0" :: "m" (mxcsr));
+
+total: 0 errors, 1 warnings, 23 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7ad816762f9b ("x86/fpu: Reset MXCSR to default in kernel_fpu_begin()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_STRING: line length of 169 exceeds 100 columns
+#29: FILE: tools/testing/selftests/net/fib_nexthops.sh:968:
++	check_route6 "2001:db8:101::1" "2001:db8:101::1 nhid 122 metric 1024 nexthop via 2001:db8:91::2 dev veth1 weight 1 nexthop via 2001:db8:91::3 dev veth1 weight 1"
+
+total: 0 errors, 1 warnings, 16 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit eb682677f59e ("selftests: Drop 'pref medium' in route checks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

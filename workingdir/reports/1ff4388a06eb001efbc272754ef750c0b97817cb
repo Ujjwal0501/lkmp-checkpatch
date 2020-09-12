@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 56 lines checked
+
+Commit 1ff4388a06eb ("staging: wfx: use kernel types instead of c99 ones") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit 7900757ce1b4 ("powerpc/hash64: Restrict page table lookup using init_mm with __flush_hash_table_range") has no obvious style problems and is ready for submission.

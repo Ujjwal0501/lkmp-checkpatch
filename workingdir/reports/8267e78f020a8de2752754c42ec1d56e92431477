@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 95 lines checked
+
+Commit 8267e78f020a ("MIPS: Tidy up CP0.Config6 bits definition") has no obvious style problems and is ready for submission.

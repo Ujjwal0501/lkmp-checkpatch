@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 572220aad525 ("scripts/checkstack.pl: Add argument to print stacks greather than value.") has no obvious style problems and is ready for submission.

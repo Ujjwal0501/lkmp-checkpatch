@@ -1,0 +1,84 @@
+WARNING:OOM_MESSAGE: Possible unnecessary 'out of memory' message
+#273: FILE: fs/cifs/cifsencrypt.c:786:
+ 	if (!ctx_arc4) {
++		cifs_dbg(VFS, "Could not allocate arc4 context\n");
+
+WARNING:OOM_MESSAGE: Possible unnecessary 'out of memory' message
+#541: FILE: fs/cifs/connect.c:2224:
+ 			if (vol->password == NULL) {
++				pr_warn("no memory for password\n");
+
+WARNING:OOM_MESSAGE: Possible unnecessary 'out of memory' message
+#567: FILE: fs/cifs/connect.c:2267:
+ 			if (!vol->domainname) {
++				pr_warn("no memory for domainname\n");
+
+WARNING:LONG_LINE_STRING: line length of 236 exceeds 100 columns
+#1506: FILE: fs/cifs/smbdirect.c:297:
++	log_rdma_event(INFO, "resp message min_version %u max_version %u negotiated_version %u credits_requested %u credits_granted %u status %u max_readwrite_size %u preferred_send_size %u max_receive_size %u max_fragmented_size %u\n",
+
+WARNING:LONG_LINE_STRING: line length of 104 exceeds 100 columns
+#1523: FILE: fs/cifs/smbdirect.c:450:
++	log_rdma_recv(INFO, "response=%p type=%d wc status=%d wc opcode %d byte_len=%d pkey_index=%x\n",
+
+WARNING:LONG_LINE_STRING: line length of 108 exceeds 100 columns
+#1539: FILE: fs/cifs/smbdirect.c:518:
++		log_incoming(INFO, "data flags %d data_offset %d data_length %d remaining_data_length %d\n",
+
+WARNING:LONG_LINE_STRING: line length of 103 exceeds 100 columns
+#1560: FILE: fs/cifs/smbdirect.c:631:
++		log_rdma_event(ERR, "Device capability flags = %llx max_fast_reg_page_list_len = %u\n",
+
+WARNING:LONG_LINE_STRING: line length of 126 exceeds 100 columns
+#1577: FILE: fs/cifs/smbdirect.c:892:
++	log_outgoing(INFO, "credits_requested=%d credits_granted=%d data_offset=%d data_length=%d remaining_data_length=%d\n",
+
+WARNING:LONG_LINE_STRING: line length of 146 exceeds 100 columns
+#1612: FILE: fs/cifs/smbdirect.c:1531:
++		log_rdma_event(ERR, "consider lowering send_credit_target = %d. Possible CQE overrun, device reporting max_cpe %d max_qp_wr %d\n",
+
+WARNING:LONG_LINE_STRING: line length of 146 exceeds 100 columns
+#1628: FILE: fs/cifs/smbdirect.c:1540:
++		log_rdma_event(ERR, "consider lowering receive_credit_max = %d. Possible CQE overrun, device reporting max_cpe %d max_qp_wr %d\n",
+
+WARNING:LONG_LINE_STRING: line length of 157 exceeds 100 columns
+#1644: FILE: fs/cifs/smbdirect.c:1850:
++			log_read(INFO, "_get_first_reassembly memcpy %d bytes data_transfer_length-offset=%d after that to_read=%d data_read=%d offset=%d\n",
+
+WARNING:LONG_LINE_STRING: line length of 116 exceeds 100 columns
+#1658: FILE: fs/cifs/smbdirect.c:1861:
++		log_read(INFO, "returning to thread data_read=%d reassembly_data_length=%d first_entry_offset=%d\n",
+
+WARNING:LONG_LINE_STRING: line length of 104 exceeds 100 columns
+#1690: FILE: fs/cifs/smbdirect.c:2025:
++	log_write(INFO, "rqst_idx=%d nvec=%d rqst->rq_npages=%d rq_pagesz=%d rq_tailsz=%d buflen=%lu\n",
+
+WARNING:LONG_LINE_STRING: line length of 119 exceeds 100 columns
+#1705: FILE: fs/cifs/smbdirect.c:2037:
++				log_write(INFO, "sending iov[] from start=%d i=%d nvecs=%d remaining_data_length=%d\n",
+
+WARNING:LONG_LINE_STRING: line length of 102 exceeds 100 columns
+#1719: FILE: fs/cifs/smbdirect.c:2048:
++				log_write(INFO, "iov[%d] iov_base=%p buflen=%d break to %d vectors\n",
+
+WARNING:LONG_LINE_STRING: line length of 119 exceeds 100 columns
+#1749: FILE: fs/cifs/smbdirect.c:2082:
++				log_write(INFO, "sending iov[] from start=%d i=%d nvecs=%d remaining_data_length=%d\n",
+
+WARNING:LONG_LINE_STRING: line length of 106 exceeds 100 columns
+#1763: FILE: fs/cifs/smbdirect.c:2108:
++			log_write(INFO, "sending pages i=%d offset=%d size=%d remaining_data_length=%d\n",
+
+WARNING:LONG_LINE_STRING: line length of 101 exceeds 100 columns
+#1778: FILE: fs/cifs/smbdirect.c:2184:
++				log_rdma_mr(ERR, "ib_alloc_mr failed mr_type=%x max_frmr_depth=%x\n",
+
+total: 0 errors, 18 warnings, 1597 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a0a3036b81f1 ("cifs: Standardize logging output") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

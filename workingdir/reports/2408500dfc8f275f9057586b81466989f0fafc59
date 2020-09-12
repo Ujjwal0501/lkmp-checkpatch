@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 2408500dfc8f ("KVM: nVMX: Truncate writes to vmcs.SYSENTER_EIP/ESP for 32-bit vCPU") has no obvious style problems and is ready for submission.

@@ -1,0 +1,21 @@
+CHECK:CAMELCASE: Avoid CamelCase: <pDevice>
+#38: FILE: drivers/staging/vt6655/rxtx.c:178:
++	return uDataTime + pDevice->uSIFS + uAckTime;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uSIFS>
+#38: FILE: drivers/staging/vt6655/rxtx.c:178:
++	return uDataTime + pDevice->uSIFS + uAckTime;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uAckTime>
+#38: FILE: drivers/staging/vt6655/rxtx.c:178:
++	return uDataTime + pDevice->uSIFS + uAckTime;
+
+total: 0 errors, 0 warnings, 3 checks, 20 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3fc29573cf3e ("staging: vt6655: return early if not bNeedAck") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

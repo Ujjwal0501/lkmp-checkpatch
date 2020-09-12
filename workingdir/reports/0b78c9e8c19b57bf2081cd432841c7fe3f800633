@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 307 lines checked
+
+Commit 0b78c9e8c19b ("selftests: tpm: upgrade TPM2 tests from Python 2 to Python 3") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit e20a7693644e ("f2fs: pass the inode to f2fs_mpage_readpages") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 55 lines checked
+
+Commit 2e919bc446fa ("net: phylink: ensure manual pause mode configuration takes effect") has no obvious style problems and is ready for submission.

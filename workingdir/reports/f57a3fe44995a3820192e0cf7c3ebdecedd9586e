@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 447 lines checked
+
+Commit f57a3fe44995 ("erofs: convert to use the new mount fs_context api") has no obvious style problems and is ready for submission.

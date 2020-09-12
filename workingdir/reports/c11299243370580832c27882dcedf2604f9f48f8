@@ -1,0 +1,18 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#16: 
+Signed-off-by: Johannes Berg <johannes.berg@intel.com>
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#49: FILE: net/mac80211/rx.c:112:
++	/*
++	 * Remove the HT-Control field (if present) on management
+
+total: 0 errors, 2 warnings, 0 checks, 66 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c11299243370 ("mac80211: fix HT-Control field reception for management frames") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

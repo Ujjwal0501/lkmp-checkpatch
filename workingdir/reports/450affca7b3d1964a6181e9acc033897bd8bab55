@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 450affca7b3d ("mt76: mt7615: disable aspm by default") has no obvious style problems and is ready for submission.

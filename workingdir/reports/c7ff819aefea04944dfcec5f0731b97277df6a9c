@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 269 lines checked
+
+Commit c7ff819aefea ("RDMA/core: Introduce shared CQ pool API") has no obvious style problems and is ready for submission.

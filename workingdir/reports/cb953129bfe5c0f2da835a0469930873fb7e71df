@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 118 lines checked
+
+Commit cb953129bfe5 ("kvm: add halt-polling cpu usage stats") has no obvious style problems and is ready for submission.

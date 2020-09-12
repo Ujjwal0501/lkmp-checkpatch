@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 166 lines checked
+
+Commit 66ac4db36f4c ("iommu/vt-d: Add page request draining support") has no obvious style problems and is ready for submission.

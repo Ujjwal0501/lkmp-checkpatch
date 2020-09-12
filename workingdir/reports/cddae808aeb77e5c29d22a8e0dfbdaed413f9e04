@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 74 lines checked
+
+Commit cddae808aeb7 ("block: pass a hd_struct to delete_partition") has no obvious style problems and is ready for submission.

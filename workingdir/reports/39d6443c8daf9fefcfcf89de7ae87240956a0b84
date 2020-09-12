@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 578 lines checked
+
+Commit 39d6443c8daf ("mlx5, xsk: Migrate to new MEM_TYPE_XSK_BUFF_POOL") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit e702a7c34634 ("usb: gadget: f_serial: add suspend resume callbacks") has no obvious style problems and is ready for submission.

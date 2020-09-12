@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit c1f710b5fe8c ("floppy: cleanup: make twaddle() not rely on current_{fdc,drive} anymore") has no obvious style problems and is ready for submission.

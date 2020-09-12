@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit fc54048a4dc2 ("drm/mgag200: Set up fbdev after registering device; remove error checks") has no obvious style problems and is ready for submission.

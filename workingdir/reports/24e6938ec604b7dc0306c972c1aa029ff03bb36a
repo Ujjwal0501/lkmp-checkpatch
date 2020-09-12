@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 123 lines checked
+
+Commit 24e6938ec604 ("drm/msm/a6xx: update a6xx_hw_init for A640 and A650") has no obvious style problems and is ready for submission.

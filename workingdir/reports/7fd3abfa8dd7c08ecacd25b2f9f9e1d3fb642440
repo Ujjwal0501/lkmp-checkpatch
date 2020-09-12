@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 77 lines checked
+
+Commit 7fd3abfa8dd7 ("virtiofs: do not use fuse_fill_super_common() for device installation") has no obvious style problems and is ready for submission.

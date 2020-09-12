@@ -1,0 +1,17 @@
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#243: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mcu.c:2638:
++		return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#306: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mcu.c:2701:
++		return -ENOTSUPP;
+
+total: 0 errors, 2 warnings, 0 checks, 347 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 20305f981774 ("mt76: mt7615: introduce scheduled scan support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

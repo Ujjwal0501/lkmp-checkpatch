@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 2068cf7dfbc6 ("ovl: remove unnecessary lock check") has no obvious style problems and is ready for submission.

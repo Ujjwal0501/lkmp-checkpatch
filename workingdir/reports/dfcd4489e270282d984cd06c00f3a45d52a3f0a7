@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit dfcd4489e270 ("ext4: drop ext4_journal_free_reserved()") has no obvious style problems and is ready for submission.

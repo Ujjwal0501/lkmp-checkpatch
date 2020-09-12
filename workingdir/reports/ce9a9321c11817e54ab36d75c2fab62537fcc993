@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit a9083016a531 ("[SCSI] qla2xxx: Add ISP82XX support.")'
+#7: 
+commit a9083016a531 ("[SCSI] qla2xxx: Add ISP82XX support").
+
+total: 1 errors, 0 warnings, 47 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ce9a9321c118 ("scsi: qla2xxx: Remove an unused function") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

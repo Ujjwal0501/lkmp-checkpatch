@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit a05caf9e62a8 ("drm: panel-orientation-quirks: Use generic orientation-data for Acer S1003") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit 124eb5dc4ca5 ("ARM: dts: r8a7791: Add PWM device nodes") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit fe3c60684377 ("firmware: Fix a reference count leak.") has no obvious style problems and is ready for submission.

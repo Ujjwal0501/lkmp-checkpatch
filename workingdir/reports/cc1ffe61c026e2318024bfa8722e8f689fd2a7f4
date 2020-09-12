@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 98 lines checked
+
+Commit cc1ffe61c026 ("md: add new workqueue for delete rdev") has no obvious style problems and is ready for submission.

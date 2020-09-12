@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit de8ff14cab99 ("ext4: add casefold flag to EXT4_INODE_* flags") has no obvious style problems and is ready for submission.

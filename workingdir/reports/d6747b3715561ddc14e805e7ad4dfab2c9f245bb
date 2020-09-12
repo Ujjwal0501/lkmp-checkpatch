@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 429 lines checked
+
+Commit d6747b371556 ("RDMA/mthca: Remove FMR support for memory registration") has no obvious style problems and is ready for submission.

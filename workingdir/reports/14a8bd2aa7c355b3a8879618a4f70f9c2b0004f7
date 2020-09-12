@@ -1,0 +1,13 @@
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#143: FILE: arch/x86/xen/enlighten_pv.c:635:
++	TRAP_ENTRY(exc_coprocessor_error,		false ),
+
+total: 1 errors, 0 warnings, 84 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 14a8bd2aa7c3 ("x86/entry: Convert Coprocessor error exception to IDTENTRY") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

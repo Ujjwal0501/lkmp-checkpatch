@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 67 lines checked
+
+Commit 9de6c08700ce ("s390/qdio: simplify overlap calculation on Input refill") has no obvious style problems and is ready for submission.

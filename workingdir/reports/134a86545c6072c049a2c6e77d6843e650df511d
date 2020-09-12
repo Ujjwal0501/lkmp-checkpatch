@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'aligment' may be misspelled - perhaps 'alignment'?
+#7: 
+aligment for the XLAT base must be BAR size aligned rather than 4k page
+
+total: 0 errors, 1 warnings, 142 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 134a86545c60 ("ntb: intel: add hw workaround for NTB BAR alignment") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

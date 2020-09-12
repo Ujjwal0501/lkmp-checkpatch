@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 81 lines checked
+
+Commit f29de9eee782 ("RDMA/mlx5: Add support for drop action in DV steering") has no obvious style problems and is ready for submission.

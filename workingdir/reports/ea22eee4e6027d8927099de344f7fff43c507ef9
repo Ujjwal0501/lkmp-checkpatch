@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ea22eee4e602 ("gfs2: Allow lock_nolock mount to specify jid=X") has no obvious style problems and is ready for submission.

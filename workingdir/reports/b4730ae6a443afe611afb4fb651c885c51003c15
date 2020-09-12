@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit b4730ae6a443 ("net: ethtool: add missing string for NETIF_F_GSO_TUNNEL_REMCSUM") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit b757b47a2fcb ("KVM: arm64: Don't inherit exec permission across page-table levels") has no obvious style problems and is ready for submission.

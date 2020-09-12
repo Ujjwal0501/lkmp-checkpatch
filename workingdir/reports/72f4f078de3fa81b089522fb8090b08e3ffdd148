@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit c23c77b097dc ("btrfs: tree-checker: Refactor inode key check into seperate function")'
+#8: 
+tree-checker.c that got there by accident in c23c77b097dc ("btrfs:
+
+WARNING:TYPO_SPELLING: 'seperate' may be misspelled - perhaps 'separate'?
+#9: 
+tree-checker: Refactor inode key check into seperate function").
+
+total: 1 errors, 1 warnings, 10 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 72f4f078de3f ("btrfs: tree-checker: remove duplicate definition of 'inode_item_err'") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

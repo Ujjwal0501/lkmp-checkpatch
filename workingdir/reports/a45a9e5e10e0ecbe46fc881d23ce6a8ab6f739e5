@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit a45a9e5e10e0 ("drm/amdgpu/psp: dont warn on missing optional TA's") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 114 lines checked
+
+Commit d46f9fbec719 ("bus: ti-sysc: Use optional clocks on for enable and wait for softreset bit") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 89490303a429 ("btrfs: scrub, only lookup for csums if we are dealing with a data extent") has no obvious style problems and is ready for submission.

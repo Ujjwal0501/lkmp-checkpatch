@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 85 lines checked
+
+Commit 1d9e1288039a ("io_uring: add io_statx structure") has no obvious style problems and is ready for submission.

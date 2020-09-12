@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 4eda21d61904 ("drm/lima: use module_platform_driver helper") has no obvious style problems and is ready for submission.

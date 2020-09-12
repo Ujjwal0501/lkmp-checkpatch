@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit b322c65f8ca3 ("arm64: Call debug_traps_init() from trap_init() to help early kgdb") has no obvious style problems and is ready for submission.

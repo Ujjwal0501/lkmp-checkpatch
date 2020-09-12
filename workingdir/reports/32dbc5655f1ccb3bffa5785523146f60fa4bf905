@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit 32dbc5655f1c ("fs/xfs: Create function xfs_inode_should_enable_dax()") has no obvious style problems and is ready for submission.

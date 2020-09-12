@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b450d1c566bd ("arm64: dts: rockchip: fix rtl8211e nodename for rk3399-nanopi4") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit df00731cffa0 ("usb: xhci: fix USB_XHCI_PCI depends") has no obvious style problems and is ready for submission.

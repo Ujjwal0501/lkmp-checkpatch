@@ -1,0 +1,17 @@
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#50: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c:143:
++uint amdgpu_dc_debug_mask = 0;
+
+WARNING:LONG_LINE_COMMENT: line length of 105 exceeds 100 columns
+#60: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c:720:
++ * Override display features enabled. See enum DC_DEBUG_MASK in drivers/gpu/drm/amd/include/amd_shared.h.
+
+total: 1 errors, 1 warnings, 60 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8a791dabea18 ("drm/amd/display: Add DC Debug mask to disable features for bringup") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

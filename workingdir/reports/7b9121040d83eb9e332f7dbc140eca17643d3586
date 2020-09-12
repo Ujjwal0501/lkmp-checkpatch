@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit e3589f6c81e4 ("sched: Allow for overlapping sched_domain spans")'
+#9: 
+This change has been introduced by commit e3589f6c81e47 and was
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 35a566e6e8a1 ("sched/topology: Add a few comments")'
+#10: 
+documented by an in-code comment in commit 35a566e6e8a18.
+
+total: 2 errors, 0 warnings, 16 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7b9121040d83 ("Documentation: scheduler: fix outdated information on sched groups") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 120 lines checked
+
+Commit 1d09094aa620 ("arm64: vdso: use consistent 'map' nomenclature") has no obvious style problems and is ready for submission.

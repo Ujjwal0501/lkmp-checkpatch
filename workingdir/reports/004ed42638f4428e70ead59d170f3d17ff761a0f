@@ -1,0 +1,13 @@
+ERROR:FSF_MAILING_ADDRESS: Do not include the paragraph about writing to the Free Software Foundation's mailing address from the sample GPL notice. The FSF has changed addresses in the past, and may do so again. Linux already includes a copy of the GPL.
+#120: FILE: kernel/padata.c:24:
+  * 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.$
+
+total: 1 errors, 0 warnings, 252 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 004ed42638f4 ("padata: add basic support for multithreaded jobs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 301 lines checked
+
+Commit 9b4467e98340 ("xfs: refactor log recovery CUI item dispatch for pass2 commit functions") has no obvious style problems and is ready for submission.

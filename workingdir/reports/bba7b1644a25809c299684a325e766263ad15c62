@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit bba7b1644a25 ("xfs: refactor xlog_item_is_intent now that we're done converting") has no obvious style problems and is ready for submission.

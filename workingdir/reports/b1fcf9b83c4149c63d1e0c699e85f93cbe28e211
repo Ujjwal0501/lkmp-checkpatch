@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit b1fcf9b83c41 ("rcu: Provide __rcu_is_watching()") has no obvious style problems and is ready for submission.

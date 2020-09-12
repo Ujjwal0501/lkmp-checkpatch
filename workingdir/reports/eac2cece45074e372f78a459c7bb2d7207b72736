@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 67 lines checked
+
+Commit eac2cece4507 ("kernel/kprobes.c: convert to use DEFINE_SEQ_ATTRIBUTE macro") has no obvious style problems and is ready for submission.

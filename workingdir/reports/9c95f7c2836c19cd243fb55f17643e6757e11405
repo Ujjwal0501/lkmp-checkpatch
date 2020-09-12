@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 9c95f7c2836c ("pinctrl: mediatek: make MediaTek MT6765 pinctrl ready for buiding loadable module") has no obvious style problems and is ready for submission.

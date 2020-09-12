@@ -1,0 +1,19 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#22: 
+  $ sudo perf stat -e '{power/energy-cores/,cycles},{instructions,power/energy-cores/}'
+
+WARNING:BAD_SIGN_OFF: Co-developed-by and Signed-off-by: name/email do not match 
+#85: 
+Co-developed-by: Jin Yao <yao.jin@linux.intel.com>
+Signed-off-by: Jiri Olsa <jolsa@kernel.org>
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Jiri Olsa <jolsa@redhat.com>'
+
+total: 0 errors, 3 warnings, 67 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a9a1790247bd ("perf stat: Ensure group is defined on top of the same cpu mask") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 15b5c496ff99 ("ASoC: fsl_micfil: Fix unused assignment in fsl_set_clock_params()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 42 lines checked
+
+Commit bf42304b55f5 ("staging: vt6656: Use fls instead of for loop in vnt_update_top_rates") has no obvious style problems and is ready for submission.

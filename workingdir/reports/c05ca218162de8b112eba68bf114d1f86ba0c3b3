@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit c05ca218162d ("drm/mediatek: Remove error check from fbdev setup") has no obvious style problems and is ready for submission.

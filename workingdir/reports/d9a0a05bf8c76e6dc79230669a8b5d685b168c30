@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#21: 
+Signed-off-by: Thierry Reding <treding@nvidia.com>
+
+total: 0 errors, 1 warnings, 17 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d9a0a05bf8c7 ("gpu: host1x: Detach driver on unregister") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

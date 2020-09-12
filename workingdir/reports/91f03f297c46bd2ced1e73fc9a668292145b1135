@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 139 lines checked
+
+Commit 91f03f297c46 ("powerpc: remove __ioremap_at and __iounmap_at") has no obvious style problems and is ready for submission.

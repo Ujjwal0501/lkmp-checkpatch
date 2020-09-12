@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 154 lines checked
+
+Commit e3da4038f4ca ("net: dsa: b53: Provide number of ARL buckets") has no obvious style problems and is ready for submission.

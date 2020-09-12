@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit e6867ffa3434 ("drm/nouveau/disp: modify OR allocation policy to account for HDA requirements") has no obvious style problems and is ready for submission.

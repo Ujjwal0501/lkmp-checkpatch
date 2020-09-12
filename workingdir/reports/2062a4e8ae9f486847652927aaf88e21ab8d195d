@@ -1,0 +1,21 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#39: 
+https://lore.kernel.org/linux-riscv/20191106083538.z5nlpuf64cigxigh@pathway.suse.cz/
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#225: FILE: include/linux/kallsyms.h:170:
++	printk("%s[<%px>] %pS\n", loglvl, (void *) ip, (void *) ip);
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#225: FILE: include/linux/kallsyms.h:170:
++	printk("%s[<%px>] %pS\n", loglvl, (void *) ip, (void *) ip);
+
+total: 0 errors, 3 warnings, 129 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2062a4e8ae9f ("kallsyms/printk: add loglvl to print_ip_sym()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

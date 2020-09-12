@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 49c22696348d ("ASoC: SOF: Update correct LED status at the first time usage of update_mute_led()") has no obvious style problems and is ready for submission.

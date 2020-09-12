@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 83bdc7275e62 ("random32: remove net_rand_state from the latent entropy gcc plugin") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#10: 
+Bus 004 Device 002: ID 153b:1182 TerraTec Electronic GmbH Cinergy S2 PCIe Dual Port 2
+
+total: 0 errors, 1 warnings, 64 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 528b1a1ab244 ("media: dvb-usb: Add Cinergy S2 PCIe Dual Port support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

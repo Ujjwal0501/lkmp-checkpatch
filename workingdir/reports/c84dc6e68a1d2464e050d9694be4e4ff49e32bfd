@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 256 lines checked
+
+Commit c84dc6e68a1d ("dma-pool: add additional coherent pools to map to gfp mask") has no obvious style problems and is ready for submission.

@@ -1,0 +1,25 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+The buffer used when calling psp is a shared buffer. If we have multiple calls
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#177: FILE: drivers/gpu/drm/amd/display/modules/hdcp/hdcp_psp.c:162:
++		memcpy(hdcp->auth.msg.hdcp1.aksv, hdcp_cmd->out_msg.hdcp1_create_session.aksv_primary,
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#535: FILE: drivers/gpu/drm/amd/display/modules/hdcp/hdcp_psp.c:542:
++		       &msg_out->prepare.transmitter_message[sizeof(hdcp->auth.msg.hdcp2.ake_no_stored_km)],
+
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#686: FILE: drivers/gpu/drm/amd/display/modules/hdcp/hdcp_psp.c:712:
++			       &msg_out->prepare.transmitter_message[sizeof(hdcp->auth.msg.hdcp2.ske_eks)],
+
+total: 0 errors, 4 warnings, 796 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8913f7ff0580 ("drm/amd/display: Guard calls to hdcp_ta and dtm_ta") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

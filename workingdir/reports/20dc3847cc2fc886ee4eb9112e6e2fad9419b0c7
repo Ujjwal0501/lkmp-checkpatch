@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Co-developed-by: must be immediately followed by Signed-off-by:
+#37: 
+Co-developed-by: Maximilian Werner <maximilian.werner96@gmail.com>
+Fixes: da0f1f4167e3 ("tracing/boottime: Fix kprobe event API usage")
+total: 0 errors, 1 warnings, 18 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 20dc3847cc2f ("tracing/boottime: Fix kprobe multiple events") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

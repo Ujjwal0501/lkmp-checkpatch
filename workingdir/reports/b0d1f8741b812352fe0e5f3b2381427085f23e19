@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 303 lines checked
+
+Commit b0d1f8741b81 ("iommu/vt-d: Add nested translation helper function") has no obvious style problems and is ready for submission.

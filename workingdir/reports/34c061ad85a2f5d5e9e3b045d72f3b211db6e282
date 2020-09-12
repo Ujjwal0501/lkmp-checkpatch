@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 81 lines checked
+
+Commit 34c061ad85a2 ("f2fs: Avoid double lock for cp_rwsem during checkpoint") has no obvious style problems and is ready for submission.

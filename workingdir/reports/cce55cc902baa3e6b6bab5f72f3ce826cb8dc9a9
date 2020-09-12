@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 47 lines checked
+
+Commit cce55cc902ba ("cpuidle: sysfs: Remove sysfs_switch and switch attributes") has no obvious style problems and is ready for submission.

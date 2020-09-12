@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 38 lines checked
+
+Commit 110f9efa858f ("drm/i915/gt: Only swap to a random sibling once upon creation") has no obvious style problems and is ready for submission.

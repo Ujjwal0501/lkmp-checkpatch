@@ -1,0 +1,26 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#21: 
+ .../micrel/{ks8851.c => ks8851_common.c}      | 604 +-----------------
+
+CHECK:UNCOMMENTED_DEFINITION: spinlock_t definition without comment
+#131: FILE: drivers/net/ethernet/micrel/ks8851.h:381:
++	spinlock_t		statelock;
+
+CHECK:UNCOMMENTED_DEFINITION: struct mutex definition without comment
+#966: FILE: drivers/net/ethernet/micrel/ks8851_spi.c:51:
++	struct mutex		lock;
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse '_reg' - possible side-effects?
+#987: FILE: drivers/net/ethernet/micrel/ks8851_spi.c:72:
++#define MK_OP(_byteen, _reg)	\
++	(BYTE_EN(_byteen) | (_reg) << (8 + 2) | (_reg) >> 6)
+
+total: 0 errors, 1 warnings, 3 checks, 1256 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b07f987a8d77 ("net: ks8851: Separate SPI operations into separate file") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

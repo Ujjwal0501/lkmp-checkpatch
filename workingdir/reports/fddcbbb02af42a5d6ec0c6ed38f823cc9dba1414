@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 822 lines checked
+
+Commit fddcbbb02af4 ("RDMA/bnxt_re: Simplify obtaining queue entry from hw ring") has no obvious style problems and is ready for submission.

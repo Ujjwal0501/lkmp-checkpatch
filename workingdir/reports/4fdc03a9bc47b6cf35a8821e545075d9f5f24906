@@ -1,0 +1,13 @@
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#48: FILE: drivers/spi/spi-dw-mid.c:136:
++static enum dma_slave_buswidth convert_dma_width(u8 n_bytes) {
+
+total: 1 errors, 0 warnings, 43 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4fdc03a9bc47 ("spi: dw: Discard dma_width member of the dw_spi structure") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

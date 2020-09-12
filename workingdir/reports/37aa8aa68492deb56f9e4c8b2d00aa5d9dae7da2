@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 78 lines checked
+
+Commit 37aa8aa68492 ("spi: dw: Add 'mfld' suffix to Intel Medfield related routines") has no obvious style problems and is ready for submission.

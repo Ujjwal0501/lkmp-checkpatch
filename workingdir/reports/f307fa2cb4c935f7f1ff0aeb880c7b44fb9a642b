@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 197 lines checked
+
+Commit f307fa2cb4c9 ("bpf: Introduce bpf_sk_{, ancestor_}cgroup_id helpers") has no obvious style problems and is ready for submission.

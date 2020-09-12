@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 28 lines checked
+
+Commit cfdaeba5ddc9 ("net: hns3: fix desc filling bug when skb is expanded or lineared") has no obvious style problems and is ready for submission.

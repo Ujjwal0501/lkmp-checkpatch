@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 708418500644 ("thermal: Remove stubs for thermal_zone_[un]bind_cooling_device") has no obvious style problems and is ready for submission.

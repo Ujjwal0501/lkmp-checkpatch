@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'validate'
+#84: FILE: arch/powerpc/platforms/powernv/vas-fault.c:62:
++	 * We use CCW[0] and pswid to validate validate CRBs:
+
+total: 0 errors, 1 warnings, 273 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9774628acf86 ("powerpc/vas: Setup thread IRQ handler per VAS instance") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

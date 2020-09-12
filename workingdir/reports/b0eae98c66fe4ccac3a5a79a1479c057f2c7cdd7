@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 139 lines checked
+
+Commit b0eae98c66fe ("mm/hugetlb: define a generic fallback for is_hugepage_only_range()") has no obvious style problems and is ready for submission.

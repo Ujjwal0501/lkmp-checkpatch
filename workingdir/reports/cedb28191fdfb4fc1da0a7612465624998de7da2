@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 54 lines checked
+
+Commit cedb28191fdf ("net/mlx5: DR, Add a spinlock to protect the send ring") has no obvious style problems and is ready for submission.

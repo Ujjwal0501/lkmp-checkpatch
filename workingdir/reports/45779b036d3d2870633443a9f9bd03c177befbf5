@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 45779b036d3d ("mm: initialize return of vm_insert_pages") has no obvious style problems and is ready for submission.

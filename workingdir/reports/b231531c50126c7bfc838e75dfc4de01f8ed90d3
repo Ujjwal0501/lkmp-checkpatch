@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit b231531c5012 ("drm/amdgpu: enable TMZ bit in sdma copy pkt for sdma v5") has no obvious style problems and is ready for submission.

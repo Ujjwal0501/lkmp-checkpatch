@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 126 lines checked
+
+Commit 7b47c0d719f4 ("ALSA: firewire-motu: refactoring protocol v3 for clock source getter") has no obvious style problems and is ready for submission.

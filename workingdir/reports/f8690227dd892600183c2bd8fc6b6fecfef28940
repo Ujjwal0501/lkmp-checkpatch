@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit f8690227dd89 ("ACPI: LPIT: Put the low power idle table after using it") has no obvious style problems and is ready for submission.

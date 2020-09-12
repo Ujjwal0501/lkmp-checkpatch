@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit caef73cf2070 ("arm/xen: remove the unused macro GRANT_TABLE_PHYSADDR") has no obvious style problems and is ready for submission.

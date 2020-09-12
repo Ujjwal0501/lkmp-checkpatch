@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 589 lines checked
+
+Commit d563099e3e89 ("RDMA/hns: Support 0 hop addressing for WQE buffer") has no obvious style problems and is ready for submission.

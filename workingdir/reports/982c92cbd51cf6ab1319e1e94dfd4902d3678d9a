@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 83 lines checked
+
+Commit 982c92cbd51c ("btrfs: backref: rename and move backref_tree_panic()") has no obvious style problems and is ready for submission.

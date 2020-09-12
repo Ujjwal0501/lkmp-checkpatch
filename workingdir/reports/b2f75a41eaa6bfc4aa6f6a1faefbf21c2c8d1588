@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 162 lines checked
+
+Commit b2f75a41eaa6 ("PCI: host-generic: Eliminate pci_host_common_probe wrappers") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit c27842e7e11f ("mtd: rawnand: onfi: Adapt the parameter page read to constraint controllers") has no obvious style problems and is ready for submission.

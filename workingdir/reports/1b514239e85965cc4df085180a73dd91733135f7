@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 1b514239e859 ("bpf: flow_dissector: Check value of unused flags to BPF_PROG_ATTACH") has no obvious style problems and is ready for submission.

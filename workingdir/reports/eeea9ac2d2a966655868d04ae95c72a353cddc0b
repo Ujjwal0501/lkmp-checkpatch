@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 22 lines checked
+
+Commit eeea9ac2d2a9 ("media: imx: imx7-mipi-csis: Never set MIPI_CSIS_ISPCFG_ALIGN_32BIT") has no obvious style problems and is ready for submission.

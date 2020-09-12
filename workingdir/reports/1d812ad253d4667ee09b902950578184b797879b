@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 25 lines checked
+
+Commit 1d812ad253d4 ("media: imx: imx7-mipi-csis: Remove link setup on source pad") has no obvious style problems and is ready for submission.

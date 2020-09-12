@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 334 lines checked
+
+Commit dd5e3fbc1f47 ("NFSD: Add tracepoints to the NFSD state management code") has no obvious style problems and is ready for submission.

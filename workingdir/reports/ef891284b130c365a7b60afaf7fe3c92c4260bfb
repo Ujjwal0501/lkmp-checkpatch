@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit ef891284b130 ("r8169: remove not needed parameter in rtl8169_set_magic_reg") has no obvious style problems and is ready for submission.

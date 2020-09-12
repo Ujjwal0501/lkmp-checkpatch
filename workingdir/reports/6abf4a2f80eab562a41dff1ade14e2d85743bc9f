@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit 6abf4a2f80ea ("ASoC: txx9: add back the hack for a too small resource_size_t") has no obvious style problems and is ready for submission.

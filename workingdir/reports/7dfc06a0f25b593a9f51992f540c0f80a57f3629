@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 7dfc06a0f25b ("efi/tpm: Verify event log header before parsing") has no obvious style problems and is ready for submission.

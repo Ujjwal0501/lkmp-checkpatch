@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit e9052927941d ("drm/mediatek: Remove unnecessary conversion to bool") has no obvious style problems and is ready for submission.

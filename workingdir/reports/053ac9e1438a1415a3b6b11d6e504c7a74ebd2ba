@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 32 lines checked
+
+Commit 053ac9e1438a ("brcmfmac: only generate random p2p address when needed") has no obvious style problems and is ready for submission.

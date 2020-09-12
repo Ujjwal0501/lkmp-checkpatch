@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 1b007f96f9e0 ("scsi: qla2xxx: Make qla_set_ini_mode() return void") has no obvious style problems and is ready for submission.

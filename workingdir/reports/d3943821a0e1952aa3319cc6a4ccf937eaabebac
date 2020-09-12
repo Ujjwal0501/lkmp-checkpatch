@@ -1,0 +1,15 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#17: 
+new file mode 100644
+
+total: 0 errors, 2 warnings, 56 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d3943821a0e1 ("dt-bindings: display: Document ASUS Z00T TM5P5 NT35596 panel compatible") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

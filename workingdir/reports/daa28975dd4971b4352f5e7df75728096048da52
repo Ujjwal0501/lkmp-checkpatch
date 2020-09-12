@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit daa28975dd49 ("nvdimm/blk: stop using ->queuedata") has no obvious style problems and is ready for submission.

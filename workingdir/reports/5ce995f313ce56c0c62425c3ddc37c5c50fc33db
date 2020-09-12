@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'thead' may be misspelled - perhaps 'thread'?
+#42: FILE: drivers/vhost/vhost.c:550:
++		/* vDPA device does not use worker thead, so there's
+
+total: 0 errors, 1 warnings, 66 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5ce995f313ce ("vhost: use mmgrab() instead of mmget() for non worker device") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

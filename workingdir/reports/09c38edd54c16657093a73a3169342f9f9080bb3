@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 09c38edd54c1 ("xfs: remove the XFS_DFORK_Q macro") has no obvious style problems and is ready for submission.

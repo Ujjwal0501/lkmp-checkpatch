@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit c7e261d81783 ("net: mdiobus: Disable preemption upon u64_stats update") has no obvious style problems and is ready for submission.

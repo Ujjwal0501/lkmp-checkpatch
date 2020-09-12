@@ -1,0 +1,13 @@
+CHECK:CAMELCASE: Avoid CamelCase: <RxConfig>
+#37: FILE: drivers/net/ethernet/realtek/r8169_main.c:2417:
++		vlan = RTL_R32(tp, RxConfig) & RX_VLAN_8125;
+
+total: 0 errors, 0 warnings, 1 checks, 19 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 85ab8b245ec6 ("r8169: preserve VLAN setting on RTL8125 in rtl_init_rxcfg") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

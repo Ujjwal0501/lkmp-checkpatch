@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 91ffeaa7e5dd ("powerpc/wii: Fix declaration made after definition") has no obvious style problems and is ready for submission.

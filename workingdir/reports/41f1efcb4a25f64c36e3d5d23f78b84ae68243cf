@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 78 lines checked
+
+Commit 41f1efcb4a25 ("staging: vt6656: vnt_set_keymode simplify key modes.") has no obvious style problems and is ready for submission.

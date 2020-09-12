@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 61948b6fb276 ("xfs: ratelimit unmount time per-buffer I/O error alert") has no obvious style problems and is ready for submission.

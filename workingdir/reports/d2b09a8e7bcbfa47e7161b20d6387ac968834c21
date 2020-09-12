@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 12 lines checked
+
+Commit d2b09a8e7bcb ("net: mscc: ocelot: fix timestamp info if ptp clock does not work") has no obvious style problems and is ready for submission.

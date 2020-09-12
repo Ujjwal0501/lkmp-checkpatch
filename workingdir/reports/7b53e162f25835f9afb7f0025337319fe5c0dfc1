@@ -1,0 +1,33 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#132: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6305:
++		ia_css_pipe_get_primary_binarydesc(pipe, &prim_descr[i], &prim_in_info,
++						    &prim_out_info, local_vf_info, i);
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments should align the * on each line
+#174: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6320:
++	/*
++	    * WARNING: The #if def flag has been added below as a
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#182: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6328:
++	    * */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments should align the * on each line
+#206: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6347:
++	/* When the input system is 2401, only the Direct Sensor Mode
++	    * Offline Capture uses the ISP copy binary.
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#226: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6357:
++		err = load_copy_binary(pipe,
++					&mycs->copy_binary,
+
+total: 0 errors, 3 warnings, 2 checks, 202 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7b53e162f258 ("media: atomisp: fix pipeline initialization code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

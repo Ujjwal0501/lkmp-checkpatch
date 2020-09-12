@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit a18fb0762381 ("ARM: OMAP2+: Fix possible memory leak in omap_hwmod_allocate_module") has no obvious style problems and is ready for submission.

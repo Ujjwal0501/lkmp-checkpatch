@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit ed3e98e919aa ("ARM: dts: n900: remove mmc1 card detect gpio") has no obvious style problems and is ready for submission.

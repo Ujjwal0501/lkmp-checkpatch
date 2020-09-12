@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit 06096cc6c5a8 ("spi: spidev: fix a potential use-after-free in spidev_release()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#55: FILE: drivers/platform/mips/Kconfig:27:
++config RS780E_ACPI
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#72: 
+rename from arch/mips/loongson64/acpi_init.c
+
+total: 0 errors, 2 warnings, 110 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0cfd2440aa03 ("MIPS: Loongson64: Make RS780E ACPI as a platform driver") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

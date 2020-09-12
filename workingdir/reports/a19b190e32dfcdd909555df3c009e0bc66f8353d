@@ -1,0 +1,20 @@
+CHECK:BRACES: braces {} should be used on all arms of this statement
+#36: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_v4l2.c:1151:
++		if (!atomisp_hw_is_isp2401)
+[...]
++		else {
+[...]
+
+CHECK:BRACES: Unbalanced braces around else statement
+#38: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_v4l2.c:1153:
++		else {
+
+total: 0 errors, 0 warnings, 2 checks, 25 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a19b190e32df ("media: atomisp: atomisp_v4l2.c: set wdt timers according with ISP version") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

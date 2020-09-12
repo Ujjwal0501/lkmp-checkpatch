@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit f39b8b10fcc5 ("powerpc/powernv/pci: Delete old iommu recursive iommu setup") has no obvious style problems and is ready for submission.

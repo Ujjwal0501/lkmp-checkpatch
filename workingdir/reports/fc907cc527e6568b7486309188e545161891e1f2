@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit fc907cc527e6 ("ASoC: SOF: pm: handle resume on legacy Intel platforms") has no obvious style problems and is ready for submission.

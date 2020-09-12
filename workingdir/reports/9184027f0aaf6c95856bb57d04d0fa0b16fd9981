@@ -1,0 +1,15 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#11: 
+ Documentation/{digsig.txt => security/digsig.rst} | 0
+
+total: 0 errors, 2 warnings, 4 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9184027f0aaf ("docs: move digsig docs to the security book") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

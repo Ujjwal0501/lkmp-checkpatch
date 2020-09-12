@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit d207b0b355e7 ("mtd: spi-nor: core: fix kernel-doc typo for spi_nor_manufacturer_init_params()") has no obvious style problems and is ready for submission.

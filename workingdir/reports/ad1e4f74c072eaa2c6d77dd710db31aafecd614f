@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 69 lines checked
+
+Commit ad1e4f74c072 ("PM: hibernate: Restrict writes to the resume device") has no obvious style problems and is ready for submission.

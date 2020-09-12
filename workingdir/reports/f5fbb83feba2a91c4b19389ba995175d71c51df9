@@ -1,0 +1,33 @@
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#3489: FILE: drivers/staging/media/atomisp/pci/input_system_global.h:2:
+ // SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#3498: FILE: drivers/staging/media/atomisp/pci/input_system_local.h:2:
+ // SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#3507: FILE: drivers/staging/media/atomisp/pci/input_system_private.h:2:
+ // SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#3516: FILE: drivers/staging/media/atomisp/pci/input_system_public.h:2:
+ // SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#6558: FILE: drivers/staging/media/atomisp/pci/system_global.h:2:
+ // SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#6567: FILE: drivers/staging/media/atomisp/pci/system_local.h:2:
+ // SPDX-License-Identifier: GPL-2.0-or-later
+
+total: 0 errors, 6 warnings, 0 checks, 2628 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f5fbb83feba2 ("media: atomisp: add SPDX headers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

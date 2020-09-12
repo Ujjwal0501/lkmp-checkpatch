@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit f81fdd0c4ab7 ("mm: document warning in move_normal_pmd() and make it warn only once") has no obvious style problems and is ready for submission.

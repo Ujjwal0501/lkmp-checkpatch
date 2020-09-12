@@ -1,0 +1,157 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct lynx_accel *' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#37: FILE: drivers/staging/sm750fb/sm750.h:62:
++	int (*de_fillrect)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct lynx_accel *' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#41: FILE: drivers/staging/sm750fb/sm750.h:66:
++	int (*de_copyarea)(struct lynx_accel *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct lynx_accel *' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const char *' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#46: FILE: drivers/staging/sm750fb/sm750.h:71:
++	int (*de_imageblit)(struct lynx_accel *, const char *,
+
+total: 0 errors, 37 warnings, 0 checks, 37 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2596313a9ff9 ("staging: sm750fb: Make function arguments alignment match open parenthesis") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

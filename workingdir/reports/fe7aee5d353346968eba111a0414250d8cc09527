@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 104 lines checked
+
+Commit fe7aee5d3533 ("media: imx7: csi: Remove imx7_csi_get_upstream_endpoint()") has no obvious style problems and is ready for submission.

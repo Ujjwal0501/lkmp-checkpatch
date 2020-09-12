@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 93 lines checked
+
+Commit 21eb9ec7c3e6 ("arm: dts: mt2712: add uart APDMA to device tree") has no obvious style problems and is ready for submission.

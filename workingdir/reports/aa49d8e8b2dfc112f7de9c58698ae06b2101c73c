@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit aa49d8e8b2df ("tty: serial: imx: Add return value check for platform_get_irq()") has no obvious style problems and is ready for submission.

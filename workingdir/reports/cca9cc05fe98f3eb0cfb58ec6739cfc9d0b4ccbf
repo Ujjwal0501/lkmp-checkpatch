@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit cca9cc05fe98 ("x86/mce/amd: Protect a not-fully initialized bank from the thresholding interrupt") has no obvious style problems and is ready for submission.

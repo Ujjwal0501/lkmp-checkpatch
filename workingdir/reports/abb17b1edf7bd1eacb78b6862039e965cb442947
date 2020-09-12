@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit abb17b1edf7b ("drm/amdgpu/gmc: Use consistent variable on unlocks") has no obvious style problems and is ready for submission.

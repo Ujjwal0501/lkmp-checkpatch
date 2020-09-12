@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit 1ecca8a9a498 ("iio: proximity: ping: pass reference to IIO device as param to ping_read()") has no obvious style problems and is ready for submission.

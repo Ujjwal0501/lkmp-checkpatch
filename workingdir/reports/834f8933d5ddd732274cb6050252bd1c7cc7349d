@@ -1,0 +1,13 @@
+CHECK:ALLOC_SIZEOF_STRUCT: Prefer kzalloc(sizeof(*dummy)...) over kzalloc(sizeof(struct tc_taprio_sched_entry)...)
+#487: FILE: drivers/net/dsa/sja1105/sja1105_tas.c:478:
++	dummy = kzalloc(sizeof(struct tc_taprio_sched_entry) * num_entries +
+
+total: 0 errors, 0 warnings, 1 checks, 1018 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 834f8933d5dd ("net: dsa: sja1105: implement tc-gate using time-triggered virtual links") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

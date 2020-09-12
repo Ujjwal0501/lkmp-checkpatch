@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#316: FILE: tools/perf/builtin-top.c:445:
++		fprintf(stdout, "\t[E]     active event counter.              \t(%s)\n", evsel__name(top->sym_evsel));
+
+WARNING:LONG_LINE: line length of 119 exceeds 100 columns
+#325: FILE: tools/perf/builtin-top.c:532:
++					fprintf(stderr, "\n\t%d %s", top->sym_evsel->idx, evsel__name(top->sym_evsel));
+
+WARNING:LONG_LINE: line length of 122 exceeds 100 columns
+#332: FILE: tools/perf/builtin-top.c:538:
++					fprintf(stderr, "Sorry, no such event, using %s.\n", evsel__name(top->sym_evsel));
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#417: FILE: tools/perf/builtin-trace.c:4992:
++			bool raw_syscalls_sys_exit = strcmp(evsel__name(evsel), "raw_syscalls:sys_exit") == 0;
+
+total: 0 errors, 4 warnings, 871 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8ab2e96d8ff1 ("perf evsel: Rename *perf_evsel__*name() to *evsel__*name()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

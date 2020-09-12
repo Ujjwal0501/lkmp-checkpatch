@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 2f675917efc8 ("KVM: nSVM: pass vmcb_control_area to copy_vmcb_control_area") has no obvious style problems and is ready for submission.

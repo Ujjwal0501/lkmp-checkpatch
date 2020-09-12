@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#76: 
+new file mode 100644
+
+CHECK:MACRO_ARG_PRECEDENCE: Macro argument 'r' may be better as '(r)' to avoid precedence issues
+#264: FILE: drivers/net/ethernet/ti/am65-cpts.c:184:
++#define am65_cpts_write32(c, v, r) writel(v, &(c)->reg->r)
+
+CHECK:MACRO_ARG_PRECEDENCE: Macro argument 'r' may be better as '(r)' to avoid precedence issues
+#265: FILE: drivers/net/ethernet/ti/am65-cpts.c:185:
++#define am65_cpts_read32(c, r) readl(&(c)->reg->r)
+
+total: 0 errors, 1 warnings, 2 checks, 1115 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f6bd59526ca5 ("net: ethernet: ti: introduce am654 common platform time sync driver") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

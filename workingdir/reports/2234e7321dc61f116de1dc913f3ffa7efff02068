@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 221 lines checked
+
+Commit 2234e7321dc6 ("dm zoned: introduce dmz_metadata_label() to format device name") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 99 lines checked
+
+Commit 582234b465ed ("net/mlx5e: Support pedit on mpls over UDP decap") has no obvious style problems and is ready for submission.

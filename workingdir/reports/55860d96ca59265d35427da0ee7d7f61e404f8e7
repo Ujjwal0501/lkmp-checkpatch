@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit 55860d96ca59 ("slub: cure list_slab_objects() from double fix") has no obvious style problems and is ready for submission.

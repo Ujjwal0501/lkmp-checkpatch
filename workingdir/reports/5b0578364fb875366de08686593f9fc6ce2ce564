@@ -1,0 +1,25 @@
+CHECK:CAMELCASE: Avoid CamelCase: <pDevice>
+#33: FILE: drivers/staging/vt6655/rxtx.c:268:
++			return pDevice->uSIFS + uAckTime + uNextPktTime;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uSIFS>
+#33: FILE: drivers/staging/vt6655/rxtx.c:268:
++			return pDevice->uSIFS + uAckTime + uNextPktTime;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uAckTime>
+#33: FILE: drivers/staging/vt6655/rxtx.c:268:
++			return pDevice->uSIFS + uAckTime + uNextPktTime;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uNextPktTime>
+#33: FILE: drivers/staging/vt6655/rxtx.c:268:
++			return pDevice->uSIFS + uAckTime + uNextPktTime;
+
+total: 0 errors, 0 warnings, 4 checks, 57 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5b0578364fb8 ("Staging: vt6655: Limit return statements.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

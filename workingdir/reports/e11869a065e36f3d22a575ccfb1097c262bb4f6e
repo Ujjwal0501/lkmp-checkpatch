@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit e11869a065e3 ("perf evsel: Add support for synthesized sample type") has no obvious style problems and is ready for submission.

@@ -1,0 +1,76 @@
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#51: FILE: fs/btrfs/file.c:1813:
++                               const struct iov_iter *iter, loff_t offset)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#51: FILE: fs/btrfs/file.c:1813:
++                               const struct iov_iter *iter, loff_t offset)$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#53: FILE: fs/btrfs/file.c:1815:
++        const unsigned int blocksize_mask = fs_info->sectorsize - 1;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#53: FILE: fs/btrfs/file.c:1815:
++        const unsigned int blocksize_mask = fs_info->sectorsize - 1;$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#55: FILE: fs/btrfs/file.c:1817:
++        if (offset & blocksize_mask)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#55: FILE: fs/btrfs/file.c:1817:
++        if (offset & blocksize_mask)$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#56: FILE: fs/btrfs/file.c:1818:
++                return -EINVAL;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#56: FILE: fs/btrfs/file.c:1818:
++                return -EINVAL;$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#58: FILE: fs/btrfs/file.c:1820:
++        if (iov_iter_alignment(iter) & blocksize_mask)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#58: FILE: fs/btrfs/file.c:1820:
++        if (iov_iter_alignment(iter) & blocksize_mask)$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#59: FILE: fs/btrfs/file.c:1821:
++                return -EINVAL;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#59: FILE: fs/btrfs/file.c:1821:
++                return -EINVAL;$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#125: FILE: fs/btrfs/file.c:3520:
++                               const struct iov_iter *iter, loff_t offset)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#125: FILE: fs/btrfs/file.c:3520:
++                               const struct iov_iter *iter, loff_t offset)$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#150: FILE: fs/btrfs/file.c:3545:
++        ret = iomap_dio_rw(iocb, to, &btrfs_dio_iomap_ops, &btrfs_dops,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#150: FILE: fs/btrfs/file.c:3545:
++        ret = iomap_dio_rw(iocb, to, &btrfs_dio_iomap_ops, &btrfs_dops,$
+
+total: 8 errors, 8 warnings, 238 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit d8f3e73587ce ("btrfs: split btrfs_direct_IO to read and write part") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

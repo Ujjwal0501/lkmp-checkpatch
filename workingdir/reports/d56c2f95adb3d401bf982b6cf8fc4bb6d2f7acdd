@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit d56c2f95adb3 ("bpf: Allow sk lookup helpers in cgroup skb") has no obvious style problems and is ready for submission.

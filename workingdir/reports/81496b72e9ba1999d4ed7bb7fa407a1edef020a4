@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit 81496b72e9ba ("r8169: add check for invalid parameter combination in rtl_set_coalesce") has no obvious style problems and is ready for submission.

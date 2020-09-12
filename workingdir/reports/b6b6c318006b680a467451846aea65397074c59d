@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit b6b6c318006b ("KVM: MIPS/Emulate: Remove unneeded semicolon") has no obvious style problems and is ready for submission.

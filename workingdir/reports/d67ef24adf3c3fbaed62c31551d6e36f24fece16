@@ -1,0 +1,33 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#32: 
+new file mode 100644
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "arm,im-pd1-syscon" appears un-documented -- check ./Documentation/devicetree/bindings/
+#65: FILE: arch/arm/boot/dts/integratorap-im-pd1.dts:29:
++		compatible = "arm,im-pd1-syscon", "syscon";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "arm,impd1-vco2" appears un-documented -- check ./Documentation/devicetree/bindings/
+#78: FILE: arch/arm/boot/dts/integratorap-im-pd1.dts:42:
++			compatible = "arm,impd1-vco2";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "arm,pl030" appears un-documented -- check ./Documentation/devicetree/bindings/
+#245: FILE: arch/arm/boot/dts/integratorap-im-pd1.dts:209:
++		compatible = "arm,pl030", "arm,primecell";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "arm,pl181" appears un-documented -- check ./Documentation/devicetree/bindings/
+#253: FILE: arch/arm/boot/dts/integratorap-im-pd1.dts:217:
++		compatible = "arm,pl181", "arm,primecell";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "arm,pl041" appears un-documented -- check ./Documentation/devicetree/bindings/
+#267: FILE: arch/arm/boot/dts/integratorap-im-pd1.dts:231:
++		compatible = "arm,pl041", "arm,primecell";
+
+total: 0 errors, 6 warnings, 346 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d67ef24adf3c ("ARM: dts: Add devicetree for Integrator/AP with IM-PD1") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

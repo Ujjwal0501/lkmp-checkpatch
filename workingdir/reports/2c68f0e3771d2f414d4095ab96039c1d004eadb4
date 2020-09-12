@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#27: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_vcn.c:186:
++		r = amdgpu_bo_create_kernel(adev, AMDGPU_GPU_PAGE_ALIGN(sizeof(struct amdgpu_fw_shared)),
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#29: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_vcn.c:188:
++				&adev->vcn.inst[i].fw_shared_gpu_addr, &adev->vcn.inst[i].fw_shared_cpu_addr);
+
+WARNING:TYPO_SPELLING: 'fimware' may be misspelled - perhaps 'firmware'?
+#31: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_vcn.c:190:
++			dev_err(adev->dev, "VCN %d (%d) failed to allocate fimware shared bo\n", i, r);
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#31: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_vcn.c:190:
++			dev_err(adev->dev, "VCN %d (%d) failed to allocate fimware shared bo\n", i, r);
+
+total: 0 errors, 4 warnings, 72 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2c68f0e3771d ("drm/amdgpu/vcn: Add firmware share memory support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

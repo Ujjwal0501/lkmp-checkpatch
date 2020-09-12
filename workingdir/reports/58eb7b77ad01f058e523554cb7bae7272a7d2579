@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 58eb7b77ad01 ("smp: Use smp_call_func_t in on_each_cpu()") has no obvious style problems and is ready for submission.

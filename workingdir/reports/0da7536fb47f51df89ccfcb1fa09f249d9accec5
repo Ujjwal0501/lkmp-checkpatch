@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 55 lines checked
+
+Commit 0da7536fb47f ("ip: Fix SO_MARK in RST, ACK and ICMP packets") has no obvious style problems and is ready for submission.

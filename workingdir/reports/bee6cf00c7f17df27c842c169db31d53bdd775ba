@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit bee6cf00c7f1 ("ext4: remove redundant GET_BLOCKS_CONVERT code") has no obvious style problems and is ready for submission.

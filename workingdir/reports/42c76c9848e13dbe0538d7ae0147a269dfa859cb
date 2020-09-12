@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 42c76c9848e1 ("scsi: acornscsi: Fix an error handling path in acornscsi_probe()") has no obvious style problems and is ready for submission.

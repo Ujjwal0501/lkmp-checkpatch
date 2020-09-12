@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 118 lines checked
+
+Commit 73371d5f313a ("i2c: at91: Send bus clear command if SDA is down") has no obvious style problems and is ready for submission.

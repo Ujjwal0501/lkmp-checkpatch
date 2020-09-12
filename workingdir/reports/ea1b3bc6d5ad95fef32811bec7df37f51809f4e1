@@ -1,0 +1,14 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#52: FILE: drivers/net/wireless/broadcom/brcm80211/brcmfmac/debug.c:51:
++void brcmf_debugfs_add_entry(struct brcmf_pub *drvr, const char *fn,
+ 			    int (*read_fn)(struct seq_file *seq, void *data))
+
+total: 0 errors, 0 warnings, 1 checks, 40 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ea1b3bc6d5ad ("brcmfmac: no need to check return value of debugfs_create functions") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

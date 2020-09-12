@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 75341b3d358d ("bus: bt1-apb: Use PTR_ERR_OR_ZERO to return from request-regs method") has no obvious style problems and is ready for submission.

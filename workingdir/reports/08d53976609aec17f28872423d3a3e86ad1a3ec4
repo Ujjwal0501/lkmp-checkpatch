@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 209 lines checked
+
+Commit 08d53976609a ("RDMA/mlx5: Copy response to the user in one place") has no obvious style problems and is ready for submission.

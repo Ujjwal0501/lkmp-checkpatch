@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 103 lines checked
+
+Commit 2630e1bb0948 ("media: rkvdec: Fix H264 scaling list order") has no obvious style problems and is ready for submission.

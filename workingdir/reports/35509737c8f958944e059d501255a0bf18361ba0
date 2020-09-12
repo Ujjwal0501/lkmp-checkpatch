@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 35509737c8f9 ("ARM: tegra: Correct PL310 Auxiliary Control Register initialization") has no obvious style problems and is ready for submission.

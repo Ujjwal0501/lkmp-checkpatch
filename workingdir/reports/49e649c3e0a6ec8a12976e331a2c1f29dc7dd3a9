@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 40 lines checked
+
+Commit 49e649c3e0a6 ("mt76: adjust wcid size to support new 802.11ax generation") has no obvious style problems and is ready for submission.

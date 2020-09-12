@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 41da51bce36f ("fs: Add IOCB_NOIO flag for generic_file_read_iter") has no obvious style problems and is ready for submission.

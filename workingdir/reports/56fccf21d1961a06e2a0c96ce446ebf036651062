@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit 56fccf21d196 ("dma-direct: check return value when encrypting or decrypting memory") has no obvious style problems and is ready for submission.

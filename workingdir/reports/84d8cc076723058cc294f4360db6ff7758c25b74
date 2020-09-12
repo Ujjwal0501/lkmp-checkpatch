@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 113 lines checked
+
+Commit 84d8cc076723 ("powerpc/powernv/pci: Add device to iommu group during dma_dev_setup()") has no obvious style problems and is ready for submission.

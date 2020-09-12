@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 7066c2f61ce4 ("uio_hv_generic: add missed sysfs_remove_bin_file") has no obvious style problems and is ready for submission.

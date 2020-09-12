@@ -1,0 +1,135 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#80: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#85: FILE: Documentation/watch_queue.rst:1:
++==============================
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#486: FILE: fs/pipe.c:657:
++		int ret;
++		__pipe_lock(pipe);
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'include/linux/watch_queue.h', please use '/*' instead
+#879: FILE: include/linux/watch_queue.h:1:
++// SPDX-License-Identifier: GPL-2.0
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#879: FILE: include/linux/watch_queue.h:1:
++// SPDX-License-Identifier: GPL-2.0
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch *' should also have an identifier name
+#953: FILE: include/linux/watch_queue.h:75:
++	void (*release_watch)(struct watch *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch_list *' should also have an identifier name
+#957: FILE: include/linux/watch_queue.h:79:
++extern void __post_watch_notification(struct watch_list *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch_notification *' should also have an identifier name
+#957: FILE: include/linux/watch_queue.h:79:
++extern void __post_watch_notification(struct watch_list *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct cred *' should also have an identifier name
+#957: FILE: include/linux/watch_queue.h:79:
++extern void __post_watch_notification(struct watch_list *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u64' should also have an identifier name
+#957: FILE: include/linux/watch_queue.h:79:
++extern void __post_watch_notification(struct watch_list *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#961: FILE: include/linux/watch_queue.h:83:
++extern struct watch_queue *get_watch_queue(int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch_queue *' should also have an identifier name
+#962: FILE: include/linux/watch_queue.h:84:
++extern void put_watch_queue(struct watch_queue *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch *' should also have an identifier name
+#963: FILE: include/linux/watch_queue.h:85:
++extern void init_watch(struct watch *, struct watch_queue *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch_queue *' should also have an identifier name
+#963: FILE: include/linux/watch_queue.h:85:
++extern void init_watch(struct watch *, struct watch_queue *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch *' should also have an identifier name
+#964: FILE: include/linux/watch_queue.h:86:
++extern int add_watch_to_object(struct watch *, struct watch_list *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch_list *' should also have an identifier name
+#964: FILE: include/linux/watch_queue.h:86:
++extern int add_watch_to_object(struct watch *, struct watch_list *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch_list *' should also have an identifier name
+#965: FILE: include/linux/watch_queue.h:87:
++extern int remove_watch_from_object(struct watch_list *, struct watch_queue *, u64, bool);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch_queue *' should also have an identifier name
+#965: FILE: include/linux/watch_queue.h:87:
++extern int remove_watch_from_object(struct watch_list *, struct watch_queue *, u64, bool);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u64' should also have an identifier name
+#965: FILE: include/linux/watch_queue.h:87:
++extern int remove_watch_from_object(struct watch_list *, struct watch_queue *, u64, bool);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'bool' should also have an identifier name
+#965: FILE: include/linux/watch_queue.h:87:
++extern int remove_watch_from_object(struct watch_list *, struct watch_queue *, u64, bool);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct pipe_inode_info *' should also have an identifier name
+#966: FILE: include/linux/watch_queue.h:88:
++extern long watch_queue_set_size(struct pipe_inode_info *, unsigned int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'unsigned int' should also have an identifier name
+#966: FILE: include/linux/watch_queue.h:88:
++extern long watch_queue_set_size(struct pipe_inode_info *, unsigned int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct pipe_inode_info *' should also have an identifier name
+#967: FILE: include/linux/watch_queue.h:89:
++extern long watch_queue_set_filter(struct pipe_inode_info *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch_notification_filter __user *' should also have an identifier name
+#967: FILE: include/linux/watch_queue.h:89:
++extern long watch_queue_set_filter(struct pipe_inode_info *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct pipe_inode_info *' should also have an identifier name
+#969: FILE: include/linux/watch_queue.h:91:
++extern int watch_queue_init(struct pipe_inode_info *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch_queue *' should also have an identifier name
+#970: FILE: include/linux/watch_queue.h:92:
++extern void watch_queue_clear(struct watch_queue *);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#1210: FILE: kernel/watch_queue.c:123:
++		BUG();
+
+WARNING:ALLOC_ARRAY_ARGS: kcalloc uses number as first arg, sizeof is generally wrong
+#1339: FILE: kernel/watch_queue.c:252:
++	pages = kcalloc(sizeof(struct page *), nr_pages, GFP_KERNEL);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1537: FILE: kernel/watch_queue.c:450:
++		struct watch_queue *wq = rcu_access_pointer(w->queue);
++		if (wqueue == wq && watch->id == w->id)
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch *' should also have an identifier name
+#1619: FILE: kernel/watch_queue.c:532:
++		void (*release_watch)(struct watch *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watch *' should also have an identifier name
+#1666: FILE: kernel/watch_queue.c:579:
++			void (*release_watch)(struct watch *);
+
+total: 0 errors, 31 warnings, 1604 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c73be61cede5 ("pipe: Add general notification queue support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

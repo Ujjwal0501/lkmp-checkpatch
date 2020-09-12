@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 22 lines checked
+
+Commit c9f98d9aeb09 ("media: hantro: Remove unneeded hantro_dec_buf_finish") has no obvious style problems and is ready for submission.

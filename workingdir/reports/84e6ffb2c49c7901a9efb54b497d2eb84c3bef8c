@@ -1,0 +1,20 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#158: FILE: arch/arm/mm/dump.c:379:
++	unsigned i;
+
+WARNING:BRACES: braces {} are not necessary for any arm of this statement
+#162: FILE: arch/arm/mm/dump.c:383:
++		if (!p4d_none(*p4d)) {
+[...]
++		} else {
+[...]
+
+total: 0 errors, 2 warnings, 419 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 84e6ffb2c49c ("arm: add support for folded p4d page tables") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

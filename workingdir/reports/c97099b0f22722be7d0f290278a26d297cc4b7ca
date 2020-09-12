@@ -1,0 +1,161 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#9: 
+Extend bench framework with ability to have benchmark-provided child argument
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#267: FILE: tools/testing/selftests/bpf/bench.c:133:
++extern struct argp bench_ringbufs_argp;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#289: FILE: tools/testing/selftests/bpf/bench.c:321:
++extern const struct bench bench_rb_libbpf;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#290: FILE: tools/testing/selftests/bpf/bench.c:322:
++extern const struct bench bench_rb_custom;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#291: FILE: tools/testing/selftests/bpf/bench.c:323:
++extern const struct bench bench_pb_libbpf;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#292: FILE: tools/testing/selftests/bpf/bench.c:324:
++extern const struct bench bench_pb_custom;
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#308: 
+new file mode 100644
+
+WARNING:LONG_LINE: line length of 116 exceeds 100 columns
+#354: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:42:
++	{ "rb-use-output", ARG_RB_USE_OUTPUT, NULL, 0, "Use bpf_ringbuf_output() instead of bpf_ringbuf_reserve()"},
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void bufs_trigger_batch() should probably be void bufs_trigger_batch(void)
+#403: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:91:
++static inline void bufs_trigger_batch()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void bufs_validate() should probably be void bufs_validate(void)
+#408: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:96:
++static void bufs_validate()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - struct ringbuf_bench *ringbuf_setup_skeleton() should probably be struct ringbuf_bench *ringbuf_setup_skeleton(void)
+#447: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:135:
++static struct ringbuf_bench *ringbuf_setup_skeleton()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void ringbuf_libbpf_setup() should probably be void ringbuf_libbpf_setup(void)
+#482: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:170:
++static void ringbuf_libbpf_setup()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void ringbuf_custom_setup() should probably be void ringbuf_custom_setup(void)
+#538: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:226:
++static void ringbuf_custom_setup()
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#613: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:301:
++	cons_pos = smp_load_acquire(r->consumer_pos);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#616: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:304:
++		prod_pos = smp_load_acquire(r->producer_pos);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#619: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:307:
++			len = smp_load_acquire(len_ptr);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#631: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:319:
++			smp_store_release(r->consumer_pos, cons_pos);
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - struct perfbuf_bench *perfbuf_setup_skeleton() should probably be struct perfbuf_bench *perfbuf_setup_skeleton(void)
+#667: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:355:
++static struct perfbuf_bench *perfbuf_setup_skeleton()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void perfbuf_libbpf_setup() should probably be void perfbuf_libbpf_setup(void)
+#705: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:393:
++static void perfbuf_libbpf_setup()
+
+WARNING:TYPECAST_INT_CONSTANT: Unnecessary typecast of c90 int constant
+#711: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:399:
++		.ctx = (void *)(long)0,
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#719: FILE: tools/testing/selftests/bpf/benchs/bench_ringbufs.c:407:
++	attr.config = PERF_COUNT_SW_BPF_OUTPUT,
++	attr.type = PERF_TYPE_SOFTWARE;
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 2
+#886: FILE: tools/testing/selftests/bpf/benchs/run_bench_ringbufs.sh:2:
++
+
+WARNING:LONG_LINE_STRING: line length of 119 exceeds 100 columns
+#935: FILE: tools/testing/selftests/bpf/benchs/run_bench_ringbufs.sh:51:
++	summarize "rb-sampled-$b" "$($RUN_BENCH --rb-b2b --rb-batch-cnt $b --rb-sampled --rb-sample-rate $b rb-custom)"
+
+WARNING:LONG_LINE_STRING: line length of 119 exceeds 100 columns
+#939: FILE: tools/testing/selftests/bpf/benchs/run_bench_ringbufs.sh:55:
++	summarize "pb-sampled-$b" "$($RUN_BENCH --rb-b2b --rb-batch-cnt $b --rb-sampled --rb-sample-rate $b pb-custom)"
+
+WARNING:LONG_LINE_STRING: line length of 111 exceeds 100 columns
+#952: FILE: tools/testing/selftests/bpf/benchs/run_bench_ringbufs.sh:68:
++	summarize $b "$($RUN_BENCH --rb-batch-cnt 1 --rb-sample-rate 1 --prod-affinity 0 --cons-affinity 0 $b)"
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#981: FILE: tools/testing/selftests/bpf/progs/perfbuf_bench.c:16:
++const volatile int batch_cnt = 0;
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#981: FILE: tools/testing/selftests/bpf/progs/perfbuf_bench.c:16:
++const volatile int batch_cnt = 0;
+
+WARNING:PREFER_ALIGNED: __aligned(size) is preferred over __attribute__((aligned(size)))
+#984: FILE: tools/testing/selftests/bpf/progs/perfbuf_bench.c:19:
++long dropped __attribute__((aligned(128))) = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#1018: FILE: tools/testing/selftests/bpf/progs/ringbuf_bench.c:14:
++const volatile int batch_cnt = 0;
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1018: FILE: tools/testing/selftests/bpf/progs/ringbuf_bench.c:14:
++const volatile int batch_cnt = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#1019: FILE: tools/testing/selftests/bpf/progs/ringbuf_bench.c:15:
++const volatile long use_output = 0;
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1019: FILE: tools/testing/selftests/bpf/progs/ringbuf_bench.c:15:
++const volatile long use_output = 0;
+
+WARNING:PREFER_ALIGNED: __aligned(size) is preferred over __attribute__((aligned(size)))
+#1022: FILE: tools/testing/selftests/bpf/progs/ringbuf_bench.c:18:
++long dropped __attribute__((aligned(128))) = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#1024: FILE: tools/testing/selftests/bpf/progs/ringbuf_bench.c:20:
++const volatile long wakeup_data_size = 0;
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1024: FILE: tools/testing/selftests/bpf/progs/ringbuf_bench.c:20:
++const volatile long wakeup_data_size = 0;
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - long get_flags() should probably be long get_flags(void)
+#1026: FILE: tools/testing/selftests/bpf/progs/ringbuf_bench.c:22:
++static __always_inline long get_flags()
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#1046: FILE: tools/testing/selftests/bpf/progs/ringbuf_bench.c:42:
++^I^I^I^I^I             sizeof(sample_val), 0);$
+
+total: 13 errors, 24 warnings, 790 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit c97099b0f227 ("bpf: Add BPF ringbuf and perf buffer benchmarks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

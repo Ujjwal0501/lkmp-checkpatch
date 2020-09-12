@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 124 lines checked
+
+Commit a91d55d162b8 ("tipc: enable broadcast retrans via unicast") has no obvious style problems and is ready for submission.

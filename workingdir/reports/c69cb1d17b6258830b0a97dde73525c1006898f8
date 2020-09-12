@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit c69cb1d17b62 ("dm zoned: fix uninitialized pointer dereference") has no obvious style problems and is ready for submission.

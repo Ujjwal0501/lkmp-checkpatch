@@ -1,0 +1,33 @@
+CHECK:CAMELCASE: Avoid CamelCase: <currCal>
+#37: FILE: drivers/net/wireless/ath/ath9k/calib.c:212:
++	currCal = ah->cal_list;
+
+CHECK:CAMELCASE: Avoid CamelCase: <calData>
+#40: FILE: drivers/net/wireless/ath/ath9k/calib.c:215:
++			currCal->calData->calType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <calType>
+#40: FILE: drivers/net/wireless/ath/ath9k/calib.c:215:
++			currCal->calData->calType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <CalValid>
+#45: FILE: drivers/net/wireless/ath/ath9k/calib.c:218:
++		ah->caldata->CalValid &= ~currCal->calData->calType;
+
+CHECK:CAMELCASE: Avoid CamelCase: <calState>
+#46: FILE: drivers/net/wireless/ath/ath9k/calib.c:219:
++		currCal->calState = CAL_WAITING;
+
+CHECK:CAMELCASE: Avoid CamelCase: <calNext>
+#50: FILE: drivers/net/wireless/ath/ath9k/calib.c:221:
++		currCal = currCal->calNext;
+
+total: 0 errors, 0 warnings, 6 checks, 23 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ded6ff15a191 ("ath9k: invalidate all calibrations at once") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

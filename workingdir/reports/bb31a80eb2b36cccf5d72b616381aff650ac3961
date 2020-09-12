@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 337 lines checked
+
+Commit bb31a80eb2b3 ("mt76: add headroom and tailroom to mt76_mcu_ops data structure") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit 2beee8689974 ("modpost: load KBUILD_EXTRA_SYMBOLS files in order") has no obvious style problems and is ready for submission.

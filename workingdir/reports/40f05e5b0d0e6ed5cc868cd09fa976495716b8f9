@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 65 lines checked
+
+Commit 40f05e5b0d0e ("net: atlantic: proper rss_ctrl1 (54c0) initialization") has no obvious style problems and is ready for submission.

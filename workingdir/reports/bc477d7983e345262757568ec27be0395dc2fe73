@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit bc477d7983e3 ("perf record: Move sb_evlist to 'struct record'") has no obvious style problems and is ready for submission.

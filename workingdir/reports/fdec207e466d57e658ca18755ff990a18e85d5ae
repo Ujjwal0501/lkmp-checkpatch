@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit fdec207e466d ("MIPS: Loongson64: define offsets and known revisions for some CPUCFG features") has no obvious style problems and is ready for submission.

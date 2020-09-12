@@ -1,0 +1,49 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+libbpf, as it's just another type of maps. So using existing BTF-defined maps
+
+WARNING:TYPO_SPELLING: 'availablity' may be misspelled - perhaps 'availability'?
+#40: 
+    data availablity notification sub-system. This API is useful for cases
+
+WARNING:TYPO_SPELLING: 'compatiblity' may be misspelled - perhaps 'compatibility'?
+#80: FILE: tools/lib/bpf/libbpf.h:487:
++	size_t sz; /* size of this struct, for forward/backward compatiblity */
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#129: 
+new file mode 100644
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#247: FILE: tools/lib/bpf/ringbuf.c:114:
++	 * */
+
+ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+#339: FILE: tools/lib/bpf/ringbuf.c:206:
++static int ringbuf_process_ring(struct ring* r)
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#346: FILE: tools/lib/bpf/ringbuf.c:213:
++	cons_pos = smp_load_acquire(r->consumer_pos);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#349: FILE: tools/lib/bpf/ringbuf.c:216:
++		prod_pos = smp_load_acquire(r->producer_pos);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#352: FILE: tools/lib/bpf/ringbuf.c:219:
++			len = smp_load_acquire(len_ptr);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#373: FILE: tools/lib/bpf/ringbuf.c:240:
++			smp_store_release(r->consumer_pos, cons_pos);
+
+total: 1 errors, 9 warnings, 336 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bf99c936f947 ("libbpf: Add BPF ring buffer support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

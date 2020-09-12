@@ -1,0 +1,38 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#340: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/hive_isp_css_include/assert_support.h:91:
++ * The implementation for the pipe generation tool is in see support.isp.h */
+
+CHECK:SPACING: spaces preferred around that '/' (ctx:VxV)
+#459: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/hive_isp_css_include/memory_access/memory_access.h:131:
++				client/driver for additional parameters
+ 				      ^
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#472: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/ia_css_err.h:50:
++		This warning can be avoided by de-queuing ISYS buffers more timely. */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#475: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/ia_css_err.h:52:
++		This warning can be avoided by de-queuing PSYS buffers more timely. */
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#523: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/isp/kernels/ctc/ctc2/ia_css_ctc2.host.c:83:
++	const unsigned length_zeros = 11;
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#591: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1808:
++	/* For IPU3 (SkyCam) this pointer is guaranteed to be NULL simply because such a binary does not exist  */
+
+WARNING:LONG_LINE_COMMENT: line length of 103 exceeds 100 columns
+#639: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/frame/src/frame.c:920:
++	 * At least in SKC this data is overwritten by isp_output_init.sp.c except for elements(elems),
+
+total: 0 errors, 6 warnings, 1 checks, 542 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4636a85cff86 ("media: atomisp: fix several typos") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

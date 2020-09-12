@@ -1,0 +1,29 @@
+CHECK:CAMELCASE: Avoid CamelCase: <uAckTime>
+#33: FILE: drivers/staging/vt6655/rxtx.c:177:
++	uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14,
+
+CHECK:CAMELCASE: Avoid CamelCase: <pDevice>
+#33: FILE: drivers/staging/vt6655/rxtx.c:177:
++	uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14,
+
+CHECK:CAMELCASE: Avoid CamelCase: <byPreambleType>
+#33: FILE: drivers/staging/vt6655/rxtx.c:177:
++	uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14,
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopCCKBasicRate>
+#35: FILE: drivers/staging/vt6655/rxtx.c:179:
++				     pDevice->byTopCCKBasicRate :
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopOFDMBasicRate>
+#36: FILE: drivers/staging/vt6655/rxtx.c:180:
++				     pDevice->byTopOFDMBasicRate);
+
+total: 0 errors, 0 warnings, 5 checks, 18 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0729bb9b2a97 ("staging: vt6655: fix LONG_LINE warning") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

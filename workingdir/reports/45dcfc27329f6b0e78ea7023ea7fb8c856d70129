@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit 45dcfc27329f ("fs/buffer.c: use attach/detach_page_private") has no obvious style problems and is ready for submission.

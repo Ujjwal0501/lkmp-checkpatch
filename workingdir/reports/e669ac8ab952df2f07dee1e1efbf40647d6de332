@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 84 lines checked
+
+Commit e669ac8ab952 ("sched: Remove checks against SD_LOAD_BALANCE") has no obvious style problems and is ready for submission.

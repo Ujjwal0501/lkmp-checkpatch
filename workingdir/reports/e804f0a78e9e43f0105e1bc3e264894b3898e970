@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit e804f0a78e9e ("i2c: slave-eeprom: Make it possible to pre-load eeprom data") has no obvious style problems and is ready for submission.

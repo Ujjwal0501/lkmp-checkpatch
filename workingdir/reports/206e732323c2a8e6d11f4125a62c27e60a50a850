@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#11: 
+commit 6db6f0eae6052b70885562e1733896647ec1d807 bridge: multicast to unicast
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 6db6f0eae605 ("bridge: multicast to unicast")'
+#11: 
+commit 6db6f0eae6052b70885562e1733896647ec1d807 bridge: multicast to unicast
+
+total: 1 errors, 1 warnings, 0 checks, 9 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 206e732323c2 ("net: bridge: enfore alignment for ethernet address") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#19: 
+ .../networking/{filter.txt => filter.rst}     | 868 ++++++++++--------
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#551: FILE: Documentation/networking/filter.rst:516:
++    [ 3389.935851] JIT code: 00000030: 00 e8 28 94 ff e0 83 f8 01 75 07 b8 ff ff 00 00
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#695: FILE: Documentation/networking/filter.rst:589:
++		b8 ff ff 00 00
+
+total: 0 errors, 3 warnings, 1500 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cb3f0d56e153 ("docs: networking: convert filter.txt to ReST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

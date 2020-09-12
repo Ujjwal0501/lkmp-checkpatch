@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 233 lines checked
+
+Commit 2d3d54bf1294 ("mtd: rawnand: stm32_fmc2: remove useless inline comments") has no obvious style problems and is ready for submission.

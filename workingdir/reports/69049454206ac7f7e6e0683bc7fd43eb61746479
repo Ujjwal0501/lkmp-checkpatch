@@ -1,0 +1,81 @@
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#47: FILE: drivers/xen/xen-pciback/conf_space.c:160:
++		dev_printk(KERN_DEBUG, &dev->dev, "read %d bytes at 0x%x\n",
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#58: FILE: drivers/xen/xen-pciback/conf_space.c:201:
++		dev_printk(KERN_DEBUG, &dev->dev,
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#70: FILE: drivers/xen/xen-pciback/conf_space.c:218:
++		dev_printk(KERN_DEBUG, &dev->dev,
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#94: FILE: drivers/xen/xen-pciback/conf_space_header.c:72:
++			dev_printk(KERN_DEBUG, &dev->dev, "enable\n");
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#104: FILE: drivers/xen/xen-pciback/conf_space_header.c:80:
++			dev_printk(KERN_DEBUG, &dev->dev, "disable\n");
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#114: FILE: drivers/xen/xen-pciback/conf_space_header.c:88:
++			dev_printk(KERN_DEBUG, &dev->dev, "set bus master\n");
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#120: FILE: drivers/xen/xen-pciback/conf_space_header.c:92:
++			dev_printk(KERN_DEBUG, &dev->dev, "clear bus master\n");
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#130: FILE: drivers/xen/xen-pciback/conf_space_header.c:99:
++			dev_printk(KERN_DEBUG, &dev->dev,
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#146: FILE: drivers/xen/xen-pciback/conf_space_header.c:110:
++			dev_printk(KERN_DEBUG, &dev->dev,
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#211: FILE: drivers/xen/xen-pciback/conf_space_quirks.c:40:
++	dev_printk(KERN_DEBUG, &dev->dev,
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#352: FILE: drivers/xen/xen-pciback/pciback_ops.c:152:
++		dev_printk(KERN_DEBUG, &dev->dev, "enable MSI\n");
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#374: FILE: drivers/xen/xen-pciback/pciback_ops.c:173:
++		dev_printk(KERN_DEBUG, &dev->dev, "MSI: %d\n", op->value);
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#384: FILE: drivers/xen/xen-pciback/pciback_ops.c:187:
++		dev_printk(KERN_DEBUG, &dev->dev, "disable MSI\n");
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#394: FILE: drivers/xen/xen-pciback/pciback_ops.c:200:
++		dev_printk(KERN_DEBUG, &dev->dev, "MSI: %d\n", op->value);
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#404: FILE: drivers/xen/xen-pciback/pciback_ops.c:214:
++		dev_printk(KERN_DEBUG, &dev->dev, "enable MSI-X\n");
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#415: FILE: drivers/xen/xen-pciback/pciback_ops.c:248:
++					dev_printk(KERN_DEBUG, &dev->dev,
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#435: FILE: drivers/xen/xen-pciback/pciback_ops.c:271:
++		dev_printk(KERN_DEBUG, &dev->dev, "disable MSI-X\n");
+
+WARNING:PREFER_DEV_LEVEL: Prefer dev_dbg(... to dev_printk(KERN_DEBUG, ...
+#445: FILE: drivers/xen/xen-pciback/pciback_ops.c:288:
++		dev_printk(KERN_DEBUG, &dev->dev, "MSI-X: %d\n", op->value);
+
+total: 0 errors, 18 warnings, 405 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 69049454206a ("xen-pciback: Use dev_printk() when possible") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

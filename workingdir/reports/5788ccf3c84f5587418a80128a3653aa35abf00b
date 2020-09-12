@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 5788ccf3c84f ("mtd: clear cache_state to avoid writing to bad blocks repeatedly") has no obvious style problems and is ready for submission.

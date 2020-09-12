@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit eadf79286a4b ("drm/msm: Check for powered down HW in the devfreq callbacks") has no obvious style problems and is ready for submission.

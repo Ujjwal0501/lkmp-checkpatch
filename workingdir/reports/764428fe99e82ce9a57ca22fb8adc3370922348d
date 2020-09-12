@@ -1,0 +1,47 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#256: FILE: crypto/jitterentropy.c:232:
++ * ^I0 No health test failure$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#257: FILE: crypto/jitterentropy.c:233:
++ * ^I1 Permanent health test failure$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#275: FILE: crypto/jitterentropy.c:251:
++ * ^I1st derivative of the jitter measurement (time delta)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#276: FILE: crypto/jitterentropy.c:252:
++ * ^I2nd derivative of the jitter measurement (delta of time deltas)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#277: FILE: crypto/jitterentropy.c:253:
++ * ^I3rd derivative of the jitter measurement (delta of delta of time deltas)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#285: FILE: crypto/jitterentropy.c:261:
++ * ^I0 jitter measurement not stuck (good bit)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#286: FILE: crypto/jitterentropy.c:262:
++ * ^I1 jitter measurement stuck (reject bit)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#321: FILE: crypto/jitterentropy.c:297:
++ * ^I0 No health test failure$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#322: FILE: crypto/jitterentropy.c:298:
++ * ^I1 Permanent health test failure$
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author '"Stephan Müller" <smueller@chronox.de>'
+
+total: 0 errors, 10 warnings, 620 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 764428fe99e8 ("crypto: jitter - SP800-90B compliance") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

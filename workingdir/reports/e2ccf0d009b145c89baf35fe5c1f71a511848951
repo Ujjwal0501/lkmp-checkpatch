@@ -1,0 +1,21 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#16: 
+  process_csb: 0000:00:02.0 bcs0: ring:{start:0x00178000, head:0928, tail:0928, ctl:00000000, mode:00000200}
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#58: FILE: drivers/gpu/drm/i915/gt/intel_lrc.c:2347:
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#60: FILE: drivers/gpu/drm/i915/gt/intel_lrc.c:2349:
++	mb();
+
+total: 0 errors, 3 warnings, 67 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e2ccf0d009b1 ("drm/i915/execlists: Double check breadcrumb before crying foul") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

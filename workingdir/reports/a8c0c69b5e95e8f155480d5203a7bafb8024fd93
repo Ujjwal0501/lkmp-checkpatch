@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit a8c0c69b5e95 ("powerpc/vas: Initialize window attributes for GZIP coprocessor type") has no obvious style problems and is ready for submission.

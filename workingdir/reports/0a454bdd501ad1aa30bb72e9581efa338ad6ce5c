@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 288 lines checked
+
+Commit 0a454bdd501a ("ceph: reorganize __send_cap for less spinlock abuse") has no obvious style problems and is ready for submission.

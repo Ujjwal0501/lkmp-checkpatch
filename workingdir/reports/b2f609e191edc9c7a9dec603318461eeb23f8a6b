@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit b2f609e191ed ("block: move the blk-mq calls out of part_in_flight{,_rw}") has no obvious style problems and is ready for submission.

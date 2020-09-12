@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 56083bdf67c7 ("KVM: x86: check_nested_events is never NULL") has no obvious style problems and is ready for submission.

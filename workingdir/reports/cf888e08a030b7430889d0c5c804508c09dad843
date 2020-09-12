@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 283 lines checked
+
+Commit cf888e08a030 ("perf intel-pt: Change branch stack support to use thread-stacks") has no obvious style problems and is ready for submission.

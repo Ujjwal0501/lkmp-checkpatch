@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 56 lines checked
+
+Commit a45cfcc69a25 ("net: ethernet: ti: am65-cpsw-nuss: use of_platform_device_create() for mdio") has no obvious style problems and is ready for submission.

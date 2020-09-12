@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 437 lines checked
+
+Commit 5ec5d3bddc6b ("nvme-rdma: add metadata/T10-PI support") has no obvious style problems and is ready for submission.

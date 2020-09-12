@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 58 lines checked
+
+Commit cff9f12b1891 ("net/core: Introduce netdev_get_xmit_slave") has no obvious style problems and is ready for submission.

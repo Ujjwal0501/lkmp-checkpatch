@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 312a79b6eafe ("drm/amdgpu:  extent threshold of waiting FLR_COMPLETE") has no obvious style problems and is ready for submission.

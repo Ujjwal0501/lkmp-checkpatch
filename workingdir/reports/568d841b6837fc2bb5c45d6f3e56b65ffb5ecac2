@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 568d841b6837 ("mtd: cmdlinepart: Add an slc option to use SLC mode on a part") has no obvious style problems and is ready for submission.

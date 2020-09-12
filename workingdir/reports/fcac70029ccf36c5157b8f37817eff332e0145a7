@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 42 lines checked
+
+Commit fcac70029ccf ("iwlwifi: pcie: keep trans instead of trans_pcie in iwl_txq") has no obvious style problems and is ready for submission.

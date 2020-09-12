@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit ce593a6c480a ("io_uring: use signal based task_work running") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit 9976ea27b526 ("RDMA/hns: Optimize hns_roce_config_link_table()") has no obvious style problems and is ready for submission.

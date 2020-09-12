@@ -1,0 +1,14 @@
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#82: FILE: arch/arm64/include/asm/alternative.h:122:
++664:	.previous
+    ^
+
+total: 1 errors, 0 warnings, 60 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f7b93d42945c ("arm64/alternatives: use subsections for replacement sequences") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

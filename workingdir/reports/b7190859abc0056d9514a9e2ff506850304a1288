@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 116 lines checked
+
+Commit b7190859abc0 ("iio: imu: adis16xxx: use helper to access iio core debugfs dir") has no obvious style problems and is ready for submission.

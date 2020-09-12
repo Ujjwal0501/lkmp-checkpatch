@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 191 lines checked
+
+Commit 0cdea4455acd ("drm/mm: optimize rb_hole_addr rbtree search") has no obvious style problems and is ready for submission.

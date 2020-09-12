@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 130 lines checked
+
+Commit c150c0f362c1 ("serial: Allow uart_get_rs485_mode() to return errno") has no obvious style problems and is ready for submission.

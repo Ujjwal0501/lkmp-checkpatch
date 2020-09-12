@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 9bf7c31386e5 ("drm/i915/execlists: Drop setting sibling priority hint on virtual engines") has no obvious style problems and is ready for submission.

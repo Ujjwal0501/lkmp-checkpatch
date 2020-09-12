@@ -1,0 +1,13 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#92: FILE: mm/memcontrol.c:5497:
++^Ipage->mem_cgroup = to; ^I/* caller should have done css_get */$
+
+total: 0 errors, 1 warnings, 54 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit abb242f57196 ("mm: memcontrol: fix stat-corrupting race in charge moving") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

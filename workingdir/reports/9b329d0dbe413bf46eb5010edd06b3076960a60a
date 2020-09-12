@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#6: 
+Similar to commit b7a0d65d80a0 ("bpf, testing: Workaround a verifier failure for test_progs")
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#24: FILE: tools/testing/selftests/bpf/progs/test_sysctl_prog.c:48:
++	volatile int ret;
+
+total: 0 errors, 2 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9b329d0dbe41 ("selftests/bpf: fix test_sysctl_prog with alu32") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

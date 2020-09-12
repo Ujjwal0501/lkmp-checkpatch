@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 48 lines checked
+
+Commit b87bde80daf7 ("mlxsw: spectrum_trap: Do not hard code "thin" policer identifier") has no obvious style problems and is ready for submission.

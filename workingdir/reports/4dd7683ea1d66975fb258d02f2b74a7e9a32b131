@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 4dd7683ea1d6 ("MIPS: Do not flush tlb page when updating PTE entry") has no obvious style problems and is ready for submission.

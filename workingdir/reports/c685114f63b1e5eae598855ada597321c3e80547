@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c685114f63b1 ("usb: dwc3: use true,false for dwc->otg_restart_host") has no obvious style problems and is ready for submission.

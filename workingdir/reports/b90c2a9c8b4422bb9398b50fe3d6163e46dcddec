@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b90c2a9c8b44 ("xfs: xfs_bmapi_read doesn't take a fork id as the last argument") has no obvious style problems and is ready for submission.

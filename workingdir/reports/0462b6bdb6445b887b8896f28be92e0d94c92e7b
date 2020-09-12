@@ -1,0 +1,24 @@
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#53: FILE: net/core/scm.c:303:
++	for (i=0, cmfptr =(int __user *)CMSG_USER_DATA(cm); i<fdmax;
+ 	      ^
+
+ERROR:SPACING: spaces required around that '=' (ctx:WxV)
+#53: FILE: net/core/scm.c:303:
++	for (i=0, cmfptr =(int __user *)CMSG_USER_DATA(cm); i<fdmax;
+ 	                 ^
+
+ERROR:SPACING: spaces required around that '<' (ctx:VxV)
+#53: FILE: net/core/scm.c:303:
++	for (i=0, cmfptr =(int __user *)CMSG_USER_DATA(cm); i<fdmax;
+ 	                                                     ^
+
+total: 3 errors, 0 warnings, 0 checks, 27 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0462b6bdb644 ("net: add a CMSG_USER_DATA macro") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

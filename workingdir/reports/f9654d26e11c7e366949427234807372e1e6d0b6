@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f9654d26e11c ("arm64: dts: imx8mp: add "fsl,imx6sx-fec" compatible string") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 6d1f916265aa ("perf beauty: Allow the CC used in the arch errno names script to acccept CFLAGS") has no obvious style problems and is ready for submission.

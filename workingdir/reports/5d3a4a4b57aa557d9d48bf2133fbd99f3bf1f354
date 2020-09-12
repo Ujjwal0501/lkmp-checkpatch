@@ -1,0 +1,21 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#252: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mt7615.h:169:
++#define mt7615_mcu_add_bss_info(phy, ...) (phy->dev)->mcu_ops->add_bss_info((phy),  __VA_ARGS__)
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'phy' - possible side-effects?
+#252: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mt7615.h:169:
++#define mt7615_mcu_add_bss_info(phy, ...) (phy->dev)->mcu_ops->add_bss_info((phy),  __VA_ARGS__)
+
+CHECK:MACRO_ARG_PRECEDENCE: Macro argument 'phy' may be better as '(phy)' to avoid precedence issues
+#252: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mt7615.h:169:
++#define mt7615_mcu_add_bss_info(phy, ...) (phy->dev)->mcu_ops->add_bss_info((phy),  __VA_ARGS__)
+
+total: 1 errors, 0 warnings, 2 checks, 217 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5d3a4a4b57aa ("mt76: mt7615: introduce rlm tlv in bss_info mcu command") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,13 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#44: 
+ rename drivers/gpu/drm/i915/gt/{intel_engine_pool.c => intel_gt_buffer_pool.c} (53%)
+
+total: 0 errors, 1 warnings, 589 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 16e87459673a ("drm/i915/gt: Move the batch buffer pool from the engine to the gt") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

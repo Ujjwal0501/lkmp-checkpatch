@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 107 lines checked
+
+Commit 9c2ba4ede4c0 ("RDMA/mlx5: Prepare QP allocation for future removal") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 129 lines checked
+
+Commit ee9bc5fdf5b6 ("{x86,powerpc,microblaze}/kmap: move preempt disable") has no obvious style problems and is ready for submission.

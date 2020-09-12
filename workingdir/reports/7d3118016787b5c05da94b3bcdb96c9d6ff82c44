@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit 7d3118016787 ("net: rtnetlink: remove redundant assignment to variable err") has no obvious style problems and is ready for submission.

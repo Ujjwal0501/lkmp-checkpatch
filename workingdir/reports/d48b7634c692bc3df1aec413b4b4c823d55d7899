@@ -1,0 +1,13 @@
+CHECK:UNCOMMENTED_DEFINITION: struct mutex definition without comment
+#103: FILE: drivers/net/ethernet/micrel/ks8851.c:138:
++	struct mutex		lock;
+
+total: 0 errors, 0 warnings, 1 checks, 308 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d48b7634c692 ("net: ks8851: Split out SPI specific entries in struct ks8851_net") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

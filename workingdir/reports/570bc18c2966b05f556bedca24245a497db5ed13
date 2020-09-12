@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#98: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:1926:
++		dcn20_acquire_dsc(dc, res_ctx, &next_odm_pipe->stream_res.dsc, next_odm_pipe->pipe_idx);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#216: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2679:
++				else if (pipe->top_pipe && pipe->top_pipe->plane_state == pipe->plane_state)
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#280: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2711:
++				if (split[i] == 2 && ((pipe->prev_odm_pipe && !pipe->prev_odm_pipe->prev_odm_pipe)
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#292: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2723:
++				if (pipe->top_pipe && pipe->top_pipe->plane_state == pipe->plane_state) {
+
+total: 0 errors, 4 warnings, 291 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 570bc18c2966 ("drm/amd/display: fix and simplify pipe split logic") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

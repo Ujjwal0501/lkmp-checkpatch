@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 2bc010600d0a ("fs: simplify do_splice_to") has no obvious style problems and is ready for submission.

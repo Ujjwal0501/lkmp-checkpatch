@@ -1,0 +1,21 @@
+CHECK:CAMELCASE: Avoid CamelCase: <pLed>
+#38: FILE: drivers/staging/rtl8188eu/core/rtw_led.c:130:
++		if (pLed->BlinkTimes == 0) {
+
+CHECK:CAMELCASE: Avoid CamelCase: <BlinkTimes>
+#38: FILE: drivers/staging/rtl8188eu/core/rtw_led.c:130:
++		if (pLed->BlinkTimes == 0) {
+
+CHECK:CAMELCASE: Avoid CamelCase: <BlinkingLedState>
+#63: FILE: drivers/staging/rtl8188eu/core/rtw_led.c:205:
++		if (pLed->BlinkingLedState != RTW_LED_ON) {
+
+total: 0 errors, 0 warnings, 3 checks, 40 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8d36c8d83509 ("staging: rtl8188eu: remove unnecessary variable") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

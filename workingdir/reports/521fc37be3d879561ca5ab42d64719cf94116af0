@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 222 lines checked
+
+Commit 521fc37be3d8 ("ath10k: Avoid override CE5 configuration for QCA99X0 chipsets") has no obvious style problems and is ready for submission.

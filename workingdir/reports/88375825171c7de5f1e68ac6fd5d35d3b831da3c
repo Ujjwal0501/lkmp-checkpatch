@@ -1,0 +1,17 @@
+WARNING:DATA_RACE: data_race without comment
+#65: FILE: kernel/rcu/tree_stall.h:361:
++	       data_race(rcu_state.n_force_qs) - rcu_state.n_force_qs_gpstart,
+
+WARNING:LONG_LINE: line length of 128 exceeds 100 columns
+#85: FILE: kernel/rcu/tree_stall.h:380:
++			pr_err("\tUnless %s kthread gets sufficient CPU time, OOM is now expected behavior.\n", rcu_state.name);
+
+total: 0 errors, 2 warnings, 60 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 88375825171c ("rcu: When GP kthread is starved, tag idle threads as false positives") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

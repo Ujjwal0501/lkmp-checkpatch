@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit d09f85d52ad6 ("drm/amdkfd: Use a systematic method to calculate queue mask bit") has no obvious style problems and is ready for submission.

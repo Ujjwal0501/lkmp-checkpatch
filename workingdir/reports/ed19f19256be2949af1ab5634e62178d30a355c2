@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 93 lines checked
+
+Commit ed19f19256be ("zram: Allocate struct zcomp_strm as per-CPU memory") has no obvious style problems and is ready for submission.

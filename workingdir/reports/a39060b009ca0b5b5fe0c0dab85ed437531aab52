@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 155 lines checked
+
+Commit a39060b009ca ("arm64: compat: Allow 32-bit vdso and sigpage to co-exist") has no obvious style problems and is ready for submission.

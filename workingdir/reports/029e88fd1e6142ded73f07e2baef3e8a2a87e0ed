@@ -1,0 +1,26 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#1686: 
+new file mode 100644
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2942: FILE: drivers/infiniband/hw/mlx5/wr.c:1252:
++	void *cur_edge;
++	int uninitialized_var(size);
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#2942: FILE: drivers/infiniband/hw/mlx5/wr.c:1252:
++	int uninitialized_var(size);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'size' should also have an identifier name
+#2942: FILE: drivers/infiniband/hw/mlx5/wr.c:1252:
++	int uninitialized_var(size);
+
+total: 0 errors, 4 warnings, 3214 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 029e88fd1e61 ("RDMA/mlx5: Move all WR logic from qp.c to separate file") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

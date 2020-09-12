@@ -1,0 +1,13 @@
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#140: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mcu.c:1340:
++		/* fall through */
+
+total: 0 errors, 1 warnings, 0 checks, 347 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c336318f57a9 ("mt76: mt7915: add HE capabilities support for peers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 44b9409c982c ("iio: light: cm32181: Add support for ACPI enumeration") has no obvious style problems and is ready for submission.

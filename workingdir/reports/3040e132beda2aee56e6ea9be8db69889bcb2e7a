@@ -1,0 +1,17 @@
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#64: FILE: arch/arm64/boot/dts/realtek/rtd1295-mele-v9.dts:4:
+  * SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#87: FILE: arch/arm64/boot/dts/realtek/rtd1295-probox2-ava.dts:4:
+  * SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+
+total: 0 errors, 2 warnings, 95 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3040e132beda ("arm64: dts: realtek: rtd129x: Carve out boot ROM from memory") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

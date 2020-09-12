@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 180 lines checked
+
+Commit db0338eec583 ("x86/entry: Convert APIC interrupts to IDTENTRY_SYSVEC") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 9fc18435d214 ("arm64: dts: qcom: sc7180: Add "no-map" to cmd_db reserved area") has no obvious style problems and is ready for submission.

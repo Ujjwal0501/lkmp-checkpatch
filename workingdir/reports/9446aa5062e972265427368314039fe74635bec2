@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 9446aa5062e9 ("MIPS: Netlogic: remove unneeded semicolon in fmn_message_handler()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 67 lines checked
+
+Commit 2834a7412bb1 ("scripts: sphinx-pre-install: change recommendation text if venv exists") has no obvious style problems and is ready for submission.

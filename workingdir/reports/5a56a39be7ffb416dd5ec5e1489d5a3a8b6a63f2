@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 241 lines checked
+
+Commit 5a56a39be7ff ("hwmon: (ina2xx) Implement alert functions") has no obvious style problems and is ready for submission.

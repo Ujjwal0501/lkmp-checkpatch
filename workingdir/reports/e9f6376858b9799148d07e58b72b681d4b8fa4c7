@@ -1,0 +1,30 @@
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#208: FILE: arch/arm64/include/asm/pgtable.h:632:
++#define pud_offset_phys(dir, addr)	(p4d_page_paddr(READ_ONCE(*(dir))) + pud_index(addr) * sizeof(pud_t))
+
+ERROR:SPACING: space required after that ';' (ctx:VxV)
+#224: FILE: arch/arm64/include/asm/pgtable.h:646:
++#define p4d_page_paddr(p4d)	({ BUILD_BUG(); 0;})
+                            	                 ^
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#837: FILE: arch/arm64/mm/fault.c:158:
++		pr_cont(", p4d=%016llx", p4d_val(p4d));
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#992: FILE: arch/arm64/mm/mmu.c:303:
++	BUG_ON(p4d_bad(p4d));
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#1068: FILE: arch/arm64/mm/mmu.c:1133:
++	BUG_ON(p4d_none(p4d) || p4d_bad(p4d));
+
+total: 1 errors, 4 warnings, 975 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e9f6376858b9 ("arm64: add support for folded p4d page tables") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

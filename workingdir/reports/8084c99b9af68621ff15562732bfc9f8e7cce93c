@@ -1,0 +1,13 @@
+WARNING:EXPORT_SYMBOL: EXPORT_SYMBOL(foo); should immediately follow its function/variable
+#47: FILE: arch/m68k/lib/checksum.c:319:
++EXPORT_SYMBOL(csum_and_copy_from_user);
+
+total: 0 errors, 1 warnings, 25 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8084c99b9af6 ("m68k: convert to csum_and_copy_from_user()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

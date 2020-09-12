@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 90 lines checked
+
+Commit c6fddb28bad2 ("tools api fs: Make xxx__mountpoint() more scalable") has no obvious style problems and is ready for submission.

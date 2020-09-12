@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit 8ac68dc455d9 ("revert: 1320a4052ea1 ("audit: trigger accompanying records when no rules present")") has no obvious style problems and is ready for submission.

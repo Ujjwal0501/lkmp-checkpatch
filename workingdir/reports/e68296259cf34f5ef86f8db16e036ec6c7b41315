@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit e68296259cf3 ("drm/i915/gem: Wait until the context is finally retired before releasing engines") has no obvious style problems and is ready for submission.

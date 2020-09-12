@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit cc03f19cfd45 ("ia64: csum_partial_copy_nocheck(): don't abuse csum_partial_copy_from_user()") has no obvious style problems and is ready for submission.

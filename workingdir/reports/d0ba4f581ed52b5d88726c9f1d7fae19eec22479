@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit d0ba4f581ed5 ("ARM: dts: aspeed: tacoma: Add gpio-key definitions") has no obvious style problems and is ready for submission.

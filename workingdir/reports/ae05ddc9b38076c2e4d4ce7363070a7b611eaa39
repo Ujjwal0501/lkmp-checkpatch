@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit ae05ddc9b380 ("ARM: dts: tegra30: beaver: Set up voltage regulators for DVFS") has no obvious style problems and is ready for submission.

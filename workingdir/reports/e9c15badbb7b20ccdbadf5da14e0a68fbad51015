@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e9c15badbb7b ("fs: Do not check if there is a fsnotify watcher on pseudo inodes") has no obvious style problems and is ready for submission.

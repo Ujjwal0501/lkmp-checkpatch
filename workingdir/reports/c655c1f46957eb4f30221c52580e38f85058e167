@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 62 lines checked
+
+Commit c655c1f46957 ("net/mlx5: Add helper function to release fw page") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 71a4917b4d4b ("mtd: rawnand: hisi504: Stop using nand_release()") has no obvious style problems and is ready for submission.

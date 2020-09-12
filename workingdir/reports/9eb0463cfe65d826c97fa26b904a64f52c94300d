@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 149 lines checked
+
+Commit 9eb0463cfe65 ("drm/i915/fbc: Fix fence_y_offset handling") has no obvious style problems and is ready for submission.

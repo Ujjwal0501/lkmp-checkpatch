@@ -1,0 +1,13 @@
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO' are not preferred. Consider using octal permissions '0444'.
+#74: FILE: drivers/scsi/scsi_debug.c:5553:
++module_param_named(zone_nr_conv, sdeb_zbc_nr_conv, int, S_IRUGO);
+
+total: 0 errors, 1 warnings, 55 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit aa8fecf96b70 ("scsi: scsi_debug: Add zone_nr_conv module parameter") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

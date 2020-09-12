@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 352 lines checked
+
+Commit dd873dd51d8d ("drm/i915: Reorder await_execution before await_request") has no obvious style problems and is ready for submission.

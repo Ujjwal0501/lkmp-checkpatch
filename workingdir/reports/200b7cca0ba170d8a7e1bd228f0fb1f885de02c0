@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 559 lines checked
+
+Commit 200b7cca0ba1 ("mlxsw: spectrum_trap: Store all trap data in one array") has no obvious style problems and is ready for submission.

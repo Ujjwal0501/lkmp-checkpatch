@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit a1b2eeacbc55 ("drm/i915: Remove unused HAS_FWTABLE macro") has no obvious style problems and is ready for submission.

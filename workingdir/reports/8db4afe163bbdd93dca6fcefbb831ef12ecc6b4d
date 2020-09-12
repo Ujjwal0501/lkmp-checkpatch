@@ -1,0 +1,18 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#40: FILE: drivers/iio/pressure/ms5611_core.c:218:
++		s32 channels[2];
++		s64 ts __aligned(8);
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#40: FILE: drivers/iio/pressure/ms5611_core.c:218:
++		s64 ts __aligned(8);
+
+total: 0 errors, 2 warnings, 24 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8db4afe163bb ("iio:pressure:ms5611 Fix buffer element alignment") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

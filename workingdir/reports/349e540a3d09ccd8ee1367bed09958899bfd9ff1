@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'detect'
+#9: 
+Firmware is able to detect detect changes about ERP protection in
+
+total: 0 errors, 1 warnings, 0 checks, 10 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 349e540a3d09 ("staging: wfx: do not use built-in AUTO_ERP feature") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit a08e1b6c2d0b ("cpufreq: Add i.MX7ULP to cpufreq-dt-platdev blacklist") has no obvious style problems and is ready for submission.

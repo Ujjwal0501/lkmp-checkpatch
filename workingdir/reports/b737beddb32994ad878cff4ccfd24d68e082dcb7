@@ -1,0 +1,21 @@
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#32: FILE: drivers/clk/imx/clk-imx8mm.c:419:
++	hws[IMX8MM_CLK_A53_DIV] = imx8m_clk_hw_composite_core("arm_a53_div", imx8mm_a53_sels, base + 0x8000);
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#49: FILE: drivers/clk/imx/clk-imx8mn.c:416:
++	hws[IMX8MN_CLK_A53_DIV] = imx8m_clk_hw_composite_core("arm_a53_div", imx8mn_a53_sels, base + 0x8000);
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#66: FILE: drivers/clk/imx/clk-imx8mq.c:408:
++	hws[IMX8MQ_CLK_A53_DIV] = imx8m_clk_hw_composite_core("arm_a53_div", imx8mq_a53_sels, base + 0x8000);
+
+total: 0 errors, 3 warnings, 36 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b737beddb329 ("clk: imx8m: migrate A53 clk root to use composite core") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

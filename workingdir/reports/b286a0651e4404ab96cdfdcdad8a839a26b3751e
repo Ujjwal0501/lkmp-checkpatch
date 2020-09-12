@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 100 lines checked
+
+Commit b286a0651e44 ("net/smc: handle incoming CDC validation message") has no obvious style problems and is ready for submission.

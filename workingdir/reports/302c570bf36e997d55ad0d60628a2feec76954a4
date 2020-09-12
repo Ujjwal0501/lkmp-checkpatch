@@ -1,0 +1,13 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#13: 
+[1] https://lore.kernel.org/linux-usb/20200530040157.31038-1-john.stultz@linaro.org
+
+total: 0 errors, 1 warnings, 49 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 302c570bf36e ("usb: typec: tcpci_rt1711h: avoid screaming irq causing boot hangs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

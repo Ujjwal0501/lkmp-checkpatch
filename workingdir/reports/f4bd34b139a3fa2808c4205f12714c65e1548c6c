@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit f4bd34b139a3 ("loop: replace kill_bdev with invalidate_bdev") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 208 lines checked
+
+Commit ada66f183759 ("arm64: Reorder the macro arguments in the copy routines") has no obvious style problems and is ready for submission.

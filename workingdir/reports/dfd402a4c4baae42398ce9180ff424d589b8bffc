@@ -1,0 +1,204 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#128: FILE: include/linux/compiler-gcc.h:149:
++#define __no_sanitize_thread                                                   \
++	__attribute__((__noinline__)) __attribute__((no_sanitize_thread))
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#177: FILE: include/linux/compiler.h:215:
++# define __no_kcsan_or_inline __no_sanitize_thread notrace __maybe_unused
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#188: FILE: include/linux/compiler.h:226:
++void __read_once_size(const volatile void *p, void *res, int size)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#202: FILE: include/linux/compiler.h:239:
++void __write_once_size(volatile void *p, void *res, int size)
+
+WARNING:REPEATED_WORD: Possible repeated word: 'size'
+#238: FILE: include/linux/kcsan-checks.h:24:
++ * @size size of access
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#241: FILE: include/linux/kcsan-checks.h:27:
++void __kcsan_check_access(const volatile void *ptr, size_t size, int type);
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#244: FILE: include/linux/kcsan-checks.h:30:
++static inline void __kcsan_check_access(const volatile void *ptr, size_t size,
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#255: FILE: include/linux/kcsan-checks.h:41:
++static inline void kcsan_check_access(const volatile void *ptr, size_t size,
+
+WARNING:REPEATED_WORD: Possible repeated word: 'size'
+#263: FILE: include/linux/kcsan-checks.h:49:
++ * @size size of access
+
+WARNING:REPEATED_WORD: Possible repeated word: 'size'
+#271: FILE: include/linux/kcsan-checks.h:57:
++ * @size size of access
+
+WARNING:REPEATED_WORD: Possible repeated word: 'size'
+#280: FILE: include/linux/kcsan-checks.h:66:
++ * @size size of access
+
+WARNING:REPEATED_WORD: Possible repeated word: 'size'
+#288: FILE: include/linux/kcsan-checks.h:74:
++ * @size size of access
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#549: FILE: kernel/kcsan/atomic.h:21:
++static inline bool kcsan_is_atomic(const volatile void *ptr)
+
+WARNING:REPEATED_WORD: Possible repeated word: 'slots'
+#590: FILE: kernel/kcsan/core.c:29:
++ * Helper macros to index into adjacent slots slots, starting from address slot
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#739: FILE: kernel/kcsan/core.c:178:
++static inline bool is_atomic(const volatile void *ptr)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#763: FILE: kernel/kcsan/core.c:202:
++static inline bool should_watch(const volatile void *ptr, int type)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#823: FILE: kernel/kcsan/core.c:262:
++static noinline void kcsan_found_watchpoint(const volatile void *ptr,
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#860: FILE: kernel/kcsan/core.c:299:
++static noinline void kcsan_setup_watchpoint(const volatile void *ptr,
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#944: FILE: kernel/kcsan/core.c:383:
++		pr_err("KCSAN: watching %s, size: %zu, addr: %px [slot: %d, encoded: %lx]\n",
++		       is_write ? "write" : "read", size, ptr,
++		       watchpoint_slot((unsigned long)ptr),
++		       encode_watchpoint((unsigned long)ptr, size, is_write));
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1002: FILE: kernel/kcsan/core.c:441:
++static __always_inline void check_access(const volatile void *ptr, size_t size,
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#1034: FILE: kernel/kcsan/core.c:473:
++	BUG_ON(!in_task());
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1117: FILE: kernel/kcsan/core.c:556:
++void __kcsan_check_access(const volatile void *ptr, size_t size, int type)
+
+WARNING:EXPORT_SYMBOL: EXPORT_SYMBOL(foo); should immediately follow its function/variable
+#1141: FILE: kernel/kcsan/core.c:580:
++	EXPORT_SYMBOL(__tsan_read##size);                                      \
+
+WARNING:EXPORT_SYMBOL: EXPORT_SYMBOL(foo); should immediately follow its function/variable
+#1144: FILE: kernel/kcsan/core.c:583:
++	EXPORT_SYMBOL(__tsan_unaligned_read##size);                            \
+
+WARNING:EXPORT_SYMBOL: EXPORT_SYMBOL(foo); should immediately follow its function/variable
+#1149: FILE: kernel/kcsan/core.c:588:
++	EXPORT_SYMBOL(__tsan_write##size);                                     \
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#1254: FILE: kernel/kcsan/debugfs.c:61:
++		BUG();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1679: FILE: kernel/kcsan/kcsan.h:105:
++void kcsan_report(const volatile void *ptr, size_t size, bool is_write,
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1713: FILE: kernel/kcsan/report.c:25:
++	const volatile void *ptr;
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1802: FILE: kernel/kcsan/report.c:114:
++static bool print_report(const volatile void *ptr, size_t size, bool is_write,
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#1852: FILE: kernel/kcsan/report.c:164:
++		BUG();
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#1859: FILE: kernel/kcsan/report.c:171:
++	case KCSAN_REPORT_RACE_SIGNAL:
++		pr_err("%s to 0x%px of %zu bytes by %s on cpu %i:\n",
++		       get_access_type(other_info.is_write), other_info.ptr,
++		       other_info.size, get_thread_desc(other_info.task_pid),
++		       other_info.cpu_id);
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#1871: FILE: kernel/kcsan/report.c:183:
++		pr_err("%s to 0x%px of %zu bytes by %s on cpu %i:\n",
++		       get_access_type(is_write), ptr, size,
++		       get_thread_desc(in_task() ? task_pid_nr(current) : -1),
++		       cpu_id);
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#1877: FILE: kernel/kcsan/report.c:189:
++	case KCSAN_REPORT_RACE_UNKNOWN_ORIGIN:
++		pr_err("race at unknown origin, with %s to 0x%px of %zu bytes by %s on cpu %i:\n",
++		       get_access_type(is_write), ptr, size,
++		       get_thread_desc(in_task() ? task_pid_nr(current) : -1),
++		       cpu_id);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#1885: FILE: kernel/kcsan/report.c:197:
++		BUG();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1913: FILE: kernel/kcsan/report.c:225:
++static bool prepare_report(unsigned long *flags, const volatile void *ptr,
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#1986: FILE: kernel/kcsan/report.c:298:
++		BUG();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#1993: FILE: kernel/kcsan/report.c:305:
++void kcsan_report(const volatile void *ptr, size_t size, bool is_write,
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#2160: FILE: lib/Kconfig.kcsan:6:
++menuconfig KCSAN
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#2171: FILE: lib/Kconfig.kcsan:17:
++config KCSAN_DEBUG
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#2175: FILE: lib/Kconfig.kcsan:21:
++config KCSAN_SELFTEST
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#2181: FILE: lib/Kconfig.kcsan:27:
++config KCSAN_EARLY_ENABLE
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#2214: FILE: lib/Kconfig.kcsan:60:
++config KCSAN_DELAY_RANDOMIZE
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#2231: FILE: lib/Kconfig.kcsan:77:
++config KCSAN_SKIP_WATCH_RANDOMIZE
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#2256: FILE: lib/Kconfig.kcsan:102:
++config KCSAN_REPORT_VALUE_CHANGE_ONLY
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#2264: FILE: lib/Kconfig.kcsan:110:
++config KCSAN_IGNORE_ATOMICS
+
+total: 2 errors, 43 warnings, 2127 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dfd402a4c4ba ("kcsan: Add Kernel Concurrency Sanitizer infrastructure") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

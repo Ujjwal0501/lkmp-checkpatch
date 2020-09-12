@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 183 lines checked
+
+Commit 6ee1b77ba3ac ("iommu/vt-d: Add svm/sva invalidate function") has no obvious style problems and is ready for submission.

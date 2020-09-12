@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 39 lines checked
+
+Commit fee698d62b3b ("net: phy: realtek: add delay to resume path of certain internal PHY's") has no obvious style problems and is ready for submission.

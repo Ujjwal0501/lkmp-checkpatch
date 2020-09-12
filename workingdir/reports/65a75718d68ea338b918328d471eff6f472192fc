@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 38 lines checked
+
+Commit 65a75718d68e ("ASoC: soc-card: move snd_soc_card_get_codec_dai() to soc-card") has no obvious style problems and is ready for submission.

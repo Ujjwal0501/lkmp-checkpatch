@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 176 lines checked
+
+Commit f3075f48ddb2 ("xfrm: remove extract_output indirection from xfrm_state_afinfo") has no obvious style problems and is ready for submission.

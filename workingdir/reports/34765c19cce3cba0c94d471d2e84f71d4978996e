@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 34765c19cce3 ("i2c: sh_mobile: simplify code and remove false compilation warning") has no obvious style problems and is ready for submission.

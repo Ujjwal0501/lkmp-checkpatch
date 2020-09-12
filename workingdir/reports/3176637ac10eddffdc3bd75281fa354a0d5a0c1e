@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 143 lines checked
+
+Commit 3176637ac10e ("crypto: hisilicon - remove codes of directly report device errors through MSI") has no obvious style problems and is ready for submission.

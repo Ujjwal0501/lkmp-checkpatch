@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 150 lines checked
+
+Commit 350e822cd54f ("ice: Add functions to rebuild host VLAN/MAC config for a VF") has no obvious style problems and is ready for submission.

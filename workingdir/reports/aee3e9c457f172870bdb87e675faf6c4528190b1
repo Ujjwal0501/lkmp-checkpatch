@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 57 lines checked
+
+Commit aee3e9c457f1 ("net/mlx5: Accel: fpga tls fix cast to __be64 and incorrect argument types") has no obvious style problems and is ready for submission.

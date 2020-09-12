@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit fce8afd76e3a ("virtio-mem: Don't rely on implicit compiler padding for requests") has no obvious style problems and is ready for submission.

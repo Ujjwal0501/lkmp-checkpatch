@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit fa76cfe65c1d ("arm64: bpf: Annotate JITed code for BTI") has no obvious style problems and is ready for submission.

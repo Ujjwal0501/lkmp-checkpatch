@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 17 lines checked
+
+Commit d36e7f0e8fed ("btrfs: reloc: open code read_fs_root() for handle_indirect_tree_backref()") has no obvious style problems and is ready for submission.

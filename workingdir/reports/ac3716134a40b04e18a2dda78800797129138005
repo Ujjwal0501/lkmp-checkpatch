@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 134 lines checked
+
+Commit ac3716134a40 ("ice: Refactor ice_ena_vf_mappings to split MSIX and queue mappings") has no obvious style problems and is ready for submission.

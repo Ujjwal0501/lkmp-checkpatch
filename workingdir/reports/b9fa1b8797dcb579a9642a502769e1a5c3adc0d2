@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 88 lines checked
+
+Commit b9fa1b8797dc ("Drivers: hv: vmbus: Don't bind the offer&rescind works to a specific CPU") has no obvious style problems and is ready for submission.

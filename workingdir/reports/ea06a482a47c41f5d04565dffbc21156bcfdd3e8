@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit ea06a482a47c ("gpiolib: of: improve gpiolib-of support of pull up/down on expanders") has no obvious style problems and is ready for submission.

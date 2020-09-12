@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 122 lines checked
+
+Commit 8791585837f6 ("KVM: VMX: Cache vmcs.EXIT_INTR_INFO using arch avail_reg flags") has no obvious style problems and is ready for submission.

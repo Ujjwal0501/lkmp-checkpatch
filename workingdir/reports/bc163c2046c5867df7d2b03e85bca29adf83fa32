@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit bc163c2046c5 ("partitions/ldm: Replace uuid_copy() with import_uuid() where it makes sense") has no obvious style problems and is ready for submission.

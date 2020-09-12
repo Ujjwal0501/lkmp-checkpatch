@@ -1,0 +1,17 @@
+WARNING:BAD_SIGN_OFF: 'Reported-by:' is the preferred signature form
+#48: 
+Reported-By: Florian Weimer <fweimer@redhat.com>
+
+WARNING:BAD_SIGN_OFF: 'Tested-by:' is the preferred signature form
+#51: 
+Tested-By: Florian Weimer <fweimer@redhat.com>
+
+total: 0 errors, 2 warnings, 14 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ce3614daabea ("sched: Fix unreliable rseq cpu_id for new tasks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

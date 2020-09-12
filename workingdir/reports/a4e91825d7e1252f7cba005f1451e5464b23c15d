@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit a4e91825d7e1 ("x86/amd_nb: Add AMD family 17h model 60h PCI IDs") has no obvious style problems and is ready for submission.

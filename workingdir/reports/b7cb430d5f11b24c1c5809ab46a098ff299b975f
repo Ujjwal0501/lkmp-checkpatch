@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit b7cb430d5f11 ("bus: bt1-apb: Use sysfs_streq instead of strncmp") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 18 lines checked
+
+Commit 17e73d47cd09 ("net/mlx5: Don't fail driver on failure to create debugfs") has no obvious style problems and is ready for submission.

@@ -1,0 +1,27 @@
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#229: FILE: drivers/gpu/drm/amd/display/modules/hdcp/hdcp_psp.c:324:
++		if (hdcp->displays[i].adjust.disable || hdcp->displays[i].state != MOD_HDCP_DISPLAY_ACTIVE)
+
+WARNING:SUSPECT_CODE_INDENT: suspect code indent for conditional statements (16, 32)
+#229: FILE: drivers/gpu/drm/amd/display/modules/hdcp/hdcp_psp.c:324:
++		if (hdcp->displays[i].adjust.disable || hdcp->displays[i].state != MOD_HDCP_DISPLAY_ACTIVE)
++				continue;
+
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#268: FILE: drivers/gpu/drm/amd/display/modules/hdcp/hdcp_psp.c:816:
++		if (hdcp->displays[i].adjust.disable || hdcp->displays[i].state != MOD_HDCP_DISPLAY_ACTIVE)
+
+WARNING:SUSPECT_CODE_INDENT: suspect code indent for conditional statements (16, 32)
+#268: FILE: drivers/gpu/drm/amd/display/modules/hdcp/hdcp_psp.c:816:
++		if (hdcp->displays[i].adjust.disable || hdcp->displays[i].state != MOD_HDCP_DISPLAY_ACTIVE)
++				continue;
+
+total: 0 errors, 4 warnings, 212 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2deade5ede56 ("drm/amd/display: Remove hdcp display state with mst fix") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

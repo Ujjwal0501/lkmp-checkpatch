@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit d9aeccec85ec ("drm/msm/a6xx: a6xx_hfi_send_start() can be static") has no obvious style problems and is ready for submission.

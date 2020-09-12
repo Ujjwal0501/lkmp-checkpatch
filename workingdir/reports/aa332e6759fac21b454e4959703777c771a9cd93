@@ -1,0 +1,19 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#99: FILE: drivers/staging/comedi/comedi_fops.c:2246:
++		struct comedi_insn insn;
++		if (copy_from_user(&insn, (void __user *)arg, sizeof(insn)))
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#132: FILE: drivers/staging/comedi/comedi_fops.c:3100:
++static int __get_compat_insn(struct comedi_insn __user *insn,
+ 			   struct comedi32_insn_struct __user *insn32)
+
+total: 0 errors, 1 warnings, 1 checks, 137 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit aa332e6759fa ("comedi: get rid of compat_alloc_user_space() mess in COMEDI_INSN compat") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

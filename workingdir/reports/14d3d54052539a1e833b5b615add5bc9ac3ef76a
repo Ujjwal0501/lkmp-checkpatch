@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#24: 
+  # To display the perf.data header info, please use --header/--header-only options.
+
+WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#51: 
+Original-patch-by: Ian Rogers <irogers@google.com>
+
+total: 0 errors, 2 warnings, 34 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 14d3d5405253 ("perf session: Try to read pipe data from file") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 103 lines checked
+
+Commit dceb213ca4a7 ("ARM: vf610: report soc info via soc device") has no obvious style problems and is ready for submission.

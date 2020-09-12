@@ -1,0 +1,13 @@
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#149: FILE: arch/x86/xen/enlighten_pv.c:630:
++	TRAP_ENTRY(exc_invalid_tss,			false ),
+
+total: 1 errors, 0 warnings, 90 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 97b3d290b865 ("x86/entry: Convert Invalid TSS exception to IDTENTRY") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 9d3f88813550 ("arm64: cpufeature: Relax check for IESB support") has no obvious style problems and is ready for submission.

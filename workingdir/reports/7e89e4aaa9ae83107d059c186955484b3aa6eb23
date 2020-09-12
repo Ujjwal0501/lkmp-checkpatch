@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 23 lines checked
+
+Commit 7e89e4aaa9ae ("drm/amd/powerplay: Fix NULL dereference in lock_bus() on Vega20 w/o RAS") has no obvious style problems and is ready for submission.

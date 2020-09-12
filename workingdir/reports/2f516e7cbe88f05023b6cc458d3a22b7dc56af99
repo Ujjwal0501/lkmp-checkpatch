@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 2f516e7cbe88 ("cpuidle: sysfs: Remove the unused define_one_r(o/w) macros") has no obvious style problems and is ready for submission.

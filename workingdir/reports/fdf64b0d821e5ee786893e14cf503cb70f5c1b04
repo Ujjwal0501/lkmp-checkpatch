@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit fdf64b0d821e ("drm/amdgpu/vcn2.5: Remove old DPG workaround") has no obvious style problems and is ready for submission.

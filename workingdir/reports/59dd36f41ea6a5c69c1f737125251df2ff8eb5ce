@@ -1,0 +1,17 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#14: 
+Reported-by: Hulk Robot <hulkci@huawei.com>
+
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#15: 
+Signed-off-by: Wei Yongjun <weiyongjun1@huawei.com>
+
+total: 0 errors, 2 warnings, 11 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 59dd36f41ea6 ("hwmon: (amd_energy) Missing platform_driver_unregister() on error in amd_energy_init()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 45 lines checked
+
+Commit dbd131797805 ("ALSA: hda/realtek - Introduce polarity for micmute LED GPIO") has no obvious style problems and is ready for submission.

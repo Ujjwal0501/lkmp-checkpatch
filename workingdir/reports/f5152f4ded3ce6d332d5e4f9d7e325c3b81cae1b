@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 82 lines checked
+
+Commit f5152f4ded3c ("firmware/dmi: Report DMI Bios & EC firmware release") has no obvious style problems and is ready for submission.

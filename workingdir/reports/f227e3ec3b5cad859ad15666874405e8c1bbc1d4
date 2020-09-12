@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit f227e3ec3b5c ("random32: update the net random state on interrupt and activity") has no obvious style problems and is ready for submission.

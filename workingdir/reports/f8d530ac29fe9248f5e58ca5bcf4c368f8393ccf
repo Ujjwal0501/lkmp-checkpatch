@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit f8d530ac29fe ("ice: Fix error return code in ice_add_prof()") has no obvious style problems and is ready for submission.

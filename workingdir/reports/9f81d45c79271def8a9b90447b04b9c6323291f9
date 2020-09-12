@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit 9f81d45c7927 ("usb: cdns3: ep0: fix some endian issues") has no obvious style problems and is ready for submission.

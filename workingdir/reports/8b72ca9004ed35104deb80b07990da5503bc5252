@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 81 lines checked
+
+Commit 8b72ca9004ed ("exec: Move the call of prepare_binprm into search_binary_handler") has no obvious style problems and is ready for submission.

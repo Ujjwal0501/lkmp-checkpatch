@@ -1,0 +1,25 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct pipe_inode_info *' should also have an identifier name
+#251: FILE: include/linux/pipe_fs_i.h:103:
++	bool (*try_steal)(struct pipe_inode_info *, struct pipe_buffer *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct pipe_buffer *' should also have an identifier name
+#251: FILE: include/linux/pipe_fs_i.h:103:
++	bool (*try_steal)(struct pipe_inode_info *, struct pipe_buffer *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct pipe_inode_info *' should also have an identifier name
+#283: FILE: include/linux/pipe_fs_i.h:237:
++bool generic_pipe_buf_try_steal(struct pipe_inode_info *, struct pipe_buffer *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct pipe_buffer *' should also have an identifier name
+#283: FILE: include/linux/pipe_fs_i.h:237:
++bool generic_pipe_buf_try_steal(struct pipe_inode_info *, struct pipe_buffer *);
+
+total: 0 errors, 4 warnings, 241 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c928f642c29a ("fs: rename pipe_buf ->steal to ->try_steal") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

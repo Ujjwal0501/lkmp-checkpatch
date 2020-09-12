@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit 674123926029 ("tools/virtio: Extract virtqueue initialization in vq_reset") has no obvious style problems and is ready for submission.

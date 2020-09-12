@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 1b5a2dd9e266 ("arm64: dts: marvell: armada-37xx: Move PCIe max-link-speed property") has no obvious style problems and is ready for submission.

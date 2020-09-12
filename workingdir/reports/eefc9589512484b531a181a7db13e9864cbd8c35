@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit eefc95895124 ("drm/amd/amdgpu_dm/mst: Stop printing extra messages in dm_dp_add_mst_connector()") has no obvious style problems and is ready for submission.

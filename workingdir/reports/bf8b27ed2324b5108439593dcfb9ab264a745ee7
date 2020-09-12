@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit bf8b27ed2324 ("firmware: xilinx: Remove eemi ops for request_node") has no obvious style problems and is ready for submission.

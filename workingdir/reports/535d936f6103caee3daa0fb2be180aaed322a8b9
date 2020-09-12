@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 535d936f6103 ("clk: socfpga: remove clk_ops enable/disable methods") has no obvious style problems and is ready for submission.

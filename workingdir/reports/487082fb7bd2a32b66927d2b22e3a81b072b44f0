@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit 487082fb7bd2 ("bpf/sockmap: Fix kernel panic at __tcp_bpf_recvmsg") has no obvious style problems and is ready for submission.

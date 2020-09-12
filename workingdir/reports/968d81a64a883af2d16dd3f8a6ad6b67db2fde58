@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 968d81a64a88 ("drm/connector: notify userspace on hotplug after register complete") has no obvious style problems and is ready for submission.

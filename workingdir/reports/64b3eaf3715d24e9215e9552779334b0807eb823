@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 64b3eaf3715d ("xenbus: Use dev_printk() when possible") has no obvious style problems and is ready for submission.

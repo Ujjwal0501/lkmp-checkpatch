@@ -1,0 +1,21 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#52: FILE: drivers/usb/chipidea/Kconfig:42:
++config USB_CHIPIDEA_MSM
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#56: FILE: drivers/usb/chipidea/Kconfig:46:
++config USB_CHIPIDEA_IMX
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#61: FILE: drivers/usb/chipidea/Kconfig:51:
++config USB_CHIPIDEA_GENERIC
+
+total: 0 errors, 3 warnings, 62 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 95caa2ae70fd ("usb: chipidea: allow disabling glue drivers if EMBEDDED") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,14 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#321: FILE: drivers/gpu/drm/i915/display/intel_bw.c:516:
++		drm_dbg_kms(&dev_priv->drm, "No QGV points provide sufficient memory"
++			    " bandwidth %d for display configuration(%d active planes).\n",
+
+total: 0 errors, 1 warnings, 288 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 20f505f22531 ("drm/i915: Restrict qgv points which don't have enough bandwidth.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

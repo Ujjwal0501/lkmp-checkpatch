@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#18: 
+[1] https://www.newhavendisplay.com/appnotes/datasheets/touchpanel/FT5x26.pdf
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#106: FILE: drivers/input/touchscreen/edt-ft5x06.c:805:
++	return -ENOSYS;
+
+total: 0 errors, 2 warnings, 205 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 21d1611a83f8 ("Input: edt-ft5x06 - improve power management operations") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

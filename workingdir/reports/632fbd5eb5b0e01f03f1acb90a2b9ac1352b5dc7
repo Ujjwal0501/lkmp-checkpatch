@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 78 lines checked
+
+Commit 632fbd5eb5b0 ("e1000e: fix S0ix flows for cable connected case") has no obvious style problems and is ready for submission.

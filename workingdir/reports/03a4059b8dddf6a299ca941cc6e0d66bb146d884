@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 03a4059b8ddd ("drm/amd/display: Fix incorrect cursor pos on scaled primary plane") has no obvious style problems and is ready for submission.

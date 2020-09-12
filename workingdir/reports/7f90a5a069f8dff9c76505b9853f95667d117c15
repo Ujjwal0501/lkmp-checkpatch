@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 128 lines checked
+
+Commit 7f90a5a069f8 ("IB/{rdmavt, hfi1}: Implement creation of accelerated UD QPs") has no obvious style problems and is ready for submission.

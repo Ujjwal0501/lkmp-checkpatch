@@ -1,0 +1,25 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#20: 
+1. defining jiffies in arch/x86/kernel/time.c instead via the linker script.
+
+WARNING:UNKNOWN_COMMIT_ID: Unknown commit id '5b22bcc2b70d', maybe rebased or not pulled?
+#38: 
+  Clang after LLVM commit 5b22bcc2b70d
+
+WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#73: 
+Debugged-by: Nick Desaulniers <ndesaulniers@google.com>
+
+WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#74: 
+Debugged-by: Sami Tolvanen <samitolvanen@google.com>
+
+total: 0 errors, 4 warnings, 25 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d8ad6d39c35d ("x86_64: Fix jiffies ODR violation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

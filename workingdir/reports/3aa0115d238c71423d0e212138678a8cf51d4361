@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#13: 
+2) we need to acknowledged we are SRIOV VF before we do IP discovery because
+
+WARNING:TYPO_SPELLING: 'recieved' may be misspelled - perhaps 'received'?
+#14: 
+the IP discovery content will be updated by host everytime after it recieved
+
+total: 0 errors, 2 warnings, 294 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3aa0115d238c ("drm/amdgpu: cleanup all virtualization detection routine") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

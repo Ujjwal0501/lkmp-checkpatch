@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 156 lines checked
+
+Commit 12ddee68d058 ("igc: Refactor VLAN priority filtering code") has no obvious style problems and is ready for submission.

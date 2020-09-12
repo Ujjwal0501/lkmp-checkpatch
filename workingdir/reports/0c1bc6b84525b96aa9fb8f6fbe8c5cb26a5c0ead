@@ -1,0 +1,13 @@
+WARNING:UNNECESSARY_KERN_LEVEL: Possible unnecessary KERN_ERR
+#266: FILE: drivers/base/core.c:1377:
++		WARN(1, KERN_ERR "Device '%s' does not have a release() function, it is broken and must be fixed. See Documentation/core-api/kobject.rst.\n",
+
+total: 0 errors, 1 warnings, 401 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0c1bc6b84525 ("docs: filesystems: fix renamed references") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

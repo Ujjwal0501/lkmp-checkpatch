@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit f72fed86a5ac ("hwrng: xgene - Delete an error message in xgene_rng_probe()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,45 @@
+WARNING:DEVICE_ATTR_FUNCTIONS: Consider renaming function(s) 'amdgpu_device_get_product_name' to 'product_name_show'
+#125: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_device.c:158:
++}
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO' are not preferred. Consider using octal permissions '0444'.
+#127: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_device.c:160:
++static DEVICE_ATTR(product_name, S_IRUGO,
+
+WARNING:DEVICE_ATTR_FUNCTIONS: Consider renaming function(s) 'amdgpu_device_get_product_number' to 'product_number_show'
+#147: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_device.c:180:
++}
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO' are not preferred. Consider using octal permissions '0444'.
+#149: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_device.c:182:
++static DEVICE_ATTR(product_number, S_IRUGO,
+
+WARNING:DEVICE_ATTR_FUNCTIONS: Consider renaming function(s) 'amdgpu_device_get_serial_number' to 'serial_number_show'
+#169: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_device.c:202:
++}
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO' are not preferred. Consider using octal permissions '0444'.
+#171: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_device.c:204:
++static DEVICE_ATTR(serial_number, S_IRUGO,
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#222: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#227: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_fru_eeprom.c:1:
++/*
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#376: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_fru_eeprom.h:1:
++/*
+
+total: 0 errors, 9 warnings, 338 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bd607166af7f ("drm/amdgpu: Enable reading FRU chip via I2C v3") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

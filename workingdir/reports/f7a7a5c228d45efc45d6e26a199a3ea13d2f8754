@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#23: 
+new file mode 100644
+
+WARNING:NR_CPUS: usage of NR_CPUS is often wrong - consider using cpu_possible(), num_possible_cpus(), for_each_possible_cpu(), etc
+#832: FILE: drivers/block/rnbd/rnbd-clt.c:805:
++	bitmap_zero(sess->cpu_queues_bm, NR_CPUS);
+
+WARNING:REPEATED_WORD: Possible repeated word: 'be'
+#1690: FILE: drivers/block/rnbd/rnbd-clt.c:1663:
++	 *   1. New session or device can'be be created - session sysfs files
+
+total: 0 errors, 3 warnings, 1729 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f7a7a5c228d4 ("block/rnbd: client: main functionality") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

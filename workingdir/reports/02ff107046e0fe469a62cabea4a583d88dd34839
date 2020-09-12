@@ -1,0 +1,25 @@
+WARNING:DEVICE_ATTR_PERMS: DEVICE_ATTR unusual permissions 'S_IRUSR' used
+#32: FILE: drivers/scsi/megaraid/megaraid_mbox.c:305:
++static DEVICE_ATTR(megaraid_mbox_app_hndl, S_IRUSR, megaraid_sysfs_show_app_hndl,
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUSR' are not preferred. Consider using octal permissions '0400'.
+#32: FILE: drivers/scsi/megaraid/megaraid_mbox.c:305:
++static DEVICE_ATTR(megaraid_mbox_app_hndl, S_IRUSR, megaraid_sysfs_show_app_hndl,
+
+WARNING:DEVICE_ATTR_PERMS: DEVICE_ATTR unusual permissions 'S_IRUSR' used
+#42: FILE: drivers/scsi/megaraid/megaraid_mbox.c:315:
++static DEVICE_ATTR(megaraid_mbox_ld, S_IRUSR, megaraid_sysfs_show_ldnum, NULL);
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUSR' are not preferred. Consider using octal permissions '0400'.
+#42: FILE: drivers/scsi/megaraid/megaraid_mbox.c:315:
++static DEVICE_ATTR(megaraid_mbox_ld, S_IRUSR, megaraid_sysfs_show_ldnum, NULL);
+
+total: 0 errors, 4 warnings, 18 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 02ff107046e0 ("scsi: megaraid: make two symbols static in megaraid_mbox.c") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

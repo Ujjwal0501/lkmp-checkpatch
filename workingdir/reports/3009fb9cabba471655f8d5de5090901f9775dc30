@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 3009fb9cabba ("iio: st_sensors: Use get_unaligned_be24() and sign_extend32()") has no obvious style problems and is ready for submission.

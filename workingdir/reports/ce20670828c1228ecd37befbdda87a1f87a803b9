@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit ce20670828c1 ("EDAC/i10nm: Update driver to support different bus number config register offsets") has no obvious style problems and is ready for submission.

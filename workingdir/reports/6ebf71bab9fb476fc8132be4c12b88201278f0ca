@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 90 lines checked
+
+Commit 6ebf71bab9fb ("ipv4: add ip_sock_set_tos") has no obvious style problems and is ready for submission.

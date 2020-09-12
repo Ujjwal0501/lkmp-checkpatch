@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit b1ca2f63e20b ("ASoC: Intel: sof_sdw: add amp number in components string for ucm") has no obvious style problems and is ready for submission.

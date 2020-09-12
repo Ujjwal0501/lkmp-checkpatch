@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 232 lines checked
+
+Commit eee3f91195ad ("drm/i915: Introduce .set_link_train() vfunc") has no obvious style problems and is ready for submission.

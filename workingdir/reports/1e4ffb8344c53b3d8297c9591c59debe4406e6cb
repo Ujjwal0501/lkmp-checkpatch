@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 1e4ffb8344c5 ("scsi: libsas: Add missing annotation for sas_ata_qc_issue()") has no obvious style problems and is ready for submission.

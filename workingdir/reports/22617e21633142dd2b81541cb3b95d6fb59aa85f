@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 40 lines checked
+
+Commit 22617e216331 ("scsi: ufs: ti-j721e-ufs: Fix unwinding of pm_runtime changes") has no obvious style problems and is ready for submission.

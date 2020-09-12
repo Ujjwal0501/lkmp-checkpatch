@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 192 lines checked
+
+Commit 52da6d513183 ("drm/msm: Attach the IOMMU device during initialization") has no obvious style problems and is ready for submission.

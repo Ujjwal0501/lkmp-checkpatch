@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit fd5b69df4ffc ("media: imx: mipi csi-2: Implement get_fwnode_pad op") has no obvious style problems and is ready for submission.

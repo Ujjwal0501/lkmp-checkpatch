@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 225 lines checked
+
+Commit 545a95582e80 ("ARM: dts: Configure system timers for am437x") has no obvious style problems and is ready for submission.

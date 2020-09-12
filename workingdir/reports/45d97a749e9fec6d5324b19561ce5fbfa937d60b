@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 124 lines checked
+
+Commit 45d97a749e9f ("efi/gop: Allow automatically choosing the best mode") has no obvious style problems and is ready for submission.

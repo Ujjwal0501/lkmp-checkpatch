@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 188 lines checked
+
+Commit 619e464ae22a ("crypto: hisilicon - put vfs_num into struct hisi_qm") has no obvious style problems and is ready for submission.

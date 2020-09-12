@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit b2fa526ca278 ("ARM: dts: aspeed: ast2600evb: Enable FSI master") has no obvious style problems and is ready for submission.

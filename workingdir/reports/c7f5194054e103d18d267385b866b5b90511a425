@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit c7f5194054e1 ("posix-cpu-timer:  Unify the now redundant code in lookup_task") has no obvious style problems and is ready for submission.

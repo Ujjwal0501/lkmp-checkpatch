@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 94 lines checked
+
+Commit 7b7bd87dbd6a ("KVM: nVMX: Uninline nested_vmx_reflect_vmexit(), i.e. move it to nested.c") has no obvious style problems and is ready for submission.

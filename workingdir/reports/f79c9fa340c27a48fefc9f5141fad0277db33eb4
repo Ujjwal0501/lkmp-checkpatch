@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 40 lines checked
+
+Commit f79c9fa340c2 ("staging: vt6656: move tx_body_size/payload_len to skb->len") has no obvious style problems and is ready for submission.

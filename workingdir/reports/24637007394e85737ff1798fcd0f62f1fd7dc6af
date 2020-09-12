@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 91 lines checked
+
+Commit 24637007394e ("serial: 8250_exar: Make use of PCI_DEVICE_DATA() macro") has no obvious style problems and is ready for submission.

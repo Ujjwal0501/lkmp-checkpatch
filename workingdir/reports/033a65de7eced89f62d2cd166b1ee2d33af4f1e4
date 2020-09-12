@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 124 lines checked
+
+Commit 033a65de7ece ("clocksource/drivers/timer-riscv: Use per-CPU timer interrupt") has no obvious style problems and is ready for submission.

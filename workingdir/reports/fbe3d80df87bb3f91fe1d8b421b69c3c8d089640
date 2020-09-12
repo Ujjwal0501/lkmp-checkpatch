@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit fbe3d80df87b ("video: fbdev: arcfb: add missed free_irq and fix the order of request_irq") has no obvious style problems and is ready for submission.

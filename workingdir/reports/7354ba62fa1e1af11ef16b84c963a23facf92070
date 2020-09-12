@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit 7354ba62fa1e ("ARM: dts: stm32: Add alternate pinmux for ethernet RGMII on stm32mp15") has no obvious style problems and is ready for submission.

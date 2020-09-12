@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 96bf62f018f4 ("ASoC: soc-pcm: fix checks for multi-cpu FE dailinks") has no obvious style problems and is ready for submission.

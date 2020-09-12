@@ -1,0 +1,18 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#132: FILE: arch/x86/include/asm/idtentry.h:302:
++# define DECLARE_IDTENTRY_DF(vector, func)				\
++	idtentry_df vector asm_##func func
+
+WARNING:REPEATED_WORD: Possible repeated word: 'func'
+#133: FILE: arch/x86/include/asm/idtentry.h:303:
++	idtentry_df vector asm_##func func
+
+total: 1 errors, 1 warnings, 121 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6a8dfa8e4053 ("x86/idtentry: Provide IDTENTRY_DF") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

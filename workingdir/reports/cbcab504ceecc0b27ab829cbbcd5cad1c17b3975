@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'this'
+#10: 
+just simplify all this this by just calling
+
+total: 0 errors, 1 warnings, 60 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cbcab504ceec ("drm: pl111: Simplify vexpress init") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

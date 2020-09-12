@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit b73287f0b074 ("ASoC: soc-pcm: dpcm: fix playback/capture checks") has no obvious style problems and is ready for submission.

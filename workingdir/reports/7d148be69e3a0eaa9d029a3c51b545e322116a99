@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'Futhermore' may be misspelled - perhaps 'Furthermore'?
+#8: 
+the label after the if (!se) statement. Futhermore, the latter can be
+
+total: 0 errors, 1 warnings, 47 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7d148be69e3a ("sched/fair: Optimize enqueue_task_fair()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

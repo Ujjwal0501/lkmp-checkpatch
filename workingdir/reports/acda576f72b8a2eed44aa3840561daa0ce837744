@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 81 lines checked
+
+Commit acda576f72b8 ("igc: Change return type from igc_disable_nfc_rule()") has no obvious style problems and is ready for submission.

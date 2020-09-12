@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 775 lines checked
+
+Commit 72e6329f86c7 ("nvme-fc and nvmet-fc: revise LLDD api for LS reception and LS request") has no obvious style problems and is ready for submission.

@@ -1,0 +1,26 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#264: FILE: net/wireless/trace.h:2865:
++TRACE_EVENT(cfg80211_control_port_tx_status,
++	TP_PROTO(struct wireless_dev *wdev, u64 cookie, bool ack),
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#266: FILE: net/wireless/trace.h:2867:
++	TP_STRUCT__entry(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#271: FILE: net/wireless/trace.h:2872:
++	TP_fast_assign(
+
+CHECK:CONCATENATED_STRING: Concatenated strings should use spaces between elements
+#276: FILE: net/wireless/trace.h:2877:
++	TP_printk(WDEV_PR_FMT", cookie: %llu, ack: %s",
+
+total: 0 errors, 0 warnings, 4 checks, 213 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dca9ca2d588b ("nl80211: add ability to report TX status for control port TX") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

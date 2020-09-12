@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit c16312f4fa75 ("KVM: VMX: Remove unneeded __ASM_SIZE usage with POP instruction") has no obvious style problems and is ready for submission.

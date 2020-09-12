@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 46 lines checked
+
+Commit 8b4713c9939b ("media: imx: mipi csi-2: Create media links in bound notifier") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 121 lines checked
+
+Commit 49c958ccd243 ("mlxsw: spectrum_acl: Move block helpers into inline header functions") has no obvious style problems and is ready for submission.

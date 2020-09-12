@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit f678d2181d0d ("dt-bindings: sh_eth: Sort compatible string in increasing number of the SoC") has no obvious style problems and is ready for submission.

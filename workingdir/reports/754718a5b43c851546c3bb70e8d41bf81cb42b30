@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit 754718a5b43c ("iio: adc: Add scaling support to exynos adc driver") has no obvious style problems and is ready for submission.

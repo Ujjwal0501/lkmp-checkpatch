@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 222 lines checked
+
+Commit 37518fa49f76 ("RDMA/mlx5: Process all vendor flags in one place") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 209 lines checked
+
+Commit deb04e9c0ff2 ("net: phy: mscc: use phy_package_shared") has no obvious style problems and is ready for submission.

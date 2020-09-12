@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 07f77dd47a2c ("ALSA: firewire-motu: fulfill missing entries in Kconfig") has no obvious style problems and is ready for submission.

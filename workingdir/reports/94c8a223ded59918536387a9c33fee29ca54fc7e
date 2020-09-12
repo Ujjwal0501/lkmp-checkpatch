@@ -1,0 +1,20 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#55: FILE: tools/testing/selftests/vm/pkey-helpers.h:195:
++	int ret = sys_pkey_alloc(0, 0);
++	if (ret <= 0) {
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#55: FILE: tools/testing/selftests/vm/pkey-helpers.h:195:
++	if (ret <= 0) {
++		return 0;
++	}
+
+total: 0 errors, 2 warnings, 81 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 94c8a223ded5 ("selftests/vm/pkeys: improve checks to determine pkey support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

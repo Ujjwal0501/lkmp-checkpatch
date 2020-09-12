@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#682: 
+new file mode 100644
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "dh,stm32mp157a-dhcor-som" appears un-documented -- check ./Documentation/devicetree/bindings/
+#708: FILE: arch/arm/boot/dts/stm32mp157a-dhcor-avenger96.dts:22:
++	compatible = "arrow,stm32mp157a-avenger96", "dh,stm32mp157a-dhcor-som",
+
+total: 0 errors, 2 warnings, 1303 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7e76f82acd9e ("ARM: dts: stm32: Split Avenger96 into DHCOR SoM and Avenger96 board") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

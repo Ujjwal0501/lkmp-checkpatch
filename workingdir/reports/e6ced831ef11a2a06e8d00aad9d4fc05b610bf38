@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 51 lines checked
+
+Commit e6ced831ef11 ("tcp: md5: refine tcp_md5_do_add()/tcp_md5_hash_key() barriers") has no obvious style problems and is ready for submission.

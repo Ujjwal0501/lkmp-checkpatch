@@ -1,0 +1,108 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct qla_hw_data *' should also have an identifier name
+#548: FILE: drivers/scsi/qla2xxx/qla_dbg.h:373:
++extern int qla24xx_dump_ram(struct qla_hw_data *, uint32_t, __be32 *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'uint32_t' should also have an identifier name
+#548: FILE: drivers/scsi/qla2xxx/qla_dbg.h:373:
++extern int qla24xx_dump_ram(struct qla_hw_data *, uint32_t, __be32 *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument '__be32 *' should also have an identifier name
+#548: FILE: drivers/scsi/qla2xxx/qla_dbg.h:373:
++extern int qla24xx_dump_ram(struct qla_hw_data *, uint32_t, __be32 *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'uint32_t' should also have an identifier name
+#548: FILE: drivers/scsi/qla2xxx/qla_dbg.h:373:
++extern int qla24xx_dump_ram(struct qla_hw_data *, uint32_t, __be32 *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void **' should also have an identifier name
+#548: FILE: drivers/scsi/qla2xxx/qla_dbg.h:373:
++extern int qla24xx_dump_ram(struct qla_hw_data *, uint32_t, __be32 *,
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#593: FILE: drivers/scsi/qla2xxx/qla_def.h:701:
++^I__le16^Iflash_address; ^I/* Flash BIOS address */$
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#981: FILE: drivers/scsi/qla2xxx/qla_def.h:1455:
++	__le16	response_q_length;
++	__le64  request_q_address __packed;
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#982: FILE: drivers/scsi/qla2xxx/qla_def.h:1456:
++	__le64  request_q_address __packed;
++	__le64  response_q_address __packed;
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1399: FILE: drivers/scsi/qla2xxx/qla_def.h:3156:
++			__le16	reserved_1;
++			__le64	buffer_address __packed;
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1853: FILE: drivers/scsi/qla2xxx/qla_fw.h:357:
++	__le16	atio_q_length;
++	__le64	atio_q_address __packed;
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#2671: FILE: drivers/scsi/qla2xxx/qla_fw.h:1553:
++        __le16^Icomp_status;           /* Completion status. */$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2671: FILE: drivers/scsi/qla2xxx/qla_fw.h:1553:
++        __le16^Icomp_status;           /* Completion status. */$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#2672: FILE: drivers/scsi/qla2xxx/qla_fw.h:1554:
++        __le16^Itimeout;               /* timeout */$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2672: FILE: drivers/scsi/qla2xxx/qla_fw.h:1554:
++        __le16^Itimeout;               /* timeout */$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#2673: FILE: drivers/scsi/qla2xxx/qla_fw.h:1555:
++        __le16^Iadim_tagging_mode;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2673: FILE: drivers/scsi/qla2xxx/qla_fw.h:1555:
++        __le16^Iadim_tagging_mode;$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#2676: FILE: drivers/scsi/qla2xxx/qla_fw.h:1557:
++        __le16^Ivfport_id;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2676: FILE: drivers/scsi/qla2xxx/qla_fw.h:1557:
++        __le16^Ivfport_id;$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#2681: FILE: drivers/scsi/qla2xxx/qla_fw.h:1560:
++        __le16^Inport_handle;          /* N_PORT handle. */$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2681: FILE: drivers/scsi/qla2xxx/qla_fw.h:1560:
++        __le16^Inport_handle;          /* N_PORT handle. */$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#2682: FILE: drivers/scsi/qla2xxx/qla_fw.h:1561:
++        __le16^Icontrol_flags;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2682: FILE: drivers/scsi/qla2xxx/qla_fw.h:1561:
++        __le16^Icontrol_flags;$
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#3200: FILE: drivers/scsi/qla2xxx/qla_inline.h:43:
++qla2x00_debounce_register(volatile __le16 __iomem *addr)
+
+total: 6 errors, 17 warnings, 3666 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 21038b0900d1 ("scsi: qla2xxx: Fix endianness annotations in header files") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

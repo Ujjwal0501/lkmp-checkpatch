@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 4baa8ff0690e ("drm/amdgpu: move CS secure flag next the structs where it's used") has no obvious style problems and is ready for submission.

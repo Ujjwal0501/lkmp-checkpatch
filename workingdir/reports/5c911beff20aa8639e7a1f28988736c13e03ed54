@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 58 lines checked
+
+Commit 5c911beff20a ("KVM: nVMX: Skip IBPB when switching between vmcs01 and vmcs02") has no obvious style problems and is ready for submission.

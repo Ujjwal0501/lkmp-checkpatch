@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 55 lines checked
+
+Commit db458d73fa35 ("arch/kmap: ensure kmap_prot visibility") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 8b8c704d913b ("ima: Remove __init annotation from ima_pcrread()") has no obvious style problems and is ready for submission.

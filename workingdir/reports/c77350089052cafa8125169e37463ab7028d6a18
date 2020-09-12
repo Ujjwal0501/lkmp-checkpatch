@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit c77350089052 ("net: openvswitch: make EINVAL return value more obvious") has no obvious style problems and is ready for submission.

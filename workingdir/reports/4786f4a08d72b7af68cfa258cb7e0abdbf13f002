@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 95 lines checked
+
+Commit 4786f4a08d72 ("dt-binding: net: ti: am65x-cpts: make reg and compatible required") has no obvious style problems and is ready for submission.

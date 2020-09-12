@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 6b633e3efbb4 ("drm/bridge: dw-hdmi: do not force "none" scan mode") has no obvious style problems and is ready for submission.

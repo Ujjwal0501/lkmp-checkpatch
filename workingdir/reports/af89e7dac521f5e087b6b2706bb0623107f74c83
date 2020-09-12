@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 84 lines checked
+
+Commit af89e7dac521 ("ASoC: SOF: Intel: Baytrail: fix 'defined but not used' warnings") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#109: FILE: drivers/firmware/psci/psci.c:82:
++void __init arm_smccc_version_init(u32 version, enum arm_smccc_conduit conduit);
+
+total: 0 errors, 1 warnings, 116 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f2ae97062a48 ("firmware: smccc: Refactor SMCCC specific bits into separate file") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 38 lines checked
+
+Commit 1441ed9b7a0f ("btrfs: speed up btrfs_get_##bits helpers") has no obvious style problems and is ready for submission.

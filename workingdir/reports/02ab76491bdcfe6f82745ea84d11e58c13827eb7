@@ -1,0 +1,29 @@
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'refcount_find_entry', this function's name, in a string
+#29: FILE: drivers/staging/media/atomisp/pci/base/refcount/src/refcount.c:49:
++				    "refcount_find_entry(): Ref count not initialized!\n");
+
+WARNING:LONG_LINE_STRING: line length of 113 exceeds 100 columns
+#42: FILE: drivers/staging/media/atomisp/pci/css_2401_system/host/csi_rx_private.h:292:
++		ia_css_print("CSI RX BE STATE Controller ID %d Short packet entry %d short packet lut id 0x%x\n",
+
+WARNING:LONG_LINE_STRING: line length of 111 exceeds 100 columns
+#48: FILE: drivers/staging/media/atomisp/pci/css_2401_system/host/csi_rx_private.h:297:
++		ia_css_print("CSI RX BE STATE Controller ID %d Long packet entry %d long packet lut id 0x%x\n",
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'print_pc_histogram', this function's name, in a string
+#77: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1327:
++		sh_css_print("print_pc_histogram() done for binary->id = %d, done.\n",
+
+WARNING:LONG_LINE_STRING: line length of 108 exceeds 100 columns
+#86: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5334:
++	IA_CSS_ENTER_PRIVATE("pipe = %p, width = %d, height = %d, padded width = %d, format = %d, idx = %d",
+
+total: 0 errors, 5 warnings, 0 checks, 57 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 02ab76491bdc ("media: atomisp: fix a handful of spelling mistakes") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

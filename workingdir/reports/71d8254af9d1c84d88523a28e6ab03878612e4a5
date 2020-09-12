@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#66: FILE: drivers/clk/mmp/clk-of-mmp2.c:170:
++	{MMP2_CLK_I2S0, "i2s0_clk", "i2s0_pll", CLK_SET_RATE_PARENT, MPMU_ACGR, 0x200000, 0x200000, 0x0, 0, &acgr_lock},
+
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#67: FILE: drivers/clk/mmp/clk-of-mmp2.c:171:
++	{MMP2_CLK_I2S1, "i2s1_clk", "i2s1_pll", CLK_SET_RATE_PARENT, MPMU_ACGR, 0x100000, 0x100000, 0x0, 0, &acgr_lock},
+
+total: 0 errors, 2 warnings, 70 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 71d8254af9d1 ("clk: mmp2: Add the I2S clocks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

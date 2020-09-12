@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 124 lines checked
+
+Commit e2394a61d243 ("net/mlx5e: Move TC-specific code from en_main.c to en_tc.c") has no obvious style problems and is ready for submission.

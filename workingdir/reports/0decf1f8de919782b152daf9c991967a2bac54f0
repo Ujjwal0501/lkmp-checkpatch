@@ -1,0 +1,33 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#202: 
+deleted file mode 100644
+
+WARNING:MACRO_WITH_FLOW_CONTROL: Macros with flow control statements should be avoided
+#270: FILE: tools/objtool/weak.c:14:
++#define UNSUPPORTED(name)						\
++({									\
++	fprintf(stderr, "error: objtool: " name " not implemented\n");	\
++	return ENOSYS;							\
++})
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#273: FILE: tools/objtool/weak.c:17:
++	return ENOSYS;							\
+
+WARNING:USE_NEGATIVE_ERRNO: return of an errno should typically be negative (ie: return -ENOSYS)
+#273: FILE: tools/objtool/weak.c:17:
++	return ENOSYS;							\
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'check', this function's name, in a string
+#280: FILE: tools/objtool/weak.c:24:
++	UNSUPPORTED("check subcommand");
+
+total: 0 errors, 5 warnings, 160 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0decf1f8de91 ("objtool: Enable compilation of objtool for all architectures") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

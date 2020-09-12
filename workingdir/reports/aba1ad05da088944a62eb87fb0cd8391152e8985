@@ -1,0 +1,25 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#61: 
+new file mode 100644
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ti,dm814-timer" appears un-documented -- check ./Documentation/devicetree/bindings/
+#220: FILE: drivers/clocksource/timer-ti-dm-systimer.c:155:
++	{ .compatible = "ti,dm814-timer", },
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ti,dm816-timer" appears un-documented -- check ./Documentation/devicetree/bindings/
+#221: FILE: drivers/clocksource/timer-ti-dm-systimer.c:156:
++	{ .compatible = "ti,dm816-timer", },
+
+WARNING:TYPO_SPELLING: 'detectt' may be misspelled - perhaps 'detect'?
+#769: FILE: drivers/clocksource/timer-ti-dm-systimer.c:704:
++		pr_err("%s: unable to detectt system timers, update dtb?\n",
+
+total: 0 errors, 4 warnings, 738 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit aba1ad05da08 ("clocksource/drivers/timer-ti-dm: Add clockevent and clocksource support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,223 @@
+WARNING:TYPO_SPELLING: 'verison' may be misspelled - perhaps 'version'?
+#7: 
+ISP2400/ISP2401 verison. Get rid of most of those, while
+
+CHECK:BOOL_COMPARISON: Using comparison to true is error prone
+#155: FILE: drivers/staging/media/atomisp/pci/camera/pipe/src/pipe_binarydesc.c:617:
++			    (pipe->extra_config.enable_dvs_6axis == true))
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#505: FILE: drivers/staging/media/atomisp/pci/runtime/debug/src/ia_css_debug.c:3105:
++		ia_css_debug_dump_resolution(&config->output_system_in_res,
++					    "output_system_in_res");
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#621: FILE: drivers/staging/media/atomisp/pci/runtime/debug/src/ia_css_debug.c:3399:
++				TRACE_DUMP_FORMAT dump_format = FIELD_FORMAT_UNPACK(trace_read_buf[j]);
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments should align the * on each line
+#627: FILE: drivers/staging/media/atomisp/pci/runtime/debug/src/ia_css_debug.c:3405:
++				/*
++				* When tid value is 111b, the data will be interpreted differently:
+
+WARNING:LONG_LINE_COMMENT: line length of 103 exceeds 100 columns
+#628: FILE: drivers/staging/media/atomisp/pci/runtime/debug/src/ia_css_debug.c:3406:
++				* tid val is ignored, major field contains 2 bits (msb) for format type
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#630: FILE: drivers/staging/media/atomisp/pci/runtime/debug/src/ia_css_debug.c:3408:
++				if (tid_val == FIELD_TID_SEL_FORMAT_PAT) {
++					dump_format = FIELD_FORMAT_UNPACK(trace_read_buf[j]);
++				}
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#673: FILE: drivers/staging/media/atomisp/pci/runtime/debug/src/ia_css_debug.c:3430:
++				ia_css_debug_dtrace(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#681: FILE: drivers/staging/media/atomisp/pci/runtime/debug/src/ia_css_debug.c:3438:
++				ia_css_debug_dtrace(
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'ia_css_frame_create_from_info', this function's name, in a string
+#897: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:224:
++			    "ia_css_frame_create_from_info() leave:\n");
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'binary' - possible side-effects?
+#1867: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:114:
++#define ISP2400_SCTBL_BYTES(binary) \
+ 	(sizeof(unsigned short) * (binary)->sctbl_height * \
+ 	 (binary)->sctbl_aligned_width_per_color * IA_CSS_SC_NUM_COLORS)
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'binary' - possible side-effects?
+#1874: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:118:
++#define ISP2401_SCTBL_BYTES(binary) \
+ 	(sizeof(unsigned short) * max((binary)->sctbl_height, (binary)->sctbl_legacy_height) * \
+ 			/* height should be the larger height between new api and legacy api */ \
+ 	 (binary)->sctbl_aligned_width_per_color * IA_CSS_SC_NUM_COLORS)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1980: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3076:
++				if (sh_css_select_dp_10bpp_config(stream->pipes[i],
++								&is_dp_10bpp) == IA_CSS_SUCCESS) {
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments should align the * on each line
+#1982: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3078:
++					/* set the return value as false if both DPC and
++					* BDS is enabled by the user. But we do not return
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#1984: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3080:
++					* feature testing. */
+
+WARNING:BRACES: braces {} are not necessary for any arm of this statement
+#1985: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3081:
++					if (is_dp_10bpp) {
+[...]
++					} else {
+[...]
+
+WARNING:LONG_LINE: line length of 121 exceeds 100 columns
+#1986: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3082:
++						sh_css_set_dp_config(stream->pipes[i], params, &default_dp_10bpp_config);
+
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#1988: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3084:
++						sh_css_set_dp_config(stream->pipes[i], params, &default_dp_config);
+
+WARNING:LONG_LINE: line length of 116 exceeds 100 columns
+#2036: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3201:
++							    &stream_params->pipe_dp_config[stream->pipes[i]->mode]);
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2036: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3201:
++					sh_css_set_dp_config(stream->pipes[i], params,
++							    &stream_params->pipe_dp_config[stream->pipes[i]->mode]);
+
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#2203: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4217:
++					dvs_offset.width = (PIX_SHIFT_FILTER_RUN_IN_X + binary->dvs_envelope.width) / 2;
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#2205: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4219:
++					if (binary->dvs_envelope.width || binary->dvs_envelope.height) {
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#2205: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4219:
++					if (binary->dvs_envelope.width || binary->dvs_envelope.height) {
++						dvs_offset.width  = (PIX_SHIFT_FILTER_RUN_IN_X + binary->dvs_envelope.width) / 2;
++					}
+
+WARNING:LONG_LINE: line length of 129 exceeds 100 columns
+#2206: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4220:
++						dvs_offset.width  = (PIX_SHIFT_FILTER_RUN_IN_X + binary->dvs_envelope.width) / 2;
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#2209: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4223:
++				dvs_offset.height = (PIX_SHIFT_FILTER_RUN_IN_Y + binary->dvs_envelope.height) / 2;
+
+WARNING:LONG_LINE: line length of 106 exceeds 100 columns
+#2225: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4226:
++				    generate_dvs_6axis_table(&binary->out_frame_info[0].res, &dvs_offset);
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2238: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4234:
++				store_dvs_6axis_config(params->pipe_dvs_6axis_config[pipe_id],
++						    binary,
+
+ERROR:OPEN_BRACE: that open brace { should be on the previous line
+#2331: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4242:
++	if (binary->info->sp.enable.ca_gdc)
++	{
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '['
+#2334: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4245:
++		hrt_vaddress *virt_addr_tetra_x[
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2335: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4246:
++		hrt_vaddress *virt_addr_tetra_x[
++		IA_CSS_MORPH_TABLE_NUM_PLANES];
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '['
+#2336: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4247:
++		size_t *virt_size_tetra_x[
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2337: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4248:
++		size_t *virt_size_tetra_x[
++		IA_CSS_MORPH_TABLE_NUM_PLANES];
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '['
+#2338: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4249:
++		hrt_vaddress *virt_addr_tetra_y[
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2339: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4250:
++		hrt_vaddress *virt_addr_tetra_y[
++		IA_CSS_MORPH_TABLE_NUM_PLANES];
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '['
+#2340: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4251:
++		size_t *virt_size_tetra_y[
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2341: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4252:
++		size_t *virt_size_tetra_y[
++		IA_CSS_MORPH_TABLE_NUM_PLANES];
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2375: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4286:
++			    reallocate_buffer(virt_addr_tetra_x[i],
++					    virt_size_tetra_x[i],
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2386: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4297:
++			    reallocate_buffer(virt_addr_tetra_y[i],
++					    virt_size_tetra_y[i],
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2429: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4328:
++				store_morph_plane(table->coordinates_x[i],
++						table->width,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2434: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4333:
++				store_morph_plane(table->coordinates_y[i],
++						table->width,
+
+ERROR:OPEN_BRACE: that open brace { should be on the previous line
+#2470: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4344:
++	for (mem = 0; mem < N_IA_CSS_MEMORIES; mem++)
++	{
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2474: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4348:
++		    ia_css_isp_param_get_isp_mem_init(&binary->info->sp.mem_initializers,
++						    IA_CSS_PARAM_CLASS_PARAM, mem);
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#2477: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4351:
++		if (!size) continue;
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2479: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4353:
++		buff_realloced = reallocate_buffer(&ddr_map->isp_mem_param[stage_num][mem],
++						&ddr_map_size->isp_mem_param[stage_num][mem],
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#2481: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4355:
++						params->isp_mem_params_changed[pipe_id][stage_num][mem],
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#2490: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4364:
++							    ddr_map_size->isp_mem_param[stage_num][mem], mem);
+
+total: 3 errors, 24 warnings, 19 checks, 2213 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3c0538fbad9f ("media: atomisp: get rid of most checks for ISP2401 version") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

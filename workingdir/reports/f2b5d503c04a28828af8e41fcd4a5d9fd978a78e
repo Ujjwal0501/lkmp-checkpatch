@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit f2b5d503c04a ("dmaengine: sf-pdma: Simplify the error handling path in 'sf_pdma_probe()'") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit c5e7467d92b8 ("serial: 8250_early: Support kgdboc_earlycon") has no obvious style problems and is ready for submission.

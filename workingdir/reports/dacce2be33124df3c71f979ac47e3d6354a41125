@@ -1,0 +1,17 @@
+CHECK:CAMELCASE: Avoid CamelCase: <devRead>
+#284: FILE: drivers/net/vmxnet3/vmxnet3_drv.c:2494:
++		devRead->misc.uptFeatures |= UPT1_F_RXINNEROFLD;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uptFeatures>
+#284: FILE: drivers/net/vmxnet3/vmxnet3_drv.c:2494:
++		devRead->misc.uptFeatures |= UPT1_F_RXINNEROFLD;
+
+total: 0 errors, 0 warnings, 2 checks, 342 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dacce2be3312 ("vmxnet3: add geneve and vxlan tunnel offload support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

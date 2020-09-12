@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 19 lines checked
+
+Commit ba4258001956 ("net: bnxt: Remove Comparison to bool in bnxt_ethtool.c") has no obvious style problems and is ready for submission.

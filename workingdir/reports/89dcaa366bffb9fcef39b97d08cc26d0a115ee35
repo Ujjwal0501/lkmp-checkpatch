@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 119 lines checked
+
+Commit 89dcaa366bff ("IB/hfi1: Rename num_vnic_contexts as num_netdev_contexts") has no obvious style problems and is ready for submission.

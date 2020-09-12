@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit ee1e99009e91 ("unicore32: remove unused pmode argument in c_backtrace()") has no obvious style problems and is ready for submission.

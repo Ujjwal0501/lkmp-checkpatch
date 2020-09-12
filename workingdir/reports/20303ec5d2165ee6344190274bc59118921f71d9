@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 20303ec5d216 ("drm/amdgpu: asd function needs to be unloaded in suspend phase") has no obvious style problems and is ready for submission.

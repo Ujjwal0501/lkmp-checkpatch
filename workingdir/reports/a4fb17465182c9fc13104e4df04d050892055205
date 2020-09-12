@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit a4fb17465182 ("firmware: smccc: Add function to fetch SMCCC version") has no obvious style problems and is ready for submission.

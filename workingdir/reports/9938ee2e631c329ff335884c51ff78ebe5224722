@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 267 lines checked
+
+Commit 9938ee2e631c ("drm/i915/selftests: Check RPS controls") has no obvious style problems and is ready for submission.

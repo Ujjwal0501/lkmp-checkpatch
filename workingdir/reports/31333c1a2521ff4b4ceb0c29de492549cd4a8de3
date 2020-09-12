@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 43 lines checked
+
+Commit 31333c1a2521 ("net: qed: fix async event callbacks unregistering") has no obvious style problems and is ready for submission.

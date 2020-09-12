@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit b9dd3f6d4172 ("spi: bcm2835aux: Fix controller unregister order") has no obvious style problems and is ready for submission.

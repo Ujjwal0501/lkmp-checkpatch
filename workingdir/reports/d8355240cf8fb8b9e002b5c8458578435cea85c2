@@ -1,0 +1,97 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#68: 
+new file mode 100644
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#89: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:17:
++TRACE_EVENT(hclge_pf_mbx_get,
++	TP_PROTO(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#89: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:17:
++	TP_PROTO(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#94: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:22:
++	TP_STRUCT__entry(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#103: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:31:
++	TP_fast_assign(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#113: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:41:
++	TP_printk(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#122: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:50:
++TRACE_EVENT(hclge_pf_mbx_send,
++	TP_PROTO(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#122: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:50:
++	TP_PROTO(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#127: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:55:
++	TP_STRUCT__entry(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#135: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:63:
++	TP_fast_assign(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#144: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_trace.h:72:
++	TP_printk(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#226: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:17:
++TRACE_EVENT(hclge_vf_mbx_get,
++	TP_PROTO(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#226: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:17:
++	TP_PROTO(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#231: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:22:
++	TP_STRUCT__entry(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#239: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:30:
++	TP_fast_assign(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#248: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:39:
++	TP_printk(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#257: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:48:
++TRACE_EVENT(hclge_vf_mbx_send,
++	TP_PROTO(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#257: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:48:
++	TP_PROTO(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#262: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:53:
++	TP_STRUCT__entry(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#271: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:62:
++	TP_fast_assign(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#281: FILE: drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_trace.h:72:
++	TP_printk(
+
+total: 0 errors, 1 warnings, 20 checks, 238 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d8355240cf8f ("net: hns3: add trace event support for PF/VF mailbox") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

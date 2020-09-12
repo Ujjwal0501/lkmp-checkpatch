@@ -1,0 +1,17 @@
+WARNING:DO_WHILE_MACRO_WITH_TRAILING_SEMICOLON: do {} while (0) macros should not be semicolon terminated
+#29: FILE: drivers/iommu/amd_iommu_types.h:398:
++#define DUMP_printk(format, arg...)				\
++	do {							\
++		if (amd_iommu_dump)				\
++			pr_info("AMD-Vi: " format, ## arg);	\
+ 	} while(0);
+
+total: 0 errors, 1 warnings, 14 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 555fb5ae0f39 ("iommu/amd: Unify format of the printed messages") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

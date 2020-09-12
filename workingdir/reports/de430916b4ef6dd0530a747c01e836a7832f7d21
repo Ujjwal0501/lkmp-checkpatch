@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit de430916b4ef ("drm/amdkfd: Adjust three kfd dmesg printings during initialization") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 7983ed6f86d6 ("tools/power/x86/intel-speed-select: Enable clos for turbo-freq enable") has no obvious style problems and is ready for submission.

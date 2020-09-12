@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit e0664ebcea6a ("crypto: drbg - fix error return code in drbg_alloc_state()") has no obvious style problems and is ready for submission.

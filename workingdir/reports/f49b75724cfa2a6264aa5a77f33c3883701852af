@@ -1,0 +1,49 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#25: 
+new file mode 100644
+
+ERROR:SPACING: need consistent spacing around '%' (ctx:WxV)
+#65: FILE: tools/testing/selftests/powerpc/nx-gzip/include/copy-paste.h:36:
++	asm volatile(PPC_COPY(%0, %1)";"
+ 	                          ^
+
+ERROR:SPACING: need consistent spacing around '%' (ctx:WxV)
+#78: FILE: tools/testing/selftests/powerpc/nx-gzip/include/copy-paste.h:49:
++	asm volatile(PPC_PASTE(%1, %2)";"
+ 	                           ^
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#439: FILE: tools/testing/selftests/powerpc/nx-gzip/include/nxu.h:247:
++	volatile struct {
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#504: FILE: tools/testing/selftests/powerpc/nx-gzip/include/nxu.h:312:
++	struct nx_dde_t target_dde;           /* byte[32:47] */
++	volatile struct nx_ccb_t ccb;         /* byte[48:63] */
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#504: FILE: tools/testing/selftests/powerpc/nx-gzip/include/nxu.h:312:
++	volatile struct nx_ccb_t ccb;         /* byte[48:63] */
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#505: FILE: tools/testing/selftests/powerpc/nx-gzip/include/nxu.h:313:
++	volatile struct nx_ccb_t ccb;         /* byte[48:63] */
++	volatile union {
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#505: FILE: tools/testing/selftests/powerpc/nx-gzip/include/nxu.h:313:
++	volatile union {
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#512: FILE: tools/testing/selftests/powerpc/nx-gzip/include/nxu.h:320:
++	volatile struct nx_csb_t csb;
+
+total: 2 errors, 7 warnings, 801 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f49b75724cfa ("selftests/powerpc: Add header files for NX compresion/decompression") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

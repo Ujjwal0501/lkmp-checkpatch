@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 394 lines checked
+
+Commit 64dbc3d55d60 ("ARM: dts: Configure system timers for omap2") has no obvious style problems and is ready for submission.

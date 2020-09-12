@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 113 lines checked
+
+Commit 5fed73b84f52 ("platform/chrome: cros_ec_typec: Add struct for port data") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 01952206e17e ("net: hns3: remove unnecessary MAC enable in app loopback") has no obvious style problems and is ready for submission.

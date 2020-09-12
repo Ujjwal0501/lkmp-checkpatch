@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit b0a4bb7693be ("rtlwifi: rtl8192ee: remove redundant for-loop") has no obvious style problems and is ready for submission.

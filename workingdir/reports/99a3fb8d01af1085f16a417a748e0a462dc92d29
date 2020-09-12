@@ -1,0 +1,13 @@
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#148: FILE: arch/x86/xen/enlighten_pv.c:631:
++	TRAP_ENTRY(exc_segment_not_present,		false ),
+
+total: 1 errors, 0 warnings, 89 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 99a3fb8d01af ("x86/entry: Convert Segment not present exception to IDTENTRY") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

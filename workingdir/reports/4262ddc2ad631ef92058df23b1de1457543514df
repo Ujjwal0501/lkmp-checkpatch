@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 127 lines checked
+
+Commit 4262ddc2ad63 ("ASoC: Intel: boards: add explicit dependency on GPIOLIB when DMIC is used") has no obvious style problems and is ready for submission.

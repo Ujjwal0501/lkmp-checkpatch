@@ -1,0 +1,23 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct xfs_mount *' should also have an identifier name
+#64: FILE: fs/xfs/xfs_extfree_item.h:81:
++struct xfs_efi_log_item	*xfs_efi_init(struct xfs_mount *, uint);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'uint' should also have an identifier name
+#64: FILE: fs/xfs/xfs_extfree_item.h:81:
++struct xfs_efi_log_item	*xfs_efi_init(struct xfs_mount *, uint);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct xfs_efi_log_item *' should also have an identifier name
+#68: FILE: fs/xfs/xfs_extfree_item.h:84:
++void			xfs_efi_item_free(struct xfs_efi_log_item *);
+
+total: 0 errors, 4 warnings, 59 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 82ff450b2d93 ("xfs: remove the xfs_efi_log_item_t typedef") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

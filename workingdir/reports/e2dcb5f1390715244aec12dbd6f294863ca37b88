@@ -1,0 +1,32 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'func'
+#122: FILE: arch/x86/include/asm/idtentry.h:301:
++	idtentry vector asm_##func func has_error_code=0
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#122: FILE: arch/x86/include/asm/idtentry.h:301:
++	idtentry vector asm_##func func has_error_code=0
+ 	                                              ^
+
+WARNING:REPEATED_WORD: Possible repeated word: 'func'
+#126: FILE: arch/x86/include/asm/idtentry.h:304:
++	idtentry vector asm_##func func has_error_code=1
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#126: FILE: arch/x86/include/asm/idtentry.h:304:
++	idtentry vector asm_##func func has_error_code=1
+ 	                                              ^
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#135: FILE: arch/x86/include/asm/idtentry.h:348:
++	idtentry vector asm_exc_xen##func exc_##func has_error_code=0
+ 	                                                           ^
+
+total: 3 errors, 2 warnings, 98 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e2dcb5f13907 ("x86/entry: Remove the transition leftovers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

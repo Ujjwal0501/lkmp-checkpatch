@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit c856b4b0fdb5 ("USB: EHCI: ehci-mv: fix error handling in mv_ehci_probe()") has no obvious style problems and is ready for submission.

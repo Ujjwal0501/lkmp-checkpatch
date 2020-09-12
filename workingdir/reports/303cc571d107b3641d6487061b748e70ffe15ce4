@@ -1,0 +1,25 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'at'
+#43: 
+looking at at least 14 syscalls, 7 to open the /proc/<pid>/ns/<ns>
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct mnt_namespace *' should also have an identifier name
+#163: FILE: include/linux/mnt_namespace.h:14:
++extern struct ns_common *from_mnt_ns(struct mnt_namespace *);
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#246: FILE: kernel/nsproxy.c:313:
++static int prepare_nsset(unsigned flags, struct nsset *nsset)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#296: FILE: kernel/nsproxy.c:360:
++	unsigned flags = nsset->flags;
+
+total: 0 errors, 4 warnings, 327 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 303cc571d107 ("nsproxy: attach to namespaces via pidfds") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

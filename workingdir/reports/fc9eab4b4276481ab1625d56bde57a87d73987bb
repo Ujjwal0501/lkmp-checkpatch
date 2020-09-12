@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit fc9eab4b4276 ("arm64: dts: meson-g12b: move G12B thermal nodes to meson-g12b.dtsi") has no obvious style problems and is ready for submission.

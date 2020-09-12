@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 145 lines checked
+
+Commit c96c4436aba4 ("powerpc/vas: Update CSB and notify process for fault CRBs") has no obvious style problems and is ready for submission.

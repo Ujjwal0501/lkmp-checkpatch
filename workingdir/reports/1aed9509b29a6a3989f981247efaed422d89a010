@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 72 lines checked
+
+Commit 1aed9509b29a ("drm/fb-helper: Remove return value from drm_fbdev_generic_setup()") has no obvious style problems and is ready for submission.

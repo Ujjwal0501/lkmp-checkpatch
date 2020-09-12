@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 108 lines checked
+
+Commit f0f6928c2c4c ("kcsan: Move interfaces that affects checks to kcsan-checks.h") has no obvious style problems and is ready for submission.

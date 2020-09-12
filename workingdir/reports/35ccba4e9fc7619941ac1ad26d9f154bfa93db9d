@@ -1,0 +1,33 @@
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#36: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:672:
++	xgmi_cmd = (struct ta_xgmi_shared_memory*)psp->xgmi_context.xgmi_shared_buf;
+
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#56: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:692:
++	xgmi_cmd = (struct ta_xgmi_shared_memory*)psp->xgmi_context.xgmi_shared_buf;
+
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#84: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:720:
++	xgmi_cmd = (struct ta_xgmi_shared_memory*)psp->xgmi_context.xgmi_shared_buf;
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#95: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:731:
++		topology_info_input->nodes[i].is_sharing_enabled = topology->nodes[i].is_sharing_enabled;
+
+WARNING:LONG_LINE: line length of 106 exceeds 100 columns
+#110: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:746:
++		topology->nodes[i].is_sharing_enabled = topology_info_output->nodes[i].is_sharing_enabled;
+
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#128: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:764:
++	xgmi_cmd = (struct ta_xgmi_shared_memory*)psp->xgmi_context.xgmi_shared_buf;
+
+total: 4 errors, 2 warnings, 296 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 35ccba4e9fc7 ("drm/amdgpu: switch to common xgmi ta helpers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

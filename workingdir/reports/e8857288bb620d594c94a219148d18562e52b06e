@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e8857288bb62 ("kdb: Check status of console prior to invoking handlers") has no obvious style problems and is ready for submission.

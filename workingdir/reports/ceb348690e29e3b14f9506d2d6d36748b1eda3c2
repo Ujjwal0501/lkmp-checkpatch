@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit ceb348690e29 ("media: staging: rkisp1: cap: cleanup in mainpath config for uv swap format") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit dbffd7f9bdb4 ("arm64: dts: meson: g12: add internal DAC glue") has no obvious style problems and is ready for submission.

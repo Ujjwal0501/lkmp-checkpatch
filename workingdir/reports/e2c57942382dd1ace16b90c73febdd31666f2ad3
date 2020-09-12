@@ -1,0 +1,23 @@
+CHECK:LOGICAL_CONTINUATIONS: Logical continuations should be on the previous line
+#44: FILE: drivers/staging/media/atomisp/pci/atomisp_gmin_platform.c:465:
++	if (!buffer.length || !package
++	    || package->type != ACPI_TYPE_PACKAGE
+
+CHECK:LOGICAL_CONTINUATIONS: Logical continuations should be on the previous line
+#45: FILE: drivers/staging/media/atomisp/pci/atomisp_gmin_platform.c:466:
++	    || package->type != ACPI_TYPE_PACKAGE
++	    || !package->package.count)
+
+WARNING:IF_0: Consider removing the code enclosed by this #if 0 and its #endif
+#64: FILE: drivers/staging/media/atomisp/pci/atomisp_gmin_platform.c:485:
++#if 0
+
+total: 0 errors, 1 warnings, 2 checks, 84 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e2c57942382d ("media: atomisp: properly parse CLK PMIC on newer devices") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 126 lines checked
+
+Commit bc7ccce5a519 ("bus: mhi: core: Remove the system error worker thread") has no obvious style problems and is ready for submission.

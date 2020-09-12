@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit 161e04a5bae5 ("ARM: decompressor: split off _edata and stack base into separate object") has no obvious style problems and is ready for submission.

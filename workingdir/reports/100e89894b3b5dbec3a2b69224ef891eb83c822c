@@ -1,0 +1,114 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#106: FILE: drivers/staging/media/atomisp/pci/base/refcount/src/refcount.c:26:
++	 now only for ia_css_ptr */
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#120: FILE: drivers/staging/media/atomisp/pci/base/refcount/src/refcount.c:41:
++static struct ia_css_refcount_entry *refcount_find_entry(ia_css_ptr ptr,
+ 	bool firstfree)
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#207: FILE: drivers/staging/media/atomisp/pci/hive_isp_css_include/host/debug_public.h:90:
++    const ia_css_ptr^I^Iaddr);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#301: FILE: drivers/staging/media/atomisp/pci/isp/kernels/dvs/dvs_1.0/ia_css_dvs.host.c:278:
++    ia_css_ptr ddr_addr_y) {$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#314: FILE: drivers/staging/media/atomisp/pci/isp/kernels/dvs/dvs_1.0/ia_css_dvs.host.h:58:
++    ia_css_ptr ddr_addr_y);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#389: FILE: drivers/staging/media/atomisp/pci/runtime/isp_param/interface/ia_css_isp_param.h:34:
++    ia_css_ptr address, size_t size);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#402: FILE: drivers/staging/media/atomisp/pci/runtime/isp_param/src/isp_param.c:37:
++    ia_css_ptr address, size_t size)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#754: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1238:
++    ia_css_ptr *out);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#794: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1612:
++    ia_css_ptr ddr_addr,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#803: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1679:
++    ia_css_ptr sc_tbl,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#812: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2710:
++    ia_css_ptr *curr_buf,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#821: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2751:
++    ia_css_ptr *curr_buf,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#861: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3435:
++    ia_css_ptr ptr)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#870: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3445:
++    ia_css_ptr ptr)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#888: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3629:
++    ia_css_ptr dest,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#897: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3649:
++    ia_css_ptr ddr_ptr)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#906: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3663:
++    ia_css_ptr ddr_mem_ptr,$
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '['
+#951: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4244:
++		ia_css_ptr *virt_addr_tetra_x[
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '['
+#956: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4248:
++		ia_css_ptr *virt_addr_tetra_y[
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#974: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4468:
++ia_css_ptr sh_css_store_sp_stage_to_ddr(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#983: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4479:
++ia_css_ptr sh_css_store_isp_stage_to_ddr(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1010: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4532:
++    ia_css_ptr *out)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1019: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4557:
++    ia_css_ptr ptr) {$
+
+CHECK:SPACING: No space is necessary after a cast
+#1024: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4561:
++	ia_css_ptr *addrs = (ia_css_ptr *) &isp_params_info.mem_map;
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1037: FILE: drivers/staging/media/atomisp/pci/sh_css_params.h:153:
++    ia_css_ptr ddr_addr,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1044: FILE: drivers/staging/media/atomisp/pci/sh_css_params.h:159:
++    ia_css_ptr ddr_addr,$
+
+total: 0 errors, 20 warnings, 6 checks, 867 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 100e89894b3b ("media: atomisp: change the type returned by mmgr alloc") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit c1e62062ff54 ("iio: light: cm32181: Handle CM3218 ACPI devices with 2 I2C resources") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit 123f985aea0d ("PCI/AER: Remove redundant pci_is_pcie() checks") has no obvious style problems and is ready for submission.

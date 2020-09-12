@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Co-developed-by and Signed-off-by: name/email do not match 
+#22: 
+Co-developed-by: Rik van Riel <riel@surriel.com>
+Signed-off-by: Roman Gushchin <guro@fb.com>
+total: 0 errors, 1 warnings, 20 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 16867664936e ("mm,page_alloc,cma: conditionally prefer cma pageblocks for movable allocations") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

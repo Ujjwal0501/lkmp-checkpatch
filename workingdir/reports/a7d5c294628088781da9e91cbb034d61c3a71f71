@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 189 lines checked
+
+Commit a7d5c2946280 ("cifs: reduce stack use in smb2_compound_op") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit a19f228b8dd9 ("media: Kconfig: not all V4L2 platform drivers are for camera") has no obvious style problems and is ready for submission.

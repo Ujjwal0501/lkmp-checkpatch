@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 93 lines checked
+
+Commit 3df711db05b5 ("net/mlx5e: Return void from mlx5e_sq_xmit and mlx5i_sq_xmit") has no obvious style problems and is ready for submission.

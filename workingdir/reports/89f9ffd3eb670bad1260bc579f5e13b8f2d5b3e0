@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 140 lines checked
+
+Commit 89f9ffd3eb67 ("net: mscc: ocelot: deal with problematic MAC_ETYPE VCAP IS2 rules") has no obvious style problems and is ready for submission.

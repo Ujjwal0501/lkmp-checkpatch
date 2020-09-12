@@ -1,0 +1,13 @@
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "qcom,sdm845-mtp" appears un-documented -- check ./Documentation/devicetree/bindings/
+#27: FILE: arch/arm64/boot/dts/qcom/sdm845-mtp.dts:16:
++	compatible = "qcom,sdm845-mtp", "qcom,sdm845";
+
+total: 0 errors, 1 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 54e9d5f70834 ("arm64: dts: qcom: sdm845: Add SoC compatible to MTP") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

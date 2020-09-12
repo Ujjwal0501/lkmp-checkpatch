@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit f341a7d8dcc4 ("exfat: fix memory leak in exfat_parse_param()") has no obvious style problems and is ready for submission.

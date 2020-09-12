@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 9ad61b5c8040 ("ASoC: img-spdif-out: Fix runtime PM imbalance on error") has no obvious style problems and is ready for submission.

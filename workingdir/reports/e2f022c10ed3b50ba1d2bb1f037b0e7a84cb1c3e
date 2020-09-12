@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit e2f022c10ed3 ("clk: renesas: rcar-gen2: Remove superfluous CLK_RENESAS_DIV6 selects") has no obvious style problems and is ready for submission.

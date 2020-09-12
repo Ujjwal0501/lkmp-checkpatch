@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 85 lines checked
+
+Commit cf209951fa7f ("powerpc/8xx: Map linear memory with huge pages") has no obvious style problems and is ready for submission.

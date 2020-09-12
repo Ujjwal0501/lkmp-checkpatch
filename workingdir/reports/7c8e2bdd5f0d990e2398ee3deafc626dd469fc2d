@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 226 lines checked
+
+Commit 7c8e2bdd5f0d ("livepatch: Apply vmlinux-specific KLP relocations early") has no obvious style problems and is ready for submission.

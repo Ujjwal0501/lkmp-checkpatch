@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 5249385ad7f0 ("powerpc: Define and use get_user_instr() et. al.") has no obvious style problems and is ready for submission.

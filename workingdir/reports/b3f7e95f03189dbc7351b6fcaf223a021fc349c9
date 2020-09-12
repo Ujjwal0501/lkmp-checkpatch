@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit b3f7e95f0318 ("arm64: dts: ti: k3-am65-main: add main navss cpts node") has no obvious style problems and is ready for submission.

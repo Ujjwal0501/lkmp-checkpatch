@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 22 lines checked
+
+Commit 56e8091c7a09 ("net/smc: move the TEST_LINK response processing into event handler") has no obvious style problems and is ready for submission.

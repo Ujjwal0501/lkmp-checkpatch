@@ -1,0 +1,29 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#61: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1343:
++							&dpcd_power_state, sizeof(dpcd_power_state));
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#65: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1347:
++					unsigned int fe = dc->links[i]->link_enc->funcs->get_dig_frontend(dc->links[i]->link_enc);
+
+WARNING:DEEP_INDENTATION: Too many leading tabs - consider code refactoring
+#68: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1350:
++						if (fe == dc->res_pool->stream_enc[j]->id) {
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#69: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1351:
++							dc->res_pool->stream_enc[j]->funcs->dp_blank(
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#70: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1352:
++										dc->res_pool->stream_enc[j]);
+
+total: 0 errors, 5 warnings, 48 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1c256f40bf8e ("drm/amd/display: Remove aconnector condition check for dpcd read") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'gadget'
+#11: 
+- configfs-gadget gadget: acm ttyGS0 can't notify serial state, -11
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'gs_open', this function's name, in a string
+#54: FILE: drivers/usb/gadget/function/u_serial.c:639:
++			pr_debug("gs_open: start ttyGS%d\n", port->port_num);
+
+total: 0 errors, 2 warnings, 95 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit aba3a8d01d62 ("usb: gadget: u_serial: add suspend resume callbacks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

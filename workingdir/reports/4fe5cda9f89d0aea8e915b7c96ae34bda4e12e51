@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit 4fe5cda9f89d ("powerpc/uaccess: Implement user_read_access_begin and user_write_access_begin") has no obvious style problems and is ready for submission.

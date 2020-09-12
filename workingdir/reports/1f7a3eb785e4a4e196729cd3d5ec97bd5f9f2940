@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit 1f7a3eb785e4 ("Revert "soc: qcom: rpmh: Allow RPMH driver to be loaded as a module"") has no obvious style problems and is ready for submission.

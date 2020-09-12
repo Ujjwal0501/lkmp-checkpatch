@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit d2bc4dd91da6 ("thermal: imx_sc_thermal: Add hwmon support") has no obvious style problems and is ready for submission.

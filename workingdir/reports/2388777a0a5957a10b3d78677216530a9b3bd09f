@@ -1,0 +1,17 @@
+ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+#116: FILE: fs/exec.c:1301:
++int begin_new_exec(struct linux_binprm * bprm)
+
+ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+#138: FILE: include/linux/binfmts.h:128:
++extern int begin_new_exec(struct linux_binprm * bprm);
+
+total: 2 errors, 0 warnings, 72 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2388777a0a59 ("exec: Rename flush_old_exec begin_new_exec") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

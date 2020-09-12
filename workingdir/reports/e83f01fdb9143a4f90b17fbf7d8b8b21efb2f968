@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit e83f01fdb914 ("powerpc/52xx: Blacklist functions running with MMU disabled for kprobe") has no obvious style problems and is ready for submission.

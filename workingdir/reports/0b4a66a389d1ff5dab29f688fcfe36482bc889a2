@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit 0b4a66a389d1 ("nfc: nci: add missed destroy_workqueue in nci_register_device") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit adc9fbcd7d04 ("PCI: Use of_node_name_eq() for node name comparisons") has no obvious style problems and is ready for submission.

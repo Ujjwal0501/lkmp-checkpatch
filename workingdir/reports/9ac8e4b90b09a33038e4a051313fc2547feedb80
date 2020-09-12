@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 26 lines checked
+
+Commit 9ac8e4b90b09 ("media: atomisp: use Yocto Aero default hmm pool sizes") has no obvious style problems and is ready for submission.

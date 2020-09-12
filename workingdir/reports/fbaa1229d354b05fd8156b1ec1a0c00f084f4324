@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit fbaa1229d354 ("drm/i915/selftests: Take an explicit ref for rq->batch") has no obvious style problems and is ready for submission.

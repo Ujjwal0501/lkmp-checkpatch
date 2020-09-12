@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit f5b62bdbb626 ("drm/i915/gem: Specify address type for chained reloc batches") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit b6983e80b03b ("xfs: reset buffer write failure state on successful completion") has no obvious style problems and is ready for submission.

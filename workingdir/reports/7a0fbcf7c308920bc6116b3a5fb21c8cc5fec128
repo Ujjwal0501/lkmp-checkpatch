@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 7a0fbcf7c308 ("USB: gadget: udc: s3c2410_udc: Remove pointless NULL check in s3c2410_udc_nuke") has no obvious style problems and is ready for submission.

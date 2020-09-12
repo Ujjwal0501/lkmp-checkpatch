@@ -1,0 +1,17 @@
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#130: FILE: include/linux/ethtool_netlink.h:26:
++	return -ENOTSUPP;
+
+WARNING:IS_ENABLED_CONFIG: IS_ENABLED(ETHTOOL_NETLINK) is normally used as IS_ENABLED(CONFIG_ETHTOOL_NETLINK)
+#140: FILE: include/linux/ethtool_netlink.h:36:
++#endif /* IS_ENABLED(ETHTOOL_NETLINK) */
+
+total: 0 errors, 2 warnings, 0 checks, 169 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1dd3f212af30 ("net: ethtool: Add infrastructure for reporting cable test results") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

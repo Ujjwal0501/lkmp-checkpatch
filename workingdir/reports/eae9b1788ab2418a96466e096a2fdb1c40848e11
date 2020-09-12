@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit eae9b1788ab2 ("scsi: bfa: bfa_ioc_ct.c: make two funcitons static") has no obvious style problems and is ready for submission.

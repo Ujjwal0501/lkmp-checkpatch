@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 95 lines checked
+
+Commit 673bafd5b8b0 ("net: bcmgenet: re-remove bcmgenet_hfb_add_filter") has no obvious style problems and is ready for submission.

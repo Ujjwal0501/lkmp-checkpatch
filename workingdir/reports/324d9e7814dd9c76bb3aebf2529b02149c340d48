@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 98 lines checked
+
+Commit 324d9e7814dd ("nvme-rdma: introduce nvme_rdma_sgl structure") has no obvious style problems and is ready for submission.

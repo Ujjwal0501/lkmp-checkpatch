@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit e9293c982d88 ("net: dp83869: Fix OF_MDIO config check") has no obvious style problems and is ready for submission.

@@ -1,0 +1,41 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#31: FILE: drivers/mtd/nand/raw/Kconfig:456:
++config MTD_NAND_ARASAN
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#54: 
+new file mode 100644
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#311: FILE: drivers/mtd/nand/raw/arasan-nand-controller.c:253:
++		return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#532: FILE: drivers/mtd/nand/raw/arasan-nand-controller.c:474:
++		return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#664: FILE: drivers/mtd/nand/raw/arasan-nand-controller.c:606:
++				return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#670: FILE: drivers/mtd/nand/raw/arasan-nand-controller.c:612:
++				return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#673: FILE: drivers/mtd/nand/raw/arasan-nand-controller.c:615:
++				return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#695: FILE: drivers/mtd/nand/raw/arasan-nand-controller.c:637:
++		return -ENOTSUPP;
+
+total: 0 errors, 8 warnings, 975 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 197b88fecc50 ("mtd: rawnand: arasan: Add new Arasan NAND controller") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

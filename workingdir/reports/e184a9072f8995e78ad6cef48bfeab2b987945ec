@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 48 lines checked
+
+Commit e184a9072f89 ("net: phy: broadcom: add bcm_phy_modify_exp()") has no obvious style problems and is ready for submission.

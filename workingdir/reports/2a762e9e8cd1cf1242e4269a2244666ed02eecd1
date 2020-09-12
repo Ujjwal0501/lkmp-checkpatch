@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[   53.254200][    C1] Code: 41 8b 4e cc 45 31 c0 31 d2 4c 89 ee 48 89 df e8 e0 47 ff ff 85 c0 0f 84 cd fc ff ff 0f 0b e5
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[   53.254200][    C1] Code: 41 8b 4e cc 45 31 c0 31 d2 4c 89 ee 48 89 df e8 e0 47 ff ff 85 c0 0f 84 cd fc ff ff 0f 0b e5
+
+total: 0 errors, 2 warnings, 0 checks, 52 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2a762e9e8cd1 ("net: rmnet: fix lower interface leak") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit dc82910682ef ("ASoC: soc-dai: add snd_soc_dai_action()") has no obvious style problems and is ready for submission.

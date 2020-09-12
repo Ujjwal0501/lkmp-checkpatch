@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit a8a42d0284f1 ("x86/hyperv: Remove HV_PROCESSOR_POWER_STATE #defines") has no obvious style problems and is ready for submission.

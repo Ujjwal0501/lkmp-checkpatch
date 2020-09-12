@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit fa291331cb24 ("ASoC: rt5682: Enable Vref2 under using PLL2") has no obvious style problems and is ready for submission.

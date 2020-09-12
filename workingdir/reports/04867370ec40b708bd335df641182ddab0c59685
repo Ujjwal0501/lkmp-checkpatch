@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 04867370ec40 ("dm mpath: add DM device name to Failing/Reinstating path log messages") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 95 lines checked
+
+Commit a78aee9e4349 ("arm64: dts: juno: Fix GIC child nodes") has no obvious style problems and is ready for submission.

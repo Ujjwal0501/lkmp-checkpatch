@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 181 lines checked
+
+Commit 593bb8437986 ("mlxsw: spectrum_flower: Expose a function to get min and max rule priority") has no obvious style problems and is ready for submission.

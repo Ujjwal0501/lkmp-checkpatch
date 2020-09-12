@@ -1,0 +1,47 @@
+ERROR:SPACING: need consistent spacing around '*' (ctx:WxV)
+#73: FILE: tools/testing/selftests/kselftest_harness.h:255:
++		FIXTURE_DATA(fixture_name) __attribute__((unused)) *self, \
+ 		                                                   ^
+
+ERROR:SPACING: need consistent spacing around '*' (ctx:WxV)
+#75: FILE: tools/testing/selftests/kselftest_harness.h:257:
++			__attribute__((unused)) *variant)
+ 			                        ^
+
+ERROR:SPACING: need consistent spacing around '*' (ctx:WxV)
+#145: FILE: tools/testing/selftests/kselftest_harness.h:363:
++		FIXTURE_DATA(fixture_name) *self, \
+ 		                           ^
+
+ERROR:SPACING: need consistent spacing around '*' (ctx:WxV)
+#146: FILE: tools/testing/selftests/kselftest_harness.h:364:
++		const FIXTURE_VARIANT(fixture_name) *variant); \
+ 		                                    ^
+
+ERROR:SPACING: need consistent spacing around '*' (ctx:WxV)
+#170: FILE: tools/testing/selftests/kselftest_harness.h:394:
++		FIXTURE_DATA(fixture_name) __attribute__((unused)) *self, \
+ 		                                                   ^
+
+ERROR:SPACING: need consistent spacing around '*' (ctx:WxV)
+#172: FILE: tools/testing/selftests/kselftest_harness.h:396:
++			__attribute__((unused)) *variant)
+ 			                        ^
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct __test_metadata *' should also have an identifier name
+#223: FILE: tools/testing/selftests/kselftest_harness.h:770:
++	void (*fn)(struct __test_metadata *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct __fixture_variant_metadata *' should also have an identifier name
+#223: FILE: tools/testing/selftests/kselftest_harness.h:770:
++	void (*fn)(struct __test_metadata *,
+
+total: 6 errors, 2 warnings, 278 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 74bc7c97fa88 ("kselftest: add fixture variants") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

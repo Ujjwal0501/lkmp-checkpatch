@@ -1,0 +1,13 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#83: FILE: drivers/hv/channel_mgmt.c:574:
++^I * ^I^ICPU2's LOAD from *not* seing CPU1's STORE$
+
+total: 0 errors, 1 warnings, 109 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d570aec0f215 ("Drivers: hv: vmbus: Synchronize init_vp_index() vs. CPU hotplug") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

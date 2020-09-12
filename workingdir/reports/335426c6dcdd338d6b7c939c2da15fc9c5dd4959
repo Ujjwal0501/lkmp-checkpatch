@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 141 lines checked
+
+Commit 335426c6dcdd ("pstore/zone: Provide way to skip "broken" zone for MTD devices") has no obvious style problems and is ready for submission.

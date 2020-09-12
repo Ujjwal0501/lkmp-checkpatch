@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 88 lines checked
+
+Commit f73a4230d5bb ("clk: qcom: gcc: Add GPU and NPU clocks for SM8150") has no obvious style problems and is ready for submission.

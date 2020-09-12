@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b6aa06de7757 ("ASoC: qcom: Drop HAS_DMA dependency to fix link failure") has no obvious style problems and is ready for submission.

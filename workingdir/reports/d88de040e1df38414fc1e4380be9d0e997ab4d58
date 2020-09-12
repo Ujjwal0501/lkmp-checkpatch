@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit d88de040e1df ("iio: pressure: zpa2326: handle pm_runtime_get_sync failure") has no obvious style problems and is ready for submission.

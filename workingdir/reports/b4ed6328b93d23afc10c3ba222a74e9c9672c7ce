@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 152 lines checked
+
+Commit b4ed6328b93d ("mtd: rawnand: cs553x: Implement exec_op()") has no obvious style problems and is ready for submission.

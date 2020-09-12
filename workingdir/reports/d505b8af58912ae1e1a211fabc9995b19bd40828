@@ -1,0 +1,13 @@
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#85: FILE: kernel/sched/rt.c:2715:
++			NSEC_PER_USEC > max_rt_runtime)))
+
+total: 0 errors, 1 warnings, 58 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d505b8af5891 ("sched: Defend cfs and rt bandwidth quota against overflow") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

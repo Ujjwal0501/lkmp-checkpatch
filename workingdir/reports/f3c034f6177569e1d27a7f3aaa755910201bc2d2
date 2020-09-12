@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit f3c034f61775 ("iio: at91-sama5d2_adc: adjust iio_triggered_buffer_{predisable,postenable} positions") has no obvious style problems and is ready for submission.

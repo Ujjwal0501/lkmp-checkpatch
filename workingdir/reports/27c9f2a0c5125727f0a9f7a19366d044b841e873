@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 27c9f2a0c512 ("arm64: dts: allwinner: h6: orangepi: Disable OTG mode") has no obvious style problems and is ready for submission.

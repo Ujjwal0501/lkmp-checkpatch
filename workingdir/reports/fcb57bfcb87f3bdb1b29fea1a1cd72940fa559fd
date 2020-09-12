@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit fcb57bfcb87f ("interconnect: Disallow interconnect core to be built as a module") has no obvious style problems and is ready for submission.

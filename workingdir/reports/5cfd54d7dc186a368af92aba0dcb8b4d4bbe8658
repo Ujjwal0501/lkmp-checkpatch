@@ -1,0 +1,50 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#36: 
+new file mode 100644
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'ITEM' - possible side-effects?
+#107: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_utils_fw.c:30:
++#define hw_atl2_shared_buffer_read(HW, ITEM, VARIABLE) \
++{\
++	BUILD_BUG_ON_MSG((offsetof(struct fw_interface_out, ITEM) % \
++			 sizeof(u32)) != 0,\
++			 "Non aligned read " # ITEM);\
++	BUILD_BUG_ON_MSG(sizeof(VARIABLE) > sizeof(u32),\
++			 "Non atomic read " # ITEM);\
++	hw_atl2_mif_shared_buf_read(HW, \
++		(offsetof(struct fw_interface_out, ITEM) / sizeof(u32)),\
++		(u32 *)&(VARIABLE), sizeof(VARIABLE) / sizeof(u32));\
++}
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'ITEM' - possible side-effects?
+#119: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_utils_fw.c:42:
++#define hw_atl2_shared_buffer_read_safe(HW, ITEM, DATA) \
++	hw_atl2_shared_buffer_read_block((HW), \
++		(offsetof(struct fw_interface_out, ITEM) / sizeof(u32)),\
++		sizeof(((struct fw_interface_out *)0)->ITEM) / sizeof(u32),\
++		(DATA))
+
+CHECK:MACRO_ARG_PRECEDENCE: Macro argument '_N_' may be better as '(_N_)' to avoid precedence issues
+#324: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_utils_fw.c:247:
++#define AQ_SDELTA(_N_, _F_) (self->curr_stats._N_ += \
++			stats.msm._F_ - priv->last_stats.msm._F_)
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse '_F_' - possible side-effects?
+#324: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_utils_fw.c:247:
++#define AQ_SDELTA(_N_, _F_) (self->curr_stats._N_ += \
++			stats.msm._F_ - priv->last_stats.msm._F_)
+
+CHECK:MACRO_ARG_PRECEDENCE: Macro argument '_F_' may be better as '(_F_)' to avoid precedence issues
+#324: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_utils_fw.c:247:
++#define AQ_SDELTA(_N_, _F_) (self->curr_stats._N_ += \
++			stats.msm._F_ - priv->last_stats.msm._F_)
+
+total: 0 errors, 1 warnings, 5 checks, 362 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5cfd54d7dc18 ("net: atlantic: minimal A2 fw_ops") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

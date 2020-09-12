@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 130bbde4809b ("mtd: rawnand: brcmnand: fix hamming oob layout") has no obvious style problems and is ready for submission.

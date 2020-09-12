@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 359 lines checked
+
+Commit d77cfd162a34 ("devlink: Add layer 3 control packet traps") has no obvious style problems and is ready for submission.

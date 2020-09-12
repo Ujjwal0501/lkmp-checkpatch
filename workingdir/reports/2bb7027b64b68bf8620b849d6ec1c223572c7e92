@@ -1,0 +1,17 @@
+CHECK:CAMELCASE: Avoid CamelCase: <currCal>
+#37: FILE: drivers/net/wireless/ath/ath9k/ar9002_calib.c:683:
++		percal_pending = currCal->calState == CAL_WAITING;
+
+CHECK:CAMELCASE: Avoid CamelCase: <calState>
+#37: FILE: drivers/net/wireless/ath/ath9k/ar9002_calib.c:683:
++		percal_pending = currCal->calState == CAL_WAITING;
+
+total: 0 errors, 0 warnings, 2 checks, 14 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2bb7027b64b6 ("ath9k: interleaved NF calibration on AR9002") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

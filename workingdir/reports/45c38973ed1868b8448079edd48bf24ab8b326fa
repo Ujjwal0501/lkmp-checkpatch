@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 45c38973ed18 ("x86/kvm/hyper-v: enable hypercalls regardless of hypercall page") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#37: FILE: drivers/firmware/efi/efi.c:532:
++				pr_cont("%s=0x%lx ",
+
+total: 0 errors, 1 warnings, 30 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4eb8320bd1aa ("efi: Move arch_tables check to caller") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

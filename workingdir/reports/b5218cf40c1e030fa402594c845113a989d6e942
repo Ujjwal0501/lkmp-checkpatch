@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 268 lines checked
+
+Commit b5218cf40c1e ("media: hantro: h264: Use the generic H264 reflist builder") has no obvious style problems and is ready for submission.

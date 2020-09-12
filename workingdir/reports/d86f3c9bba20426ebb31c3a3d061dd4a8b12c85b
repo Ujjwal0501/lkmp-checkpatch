@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit d86f3c9bba20 ("hwmon: (pmbus) Improve initialization of 'currpage' and 'currphase'") has no obvious style problems and is ready for submission.

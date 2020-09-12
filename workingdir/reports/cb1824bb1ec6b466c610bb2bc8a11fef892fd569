@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit cb1824bb1ec6 ("drm/i915: Fix crtc nv12 etc. plane bitmasks for DPMS off") has no obvious style problems and is ready for submission.

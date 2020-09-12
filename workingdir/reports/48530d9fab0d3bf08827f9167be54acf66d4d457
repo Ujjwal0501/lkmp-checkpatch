@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 48530d9fab0d ("iommu: add generic helper for mapping sgtable objects") has no obvious style problems and is ready for submission.

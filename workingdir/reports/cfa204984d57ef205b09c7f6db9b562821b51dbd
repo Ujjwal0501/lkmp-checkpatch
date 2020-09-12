@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'supress' may be misspelled - perhaps 'suppress'?
+#13: 
+Rearrange the things there in order to supress the warnings
+
+total: 0 errors, 1 warnings, 24 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cfa204984d57 ("docs: ras: get rid of some warnings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

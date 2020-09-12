@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 03382f1aa99f ("f2fs: compress: don't handle non-compressed data in workqueue") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 102 lines checked
+
+Commit 7b97d868b7ab ("ext4, jbd2: ensure panic by fix a race between jbd2 abort and ext4 error handlers") has no obvious style problems and is ready for submission.

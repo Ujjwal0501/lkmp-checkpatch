@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 781c90c034d9 ("ALSA: hda/realtek: Enable headset mic of Acer Veriton N4660G with ALC269VC") has no obvious style problems and is ready for submission.

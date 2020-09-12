@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 25 lines checked
+
+Commit af9d2f79dcb5 ("staging: wfx: do not stop mac80211 queueing during tx_policy upload") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#352: FILE: arch/arm/boot/dts/at91sam9n12.dtsi:205:
++				clocks = <&pmc PMC_TYPE_PERIPHERAL 25>, <&pmc PMC_TYPE_SYSTEM 3>, <&clk32k>;
+
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#514: FILE: arch/arm/boot/dts/at91sam9n12.dtsi:762:
++			clocks = <&pmc PMC_TYPE_PERIPHERAL 22>, <&pmc PMC_TYPE_PERIPHERAL 22>, <&pmc PMC_TYPE_SYSTEM 6>;
+
+total: 0 errors, 2 warnings, 489 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 82a5df83e444 ("ARM: dts: at91: at91sam9n12: switch to new clock bindings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

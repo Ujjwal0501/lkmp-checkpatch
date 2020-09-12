@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit 240fe73457fb ("selftests: mlxsw: tc_restrictions: add test to check sample action restrictions") has no obvious style problems and is ready for submission.

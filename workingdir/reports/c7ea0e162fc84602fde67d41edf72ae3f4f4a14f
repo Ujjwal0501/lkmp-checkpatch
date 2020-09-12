@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 72 lines checked
+
+Commit c7ea0e162fc8 ("mlxsw: spectrum_matchall: Pass mall_entry as arg to mlxsw_sp_mall_port_sample_add()") has no obvious style problems and is ready for submission.

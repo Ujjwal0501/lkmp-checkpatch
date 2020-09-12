@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 352 lines checked
+
+Commit ae990a1de014 ("ARM: dts: renesas: Fix IOMMU device node names") has no obvious style problems and is ready for submission.

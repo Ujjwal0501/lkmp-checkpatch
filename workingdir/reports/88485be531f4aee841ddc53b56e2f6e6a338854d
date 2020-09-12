@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 81 lines checked
+
+Commit 88485be531f4 ("scs: Move scs_overflow_check() out of architecture code") has no obvious style problems and is ready for submission.

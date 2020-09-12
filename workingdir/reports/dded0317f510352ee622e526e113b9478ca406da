@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit dded0317f510 ("soc: qcom: rpmh-rsc: Don't double-check rpmh payload") has no obvious style problems and is ready for submission.

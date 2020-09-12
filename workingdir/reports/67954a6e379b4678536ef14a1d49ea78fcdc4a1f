@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 113 lines checked
+
+Commit 67954a6e379b ("RDMA/hns: Optimize SRQ buffer size calculating process") has no obvious style problems and is ready for submission.

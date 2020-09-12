@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit fa83e5d9183f ("net: dsa: sja1105: allow VLAN configuration from the bridge in all states") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 146 lines checked
+
+Commit 6b46ddb51eab ("iio: light: ltr501: Constify structs") has no obvious style problems and is ready for submission.

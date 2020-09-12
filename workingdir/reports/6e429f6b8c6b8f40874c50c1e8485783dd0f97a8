@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit 6e429f6b8c6b ("rtc: abx80x: Provide debug feedback for invalid dt properties") has no obvious style problems and is ready for submission.

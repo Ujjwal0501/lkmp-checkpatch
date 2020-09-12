@@ -1,0 +1,57 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#75: FILE: include/uapi/linux/bpf.h:1997:
++ * ^I^I**AF_INET6**). It's advised to pass zero port (**sin_port**$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#76: FILE: include/uapi/linux/bpf.h:1998:
++ * ^I^Ior **sin6_port**) which triggers IP_BIND_ADDRESS_NO_PORT-like$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#77: FILE: include/uapi/linux/bpf.h:1999:
++ * ^I^Ibehavior and lets the kernel efficiently pick up an unused$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#78: FILE: include/uapi/linux/bpf.h:2000:
++ * ^I^Iport as long as 4-tuple is unique. Passing non-zero port might$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#79: FILE: include/uapi/linux/bpf.h:2001:
++ * ^I^Ilead to degraded performance.$
+
+CHECK:MULTIPLE_ASSIGNMENTS: multiple assignments should be avoided
+#142: FILE: net/ipv4/af_inet.c:532:
++				inet->inet_saddr = inet->inet_rcv_saddr = 0;
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#183: FILE: tools/include/uapi/linux/bpf.h:1997:
++ * ^I^I**AF_INET6**). It's advised to pass zero port (**sin_port**$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#184: FILE: tools/include/uapi/linux/bpf.h:1998:
++ * ^I^Ior **sin6_port**) which triggers IP_BIND_ADDRESS_NO_PORT-like$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#185: FILE: tools/include/uapi/linux/bpf.h:1999:
++ * ^I^Ibehavior and lets the kernel efficiently pick up an unused$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#186: FILE: tools/include/uapi/linux/bpf.h:2000:
++ * ^I^Iport as long as 4-tuple is unique. Passing non-zero port might$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#187: FILE: tools/include/uapi/linux/bpf.h:2001:
++ * ^I^Ilead to degraded performance.$
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#192: 
+new file mode 100644
+
+total: 0 errors, 11 warnings, 282 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8086fbaf4934 ("bpf: Allow any port in bpf_bind helper") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

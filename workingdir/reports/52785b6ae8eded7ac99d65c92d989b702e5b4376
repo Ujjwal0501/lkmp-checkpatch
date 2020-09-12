@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 52785b6ae8ed ("kcsan: Use GFP_ATOMIC under spin lock") has no obvious style problems and is ready for submission.

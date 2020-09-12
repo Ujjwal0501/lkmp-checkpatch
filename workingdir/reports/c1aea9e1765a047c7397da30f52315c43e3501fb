@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 27 lines checked
+
+Commit c1aea9e1765a ("net/mlx5e: Fix usage of rcu-protected pointer") has no obvious style problems and is ready for submission.

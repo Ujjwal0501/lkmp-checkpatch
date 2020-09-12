@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit aa5847270a0e ("objtool: Always do header sync check") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit c7636942d278 ("net/mlx5: Rate limit page not found error messages") has no obvious style problems and is ready for submission.

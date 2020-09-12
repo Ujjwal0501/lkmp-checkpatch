@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit da92110dfdfa ("EDAC, amd64_edac: Extend scrub rate support to F15hM60h")'
+#8: 
+  da92110dfdfa ("EDAC, amd64_edac: Extend scrub rate support to F15hM60h")
+
+total: 1 errors, 0 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ee470bb25d0d ("EDAC/amd64: Read back the scrub rate PCI register on F15h") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit d61cbb859b45 ("perf report TUI: Fix segmentation fault in perf_evsel__hists_browse()") has no obvious style problems and is ready for submission.

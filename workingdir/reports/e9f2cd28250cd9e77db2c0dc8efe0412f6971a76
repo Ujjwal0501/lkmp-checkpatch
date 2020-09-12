@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit e9f2cd28250c ("RDMA/hns: Rename QP buffer related function") has no obvious style problems and is ready for submission.

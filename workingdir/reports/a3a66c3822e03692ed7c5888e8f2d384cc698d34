@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit a3a66c3822e0 ("vmalloc: fix the owner argument for the new __vmalloc_node_range callers") has no obvious style problems and is ready for submission.

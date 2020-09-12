@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit 727f514bd677 ("net: hns3: remove a duplicated printing in hclge_configure()") has no obvious style problems and is ready for submission.

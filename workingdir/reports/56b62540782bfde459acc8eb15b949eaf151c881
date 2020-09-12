@@ -1,0 +1,13 @@
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#26: FILE: Documentation/driver-api/thermal/cpu-idle-cooling.rst:1:
++================
+
+total: 0 errors, 1 warnings, 13 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 56b62540782b ("doc: thermal: add cpu-idle-cooling to index tree") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

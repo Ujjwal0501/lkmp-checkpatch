@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 618f88c4c40a ("net/mlx5: DR: Fix incorrect type in argument") has no obvious style problems and is ready for submission.

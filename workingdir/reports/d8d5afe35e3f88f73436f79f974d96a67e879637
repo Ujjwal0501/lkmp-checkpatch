@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit d8d5afe35e3f ("drm/i915: Make active_pipes check skl specific") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 15d83c4d7cef ("bpf: Allow loading of a bpf_iter program")'
+#7: 
+As per 15d83c4d7cef ("bpf: Allow loading of a bpf_iter program") we only
+
+total: 1 errors, 0 warnings, 12 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2ec0616e870f ("bpf: Fix check_return_code to only allow [0,1] in trace_iter progs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

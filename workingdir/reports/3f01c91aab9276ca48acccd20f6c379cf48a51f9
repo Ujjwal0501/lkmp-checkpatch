@@ -1,0 +1,14 @@
+WARNING:OOM_MESSAGE: Possible unnecessary 'out of memory' message
+#341: FILE: drivers/net/dsa/sja1105/sja1105_main.c:2300:
++			if (!tmp) {
++				dev_err(priv->ds->dev, "Failed to allocate memory\n");
+
+total: 0 errors, 1 warnings, 0 checks, 477 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3f01c91aab92 ("net: dsa: sja1105: implement VLAN retagging for dsa_8021q sub-VLANs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

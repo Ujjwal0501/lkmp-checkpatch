@@ -1,0 +1,17 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#24: FILE: fs/internal.h:191:
++int do_statx(int dfd, const char __user *filename, unsigned flags,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#34: FILE: fs/stat.c:570:
++int do_statx(int dfd, const char __user *filename, unsigned flags,
+
+total: 0 errors, 2 warnings, 49 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0018784fc84f ("statx: allow system call to be invoked from io_uring") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

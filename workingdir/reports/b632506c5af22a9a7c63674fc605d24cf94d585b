@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit b632506c5af2 ("ARM: dts: meson: Add the Ethernet "timing-adjustment" clock") has no obvious style problems and is ready for submission.

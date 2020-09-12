@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit e71356fe29e7 ("efi/libstub/arm64: Switch to ordinary page allocator for kernel image") has no obvious style problems and is ready for submission.

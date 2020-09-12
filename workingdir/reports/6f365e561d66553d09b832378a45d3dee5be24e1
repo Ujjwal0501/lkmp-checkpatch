@@ -1,0 +1,27 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 0a6659bdc5e8 ("drm/bochs: new driver")'
+#15: 
+commit 0a6659bdc5e8221da99eebb176fd9591435e38de
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit b1df3a2b24a9 ("drm/virtio: add drm_driver.release callback.")'
+#25: 
+commit b1df3a2b24a917f8853d43fe9683c0e360d2c33a
+
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#44: 
+Cc: Oleksandr Andrushchenko <oleksandr_andrushchenko@epam.com>
+
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#45: 
+Cc: xen-devel@lists.xenproject.org
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Daniel Vetter <daniel.vetter@ffwll.ch>'
+
+total: 2 errors, 3 warnings, 29 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6f365e561d66 ("drm: Set final_kfree in drm_dev_alloc") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

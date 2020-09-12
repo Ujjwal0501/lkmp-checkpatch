@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 84 lines checked
+
+Commit cf6b83664895 ("efi/libstub: Make initrd file loader configurable") has no obvious style problems and is ready for submission.

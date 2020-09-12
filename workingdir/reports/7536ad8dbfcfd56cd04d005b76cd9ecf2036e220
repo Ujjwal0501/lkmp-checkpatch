@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 434 lines checked
+
+Commit 7536ad8dbfcf ("firmware: fpga: replace the error codes with the standard ones") has no obvious style problems and is ready for submission.

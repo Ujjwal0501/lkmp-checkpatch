@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit ed8812973386 ("selftests: kvm: introduce cpu_has_svm() check") has no obvious style problems and is ready for submission.

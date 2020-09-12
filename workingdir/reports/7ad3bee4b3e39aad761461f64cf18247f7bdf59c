@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 7ad3bee4b3e3 ("serial: samsung: dt-bindings: Add reg-io-width compatible") has no obvious style problems and is ready for submission.

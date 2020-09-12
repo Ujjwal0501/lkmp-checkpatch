@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 58 lines checked
+
+Commit 8da2892e2783 ("block: cleanup hd_struct freeing") has no obvious style problems and is ready for submission.

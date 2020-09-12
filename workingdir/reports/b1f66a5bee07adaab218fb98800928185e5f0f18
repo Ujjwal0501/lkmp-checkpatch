@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 300 lines checked
+
+Commit b1f66a5bee07 ("net: ethernet: ti: am65-cpsw-nuss: enable packet timestamping support") has no obvious style problems and is ready for submission.

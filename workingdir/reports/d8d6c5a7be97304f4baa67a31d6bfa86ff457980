@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 200 lines checked
+
+Commit d8d6c5a7be97 ("net: qed: critical err reporting to management firmware") has no obvious style problems and is ready for submission.

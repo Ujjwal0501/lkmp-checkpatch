@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 7982471d01aa ("drm: rcar-du: Set primary plane zpos immutably at initializing") has no obvious style problems and is ready for submission.

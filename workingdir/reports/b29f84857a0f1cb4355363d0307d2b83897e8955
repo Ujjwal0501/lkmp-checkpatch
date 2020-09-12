@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit b29f84857a0f ("nvme: introduce NVME_NS_METADATA_SUPPORTED flag") has no obvious style problems and is ready for submission.

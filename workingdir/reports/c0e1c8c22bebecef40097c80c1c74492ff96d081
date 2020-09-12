@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c0e1c8c22beb ("powerpc/8xx: Provide ptep_get() with 16k pages") has no obvious style problems and is ready for submission.

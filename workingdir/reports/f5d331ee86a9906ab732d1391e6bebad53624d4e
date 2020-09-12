@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 48 lines checked
+
+Commit f5d331ee86a9 ("staging: wfx: simplify hif_handle_tx_data()") has no obvious style problems and is ready for submission.

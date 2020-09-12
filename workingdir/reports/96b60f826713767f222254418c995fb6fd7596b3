@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 272 lines checked
+
+Commit 96b60f826713 ("xfs: refactor intent item iop_recover calls") has no obvious style problems and is ready for submission.

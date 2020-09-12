@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit dee2dabc0e41 ("iio: bmp280: fix compensation of humidity") has no obvious style problems and is ready for submission.

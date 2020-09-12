@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 97 lines checked
+
+Commit 1755d10000a4 ("staging: vchi: Get rid of vchiq_status_to_vchi()") has no obvious style problems and is ready for submission.

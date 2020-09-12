@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit 5c047a699aa9 ("btrfs: get rid of endio_repair_workers") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ff532461a42a ("drm/amdgpu: bump version for invalidate L2 before SDMA IBs") has no obvious style problems and is ready for submission.

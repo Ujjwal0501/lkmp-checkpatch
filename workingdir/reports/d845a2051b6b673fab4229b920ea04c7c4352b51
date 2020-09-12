@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit d845a2051b6b ("drm/amdgpu: fix preemption unit test") has no obvious style problems and is ready for submission.

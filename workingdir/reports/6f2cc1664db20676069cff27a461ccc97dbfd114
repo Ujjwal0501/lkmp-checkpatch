@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 6f2cc1664db2 ("io_uring: fix possible race condition against REQ_F_NEED_CLEANUP") has no obvious style problems and is ready for submission.

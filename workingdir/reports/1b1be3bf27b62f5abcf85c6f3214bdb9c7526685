@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 1b1be3bf27b6 ("i2c: slave: improve sanity check when registering") has no obvious style problems and is ready for submission.

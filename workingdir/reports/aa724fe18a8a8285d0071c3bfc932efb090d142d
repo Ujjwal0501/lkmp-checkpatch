@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 161 lines checked
+
+Commit aa724fe18a8a ("ima: Switch to dynamically allocated buffer for template digests") has no obvious style problems and is ready for submission.

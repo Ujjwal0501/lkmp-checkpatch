@@ -1,0 +1,14 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#178: FILE: drivers/scsi/mpt3sas/mpt3sas_base.c:5003:
++				    ioc_err(ioc, "bad Replypost free pool(0x%p)"
++				    "reply_post_free_dma = (0x%llx)\n",
+
+total: 0 errors, 1 warnings, 244 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8012209eb26b ("scsi: mpt3sas: Handle RDPQ DMA allocation in same 4G region") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

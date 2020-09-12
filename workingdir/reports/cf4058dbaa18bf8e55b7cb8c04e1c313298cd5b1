@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 71 lines checked
+
+Commit cf4058dbaa18 ("net/mlx4_en: use napi_complete_done() in TX completion") has no obvious style problems and is ready for submission.

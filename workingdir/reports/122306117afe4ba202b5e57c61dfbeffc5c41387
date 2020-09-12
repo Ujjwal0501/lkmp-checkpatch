@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 122306117afe ("x86/elf: Split READ_IMPLIES_EXEC from executable PT_GNU_STACK") has no obvious style problems and is ready for submission.

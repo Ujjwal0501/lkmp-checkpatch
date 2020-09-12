@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 130 lines checked
+
+Commit b38d85ef49cf ("perf bpf: Decouple creating the evlist from adding the SB event") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 86 lines checked
+
+Commit f0689802850b ("mtd: rawnand: micron: Adapt the PAGE READ flow to constraint controllers") has no obvious style problems and is ready for submission.

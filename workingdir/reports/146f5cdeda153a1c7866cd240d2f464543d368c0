@@ -1,0 +1,15 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 39323c64b8a9 ("smp_mb__{before,after}_atomic(): update Documentation")'
+#9: 
+  39323c64b8a9 ("smp_mb__{before,after}_atomic(): update Documentation")
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'SeongJae Park <sj38.park@gmail.com>'
+
+total: 1 errors, 1 warnings, 21 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 146f5cdeda15 ("docs/memory-barriers.txt/kokr: smp_mb__{before,after}_atomic(): update Documentation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

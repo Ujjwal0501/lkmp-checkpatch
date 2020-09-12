@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 69 lines checked
+
+Commit 220345e98f1c ("ALSA: usb-audio: Fix OOB access of mixer element list") has no obvious style problems and is ready for submission.

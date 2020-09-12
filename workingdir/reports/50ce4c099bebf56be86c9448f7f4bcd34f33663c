@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 48 lines checked
+
+Commit 50ce4c099beb ("sctp: fix typo sctp_ulpevent_nofity_peer_addr_change") has no obvious style problems and is ready for submission.

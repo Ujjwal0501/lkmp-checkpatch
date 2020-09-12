@@ -1,0 +1,39 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#65: 
+new file mode 100644
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#72: FILE: drivers/net/ethernet/stmicro/stmmac/dwmac-imx.c:3:
++/*
++ * dwmac-imx.c - DWMAC Specific Glue layer for NXP imx8
+
+CHECK:UNNECESSARY_PARENTHESES: Unnecessary parentheses around 'plat_dat->interface == PHY_INTERFACE_MODE_RMII'
+#215: FILE: drivers/net/ethernet/stmicro/stmmac/dwmac-imx.c:146:
++	if (dwmac->ops->mac_rgmii_txclk_auto_adj ||
++	    (plat_dat->interface == PHY_INTERFACE_MODE_RMII) ||
++	    (plat_dat->interface == PHY_INTERFACE_MODE_MII))
+
+CHECK:UNNECESSARY_PARENTHESES: Unnecessary parentheses around 'plat_dat->interface == PHY_INTERFACE_MODE_MII'
+#215: FILE: drivers/net/ethernet/stmicro/stmmac/dwmac-imx.c:146:
++	if (dwmac->ops->mac_rgmii_txclk_auto_adj ||
++	    (plat_dat->interface == PHY_INTERFACE_MODE_RMII) ||
++	    (plat_dat->interface == PHY_INTERFACE_MODE_MII))
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#266: FILE: drivers/net/ethernet/stmicro/stmmac/dwmac-imx.c:197:
++		/* Binding doc describes the propety:
++		   is required by i.MX8MP.
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "nxp,imx8dxl-dwmac-eqos" appears un-documented -- check ./Documentation/devicetree/bindings/
+#366: FILE: drivers/net/ethernet/stmicro/stmmac/dwmac-imx.c:297:
++	{ .compatible = "nxp,imx8dxl-dwmac-eqos", .data = &imx8dxl_dwmac_data },
+
+total: 0 errors, 4 warnings, 2 checks, 341 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 94abdad6974a ("net: ethernet: dwmac: add ethernet glue logic for NXP imx8 chip") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

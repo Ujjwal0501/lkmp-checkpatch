@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#169: 
+new file mode 100644
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#205: FILE: tools/testing/selftests/kvm/x86_64/vmx_preemption_timer_test.c:32:
++volatile u64 l2_vmx_pt_finish;
+
+WARNING:LONG_LINE_STRING: line length of 104 exceeds 100 columns
+#378: FILE: tools/testing/selftests/kvm/x86_64/vmx_preemption_timer_test.c:205:
++			    uc.args[1] == stage, "Stage %d: Unexpected register values vmexit, got %lx",
+
+total: 0 errors, 3 warnings, 361 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8d7fbf01f9af ("KVM: selftests: VMX preemption timer migration test") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

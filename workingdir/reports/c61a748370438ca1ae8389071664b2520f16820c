@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 15 lines checked
+
+Commit c61a74837043 ("ath10k: change ATH10K_SDIO_BUS_REQUEST_MAX_NUM from 64 to 1024") has no obvious style problems and is ready for submission.

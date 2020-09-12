@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 122 lines checked
+
+Commit 741a49a4dc5f ("net/smc: do not call dma sync for unmapped memory") has no obvious style problems and is ready for submission.

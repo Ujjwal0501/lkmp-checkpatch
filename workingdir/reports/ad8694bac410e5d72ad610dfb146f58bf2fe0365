@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit ad8694bac410 ("iommu/amd: Move AMD IOMMU driver into subdirectory") has no obvious style problems and is ready for submission.

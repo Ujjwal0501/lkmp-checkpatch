@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 90 lines checked
+
+Commit 9c4168789cc6 ("net/smc: delete link processing as SMC client") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 740 lines checked
+
+Commit fdff704dc604 ("net/smc: rework pnet table to support SMC-R failover") has no obvious style problems and is ready for submission.

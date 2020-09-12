@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 54a9d85cab08 ("staging: wfx: disabling keep alive during unjoin is useless") has no obvious style problems and is ready for submission.

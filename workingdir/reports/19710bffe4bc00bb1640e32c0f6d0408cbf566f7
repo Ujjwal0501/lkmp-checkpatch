@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit 19710bffe4bc ("iio: dac: ad5761: Replace indio_dev->mlock with own device lock") has no obvious style problems and is ready for submission.

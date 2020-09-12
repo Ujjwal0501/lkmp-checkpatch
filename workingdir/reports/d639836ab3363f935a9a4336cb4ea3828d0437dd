@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'posible' may be misspelled - perhaps 'possible'?
+#12: 
+List of posible errors comes from hardware interfaces, but could be
+
+total: 0 errors, 1 warnings, 124 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d639836ab336 ("net: qed: adding hw_err states and handling") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

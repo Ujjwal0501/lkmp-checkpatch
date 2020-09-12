@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit 4c21daae3dbc ("tipc: Fix NULL pointer dereference in __tipc_sendstream()") has no obvious style problems and is ready for submission.

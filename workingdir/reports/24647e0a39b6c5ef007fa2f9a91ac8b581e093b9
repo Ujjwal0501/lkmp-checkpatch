@@ -1,0 +1,23 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'their'
+#11: 
+migration), restart timers from their their current count values at time of
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#93: FILE: arch/x86/kvm/lapic.c:1707:
++				    "kvm: vcpu %i: requested lapic timer restore with "
++				    "starting count register %#x=%u (%lld ns) > initial count (%lld ns). "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#94: FILE: arch/x86/kvm/lapic.c:1708:
++				    "starting count register %#x=%u (%lld ns) > initial count (%lld ns). "
++				    "Using initial count to start timer.\n",
+
+total: 0 errors, 3 warnings, 133 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 24647e0a39b6 ("KVM: x86: Return updated timer current count register from KVM_GET_LAPIC") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

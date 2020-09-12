@@ -1,0 +1,17 @@
+WARNING:LONG_LINE_STRING: line length of 115 exceeds 100 columns
+#42: FILE: arch/powerpc/xmon/xmon.c:916:
++			printf("Breakpoint at %lx is on the second word of a prefixed instruction, disabling it\n",
+
+WARNING:LONG_LINE_STRING: line length of 115 exceeds 100 columns
+#54: FILE: arch/powerpc/xmon/xmon.c:928:
++			printf("Breakpoint at %lx is on the second word of a prefixed instruction, disabling it\n",
+
+total: 0 errors, 2 warnings, 39 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c9c831aebd86 ("powerpc/xmon: Don't allow breakpoints on suffixes") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

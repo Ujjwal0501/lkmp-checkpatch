@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#598: FILE: drivers/gpu/drm/amd/display/dc/dce/dce_panel_cntl.c:120:
++				panel_cntl->stored_backlight_registers.LVTMA_PWRSEQ_REF_DIV_BL_PWM_REF_DIV);
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#615: FILE: drivers/gpu/drm/amd/display/dc/dce/dce_panel_cntl.c:137:
++				&panel_cntl->stored_backlight_registers.LVTMA_PWRSEQ_REF_DIV_BL_PWM_REF_DIV);
+
+total: 0 errors, 2 warnings, 1194 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3ba01817365c ("drm/amd/display: Move panel_cntl specific register from abm to panel_cntl.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

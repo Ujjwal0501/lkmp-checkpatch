@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 132 lines checked
+
+Commit b4748553f53f ("net: ethernet: mvneta: Fix Serdes configuration for SoCs without comphy") has no obvious style problems and is ready for submission.

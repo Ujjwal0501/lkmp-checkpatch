@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 5f3bce3a5275 ("mtd: rawnand: lpc32xx_mlc: Stop using nand_release()") has no obvious style problems and is ready for submission.

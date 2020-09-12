@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 94 lines checked
+
+Commit cec5f268cd02 ("x86/delay: Introduce TPAUSE delay") has no obvious style problems and is ready for submission.

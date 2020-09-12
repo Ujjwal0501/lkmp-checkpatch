@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 37 lines checked
+
+Commit 66307ca04057 ("ath11k: fix mgmt_tx_wmi cmd sent to FW for deleted vdev") has no obvious style problems and is ready for submission.

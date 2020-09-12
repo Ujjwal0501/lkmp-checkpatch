@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit f858b57f7dd2 ("pstore/ram: Adjust module param permissions to reflect reality") has no obvious style problems and is ready for submission.

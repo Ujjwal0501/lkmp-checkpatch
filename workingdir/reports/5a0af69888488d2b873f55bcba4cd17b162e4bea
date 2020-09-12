@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 234 lines checked
+
+Commit 5a0af6988848 ("staging: wfx: use ieee80211_beacon_loss() provided by mac80211") has no obvious style problems and is ready for submission.

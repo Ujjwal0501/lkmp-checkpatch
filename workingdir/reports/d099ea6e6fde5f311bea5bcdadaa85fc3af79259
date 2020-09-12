@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit d099ea6e6fde ("crypto - Avoid free() namespace collision") has no obvious style problems and is ready for submission.

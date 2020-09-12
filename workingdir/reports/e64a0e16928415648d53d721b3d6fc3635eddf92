@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit e64a0e169284 ("block: remove RQF_COPY_USER") has no obvious style problems and is ready for submission.

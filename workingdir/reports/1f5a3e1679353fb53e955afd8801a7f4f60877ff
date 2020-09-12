@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 45 lines checked
+
+Commit 1f5a3e167935 ("arm64: dts: rockchip: add micro SD card regulator to rockpro64") has no obvious style problems and is ready for submission.

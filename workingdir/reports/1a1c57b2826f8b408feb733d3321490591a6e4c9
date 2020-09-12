@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit 1a1c57b2826f ("xfs: remove the special COW fork handling in xfs_bmapi_read") has no obvious style problems and is ready for submission.

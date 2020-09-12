@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit da722186f654 ("net: fec: set GPR bit on suspend by DT configuration.")'
+#6: 
+The commit da722186f654 (net: fec: set GPR bit on suspend by DT
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit da722186f654 ("net: fec: set GPR bit on suspend by DT configuration.")'
+#17: 
+So the patch is to improve the commit da722186f654 (net: fec: set GPR
+
+total: 2 errors, 0 warnings, 0 checks, 62 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8a448bf832af ("net: ethernet: fec: move GPR register offset and bit into DT") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

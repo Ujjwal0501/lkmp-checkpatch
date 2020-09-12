@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 113 lines checked
+
+Commit 5cc58a9ecfa1 ("mac80211_hwsim: notify wmediumd of used MAC addresses") has no obvious style problems and is ready for submission.

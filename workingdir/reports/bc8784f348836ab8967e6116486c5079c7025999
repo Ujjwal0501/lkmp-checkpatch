@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit bc8784f34883 ("iommu/sun50i: Change the readl timeout to the atomic variant") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 21 lines checked
+
+Commit 9dc829a135fb ("drivers/net/wan/lapbether: Fixed the value of hard_header_len") has no obvious style problems and is ready for submission.

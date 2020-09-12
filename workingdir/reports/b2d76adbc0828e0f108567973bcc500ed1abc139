@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b2d76adbc082 ("block: use __this_cpu_add() instead of access by smp_processor_id()") has no obvious style problems and is ready for submission.

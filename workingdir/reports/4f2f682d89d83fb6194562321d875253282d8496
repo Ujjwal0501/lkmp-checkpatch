@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_STRING: line length of 115 exceeds 100 columns
+#132: FILE: tools/testing/selftests/sysctl/sysctl.sh:792:
++	echo "To perform this test, make sure kernel is booted with parameter: sysctl.debug.test_sysctl.boot_int=1"
+
+total: 0 errors, 1 warnings, 91 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4f2f682d89d8 ("lib/test_sysctl: support testing of sysctl. boot parameter") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

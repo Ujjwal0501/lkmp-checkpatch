@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit cdcb07e45a91 ("ARM: 8975/1: module: fix handling of unwind init sections") has no obvious style problems and is ready for submission.

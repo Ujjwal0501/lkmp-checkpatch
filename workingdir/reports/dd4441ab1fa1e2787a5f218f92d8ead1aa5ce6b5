@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit dd4441ab1fa1 ("spi: bcm2835: Fix error return code in bcm2835_dma_init()") has no obvious style problems and is ready for submission.

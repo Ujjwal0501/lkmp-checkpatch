@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 646d4b507626 ("scsi: core: Remove 'list' entry from struct scsi_cmnd") has no obvious style problems and is ready for submission.

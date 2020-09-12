@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 74 lines checked
+
+Commit fb33d2772725 ("net/smc: map and register buffers for a new link") has no obvious style problems and is ready for submission.

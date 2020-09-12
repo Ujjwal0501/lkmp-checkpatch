@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 74 lines checked
+
+Commit ddae1423bc2d ("genwqe: convert get_user_pages() --> pin_user_pages()") has no obvious style problems and is ready for submission.

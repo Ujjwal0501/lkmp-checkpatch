@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 18 lines checked
+
+Commit 8d8a1424a03e ("staging: qlge: Fix function argument alignment warning in ql_init_device") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 82 lines checked
+
+Commit 7d4e39195925 ("esp, ah: consolidate the crypto algorithm selections") has no obvious style problems and is ready for submission.

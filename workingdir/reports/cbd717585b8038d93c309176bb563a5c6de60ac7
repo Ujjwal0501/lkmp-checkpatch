@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 114 lines checked
+
+Commit cbd717585b80 ("KVM: x86/pmu: Tweak kvm_pmu_get_msr to pass 'struct msr_data' in") has no obvious style problems and is ready for submission.

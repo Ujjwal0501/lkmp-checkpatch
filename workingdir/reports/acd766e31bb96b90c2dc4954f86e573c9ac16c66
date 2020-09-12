@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 69 lines checked
+
+Commit acd766e31bb9 ("netfilter: nft_nat: add helper function to set up NAT address and protocol") has no obvious style problems and is ready for submission.

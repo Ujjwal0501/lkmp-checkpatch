@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ae7d292324b4 ("iommu/sun50i: Fix return value check in sun50i_iommu_probe()") has no obvious style problems and is ready for submission.

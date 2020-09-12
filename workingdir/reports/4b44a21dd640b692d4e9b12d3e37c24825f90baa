@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 349 lines checked
+
+Commit 4b44a21dd640 ("irq_work, smp: Allow irq_work on call_single_queue") has no obvious style problems and is ready for submission.

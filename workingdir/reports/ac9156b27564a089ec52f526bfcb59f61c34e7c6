@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit ac9156b27564 ("igc: Fix default MAC address filter override") has no obvious style problems and is ready for submission.

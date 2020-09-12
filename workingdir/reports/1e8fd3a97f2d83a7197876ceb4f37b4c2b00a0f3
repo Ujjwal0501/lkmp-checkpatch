@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 1e8fd3a97f2d ("nfc: s3fwrn5: add missing release on skb in s3fwrn5_recv_frame") has no obvious style problems and is ready for submission.

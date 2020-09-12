@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit 207e4a71fb53 ("drm/i915: Use explicit flag to mark unreachable intel_context") has no obvious style problems and is ready for submission.

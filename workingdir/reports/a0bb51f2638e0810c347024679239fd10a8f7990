@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit a0bb51f2638e ("x86/xen: Split HVM vector callback setup and interrupt gate allocation") has no obvious style problems and is ready for submission.

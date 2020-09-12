@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit db6b8cc8912a ("perf trace: Remove union from syscalltbl, all the fields are needed") has no obvious style problems and is ready for submission.

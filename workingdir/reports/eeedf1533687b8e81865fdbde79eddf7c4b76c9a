@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#47: FILE: arch/x86/kernel/fpu/xstate.c:65:
++static unsigned int xstate_supervisor_only_offsets[XFEATURE_MAX] = { [ 0 ... XFEATURE_MAX - 1] = -1};
+
+ERROR:SPACING: space prohibited after that open square bracket '['
+#47: FILE: arch/x86/kernel/fpu/xstate.c:65:
++static unsigned int xstate_supervisor_only_offsets[XFEATURE_MAX] = { [ 0 ... XFEATURE_MAX - 1] = -1};
+
+total: 1 errors, 1 warnings, 115 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit eeedf1533687 ("x86/fpu: Introduce copy_supervisor_to_kernel()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

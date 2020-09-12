@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit aec459b484b8 ("nvme: remove the magic 1024 constant in nvme_scan_ns_list") has no obvious style problems and is ready for submission.

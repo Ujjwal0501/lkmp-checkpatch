@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit cc31d53f82d7 ("net: ipa: remove duplicated include from ipa_mem.c") has no obvious style problems and is ready for submission.

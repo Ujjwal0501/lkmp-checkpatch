@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 39a188b88332 ("cpufreq: intel_pstate: Fix active mode setting from command line") has no obvious style problems and is ready for submission.

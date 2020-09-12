@@ -1,0 +1,14 @@
+WARNING:UNNECESSARY_ELSE: else is not generally useful after a break or return
+#107: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1730:
++		return;
++	} else {
+
+total: 0 errors, 1 warnings, 130 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 63731e73dae4 ("drm/amd/display: Defer cursor lock until after VUPDATE") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

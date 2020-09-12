@@ -1,0 +1,24 @@
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#154: FILE: arch/x86/kvm/vmx/vmx.c:4554:
++        * An IRQ must not be injected into L2 if it's supposed to VM-Exit,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#155: FILE: arch/x86/kvm/vmx/vmx.c:4555:
++        * e.g. if the IRQ arrived asynchronously after checking nested events.$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#156: FILE: arch/x86/kvm/vmx/vmx.c:4556:
++        */$
+
+total: 3 errors, 0 warnings, 189 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit c300ab9f08df ("KVM: x86: Replace late check_nested_events() hack with more precise fix") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

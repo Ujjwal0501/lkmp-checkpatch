@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 140 lines checked
+
+Commit f8603267bf85 ("perf machine: Remove the indent in resolve_lbr_callchain_sample") has no obvious style problems and is ready for submission.

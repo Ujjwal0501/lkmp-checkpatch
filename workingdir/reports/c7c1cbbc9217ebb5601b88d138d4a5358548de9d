@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit c7c1cbbc9217 ("clk: ti: composite: fix memory leak") has no obvious style problems and is ready for submission.

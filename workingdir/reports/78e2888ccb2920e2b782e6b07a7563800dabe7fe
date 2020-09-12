@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 44 lines checked
+
+Commit 78e2888ccb29 ("media: atomisp: atomisp_csi2.c: remove useless ifdefs") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit a892cb6b977f ("mm/vmscan.c: use update_lru_size() in update_lru_sizes()") has no obvious style problems and is ready for submission.

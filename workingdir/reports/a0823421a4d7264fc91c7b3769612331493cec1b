@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit a0823421a4d7 ("blk-mq: Rerun dispatching in the case of budget contention") has no obvious style problems and is ready for submission.

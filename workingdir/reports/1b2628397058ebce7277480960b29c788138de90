@@ -1,0 +1,17 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#60: FILE: block/Kconfig:189:
++config BLK_INLINE_ENCRYPTION
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#80: 
+new file mode 100644
+
+total: 0 errors, 2 warnings, 571 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1b2628397058 ("block: Keyslot Manager for Inline Encryption") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

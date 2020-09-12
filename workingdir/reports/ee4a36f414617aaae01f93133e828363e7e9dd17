@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit ee4a36f41461 ("bcache: use delayed kworker fo asynchronous devices registration") has no obvious style problems and is ready for submission.

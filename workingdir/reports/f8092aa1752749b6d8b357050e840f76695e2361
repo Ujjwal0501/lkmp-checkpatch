@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 88 lines checked
+
+Commit f8092aa17527 ("staging: media: ipu3: use vmap instead of reimplementing it") has no obvious style problems and is ready for submission.

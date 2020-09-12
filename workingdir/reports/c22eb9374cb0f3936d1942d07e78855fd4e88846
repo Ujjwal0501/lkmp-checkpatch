@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit c22eb9374cb0 ("sierra-ms: do not call scsi_get_host_dev()") has no obvious style problems and is ready for submission.

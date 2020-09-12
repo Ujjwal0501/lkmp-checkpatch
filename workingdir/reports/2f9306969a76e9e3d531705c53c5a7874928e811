@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 2f9306969a76 ("ARM: dts: stm32: add sd-uhs properties in SD-card node for stm32mp157c-ed1") has no obvious style problems and is ready for submission.

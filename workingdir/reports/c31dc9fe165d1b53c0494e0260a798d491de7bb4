@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 596 lines checked
+
+Commit c31dc9fe165d ("crypto: hisilicon/qm - add DebugFS for xQC and xQE dump") has no obvious style problems and is ready for submission.

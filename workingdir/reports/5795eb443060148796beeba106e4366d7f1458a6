@@ -1,0 +1,20 @@
+WARNING:BAD_SIGN_OFF: Co-developed-by and Signed-off-by: name/email do not match 
+#39: 
+Co-developed-by: Damien Le Moal <Damien.LeMoal@wdc.com>
+Signed-off-by: Johannes Thumshirn <johannes.thumshirn@wdc.com>
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#149: FILE: drivers/scsi/sd.h:228:
++^I^I^I^I        unsigned int nr_blocks);$
+
+total: 1 errors, 1 warnings, 563 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 5795eb443060 ("scsi: sd_zbc: emulate ZONE_APPEND commands") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,17 @@
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#68: FILE: drivers/video/fbdev/controlfb.c:75:
++	mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#71: FILE: drivers/video/fbdev/controlfb.c:78:
++	mb();
+
+total: 0 errors, 2 warnings, 79 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a07a63b0e24d ("video: fbdev: controlfb: add COMPILE_TEST support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

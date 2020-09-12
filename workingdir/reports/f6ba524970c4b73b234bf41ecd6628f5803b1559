@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit f6ba524970c4 ("platform/x86: intel-vbtn: Split keymap into buttons and switches parts") has no obvious style problems and is ready for submission.

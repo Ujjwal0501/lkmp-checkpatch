@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit 28fe1d7bf89f ("objtool: use gelf_getsymshndx to handle >64k sections") has no obvious style problems and is ready for submission.

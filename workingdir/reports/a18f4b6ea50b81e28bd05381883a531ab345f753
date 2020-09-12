@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#22: 
+ .../pci/controller/{pcie-rcar.c => pcie-rcar-host.c}   |  0
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#39: FILE: drivers/pci/controller/Kconfig:66:
++config PCIE_RCAR_HOST
+
+total: 0 errors, 2 warnings, 26 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a18f4b6ea50b ("PCI: rcar: Rename pcie-rcar.c to pcie-rcar-host.c") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

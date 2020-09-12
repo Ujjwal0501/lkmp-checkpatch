@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit fce3a51d9b31 ("drm/tegra: Add zpos property for cursor planes") has no obvious style problems and is ready for submission.

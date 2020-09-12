@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 452 lines checked
+
+Commit a3ac249a1ab5 ("cxgb4/chcr: Enable ktls settings at run time") has no obvious style problems and is ready for submission.

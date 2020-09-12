@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit fed79fd78340 ("afs: Fix debugging statements with %px to be %p") has no obvious style problems and is ready for submission.

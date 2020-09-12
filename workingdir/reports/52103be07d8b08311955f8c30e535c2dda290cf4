@@ -1,0 +1,16 @@
+WARNING:BRACES: braces {} are not necessary for any arm of this statement
+#51: FILE: kernel/smp.c:248:
++			if (prev) {
+[...]
++			} else {
+[...]
+
+total: 0 errors, 1 warnings, 52 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 52103be07d8b ("smp: Optimize flush_smp_call_function_queue()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

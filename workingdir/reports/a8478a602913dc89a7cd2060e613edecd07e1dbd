@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 118 lines checked
+
+Commit a8478a602913 ("smack: Implement the watch_key and post_notification hooks") has no obvious style problems and is ready for submission.

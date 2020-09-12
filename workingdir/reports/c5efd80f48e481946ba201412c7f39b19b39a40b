@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit c5efd80f48e4 ("drm/amdgpu: define the TMZ bit for the PTE") has no obvious style problems and is ready for submission.

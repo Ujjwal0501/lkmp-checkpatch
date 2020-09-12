@@ -1,0 +1,27 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#21: 
+ orphan_mask 1023 quantum 10Kb initial_quantum 51160b low_rate_threshold 550Kbit
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#115: FILE: net/sched/sch_fq.c:437:
++static bool fq_packet_beyond_horizon(const struct sk_buff *skb,
++				    const struct fq_sched_data *q)
+
+CHECK:MULTIPLE_ASSIGNMENTS: multiple assignments should be avoided
+#157: FILE: net/sched/sch_fq.c:545:
++	q->ktime_cache = now = ktime_get_ns();
+
+CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+#182: FILE: net/sched/sch_fq.c:897:
+ 	if (!err) {
++
+
+total: 0 errors, 1 warnings, 3 checks, 167 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 39d010504e6b ("net_sched: sch_fq: add horizon attribute") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

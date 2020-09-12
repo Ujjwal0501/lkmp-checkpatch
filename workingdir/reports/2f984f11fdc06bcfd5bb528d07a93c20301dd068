@@ -1,0 +1,29 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#37: FILE: net/ipv4/ip_sockglue.c:1296:
++		    copy_from_user(&greq.gr_group, &gr32->gr_group,
++				sizeof(greq.gr_group)))
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#78: FILE: net/ipv6/ipv6_sockglue.c:989:
++		    copy_from_user(&greq.gr_group, &gr32->gr_group,
++				sizeof(greq.gr_group)))
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#88: FILE: net/ipv6/ipv6_sockglue.c:999:
++			err = ipv6_sock_mc_join(sk, greq.gr_interface,
++						 &psin6->sin6_addr);
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#91: FILE: net/ipv6/ipv6_sockglue.c:1002:
++			err = ipv6_sock_mc_drop(sk, greq.gr_interface,
++						 &psin6->sin6_addr);
+
+total: 0 errors, 0 warnings, 4 checks, 71 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2f984f11fdc0 ("ipv[46]: do compat setsockopt for MCAST_{JOIN,LEAVE}_GROUP directly") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

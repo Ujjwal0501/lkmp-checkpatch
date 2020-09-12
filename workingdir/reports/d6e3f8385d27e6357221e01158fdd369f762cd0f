@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit d6e3f8385d27 ("KVM: nVMX: Invalidate all roots when emulating INVVPID without EPT") has no obvious style problems and is ready for submission.

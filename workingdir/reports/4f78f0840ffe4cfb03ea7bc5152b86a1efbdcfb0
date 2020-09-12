@@ -1,0 +1,13 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#10: 
+	ov2680 i2c-OVTI2680:00: ov2680_i2c_write: i2c write reg=0x3086, value 0x00, error -121
+
+total: 0 errors, 1 warnings, 0 checks, 360 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4f78f0840ffe ("media: atomisp: use read/write routines from mainstream") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

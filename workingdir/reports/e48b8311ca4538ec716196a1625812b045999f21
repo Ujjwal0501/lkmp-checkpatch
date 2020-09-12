@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 132 lines checked
+
+Commit e48b8311ca45 ("perf machine: Refine the function for LBR call stack reconstruction") has no obvious style problems and is ready for submission.

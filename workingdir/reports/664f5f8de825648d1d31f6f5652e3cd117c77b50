@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 49 lines checked
+
+Commit 664f5f8de825 ("s390/seccomp: pass syscall arguments via seccomp_data") has no obvious style problems and is ready for submission.

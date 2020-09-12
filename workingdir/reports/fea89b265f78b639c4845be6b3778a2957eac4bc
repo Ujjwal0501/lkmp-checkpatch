@@ -1,0 +1,21 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 81b604c39997 ("dt-bindings: timer: renesas, cmt: Update CMT1 on sh73a0 and r8a7740")'
+#11: 
+  - 81b604c39997de91 ("dt-bindings: timer: renesas, cmt: Update CMT1 on
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 8c1afba285a8 ("clocksource/drivers/sh_cmt: r8a7740 and sh73a0 SoC-specific match")'
+#13: 
+  - 8c1afba285a86b9d ("clocksource/drivers/sh_cmt: r8a7740 and sh73a0
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 19d608458f4f ("clocksource/drivers/sh_cmt: Document "cmt-48" as deprecated")'
+#15: 
+  - 19d608458f4f3bb3 ("clocksource/drivers/sh_cmt: Document "cmt-48" as
+
+total: 3 errors, 0 warnings, 16 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fea89b265f78 ("ARM: dts: shmobile: Update CMT1 compatible values") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

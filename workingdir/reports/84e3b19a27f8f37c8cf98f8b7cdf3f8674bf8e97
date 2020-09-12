@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 154 lines checked
+
+Commit 84e3b19a27f8 ("IB/hfi1: Remove module parameter for KDETH qpns") has no obvious style problems and is ready for submission.

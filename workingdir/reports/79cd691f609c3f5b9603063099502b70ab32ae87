@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 79cd691f609c ("crypto: stm32/hash - don't print error on probe deferral") has no obvious style problems and is ready for submission.

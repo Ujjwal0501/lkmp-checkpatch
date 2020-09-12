@@ -1,0 +1,14 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments should align the * on each line
+#114: FILE: arch/x86/kvm/svm/svm.c:2010:
++		 * STGI) to detect an open interrupt window.
++		*/
+
+total: 0 errors, 1 warnings, 124 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ffdf7f9e80ac ("KVM: nSVM: extract svm_set_gif") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

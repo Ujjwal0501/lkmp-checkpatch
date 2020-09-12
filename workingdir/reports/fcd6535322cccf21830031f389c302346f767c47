@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit fcd6535322cc ("arm64/cpufeature: Add remaining feature bits in ID_MMFR4 register") has no obvious style problems and is ready for submission.

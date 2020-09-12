@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit f794db6841e5 ("virt: vbox: Fix VBGL_IOCTL_VMMDEV_REQUEST_BIG and _LOG req numbers to match upstream") has no obvious style problems and is ready for submission.

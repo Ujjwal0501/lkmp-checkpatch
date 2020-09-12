@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 75947e39f3d9 ("drm/i915/dp: Add debugfs entry for DP phy compliance") has no obvious style problems and is ready for submission.

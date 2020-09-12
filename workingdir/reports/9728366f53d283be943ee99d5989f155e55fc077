@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 44 lines checked
+
+Commit 9728366f53d2 ("net/mlx5e: Use change upper event to setup representors' bond_metadata") has no obvious style problems and is ready for submission.

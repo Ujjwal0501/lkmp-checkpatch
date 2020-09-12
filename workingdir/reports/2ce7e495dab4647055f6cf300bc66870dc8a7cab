@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 2ce7e495dab4 ("clk: zynqmp: Update fraction clock check from custom type flags") has no obvious style problems and is ready for submission.

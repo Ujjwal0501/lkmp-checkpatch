@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 3da1a4e32870 ("iwlwifi: use longer queues for 256-BA") has no obvious style problems and is ready for submission.

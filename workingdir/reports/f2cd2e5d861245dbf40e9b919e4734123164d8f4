@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit f2cd2e5d8612 ("drm/amd/display: Set meta_chunk_value to 0 in DML if DCC disabled in DCN2.1") has no obvious style problems and is ready for submission.

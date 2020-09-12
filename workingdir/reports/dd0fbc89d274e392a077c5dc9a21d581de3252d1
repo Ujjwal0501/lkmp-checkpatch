@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 77 lines checked
+
+Commit dd0fbc89d274 ("mlxsw: spectrum_matchall: Push per-port rule add/del into separate functions") has no obvious style problems and is ready for submission.

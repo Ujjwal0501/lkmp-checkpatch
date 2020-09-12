@@ -1,0 +1,41 @@
+WARNING:BAD_SIGN_OFF: 'Reviewed-by:' is the preferred signature form
+#11: 
+Reviewed-By: Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#33: FILE: sound/soc/soc-dai.c:18:
++	case -ENOTSUPP:
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#127: FILE: sound/soc/soc-dai.c:129:
++	int ret = -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#140: FILE: sound/soc/soc-dai.c:189:
++	int ret = -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#162: FILE: sound/soc/soc-dai.c:223:
++	int ret = -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#179: FILE: sound/soc/soc-dai.c:246:
++	int ret = -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#212: FILE: sound/soc/soc-dai.c:284:
++	int ret = -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#320: FILE: sound/soc/soc-dai.c:410:
++	int ret = -ENOTSUPP;
+
+total: 0 errors, 8 warnings, 289 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit aa7b8230d4c3 ("ASoC: soc-dai: add soc_dai_err()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

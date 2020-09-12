@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 78a6fb42f67c ("brcmfmac: remove Comparison to bool in brcmf_p2p_send_action_frame()") has no obvious style problems and is ready for submission.

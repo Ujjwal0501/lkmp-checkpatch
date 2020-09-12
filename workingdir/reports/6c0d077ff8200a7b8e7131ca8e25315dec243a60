@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 6c0d077ff820 ("fs/ext4: Disallow verity if inode is DAX") has no obvious style problems and is ready for submission.

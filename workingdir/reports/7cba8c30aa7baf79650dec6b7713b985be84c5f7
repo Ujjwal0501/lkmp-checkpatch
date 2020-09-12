@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 43 lines checked
+
+Commit 7cba8c30aa7b ("mt76: mt7615: do not report scan_complete twice to mac80211") has no obvious style problems and is ready for submission.

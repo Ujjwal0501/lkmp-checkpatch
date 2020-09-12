@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 8a1b25fe3ce4 ("mm: simplify find_min_pfn_with_active_regions()") has no obvious style problems and is ready for submission.

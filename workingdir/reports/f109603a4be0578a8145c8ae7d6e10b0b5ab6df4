@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 36 lines checked
+
+Commit f109603a4be0 ("ice: allow host to clear administratively set VF MAC") has no obvious style problems and is ready for submission.

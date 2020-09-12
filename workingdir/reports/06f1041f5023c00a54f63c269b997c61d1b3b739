@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 06f1041f5023 ("thermal: Move get_thermal_instance to the internal header") has no obvious style problems and is ready for submission.

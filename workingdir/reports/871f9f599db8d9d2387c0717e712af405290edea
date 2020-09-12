@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit 871f9f599db8 ("perf expr: Add expr_scanner_ctx object") has no obvious style problems and is ready for submission.

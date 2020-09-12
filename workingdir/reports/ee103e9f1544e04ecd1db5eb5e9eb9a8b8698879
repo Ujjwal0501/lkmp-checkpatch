@@ -1,0 +1,22 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#26: 
+new file mode 100644
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'test_skb_helpers', this function's name, in a string
+#53: FILE: tools/testing/selftests/bpf/prog_tests/skb_helpers.c:23:
++	err = bpf_prog_load("./test_skb_helpers.o", BPF_PROG_TYPE_SCHED_CLS, &obj,
+
+ERROR:SPACING: space prohibited before that ',' (ctx:WxW)
+#91: FILE: tools/testing/selftests/bpf/progs/test_skb_helpers.c:25:
++	bpf_probe_read_kernel(&tpid , sizeof(tpid), &task->tgid);
+ 	                            ^
+
+total: 1 errors, 2 warnings, 58 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ee103e9f1544 ("bpf, selftests: Test probe_* helpers from SCHED_CLS") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

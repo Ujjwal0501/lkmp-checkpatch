@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#109: FILE: drivers/gpu/drm/amd/display/dc/dce/dmub_psr.c:227:
++	copy_settings_data->debug.visual_confirm		= dc->dc->debug.visual_confirm == VISUAL_CONFIRM_PSR ?
+
+total: 0 errors, 1 warnings, 94 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bccbf13dadbe ("drm/amd/display: Various fixes for PSR on DMCUB") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

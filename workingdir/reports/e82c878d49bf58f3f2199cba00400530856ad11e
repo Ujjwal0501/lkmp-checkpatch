@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit e82c878d49bf ("MIPS: Kill MIPS_GIC_IRQ_BASE") has no obvious style problems and is ready for submission.

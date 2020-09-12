@@ -1,0 +1,53 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#12: 
+    bpf_skb_adjust_room(skb, -encap_len, BPF_ADJ_ROOM_MAC, BPF_F_ADJ_ROOM_FIXED_GSO)
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#99: FILE: include/uapi/linux/bpf.h:1638:
++ * ^I^IBy default, the helper will reset any offloaded checksum$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#100: FILE: include/uapi/linux/bpf.h:1639:
++ * ^I^Iindicator of the skb to CHECKSUM_NONE. This can be avoided$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#101: FILE: include/uapi/linux/bpf.h:1640:
++ * ^I^Iby the following flag:$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#103: FILE: include/uapi/linux/bpf.h:1642:
++ * ^I^I* **BPF_F_ADJ_ROOM_NO_CSUM_RESET**: Do not reset offloaded$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#104: FILE: include/uapi/linux/bpf.h:1643:
++ * ^I^I  checksum data of the skb to CHECKSUM_NONE.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#158: FILE: tools/include/uapi/linux/bpf.h:1638:
++ * ^I^IBy default, the helper will reset any offloaded checksum$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#159: FILE: tools/include/uapi/linux/bpf.h:1639:
++ * ^I^Iindicator of the skb to CHECKSUM_NONE. This can be avoided$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#160: FILE: tools/include/uapi/linux/bpf.h:1640:
++ * ^I^Iby the following flag:$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#162: FILE: tools/include/uapi/linux/bpf.h:1642:
++ * ^I^I* **BPF_F_ADJ_ROOM_NO_CSUM_RESET**: Do not reset offloaded$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#163: FILE: tools/include/uapi/linux/bpf.h:1643:
++ * ^I^I  checksum data of the skb to CHECKSUM_NONE.$
+
+total: 0 errors, 11 warnings, 80 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 836e66c218f3 ("bpf: Fix up bpf_skb_adjust_room helper's skb csum setting") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

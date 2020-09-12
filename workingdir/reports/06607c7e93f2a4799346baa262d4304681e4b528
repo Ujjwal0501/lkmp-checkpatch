@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 06607c7e93f2 ("arm64: entry: Refactor and modernise annotation for ret_to_user") has no obvious style problems and is ready for submission.

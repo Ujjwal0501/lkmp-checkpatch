@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit f9b16ec0eeb7 ("bpf: Selftests, verifier case for non null pointer map value branch") has no obvious style problems and is ready for submission.

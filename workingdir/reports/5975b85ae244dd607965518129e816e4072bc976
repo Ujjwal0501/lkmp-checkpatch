@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 5975b85ae244 ("staging: mt7621-pinctrl: Use correct pointer type argument for sizeof") has no obvious style problems and is ready for submission.

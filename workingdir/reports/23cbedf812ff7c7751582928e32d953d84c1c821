@@ -1,0 +1,28 @@
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#57: FILE: drivers/tty/sysrq.c:523:
++        const struct sysrq_key_op *op_p = NULL;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#57: FILE: drivers/tty/sysrq.c:523:
++        const struct sysrq_key_op *op_p = NULL;$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#86: FILE: drivers/tty/sysrq.c:1067:
++                                const struct sysrq_key_op *remove_op_p)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#86: FILE: drivers/tty/sysrq.c:1067:
++                                const struct sysrq_key_op *remove_op_p)$
+
+total: 2 errors, 2 warnings, 108 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 23cbedf812ff ("tty/sysrq: constify the sysrq API") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

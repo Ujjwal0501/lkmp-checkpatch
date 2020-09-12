@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit be809e1274eb ("ext4: clean up ext4_ext_convert_to_initialized() error handling") has no obvious style problems and is ready for submission.

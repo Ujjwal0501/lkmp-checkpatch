@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit 71581eefd7a0 ("x86/fpu/xstate: Introduce XSAVES supervisor states") has no obvious style problems and is ready for submission.

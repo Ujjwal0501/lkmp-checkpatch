@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 7d4eedb03fc7 ("drm/msm/dpu: dpu_setup_dspp_pcc() can be static") has no obvious style problems and is ready for submission.

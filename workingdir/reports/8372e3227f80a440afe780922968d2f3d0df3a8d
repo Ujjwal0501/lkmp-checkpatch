@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 137 lines checked
+
+Commit 8372e3227f80 ("drm/i915/icl: Fix timeout handling during TypeC AUX power well enabling") has no obvious style problems and is ready for submission.

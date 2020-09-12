@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 176 lines checked
+
+Commit 714c88a38bce ("net/mlx5e: Split TX acceleration offloads into two phases") has no obvious style problems and is ready for submission.

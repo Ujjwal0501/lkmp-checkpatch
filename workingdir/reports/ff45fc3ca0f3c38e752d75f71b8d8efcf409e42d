@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 45 lines checked
+
+Commit ff45fc3ca0f3 ("mm: simplify calling a compound page destructor") has no obvious style problems and is ready for submission.

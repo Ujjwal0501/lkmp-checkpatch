@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 137 lines checked
+
+Commit 336ba09f2ef7 ("net/smc: first part of add link processing as SMC client") has no obvious style problems and is ready for submission.

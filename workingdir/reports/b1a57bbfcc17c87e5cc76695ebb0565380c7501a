@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 84 lines checked
+
+Commit b1a57bbfcc17 ("kgdb: Delay "kgdbwait" to dbg_late_init() by default") has no obvious style problems and is ready for submission.

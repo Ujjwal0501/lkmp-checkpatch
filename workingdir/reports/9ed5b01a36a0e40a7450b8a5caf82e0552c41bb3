@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 9ed5b01a36a0 ("x86/amd_gart: print stacktrace for a leak with KERN_ERR") has no obvious style problems and is ready for submission.

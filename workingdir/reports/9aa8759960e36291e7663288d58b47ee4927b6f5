@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 9aa8759960e3 ("mfd: Constify properties in mfd_cell") has no obvious style problems and is ready for submission.

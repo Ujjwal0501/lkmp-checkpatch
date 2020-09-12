@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#83: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:722:
++		err = ia_css_binary_get_shading_info_type_1(binary, required_bds_factor, stream_config,
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#150: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9938:
++				pipe_info->output_system_in_res_info = curr_pipe->config.output_system_in_res;
+
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#161: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9943:
++									   &pipe_info->shading_info, NULL);
+
+WARNING:LONG_LINE: line length of 121 exceeds 100 columns
+#164: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9946:
++									   &pipe_info->shading_info, &curr_pipe->config);
+
+total: 0 errors, 4 warnings, 0 checks, 127 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c06e212da091 ("media: atomisp: ia_css_binary_get_shading_info(): don't test version") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

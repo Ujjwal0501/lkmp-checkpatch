@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 123 lines checked
+
+Commit 5cab3ff2489e ("soundwire: bus: rename sdw_bus_master_add/delete, add arguments") has no obvious style problems and is ready for submission.

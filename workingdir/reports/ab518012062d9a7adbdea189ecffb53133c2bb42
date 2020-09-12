@@ -1,0 +1,21 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#187: FILE: drivers/gpu/drm/amd/amdgpu/navi10_ih.c:317:
++		BUG();
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#204: FILE: drivers/gpu/drm/amd/amdgpu/navi10_ih.c:341:
++		BUG();
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#247: FILE: drivers/gpu/drm/amd/amdgpu/navi10_ih.c:475:
++	default: break;
+
+total: 1 errors, 2 warnings, 282 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ab518012062d ("drm/amdgpu: enable IH ring 1 and ring 2 for navi") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

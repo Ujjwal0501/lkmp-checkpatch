@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 390 lines checked
+
+Commit 6a5f6592a0b6 ("SMB311: Add support for query info using posix extensions (level 100)") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 35 lines checked
+
+Commit 82a0aa53b520 ("net_sched: sch_fq: use bulk freeing in fq_gc()") has no obvious style problems and is ready for submission.

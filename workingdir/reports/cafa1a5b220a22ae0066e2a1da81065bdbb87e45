@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit cafa1a5b220a ("w1: ds2430: fix eeprom size in driver description") has no obvious style problems and is ready for submission.

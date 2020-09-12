@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit d163a95cf001 ("fbdev: aty: use true, false for bool variables in atyfb_base.c") has no obvious style problems and is ready for submission.

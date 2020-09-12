@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#39: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_hwseq.c:1376:
++			(context == dc->current_state && plane_state->update_flags.bits.position_change) ||
+
+total: 0 errors, 1 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b34659deb66b ("drm/amd/display: Program viewport when source pos changes for DCN20 hw seq") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

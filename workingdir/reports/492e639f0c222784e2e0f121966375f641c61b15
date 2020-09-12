@@ -1,0 +1,137 @@
+WARNING:LONG_LINE_COMMENT: line length of 104 exceeds 100 columns
+#59: FILE: include/uapi/linux/bpf.h:3081:
++ * int bpf_seq_printf(struct seq_file *m, const char *fmt, u32 fmt_size, const void *data, u32 data_len)
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#60: FILE: include/uapi/linux/bpf.h:3082:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#61: FILE: include/uapi/linux/bpf.h:3083:
++ * ^I^Iseq_printf uses seq_file seq_printf() to print out the format string.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#62: FILE: include/uapi/linux/bpf.h:3084:
++ * ^I^IThe *m* represents the seq_file. The *fmt* and *fmt_size* are for$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#63: FILE: include/uapi/linux/bpf.h:3085:
++ * ^I^Ithe format string itself. The *data* and *data_len* are format string$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#64: FILE: include/uapi/linux/bpf.h:3086:
++ * ^I^Iarguments. The *data* are a u64 array and corresponding format string$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#65: FILE: include/uapi/linux/bpf.h:3087:
++ * ^I^Ivalues are stored in the array. For strings and pointers where pointees$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#66: FILE: include/uapi/linux/bpf.h:3088:
++ * ^I^Iare accessed, only the pointer values are stored in the *data* array.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#67: FILE: include/uapi/linux/bpf.h:3089:
++ * ^I^IThe *data_len* is the *data* size in term of bytes.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#75: FILE: include/uapi/linux/bpf.h:3097:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#76: FILE: include/uapi/linux/bpf.h:3098:
++ * ^I^I0 on success, or a negative errno in case of failure.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#85: FILE: include/uapi/linux/bpf.h:3107:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#86: FILE: include/uapi/linux/bpf.h:3108:
++ * ^I^Iseq_write uses seq_file seq_write() to write the data.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#87: FILE: include/uapi/linux/bpf.h:3109:
++ * ^I^IThe *m* represents the seq_file. The *data* and *len* represent the$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#89: FILE: include/uapi/linux/bpf.h:3111:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#90: FILE: include/uapi/linux/bpf.h:3112:
++ * ^I^I0 on success, or a negative errno in case of failure.$
+
+WARNING:LONG_LINE_COMMENT: line length of 104 exceeds 100 columns
+#368: FILE: tools/include/uapi/linux/bpf.h:3081:
++ * int bpf_seq_printf(struct seq_file *m, const char *fmt, u32 fmt_size, const void *data, u32 data_len)
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#369: FILE: tools/include/uapi/linux/bpf.h:3082:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#370: FILE: tools/include/uapi/linux/bpf.h:3083:
++ * ^I^Iseq_printf uses seq_file seq_printf() to print out the format string.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#371: FILE: tools/include/uapi/linux/bpf.h:3084:
++ * ^I^IThe *m* represents the seq_file. The *fmt* and *fmt_size* are for$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#372: FILE: tools/include/uapi/linux/bpf.h:3085:
++ * ^I^Ithe format string itself. The *data* and *data_len* are format string$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#373: FILE: tools/include/uapi/linux/bpf.h:3086:
++ * ^I^Iarguments. The *data* are a u64 array and corresponding format string$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#374: FILE: tools/include/uapi/linux/bpf.h:3087:
++ * ^I^Ivalues are stored in the array. For strings and pointers where pointees$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#375: FILE: tools/include/uapi/linux/bpf.h:3088:
++ * ^I^Iare accessed, only the pointer values are stored in the *data* array.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#376: FILE: tools/include/uapi/linux/bpf.h:3089:
++ * ^I^IThe *data_len* is the *data* size in term of bytes.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#384: FILE: tools/include/uapi/linux/bpf.h:3097:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#385: FILE: tools/include/uapi/linux/bpf.h:3098:
++ * ^I^I0 on success, or a negative errno in case of failure.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#394: FILE: tools/include/uapi/linux/bpf.h:3107:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#395: FILE: tools/include/uapi/linux/bpf.h:3108:
++ * ^I^Iseq_write uses seq_file seq_write() to write the data.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#396: FILE: tools/include/uapi/linux/bpf.h:3109:
++ * ^I^IThe *m* represents the seq_file. The *data* and *len* represent the$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#398: FILE: tools/include/uapi/linux/bpf.h:3111:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#399: FILE: tools/include/uapi/linux/bpf.h:3112:
++ * ^I^I0 on success, or a negative errno in case of failure.$
+
+total: 0 errors, 32 warnings, 342 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 492e639f0c22 ("bpf: Add bpf_seq_printf and bpf_seq_write helpers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

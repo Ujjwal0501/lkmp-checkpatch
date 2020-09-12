@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit c65f83c0667a ("thermal/drivers/cpufreq_cooling: Replace module.h with export.h") has no obvious style problems and is ready for submission.

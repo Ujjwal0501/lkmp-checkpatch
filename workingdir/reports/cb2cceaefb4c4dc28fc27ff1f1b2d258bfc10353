@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit cb2cceaefb4c ("s390: Change s390_kernel_write() return type to match memcpy()") has no obvious style problems and is ready for submission.

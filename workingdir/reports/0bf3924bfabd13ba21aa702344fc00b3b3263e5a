@@ -1,0 +1,17 @@
+WARNING:TYPO_SPELLING: 'Interupts' may be misspelled - perhaps 'Interrupts'?
+#62: FILE: arch/x86/entry/common.c:564:
++	 * Interupts can nest when the first interrupt invokes softirq
+
+WARNING:TYPO_SPELLING: 'interupt' may be misspelled - perhaps 'interrupt'?
+#72: FILE: arch/x86/entry/common.c:574:
++	 * assume that it is the first interupt and eventually claim
+
+total: 0 errors, 2 warnings, 51 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0bf3924bfabd ("x86/entry: Force rcu_irq_enter() when in idle task") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

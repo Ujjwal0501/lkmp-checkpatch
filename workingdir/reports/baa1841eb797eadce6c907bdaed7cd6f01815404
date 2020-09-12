@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit baa1841eb797 ("drm: sun4i: hdmi: Fix inverted HPD result") has no obvious style problems and is ready for submission.

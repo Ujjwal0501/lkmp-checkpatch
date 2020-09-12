@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 999a69e2758f ("drm/amdgpu: switch to common rlc_autoload helper") has no obvious style problems and is ready for submission.

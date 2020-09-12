@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c9e0924e5c2b ("perf/core: open access to probes for CAP_PERFMON privileged process") has no obvious style problems and is ready for submission.

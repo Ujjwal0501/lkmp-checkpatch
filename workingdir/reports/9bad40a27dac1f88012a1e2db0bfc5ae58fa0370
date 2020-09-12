@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 96 lines checked
+
+Commit 9bad40a27dac ("drm/i915/selftests: Always flush before unpining after writing") has no obvious style problems and is ready for submission.

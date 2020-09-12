@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 72 lines checked
+
+Commit 752d95a2bf6f ("iwlwifi: pcie: allocate much smaller byte-count table") has no obvious style problems and is ready for submission.

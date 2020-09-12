@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 104 lines checked
+
+Commit d7466a5adbd6 ("drm/i915/gem: Mark the buffer pool as active for the cmdparser") has no obvious style problems and is ready for submission.

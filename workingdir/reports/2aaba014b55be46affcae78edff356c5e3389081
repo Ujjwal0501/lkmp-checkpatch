@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 203 lines checked
+
+Commit 2aaba014b55b ("crypto: lib/sha1 - remove unnecessary includes of linux/cryptohash.h") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 10fef9ca6a87 ("selftests: ethtool: Fix test when only two speeds are supported") has no obvious style problems and is ready for submission.

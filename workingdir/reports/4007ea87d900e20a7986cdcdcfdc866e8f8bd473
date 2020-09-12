@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 150 lines checked
+
+Commit 4007ea87d900 ("btrfs: reloc: refactor direct tree backref processing into its own function") has no obvious style problems and is ready for submission.

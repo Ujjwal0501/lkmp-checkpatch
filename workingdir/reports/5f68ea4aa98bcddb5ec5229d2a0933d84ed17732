@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit 5f68ea4aa98b ("cifs: multichannel: move channel selection in function") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit bc67c5d0ce40 ("f2fs: remove unused parameter of f2fs_put_rpages_mapping()") has no obvious style problems and is ready for submission.

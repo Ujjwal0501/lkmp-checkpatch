@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 57fd2d8f61a2 ("xfs: remove unnecessary check of the variable resblks in xfs_symlink") has no obvious style problems and is ready for submission.

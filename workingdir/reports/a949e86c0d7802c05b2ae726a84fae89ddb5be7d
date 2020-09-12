@@ -1,0 +1,13 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#65: FILE: drivers/hv/channel_mgmt.c:570:
++^I * ^I^ICPU2's SEARCH from *not* seeing CPU1's INSERT$
+
+total: 0 errors, 1 warnings, 87 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a949e86c0d78 ("Drivers: hv: vmbus: Resolve race between init_vp_index() and CPU hotplug") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

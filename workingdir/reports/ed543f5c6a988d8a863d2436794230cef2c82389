@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit ed543f5c6a98 ("octeontx2-pf: Unregister netdev at driver remove") has no obvious style problems and is ready for submission.

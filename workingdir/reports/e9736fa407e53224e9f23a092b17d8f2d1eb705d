@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 88 lines checked
+
+Commit e9736fa407e5 ("igc: Remove IGC_MAC_STATE_QUEUE_STEERING") has no obvious style problems and is ready for submission.

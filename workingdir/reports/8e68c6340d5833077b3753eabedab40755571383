@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 8e68c6340d58 ("drm/i915/display: Fix the encoder type check") has no obvious style problems and is ready for submission.

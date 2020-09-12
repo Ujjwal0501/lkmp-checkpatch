@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit 7638c0e965f4 ("IB/hfi1: Add packet histogram trace event") has no obvious style problems and is ready for submission.

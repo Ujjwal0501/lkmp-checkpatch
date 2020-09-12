@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 2c0b742d2f18 ("arm64: dts: qcom: qcs404-evb: Describe external VBUS regulator") has no obvious style problems and is ready for submission.

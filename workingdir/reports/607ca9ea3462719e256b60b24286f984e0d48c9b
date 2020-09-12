@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 40 lines checked
+
+Commit 607ca9ea3462 ("mac80211: do not allow HT/VHT IEs in 6 GHz mesh mode") has no obvious style problems and is ready for submission.

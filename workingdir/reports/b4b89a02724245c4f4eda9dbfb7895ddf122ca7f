@@ -1,0 +1,19 @@
+ERROR:SPACING: need consistent spacing around '*' (ctx:WxV)
+#43: FILE: drivers/firmware/efi/libstub/efistub.h:317:
++		efi_status_t (__efiapi *query_mode)(efi_graphics_output_protocol_t *,
+ 		                       ^
+
+ERROR:SPACING: need consistent spacing around '*' (ctx:WxV)
+#46: FILE: drivers/firmware/efi/libstub/efistub.h:320:
++		efi_status_t (__efiapi *set_mode)  (efi_graphics_output_protocol_t *, u32);
+ 		                       ^
+
+total: 2 errors, 0 warnings, 22 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b4b89a027242 ("efi/gop: Add prototypes for query_mode and set_mode") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

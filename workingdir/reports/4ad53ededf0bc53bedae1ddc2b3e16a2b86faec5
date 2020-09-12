@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 4ad53ededf0b ("drm/i915/display/dpll_mgr: Prefer drm_WARN_ON over WARN_ON") has no obvious style problems and is ready for submission.

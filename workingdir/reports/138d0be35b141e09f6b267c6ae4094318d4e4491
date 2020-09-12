@@ -1,0 +1,14 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#264: FILE: net/netlink/af_netlink.c:2646:
++static int netlink_prog_seq_show(struct bpf_prog *prog,
++				  struct bpf_iter_meta *meta,
+
+total: 0 errors, 0 warnings, 1 checks, 289 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 138d0be35b14 ("net: bpf: Add netlink and ipv6_route bpf_iter targets") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

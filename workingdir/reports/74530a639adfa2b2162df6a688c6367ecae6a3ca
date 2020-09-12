@@ -1,0 +1,13 @@
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#51: FILE: drivers/bluetooth/btbcm.c:33:
++typedef char bcm_fw_name[BCM_FW_NAME_LEN];
+
+total: 0 errors, 1 warnings, 91 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 74530a639adf ("Bluetooth: btbcm: Try multiple Patch filenames when loading the Patch firmware") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 23 lines checked
+
+Commit d92e6991616d ("staging: most: usb: sanity check channel before using it as an index into arrays") has no obvious style problems and is ready for submission.

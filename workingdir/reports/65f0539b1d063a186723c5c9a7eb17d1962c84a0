@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 65f0539b1d06 ("firmware: xilinx: Fix an error handling path in 'zynqmp_firmware_probe()'") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit f3d44f18b066 ("x86/resctrl: Support CPUID enumeration of MBM counter width") has no obvious style problems and is ready for submission.

@@ -1,0 +1,40 @@
+CHECK:CAMELCASE: Avoid CamelCase: <Opt_read_from_replica>
+#40: FILE: net/ceph/ceph_common.c:268:
++	Opt_read_from_replica,
+
+CHECK:CAMELCASE: Avoid CamelCase: <Opt_read_from_replica_no>
+#49: FILE: net/ceph/ceph_common.c:279:
++	Opt_read_from_replica_no,
+
+CHECK:CAMELCASE: Avoid CamelCase: <Opt_read_from_replica_balance>
+#50: FILE: net/ceph/ceph_common.c:280:
++	Opt_read_from_replica_balance,
+
+CHECK:CAMELCASE: Avoid CamelCase: <Opt_read_from_replica_localize>
+#51: FILE: net/ceph/ceph_common.c:281:
++	Opt_read_from_replica_localize,
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#68: FILE: net/ceph/ceph_common.c:307:
++	fsparam_enum	("read_from_replica",		Opt_read_from_replica,
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#92: FILE: net/ceph/ceph_common.c:506:
++			BUG();
+
+WARNING:BRACES: braces {} are not necessary for any arm of this statement
+#102: FILE: net/ceph/ceph_common.c:617:
++	if (opt->osd_req_flags & CEPH_OSD_FLAG_BALANCE_READS) {
+[...]
++	} else if (opt->osd_req_flags & CEPH_OSD_FLAG_LOCALIZE_READS) {
+[...]
+
+total: 0 errors, 3 warnings, 4 checks, 92 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8ad44d5e0d1e ("libceph: read_from_replica option") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

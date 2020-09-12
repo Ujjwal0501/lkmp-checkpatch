@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 82 lines checked
+
+Commit 0f706b4fac8b ("platform/chrome: cros_ec_ishtp: skip old cros_ec responses") has no obvious style problems and is ready for submission.

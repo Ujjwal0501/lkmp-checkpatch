@@ -1,0 +1,26 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#35: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/hdagf119.c:31:
++	const u32 hoff = 0x800 * head;
++	nvkm_mask(device, 0x616548 + hoff, 0x00000070, 0x00000000);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct nvkm_ior *' should also have an identifier name
+#62: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/ior.h:91:
++		void (*device_entry)(struct nvkm_ior *, int head);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct nvkm_ior *' should also have an identifier name
+#70: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/ior.h:166:
++void gf119_hda_device_entry(struct nvkm_ior *, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#70: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/ior.h:166:
++void gf119_hda_device_entry(struct nvkm_ior *, int);
+
+total: 0 errors, 4 warnings, 82 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d4115d17cd91 ("drm/nouveau/disp/hda/gf119-: add HAL for programming device entry in SF") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

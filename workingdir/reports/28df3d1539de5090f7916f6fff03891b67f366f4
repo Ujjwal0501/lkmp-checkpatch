@@ -1,0 +1,21 @@
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - bool i_am_nfsd() should probably be bool i_am_nfsd(void)
+#141: FILE: fs/nfsd/nfssvc.c:604:
++bool i_am_nfsd()
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct file_lock *' should also have an identifier name
+#165: FILE: include/linux/fs.h:1048:
++	bool (*lm_breaker_owns_lease)(struct file_lock *);
+
+ERROR:POINTER_LOCATION: "foo **			bar" should be "foo **bar"
+#177: FILE: include/linux/sunrpc/svc.h:302:
++	void **			rq_lease_breaker; /* The v4 client breaking a lease */
+
+total: 2 errors, 1 warnings, 97 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 28df3d1539de ("nfsd: clients don't need to break their own delegations") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

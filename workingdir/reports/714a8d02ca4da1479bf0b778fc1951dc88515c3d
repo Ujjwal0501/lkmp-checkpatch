@@ -1,0 +1,72 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#8: 
+to add a BTI landing pad to the start of all global functions, ensuring that
+
+WARNING:SPACING: space prohibited before semicolon
+#36: FILE: arch/arm64/include/asm/linkage.h:14:
++#define BTI_C hint 34 ;
+
+WARNING:TRAILING_SEMICOLON: macros should not use a trailing semicolon
+#36: FILE: arch/arm64/include/asm/linkage.h:14:
++#define BTI_C hint 34 ;
+
+WARNING:SPACING: space prohibited before semicolon
+#37: FILE: arch/arm64/include/asm/linkage.h:15:
++#define BTI_J hint 36 ;
+
+WARNING:TRAILING_SEMICOLON: macros should not use a trailing semicolon
+#37: FILE: arch/arm64/include/asm/linkage.h:15:
++#define BTI_J hint 36 ;
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#44: FILE: arch/arm64/include/asm/linkage.h:22:
++#define SYM_FUNC_START(name)				\
++	SYM_START(name, SYM_L_GLOBAL, SYM_A_ALIGN)	\
++	BTI_C
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#48: FILE: arch/arm64/include/asm/linkage.h:26:
++#define SYM_FUNC_START_NOALIGN(name)			\
++	SYM_START(name, SYM_L_GLOBAL, SYM_A_NONE)	\
++	BTI_C
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#52: FILE: arch/arm64/include/asm/linkage.h:30:
++#define SYM_FUNC_START_LOCAL(name)			\
++	SYM_START(name, SYM_L_LOCAL, SYM_A_ALIGN)	\
++	BTI_C
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#56: FILE: arch/arm64/include/asm/linkage.h:34:
++#define SYM_FUNC_START_LOCAL_NOALIGN(name)		\
++	SYM_START(name, SYM_L_LOCAL, SYM_A_NONE)	\
++	BTI_C
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#60: FILE: arch/arm64/include/asm/linkage.h:38:
++#define SYM_FUNC_START_WEAK(name)			\
++	SYM_START(name, SYM_L_WEAK, SYM_A_ALIGN)	\
++	BTI_C
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#64: FILE: arch/arm64/include/asm/linkage.h:42:
++#define SYM_FUNC_START_WEAK_NOALIGN(name)		\
++	SYM_START(name, SYM_L_WEAK, SYM_A_NONE)		\
++	BTI_C
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#68: FILE: arch/arm64/include/asm/linkage.h:46:
++#define SYM_INNER_LABEL(name, linkage)			\
++	.type name SYM_T_NONE ASM_NL			\
++	SYM_ENTRY(name, linkage, SYM_A_NONE)		\
++	BTI_J
+
+total: 7 errors, 5 warnings, 52 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 714a8d02ca4d ("arm64: asm: Override SYM_FUNC_START when building the kernel with BTI") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

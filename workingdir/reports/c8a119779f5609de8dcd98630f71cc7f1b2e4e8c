@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit c8a119779f56 ("PCI: dwc: pci-dra7xx: Use devm_platform_ioremap_resource_byname()") has no obvious style problems and is ready for submission.

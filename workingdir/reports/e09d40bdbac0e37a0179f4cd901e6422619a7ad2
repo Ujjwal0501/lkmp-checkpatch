@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit e09d40bdbac0 ("drm/amdgpu: change how we update mmRLC_SPM_MC_CNTL") has no obvious style problems and is ready for submission.

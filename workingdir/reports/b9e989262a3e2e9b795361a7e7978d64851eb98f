@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 66 lines checked
+
+Commit b9e989262a3e ("net: atlantic: make TCVEC2RING accept nic_cfg") has no obvious style problems and is ready for submission.

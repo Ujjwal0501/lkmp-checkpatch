@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit 1b94b3aed367 ("tracing: Check state.disabled in synth event trace functions") has no obvious style problems and is ready for submission.

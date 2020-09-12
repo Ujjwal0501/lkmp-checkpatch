@@ -1,0 +1,14 @@
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#172: FILE: MAINTAINERS:1040:
+ F:	drivers/iio/imu/adis16475.c
++F:	Documentation/devicetree/bindings/iio/imu/adi,adis16475.yaml
+
+total: 0 errors, 1 warnings, 144 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a031e3d4b09f ("dt-bindings: iio: Add adis16475 documentation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

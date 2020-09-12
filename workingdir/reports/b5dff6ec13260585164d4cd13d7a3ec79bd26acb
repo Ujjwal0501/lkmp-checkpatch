@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 45 lines checked
+
+Commit b5dff6ec1326 ("ASoC: codecs: rt*-sdw: don't assign slave_ops") has no obvious style problems and is ready for submission.

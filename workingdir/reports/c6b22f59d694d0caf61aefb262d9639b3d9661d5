@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit c6b22f59d694 ("KVM: x86: track manually whether an event has been injected") has no obvious style problems and is ready for submission.

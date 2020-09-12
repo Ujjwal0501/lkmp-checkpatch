@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 2655971ad4b3 ("usb: dwc3: pci: Fix reference count leak in dwc3_pci_resume_work") has no obvious style problems and is ready for submission.

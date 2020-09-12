@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit 92581f9fb99c ("drm/i915: Immediately execute the fenced work") has no obvious style problems and is ready for submission.

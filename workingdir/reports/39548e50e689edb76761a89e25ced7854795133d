@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 39548e50e689 ("perf powerpc: Don't ignore sym-handling.c file") has no obvious style problems and is ready for submission.

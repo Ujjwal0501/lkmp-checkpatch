@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit a44de7497f91 ("MIPS: Loongson: Build ATI Radeon GPU driver as module") has no obvious style problems and is ready for submission.

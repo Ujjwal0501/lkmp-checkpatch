@@ -1,0 +1,23 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#73: 
+new file mode 100644
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#156: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_utils.c:79:
++	err = readx_poll_timeout_atomic(hw_atl2_mif_mcp_boot_reg_get, self,
++				rbl_status,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#172: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_utils.c:95:
++	err = readx_poll_timeout_atomic(hw_atl2_mif_mcp_boot_reg_get, self,
++				rbl_status,
+
+total: 0 errors, 1 warnings, 2 checks, 207 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c1be0bf092bd ("net: atlantic: common functions needed for basic A2 init/deinit hw_ops") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

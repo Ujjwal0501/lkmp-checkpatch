@@ -1,0 +1,359 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+which allows multiple CPUs to submit data to a single shared ring buffer. On
+
+WARNING:LONG_LINE_COMMENT: line length of 103 exceeds 100 columns
+#276: FILE: include/linux/bpf.h:263:
++	RET_PTR_TO_ALLOC_MEM_OR_NULL,	/* returns a pointer to dynamically allocated memory or NULL */
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#353: FILE: include/uapi/linux/bpf.h:3163:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#354: FILE: include/uapi/linux/bpf.h:3164:
++ * ^I^ICopy *size* bytes from *data* into a ring buffer *ringbuf*.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#355: FILE: include/uapi/linux/bpf.h:3165:
++ * ^I^IIf BPF_RB_NO_WAKEUP is specified in *flags*, no notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#356: FILE: include/uapi/linux/bpf.h:3166:
++ * ^I^Inew data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#357: FILE: include/uapi/linux/bpf.h:3167:
++ * ^I^IIF BPF_RB_FORCE_WAKEUP is specified in *flags*, notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#358: FILE: include/uapi/linux/bpf.h:3168:
++ * ^I^Inew data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#359: FILE: include/uapi/linux/bpf.h:3169:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#360: FILE: include/uapi/linux/bpf.h:3170:
++ * ^I^I0, on success;$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#361: FILE: include/uapi/linux/bpf.h:3171:
++ * ^I^I< 0, on error.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#364: FILE: include/uapi/linux/bpf.h:3174:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#365: FILE: include/uapi/linux/bpf.h:3175:
++ * ^I^IReserve *size* bytes of payload in a ring buffer *ringbuf*.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#366: FILE: include/uapi/linux/bpf.h:3176:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#367: FILE: include/uapi/linux/bpf.h:3177:
++ * ^I^IValid pointer with *size* bytes of memory available; NULL,$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#368: FILE: include/uapi/linux/bpf.h:3178:
++ * ^I^Iotherwise.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#371: FILE: include/uapi/linux/bpf.h:3181:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#372: FILE: include/uapi/linux/bpf.h:3182:
++ * ^I^ISubmit reserved ring buffer sample, pointed to by *data*.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#373: FILE: include/uapi/linux/bpf.h:3183:
++ * ^I^IIf BPF_RB_NO_WAKEUP is specified in *flags*, no notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#374: FILE: include/uapi/linux/bpf.h:3184:
++ * ^I^Inew data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#375: FILE: include/uapi/linux/bpf.h:3185:
++ * ^I^IIF BPF_RB_FORCE_WAKEUP is specified in *flags*, notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#376: FILE: include/uapi/linux/bpf.h:3186:
++ * ^I^Inew data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#377: FILE: include/uapi/linux/bpf.h:3187:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#378: FILE: include/uapi/linux/bpf.h:3188:
++ * ^I^INothing. Always succeeds.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#381: FILE: include/uapi/linux/bpf.h:3191:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#382: FILE: include/uapi/linux/bpf.h:3192:
++ * ^I^IDiscard reserved ring buffer sample, pointed to by *data*.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#383: FILE: include/uapi/linux/bpf.h:3193:
++ * ^I^IIf BPF_RB_NO_WAKEUP is specified in *flags*, no notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#384: FILE: include/uapi/linux/bpf.h:3194:
++ * ^I^Inew data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#385: FILE: include/uapi/linux/bpf.h:3195:
++ * ^I^IIF BPF_RB_FORCE_WAKEUP is specified in *flags*, notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#386: FILE: include/uapi/linux/bpf.h:3196:
++ * ^I^Inew data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#387: FILE: include/uapi/linux/bpf.h:3197:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#388: FILE: include/uapi/linux/bpf.h:3198:
++ * ^I^INothing. Always succeeds.$
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#486: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#491: FILE: kernel/bpf/ringbuf.c:1:
++#include <linux/bpf.h>
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#528: FILE: kernel/bpf/ringbuf.c:38:
++	int nr_pages;
++	spinlock_t spinlock ____cacheline_aligned_in_smp;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#534: FILE: kernel/bpf/ringbuf.c:44:
++	unsigned long consumer_pos __aligned(PAGE_SIZE);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'PAGE_SIZE' should also have an identifier name
+#534: FILE: kernel/bpf/ringbuf.c:44:
++	unsigned long consumer_pos __aligned(PAGE_SIZE);
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#535: FILE: kernel/bpf/ringbuf.c:45:
++	unsigned long producer_pos __aligned(PAGE_SIZE);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'PAGE_SIZE' should also have an identifier name
+#535: FILE: kernel/bpf/ringbuf.c:45:
++	unsigned long producer_pos __aligned(PAGE_SIZE);
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#722: FILE: kernel/bpf/ringbuf.c:232:
++	return ERR_PTR(-ENOTSUPP);
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#728: FILE: kernel/bpf/ringbuf.c:238:
++	return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#733: FILE: kernel/bpf/ringbuf.c:243:
++	return -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#739: FILE: kernel/bpf/ringbuf.c:249:
++	return -ENOTSUPP;
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#769: FILE: kernel/bpf/ringbuf.c:279:
++	cons_pos = smp_load_acquire(&rb->consumer_pos);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#770: FILE: kernel/bpf/ringbuf.c:280:
++	prod_pos = smp_load_acquire(&rb->producer_pos);
+
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#819: FILE: kernel/bpf/ringbuf.c:329:
++	return (void*)((addr & PAGE_MASK) - off);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#832: FILE: kernel/bpf/ringbuf.c:342:
++	cons_pos = smp_load_acquire(&rb->consumer_pos);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#904: FILE: kernel/bpf/ringbuf.c:414:
++	cons_pos = smp_load_acquire(&rb->consumer_pos) & rb->mask;
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#978: FILE: kernel/bpf/ringbuf.c:488:
++		return smp_load_acquire(&rb->consumer_pos);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#980: FILE: kernel/bpf/ringbuf.c:490:
++		return smp_load_acquire(&rb->producer_pos);
+
+WARNING:USE_NEGATIVE_ERRNO: return of an errno should typically be negative (ie: return -EPOLLERR)
+#1015: FILE: kernel/bpf/syscall.c:673:
++	return EPOLLERR;
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#1079: FILE: kernel/bpf/verifier.c:454:
++^I        func_id == BPF_FUNC_ringbuf_reserve;$
+
+WARNING:LONG_LINE_STRING: line length of 104 exceeds 100 columns
+#1185: FILE: kernel/bpf/verifier.c:2557:
++		verbose(env, "R%d unbounded memory access, make sure to bounds check any such access\n",
+
+WARNING:SUSPECT_CODE_INDENT: suspect code indent for conditional statements (16, 66)
+#1341: FILE: kernel/bpf/verifier.c:3864:
++		if (register_is_null(reg) &&
+[...]
++			/* final test in check_stack_boundary() */;
+
+WARNING:LONG_LINE_STRING: line length of 110 exceeds 100 columns
+#1347: FILE: kernel/bpf/verifier.c:3870:
++			verbose(env, "verifier internal error: more than one arg with ref_obj_id R%d %u %u\n",
+
+WARNING:LONG_LINE_STRING: line length of 102 exceeds 100 columns
+#1362: FILE: kernel/bpf/verifier.c:3973:
++			verbose(env, "R%d unbounded size, use 'var &= const' or 'if (var < const)'\n",
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1445: FILE: tools/include/uapi/linux/bpf.h:3163:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1446: FILE: tools/include/uapi/linux/bpf.h:3164:
++ * ^I^ICopy *size* bytes from *data* into a ring buffer *ringbuf*.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1447: FILE: tools/include/uapi/linux/bpf.h:3165:
++ * ^I^IIf BPF_RB_NO_WAKEUP is specified in *flags*, no notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1448: FILE: tools/include/uapi/linux/bpf.h:3166:
++ * ^I^Inew data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1449: FILE: tools/include/uapi/linux/bpf.h:3167:
++ * ^I^IIF BPF_RB_FORCE_WAKEUP is specified in *flags*, notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1450: FILE: tools/include/uapi/linux/bpf.h:3168:
++ * ^I^Inew data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1451: FILE: tools/include/uapi/linux/bpf.h:3169:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1452: FILE: tools/include/uapi/linux/bpf.h:3170:
++ * ^I^I0, on success;$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1453: FILE: tools/include/uapi/linux/bpf.h:3171:
++ * ^I^I< 0, on error.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1456: FILE: tools/include/uapi/linux/bpf.h:3174:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1457: FILE: tools/include/uapi/linux/bpf.h:3175:
++ * ^I^IReserve *size* bytes of payload in a ring buffer *ringbuf*.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1458: FILE: tools/include/uapi/linux/bpf.h:3176:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1459: FILE: tools/include/uapi/linux/bpf.h:3177:
++ * ^I^IValid pointer with *size* bytes of memory available; NULL,$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1460: FILE: tools/include/uapi/linux/bpf.h:3178:
++ * ^I^Iotherwise.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1463: FILE: tools/include/uapi/linux/bpf.h:3181:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1464: FILE: tools/include/uapi/linux/bpf.h:3182:
++ * ^I^ISubmit reserved ring buffer sample, pointed to by *data*.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1465: FILE: tools/include/uapi/linux/bpf.h:3183:
++ * ^I^IIf BPF_RB_NO_WAKEUP is specified in *flags*, no notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1466: FILE: tools/include/uapi/linux/bpf.h:3184:
++ * ^I^Inew data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1467: FILE: tools/include/uapi/linux/bpf.h:3185:
++ * ^I^IIF BPF_RB_FORCE_WAKEUP is specified in *flags*, notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1468: FILE: tools/include/uapi/linux/bpf.h:3186:
++ * ^I^Inew data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1469: FILE: tools/include/uapi/linux/bpf.h:3187:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1470: FILE: tools/include/uapi/linux/bpf.h:3188:
++ * ^I^INothing. Always succeeds.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1473: FILE: tools/include/uapi/linux/bpf.h:3191:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1474: FILE: tools/include/uapi/linux/bpf.h:3192:
++ * ^I^IDiscard reserved ring buffer sample, pointed to by *data*.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1475: FILE: tools/include/uapi/linux/bpf.h:3193:
++ * ^I^IIf BPF_RB_NO_WAKEUP is specified in *flags*, no notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1476: FILE: tools/include/uapi/linux/bpf.h:3194:
++ * ^I^Inew data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1477: FILE: tools/include/uapi/linux/bpf.h:3195:
++ * ^I^IIF BPF_RB_FORCE_WAKEUP is specified in *flags*, notification of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1478: FILE: tools/include/uapi/linux/bpf.h:3196:
++ * ^I^Inew data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1479: FILE: tools/include/uapi/linux/bpf.h:3197:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1480: FILE: tools/include/uapi/linux/bpf.h:3198:
++ * ^I^INothing. Always succeeds.$
+
+total: 2 errors, 84 warnings, 1349 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 457f44363a88 ("bpf: Implement BPF ring buffer and verifier support for it") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

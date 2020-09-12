@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 36 lines checked
+
+Commit c7e367051604 ("impr: use ->ndo_tunnel_ctl in ipmr_new_tunnel") has no obvious style problems and is ready for submission.

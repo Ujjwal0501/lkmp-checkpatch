@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 83 lines checked
+
+Commit dcf1ccc99e6d ("xfs: always return -ENOSPC on project quota reservation failure") has no obvious style problems and is ready for submission.

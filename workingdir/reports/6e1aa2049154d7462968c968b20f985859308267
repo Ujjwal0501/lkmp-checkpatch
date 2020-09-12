@@ -1,0 +1,21 @@
+WARNING:TYPO_SPELLING: 'compatability' may be misspelled - perhaps 'compatibility'?
+#15: 
+But when all drivers are converted this compatability mess can be
+
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#22: 
+Signed-off-by: Joerg Roedel <jroedel@suse.de>
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#38: FILE: drivers/iommu/iommu.c:84:
++						 unsigned type);
+
+total: 0 errors, 3 warnings, 149 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6e1aa2049154 ("iommu: Move default domain allocation to iommu_probe_device()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

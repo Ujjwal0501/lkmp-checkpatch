@@ -1,0 +1,21 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#23: 
+Ref: 55e8c8eb2c7b ("posix-cpu-timers: Store a reference to a pid not a task")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 55e8c8eb2c7b ("posix-cpu-timers: Store a reference to a pid not a task")'
+#23: 
+Ref: 55e8c8eb2c7b ("posix-cpu-timers: Store a reference to a pid not a task")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit c0deae8c9587 ("posix-cpu-timers: Rcu_read_lock/unlock protect find_task_by_vpid call")'
+#24: 
+Ref: c0deae8c9587 ("posix-cpu-timers: Rcu_read_lock/unlock protect find_task_by_vpid call")
+
+total: 2 errors, 1 warnings, 21 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8feebc6713cd ("posix-cpu-timer: Tidy up group_leader logic in lookup_task") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 159 lines checked
+
+Commit 2c28ae48f24d ("netlink: factor out policy range helpers") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 29 lines checked
+
+Commit d800bad67d4c ("bpf: Fix too large copy from user in bpf_test_init") has no obvious style problems and is ready for submission.

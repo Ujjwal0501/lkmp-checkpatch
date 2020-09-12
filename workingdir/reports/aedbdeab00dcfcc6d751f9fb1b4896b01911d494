@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit aedbdeab00dc ("x86/mce: Use untraced rd/wrmsr in the MCE offline/crash check") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 6b7fc6a3e6af ("Make the "Reducing compressed framebufer size" message be DRM_INFO_ONCE()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 32 lines checked
+
+Commit c1f9ec5776dd ("ipv4: add ip_sock_set_pktinfo") has no obvious style problems and is ready for submission.

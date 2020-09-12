@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 88986987c76f ("dt-bindings: memory-controllers: exynos-srom: Remove unneeded type for reg-io-width") has no obvious style problems and is ready for submission.

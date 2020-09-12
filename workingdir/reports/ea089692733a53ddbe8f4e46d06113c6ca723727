@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#64: FILE: tools/perf/tests/openat-syscall-all-cpus.c:114:
++			pr_debug("evsel__read_on_cpu: expected to intercept %d calls on cpu %d, got %" PRIu64 "\n",
+
+total: 0 errors, 1 warnings, 151 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ea089692733a ("perf evsel: Rename *perf_evsel__read*() to *evsel__read()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

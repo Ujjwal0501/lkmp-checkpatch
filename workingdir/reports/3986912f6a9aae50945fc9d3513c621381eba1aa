@@ -1,0 +1,72 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#80: FILE: net/ipv6/af_inet6.c:590:
++static int inet6_compat_routing_ioctl(struct sock *sk, unsigned int cmd,
++		struct compat_in6_rtmsg __user *ur)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#85: FILE: net/ipv6/af_inet6.c:595:
++	if (copy_from_user(&rt.rtmsg_dst, &ur->rtmsg_dst,
++			3 * sizeof(struct in6_addr)) ||
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#95: FILE: net/ipv6/af_inet6.c:605:
++
++
+
+CHECK:UNNECESSARY_PARENTHESES: Unnecessary parentheses around ur4->rt_dst
+#247: FILE: net/socket.c:3398:
++	ret = copy_from_user(&r4.rt_dst, &(ur4->rt_dst),
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#248: FILE: net/socket.c:3399:
++	ret = copy_from_user(&r4.rt_dst, &(ur4->rt_dst),
++				3 * sizeof(struct sockaddr));
+
+CHECK:UNNECESSARY_PARENTHESES: Unnecessary parentheses around ur4->rt_flags
+#249: FILE: net/socket.c:3400:
++	ret |= get_user(r4.rt_flags, &(ur4->rt_flags));
+
+CHECK:UNNECESSARY_PARENTHESES: Unnecessary parentheses around ur4->rt_metric
+#250: FILE: net/socket.c:3401:
++	ret |= get_user(r4.rt_metric, &(ur4->rt_metric));
+
+CHECK:UNNECESSARY_PARENTHESES: Unnecessary parentheses around ur4->rt_mtu
+#251: FILE: net/socket.c:3402:
++	ret |= get_user(r4.rt_mtu, &(ur4->rt_mtu));
+
+CHECK:UNNECESSARY_PARENTHESES: Unnecessary parentheses around ur4->rt_window
+#252: FILE: net/socket.c:3403:
++	ret |= get_user(r4.rt_window, &(ur4->rt_window));
+
+CHECK:UNNECESSARY_PARENTHESES: Unnecessary parentheses around ur4->rt_irtt
+#253: FILE: net/socket.c:3404:
++	ret |= get_user(r4.rt_irtt, &(ur4->rt_irtt));
+
+CHECK:UNNECESSARY_PARENTHESES: Unnecessary parentheses around ur4->rt_dev
+#254: FILE: net/socket.c:3405:
++	ret |= get_user(rtdev, &(ur4->rt_dev));
+
+CHECK:BRACES: braces {} should be used on all arms of this statement
+#255: FILE: net/socket.c:3406:
++	if (rtdev) {
+[...]
++	} else
+[...]
+
+CHECK:BRACES: Unbalanced braces around else statement
+#259: FILE: net/socket.c:3410:
++	} else
+
+CHECK:SPACING: No space is necessary after a cast
+#262: FILE: net/socket.c:3413:
++	r = (void *) &r4;
+
+total: 0 errors, 0 warnings, 14 checks, 199 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3986912f6a9a ("ipv6: move SIOCADDRT and SIOCDELRT handling into ->compat_ioctl") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

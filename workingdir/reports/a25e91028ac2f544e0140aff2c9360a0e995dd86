@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 45 lines checked
+
+Commit a25e91028ac2 ("KVM: arm64: pvtime: Ensure task delay accounting is enabled") has no obvious style problems and is ready for submission.

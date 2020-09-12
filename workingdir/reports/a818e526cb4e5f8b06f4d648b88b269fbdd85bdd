@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit a818e526cb4e ("lib/percpu-refcount.c: use a more common logging style") has no obvious style problems and is ready for submission.

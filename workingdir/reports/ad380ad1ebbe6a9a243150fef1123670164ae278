@@ -1,0 +1,27 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+When the EEPROM data is read from flash, it can contain DC offset calibration
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#59: FILE: drivers/net/wireless/mediatek/mt76/mt7615/eeprom.h:9:
+ 
++
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#241: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mcu.c:2897:
++		/* fall through */
+
+CHECK:BRACES: Blank lines aren't necessary before a close brace '}'
+#250: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mcu.c:2906:
++
++	}
+
+total: 0 errors, 2 warnings, 2 checks, 301 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ad380ad1ebbe ("mt76: mt7615: add support for applying DC offset calibration from EEPROM") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

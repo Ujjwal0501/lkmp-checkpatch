@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 64 lines checked
+
+Commit b2003c7a811c ("m68k: mac: Avoid stuck ISM IOP interrupt on Quadra 900/950") has no obvious style problems and is ready for submission.

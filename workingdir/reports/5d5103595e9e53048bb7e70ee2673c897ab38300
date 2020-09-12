@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 49 lines checked
+
+Commit 5d5103595e9e ("x86/cpu: Reinitialize IA32_FEAT_CTL MSR on BSP during wakeup") has no obvious style problems and is ready for submission.

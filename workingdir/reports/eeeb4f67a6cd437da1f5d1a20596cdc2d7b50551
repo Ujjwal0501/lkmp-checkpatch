@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 106 lines checked
+
+Commit eeeb4f67a6cd ("KVM: x86: Introduce KVM_REQ_TLB_FLUSH_CURRENT to flush current ASID") has no obvious style problems and is ready for submission.

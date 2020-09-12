@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit ec4d9392207a ("net: hns3: fix an incorrect comment for num_tqps in struct hclgevf_dev") has no obvious style problems and is ready for submission.

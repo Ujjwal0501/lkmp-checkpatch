@@ -1,0 +1,21 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit a7348347ba8a ("staging:iio: Add polling of events on the ring access chrdev.")'
+#6: 
+This seems like a left-over from a7348347ba8a4 ("staging:iio: Add polling
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 9dd4694dafbd ("iio: staging: sca3000: hide stufftoread logic")'
+#9: 
+Then it was moved into the sca3000 driver around 9dd4694dafbd8 ("iio:
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 152a6a884ae1 ("staging:iio:accel:sca3000 move to hybrid hard / soft buffer design.")'
+#13: 
+Then it eventually was no longer used after 152a6a884ae1
+
+total: 3 errors, 0 warnings, 9 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9159c7c06ceb ("iio: buffer: drop left-over 'stufftoread' field") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

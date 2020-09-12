@@ -1,0 +1,37 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#24: 
+[1]: https://lore.kernel.org/lkml/20190528002412.1625-1-dima@arista.com/T/#u
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#62: FILE: arch/nios2/kernel/traps.c:77:
++	printk("%sStack from %08lx:", loglvl, (unsigned long)stack);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#69: FILE: arch/nios2/kernel/traps.c:82:
++			printk("%s\n       ", loglvl);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#70: FILE: arch/nios2/kernel/traps.c:83:
++		printk("%s %08lx", loglvl, *stack++);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#74: FILE: arch/nios2/kernel/traps.c:86:
++	printk("%s\nCall Trace:", loglvl);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#83: FILE: arch/nios2/kernel/traps.c:102:
++			printk("%s [<%08lx>]", loglvl, addr);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#88: FILE: arch/nios2/kernel/traps.c:106:
++	printk("%s\n", loglvl);
+
+total: 0 errors, 7 warnings, 54 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 351dd61c3821 ("nios2: add show_stack_loglvl()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

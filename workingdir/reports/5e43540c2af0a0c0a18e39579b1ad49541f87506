@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+    00 c0 06 16 00 00 ff ff 00 93 1c 18 00 00 ff ff  ................
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+    00 c0 06 16 00 00 ff ff 00 93 1c 18 00 00 ff ff  ................
+
+total: 0 errors, 2 warnings, 0 checks, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5e43540c2af0 ("mac80211: mesh: Free pending skb when destroying a mpath") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

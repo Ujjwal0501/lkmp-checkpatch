@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 125 lines checked
+
+Commit f25c418dcad9 ("iwlwifi: remove antenna_coupling module parameter") has no obvious style problems and is ready for submission.

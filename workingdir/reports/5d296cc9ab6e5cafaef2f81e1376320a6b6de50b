@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 5d296cc9ab6e ("scsi: qla1280: make qla1280_firmware_mutex and qla1280_fw_tbl static") has no obvious style problems and is ready for submission.

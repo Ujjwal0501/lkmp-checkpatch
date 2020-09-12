@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 8be26bab0ea2 ("MIPS: SGI-IP30: Remove R5432_CP0_INTERRUPT_WAR from war.h") has no obvious style problems and is ready for submission.

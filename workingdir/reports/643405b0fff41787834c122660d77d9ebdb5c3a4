@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 24 lines checked
+
+Commit 643405b0fff4 ("media: atomisp: pci/atomisp2/*.h remove #ifdef ISP2401") has no obvious style problems and is ready for submission.

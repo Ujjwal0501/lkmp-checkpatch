@@ -1,0 +1,313 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#26: 
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.12.1-0-ga5cab58e9a3f-prebuilt.qemu.org 04/01/2014
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#115: 
+ ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#116: 
+ ffff888038c3a600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#117: 
+>ffff888038c3a680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#119: 
+ ffff888038c3a700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#120: 
+ ffff888038c3a780: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+total: 0 errors, 76 warnings, 0 checks, 94 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5515c3448d55 ("mlxsw: spectrum_router: Fix use-after-free in router init / de-init") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

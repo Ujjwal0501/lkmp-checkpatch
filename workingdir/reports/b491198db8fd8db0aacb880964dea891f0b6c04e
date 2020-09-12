@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit b491198db8fd ("perf tools: Do not seek in pipe fd during tracing data processing") has no obvious style problems and is ready for submission.

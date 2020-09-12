@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit b19dc1b79993 ("bus: bt1-apb: Fix show/store callback identations") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit f0d50ca045e4 ("kbuild: refactor KBUILD_VMLINUX_{OBJS,LIBS} calculation") has no obvious style problems and is ready for submission.

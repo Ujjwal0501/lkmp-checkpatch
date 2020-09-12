@@ -1,0 +1,13 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#45: FILE: drivers/media/v4l2-core/Kconfig:19:
++config VIDEO_V4L2_SUBDEV_API
+
+total: 0 errors, 1 warnings, 30 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8164ab872115 ("media: Kconfig: move V4L2 subdev API to v4l2-core/Kconfig") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

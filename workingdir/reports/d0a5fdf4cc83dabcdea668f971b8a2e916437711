@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit d0a5fdf4cc83 ("clk: sifive: allocate sufficient memory for struct __prci_data") has no obvious style problems and is ready for submission.

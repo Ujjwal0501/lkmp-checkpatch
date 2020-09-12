@@ -1,0 +1,23 @@
+ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+#32: FILE: include/linux/lsm_hook_defs.h:193:
++LSM_HOOK(int, 0, task_fix_setgid, struct cred *new, const struct cred * old,
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#126: FILE: kernel/sys.c:877:
++			if (security_task_fix_setgid(new,old,LSM_SETID_FS) == 0)
+ 			                                ^
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#126: FILE: kernel/sys.c:877:
++			if (security_task_fix_setgid(new,old,LSM_SETID_FS) == 0)
+ 			                                    ^
+
+total: 3 errors, 0 warnings, 95 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 39030e1351aa ("security: Add LSM hooks to set*gid syscalls") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

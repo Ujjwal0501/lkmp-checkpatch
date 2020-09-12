@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 154 lines checked
+
+Commit e6d4ef7d58aa ("media: i2c: imx219: Implement get_selection") has no obvious style problems and is ready for submission.

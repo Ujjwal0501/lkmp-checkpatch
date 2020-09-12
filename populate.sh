@@ -129,12 +129,14 @@ collect_stats() {
         echo "" >> stats
         echo "$CHKPTCH" | cut -f 2- -d ' ' | grep "CHECK" | sort | uniq -c | less | sort -nr >> stats
         echo "" >> stats
+        echo "" >> stats
 
         printf '\t%-15s %-15s %-40s\n' "OCCURRENCES" "COMMITS" "TYPE" >> stats
         VAL=$( for f in $(ls -1 "type/"); do \
                 printf '\t%-15s %-15s %-40s\n' "$(echo "$CHKPTCH" | grep $f -c)" "$(cat type/$f | wc -l)" "$f"; \
             done )
         echo "$VAL" | sort -nr >> stats
+        echo "" >> stats
         echo "" >> stats
         
         echo -e "Total ERRORS:\t$(echo "$CHKPTCH" | grep ERROR: -c)" >> stats
@@ -153,5 +155,5 @@ collect_stats() {
 
 collect_commits
 #trim_script_result
-generate_report
+#generate_report
 collect_stats

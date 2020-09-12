@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 80 lines checked
+
+Commit a618e86da91d ("net : phy: marvell: Speedup TDR data retrieval by only changing page once") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 59ee987ea47c ("arm64: ptrace: Add a comment describing our syscall entry/exit trap ABI") has no obvious style problems and is ready for submission.

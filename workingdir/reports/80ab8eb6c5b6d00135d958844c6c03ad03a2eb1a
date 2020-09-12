@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 80ab8eb6c5b6 ("MIPS: Octeon: Remove dead code in __cvmx_helper_npi_probe()") has no obvious style problems and is ready for submission.

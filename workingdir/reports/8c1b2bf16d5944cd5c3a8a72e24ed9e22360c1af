@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit 8c1b2bf16d59 ("bpf, cgroup: Remove unused exports") has no obvious style problems and is ready for submission.

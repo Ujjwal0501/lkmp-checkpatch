@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit fbee4760ec4f ("igc: Dump VLANPQF register") has no obvious style problems and is ready for submission.

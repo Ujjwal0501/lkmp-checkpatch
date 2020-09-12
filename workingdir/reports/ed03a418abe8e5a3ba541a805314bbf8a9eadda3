@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 256 lines checked
+
+Commit ed03a418abe8 ("net/mlx5: DR, Split RX and TX lock for parallel insertion") has no obvious style problems and is ready for submission.

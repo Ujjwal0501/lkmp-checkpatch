@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 24 lines checked
+
+Commit 93a8883f5e4b ("staging: bcm2835-camera: Activate V4L2_EXPOSURE_METERING_MATRIX handling") has no obvious style problems and is ready for submission.

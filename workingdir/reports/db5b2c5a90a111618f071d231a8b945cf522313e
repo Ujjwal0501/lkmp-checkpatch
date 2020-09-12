@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit db5b2c5a90a1 ("x86/entry/compat: Clear RAX high bits on Xen PV SYSENTER") has no obvious style problems and is ready for submission.

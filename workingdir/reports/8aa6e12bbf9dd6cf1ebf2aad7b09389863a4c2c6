@@ -1,0 +1,18 @@
+WARNING:TYPO_SPELLING: 'availablity' may be misspelled - perhaps 'availability'?
+#9: 
+availablity accordingly.
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#29: FILE: drivers/firmware/arm_scmi/smc.c:37:
++	struct device_node *np = of_parse_phandle(dev->of_node, "shmem", 0);
++	if (!np)
+
+total: 0 errors, 2 warnings, 11 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8aa6e12bbf9d ("firmware: arm_scmi: Check shmem property for channel availablity") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

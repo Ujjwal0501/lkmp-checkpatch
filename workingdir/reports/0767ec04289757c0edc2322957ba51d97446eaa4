@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 63 lines checked
+
+Commit 0767ec042897 ("net: ag71xx: extend link validation to support other SoCs") has no obvious style problems and is ready for submission.

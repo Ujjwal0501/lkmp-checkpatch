@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c1fbec4ac0d7 ("arm64: arch_timer: Allow an workaround descriptor to disable compat vdso") has no obvious style problems and is ready for submission.

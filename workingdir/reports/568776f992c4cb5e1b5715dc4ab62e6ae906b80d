@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 568776f992c4 ("zonefs: Replace uuid_copy() with import_uuid()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 32 lines checked
+
+Commit 49ee3c2ab523 ("e1000: Do not perform reset in reset_task if we are already down") has no obvious style problems and is ready for submission.

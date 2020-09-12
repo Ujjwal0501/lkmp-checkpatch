@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit aa5ab36aeda5 ("usb: host: ehci-tegra: Remove superfluous dev_err() message") has no obvious style problems and is ready for submission.

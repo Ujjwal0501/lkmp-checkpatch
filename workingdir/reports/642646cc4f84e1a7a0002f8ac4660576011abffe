@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 642646cc4f84 ("ASoC: SOF: Intel: hda: log number of microphones detected in NHLT tables") has no obvious style problems and is ready for submission.

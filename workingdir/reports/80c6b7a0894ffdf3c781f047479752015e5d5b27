@@ -1,0 +1,37 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#51: 
+new file mode 100644
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#287: FILE: drivers/clk/socfpga/clk-agilex.c:232:
++	{ AGILEX_EMAC_A_FREE_CLK, "emaca_free_clk", NULL, emaca_free_mux, ARRAY_SIZE(emaca_free_mux),
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#289: FILE: drivers/clk/socfpga/clk-agilex.c:234:
++	{ AGILEX_EMAC_B_FREE_CLK, "emacb_free_clk", NULL, emacb_free_mux, ARRAY_SIZE(emacb_free_mux),
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#330: FILE: drivers/clk/socfpga/clk-agilex.c:275:
++	{ AGILEX_S2F_USER0_CLK, "s2f_user0_clk", NULL, s2f_usr0_mux, ARRAY_SIZE(s2f_usr0_mux), 0, 0x24,
+
+WARNING:LONG_LINE: line length of 160 exceeds 100 columns
+#395: FILE: drivers/clk/socfpga/clk-agilex.c:340:
++static int agilex_clk_register_gate(const struct stratix10_gate_clock *clks,					    int nums, struct stratix10_clock_data *data)
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct stratix10_pll_clock *' should also have an identifier name
+#617: FILE: drivers/clk/socfpga/stratix10-clk.h:65:
++struct clk *agilex_register_pll(const struct stratix10_pll_clock *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void __iomem *' should also have an identifier name
+#617: FILE: drivers/clk/socfpga/stratix10-clk.h:65:
++struct clk *agilex_register_pll(const struct stratix10_pll_clock *,
+
+total: 0 errors, 7 warnings, 570 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 80c6b7a0894f ("clk: socfpga: agilex: add clock driver for the Agilex platform") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 146 lines checked
+
+Commit e5158d987b72 ("bpf: Implement common macros/helpers for target iterators") has no obvious style problems and is ready for submission.

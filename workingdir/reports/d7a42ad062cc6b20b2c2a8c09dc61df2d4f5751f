@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 81 lines checked
+
+Commit d7a42ad062cc ("net/mlx5e: Allow partial data mask for tunnel options") has no obvious style problems and is ready for submission.

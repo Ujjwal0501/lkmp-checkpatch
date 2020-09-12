@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#54: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1383:
++						link->link_enc->funcs->is_dig_enabled(link->link_enc) &&
+
+total: 0 errors, 1 warnings, 55 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b3a941df690f ("drm/amd/display: Power down hw blocks on boot") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

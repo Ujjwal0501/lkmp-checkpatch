@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit cdb555397f43 ("i2c: icy: Fix build with CONFIG_AMIGA_PCMCIA=n") has no obvious style problems and is ready for submission.

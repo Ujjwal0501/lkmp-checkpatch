@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 36 lines checked
+
+Commit e9c375fb5ede ("compat_ip{,v6}_setsockopt(): enumerate MCAST_... options explicitly") has no obvious style problems and is ready for submission.

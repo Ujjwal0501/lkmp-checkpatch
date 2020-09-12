@@ -1,0 +1,25 @@
+WARNING:BAD_SIGN_OFF: Non-standard signature: Signee-off-by:
+#15: 
+Signee-off-by: Chao Yu <yuchao0@huawei.com>
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#193: FILE: fs/f2fs/file.c:3750:
++		f2fs_warn(sbi, "%s: partial blocks were released i_ino=%lx "
++			"iblocks=%llu, reserved=%u, compr_blocks=%llu, "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#194: FILE: fs/f2fs/file.c:3751:
++			"iblocks=%llu, reserved=%u, compr_blocks=%llu, "
++			"run fsck to fix.",
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Chao Yu <yuchao0@huawei.com>'
+
+total: 0 errors, 4 warnings, 188 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c75488fb4d82 ("f2fs: introduce F2FS_IOC_RESERVE_COMPRESS_BLOCKS") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

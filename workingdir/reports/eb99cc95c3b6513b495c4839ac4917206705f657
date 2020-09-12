@@ -1,0 +1,19 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#307: 
+new file mode 100644
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#924: FILE: drivers/net/wireless/mediatek/mt76/mt7615/usb_mcu.c:61:
++	dev->mt76.mcu_ops = &mt7663u_mcu_ops,
++
++	mt76_set(dev, MT_UDMA_TX_QSEL, MT_FW_DL_EN);
+
+total: 0 errors, 2 warnings, 0 checks, 849 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit eb99cc95c3b6 ("mt76: mt7615: introduce mt7663u support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

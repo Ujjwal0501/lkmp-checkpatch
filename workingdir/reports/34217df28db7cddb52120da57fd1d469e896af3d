@@ -1,0 +1,17 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#83: FILE: drivers/soc/amlogic/meson-ee-pwrc.c:94:
++^I^I.sleep_reg = GX_AO_RTI_GEN_PWR_SLEEP0, ^I^I\$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#86: FILE: drivers/soc/amlogic/meson-ee-pwrc.c:96:
++^I^I.iso_reg = GX_AO_RTI_GEN_PWR_ISO0, ^I^I\$
+
+total: 0 errors, 2 warnings, 143 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 34217df28db7 ("soc: amlogic: meson-ee-pwrc: add support for Meson8/Meson8b/Meson8m2") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

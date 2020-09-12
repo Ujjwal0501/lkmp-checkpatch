@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 31dbb6b1d025 ("irqchip/gic-v4.1: Use readx_poll_timeout_atomic() to fix sleep in atomic") has no obvious style problems and is ready for submission.

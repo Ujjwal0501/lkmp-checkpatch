@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 145 exceeds 100 columns
+#40: FILE: drivers/mailbox/imx-mailbox.c:168:
++			dev_err(priv->dev, "Maximal message size (%zu bytes) exceeded on TX; got: %i bytes\n", sizeof(*msg), msg->hdr.size << 2);
+
+WARNING:LONG_LINE: line length of 135 exceeds 100 columns
+#52: FILE: drivers/mailbox/imx-mailbox.c:208:
++		dev_err(priv->dev, "Maximal message size (%zu bytes) exceeded on RX; got: %i bytes\n", sizeof(msg), msg.hdr.size << 2);
+
+total: 0 errors, 2 warnings, 30 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9d8ca628c028 ("mailbox: imx-mailbox: fix scu msg header size check") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

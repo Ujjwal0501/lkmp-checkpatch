@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 348 lines checked
+
+Commit e701656ec4db ("MIPS: inst.h: Stop including asm.h to avoid various build failures") has no obvious style problems and is ready for submission.

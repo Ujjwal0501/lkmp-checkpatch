@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 185 lines checked
+
+Commit b610e1193a91 ("staging: sm750fb: add common function to set color offsets and visual mode") has no obvious style problems and is ready for submission.

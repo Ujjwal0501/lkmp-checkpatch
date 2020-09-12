@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 2dd9072e8fb0 ("PCI: of: Zero max-link-speed value is invalid") has no obvious style problems and is ready for submission.

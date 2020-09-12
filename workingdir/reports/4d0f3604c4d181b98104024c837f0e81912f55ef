@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 21 lines checked
+
+Commit 4d0f3604c4d1 ("ath10k: remove experimental tag from SDIO and SNOC busses in Kconfig") has no obvious style problems and is ready for submission.

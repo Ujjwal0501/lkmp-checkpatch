@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 219 lines checked
+
+Commit bd1684817d7d ("scsi: zfcp: Move shost updates during xconfig data handling into fenced function") has no obvious style problems and is ready for submission.

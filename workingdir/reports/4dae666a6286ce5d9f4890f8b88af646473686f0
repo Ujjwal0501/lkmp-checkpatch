@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 4dae666a6286 ("btrfs: use the token::eb for all set/get helpers") has no obvious style problems and is ready for submission.

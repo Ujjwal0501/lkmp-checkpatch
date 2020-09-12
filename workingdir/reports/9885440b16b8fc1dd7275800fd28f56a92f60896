@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 99 lines checked
+
+Commit 9885440b16b8 ("PCI: Fix pci_host_bridge struct device release/free handling") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit ff62255a2a5c ("sparc64: vcc: Fix error return code in vcc_probe()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit a4338ed2e1cf ("staging: wilc1000: Increase the size of wid_list array") has no obvious style problems and is ready for submission.

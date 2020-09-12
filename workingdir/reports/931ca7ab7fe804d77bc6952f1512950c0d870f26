@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 163 lines checked
+
+Commit 931ca7ab7fe8 ("ip*_mc_gsfget(): lift copyout of struct group_filter into callers") has no obvious style problems and is ready for submission.

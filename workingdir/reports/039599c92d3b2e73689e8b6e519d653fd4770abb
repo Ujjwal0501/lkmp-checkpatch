@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 039599c92d3b ("amba: Retry adding deferred devices at late_initcall") has no obvious style problems and is ready for submission.

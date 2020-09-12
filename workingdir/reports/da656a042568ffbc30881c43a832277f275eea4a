@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit da656a042568 ("iommu/vt-d: Use pci_ats_supported()") has no obvious style problems and is ready for submission.

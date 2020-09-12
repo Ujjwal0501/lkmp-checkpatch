@@ -1,0 +1,33 @@
+WARNING:LONG_LINE_STRING: line length of 115 exceeds 100 columns
+#141: FILE: tools/perf/util/auxtrace.h:608:
++"				b:	    		synthesize branches events (branch misses for Arm SPE)\n" \
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#141: FILE: tools/perf/util/auxtrace.h:608:
++"^I^I^I^Ib:^I    ^I^Isynthesize branches events (branch misses for Arm SPE)\n" \$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#149: FILE: tools/perf/util/auxtrace.h:616:
++"^I^I^I^If:^I    ^I^Isynthesize first level cache events\n" \$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#150: FILE: tools/perf/util/auxtrace.h:617:
++"^I^I^I^Im:^I    ^I^Isynthesize last level cache events\n" \$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#151: FILE: tools/perf/util/auxtrace.h:618:
++"^I^I^I^It:^I    ^I^Isynthesize TLB events\n" \$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#152: FILE: tools/perf/util/auxtrace.h:619:
++"^I^I^I^Ia:^I    ^I^Isynthesize remote access events\n" \$
+
+total: 0 errors, 6 warnings, 90 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9f74d770180d ("perf auxtrace: Add four itrace options") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

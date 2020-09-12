@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit fb212ad6cc58 ("drm/msm: Update the MMU helper function APIs") has no obvious style problems and is ready for submission.

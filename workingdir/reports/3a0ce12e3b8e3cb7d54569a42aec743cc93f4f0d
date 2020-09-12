@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 3a0ce12e3b8e ("iommu/iova: Unify format of the printed messages") has no obvious style problems and is ready for submission.

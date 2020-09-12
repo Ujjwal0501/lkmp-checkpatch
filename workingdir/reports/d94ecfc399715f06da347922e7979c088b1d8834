@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 89 lines checked
+
+Commit d94ecfc39971 ("blk-mq: split out a __blk_mq_get_driver_tag helper") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 0521701c8d10 ("pinctrl: mcp23s08: Drop unused parameter in mcp23s08_probe_one()") has no obvious style problems and is ready for submission.

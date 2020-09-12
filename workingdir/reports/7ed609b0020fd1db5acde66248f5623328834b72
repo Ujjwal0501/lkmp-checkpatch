@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#726: FILE: arch/arm/boot/dts/sama5d3.dtsi:1199:
++			clocks = <&pmc PMC_TYPE_PERIPHERAL 32>, <&pmc PMC_TYPE_PERIPHERAL 32>, <&pmc PMC_TYPE_SYSTEM 6>;
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#814: FILE: arch/arm/boot/dts/sama5d3_emac.dtsi:42:
++				clocks = <&pmc PMC_TYPE_PERIPHERAL 35>, <&pmc PMC_TYPE_PERIPHERAL 35>;
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#842: FILE: arch/arm/boot/dts/sama5d3_gmac.dtsi:72:
++				clocks = <&pmc PMC_TYPE_PERIPHERAL 34>, <&pmc PMC_TYPE_PERIPHERAL 34>;
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#855: FILE: arch/arm/boot/dts/sama5d3_lcd.dtsi:19:
++				clocks = <&pmc PMC_TYPE_PERIPHERAL 36>, <&pmc PMC_TYPE_SYSTEM 3>, <&clk32k>;
+
+total: 0 errors, 4 warnings, 905 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7ed609b0020f ("ARM: dts: at91: sama5d3: switch to new clock bindings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

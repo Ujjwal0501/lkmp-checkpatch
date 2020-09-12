@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit c76c1a429788 ("drm/amd/amdgpu: Include headers for PWR and SMUIO registers") has no obvious style problems and is ready for submission.

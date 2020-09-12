@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit d0815bc1b455 ("ARM: dts: at91: sama5d27_som1_ek: enable i2c0") has no obvious style problems and is ready for submission.

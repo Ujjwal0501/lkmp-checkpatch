@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 761e28fa270a ("statx: don't clear STATX_ATIME on SB_RDONLY") has no obvious style problems and is ready for submission.

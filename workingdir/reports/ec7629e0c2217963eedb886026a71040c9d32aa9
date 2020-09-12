@@ -1,0 +1,19 @@
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'queue' - possible side-effects?
+#170: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_llh_internal.h:115:
++#define HW_ATL2_RX_Q_TC_MAP_ADR(queue) \
++	(((queue) < 32) ? 0x00005900 + ((queue) / 8) * 4 : 0)
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'queue' - possible side-effects?
+#173: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2_llh_internal.h:118:
++#define HW_ATL2_RX_Q_TC_MAP_SHIFT(queue) \
++	(((queue) < 32) ? ((queue) * 4) % 32 : 0)
+
+total: 0 errors, 0 warnings, 2 checks, 236 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ec7629e0c221 ("net: atlantic: HW bindings for basic A2 init/deinit hw_ops") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

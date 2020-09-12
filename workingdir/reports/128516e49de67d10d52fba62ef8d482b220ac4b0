@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 128516e49de6 ("iio: dummy_evgen: Fix use after free on error in iio_dummy_evgen_create()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#15: 
+Original-patch-by: Randy Dunlap <rdunlap@infradead.org>
+
+total: 0 errors, 1 warnings, 442 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d98ce9fef73d ("parport: fix if-statement empty body warnings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 24 lines checked
+
+Commit 1ae71d997a67 ("ethtool: fix error handling in linkstate_prepare_data()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 116 lines checked
+
+Commit f745664257b6 ("tcp: add tcp_ld_RTO_revert() helper") has no obvious style problems and is ready for submission.

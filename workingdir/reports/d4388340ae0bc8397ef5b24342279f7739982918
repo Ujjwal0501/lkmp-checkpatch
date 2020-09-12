@@ -1,0 +1,13 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct readahead_control *' should also have an identifier name
+#637: FILE: include/linux/mpage.h:18:
++void mpage_readahead(struct readahead_control *, get_block_t get_block);
+
+total: 0 errors, 1 warnings, 489 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d4388340ae0b ("fs: convert mpage_readpages to mpage_readahead") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

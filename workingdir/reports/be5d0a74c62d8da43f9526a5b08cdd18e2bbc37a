@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 319 lines checked
+
+Commit be5d0a74c62d ("mm: memcontrol: switch to native NR_ANON_MAPPED counter") has no obvious style problems and is ready for submission.

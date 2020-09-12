@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 102 lines checked
+
+Commit d77290507ab2 ("x86/entry/32: Convert IRET exception to IDTENTRY_SW") has no obvious style problems and is ready for submission.

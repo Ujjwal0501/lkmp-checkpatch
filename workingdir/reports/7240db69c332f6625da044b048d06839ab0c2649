@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 47 lines checked
+
+Commit 7240db69c332 ("mlxsw: spectrum_acl: Convert flower-based mirroring to new SPAN API") has no obvious style problems and is ready for submission.

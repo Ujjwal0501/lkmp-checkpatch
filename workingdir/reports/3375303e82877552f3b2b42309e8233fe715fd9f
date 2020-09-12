@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 147 lines checked
+
+Commit 3375303e8287 ("iommu/vt-d: Add custom allocator for IOASID") has no obvious style problems and is ready for submission.

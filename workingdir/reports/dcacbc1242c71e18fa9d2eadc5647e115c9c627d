@@ -1,0 +1,14 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#148: FILE: drivers/md/bcache/super.c:896:
++		pr_info("%s: sb/logical block size (%u) greater than page size "
++			"(%lu) falling back to device logical block size (%u)",
+
+total: 0 errors, 1 warnings, 46 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dcacbc1242c7 ("bcache: check and adjust logical block size for backing devices") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

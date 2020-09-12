@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 169 lines checked
+
+Commit 1cdee0044261 ("scsi: hisi_sas: Stop returning error code from slot_complete_vX_hw()") has no obvious style problems and is ready for submission.

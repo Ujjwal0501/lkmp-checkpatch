@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 228 lines checked
+
+Commit 6e176bf8d461 ("PM: sleep: core: Do not skip callbacks in the resume phase") has no obvious style problems and is ready for submission.

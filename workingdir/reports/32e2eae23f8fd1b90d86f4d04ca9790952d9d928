@@ -1,0 +1,29 @@
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#762: FILE: MAINTAINERS:8654:
+ F:	Documentation/userspace-api/media/v4l/pixfmt-meta-intel-ipu3.rst
++F:	Documentation/admin-guide/media/ipu3.rst
+
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#781: FILE: MAINTAINERS:10453:
+ F:	Documentation/devicetree/bindings/media/imx.txt
++F:	Documentation/admin-guide/media/imx.rst
+
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#790: FILE: MAINTAINERS:10465:
+ F:	Documentation/devicetree/bindings/media/imx7-mipi-csi2.txt
++F:	Documentation/admin-guide/media/imx7.rst
+
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#808: FILE: MAINTAINERS:13961:
+ F:	Documentation/devicetree/bindings/media/qcom,camss.txt
++F:	Documentation/admin-guide/media/qcom_camss.rst
+
+total: 0 errors, 4 warnings, 400 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 32e2eae23f8f ("media: docs: move user-facing docs to the admin guide") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

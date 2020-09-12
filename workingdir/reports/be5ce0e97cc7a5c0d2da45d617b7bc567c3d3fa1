@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 451 lines checked
+
+Commit be5ce0e97cc7 ("i2c: mediatek: Add i2c ac-timing adjust support") has no obvious style problems and is ready for submission.

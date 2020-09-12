@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit 7c2fedd7608f ("drm/i915: Push TRANS_DDI_FUNC_CTL into the encoder->enable() hook") has no obvious style problems and is ready for submission.

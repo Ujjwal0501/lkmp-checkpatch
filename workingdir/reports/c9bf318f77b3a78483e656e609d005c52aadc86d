@@ -1,0 +1,19 @@
+ERROR:SPACING: space prohibited before that ':' (ctx:WxW)
+#79: FILE: arch/x86/kernel/cpu/mce/internal.h:151:
++	succor			: 1,
+ 	      			^
+
+ERROR:SPACING: space prohibited before that ':' (ctx:WxW)
+#88: FILE: arch/x86/kernel/cpu/mce/internal.h:159:
++	smca			: 1,
+ 	    			^
+
+total: 2 errors, 0 warnings, 60 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c9bf318f77b3 ("x86/mce/amd: Init thresholding machinery only on relevant vendors") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

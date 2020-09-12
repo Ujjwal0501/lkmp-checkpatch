@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#27: FILE: drivers/gpu/drm/radeon/ni_dpm.c:2130:
++		if (fb_div & ~(SMC_NISLANDS_SPLL_DIV_TABLE_FBDIV_MASK >> SMC_NISLANDS_SPLL_DIV_TABLE_FBDIV_SHIFT))
+
+total: 0 errors, 1 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 35f760b44b1b ("drm/radeon: fix fb_div check in ni_init_smc_spll_table()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

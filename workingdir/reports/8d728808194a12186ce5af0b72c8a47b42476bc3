@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 8d728808194a ("spi: spi-fsl-lpspi: Fix runtime PM imbalance on error") has no obvious style problems and is ready for submission.

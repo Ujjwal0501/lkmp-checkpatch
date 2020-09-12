@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 86 lines checked
+
+Commit 13cbc0cd4a30 ("x86/entry/32: Fix #MC and #DB wiring on x86_32") has no obvious style problems and is ready for submission.

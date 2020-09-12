@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 341 lines checked
+
+Commit eac9c58539aa ("drm/i915: Flatten a bunch of the pfit functions") has no obvious style problems and is ready for submission.

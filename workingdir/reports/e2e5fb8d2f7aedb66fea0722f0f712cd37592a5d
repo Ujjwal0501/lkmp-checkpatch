@@ -1,0 +1,13 @@
+CHECK:CAMELCASE: Avoid CamelCase: <DescOwn>
+#35: FILE: drivers/net/ethernet/realtek/r8169_main.c:3834:
++	WRITE_ONCE(desc->opts1, cpu_to_le32(DescOwn | eor | R8169_RX_BUF_SIZE));
+
+total: 0 errors, 0 warnings, 1 checks, 17 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e2e5fb8d2f7a ("r8169: improve rtl8169_mark_to_asic") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

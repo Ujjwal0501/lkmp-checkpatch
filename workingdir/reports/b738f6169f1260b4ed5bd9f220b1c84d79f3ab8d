@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 176 lines checked
+
+Commit b738f6169f12 ("kcsan: Introduce kcsan_value_change type") has no obvious style problems and is ready for submission.

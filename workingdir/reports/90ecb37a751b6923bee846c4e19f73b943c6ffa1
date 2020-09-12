@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 90ecb37a751b ("RDMA/mlx5: Change scatter CQE flag to be set like other vendor flags") has no obvious style problems and is ready for submission.

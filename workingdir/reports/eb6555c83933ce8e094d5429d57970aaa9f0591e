@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit eb6555c83933 ("x86/entry/64: Move do_softirq_own_stack() to C") has no obvious style problems and is ready for submission.

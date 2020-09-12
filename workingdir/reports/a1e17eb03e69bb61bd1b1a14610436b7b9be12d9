@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit a1e17eb03e69 ("scsi: ufs-bsg: Fix runtime PM imbalance on error") has no obvious style problems and is ready for submission.

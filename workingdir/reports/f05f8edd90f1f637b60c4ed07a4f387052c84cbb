@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 54 lines checked
+
+Commit f05f8edd90f1 ("iwlwifi: yoyo: support IWL_FW_INI_TIME_POINT_HOST_ALIVE_TIMEOUT time point") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit f933d160b1e7 ("media: usb: ttusb-dec: reduce the number of memory reads in ttusb_dec_handle_irq()") has no obvious style problems and is ready for submission.

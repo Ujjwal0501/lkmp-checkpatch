@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit b683e6d9a679 ("drm/i915/dsi: Add cmd mode flags in display mode private flags") has no obvious style problems and is ready for submission.

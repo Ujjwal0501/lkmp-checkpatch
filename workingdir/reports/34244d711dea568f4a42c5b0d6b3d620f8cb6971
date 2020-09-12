@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 34244d711dea ("gfs2: Don't sleep during glock hash walk") has no obvious style problems and is ready for submission.

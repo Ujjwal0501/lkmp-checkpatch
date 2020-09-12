@@ -1,0 +1,32 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#31: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#36: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/hdagv100.c:1:
++/*
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#64: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/hdagv100.c:29:
++	const u32 hoff = 0x800 * head;
++	nvkm_mask(device, 0x616528 + hoff, 0x00000070, head << 4);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct nvkm_ior *' should also have an identifier name
+#74: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/ior.h:168:
++void gv100_hda_device_entry(struct nvkm_ior *, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#74: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/ior.h:168:
++void gv100_hda_device_entry(struct nvkm_ior *, int);
+
+total: 0 errors, 6 warnings, 61 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0435d7c69271 ("drm/nouveau/disp/hda/gv100-: NV_PDISP_SF_AUDIO_CNTRL0 register moved") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

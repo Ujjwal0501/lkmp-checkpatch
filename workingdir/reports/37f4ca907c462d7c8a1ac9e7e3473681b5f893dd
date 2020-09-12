@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 277 lines checked
+
+Commit 37f4ca907c46 ("mt76: mt7915: register per-phy HE capabilities for each interface") has no obvious style problems and is ready for submission.

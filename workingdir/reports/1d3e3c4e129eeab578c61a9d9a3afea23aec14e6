@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 92 lines checked
+
+Commit 1d3e3c4e129e ("clk: tegra: Remove the old emc_mux clock for Tegra210") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#77: FILE: tools/testing/selftests/net/pmtu.sh:399:
++	run_cmd ${ns_a} ip link add ip_a type ${type} local ${a_addr} remote ${b_addr} mode ${mode} || return 2
+
+WARNING:LONG_LINE_STRING: line length of 106 exceeds 100 columns
+#154: FILE: tools/testing/selftests/net/pmtu.sh:1014:
++	check_pmtu_value ${exp_mtu} "${pmtu}" "exceeding link layer MTU on ip${inner}ip${outer} interface"
+
+total: 0 errors, 2 warnings, 146 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b66c9b8de22b ("selftests: pmtu: implement IPIP, SIT and ip6tnl PMTU discovery tests") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

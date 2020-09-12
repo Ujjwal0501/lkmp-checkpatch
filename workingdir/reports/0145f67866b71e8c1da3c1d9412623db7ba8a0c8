@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 0145f67866b7 ("thermal: Remove thermal_zone_device_update() stub") has no obvious style problems and is ready for submission.

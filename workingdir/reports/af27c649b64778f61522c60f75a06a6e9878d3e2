@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit af27c649b647 ("drm/amdgpu: drop extra runtime pm handling in resume pmop") has no obvious style problems and is ready for submission.

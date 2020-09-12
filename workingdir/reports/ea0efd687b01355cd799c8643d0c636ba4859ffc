@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit ea0efd687b01 ("usb: renesas_usbhs: getting residue from callback_result") has no obvious style problems and is ready for submission.

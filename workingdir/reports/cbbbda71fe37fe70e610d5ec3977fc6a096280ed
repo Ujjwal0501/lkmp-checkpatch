@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 103 lines checked
+
+Commit cbbbda71fe37 ("firmware: xilinx: Remove eemi ops for set_requirement") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 71 lines checked
+
+Commit c1034eb06920 ("perf tool: Make perf tool aware of SELinux access control") has no obvious style problems and is ready for submission.

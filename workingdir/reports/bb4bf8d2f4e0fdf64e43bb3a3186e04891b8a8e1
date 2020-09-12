@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit bb4bf8d2f4e0 ("spi: sprd: adi: Use IS_ENABLED() to validate configs") has no obvious style problems and is ready for submission.

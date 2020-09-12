@@ -1,0 +1,33 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#24: 
+[1]: https://lore.kernel.org/lkml/20190528002412.1625-1-dima@arista.com/T/#u
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#55: FILE: arch/h8300/kernel/traps.c:129:
++	printk("%sStack from %08lx:", loglvl, (unsigned long)stack);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#62: FILE: arch/h8300/kernel/traps.c:135:
++			printk("%s ", loglvl);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#67: FILE: arch/h8300/kernel/traps.c:139:
++	printk("%s\nCall Trace:\n", loglvl);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#76: FILE: arch/h8300/kernel/traps.c:154:
++				printk("%s       ", loglvl);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#82: FILE: arch/h8300/kernel/traps.c:159:
++	printk("%s\n", loglvl);
+
+total: 0 errors, 6 warnings, 46 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0b2ad0c7ae0f ("h8300: add show_stack_loglvl()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit 25444ca6cbb9 ("drm/i915/fbc: Require linear fb stride to be multiple of 512 bytes on gen9/glk") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 9449c9cb420b ("mm/debug_vm_pgtable: fix build failure with powerpc 8xx") has no obvious style problems and is ready for submission.

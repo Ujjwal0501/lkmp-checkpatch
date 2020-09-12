@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit fa63ed81705a ("drm/amd/display: Enable fp16 also on DCE-11.0 - DCE-12. (v2)") has no obvious style problems and is ready for submission.

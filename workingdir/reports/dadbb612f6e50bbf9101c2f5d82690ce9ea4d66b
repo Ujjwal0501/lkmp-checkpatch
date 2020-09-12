@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 163 lines checked
+
+Commit dadbb612f6e5 ("mm/gup.c: convert to use get_user_{page|pages}_fast_only()") has no obvious style problems and is ready for submission.

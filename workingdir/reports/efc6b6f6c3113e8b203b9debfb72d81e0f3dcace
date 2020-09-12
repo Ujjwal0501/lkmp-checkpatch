@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 66 lines checked
+
+Commit efc6b6f6c311 ("udp: Improve load balancing for SO_REUSEPORT.") has no obvious style problems and is ready for submission.

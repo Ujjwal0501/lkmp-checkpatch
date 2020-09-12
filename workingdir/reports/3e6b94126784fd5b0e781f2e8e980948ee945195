@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#8: 
+help debug/understand a failure when the the cause of the assert isn't
+
+total: 0 errors, 1 warnings, 31 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3e6b94126784 ("KVM: selftests: Add GUEST_ASSERT variants to pass values to host") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

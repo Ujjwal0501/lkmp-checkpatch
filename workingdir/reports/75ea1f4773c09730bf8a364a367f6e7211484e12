@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 75ea1f4773c0 ("net: sit: implement header_ops->parse_protocol for AF_PACKET") has no obvious style problems and is ready for submission.

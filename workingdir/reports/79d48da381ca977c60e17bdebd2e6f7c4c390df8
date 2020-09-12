@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 79d48da381ca ("i2c: i2c-stm32f7: improve nack debug message") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit f900bf4951a2 ("ACPI: EC: Put the ACPI table after using it") has no obvious style problems and is ready for submission.

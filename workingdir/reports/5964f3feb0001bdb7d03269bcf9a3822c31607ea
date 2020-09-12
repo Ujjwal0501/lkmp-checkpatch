@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 151 lines checked
+
+Commit 5964f3feb000 ("drm/amd/powerplay: avoid calling Vega20 specific SMU message implemention") has no obvious style problems and is ready for submission.

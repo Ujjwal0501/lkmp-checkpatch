@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 115 lines checked
+
+Commit 38c440b24052 ("dpaa2-eth: create a function to flush the XDP fds") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 3fec4aecb311 ("kgdb: Fix spurious true from in_dbg_master()") has no obvious style problems and is ready for submission.

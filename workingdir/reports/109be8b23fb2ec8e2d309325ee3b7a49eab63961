@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 109be8b23fb2 ("gpu: host1x: Clean up debugfs in error handling path") has no obvious style problems and is ready for submission.

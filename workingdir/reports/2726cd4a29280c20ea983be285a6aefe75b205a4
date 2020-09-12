@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 33 lines checked
+
+Commit 2726cd4a2928 ("net/mlx5: Dedicate fw page to the requesting function") has no obvious style problems and is ready for submission.

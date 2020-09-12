@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 39 lines checked
+
+Commit 4566aa440008 ("netfilter: nft_nat: set flags from initialization path") has no obvious style problems and is ready for submission.

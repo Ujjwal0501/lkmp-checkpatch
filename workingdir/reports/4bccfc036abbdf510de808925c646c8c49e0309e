@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 94 lines checked
+
+Commit 4bccfc036abb ("cxgb4: tune burst buffer size for TC-MQPRIO offload") has no obvious style problems and is ready for submission.

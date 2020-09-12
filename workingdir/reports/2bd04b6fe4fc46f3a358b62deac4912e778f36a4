@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Use a single space after Not-acked-by:
+#12: 
+Not-acked-by:  Dimitri Sivanich <sivanich@hpe.com>
+
+total: 0 errors, 1 warnings, 31 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2bd04b6fe4fc ("x86/platform/uv: Unexport symbols only used by x2apic_uv_x.c") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

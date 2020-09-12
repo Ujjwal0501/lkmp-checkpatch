@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c7388c1f8fb6 ("net/sysctl: remove leftover __user annotations on neigh_proc_dointvec*") has no obvious style problems and is ready for submission.

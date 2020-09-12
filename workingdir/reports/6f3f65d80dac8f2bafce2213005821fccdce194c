@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 6f3f65d80dac ("net: bpf: Allow TC programs to call BPF_FUNC_skb_change_head") has no obvious style problems and is ready for submission.

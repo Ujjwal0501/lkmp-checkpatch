@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 08b91dd6e547 ("bus: ti-sysc: Ignore clockactivity unless specified as a quirk") has no obvious style problems and is ready for submission.

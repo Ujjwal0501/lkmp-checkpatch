@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit e852c2c251ed ("mei: bus: don't clean driver pointer") has no obvious style problems and is ready for submission.

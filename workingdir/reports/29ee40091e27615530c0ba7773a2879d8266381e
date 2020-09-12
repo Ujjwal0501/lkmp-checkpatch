@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 78 lines checked
+
+Commit 29ee40091e27 ("rtc: mt6397: Add support for the MediaTek MT6358 RTC") has no obvious style problems and is ready for submission.

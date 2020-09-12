@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 40 lines checked
+
+Commit 9ae58d7bd11f ("rcu-tasks: Add Kconfig option to mediate smp_mb() vs. IPI") has no obvious style problems and is ready for submission.

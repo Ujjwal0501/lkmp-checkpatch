@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit c91114c2b89d ("md/raid1: release pending accounting for an I/O only after write-behind is also finished") has no obvious style problems and is ready for submission.

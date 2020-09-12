@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 0b19d54cae11 ("modpost: remove mod->skip struct member") has no obvious style problems and is ready for submission.

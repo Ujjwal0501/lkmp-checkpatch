@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit 2a5bc6c47bc3 ("arm64/cpufeature: Add explicit ftr_id_isar0[] for ID_ISAR0 register") has no obvious style problems and is ready for submission.

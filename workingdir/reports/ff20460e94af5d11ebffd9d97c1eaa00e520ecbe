@@ -1,0 +1,117 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#27: FILE: tools/include/uapi/linux/bpf.h:678:
++ * ^I^IGenerally, use **bpf_probe_read_user**\ () or$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#28: FILE: tools/include/uapi/linux/bpf.h:679:
++ * ^I^I**bpf_probe_read_kernel**\ () instead.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#37: FILE: tools/include/uapi/linux/bpf.h:687:
++ * ^I^ISee: **clock_gettime**\ (**CLOCK_MONOTONIC**)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#46: FILE: tools/include/uapi/linux/bpf.h:1546:
++ * ^I^I*unsafe_ptr* to *dst*. See **bpf_probe_read_kernel_str**\ () for$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#51: FILE: tools/include/uapi/linux/bpf.h:1549:
++ * ^I^IGenerally, use **bpf_probe_read_user_str**\ () or$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#52: FILE: tools/include/uapi/linux/bpf.h:1550:
++ * ^I^I**bpf_probe_read_kernel_str**\ () instead.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#61: FILE: tools/include/uapi/linux/bpf.h:1578:
++ * ^I^IEquivalent to **bpf_get_socket_cookie**\ () helper that accepts$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#79: FILE: tools/include/uapi/linux/bpf.h:1676:
++ * ^I^Ione of the XDP program return codes up to **XDP_TX**, as chosen$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#80: FILE: tools/include/uapi/linux/bpf.h:1677:
++ * ^I^Iby the caller. Any higher bits in the *flags* argument must be$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#85: FILE: tools/include/uapi/linux/bpf.h:1680:
++ * ^I^ISee also **bpf_redirect**\ (), which only supports redirecting$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#86: FILE: tools/include/uapi/linux/bpf.h:1681:
++ * ^I^Ito an ifindex, but doesn't require a map to do so.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#95: FILE: tools/include/uapi/linux/bpf.h:1789:
++ * ^I^IeBPF program, users can use CPU id as the key (which is$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#112: FILE: tools/include/uapi/linux/bpf.h:1838:
++ * ^I^IThis helper works by setting the PC (program counter)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#146: FILE: tools/include/uapi/linux/bpf.h:2915:
++ * ^I^IIn comparison, using **bpf_probe_read_user**\ () helper here$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#155: FILE: tools/include/uapi/linux/bpf.h:2933:
++ * ^I^Ito *dst*. Same semantics as with **bpf_probe_read_user_str**\ () apply.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#158: FILE: tools/include/uapi/linux/bpf.h:2935:
++ * ^I^IOn success, the strictly positive length of the string, including$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#209: FILE: tools/include/uapi/linux/bpf.h:3028:
++ * ^I^Iof **bpf_get_socket_cookie**\ () helper, but for network$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#210: FILE: tools/include/uapi/linux/bpf.h:3029:
++ * ^I^Inamespaces instead of sockets.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#244: FILE: tools/include/uapi/linux/bpf.h:3082:
++ * ^I^ISee: **clock_gettime**\ (**CLOCK_BOOTTIME**)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#251: FILE: tools/include/uapi/linux/bpf.h:3088:
++ * ^I^I**bpf_seq_printf**\ () uses seq_file **seq_printf**\ () to print$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#252: FILE: tools/include/uapi/linux/bpf.h:3089:
++ * ^I^Iout the format string.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#256: FILE: tools/include/uapi/linux/bpf.h:3092:
++ * ^I^Iarguments. The *data* are a **u64** array and corresponding format string$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#260: FILE: tools/include/uapi/linux/bpf.h:3095:
++ * ^I^IThe *data_len* is the size of *data* in bytes.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#271: FILE: tools/include/uapi/linux/bpf.h:3104:
++ * ^I^I0 on success, or a negative error in case of failure:$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#290: FILE: tools/include/uapi/linux/bpf.h:3117:
++ * ^I^I**bpf_seq_write**\ () uses seq_file **seq_write**\ () to write the data.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#293: FILE: tools/include/uapi/linux/bpf.h:3119:
++ * ^I^Idata to write in bytes.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#296: FILE: tools/include/uapi/linux/bpf.h:3121:
++ * ^I^I0 on success, or a negative error in case of failure:$
+
+total: 0 errors, 27 warnings, 264 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ff20460e94af ("tools, bpf: Synchronise BPF UAPI header with tools") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

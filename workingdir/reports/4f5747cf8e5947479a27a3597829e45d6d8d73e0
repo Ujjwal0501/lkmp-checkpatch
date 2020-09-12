@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 4f5747cf8e59 ("RDMA/mlx5: Fix -Wformat warning in check_ucmd_data()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 856c45d8c1a7 ("pwm: sun4i: Support direct clock output on Allwinner A64") has no obvious style problems and is ready for submission.

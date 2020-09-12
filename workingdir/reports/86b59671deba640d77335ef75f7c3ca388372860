@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 86b59671deba ("mmc: sdhci-esdhc-imx: Add HS400 support for i.MX6SLL") has no obvious style problems and is ready for submission.

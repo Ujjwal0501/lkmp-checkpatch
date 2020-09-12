@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit c25e509aef8b ("i2c: pxa: avoid complaints with non-responsive slaves") has no obvious style problems and is ready for submission.

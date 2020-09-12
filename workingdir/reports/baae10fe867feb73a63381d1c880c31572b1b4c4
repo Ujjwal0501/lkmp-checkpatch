@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit baae10fe867f ("Staging: rtl8723bs: core: remove set but not used 'ptxservq'") has no obvious style problems and is ready for submission.

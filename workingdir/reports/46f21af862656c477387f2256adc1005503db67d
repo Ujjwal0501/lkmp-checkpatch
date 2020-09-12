@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 46f21af86265 ("NTB: correct ntb_peer_spad_addr and ntb_peer_spad_read comment typos") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 4301efa4c7cc ("writeback: Export inode_io_list_del()") has no obvious style problems and is ready for submission.

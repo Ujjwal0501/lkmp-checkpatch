@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 275 lines checked
+
+Commit f78d358cec90 ("RDMA/mlx5: Group all create QP parameters to simplify in-kernel interfaces") has no obvious style problems and is ready for submission.

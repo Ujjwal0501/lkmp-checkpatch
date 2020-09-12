@@ -1,0 +1,26 @@
+CHECK:SPACING: spaces preferred around that '*' (ctx:VxV)
+#29: FILE: drivers/staging/media/atomisp/i2c/atomisp-ov2680.c:119:
++			__func__, data[0]*256 +data[1], data[2], ret);
+ 			                 ^
+
+CHECK:SPACING: spaces preferred around that '+' (ctx:WxV)
+#29: FILE: drivers/staging/media/atomisp/i2c/atomisp-ov2680.c:119:
++			__func__, data[0]*256 +data[1], data[2], ret);
+ 			                      ^
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#50: FILE: drivers/staging/media/atomisp/i2c/atomisp-ov2680.c:181:
++^I^I        __func__);$
+
+total: 1 errors, 0 warnings, 2 checks, 183 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 5589ea0745ef ("media: atomisp: ov2680: improve debug messages") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

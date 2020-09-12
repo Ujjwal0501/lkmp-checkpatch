@@ -1,0 +1,113 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#6: 
+Both singleton BPF ringbuf and BPF ringbuf with map-in-map use cases are tested.
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#26: 
+new file mode 100644
+
+ERROR:INITIALISED_STATIC: do not initialise statics to 0
+#49: FILE: tools/testing/selftests/bpf/prog_tests/ringbuf.c:19:
++static int duration = 0;
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void trigger_samples() should probably be void trigger_samples(void)
+#84: FILE: tools/testing/selftests/bpf/prog_tests/ringbuf.c:54:
++static void trigger_samples()
+
+WARNING:TYPECAST_INT_CONSTANT: Unnecessary typecast of c90 int constant
+#171: FILE: tools/testing/selftests/bpf/prog_tests/ringbuf.c:141:
++	err = pthread_create(&thread, NULL, poll_thread, (void *)(long)10000);
+
+ERROR:INITIALISED_STATIC: do not initialise statics to 0
+#254: FILE: tools/testing/selftests/bpf/prog_tests/ringbuf_multi.c:7:
++static int duration = 0;
+
+WARNING:TYPECAST_INT_CONSTANT: Unnecessary typecast of c90 int constant
+#302: FILE: tools/testing/selftests/bpf/prog_tests/ringbuf_multi.c:55:
++				   process_sample, (void *)(long)1, NULL);
+
+WARNING:TYPECAST_INT_CONSTANT: Unnecessary typecast of c90 int constant
+#307: FILE: tools/testing/selftests/bpf/prog_tests/ringbuf_multi.c:60:
++			      process_sample, (void *)(long)2);
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#377: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:22:
++int pid = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#378: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:23:
++long value = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#379: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:24:
++long flags = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#382: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:27:
++long total = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#383: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:28:
++long discarded = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#384: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:29:
++long dropped = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#386: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:31:
++long avail_data = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#387: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:32:
++long ring_size = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#388: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:33:
++long cons_pos = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#389: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:34:
++long prod_pos = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#392: FILE: tools/testing/selftests/bpf/progs/test_ringbuf.c:37:
++long seq = 0;
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#459: FILE: tools/testing/selftests/bpf/progs/test_ringbuf_multi.c:20:
++  ringbuf2 SEC(".maps");$
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#474: FILE: tools/testing/selftests/bpf/progs/test_ringbuf_multi.c:35:
++int pid = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#475: FILE: tools/testing/selftests/bpf/progs/test_ringbuf_multi.c:36:
++int target_ring = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#476: FILE: tools/testing/selftests/bpf/progs/test_ringbuf_multi.c:37:
++long value = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#479: FILE: tools/testing/selftests/bpf/progs/test_ringbuf_multi.c:40:
++long total = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#480: FILE: tools/testing/selftests/bpf/progs/test_ringbuf_multi.c:41:
++long dropped = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#481: FILE: tools/testing/selftests/bpf/progs/test_ringbuf_multi.c:42:
++long skipped = 0;
+
+total: 20 errors, 6 warnings, 468 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cb1c9ddd5525 ("selftests/bpf: Add BPF ringbuf selftests") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

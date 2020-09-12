@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit b2ce4d90690b ("nvme-multipath: set bdi capabilities once") has no obvious style problems and is ready for submission.

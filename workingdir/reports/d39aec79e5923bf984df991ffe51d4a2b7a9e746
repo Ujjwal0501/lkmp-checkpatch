@@ -1,0 +1,17 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#20: 
+Signed-off-by: Alexei Starovoitov <ast@kernel.org>
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#32: 
+new file mode 100644
+
+total: 0 errors, 2 warnings, 163 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d39aec79e592 ("selftest: Add tests for XDP programs in devmap entries") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

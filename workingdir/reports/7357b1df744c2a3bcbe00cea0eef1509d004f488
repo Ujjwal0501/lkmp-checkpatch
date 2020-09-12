@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit 7357b1df744c ("KVM: x86: hyperv: Remove duplicate definitions of Reference TSC Page") has no obvious style problems and is ready for submission.

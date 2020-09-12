@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit 33cf601da7a4 ("net/rds: NULL pointer de-reference in rds_ib_add_one()") has no obvious style problems and is ready for submission.

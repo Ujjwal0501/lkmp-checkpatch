@@ -1,0 +1,17 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct page *' should also have an identifier name
+#78: FILE: include/linux/swap.h:339:
++extern void lru_note_cost_page(struct page *);
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#90: FILE: include/linux/vmstat.h:29:
++	unsigned nr_pageout;
+
+total: 0 errors, 2 warnings, 82 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 96f8bf4fb1dd ("mm: vmscan: reclaim writepage is IO cost") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

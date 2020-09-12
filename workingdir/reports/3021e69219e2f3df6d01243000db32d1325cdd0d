@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 55 lines checked
+
+Commit 3021e69219e2 ("kcov: check kcov_softirq in kcov_remote_stop()") has no obvious style problems and is ready for submission.

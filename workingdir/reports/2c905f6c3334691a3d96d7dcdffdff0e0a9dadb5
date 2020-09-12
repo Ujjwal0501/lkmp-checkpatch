@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 2c905f6c3334 ("dt-bindings: gpu: add power-domains #cooling-cells to arm,mali-bifrost.yaml") has no obvious style problems and is ready for submission.

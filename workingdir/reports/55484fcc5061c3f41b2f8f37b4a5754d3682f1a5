@@ -1,0 +1,17 @@
+WARNING:TYPO_SPELLING: 'dependancy' may be misspelled - perhaps 'dependency'?
+#10: 
+of "STM32 usart power improvement" series, but as dependancy to
+
+WARNING:TYPO_SPELLING: 'dependancy' may be misspelled - perhaps 'dependency'?
+#12: 
+this patch has no more dependancy with any other patch of this series.
+
+total: 0 errors, 2 warnings, 19 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 55484fcc5061 ("serial: stm32: add no_console_suspend support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

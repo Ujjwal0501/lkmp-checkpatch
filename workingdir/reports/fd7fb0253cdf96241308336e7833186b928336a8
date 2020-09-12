@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 18 lines checked
+
+Commit fd7fb0253cdf ("brcmsmac: make brcms_c_set_mac() void") has no obvious style problems and is ready for submission.

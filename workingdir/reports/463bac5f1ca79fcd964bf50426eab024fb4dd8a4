@@ -1,0 +1,21 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#14: 
+Signed-off-by: Alexei Starovoitov <ast@kernel.org>
+
+WARNING:LONG_LINE: line length of 197 exceeds 100 columns
+#155: FILE: tools/testing/selftests/bpf/test_sockmap.c:522:
++						"detected redirect ktls_skb data error with skb ingress update @iov[%i]:%i \"%02x %02x %02x %02x\" != \"PASS\"\n", i, 0, d[13], d[14], d[15], d[16]);
+
+WARNING:LONG_LINE: line length of 184 exceeds 100 columns
+#166: FILE: tools/testing/selftests/bpf/test_sockmap.c:533:
++						"detected ktls_skb data error with skb ingress update @iov[%i]:%i \"%02x %02x %02x %02x\" != \"PASS\"\n", i, 0, d[0], d[1], d[2], d[3]);
+
+total: 0 errors, 3 warnings, 338 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 463bac5f1ca7 ("bpf, selftests: Add test for ktls with skb bpf ingress policy") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

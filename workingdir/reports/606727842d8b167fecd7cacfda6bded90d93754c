@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#59: FILE: drivers/gpu/drm/i915/gt/intel_engine_cs.c:1257:
++				DIV_ROUND_CLOSEST_ULL(intel_context_get_total_runtime_ns(rq->context),
+
+total: 0 errors, 1 warnings, 128 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 606727842d8b ("drm/i915/gt: Include the execlists CCID of each port in the engine dump") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

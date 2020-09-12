@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 33225d7b0ac9 ("printk: Correctly set CON_CONSDEV even when preferred console was not registered") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit d78a0dcf64cb ("ovl: remove not used argument in ovl_check_origin") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 9600f261acaa ("powerpc/64s/exception: Move KVM test to common code")'
+#12: 
+9600f261acaa ("powerpc/64s/exception: Move KVM test to common code")
+
+total: 1 errors, 0 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4557ac6b344b ("powerpc/64s/exception: Fix 0x1500 interrupt handler crash") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

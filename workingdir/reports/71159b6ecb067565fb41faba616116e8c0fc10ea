@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit 71159b6ecb06 ("scsi: zfcp: Fence early sysfs interfaces for accesses of shost objects") has no obvious style problems and is ready for submission.

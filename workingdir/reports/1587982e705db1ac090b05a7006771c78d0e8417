@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 71 lines checked
+
+Commit 1587982e705d ("RDMA: Remove a few extra calls to ib_get_client_data()") has no obvious style problems and is ready for submission.

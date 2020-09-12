@@ -1,0 +1,125 @@
+WARNING:TYPO_SPELLING: 'defintion' may be misspelled - perhaps 'definition'?
+#4: 
+Subject: [PATCH] drm/amdgpu: Add AQUIRE_MEM PACKET3 fields defintion
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#37: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:269:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GLI_INV(x) ((x) << 0)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#44: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:276:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GL1_RANGE(x) ((x) << 2)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#51: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:283:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GLM_WB(x) ((x) << 4)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#52: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:284:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GLM_INV(x) ((x) << 5)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#53: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:285:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GLK_WB(x) ((x) << 6)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#54: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:286:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GLK_INV(x) ((x) << 7)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#55: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:287:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GLV_INV(x) ((x) << 8)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#56: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:288:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GL1_INV(x) ((x) << 9)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#57: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:289:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GL2_US(x) ((x) << 10)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#58: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:290:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GL2_RANGE(x) ((x) << 11)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#65: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:297:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GL2_DISCARD(x)  ((x) << 13)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#66: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:298:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GL2_INV(x) ((x) << 14)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#67: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:299:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_GL2_WB(x) ((x) << 15)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#68: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:300:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_CNTL_SEQ(x) ((x) << 16)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#74: FILE: drivers/gpu/drm/amd/amdgpu/nvd.h:306:
++#define ^IPACKET3_ACQUIRE_MEM_GCR_RANGE_IS_PA  (1 << 18)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#98: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:267:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_TC_NC_ACTION_ENA(x) ((x) << 3)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#99: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:268:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_TC_WC_ACTION_ENA(x) ((x) << 4)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#100: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:269:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_TC_INV_METADATA_ACTION_ENA(x) ((x) << 5)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#101: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:270:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_TCL1_VOL_ACTION_ENA(x) ((x) << 15)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#102: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:271:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_TC_WB_ACTION_ENA(x) ((x) << 18)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#103: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:272:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_TCL1_ACTION_ENA(x) ((x) << 22)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#104: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:273:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_TC_ACTION_ENA(x) ((x) << 23)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#105: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:274:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_CB_ACTION_ENA(x) ((x) << 25)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#106: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:275:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_DB_ACTION_ENA(x) ((x) << 26)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#107: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:276:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_SH_KCACHE_ACTION_ENA(x) ((x) << 27)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#108: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:277:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_SH_KCACHE_VOL_ACTION_ENA(x) ((x) << 28)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#109: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:278:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_SH_ICACHE_ACTION_ENA(x) ((x) << 29)$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#110: FILE: drivers/gpu/drm/amd/amdgpu/soc15d.h:279:
++#define ^IPACKET3_ACQUIRE_MEM_CP_COHER_CNTL_SH_KCACHE_WB_ACTION_ENA(x) ((x) << 30)$
+
+total: 0 errors, 29 warnings, 85 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 73339a71547c ("drm/amdgpu: Add AQUIRE_MEM PACKET3 fields defintion") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit ea6318dc5a1d ("ARM: dts: stm32: add Fast Mode Plus info in I2C nodes of stm32mp151") has no obvious style problems and is ready for submission.

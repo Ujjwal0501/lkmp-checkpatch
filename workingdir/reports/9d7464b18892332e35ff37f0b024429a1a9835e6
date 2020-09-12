@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 9d7464b18892 ("scsi: target: tcmu: Fix a use after free in tcmu_check_expired_queue_cmd()") has no obvious style problems and is ready for submission.

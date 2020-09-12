@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit aa7b3df8fa0e ("drm/i915: avoid unused scale_user_to_hw() warning") has no obvious style problems and is ready for submission.

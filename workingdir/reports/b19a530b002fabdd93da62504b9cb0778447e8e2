@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit b19a530b002f ("RDMA/uverbs: Cleanup wq/srq context usage from uverbs layer") has no obvious style problems and is ready for submission.

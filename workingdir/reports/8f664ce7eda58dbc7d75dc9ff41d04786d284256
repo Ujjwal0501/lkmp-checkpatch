@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 8f664ce7eda5 ("arm64: dts: uniphier: Stabilize Ethernet RGMII mode of PXs3 ref board") has no obvious style problems and is ready for submission.

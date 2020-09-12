@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit b3562c6087b5 ("virtio-mem: add memory via add_memory_driver_managed()") has no obvious style problems and is ready for submission.

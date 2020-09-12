@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 1574051e52cb ("x86/PCI: Mark Intel C620 MROMs as having non-compliant BARs") has no obvious style problems and is ready for submission.

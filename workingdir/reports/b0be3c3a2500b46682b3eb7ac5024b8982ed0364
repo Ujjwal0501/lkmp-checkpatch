@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b0be3c3a2500 ("drm/amd/amdgpu: add raven1 part to the gfxoff quirk list") has no obvious style problems and is ready for submission.

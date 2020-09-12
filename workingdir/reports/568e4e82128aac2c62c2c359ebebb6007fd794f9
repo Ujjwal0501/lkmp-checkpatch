@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 14425f1f521f ("ALSA: hda/realtek: Add quirk for Samsung Notebook")'
+#9: 
+14425f1f521f (ALSA: hda/realtek: Add quirk for Samsung Notebook).
+
+WARNING:LONG_LINE: line length of 122 exceeds 100 columns
+#30: FILE: sound/pci/hda/patch_realtek.c:7590:
++	SND_PCI_QUIRK(0x144d, 0xc812, "Samsung Notebook Pen S (NT950SBE-X58)", ALC298_FIXUP_SAMSUNG_HEADPHONE_VERY_QUIET),
+
+total: 1 errors, 1 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 568e4e82128a ("ALSA: hda/realtek: Fixed ALC298 sound bug by adding quirk for Samsung Notebook Pen S") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

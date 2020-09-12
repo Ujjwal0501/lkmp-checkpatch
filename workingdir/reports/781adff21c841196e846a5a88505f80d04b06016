@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 781adff21c84 ("x86/platform/intel-mid: Add empty stubs for intel_scu_devices_[create|destroy]()") has no obvious style problems and is ready for submission.

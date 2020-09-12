@@ -1,0 +1,47 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#93: 
+new file mode 100644
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#477: FILE: tools/perf/util/hashmap.h:136:
++#define hashmap__for_each_entry(map, cur, bkt)				    \
++	for (bkt = 0; bkt < map->cap; bkt++)				    \
++		for (cur = map->buckets[bkt]; cur; cur = cur->next)
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#489: FILE: tools/perf/util/hashmap.h:148:
++#define hashmap__for_each_entry_safe(map, cur, tmp, bkt)		    \
++	for (bkt = 0; bkt < map->cap; bkt++)				    \
++		for (cur = map->buckets[bkt];				    \
++		     cur && ({tmp = cur->next; true; });		    \
++		     cur = tmp)
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#501: FILE: tools/perf/util/hashmap.h:160:
++#define hashmap__for_each_key_entry(map, cur, _key)			    \
++	for (cur = ({ size_t bkt = hash_bits(map->hash_fn((_key), map->ctx),\
++					     map->cap_bits);		    \
++		     map->buckets ? map->buckets[bkt] : NULL; });	    \
++	     cur;							    \
++	     cur = cur->next)						    \
++		if (map->equal_fn(cur->key, (_key), map->ctx))
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#509: FILE: tools/perf/util/hashmap.h:168:
++#define hashmap__for_each_key_entry_safe(map, cur, tmp, _key)		    \
++	for (cur = ({ size_t bkt = hash_bits(map->hash_fn((_key), map->ctx),\
++					     map->cap_bits);		    \
++		     cur = map->buckets ? map->buckets[bkt] : NULL; });	    \
++	     cur && ({ tmp = cur->next; true; });			    \
++	     cur = tmp)							    \
++		if (map->equal_fn(cur->key, (_key), map->ctx))
+
+total: 4 errors, 1 warnings, 432 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit eee19501926d ("perf tools: Grab a copy of libbpf's hashmap") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

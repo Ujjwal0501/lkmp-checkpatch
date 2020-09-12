@@ -1,0 +1,19 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#40: FILE: drivers/gpu/drm/amd/powerplay/arcturus_ppt.c:808:
++		pr_err("Forcing clock level is not supported with "
++		       "54.18 and onwards SMU firmwares\n");
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#72: FILE: drivers/gpu/drm/amd/powerplay/arcturus_ppt.c:1549:
++			pr_err("Forcing clock level is not supported with "
++			       "54.18 and onwards SMU firmwares\n");
+
+total: 0 errors, 2 warnings, 67 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1744fb2391dd ("drm/amd/powerplay: error out on forcing clock setting not supported") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

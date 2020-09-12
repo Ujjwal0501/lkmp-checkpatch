@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit a735e6b80d91 ("media: cec/usb: depends on USB_SUPPORT and TTY") has no obvious style problems and is ready for submission.

@@ -1,0 +1,59 @@
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#195: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:1794:
++	AMDGPU_DEVICE_ATTR_RW(power_dpm_state,				ATTR_FLAG_BASIC|ATTR_FLAG_ONEVF),
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#196: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:1795:
++	AMDGPU_DEVICE_ATTR_RW(power_dpm_force_performance_level,	ATTR_FLAG_BASIC|ATTR_FLAG_ONEVF),
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#201: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:1800:
++	AMDGPU_DEVICE_ATTR_RW(pp_dpm_sclk,				ATTR_FLAG_BASIC|ATTR_FLAG_ONEVF),
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#202: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:1801:
++	AMDGPU_DEVICE_ATTR_RW(pp_dpm_mclk,				ATTR_FLAG_BASIC|ATTR_FLAG_ONEVF),
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#203: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:1802:
++	AMDGPU_DEVICE_ATTR_RW(pp_dpm_socclk,				ATTR_FLAG_BASIC|ATTR_FLAG_ONEVF),
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#204: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:1803:
++	AMDGPU_DEVICE_ATTR_RW(pp_dpm_fclk,				ATTR_FLAG_BASIC|ATTR_FLAG_ONEVF),
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IWUGO' are not preferred. Consider using octal permissions '0222'.
+#270: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:1869:
++			dev_attr->attr.mode &= ~S_IWUGO;
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#291: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:1890:
++	BUG_ON(!attr);
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#346: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:1945:
++	for (; i > 0; i--) {
++		amdgpu_device_attr_remove(adev, &attrs[i]);
++	}
+
+ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+#643: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.h:52:
++			   struct amdgpu_device_attr* attr,
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO | S_IWUSR' are not preferred. Consider using octal permissions '0644'.
+#662: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.h:71:
++	AMDGPU_DEVICE_ATTR(_name, S_IRUGO | S_IWUSR,			\
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO' are not preferred. Consider using octal permissions '0444'.
+#666: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.h:75:
++	__AMDGPU_DEVICE_ATTR(_name, S_IRUGO,				\
+
+total: 1 errors, 11 warnings, 627 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4e01847c38f7 ("drm/amdgpu: optimize amdgpu device attribute code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

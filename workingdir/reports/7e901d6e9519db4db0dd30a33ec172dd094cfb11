@@ -1,0 +1,14 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#48: FILE: fs/gfs2/glock.c:1996:
+ 	gfs2_print_dbg(seq, "%sG:  s:%s n:%u/%llx f:%s t:%s d:%s/%llu a:%d "
++		       "v:%d r:%d m:%ld p:%lu\n",
+
+total: 0 errors, 1 warnings, 38 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7e901d6e9519 ("gfs2: print mapping->nrpages in glock dump for address space glocks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

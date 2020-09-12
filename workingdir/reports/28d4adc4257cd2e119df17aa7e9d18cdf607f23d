@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit 28d4adc4257c ("ASoC: SOF: Intel: Fix unused variable warning") has no obvious style problems and is ready for submission.

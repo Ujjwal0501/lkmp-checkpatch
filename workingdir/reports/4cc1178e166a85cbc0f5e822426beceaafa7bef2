@@ -1,0 +1,15 @@
+ERROR:EXECUTE_PERMISSIONS: do not set execute permissions for source files
+#23: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_4.c
+
+ERROR:EXECUTE_PERMISSIONS: do not set execute permissions for source files
+#147: FILE: drivers/gpu/drm/amd/amdgpu/mmhub_v1_0.c
+
+total: 2 errors, 0 warnings, 143 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4cc1178e166a ("drm/amdgpu: replace DRM prefix with PCI device info for gfx/mmhub") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

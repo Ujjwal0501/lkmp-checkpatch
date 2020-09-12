@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 55 lines checked
+
+Commit 71ac860af824 ("block: move blk_io_schedule() out of header file") has no obvious style problems and is ready for submission.

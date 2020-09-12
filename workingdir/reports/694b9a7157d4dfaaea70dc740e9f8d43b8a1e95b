@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 694b9a7157d4 ("amifb: get rid of pointless access_ok() calls") has no obvious style problems and is ready for submission.

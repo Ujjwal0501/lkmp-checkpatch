@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit b60391eb17b2 ("mtd: rawnand: oxnas: Unregister all devices on error") has no obvious style problems and is ready for submission.

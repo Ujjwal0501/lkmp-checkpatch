@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit e8b20a474cf2 ("fuse: ignore 'data' argument of mount(..., MS_REMOUNT)") has no obvious style problems and is ready for submission.

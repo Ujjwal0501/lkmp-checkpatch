@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit 75b272bd093b ("clk: vexpress-osc: Support building as a module") has no obvious style problems and is ready for submission.

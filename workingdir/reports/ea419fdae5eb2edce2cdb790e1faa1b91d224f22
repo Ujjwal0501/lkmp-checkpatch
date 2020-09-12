@@ -1,0 +1,294 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#143: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:1233:
++		* delete wdt timer. */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments should align the * on each line
+#143: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:1233:
++		/* If there are no buffers queued then
++		* delete wdt timer. */
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#151: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:1241:
++			atomisp_wdt_refresh_pipe(pipe,
++						ATOMISP_WDT_KEEP_CURRENT_DELAY);
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#321: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:1671:
++		dev_warn(isp->dev,
++			"[WARNING]asd %d pipe %s ISP timeout %d!\n",
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#703: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3045:
++				dz_config->zoom_region.origin.y = dz_config->zoom_region.origin.y - h_offset;
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#713: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3055:
++				dz_config->zoom_region.origin.x = dz_config->zoom_region.origin.x - w_offset;
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#757: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3577:
++		if (copy_from_compatible(&dest_st, source_st,
++					sizeof(struct atomisp_shading_table),
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#970: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3688:
++			/* If the grid info in the argument differs from the current
++			grid info, we tell the caller to reset the grid size and
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#971: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3689:
++			try again. */
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1030: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3713:
++		if (copy_from_compatible(css_param->dvs2_coeff->hor_coefs.odd_real,
++					coefs->hor_coefs.odd_real, dvs_hor_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1032: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3715:
++		    copy_from_compatible(css_param->dvs2_coeff->hor_coefs.odd_imag,
++					coefs->hor_coefs.odd_imag, dvs_hor_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#1034: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3717:
++					coefs->hor_coefs.even_real, dvs_hor_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1034: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3717:
++		    copy_from_compatible(css_param->dvs2_coeff->hor_coefs.even_real,
++					coefs->hor_coefs.even_real, dvs_hor_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#1036: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3719:
++					coefs->hor_coefs.even_imag, dvs_hor_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1036: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3719:
++		    copy_from_compatible(css_param->dvs2_coeff->hor_coefs.even_imag,
++					coefs->hor_coefs.even_imag, dvs_hor_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1038: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3721:
++		    copy_from_compatible(css_param->dvs2_coeff->ver_coefs.odd_real,
++					coefs->ver_coefs.odd_real, dvs_ver_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1040: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3723:
++		    copy_from_compatible(css_param->dvs2_coeff->ver_coefs.odd_imag,
++					coefs->ver_coefs.odd_imag, dvs_ver_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#1042: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3725:
++					coefs->ver_coefs.even_real, dvs_ver_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1042: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3725:
++		    copy_from_compatible(css_param->dvs2_coeff->ver_coefs.even_real,
++					coefs->ver_coefs.even_real, dvs_ver_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#1044: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3727:
++					coefs->ver_coefs.even_imag, dvs_ver_coef_bytes, from_user)) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1044: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3727:
++		    copy_from_compatible(css_param->dvs2_coeff->ver_coefs.even_imag,
++					coefs->ver_coefs.even_imag, dvs_ver_coef_bytes, from_user)) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1051: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3734:
++		if (copy_from_compatible(&dvs2_coefs, coefs,
++					sizeof(struct ia_css_dvs2_coefficients),
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#1114: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3744:
++			/* If the grid info in the argument differs from the current
++			grid info, we tell the caller to reset the grid size and
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#1115: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3745:
++			try again. */
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#1139: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3769:
++					dvs2_coefs.hor_coefs.odd_real, dvs_hor_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1139: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3769:
++		if (copy_from_compatible(css_param->dvs2_coeff->hor_coefs.odd_real,
++					dvs2_coefs.hor_coefs.odd_real, dvs_hor_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#1141: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3771:
++					dvs2_coefs.hor_coefs.odd_imag, dvs_hor_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1141: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3771:
++		    copy_from_compatible(css_param->dvs2_coeff->hor_coefs.odd_imag,
++					dvs2_coefs.hor_coefs.odd_imag, dvs_hor_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#1143: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3773:
++					dvs2_coefs.hor_coefs.even_real, dvs_hor_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1143: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3773:
++		    copy_from_compatible(css_param->dvs2_coeff->hor_coefs.even_real,
++					dvs2_coefs.hor_coefs.even_real, dvs_hor_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#1145: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3775:
++					dvs2_coefs.hor_coefs.even_imag, dvs_hor_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1145: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3775:
++		    copy_from_compatible(css_param->dvs2_coeff->hor_coefs.even_imag,
++					dvs2_coefs.hor_coefs.even_imag, dvs_hor_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#1147: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3777:
++					dvs2_coefs.ver_coefs.odd_real, dvs_ver_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1147: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3777:
++		    copy_from_compatible(css_param->dvs2_coeff->ver_coefs.odd_real,
++					dvs2_coefs.ver_coefs.odd_real, dvs_ver_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#1149: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3779:
++					dvs2_coefs.ver_coefs.odd_imag, dvs_ver_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1149: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3779:
++		    copy_from_compatible(css_param->dvs2_coeff->ver_coefs.odd_imag,
++					dvs2_coefs.ver_coefs.odd_imag, dvs_ver_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#1151: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3781:
++					dvs2_coefs.ver_coefs.even_real, dvs_ver_coef_bytes, from_user) ||
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1151: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3781:
++		    copy_from_compatible(css_param->dvs2_coeff->ver_coefs.even_real,
++					dvs2_coefs.ver_coefs.even_real, dvs_ver_coef_bytes, from_user) ||
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#1153: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3783:
++					dvs2_coefs.ver_coefs.even_imag, dvs_ver_coef_bytes, from_user)) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1153: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3783:
++		    copy_from_compatible(css_param->dvs2_coeff->ver_coefs.even_imag,
++					dvs2_coefs.ver_coefs.even_imag, dvs_ver_coef_bytes, from_user)) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1202: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3830:
++		if (copy_from_compatible(&t_6axis_config, source_6axis_config,
++					sizeof(struct atomisp_dvs_6axis_config),
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1297: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3856:
++		if (copy_from_compatible(dvs_6axis_config->xcoords_y,
++					t_6axis_config.xcoords_y,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1304: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3863:
++		if (copy_from_compatible(dvs_6axis_config->ycoords_y,
++					t_6axis_config.ycoords_y,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1311: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3870:
++		if (copy_from_compatible(dvs_6axis_config->xcoords_uv,
++					t_6axis_config.xcoords_uv,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1318: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3877:
++		if (copy_from_compatible(dvs_6axis_config->ycoords_uv,
++					t_6axis_config.ycoords_uv,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1345: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3904:
++		if (copy_from_compatible(dvs_6axis_config->xcoords_y,
++					source_6axis_config->xcoords_y,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1352: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3911:
++		if (copy_from_compatible(dvs_6axis_config->ycoords_y,
++					source_6axis_config->ycoords_y,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1359: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3918:
++		if (copy_from_compatible(dvs_6axis_config->xcoords_uv,
++					source_6axis_config->xcoords_uv,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1366: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3925:
++		if (copy_from_compatible(dvs_6axis_config->ycoords_uv,
++					source_6axis_config->ycoords_uv,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1412: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3965:
++		if (copy_from_compatible(&mtbl, source_morph_table,
++				sizeof(struct atomisp_morph_table),
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#1430: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3971:
++		morph_table = atomisp_css_morph_table_allocate(
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#1449: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3979:
++						(__force void *)source_morph_table->coordinates_x[i],
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1449: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3979:
++			if (copy_from_compatible(morph_table->coordinates_x[i],
++						(__force void *)source_morph_table->coordinates_x[i],
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#1456: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3986:
++						(__force void *)source_morph_table->coordinates_y[i],
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1456: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3986:
++			if (copy_from_compatible(morph_table->coordinates_y[i],
++						(__force void *)source_morph_table->coordinates_y[i],
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#1463: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:3993:
++		morph_table = atomisp_css_morph_table_allocate(
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#1471: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:4001:
++						(__force void *)source_morph_table->coordinates_x[i],
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1471: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:4001:
++			if (copy_from_compatible(morph_table->coordinates_x[i],
++						(__force void *)source_morph_table->coordinates_x[i],
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#1472: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:4002:
++						source_morph_table->height * source_morph_table->width *
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#1478: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:4008:
++						(__force void *)source_morph_table->coordinates_y[i],
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1478: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:4008:
++			if (copy_from_compatible(morph_table->coordinates_y[i],
++						(__force void *)source_morph_table->coordinates_y[i],
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#1479: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_cmd.c:4009:
++						source_morph_table->height * source_morph_table->width *
+
+total: 0 errors, 26 warnings, 36 checks, 1719 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ea419fdae5eb ("media: atomisp: atomisp_cmd.c test ISP version in runtime") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

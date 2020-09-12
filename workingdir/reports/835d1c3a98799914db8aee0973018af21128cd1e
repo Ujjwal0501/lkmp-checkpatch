@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 62a679cb2825 ("arm64: simplify ptrauth initialization")'
+#6: 
+asm/pointer_auth.h is not needed anymore in asm/smp.h, as 62a679cb2825
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit f227e3ec3b5c ("random32: update the net random state on interrupt and activity")'
+#10: 
+This also cures a compilation issue introduced by f227e3ec3b5c
+
+total: 2 errors, 0 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 835d1c3a9879 ("arm64: Drop unnecessary include from asm/smp.h") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

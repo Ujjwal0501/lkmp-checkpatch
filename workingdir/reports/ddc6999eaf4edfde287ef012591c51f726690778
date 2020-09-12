@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit ddc6999eaf4e ("perf stat: Rename perf_evsel__*() operating on 'struct evsel *' to evsel__*()") has no obvious style problems and is ready for submission.

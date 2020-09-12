@@ -1,0 +1,29 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#54: 
+new file mode 100644
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#157: FILE: drivers/leds/leds-ariel.c:99:
++	leds[0].led_cdev.name = "blue:power",
++	leds[0].led_cdev.default_trigger = "default-on";
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#161: FILE: drivers/leds/leds-ariel.c:103:
++	leds[1].led_cdev.name = "amber:status",
++
++	leds[2].ec_index = EC_GREEN_LED;
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#164: FILE: drivers/leds/leds-ariel.c:106:
++	leds[2].led_cdev.name = "green:status",
++	leds[2].led_cdev.default_trigger = "default-on";
+
+total: 0 errors, 4 warnings, 157 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 03f613f0571f ("leds: ariel: Add driver for status LEDs on Dell Wyse 3020") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

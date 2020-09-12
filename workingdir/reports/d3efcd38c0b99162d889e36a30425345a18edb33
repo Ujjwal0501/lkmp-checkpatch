@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 92 lines checked
+
+Commit d3efcd38c0b9 ("powerpc/8xx: Drop CONFIG_8xx_COPYBACK option") has no obvious style problems and is ready for submission.

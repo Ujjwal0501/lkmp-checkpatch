@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit bd507ca2773b ("arm64: insn: Add constants for new HINT instruction decode") has no obvious style problems and is ready for submission.

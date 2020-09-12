@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 61 lines checked
+
+Commit 0e386959272e ("drm/i915: Check for awaits on still currently executing requests") has no obvious style problems and is ready for submission.

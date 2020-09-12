@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 106 lines checked
+
+Commit b130a8f70cbb ("KVM: arm64: Check advertised Stage-2 page size capability") has no obvious style problems and is ready for submission.

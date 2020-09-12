@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 552abb884e97 ("cpufreq: Fix up cpufreq_boost_set_sw()") has no obvious style problems and is ready for submission.

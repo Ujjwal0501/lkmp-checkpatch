@@ -1,0 +1,35 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#23: 
+deleted file mode 100644
+
+WARNING:LONG_LINE_COMMENT: line length of 104 exceeds 100 columns
+#422: FILE: drivers/staging/media/atomisp/pci/system_local.h:34:
++#define GP_FIFO_BASE   ((hrt_address)0x0000000000090104)		/* This is NOT a base address */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#474: FILE: drivers/staging/media/atomisp/pci/system_local.h:86:
++/*
++	0x0000000000000500ULL};
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#489: FILE: drivers/staging/media/atomisp/pci/system_local.h:101:
++/*
++static const hrt_address GP_REGS_BASE[N_GP_REGS_ID] = {
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#503: FILE: drivers/staging/media/atomisp/pci/system_local.h:115:
++ * different timers does not help*/
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#505: FILE: drivers/staging/media/atomisp/pci/system_local.h:117:
++    (hrt_address)0x0000000000000600ULL;$
+
+total: 0 errors, 6 warnings, 0 checks, 204 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 08b2bcc665ea ("media: atomisp: get rid of version-specific system_local.h") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

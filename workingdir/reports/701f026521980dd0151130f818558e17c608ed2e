@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 701f02652198 ("drm/i915: Drop I915_RESET_TIMEOUT and friends") has no obvious style problems and is ready for submission.

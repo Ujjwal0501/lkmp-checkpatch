@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit a5e93436e18c ("gpiolib: Rename "chip" variables to "gc" in core header file") has no obvious style problems and is ready for submission.

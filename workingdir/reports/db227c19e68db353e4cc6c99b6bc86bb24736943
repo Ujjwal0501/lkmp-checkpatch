@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 83 lines checked
+
+Commit db227c19e68d ("ARM: 8985/1: efi/decompressor: deal with HYP mode boot gracefully") has no obvious style problems and is ready for submission.

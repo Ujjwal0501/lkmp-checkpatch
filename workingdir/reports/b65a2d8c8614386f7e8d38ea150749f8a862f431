@@ -1,0 +1,25 @@
+CHECK:CAMELCASE: Avoid CamelCase: <SupportedRates>
+#29: FILE: drivers/staging/rtl8723bs/core/rtw_wlan_util.c:1827:
++	if (ie_len > sizeof(pmlmeinfo->FW_sta_info[cam_idx].SupportedRates))
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#37: FILE: drivers/staging/rtl8723bs/core/rtw_wlan_util.c:1834:
++	if (pIE && (ie_len <= sizeof(pmlmeinfo->FW_sta_info[cam_idx].SupportedRates) - supportRateNum))
+
+CHECK:CAMELCASE: Avoid CamelCase: <pIE>
+#37: FILE: drivers/staging/rtl8723bs/core/rtw_wlan_util.c:1834:
++	if (pIE && (ie_len <= sizeof(pmlmeinfo->FW_sta_info[cam_idx].SupportedRates) - supportRateNum))
+
+CHECK:CAMELCASE: Avoid CamelCase: <supportRateNum>
+#37: FILE: drivers/staging/rtl8723bs/core/rtw_wlan_util.c:1834:
++	if (pIE && (ie_len <= sizeof(pmlmeinfo->FW_sta_info[cam_idx].SupportedRates) - supportRateNum))
+
+total: 0 errors, 1 warnings, 3 checks, 15 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b65a2d8c8614 ("Staging: rtl8723bs: prevent buffer overflow in update_sta_support_rate()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

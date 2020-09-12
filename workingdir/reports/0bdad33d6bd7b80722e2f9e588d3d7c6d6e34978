@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 95 lines checked
+
+Commit 0bdad33d6bd7 ("powerpc/64: Refactor interrupt exit irq disabling sequence") has no obvious style problems and is ready for submission.

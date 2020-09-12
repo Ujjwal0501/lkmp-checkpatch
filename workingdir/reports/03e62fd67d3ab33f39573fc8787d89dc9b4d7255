@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 03e62fd67d3a ("MIPS: lantiq: xway: sysctrl: fix the GPHY clock alias names") has no obvious style problems and is ready for submission.

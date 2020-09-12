@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 26 lines checked
+
+Commit c2dec363feb4 ("bnxt_en: Fix statistics counters issue during ifdown with older firmware.") has no obvious style problems and is ready for submission.

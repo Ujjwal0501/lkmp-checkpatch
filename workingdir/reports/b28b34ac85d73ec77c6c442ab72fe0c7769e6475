@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit b28b34ac85d7 ("drm/i915/execlists: Explicitly reset both reg and context runtime") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit ae3e715f85ff ("btrfs: drop stale reference to volume_mutex") has no obvious style problems and is ready for submission.

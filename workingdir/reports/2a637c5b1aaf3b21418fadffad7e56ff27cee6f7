@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 64 lines checked
+
+Commit 2a637c5b1aaf ("xdp: For Intel AF_XDP drivers add XDP frame_sz") has no obvious style problems and is ready for submission.

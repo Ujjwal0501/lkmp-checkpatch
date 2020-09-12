@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 24 lines checked
+
+Commit d1d900f822b6 ("Bluetooth: Simplify / fix return values from tk_request") has no obvious style problems and is ready for submission.

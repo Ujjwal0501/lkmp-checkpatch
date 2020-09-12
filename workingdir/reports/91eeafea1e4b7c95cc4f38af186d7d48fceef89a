@@ -1,0 +1,13 @@
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#338: FILE: arch/x86/xen/enlighten_pv.c:629:
++	TRAP_ENTRY(exc_page_fault,			false ),
+
+total: 1 errors, 0 warnings, 263 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 91eeafea1e4b ("x86/entry: Switch page fault exception to IDTENTRY_RAW") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

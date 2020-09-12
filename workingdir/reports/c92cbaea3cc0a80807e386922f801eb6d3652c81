@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit c92cbaea3cc0 ("net: dsa: sja1105: fix PTP timestamping with large tc-taprio cycles") has no obvious style problems and is ready for submission.

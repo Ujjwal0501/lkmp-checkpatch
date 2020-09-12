@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 137 lines checked
+
+Commit d1b7524b3ea1 ("mac80211: build HE operation with 6 GHz oper information") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit e4aaf4bad465 ("RDMA/hns: Simplify process related to poll cq") has no obvious style problems and is ready for submission.

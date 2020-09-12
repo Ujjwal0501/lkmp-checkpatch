@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit f0e5405b9ebf ("arm64: dts: mt8173: Add capacity-dmips-mhz attributes") has no obvious style problems and is ready for submission.

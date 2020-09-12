@@ -1,0 +1,19 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#129: FILE: include/trace/events/f2fs.h:1882:
+ 		"app [read=%llu (direct=%llu, buffered=%llu), mapped=%llu], "
++		"fs [data=%llu, (gc_data=%llu, compr_data=%llu), "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#130: FILE: include/trace/events/f2fs.h:1883:
++		"fs [data=%llu, (gc_data=%llu, compr_data=%llu), "
++		"node=%llu, meta=%llu]",
+
+total: 0 errors, 2 warnings, 95 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9c1223845a37 ("f2fs: add compressed/gc data read IO stat") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

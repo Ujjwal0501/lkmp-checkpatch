@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 29 lines checked
+
+Commit ebe7b061e929 ("iwlwifi: pcie: remove mangling for iwl_ax101_cfg_qu_hr") has no obvious style problems and is ready for submission.

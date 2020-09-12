@@ -1,0 +1,17 @@
+WARNING:LONG_LINE_STRING: line length of 108 exceeds 100 columns
+#1122: FILE: drivers/net/ethernet/freescale/enetc/enetc_qos.c:1053:
++				NL_SET_ERR_MSG_MOD(extack, "Only full mask is supported for VLAN priority");
+
+WARNING:LONG_LINE_STRING: line length of 102 exceeds 100 columns
+#1130: FILE: drivers/net/ethernet/freescale/enetc/enetc_qos.c:1061:
++				NL_SET_ERR_MSG_MOD(extack, "Only full mask is supported for VLAN id");
+
+total: 0 errors, 2 warnings, 0 checks, 1410 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 888ae5a3952b ("net: enetc: add tc flower psfp offload driver") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

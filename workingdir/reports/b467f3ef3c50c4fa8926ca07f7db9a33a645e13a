@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit b467f3ef3c50 ("kernel/hung_task convert hung_task_panic boot parameter to sysctl") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit da1adea07576 ("powerpc/8xx: Allow STRICT_KERNEL_RwX with pinned TLB") has no obvious style problems and is ready for submission.

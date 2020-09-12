@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 91 lines checked
+
+Commit a91bf9928e1e ("xfs: refactor eofb matching into a single helper") has no obvious style problems and is ready for submission.

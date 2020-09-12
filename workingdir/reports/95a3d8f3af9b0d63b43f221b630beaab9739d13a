@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit 95a3d8f3af9b ("cifs: Fix double add page to memcg when cifs_readpages") has no obvious style problems and is ready for submission.

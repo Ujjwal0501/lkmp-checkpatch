@@ -1,0 +1,105 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#31: 
+[  253.138378] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#61: 
+[  253.138448] Code: 00 f3 c3 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 40 00 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 1f f6 2c 00 f7 d8 64 89 01 48
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#79: 
+[  234.915712] Code: 26 fd ff ff 44 8b 4d d0 eb d9 0f 0b 41 b9 ea ff ff ff 44 89 c8 c3 0f 0b 41 b9 ea ff ff ff eb f2 0f 0b 41 b9 ea ff ff ff eb e8 <0f> 0b 41 b9 ea ff ff ff eb af 0f 0b 41 b9 ea ff ff ff eb a5 66 90
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#110: 
+[  234.915876] Code: 00 f3 c3 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 40 00 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 1f f6 2c 00 f7 d8 64 89 01 48
+
+total: 0 errors, 24 warnings, 12 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9f984cacf4f4 ("media: dvbdev: Fix tuner->demod media controller link") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

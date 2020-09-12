@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 49 lines checked
+
+Commit c7af70b0fb25 ("floppy: cleanup: make check_wp() not rely on current_{fdc,drive} anymore") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit c8027285e366 ("arm64: Set GP bit in kernel page tables to enable BTI for the kernel") has no obvious style problems and is ready for submission.

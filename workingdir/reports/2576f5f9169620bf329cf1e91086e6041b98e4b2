@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 2576f5f91696 ("powerpc/pseries: Machine check use rtas_call_unlocked() with args on stack") has no obvious style problems and is ready for submission.

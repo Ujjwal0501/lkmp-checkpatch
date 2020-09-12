@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit effe5be17706 ("s390/bpf: Maintain 8-byte stack alignment") has no obvious style problems and is ready for submission.

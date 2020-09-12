@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit bbd540c072a8 ("drm/nouveau: fix out-of-tree module build") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit ed710a6ed797 ("drm/nouveau/nouveau: fix page fault on device private memory") has no obvious style problems and is ready for submission.

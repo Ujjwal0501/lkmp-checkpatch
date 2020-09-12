@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f167989c6730 ("drm/msm: Fix address space size after refactor.") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 34bb49229f19 ("x86/boot/compressed/64: Switch to __KERNEL_CS after GDT is loaded") has no obvious style problems and is ready for submission.

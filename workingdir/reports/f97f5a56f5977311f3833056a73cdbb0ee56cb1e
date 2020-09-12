@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 399 lines checked
+
+Commit f97f5a56f597 ("x86/kvm/hyper-v: Add support for synthetic debugger interface") has no obvious style problems and is ready for submission.

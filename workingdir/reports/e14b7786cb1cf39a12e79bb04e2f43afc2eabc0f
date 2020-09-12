@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit e14b7786cb1c ("KVM: SVM: Merge svm_enable_vintr into svm_set_vintr") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+ERROR:BAD_SIGN_OFF: Unrecognized email address: 'Mark Rutland <mark.rutland@arm.com'
+#17: 
+Acked-by: Mark Rutland <mark.rutland@arm.com
+
+total: 1 errors, 0 warnings, 126 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 07da1ffaa137 ("KVM: arm64: Remove host_cpu_context member from vcpu structure") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

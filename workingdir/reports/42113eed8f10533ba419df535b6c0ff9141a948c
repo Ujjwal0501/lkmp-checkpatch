@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 42113eed8f10 ("RDMA/cm: Remove unused store to ret in cm_rej_handler") has no obvious style problems and is ready for submission.

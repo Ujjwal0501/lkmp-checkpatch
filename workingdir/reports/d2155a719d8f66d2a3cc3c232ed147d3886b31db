@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit d2155a719d8f ("drm/amdgpu: Print UTCL2 client ID on a gpuvm fault") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit f0d339db5647 ("x86/resctrl: Remove unnecessary RMID checks") has no obvious style problems and is ready for submission.

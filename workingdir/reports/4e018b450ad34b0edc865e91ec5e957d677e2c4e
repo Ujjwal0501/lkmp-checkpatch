@@ -1,0 +1,11 @@
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Naoya Horiguchi <nao.horiguchi@gmail.com>'
+
+total: 0 errors, 1 warnings, 36 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4e018b450ad3 ("mm/memory-failure: prioritize prctl(PR_MCE_KILL) over vm.memory_failure_early_kill") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

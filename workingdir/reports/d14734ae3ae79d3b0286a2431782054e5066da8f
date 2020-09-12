@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit d14734ae3ae7 ("scsi: ufs: Customize flush threshold for WriteBooster") has no obvious style problems and is ready for submission.

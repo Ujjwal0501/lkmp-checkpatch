@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit f1084bc60a1e ("Revert "fs: remove dio_end_io()"") has no obvious style problems and is ready for submission.

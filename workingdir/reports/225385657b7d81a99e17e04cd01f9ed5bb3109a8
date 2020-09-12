@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 225385657b7d ("serial: core: drop redundant sysrq checks") has no obvious style problems and is ready for submission.

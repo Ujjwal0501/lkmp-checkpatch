@@ -1,0 +1,17 @@
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#47: FILE: drivers/block/rbd.c:863:
++	fsparam_enum	("compression_hint",		Opt_compression_hint,
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#94: FILE: drivers/block/rbd.c:6373:
++			BUG();
+
+total: 0 errors, 2 warnings, 75 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dc1dad8e1a61 ("rbd: compression_hint option") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

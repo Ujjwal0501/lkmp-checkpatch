@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 5377cae94ae3 ("objtool: Fix off-by-one in symbol_by_offset()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 46 lines checked
+
+Commit ed56d749c366 ("net/mlx5: Query PPS pin operational status before registering it") has no obvious style problems and is ready for submission.

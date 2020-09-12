@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 10 lines checked
+
+Commit bdef56a36eea ("ath11k: Increase the tx completion ring size") has no obvious style problems and is ready for submission.

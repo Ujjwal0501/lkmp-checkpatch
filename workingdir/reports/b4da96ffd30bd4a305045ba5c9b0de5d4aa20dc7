@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b4da96ffd30b ("selftests/net: so_txtime: fix clang issues for target arch PowerPC") has no obvious style problems and is ready for submission.

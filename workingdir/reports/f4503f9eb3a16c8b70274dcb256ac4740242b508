@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 148 lines checked
+
+Commit f4503f9eb3a1 ("drm/amdgpu: switch to helper function to init asd ucode") has no obvious style problems and is ready for submission.

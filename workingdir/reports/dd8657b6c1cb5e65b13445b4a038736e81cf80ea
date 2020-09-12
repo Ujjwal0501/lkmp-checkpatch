@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 87 lines checked
+
+Commit dd8657b6c1cb ("mm/memcg: optimize memory.numa_stat like memory.stat") has no obvious style problems and is ready for submission.

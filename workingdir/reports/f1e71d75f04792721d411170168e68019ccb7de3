@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit f1e71d75f047 ("nvme: replace zero-length array with flexible-array") has no obvious style problems and is ready for submission.

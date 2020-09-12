@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit 1050242fa657 ("e1000e: continue to init PHY even when failed to disable ULP") has no obvious style problems and is ready for submission.

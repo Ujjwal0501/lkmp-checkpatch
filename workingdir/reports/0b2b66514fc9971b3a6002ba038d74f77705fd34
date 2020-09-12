@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 82 lines checked
+
+Commit 0b2b66514fc9 ("spi: dw: Use DMA max burst to set the request thresholds") has no obvious style problems and is ready for submission.

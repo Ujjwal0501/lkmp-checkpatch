@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 26 lines checked
+
+Commit 404d1cd401ca ("mt76: mt7663: remove check in mt7663_load_n9") has no obvious style problems and is ready for submission.

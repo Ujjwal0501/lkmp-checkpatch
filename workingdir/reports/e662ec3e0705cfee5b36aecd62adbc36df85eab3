@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 77 lines checked
+
+Commit e662ec3e0705 ("KVM: x86/mmu: Move max hugepage level to a separate #define") has no obvious style problems and is ready for submission.

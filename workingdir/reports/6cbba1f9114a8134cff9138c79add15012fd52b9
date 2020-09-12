@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 6cbba1f9114a ("keys: asymmetric: fix error return code in software_key_query()") has no obvious style problems and is ready for submission.

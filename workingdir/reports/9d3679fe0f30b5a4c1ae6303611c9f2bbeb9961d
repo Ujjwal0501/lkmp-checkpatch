@@ -1,0 +1,13 @@
+CHECK:CAMELCASE: Avoid CamelCase: <RxDescArray>
+#41: FILE: drivers/net/ethernet/realtek/r8169_main.c:3932:
++		tp->RxDescArray[i].addr = 0;
+
+total: 0 errors, 0 warnings, 1 checks, 21 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9d3679fe0f30 ("r8169: inline rtl8169_make_unusable_by_asic") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

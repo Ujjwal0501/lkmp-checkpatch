@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 114 lines checked
+
+Commit aaa270c638ca ("net: dsa: sja1105: implement a common frame memory partitioning function") has no obvious style problems and is ready for submission.

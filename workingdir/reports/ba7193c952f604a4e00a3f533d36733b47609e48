@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ba7193c952f6 ("habanalabs: hl_pci_set_dma_mask() can be static") has no obvious style problems and is ready for submission.

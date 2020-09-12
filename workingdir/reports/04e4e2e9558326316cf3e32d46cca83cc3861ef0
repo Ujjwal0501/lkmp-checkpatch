@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 165 lines checked
+
+Commit 04e4e2e95583 ("drm/amdgpu: protect ring overrun") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 71 lines checked
+
+Commit 25612477d20b ("ASoC: soc-dai: set dai_link dpcm_ flags with a helper") has no obvious style problems and is ready for submission.

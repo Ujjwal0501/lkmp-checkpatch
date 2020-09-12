@@ -1,0 +1,13 @@
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#24: FILE: sound/soc/sof/sof-of-dev.c:17:
++extern struct snd_sof_dsp_ops sof_imx8m_ops;
+
+total: 0 errors, 1 warnings, 32 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 58825cc22539 ("ASoC: SOF: Add i.MX8MP device descriptor") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 243 lines checked
+
+Commit 4259ff7ae509 ("drm/msm/dpu: add support for pcc color block in dpu driver") has no obvious style problems and is ready for submission.

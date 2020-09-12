@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 83a4f2e70470 ("drivers/fpga/dfl-afu-dma-region.c: get rid of pointless access_ok()") has no obvious style problems and is ready for submission.

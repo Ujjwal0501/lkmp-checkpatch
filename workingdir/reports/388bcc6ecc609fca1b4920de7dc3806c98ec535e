@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 388bcc6ecc60 ("drivers: base: Fix NULL pointer exception in __platform_driver_probe() if a driver developer is foolish") has no obvious style problems and is ready for submission.

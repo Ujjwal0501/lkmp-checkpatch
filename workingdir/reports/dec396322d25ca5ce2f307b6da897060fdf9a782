@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit dec396322d25 ("clk: tegra: Add Tegra210 CSI TPG clock gate") has no obvious style problems and is ready for submission.

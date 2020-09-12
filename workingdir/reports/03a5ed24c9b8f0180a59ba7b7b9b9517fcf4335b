@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 105 lines checked
+
+Commit 03a5ed24c9b8 ("ext4: split _ext4_fiemap") has no obvious style problems and is ready for submission.

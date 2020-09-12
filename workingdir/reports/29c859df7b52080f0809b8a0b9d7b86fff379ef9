@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 55 lines checked
+
+Commit 29c859df7b52 ("ASoC: max9867: keep ADCs and DACs always on") has no obvious style problems and is ready for submission.

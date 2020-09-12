@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 9ae577047e5b ("misc: rtsx: Use ASPM_MASK_NEG instead of hard-coded value") has no obvious style problems and is ready for submission.

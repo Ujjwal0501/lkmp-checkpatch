@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 79 lines checked
+
+Commit 5dbb75ed6900 ("btrfs: fix RWF_NOWAIT writes blocking on extent locks and waiting for IO") has no obvious style problems and is ready for submission.

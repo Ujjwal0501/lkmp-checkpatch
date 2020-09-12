@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 65de50969a77 ("selinux: fix double free") has no obvious style problems and is ready for submission.

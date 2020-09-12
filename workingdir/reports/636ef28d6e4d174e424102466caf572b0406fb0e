@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 59 lines checked
+
+Commit 636ef28d6e4d ("tcp: tcp_mark_head_lost is only valid for sack-tcp") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit e1eb26fa62d0 ("ipc/namespace.c: use a work queue to free_ipc") has no obvious style problems and is ready for submission.

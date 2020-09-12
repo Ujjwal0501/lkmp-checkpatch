@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit dcf550e52f56 ("livepatch: Disallow vmlinux.ko") has no obvious style problems and is ready for submission.

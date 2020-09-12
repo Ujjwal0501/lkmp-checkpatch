@@ -1,0 +1,14 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#45: FILE: tools/testing/selftests/vm/protection_keys.c:1036:
++	dprintf1("disabling access; after accessing the page, "
++		" to PKEY[%02d], doing write\n", pkey);
+
+total: 0 errors, 1 warnings, 25 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4e06e718afd7 ("selftests/vm/pkeys: detect write violation on a mapped access-denied-key page") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

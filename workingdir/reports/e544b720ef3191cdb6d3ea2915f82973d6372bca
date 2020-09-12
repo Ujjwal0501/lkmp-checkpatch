@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit e544b720ef31 ("scsi: qla2xxx: Change two hardcoded constants into offsetof() / sizeof() expressions") has no obvious style problems and is ready for submission.

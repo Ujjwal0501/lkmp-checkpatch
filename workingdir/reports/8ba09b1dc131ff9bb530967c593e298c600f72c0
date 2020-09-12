@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 8ba09b1dc131 ("sched: print stack trace with KERN_INFO") has no obvious style problems and is ready for submission.

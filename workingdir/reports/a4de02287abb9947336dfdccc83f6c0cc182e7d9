@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 28 lines checked
+
+Commit a4de02287abb ("net: hns3: provide .get_cmdq_stat interface for the client") has no obvious style problems and is ready for submission.

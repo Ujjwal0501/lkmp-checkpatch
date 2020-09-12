@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 6a6ca7881b1a ("ALSA: hda - let hs_mic be picked ahead of hp_mic") has no obvious style problems and is ready for submission.

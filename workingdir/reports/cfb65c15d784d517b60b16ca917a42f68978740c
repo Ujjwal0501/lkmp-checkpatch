@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit cfb65c15d784 ("KVM: selftests: fix sync_with_host() in smm_test") has no obvious style problems and is ready for submission.

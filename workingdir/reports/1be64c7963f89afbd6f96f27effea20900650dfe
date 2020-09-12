@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 133 lines checked
+
+Commit 1be64c7963f8 ("mmc: host: Drop redundant MMC_CAP_ERASE") has no obvious style problems and is ready for submission.

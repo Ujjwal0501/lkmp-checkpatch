@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_STRING: line length of 104 exceeds 100 columns
+#106: FILE: net/core/devlink.c:4124:
++			NL_SET_ERR_MSG_MOD(info->extack, "The requested snapshot id is already in use");
+
+total: 0 errors, 1 warnings, 127 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 043b3e22768d ("devlink: let kernel allocate region snapshot id") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

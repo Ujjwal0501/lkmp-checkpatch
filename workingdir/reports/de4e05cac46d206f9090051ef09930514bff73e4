@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 128 lines checked
+
+Commit de4e05cac46d ("bpf: Support bpf tracing/iter programs for BPF_LINK_CREATE") has no obvious style problems and is ready for submission.

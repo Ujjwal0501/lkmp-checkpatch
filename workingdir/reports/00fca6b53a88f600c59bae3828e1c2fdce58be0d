@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 00fca6b53a88 ("tomoyo_write_control(): get rid of pointless access_ok()") has no obvious style problems and is ready for submission.

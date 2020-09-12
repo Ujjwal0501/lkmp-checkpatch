@@ -1,0 +1,43 @@
+WARNING:LONG_LINE: line length of 121 exceeds 100 columns
+#268: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1364:
++			binary->sctbl_width_per_color = _ISP_SCTBL_WIDTH_PER_COLOR(sc_3a_dis_padded_width, s3a_log_deci);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#269: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1365:
++			binary->sctbl_aligned_width_per_color = ISP2400_SH_CSS_MAX_SCTBL_ALIGNED_WIDTH_PER_COLOR;
+
+WARNING:LONG_LINE: line length of 117 exceeds 100 columns
+#272: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1368:
++			binary->sctbl_width_per_color = _ISP_SCTBL_WIDTH_PER_COLOR(isp_internal_width, s3a_log_deci);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#273: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1369:
++			binary->sctbl_aligned_width_per_color = ISP2401_SH_CSS_MAX_SCTBL_ALIGNED_WIDTH_PER_COLOR;
+
+WARNING:LONG_LINE: line length of 136 exceeds 100 columns
+#276: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1372:
++			binary->sctbl_legacy_width_per_color  = _ISP_SCTBL_LEGACY_WIDTH_PER_COLOR(sc_3a_dis_padded_width, s3a_log_deci);
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#277: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1373:
++			binary->sctbl_legacy_height = _ISP_SCTBL_LEGACY_HEIGHT(sc_3a_dis_height, s3a_log_deci);
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#383: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_defs.h:180:
+ 
++
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#453: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_defs.h:263:
+ 
++
+
+total: 0 errors, 6 warnings, 2 checks, 366 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ffa123612a13 ("media: atomisp: sh_css_defs.h: get rid of build time dependencies") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 7f02bb6239f5 ("HID: logitech: Use HIDPP_RECEIVER_INDEX instead of 0xff") has no obvious style problems and is ready for submission.

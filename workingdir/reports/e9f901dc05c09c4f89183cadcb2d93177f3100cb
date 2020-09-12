@@ -1,0 +1,13 @@
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "qcom,ipq6018-apcs-apps-global" appears un-documented -- check ./Documentation/devicetree/bindings/
+#39: FILE: drivers/mailbox/qcom-apcs-ipc-mailbox.c:146:
++	{ .compatible = "qcom,ipq6018-apcs-apps-global", .data = &ipq6018_apcs_data },
+
+total: 0 errors, 1 warnings, 17 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e9f901dc05c0 ("mailbox: qcom: Add ipq6018 apcs compatible") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

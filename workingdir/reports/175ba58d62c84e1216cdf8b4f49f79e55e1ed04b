@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 123 lines checked
+
+Commit 175ba58d62c8 ("IB/uverbs: Move QP, SRQ, WQ type and flags to UAPI") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit e16b9ed61e07 ("scsi: hisi_sas: Do not reset phy timer to wait for stray phy up") has no obvious style problems and is ready for submission.

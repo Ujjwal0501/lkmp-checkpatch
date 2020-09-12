@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit 901f3cc1639e ("net: atlantic: fix PTP on AQC10X") has no obvious style problems and is ready for submission.

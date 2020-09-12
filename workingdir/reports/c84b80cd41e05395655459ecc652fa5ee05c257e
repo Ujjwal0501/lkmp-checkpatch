@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit c84b80cd41e0 ("security/apparmor/label.c: Clean code by removing redundant instructions") has no obvious style problems and is ready for submission.

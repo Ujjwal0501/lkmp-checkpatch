@@ -1,0 +1,45 @@
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#25: FILE: arch/arm/boot/dts/dra7-l4.dtsi:1166:
++				clocks = <&l4per_clkctrl DRA7_L4PER_TIMER2_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#36: FILE: arch/arm/boot/dts/dra7-l4.dtsi:1194:
++				clocks = <&l4per_clkctrl DRA7_L4PER_TIMER3_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#59: FILE: arch/arm/boot/dts/dra7-l4.dtsi:1223:
++				clocks = <&l4per_clkctrl DRA7_L4PER_TIMER4_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#70: FILE: arch/arm/boot/dts/dra7-l4.dtsi:1250:
++				clocks = <&l4per_clkctrl DRA7_L4PER_TIMER9_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#81: FILE: arch/arm/boot/dts/dra7-l4.dtsi:1857:
++				clocks = <&l4per_clkctrl DRA7_L4PER_TIMER10_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#92: FILE: arch/arm/boot/dts/dra7-l4.dtsi:1884:
++				clocks = <&l4per_clkctrl DRA7_L4PER_TIMER11_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#126: FILE: arch/arm/boot/dts/dra7-l4.dtsi:3422:
++				clocks = <&ipu_clkctrl DRA7_IPU_TIMER7_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#137: FILE: arch/arm/boot/dts/dra7-l4.dtsi:3449:
++				clocks = <&ipu_clkctrl DRA7_IPU_TIMER8_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#148: FILE: arch/arm/boot/dts/dra7-l4.dtsi:3476:
++				clocks = <&l4per3_clkctrl DRA7_L4PER3_TIMER13_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+total: 0 errors, 9 warnings, 122 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5390130f3b28 ("ARM: dts: dra7: add timer_sys_ck entries for IPU/DSP timers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

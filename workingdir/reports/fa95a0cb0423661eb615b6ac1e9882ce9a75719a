@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 94 lines checked
+
+Commit fa95a0cb0423 ("x86/entry/32: Remove redundant irq disable code") has no obvious style problems and is ready for submission.

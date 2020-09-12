@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 73 lines checked
+
+Commit 852f71942ce7 ("i2c: designware: Adjust bus speed independently of ACPI") has no obvious style problems and is ready for submission.

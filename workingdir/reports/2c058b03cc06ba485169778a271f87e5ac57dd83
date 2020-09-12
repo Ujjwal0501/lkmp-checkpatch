@@ -1,0 +1,27 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#82: FILE: arch/x86/include/asm/idtentry.h:189:
++# define DECLARE_IDTENTRY_MCE(vector, func)				\
++	idtentry_mce_db vector asm_##func func
+
+WARNING:REPEATED_WORD: Possible repeated word: 'func'
+#83: FILE: arch/x86/include/asm/idtentry.h:190:
++	idtentry_mce_db vector asm_##func func
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#85: FILE: arch/x86/include/asm/idtentry.h:192:
++# define DECLARE_IDTENTRY_DEBUG(vector, func)				\
++	idtentry_mce_db vector asm_##func func
+
+WARNING:REPEATED_WORD: Possible repeated word: 'func'
+#86: FILE: arch/x86/include/asm/idtentry.h:193:
++	idtentry_mce_db vector asm_##func func
+
+total: 2 errors, 2 warnings, 66 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2c058b03cc06 ("x86/idtentry: Provide IDTENTRY_IST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

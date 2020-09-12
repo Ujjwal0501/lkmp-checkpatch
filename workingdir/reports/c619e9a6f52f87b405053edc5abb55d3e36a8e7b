@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 109 lines checked
+
+Commit c619e9a6f52f ("s390/qeth: don't use restricted offloads for local traffic") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#8: 
+  baa9be4ffb55 ("sched/fair: Fix throttle_list starvation with low CFS quota")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit baa9be4ffb55 ("sched/fair: Fix throttle_list starvation with low CFS quota")'
+#8: 
+  baa9be4ffb55 ("sched/fair: Fix throttle_list starvation with low CFS quota")
+
+total: 1 errors, 1 warnings, 55 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ab93a4bc955b ("sched/fair: Remove distribute_running from CFS bandwidth") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

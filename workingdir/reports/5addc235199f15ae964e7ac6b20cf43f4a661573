@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 232 lines checked
+
+Commit 5addc235199f ("KVM: VMX: Cache vmcs.EXIT_QUALIFICATION using arch avail_reg flags") has no obvious style problems and is ready for submission.

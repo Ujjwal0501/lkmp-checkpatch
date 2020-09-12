@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 81 lines checked
+
+Commit ac2081cdc4d9 ("arm64: ptrace: Consistently use pseudo-singlestep exceptions") has no obvious style problems and is ready for submission.

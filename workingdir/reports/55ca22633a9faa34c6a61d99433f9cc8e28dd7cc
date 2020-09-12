@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 55ca22633a9f ("mm/gup: Use huge_ptep_get() in gup_hugepte()") has no obvious style problems and is ready for submission.

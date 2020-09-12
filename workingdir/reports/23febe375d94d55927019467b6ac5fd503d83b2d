@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 23febe375d94 ("kbuild: merge init-y into core-y") has no obvious style problems and is ready for submission.

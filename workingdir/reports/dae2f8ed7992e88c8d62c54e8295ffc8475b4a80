@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit dae2f8ed7992 ("fs: Lift XFS_IDONTCACHE to the VFS layer") has no obvious style problems and is ready for submission.

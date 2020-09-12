@@ -1,0 +1,13 @@
+CHECK:CAMELCASE: Avoid CamelCase: <dot11PrivacyAlgrthm>
+#29: FILE: drivers/staging/rtl8723bs/hal/hal_btcoex.c:410:
++		*pu8 = padapter->securitypriv.dot11PrivacyAlgrthm != 0;
+
+total: 0 errors, 0 warnings, 1 checks, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 16529e3b8655 ("staging: rtl8723bs: remove conversion to bool in halbtcoutsrc_Get()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

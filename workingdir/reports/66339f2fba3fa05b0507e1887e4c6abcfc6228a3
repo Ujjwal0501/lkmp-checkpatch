@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 66339f2fba3f ("pinctrl: sirf: add missing put_device() call in sirfsoc_gpio_probe()") has no obvious style problems and is ready for submission.

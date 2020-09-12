@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit ab34b46d1a74 ("sysrq: use show_stack_loglvl()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,16 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#86: FILE: drivers/staging/media/atomisp/pci/atomisp_v4l2.c:1519:
++	dev_info(&dev->dev, "Detected %s version %d (ISP240%c)\n",
++		name, dev->revision,
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Mauro Carvalho Chehab <mchehab+huawei@kernel.org>'
+
+total: 0 errors, 1 warnings, 1 checks, 118 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ca133c395f2f ("media: atomisp: improve device detection code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

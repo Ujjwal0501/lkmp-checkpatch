@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 38 lines checked
+
+Commit ebf89d12cae2 ("media: atomisp: Clean up if block in sh_css_sp_init_stage") has no obvious style problems and is ready for submission.

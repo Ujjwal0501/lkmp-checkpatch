@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 180 lines checked
+
+Commit d82a855ac085 ("drm/i915: Move the port sync DP_TP_CTL stuff to the encoder hook") has no obvious style problems and is ready for submission.

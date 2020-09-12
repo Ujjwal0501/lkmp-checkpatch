@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 71 lines checked
+
+Commit 8094892d1aff ("powerpc: Use a function for getting the instruction op code") has no obvious style problems and is ready for submission.

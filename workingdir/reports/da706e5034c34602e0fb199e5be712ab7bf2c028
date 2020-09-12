@@ -1,0 +1,38 @@
+ERROR:MULTISTATEMENT_MACRO_USE_DO_WHILE: Macros with multiple statements should be enclosed in a do - while loop
+#49: FILE: arch/mips/include/asm/asm.h:77:
++#define TEXT(msg)					\
++		.pushsection .data;			\
++8:		.asciiz msg;				\
++		.popsection;
+
+WARNING:TRAILING_SEMICOLON: macros should not use a trailing semicolon
+#49: FILE: arch/mips/include/asm/asm.h:77:
++#define TEXT(msg)					\
++		.pushsection .data;			\
++8:		.asciiz msg;				\
++		.popsection;
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#51: FILE: arch/mips/include/asm/asm.h:79:
++8:		.asciiz msg;				\
+  ^
+
+ERROR:MULTISTATEMENT_MACRO_USE_DO_WHILE: Macros with multiple statements should be enclosed in a do - while loop
+#54: FILE: arch/mips/include/asm/asm.h:82:
++#define ASM_PANIC(msg)					\
+ 		.set	push;				\
+ 		.set	reorder;			\
++		PTR_LA	a0, 8f;				\
+ 		jal	panic;				\
+ 9:		b	9b;				\
+ 		.set	pop;				\
+
+total: 3 errors, 1 warnings, 80 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit da706e5034c3 ("MIPS: asm: Rename some macros to avoid build errors") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

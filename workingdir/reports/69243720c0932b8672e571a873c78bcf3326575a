@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 69243720c093 ("tracing: Remove unused event variable in tracing_iter_reset") has no obvious style problems and is ready for submission.

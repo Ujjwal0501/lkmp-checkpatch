@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 152 lines checked
+
+Commit c60ac0ffd682 ("btrfs: drop unnecessary offset_in_page in extent buffer helpers") has no obvious style problems and is ready for submission.

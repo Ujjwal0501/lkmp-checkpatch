@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 5144f8a8dfd7 ("compiler_types.h: Add __no_sanitize_{address,undefined} to noinstr") has no obvious style problems and is ready for submission.

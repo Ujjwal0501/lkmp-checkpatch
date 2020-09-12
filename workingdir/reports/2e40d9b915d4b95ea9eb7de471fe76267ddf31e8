@@ -1,0 +1,37 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#20: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#25: FILE: drivers/gpu/drm/amd/include/asic_reg/smuio/smuio_12_0_0_offset.h:1:
++/*
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#48: FILE: drivers/gpu/drm/amd/include/asic_reg/smuio/smuio_12_0_0_offset.h:24:
++#define mmSMUIO_GFX_MISC_CNTL                                                                          0x00c8
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#49: FILE: drivers/gpu/drm/amd/include/asic_reg/smuio/smuio_12_0_0_offset.h:25:
++#define mmSMUIO_GFX_MISC_CNTL_BASE_IDX                                                                 0
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#58: FILE: drivers/gpu/drm/amd/include/asic_reg/smuio/smuio_12_0_0_sh_mask.h:1:
++/*
+
+WARNING:LONG_LINE: line length of 121 exceeds 100 columns
+#82: FILE: drivers/gpu/drm/amd/include/asic_reg/smuio/smuio_12_0_0_sh_mask.h:25:
++#define SMUIO_GFX_MISC_CNTL__PWR_GFXOFF_STATUS_MASK                                                           0x00000006L
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#83: FILE: drivers/gpu/drm/amd/include/asic_reg/smuio/smuio_12_0_0_sh_mask.h:26:
++#define SMUIO_GFX_MISC_CNTL__PWR_GFXOFF_STATUS__SHIFT                                                         0x1
+
+total: 0 errors, 7 warnings, 55 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2e40d9b915d4 ("drm/amd/amdgpu: Add missing SMUIO v12 register to headers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 96 lines checked
+
+Commit d1663a907bd3 ("mm/memcg: move cgroup high memory limit setting into struct page_counter") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit d44335572f76 ("RDMA/mlx5: Fix remote gid value in query QP") has no obvious style problems and is ready for submission.

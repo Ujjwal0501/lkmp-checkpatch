@@ -1,0 +1,29 @@
+CHECK:CAMELCASE: Avoid CamelCase: <uAckTime>
+#26: FILE: drivers/staging/vt6655/rxtx.c:259:
++			uAckTime = bb_get_frame_time(pDevice->byPreambleType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <pDevice>
+#26: FILE: drivers/staging/vt6655/rxtx.c:259:
++			uAckTime = bb_get_frame_time(pDevice->byPreambleType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <byPreambleType>
+#26: FILE: drivers/staging/vt6655/rxtx.c:259:
++			uAckTime = bb_get_frame_time(pDevice->byPreambleType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopCCKBasicRate>
+#28: FILE: drivers/staging/vt6655/rxtx.c:261:
++						     pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopOFDMBasicRate>
+#53: FILE: drivers/staging/vt6655/rxtx.c:280:
++						     pDevice->byTopOFDMBasicRate);
+
+total: 0 errors, 0 warnings, 5 checks, 74 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0ae73acc4479 ("staging: vt6655: do calculation of uAckTime first") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

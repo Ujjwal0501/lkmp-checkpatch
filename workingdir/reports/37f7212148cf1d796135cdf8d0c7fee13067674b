@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 37f7212148cf ("mtd: rawnand: omap_elm: Fix runtime PM imbalance on error") has no obvious style problems and is ready for submission.

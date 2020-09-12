@@ -1,0 +1,106 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct rxrpc_call *' should also have an identifier name
+#127: FILE: net/rxrpc/ar-internal.h:1010:
++bool __rxrpc_set_call_completion(struct rxrpc_call *, enum rxrpc_call_completion, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#127: FILE: net/rxrpc/ar-internal.h:1010:
++bool __rxrpc_set_call_completion(struct rxrpc_call *, enum rxrpc_call_completion, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#127: FILE: net/rxrpc/ar-internal.h:1010:
++bool __rxrpc_set_call_completion(struct rxrpc_call *, enum rxrpc_call_completion, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct rxrpc_call *' should also have an identifier name
+#128: FILE: net/rxrpc/ar-internal.h:1011:
++bool rxrpc_set_call_completion(struct rxrpc_call *, enum rxrpc_call_completion, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#128: FILE: net/rxrpc/ar-internal.h:1011:
++bool rxrpc_set_call_completion(struct rxrpc_call *, enum rxrpc_call_completion, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#128: FILE: net/rxrpc/ar-internal.h:1011:
++bool rxrpc_set_call_completion(struct rxrpc_call *, enum rxrpc_call_completion, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct rxrpc_call *' should also have an identifier name
+#129: FILE: net/rxrpc/ar-internal.h:1012:
++bool __rxrpc_call_completed(struct rxrpc_call *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct rxrpc_call *' should also have an identifier name
+#130: FILE: net/rxrpc/ar-internal.h:1013:
++bool rxrpc_call_completed(struct rxrpc_call *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const char *' should also have an identifier name
+#131: FILE: net/rxrpc/ar-internal.h:1014:
++bool __rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct rxrpc_call *' should also have an identifier name
+#131: FILE: net/rxrpc/ar-internal.h:1014:
++bool __rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'rxrpc_seq_t' should also have an identifier name
+#131: FILE: net/rxrpc/ar-internal.h:1014:
++bool __rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#131: FILE: net/rxrpc/ar-internal.h:1014:
++bool __rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#131: FILE: net/rxrpc/ar-internal.h:1014:
++bool __rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const char *' should also have an identifier name
+#132: FILE: net/rxrpc/ar-internal.h:1015:
++bool rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct rxrpc_call *' should also have an identifier name
+#132: FILE: net/rxrpc/ar-internal.h:1015:
++bool rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'rxrpc_seq_t' should also have an identifier name
+#132: FILE: net/rxrpc/ar-internal.h:1015:
++bool rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#132: FILE: net/rxrpc/ar-internal.h:1015:
++bool rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'int' should also have an identifier name
+#132: FILE: net/rxrpc/ar-internal.h:1015:
++bool rxrpc_abort_call(const char *, struct rxrpc_call *, rxrpc_seq_t, u32, int);
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#136: FILE: net/rxrpc/ar-internal.h:1019:
++/*
++ * Abort a call due to a protocol error.
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#166: FILE: net/rxrpc/recvmsg.c:62:
++/*
++ * Transition a call to the complete state.
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#176: FILE: net/rxrpc/recvmsg.c:72:
++		call->completion = compl,
++		call->state = RXRPC_CALL_COMPLETE;
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#199: FILE: net/rxrpc/recvmsg.c:95:
++/*
++ * Record that a call successfully completed.
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#217: FILE: net/rxrpc/recvmsg.c:113:
++/*
++ * Record that a call is locally aborted.
+
+total: 0 errors, 23 warnings, 0 checks, 227 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3067bf8c596d ("rxrpc: Move the call completion handling out of line") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

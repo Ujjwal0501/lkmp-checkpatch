@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 23 lines checked
+
+Commit ddaa877f2dbc ("staging: vt6656 remove vnt_mac_disable_keyentry calls") has no obvious style problems and is ready for submission.

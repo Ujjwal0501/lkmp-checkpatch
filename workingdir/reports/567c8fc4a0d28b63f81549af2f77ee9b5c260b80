@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 567c8fc4a0d2 ("drm/amd/powerplay: implement the is_dpm_running()") has no obvious style problems and is ready for submission.

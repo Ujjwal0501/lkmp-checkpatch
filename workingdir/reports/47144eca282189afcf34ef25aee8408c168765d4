@@ -1,0 +1,33 @@
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#47: FILE: kernel/kcsan/core.c:295:
++kcsan_setup_watchpoint(const volatile void *ptr, size_t size, int type)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#91: FILE: kernel/kcsan/kcsan.h:106:
++extern void kcsan_report(const volatile void *ptr, size_t size, int access_type,
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#138: FILE: kernel/kcsan/report.c:80:
++		BUG();
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#148: FILE: kernel/kcsan/report.c:128:
++static bool print_report(const volatile void *ptr, size_t size, int access_type,
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#219: FILE: kernel/kcsan/report.c:318:
++void kcsan_report(const volatile void *ptr, size_t size, int access_type,
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#228: FILE: kernel/kcsan/report.c:325:
++		if (print_report(ptr, size, access_type, value_change, cpu_id, type) && panic_on_warn)
+
+total: 0 errors, 6 warnings, 183 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 47144eca2821 ("kcsan: Show full access type in report") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

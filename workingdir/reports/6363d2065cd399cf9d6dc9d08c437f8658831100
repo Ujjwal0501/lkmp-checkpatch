@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 6363d2065cd3 ("HID: magicmouse: do not set up autorepeat") has no obvious style problems and is ready for submission.

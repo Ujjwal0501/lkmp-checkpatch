@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 79 lines checked
+
+Commit 16824085a7dd ("arm64/cpufeature: Introduce ID_PFR2 CPU register") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 689f3bf21628 ("KVM: x86: unify callbacks to load paging root")'
+#11: 
+This was was added in commit 689f3bf21628 ("KVM: x86: unify callbacks
+
+WARNING:REPEATED_WORD: Possible repeated word: 'was'
+#11: 
+This was was added in commit 689f3bf21628 ("KVM: x86: unify callbacks
+
+total: 1 errors, 1 warnings, 42 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 978ce5837c7e ("KVM: SVM: always update CR3 in VMCB") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

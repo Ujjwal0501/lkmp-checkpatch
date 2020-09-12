@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 271 lines checked
+
+Commit 9ce274630495 ("cpufreq: tegra20: Use generic cpufreq-dt driver (Tegra30 supported now)") has no obvious style problems and is ready for submission.

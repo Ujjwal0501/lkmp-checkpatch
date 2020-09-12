@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit b96fc5416b09 ("nvmem: ensure sysfs writes handle write-protect pin") has no obvious style problems and is ready for submission.

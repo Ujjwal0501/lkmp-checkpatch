@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit f8c51d28e9d1 ("Bluetooth: btbcm: Move setting of USE_BDADDR_PROPERTY quirk to hci_bcm.c") has no obvious style problems and is ready for submission.

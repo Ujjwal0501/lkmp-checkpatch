@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 339 lines checked
+
+Commit 2be08c308f10 ("RDMA/mlx5: Delete create QP flags obfuscation") has no obvious style problems and is ready for submission.

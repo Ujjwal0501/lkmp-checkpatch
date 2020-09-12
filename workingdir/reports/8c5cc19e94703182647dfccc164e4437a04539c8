@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 51 lines checked
+
+Commit 8c5cc19e9470 ("x86/tlb: Uninline __get_current_cr3_fast()") has no obvious style problems and is ready for submission.

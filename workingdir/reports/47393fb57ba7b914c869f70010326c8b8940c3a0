@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 17 lines checked
+
+Commit 47393fb57ba7 ("block/rnbd: Fix an IS_ERR() vs NULL check in find_or_create_sess()") has no obvious style problems and is ready for submission.

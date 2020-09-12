@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 513 lines checked
+
+Commit 9271dfd9e0f7 ("drm/amdgpu/pm: return an error during GPU reset or suspend (v2)") has no obvious style problems and is ready for submission.

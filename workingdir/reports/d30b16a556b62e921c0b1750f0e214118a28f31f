@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit d30b16a556b6 ("phy: qcom-qmp: Add QMP V3 USB3 PHY support for SC7180") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 126 lines checked
+
+Commit e98fa02c4f2e ("sched/fair: Eliminate bandwidth race between throttling and distribution") has no obvious style problems and is ready for submission.

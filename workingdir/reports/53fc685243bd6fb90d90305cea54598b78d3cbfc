@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 10 lines checked
+
+Commit 53fc685243bd ("bridge: Avoid infinite loop when suppressing NS messages with invalid options") has no obvious style problems and is ready for submission.

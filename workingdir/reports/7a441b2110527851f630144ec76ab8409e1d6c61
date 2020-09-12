@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit 7a441b211052 ("iommu/amd: Use pci_ats_supported()") has no obvious style problems and is ready for submission.

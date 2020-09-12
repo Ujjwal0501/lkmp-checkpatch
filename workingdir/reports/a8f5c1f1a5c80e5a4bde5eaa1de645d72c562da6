@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit a8f5c1f1a5c8 ("RDMA/srpt: Add a newline when printing parameter 'srpt_service_guid' by sysfs") has no obvious style problems and is ready for submission.

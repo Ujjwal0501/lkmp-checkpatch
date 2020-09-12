@@ -1,0 +1,13 @@
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#37: FILE: net/wireless/sme.c:1122:
++		    wiphy_ext_feature_isset(
+
+total: 0 errors, 0 warnings, 1 checks, 29 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0e47901d78f0 ("nl80211: really allow client-only BIGTK support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 179 lines checked
+
+Commit 4c0dcd8350a0 ("x86/entry: Implement user mode C entry points for #DB and #MCE") has no obvious style problems and is ready for submission.

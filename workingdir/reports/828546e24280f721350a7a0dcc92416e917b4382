@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#73: 
+new file mode 100644
+
+WARNING:SPACING: space prohibited before semicolon
+#131: FILE: drivers/gpio/gpio-aggregator.c:54:
++		for (end = start; *end && !isspace(*end); end++) ;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#131: FILE: drivers/gpio/gpio-aggregator.c:54:
++		for (end = start; *end && !isspace(*end); end++) ;
+
+total: 1 errors, 2 warnings, 593 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 828546e24280 ("gpio: Add GPIO Aggregator") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

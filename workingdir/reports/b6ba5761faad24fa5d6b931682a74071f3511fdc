@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 10 lines checked
+
+Commit b6ba5761faad ("rtl8187: Remove unused variable rtl8225z2_tx_power_ofdm") has no obvious style problems and is ready for submission.

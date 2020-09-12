@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 25 lines checked
+
+Commit c9aa81faf191 ("tipc: fix kernel WARNING in tipc_msg_append()") has no obvious style problems and is ready for submission.

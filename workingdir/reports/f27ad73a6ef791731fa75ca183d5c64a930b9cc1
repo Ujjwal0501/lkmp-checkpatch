@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f27ad73a6ef7 ("KVM: VMX: Use accessor to read vmcs.INTR_INFO when handling exception") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit ff5b89c2858f ("arm: dts: mt7623: add phy-mode property for gmac2") has no obvious style problems and is ready for submission.

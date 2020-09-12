@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#39: 
+new file mode 100644
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#115: FILE: Documentation/core-api/printk-basics.rst:72:
++To change the current console_loglevel simply write the the desired level to
+
+total: 0 errors, 2 warnings, 277 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 90c165f0de3a ("docs: pr_*() kerneldocs and basic printk docs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

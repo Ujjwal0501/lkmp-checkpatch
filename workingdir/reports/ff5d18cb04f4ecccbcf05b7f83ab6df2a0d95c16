@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit ff5d18cb04f4 ("ASoC: tegra: Enable audio mclk during tegra_asoc_utils_init()") has no obvious style problems and is ready for submission.

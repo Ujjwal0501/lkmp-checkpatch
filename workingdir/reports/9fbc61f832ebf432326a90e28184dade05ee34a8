@@ -1,0 +1,113 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#22: 
+  drwxr-xr-x. 2 root root 0 Apr 14 13:33 /sys/bus/event_source/devices/cpu/caps
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#22: 
+  drwxr-xr-x. 2 root root 0 Apr 14 13:33 /sys/bus/event_source/devices/cpu/caps
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#23: 
+  drwxr-xr-x. 2 root root 0 Apr 14 13:33 /sys/bus/event_source/devices/intel_pt/caps
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#26: 
+  drwxr-xr-x. 2 root root    0 Apr 14 13:33 .
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#27: 
+  drwxr-xr-x. 5 root root    0 Apr 14 13:12 ..
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#28: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 cr3_filtering
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#29: 
+  -r--r--r--. 1 root root 4096 Apr 16 11:42 cycle_thresholds
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#30: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 ip_filtering
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#31: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 max_subleaf
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#32: 
+  -r--r--r--. 1 root root 4096 Apr 14 13:33 mtc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#33: 
+  -r--r--r--. 1 root root 4096 Apr 14 13:33 mtc_periods
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#34: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 num_address_ranges
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#35: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 output_subsys
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#36: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 payloads_lip
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#37: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 power_event_trace
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#38: 
+  -r--r--r--. 1 root root 4096 Apr 14 13:33 psb_cyc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#39: 
+  -r--r--r--. 1 root root 4096 Apr 14 13:33 psb_periods
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#40: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 ptwrite
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#41: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 single_range_output
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#42: 
+  -r--r--r--. 1 root root 4096 Apr 16 12:03 topa_multiple_entries
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#43: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 topa_output
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#56: 
+  drwxr-xr-x. 2 root root    0 Apr 14 13:33 .
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#57: 
+  drwxr-xr-x. 6 root root    0 Apr 14 13:12 ..
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#58: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 branches
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#59: 
+  -r--r--r--. 1 root root 4096 Apr 14 13:33 max_precise
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#60: 
+  -r--r--r--. 1 root root 4096 Apr 16 13:10 pmu_name
+
+total: 0 errors, 26 warnings, 116 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9fbc61f832eb ("perf pmu: Add support for PMU capabilities") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

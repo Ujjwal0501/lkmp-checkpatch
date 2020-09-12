@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 126 lines checked
+
+Commit a865e420b956 ("virtio: force spec specified alignment on types") has no obvious style problems and is ready for submission.

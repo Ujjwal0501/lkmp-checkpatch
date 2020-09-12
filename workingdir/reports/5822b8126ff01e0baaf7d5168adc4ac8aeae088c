@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 5822b8126ff0 ("rcu: Add WRITE_ONCE() to rcu_node ->boost_tasks") has no obvious style problems and is ready for submission.

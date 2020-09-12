@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 51 lines checked
+
+Commit da3287111ab4 ("net: qed: fix buffer overflow on ethtool -d") has no obvious style problems and is ready for submission.

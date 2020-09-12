@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 174 lines checked
+
+Commit 03b7bf341c18 ("powerpc/powernv/npu: Move IOMMU group setup into npu-dma.c") has no obvious style problems and is ready for submission.

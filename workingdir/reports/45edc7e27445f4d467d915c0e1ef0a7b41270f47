@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 45edc7e27445 ("clk: baikal-t1: remove redundant assignment to variable 'divider'") has no obvious style problems and is ready for submission.

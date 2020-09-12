@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit f4cfcd2d5aea ("KVM: x86: don't expose MSR_IA32_UMWAIT_CONTROL unconditionally") has no obvious style problems and is ready for submission.

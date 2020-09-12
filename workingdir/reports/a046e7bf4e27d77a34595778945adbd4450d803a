@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit a046e7bf4e27 ("drm/exynos: make pointer to const data const type") has no obvious style problems and is ready for submission.

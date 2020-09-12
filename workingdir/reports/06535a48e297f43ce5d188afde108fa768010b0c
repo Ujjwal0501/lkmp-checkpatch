@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#34: FILE: drivers/gpu/drm/amd/display/dc/dml/dcn21/display_rq_dlg_calc_21.c:1494:
++			disp_dlg_regs->refcyc_per_pte_group_vblank_l >= (unsigned int)dml_pow(2, 13))
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#45: FILE: drivers/gpu/drm/amd/display/dc/dml/dcn21/display_rq_dlg_calc_21.c:1504:
++				disp_dlg_regs->refcyc_per_pte_group_vblank_c >= (unsigned int)dml_pow(2, 13))
+
+total: 0 errors, 2 warnings, 23 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 06535a48e297 ("drm/amd/display: Cap certain DML values for Low Pix Clk on DCN2.1") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

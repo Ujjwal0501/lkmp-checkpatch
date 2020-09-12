@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit b4203ce05563 ("i3c master: GETMRL's 3rd byte is optional even with BCR_IBI_PAYLOAD") has no obvious style problems and is ready for submission.

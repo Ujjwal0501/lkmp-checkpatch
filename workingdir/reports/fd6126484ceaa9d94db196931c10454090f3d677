@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit fd6126484cea ("f2fs: protect new segment allocation in expand_inode_data") has no obvious style problems and is ready for submission.

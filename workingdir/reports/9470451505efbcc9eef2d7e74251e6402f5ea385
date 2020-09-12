@@ -1,0 +1,13 @@
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRWXO' are not preferred. Consider using octal permissions '0007'.
+#66: FILE: fs/open.c:405:
++	if (mode & ~S_IRWXO)	/* where's F_OK, X_OK, W_OK, R_OK? */
+
+total: 0 errors, 1 warnings, 58 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9470451505ef ("vfs: split out access_override_creds()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

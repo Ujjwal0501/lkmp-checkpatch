@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit e0135a104c52 ("KVM: x86: do not pass poisoned hva to __kvm_set_memory_region") has no obvious style problems and is ready for submission.

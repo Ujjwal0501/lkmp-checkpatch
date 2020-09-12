@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit 3b42c06061cd ("arm64: dts: vexpress: Fix VExpress LED names") has no obvious style problems and is ready for submission.

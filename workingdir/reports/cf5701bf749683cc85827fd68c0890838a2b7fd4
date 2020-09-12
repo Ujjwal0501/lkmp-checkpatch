@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit cf5701bf7496 ("power: bq25890: unlock on error paths in bq25890_resume()") has no obvious style problems and is ready for submission.

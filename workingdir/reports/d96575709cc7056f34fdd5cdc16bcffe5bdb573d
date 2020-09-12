@@ -1,0 +1,443 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#42: 
+new file mode 100644
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#64: FILE: arch/riscv/include/asm/gdb_xml.h:18:
++"l<?xml version=\"1.0\"?>"
++"<!DOCTYPE target SYSTEM \"gdb-target.dtd\">"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#65: FILE: arch/riscv/include/asm/gdb_xml.h:19:
++"<!DOCTYPE target SYSTEM \"gdb-target.dtd\">"
++"<target>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#66: FILE: arch/riscv/include/asm/gdb_xml.h:20:
++"<target>"
++"<xi:include href=\"riscv-64bit-cpu.xml\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#67: FILE: arch/riscv/include/asm/gdb_xml.h:21:
++"<xi:include href=\"riscv-64bit-cpu.xml\"/>"
++"</target>";
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#71: FILE: arch/riscv/include/asm/gdb_xml.h:25:
++"l<?xml version=\"1.0\"?>"
++"<!DOCTYPE feature SYSTEM \"gdb-target.dtd\">"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#72: FILE: arch/riscv/include/asm/gdb_xml.h:26:
++"<!DOCTYPE feature SYSTEM \"gdb-target.dtd\">"
++"<feature name=\"org.gnu.gdb.riscv.cpu\">"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#73: FILE: arch/riscv/include/asm/gdb_xml.h:27:
++"<feature name=\"org.gnu.gdb.riscv.cpu\">"
++"<reg name=\""DBG_REG_ZERO"\" bitsize=\"64\" type=\"int\" regnum=\"0\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#74: FILE: arch/riscv/include/asm/gdb_xml.h:28:
++"<reg name=\""DBG_REG_ZERO"\" bitsize=\"64\" type=\"int\" regnum=\"0\"/>"
++"<reg name=\""DBG_REG_RA"\" bitsize=\"64\" type=\"code_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#75: FILE: arch/riscv/include/asm/gdb_xml.h:29:
++"<reg name=\""DBG_REG_RA"\" bitsize=\"64\" type=\"code_ptr\"/>"
++"<reg name=\""DBG_REG_SP"\" bitsize=\"64\" type=\"data_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#76: FILE: arch/riscv/include/asm/gdb_xml.h:30:
++"<reg name=\""DBG_REG_SP"\" bitsize=\"64\" type=\"data_ptr\"/>"
++"<reg name=\""DBG_REG_GP"\" bitsize=\"64\" type=\"data_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#77: FILE: arch/riscv/include/asm/gdb_xml.h:31:
++"<reg name=\""DBG_REG_GP"\" bitsize=\"64\" type=\"data_ptr\"/>"
++"<reg name=\""DBG_REG_TP"\" bitsize=\"64\" type=\"data_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#78: FILE: arch/riscv/include/asm/gdb_xml.h:32:
++"<reg name=\""DBG_REG_TP"\" bitsize=\"64\" type=\"data_ptr\"/>"
++"<reg name=\""DBG_REG_T0"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#79: FILE: arch/riscv/include/asm/gdb_xml.h:33:
++"<reg name=\""DBG_REG_T0"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T1"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#80: FILE: arch/riscv/include/asm/gdb_xml.h:34:
++"<reg name=\""DBG_REG_T1"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T2"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#81: FILE: arch/riscv/include/asm/gdb_xml.h:35:
++"<reg name=\""DBG_REG_T2"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_FP"\" bitsize=\"64\" type=\"data_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#82: FILE: arch/riscv/include/asm/gdb_xml.h:36:
++"<reg name=\""DBG_REG_FP"\" bitsize=\"64\" type=\"data_ptr\"/>"
++"<reg name=\""DBG_REG_S1"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#83: FILE: arch/riscv/include/asm/gdb_xml.h:37:
++"<reg name=\""DBG_REG_S1"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A0"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#84: FILE: arch/riscv/include/asm/gdb_xml.h:38:
++"<reg name=\""DBG_REG_A0"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A1"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#85: FILE: arch/riscv/include/asm/gdb_xml.h:39:
++"<reg name=\""DBG_REG_A1"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A2"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#86: FILE: arch/riscv/include/asm/gdb_xml.h:40:
++"<reg name=\""DBG_REG_A2"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A3"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#87: FILE: arch/riscv/include/asm/gdb_xml.h:41:
++"<reg name=\""DBG_REG_A3"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A4"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#88: FILE: arch/riscv/include/asm/gdb_xml.h:42:
++"<reg name=\""DBG_REG_A4"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A5"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#89: FILE: arch/riscv/include/asm/gdb_xml.h:43:
++"<reg name=\""DBG_REG_A5"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A6"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#90: FILE: arch/riscv/include/asm/gdb_xml.h:44:
++"<reg name=\""DBG_REG_A6"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A7"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#91: FILE: arch/riscv/include/asm/gdb_xml.h:45:
++"<reg name=\""DBG_REG_A7"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S2"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#92: FILE: arch/riscv/include/asm/gdb_xml.h:46:
++"<reg name=\""DBG_REG_S2"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S3"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#93: FILE: arch/riscv/include/asm/gdb_xml.h:47:
++"<reg name=\""DBG_REG_S3"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S4"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#94: FILE: arch/riscv/include/asm/gdb_xml.h:48:
++"<reg name=\""DBG_REG_S4"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S5"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#95: FILE: arch/riscv/include/asm/gdb_xml.h:49:
++"<reg name=\""DBG_REG_S5"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S6"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#96: FILE: arch/riscv/include/asm/gdb_xml.h:50:
++"<reg name=\""DBG_REG_S6"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S7"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#97: FILE: arch/riscv/include/asm/gdb_xml.h:51:
++"<reg name=\""DBG_REG_S7"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S8"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#98: FILE: arch/riscv/include/asm/gdb_xml.h:52:
++"<reg name=\""DBG_REG_S8"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S9"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#99: FILE: arch/riscv/include/asm/gdb_xml.h:53:
++"<reg name=\""DBG_REG_S9"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S10"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#100: FILE: arch/riscv/include/asm/gdb_xml.h:54:
++"<reg name=\""DBG_REG_S10"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S11"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#101: FILE: arch/riscv/include/asm/gdb_xml.h:55:
++"<reg name=\""DBG_REG_S11"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T3"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#102: FILE: arch/riscv/include/asm/gdb_xml.h:56:
++"<reg name=\""DBG_REG_T3"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T4"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#103: FILE: arch/riscv/include/asm/gdb_xml.h:57:
++"<reg name=\""DBG_REG_T4"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T5"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#104: FILE: arch/riscv/include/asm/gdb_xml.h:58:
++"<reg name=\""DBG_REG_T5"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T6"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#105: FILE: arch/riscv/include/asm/gdb_xml.h:59:
++"<reg name=\""DBG_REG_T6"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_EPC"\" bitsize=\"64\" type=\"code_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#106: FILE: arch/riscv/include/asm/gdb_xml.h:60:
++"<reg name=\""DBG_REG_EPC"\" bitsize=\"64\" type=\"code_ptr\"/>"
++"<reg name=\""DBG_REG_STATUS"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#107: FILE: arch/riscv/include/asm/gdb_xml.h:61:
++"<reg name=\""DBG_REG_STATUS"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_BADADDR"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#108: FILE: arch/riscv/include/asm/gdb_xml.h:62:
++"<reg name=\""DBG_REG_BADADDR"\" bitsize=\"64\" type=\"int\"/>"
++"<reg name=\""DBG_REG_CAUSE"\" bitsize=\"64\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#109: FILE: arch/riscv/include/asm/gdb_xml.h:63:
++"<reg name=\""DBG_REG_CAUSE"\" bitsize=\"64\" type=\"int\"/>"
++"</feature>";
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#116: FILE: arch/riscv/include/asm/gdb_xml.h:70:
++"l<?xml version=\"1.0\"?>"
++"<!DOCTYPE target SYSTEM \"gdb-target.dtd\">"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#117: FILE: arch/riscv/include/asm/gdb_xml.h:71:
++"<!DOCTYPE target SYSTEM \"gdb-target.dtd\">"
++"<target>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#118: FILE: arch/riscv/include/asm/gdb_xml.h:72:
++"<target>"
++"<xi:include href=\"riscv-32bit-cpu.xml\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#119: FILE: arch/riscv/include/asm/gdb_xml.h:73:
++"<xi:include href=\"riscv-32bit-cpu.xml\"/>"
++"</target>";
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#123: FILE: arch/riscv/include/asm/gdb_xml.h:77:
++"l<?xml version=\"1.0\"?>"
++"<!DOCTYPE feature SYSTEM \"gdb-target.dtd\">"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#124: FILE: arch/riscv/include/asm/gdb_xml.h:78:
++"<!DOCTYPE feature SYSTEM \"gdb-target.dtd\">"
++"<feature name=\"org.gnu.gdb.riscv.cpu\">"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#125: FILE: arch/riscv/include/asm/gdb_xml.h:79:
++"<feature name=\"org.gnu.gdb.riscv.cpu\">"
++"<reg name=\""DBG_REG_ZERO"\" bitsize=\"32\" type=\"int\" regnum=\"0\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#126: FILE: arch/riscv/include/asm/gdb_xml.h:80:
++"<reg name=\""DBG_REG_ZERO"\" bitsize=\"32\" type=\"int\" regnum=\"0\"/>"
++"<reg name=\""DBG_REG_RA"\" bitsize=\"32\" type=\"code_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#127: FILE: arch/riscv/include/asm/gdb_xml.h:81:
++"<reg name=\""DBG_REG_RA"\" bitsize=\"32\" type=\"code_ptr\"/>"
++"<reg name=\""DBG_REG_SP"\" bitsize=\"32\" type=\"data_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#128: FILE: arch/riscv/include/asm/gdb_xml.h:82:
++"<reg name=\""DBG_REG_SP"\" bitsize=\"32\" type=\"data_ptr\"/>"
++"<reg name=\""DBG_REG_GP"\" bitsize=\"32\" type=\"data_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#129: FILE: arch/riscv/include/asm/gdb_xml.h:83:
++"<reg name=\""DBG_REG_GP"\" bitsize=\"32\" type=\"data_ptr\"/>"
++"<reg name=\""DBG_REG_TP"\" bitsize=\"32\" type=\"data_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#130: FILE: arch/riscv/include/asm/gdb_xml.h:84:
++"<reg name=\""DBG_REG_TP"\" bitsize=\"32\" type=\"data_ptr\"/>"
++"<reg name=\""DBG_REG_T0"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#131: FILE: arch/riscv/include/asm/gdb_xml.h:85:
++"<reg name=\""DBG_REG_T0"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T1"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#132: FILE: arch/riscv/include/asm/gdb_xml.h:86:
++"<reg name=\""DBG_REG_T1"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T2"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#133: FILE: arch/riscv/include/asm/gdb_xml.h:87:
++"<reg name=\""DBG_REG_T2"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_FP"\" bitsize=\"32\" type=\"data_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#134: FILE: arch/riscv/include/asm/gdb_xml.h:88:
++"<reg name=\""DBG_REG_FP"\" bitsize=\"32\" type=\"data_ptr\"/>"
++"<reg name=\""DBG_REG_S1"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#135: FILE: arch/riscv/include/asm/gdb_xml.h:89:
++"<reg name=\""DBG_REG_S1"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A0"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#136: FILE: arch/riscv/include/asm/gdb_xml.h:90:
++"<reg name=\""DBG_REG_A0"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A1"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#137: FILE: arch/riscv/include/asm/gdb_xml.h:91:
++"<reg name=\""DBG_REG_A1"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A2"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#138: FILE: arch/riscv/include/asm/gdb_xml.h:92:
++"<reg name=\""DBG_REG_A2"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A3"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#139: FILE: arch/riscv/include/asm/gdb_xml.h:93:
++"<reg name=\""DBG_REG_A3"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A4"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#140: FILE: arch/riscv/include/asm/gdb_xml.h:94:
++"<reg name=\""DBG_REG_A4"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A5"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#141: FILE: arch/riscv/include/asm/gdb_xml.h:95:
++"<reg name=\""DBG_REG_A5"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A6"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#142: FILE: arch/riscv/include/asm/gdb_xml.h:96:
++"<reg name=\""DBG_REG_A6"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_A7"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#143: FILE: arch/riscv/include/asm/gdb_xml.h:97:
++"<reg name=\""DBG_REG_A7"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S2"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#144: FILE: arch/riscv/include/asm/gdb_xml.h:98:
++"<reg name=\""DBG_REG_S2"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S3"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#145: FILE: arch/riscv/include/asm/gdb_xml.h:99:
++"<reg name=\""DBG_REG_S3"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S4"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#146: FILE: arch/riscv/include/asm/gdb_xml.h:100:
++"<reg name=\""DBG_REG_S4"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S5"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#147: FILE: arch/riscv/include/asm/gdb_xml.h:101:
++"<reg name=\""DBG_REG_S5"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S6"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#148: FILE: arch/riscv/include/asm/gdb_xml.h:102:
++"<reg name=\""DBG_REG_S6"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S7"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#149: FILE: arch/riscv/include/asm/gdb_xml.h:103:
++"<reg name=\""DBG_REG_S7"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S8"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#150: FILE: arch/riscv/include/asm/gdb_xml.h:104:
++"<reg name=\""DBG_REG_S8"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S9"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#151: FILE: arch/riscv/include/asm/gdb_xml.h:105:
++"<reg name=\""DBG_REG_S9"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S10"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#152: FILE: arch/riscv/include/asm/gdb_xml.h:106:
++"<reg name=\""DBG_REG_S10"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_S11"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#153: FILE: arch/riscv/include/asm/gdb_xml.h:107:
++"<reg name=\""DBG_REG_S11"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T3"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#154: FILE: arch/riscv/include/asm/gdb_xml.h:108:
++"<reg name=\""DBG_REG_T3"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T4"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#155: FILE: arch/riscv/include/asm/gdb_xml.h:109:
++"<reg name=\""DBG_REG_T4"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T5"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#156: FILE: arch/riscv/include/asm/gdb_xml.h:110:
++"<reg name=\""DBG_REG_T5"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_T6"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#157: FILE: arch/riscv/include/asm/gdb_xml.h:111:
++"<reg name=\""DBG_REG_T6"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_EPC"\" bitsize=\"32\" type=\"code_ptr\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#158: FILE: arch/riscv/include/asm/gdb_xml.h:112:
++"<reg name=\""DBG_REG_EPC"\" bitsize=\"32\" type=\"code_ptr\"/>"
++"<reg name=\""DBG_REG_STATUS"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#159: FILE: arch/riscv/include/asm/gdb_xml.h:113:
++"<reg name=\""DBG_REG_STATUS"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_BADADDR"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#160: FILE: arch/riscv/include/asm/gdb_xml.h:114:
++"<reg name=\""DBG_REG_BADADDR"\" bitsize=\"32\" type=\"int\"/>"
++"<reg name=\""DBG_REG_CAUSE"\" bitsize=\"32\" type=\"int\"/>"
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#161: FILE: arch/riscv/include/asm/gdb_xml.h:115:
++"<reg name=\""DBG_REG_CAUSE"\" bitsize=\"32\" type=\"int\"/>"
++"</feature>";
+
+total: 0 errors, 87 warnings, 182 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d96575709cc7 ("riscv: Use the XML target descriptions to report 3 system registers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

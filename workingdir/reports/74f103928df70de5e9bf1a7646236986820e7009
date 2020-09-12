@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 74f103928df7 ("drm/i915/selftests: Show the pstate limits on any failure to reset min") has no obvious style problems and is ready for submission.

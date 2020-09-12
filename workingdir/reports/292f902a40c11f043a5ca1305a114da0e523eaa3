@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 292f902a40c1 ("ovl: call secutiry hook in ovl_real_ioctl()") has no obvious style problems and is ready for submission.

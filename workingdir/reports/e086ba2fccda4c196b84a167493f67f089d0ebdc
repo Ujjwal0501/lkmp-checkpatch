@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 63 lines checked
+
+Commit e086ba2fccda ("e1000e: disable s0ix entry and exit flows for ME systems") has no obvious style problems and is ready for submission.

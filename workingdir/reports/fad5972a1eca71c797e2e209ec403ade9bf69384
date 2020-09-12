@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit fad5972a1eca ("i2c: add 'single-master' property to generic bindings") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit ee434a4f9f5e ("drm/amdgpu/display: Unlock mutex on error") has no obvious style problems and is ready for submission.

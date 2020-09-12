@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit d9765e41d8e9 ("dma-pool: do not allocate pool memory from CMA") has no obvious style problems and is ready for submission.

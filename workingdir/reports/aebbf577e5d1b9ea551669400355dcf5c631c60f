@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 69 lines checked
+
+Commit aebbf577e5d1 ("sdhci: tegra: Avoid reading autocal timeout values when not applicable") has no obvious style problems and is ready for submission.

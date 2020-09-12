@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 102 lines checked
+
+Commit af19d6450101 ("drm/mediatek: Omit warning on probe defers") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "qcom,sm8250-ufshc" appears un-documented -- check ./Documentation/devicetree/bindings/
+#65: FILE: arch/arm64/boot/dts/qcom/sm8250.dtsi:310:
++			compatible = "qcom,sm8250-ufshc", "qcom,ufshc",
+
+total: 0 errors, 1 warnings, 106 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b7e2fba06622 ("arm64: dts: qcom: sm8250: Add UFS controller and PHY") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

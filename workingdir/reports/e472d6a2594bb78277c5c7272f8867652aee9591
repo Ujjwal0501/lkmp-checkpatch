@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 267 lines checked
+
+Commit e472d6a2594b ("media: vimc: add vimc_ent_type struct for the callbacks of entities") has no obvious style problems and is ready for submission.

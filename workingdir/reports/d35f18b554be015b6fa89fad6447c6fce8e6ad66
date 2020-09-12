@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 117 lines checked
+
+Commit d35f18b554be ("powerpc/papr_scm: Implement support for PAPR_PDSM_HEALTH") has no obvious style problems and is ready for submission.

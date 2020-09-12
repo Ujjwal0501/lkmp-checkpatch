@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 3005 lines checked
+
+Commit 65fddcfca8ad ("mm: reorder includes after introduction of linux/pgtable.h") has no obvious style problems and is ready for submission.

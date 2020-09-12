@@ -1,0 +1,203 @@
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#59: FILE: arch/arm64/kvm/sys_regs.c:79:
++	case CSSELR_EL1:	*val = read_sysreg_s(SYS_CSSELR_EL1);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#60: FILE: arch/arm64/kvm/sys_regs.c:80:
++	case SCTLR_EL1:		*val = read_sysreg_s(SYS_SCTLR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#61: FILE: arch/arm64/kvm/sys_regs.c:81:
++	case ACTLR_EL1:		*val = read_sysreg_s(SYS_ACTLR_EL1);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#62: FILE: arch/arm64/kvm/sys_regs.c:82:
++	case CPACR_EL1:		*val = read_sysreg_s(SYS_CPACR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#63: FILE: arch/arm64/kvm/sys_regs.c:83:
++	case TTBR0_EL1:		*val = read_sysreg_s(SYS_TTBR0_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#64: FILE: arch/arm64/kvm/sys_regs.c:84:
++	case TTBR1_EL1:		*val = read_sysreg_s(SYS_TTBR1_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#65: FILE: arch/arm64/kvm/sys_regs.c:85:
++	case TCR_EL1:		*val = read_sysreg_s(SYS_TCR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#66: FILE: arch/arm64/kvm/sys_regs.c:86:
++	case ESR_EL1:		*val = read_sysreg_s(SYS_ESR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#67: FILE: arch/arm64/kvm/sys_regs.c:87:
++	case AFSR0_EL1:		*val = read_sysreg_s(SYS_AFSR0_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#68: FILE: arch/arm64/kvm/sys_regs.c:88:
++	case AFSR1_EL1:		*val = read_sysreg_s(SYS_AFSR1_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#69: FILE: arch/arm64/kvm/sys_regs.c:89:
++	case FAR_EL1:		*val = read_sysreg_s(SYS_FAR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#70: FILE: arch/arm64/kvm/sys_regs.c:90:
++	case MAIR_EL1:		*val = read_sysreg_s(SYS_MAIR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#71: FILE: arch/arm64/kvm/sys_regs.c:91:
++	case VBAR_EL1:		*val = read_sysreg_s(SYS_VBAR_EL12);	break;
+
+ERROR:SPACING: space required after that ';' (ctx:VxV)
+#72: FILE: arch/arm64/kvm/sys_regs.c:92:
++	case CONTEXTIDR_EL1:	*val = read_sysreg_s(SYS_CONTEXTIDR_EL12);break;
+ 	                    	                                         ^
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#72: FILE: arch/arm64/kvm/sys_regs.c:92:
++	case CONTEXTIDR_EL1:	*val = read_sysreg_s(SYS_CONTEXTIDR_EL12);break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#73: FILE: arch/arm64/kvm/sys_regs.c:93:
++	case TPIDR_EL0:		*val = read_sysreg_s(SYS_TPIDR_EL0);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#74: FILE: arch/arm64/kvm/sys_regs.c:94:
++	case TPIDRRO_EL0:	*val = read_sysreg_s(SYS_TPIDRRO_EL0);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#75: FILE: arch/arm64/kvm/sys_regs.c:95:
++	case TPIDR_EL1:		*val = read_sysreg_s(SYS_TPIDR_EL1);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#76: FILE: arch/arm64/kvm/sys_regs.c:96:
++	case AMAIR_EL1:		*val = read_sysreg_s(SYS_AMAIR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#77: FILE: arch/arm64/kvm/sys_regs.c:97:
++	case CNTKCTL_EL1:	*val = read_sysreg_s(SYS_CNTKCTL_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#78: FILE: arch/arm64/kvm/sys_regs.c:98:
++	case PAR_EL1:		*val = read_sysreg_s(SYS_PAR_EL1);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#79: FILE: arch/arm64/kvm/sys_regs.c:99:
++	case DACR32_EL2:	*val = read_sysreg_s(SYS_DACR32_EL2);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#80: FILE: arch/arm64/kvm/sys_regs.c:100:
++	case IFSR32_EL2:	*val = read_sysreg_s(SYS_IFSR32_EL2);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#81: FILE: arch/arm64/kvm/sys_regs.c:101:
++	case DBGVCR32_EL2:	*val = read_sysreg_s(SYS_DBGVCR32_EL2);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#126: FILE: arch/arm64/kvm/sys_regs.c:119:
++	case CSSELR_EL1:	write_sysreg_s(val, SYS_CSSELR_EL1);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#127: FILE: arch/arm64/kvm/sys_regs.c:120:
++	case SCTLR_EL1:		write_sysreg_s(val, SYS_SCTLR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#128: FILE: arch/arm64/kvm/sys_regs.c:121:
++	case ACTLR_EL1:		write_sysreg_s(val, SYS_ACTLR_EL1);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#129: FILE: arch/arm64/kvm/sys_regs.c:122:
++	case CPACR_EL1:		write_sysreg_s(val, SYS_CPACR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#130: FILE: arch/arm64/kvm/sys_regs.c:123:
++	case TTBR0_EL1:		write_sysreg_s(val, SYS_TTBR0_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#131: FILE: arch/arm64/kvm/sys_regs.c:124:
++	case TTBR1_EL1:		write_sysreg_s(val, SYS_TTBR1_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#132: FILE: arch/arm64/kvm/sys_regs.c:125:
++	case TCR_EL1:		write_sysreg_s(val, SYS_TCR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#133: FILE: arch/arm64/kvm/sys_regs.c:126:
++	case ESR_EL1:		write_sysreg_s(val, SYS_ESR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#134: FILE: arch/arm64/kvm/sys_regs.c:127:
++	case AFSR0_EL1:		write_sysreg_s(val, SYS_AFSR0_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#135: FILE: arch/arm64/kvm/sys_regs.c:128:
++	case AFSR1_EL1:		write_sysreg_s(val, SYS_AFSR1_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#136: FILE: arch/arm64/kvm/sys_regs.c:129:
++	case FAR_EL1:		write_sysreg_s(val, SYS_FAR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#137: FILE: arch/arm64/kvm/sys_regs.c:130:
++	case MAIR_EL1:		write_sysreg_s(val, SYS_MAIR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#138: FILE: arch/arm64/kvm/sys_regs.c:131:
++	case VBAR_EL1:		write_sysreg_s(val, SYS_VBAR_EL12);	break;
+
+ERROR:SPACING: space required after that ';' (ctx:VxV)
+#139: FILE: arch/arm64/kvm/sys_regs.c:132:
++	case CONTEXTIDR_EL1:	write_sysreg_s(val, SYS_CONTEXTIDR_EL12);break;
+ 	                    	                                        ^
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#139: FILE: arch/arm64/kvm/sys_regs.c:132:
++	case CONTEXTIDR_EL1:	write_sysreg_s(val, SYS_CONTEXTIDR_EL12);break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#140: FILE: arch/arm64/kvm/sys_regs.c:133:
++	case TPIDR_EL0:		write_sysreg_s(val, SYS_TPIDR_EL0);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#141: FILE: arch/arm64/kvm/sys_regs.c:134:
++	case TPIDRRO_EL0:	write_sysreg_s(val, SYS_TPIDRRO_EL0);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#142: FILE: arch/arm64/kvm/sys_regs.c:135:
++	case TPIDR_EL1:		write_sysreg_s(val, SYS_TPIDR_EL1);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#143: FILE: arch/arm64/kvm/sys_regs.c:136:
++	case AMAIR_EL1:		write_sysreg_s(val, SYS_AMAIR_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#144: FILE: arch/arm64/kvm/sys_regs.c:137:
++	case CNTKCTL_EL1:	write_sysreg_s(val, SYS_CNTKCTL_EL12);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#145: FILE: arch/arm64/kvm/sys_regs.c:138:
++	case PAR_EL1:		write_sysreg_s(val, SYS_PAR_EL1);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#146: FILE: arch/arm64/kvm/sys_regs.c:139:
++	case DACR32_EL2:	write_sysreg_s(val, SYS_DACR32_EL2);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#147: FILE: arch/arm64/kvm/sys_regs.c:140:
++	case IFSR32_EL2:	write_sysreg_s(val, SYS_IFSR32_EL2);	break;
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#148: FILE: arch/arm64/kvm/sys_regs.c:141:
++	case DBGVCR32_EL2:	write_sysreg_s(val, SYS_DBGVCR32_EL2);	break;
+
+total: 48 errors, 0 warnings, 154 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7ea90bdd70c9 ("KVM: arm64: Refactor vcpu_{read,write}_sys_reg") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

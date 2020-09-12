@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f4f6bd93fdab ("KVM: VMX: Always treat MSR_IA32_PERF_CAPABILITIES as a valid PMU MSR") has no obvious style problems and is ready for submission.

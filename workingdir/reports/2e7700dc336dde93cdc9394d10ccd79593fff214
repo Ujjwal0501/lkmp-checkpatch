@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 40 lines checked
+
+Commit 2e7700dc336d ("thermal: Move trip point structure definition to private header") has no obvious style problems and is ready for submission.

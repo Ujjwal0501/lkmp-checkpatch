@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit d567572906d9 ("nvme: unlink head after removing last namespace") has no obvious style problems and is ready for submission.

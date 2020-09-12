@@ -1,0 +1,22 @@
+WARNING:DT_SPLIT_BINDING_PATCH: DT binding docs and includes should be a separate patch. See: Documentation/devicetree/bindings/submitting-patches.rst
+
+WARNING:DT_SPLIT_BINDING_PATCH: DT binding docs and includes should be a separate patch. See: Documentation/devicetree/bindings/submitting-patches.rst
+
+WARNING:SPDX_LICENSE_TAG: DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)
+#80: FILE: Documentation/devicetree/bindings/display/panel/olimex,lcd-olinuxino.yaml:1:
++# SPDX-License-Identifier: GPL-2.0
+
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#159: FILE: MAINTAINERS:5359:
+ F:	drivers/gpu/drm/panel/panel-olimex-lcd-olinuxino.c
++F:	Documentation/devicetree/bindings/display/panel/olimex,lcd-olinuxino.yaml
+
+total: 0 errors, 4 warnings, 78 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8b9e7ace123d ("dt-bindings: display: convert olimex,lcd-olinuxino to DT Schema") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

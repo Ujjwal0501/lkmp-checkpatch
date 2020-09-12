@@ -1,0 +1,15 @@
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#36: FILE: tools/perf/builtin-report.c:481:
++	if (symbol_conf.show_ref_callgraph && evname && strstr(evname, "call-graph=no")) {
+ 		ret += fprintf(fp, ", show reference callgraph");
+ 	}
+
+total: 0 errors, 1 warnings, 9 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 11b6e5482e17 ("perf report: Fix NULL pointer dereference in hists__fprintf_nr_sample_events()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

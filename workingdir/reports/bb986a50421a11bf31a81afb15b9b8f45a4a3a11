@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 86 lines checked
+
+Commit bb986a50421a ("seg6: fix seg6_validate_srh() to avoid slab-out-of-bounds") has no obvious style problems and is ready for submission.

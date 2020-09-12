@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit f66a6fd0dc7c ("mtd: rawnand: Avoid a typedef") has no obvious style problems and is ready for submission.

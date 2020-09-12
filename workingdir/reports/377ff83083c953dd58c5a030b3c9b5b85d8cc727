@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 377ff83083c9 ("selftests: tpm: Use /bin/sh instead of /bin/bash") has no obvious style problems and is ready for submission.

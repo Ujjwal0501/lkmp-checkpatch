@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit acc91c2d8de4 ("cifs/smb3: Fix data inconsistent when punch hole") has no obvious style problems and is ready for submission.

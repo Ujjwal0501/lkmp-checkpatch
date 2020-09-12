@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 304 lines checked
+
+Commit e9a28dc52af3 ("btrfs: rename tree_entry to rb_simple_node and export it") has no obvious style problems and is ready for submission.

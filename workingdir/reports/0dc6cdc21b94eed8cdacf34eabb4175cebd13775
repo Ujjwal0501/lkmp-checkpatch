@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit 0dc6cdc21b94 ("x86/idtentry: Provide IDTENTRY_RAW") has no obvious style problems and is ready for submission.

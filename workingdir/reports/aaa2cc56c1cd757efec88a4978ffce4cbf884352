@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit aaa2cc56c1cd ("mmap locking API: convert nested write lock sites") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 75 lines checked
+
+Commit 39ec7e9b6999 ("ASoC: mmp-sspa: Set appropriate bus format for given bit width") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 8096f80a5c09 ("remoteproc/mediatek: fix invalid use of sizeof in scp_ipi_init()") has no obvious style problems and is ready for submission.

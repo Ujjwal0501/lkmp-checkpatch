@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 0651ed5082bc ("mtd: rawnand: Ensure the number of bitflips is consistent") has no obvious style problems and is ready for submission.

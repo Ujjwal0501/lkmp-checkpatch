@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit 3c90e95bd958 ("net: ipa: declare struct types in "ipa_gsi.h"") has no obvious style problems and is ready for submission.

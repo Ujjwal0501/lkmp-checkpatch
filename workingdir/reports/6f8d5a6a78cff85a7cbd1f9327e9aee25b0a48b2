@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 182 lines checked
+
+Commit 6f8d5a6a78cf ("scsi: ufs: Add LU Dedicated buffer mode support for WriteBooster") has no obvious style problems and is ready for submission.

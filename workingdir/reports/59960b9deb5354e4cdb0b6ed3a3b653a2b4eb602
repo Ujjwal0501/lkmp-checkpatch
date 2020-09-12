@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 59960b9deb53 ("io_uring: fix lazy work init") has no obvious style problems and is ready for submission.

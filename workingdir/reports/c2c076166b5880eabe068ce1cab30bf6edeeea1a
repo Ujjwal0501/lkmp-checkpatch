@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 134 lines checked
+
+Commit c2c076166b58 ("firmware_loader: change enum fw_opt to u32") has no obvious style problems and is ready for submission.

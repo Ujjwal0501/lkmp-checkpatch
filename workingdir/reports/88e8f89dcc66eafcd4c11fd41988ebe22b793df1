@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit 88e8f89dcc66 ("ALSA: firewire-motu: use table-based calculation of packet formats for stream management") has no obvious style problems and is ready for submission.

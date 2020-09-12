@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit a949824f01f3 ("exfat: fix range validation error in alloc and free cluster") has no obvious style problems and is ready for submission.

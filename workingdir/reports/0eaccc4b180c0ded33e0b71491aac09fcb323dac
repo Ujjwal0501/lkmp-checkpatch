@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 210 lines checked
+
+Commit 0eaccc4b180c ("drm/i915/selftests: Split RPS frequency measurement") has no obvious style problems and is ready for submission.

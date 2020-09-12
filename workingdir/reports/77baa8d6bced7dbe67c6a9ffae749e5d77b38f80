@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 77baa8d6bced ("iio: light: vl6180: add include of mod_devicetable.h and drop of_match_ptr") has no obvious style problems and is ready for submission.

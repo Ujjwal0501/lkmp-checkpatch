@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b2bbf1aac611 ("media: i2c: imx219: Fix a bug in imx219_enum_frame_size") has no obvious style problems and is ready for submission.

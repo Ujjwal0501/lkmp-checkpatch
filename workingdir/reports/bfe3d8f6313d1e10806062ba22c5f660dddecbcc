@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 139 lines checked
+
+Commit bfe3d8f6313d ("x86/tlb: Restrict access to tlbstate") has no obvious style problems and is ready for submission.

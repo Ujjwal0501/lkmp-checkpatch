@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit b7c3d0777808 ("i2c: designware: Move reg-space remapping into a dedicated function") has no obvious style problems and is ready for submission.

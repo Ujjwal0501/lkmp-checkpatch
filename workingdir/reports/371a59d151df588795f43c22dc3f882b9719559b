@@ -1,0 +1,14 @@
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#86: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mcu.c:3025:
++
++
+
+total: 0 errors, 0 warnings, 1 checks, 149 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 371a59d151df ("mt76: mt7615: add support for applying tx DPD calibration from EEPROM") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

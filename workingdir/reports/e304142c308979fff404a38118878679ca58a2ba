@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 61 lines checked
+
+Commit e304142c3089 ("scsi: lpfc: remove duplicate unloading checks") has no obvious style problems and is ready for submission.

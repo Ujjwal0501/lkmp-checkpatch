@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit aa86e90794c8 ("power: supply: axp288_charger: Omit superfluous error message") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit dc20e93b935e ("bus: bt1-apb: Build the driver into the kernel") has no obvious style problems and is ready for submission.

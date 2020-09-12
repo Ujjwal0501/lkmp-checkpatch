@@ -1,0 +1,25 @@
+WARNING:INLINE: plain inline is preferred over __inline__
+#117: FILE: arch/m68k/include/asm/floppy.h:66:
++static __inline__ unsigned char fd_inb(int base, int reg)
+
+WARNING:INLINE: plain inline is preferred over __inline__
+#129: FILE: arch/m68k/include/asm/floppy.h:75:
++static __inline__ void fd_outb(unsigned char value, int base, int reg)
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#177: FILE: arch/mips/include/asm/mach-jazz/floppy.h:24:
++	c = *(volatile unsigned char *) (base + reg);
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#187: FILE: arch/mips/include/asm/mach-jazz/floppy.h:32:
++	*(volatile unsigned char *) (base + reg) = value;
+
+total: 0 errors, 4 warnings, 189 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e72e8bf1c984 ("floppy: split the base port from the register in I/O accesses") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

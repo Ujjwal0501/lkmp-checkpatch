@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 0e34dc761810 ("coresight: Don't initialize variables unnecessarily") has no obvious style problems and is ready for submission.

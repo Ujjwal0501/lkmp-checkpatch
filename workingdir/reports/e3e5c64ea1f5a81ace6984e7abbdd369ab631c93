@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 102 lines checked
+
+Commit e3e5c64ea1f5 ("x86/entry/64: Remove IRQ stack switching ASM") has no obvious style problems and is ready for submission.

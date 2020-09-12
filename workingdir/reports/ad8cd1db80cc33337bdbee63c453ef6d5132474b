@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 150 lines checked
+
+Commit ad8cd1db80cc ("printk: Move console matching logic into a separate function") has no obvious style problems and is ready for submission.

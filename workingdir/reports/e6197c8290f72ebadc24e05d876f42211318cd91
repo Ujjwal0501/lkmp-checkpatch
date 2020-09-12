@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e6197c8290f7 ("i2c: npcm7xx: npcm_i2caddr[] can be static") has no obvious style problems and is ready for submission.

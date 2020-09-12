@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_STRING: line length of 102 exceeds 100 columns
+#81: FILE: drivers/gpu/drm/i915/display/intel_dp.c:5061:
++		DRM_DEBUG_KMS("Set 80Bit Custom Phy Test Pattern 0x3e0f83e0 0x0f83e0f8 0x0000f83e\n");
+
+total: 0 errors, 1 warnings, 166 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8cdf72711928 ("drm/i915/dp: Program vswing, pre-emphasis, test-pattern") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

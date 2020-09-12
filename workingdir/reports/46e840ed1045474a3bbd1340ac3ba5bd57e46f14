@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 98 lines checked
+
+Commit 46e840ed1045 ("drm/amdgpu: replace indirect mmio access in non-dc code path") has no obvious style problems and is ready for submission.

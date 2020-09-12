@@ -1,0 +1,17 @@
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#72: FILE: drivers/firmware/efi/libstub/efistub.h:52:
++	if (!efi_quiet) efi_puts("EFI stub: "msg);	\
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'efi_char16_t *' should also have an identifier name
+#95: FILE: drivers/firmware/efi/libstub/efistub.h:632:
++void efi_char16_puts(efi_char16_t *);
+
+total: 1 errors, 1 warnings, 76 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cb8c90a08c7f ("efi/libstub: Rename efi_[char16_]printk to efi_[char16_]puts") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

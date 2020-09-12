@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 0d71a5cf691a ("ASoC: tas2552: Fix runtime PM imbalance in tas2552_component_probe") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit 199a8b84c455 ("KVM: x86: introduce kvm_can_use_hv_timer") has no obvious style problems and is ready for submission.

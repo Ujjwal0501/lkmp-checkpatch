@@ -1,0 +1,68 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#28: 
+new file mode 100644
+
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#72: FILE: tools/perf/Documentation/security.txt:40:
++ $
+
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#75: FILE: tools/perf/Documentation/security.txt:43:
++ $
+
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#94: FILE: tools/perf/Documentation/security.txt:62:
++ $
+
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#96: FILE: tools/perf/Documentation/security.txt:64:
++ $
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#109: FILE: tools/perf/Documentation/security.txt:77:
++   drwxr-xr-x. 2 root root 4.0K Mar 20 12:16 .
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#110: FILE: tools/perf/Documentation/security.txt:78:
++   drwxr-xr-x. 3 root root 4.0K Mar 20 12:16 ..
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#111: FILE: tools/perf/Documentation/security.txt:79:
++   -rw-r--r--. 1 root root 112K Mar 20 12:16 selinux-policy-3.14.4-48.fc31.noarch.rpm
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#112: FILE: tools/perf/Documentation/security.txt:80:
++   -rw-r--r--. 1 root root 1.2M Mar 20 12:17 selinux-policy-devel-3.14.4-48.fc31.noarch.rpm
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#113: FILE: tools/perf/Documentation/security.txt:81:
++   -rw-r--r--. 1 root root 2.3M Mar 20 12:17 selinux-policy-doc-3.14.4-48.fc31.noarch.rpm
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#114: FILE: tools/perf/Documentation/security.txt:82:
++   -rw-r--r--. 1 root root  12M Mar 20 12:17 selinux-policy-minimum-3.14.4-48.fc31.noarch.rpm
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#115: FILE: tools/perf/Documentation/security.txt:83:
++   -rw-r--r--. 1 root root 4.5M Mar 20 12:16 selinux-policy-mls-3.14.4-48.fc31.noarch.rpm
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#116: FILE: tools/perf/Documentation/security.txt:84:
++   -rw-r--r--. 1 root root 111K Mar 20 12:16 selinux-policy-sandbox-3.14.4-48.fc31.noarch.rpm
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#117: FILE: tools/perf/Documentation/security.txt:85:
++   -rw-r--r--. 1 root root  14M Mar 20 12:17 selinux-policy-targeted-3.14.4-48.fc31.noarch.rpm
+
+total: 4 errors, 10 warnings, 237 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit bd7c1c6671b2 ("perf docs: Introduce security.txt file to document related issues") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit f33a0b941017 ("MIPS: tools: Fix resource leak in elf-entry.c") has no obvious style problems and is ready for submission.

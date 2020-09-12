@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit dd16163ea24b ("dt-bindings: i2c: i2c-stm32f7: allow clock-frequency range") has no obvious style problems and is ready for submission.

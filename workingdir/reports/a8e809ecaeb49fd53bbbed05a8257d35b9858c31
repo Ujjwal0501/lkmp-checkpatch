@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 129 lines checked
+
+Commit a8e809ecaeb4 ("mmc: sdhci: use FIELD_GET/PREP for capabilities bit masks") has no obvious style problems and is ready for submission.

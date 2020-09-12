@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 444 lines checked
+
+Commit dbdc1ec31fc0 ("crypto: hisilicon - add device error report through abnormal irq") has no obvious style problems and is ready for submission.

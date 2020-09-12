@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit bb15aded5144 ("mtd: spi-nor: move #define SPINOR_OP_WRDI") has no obvious style problems and is ready for submission.

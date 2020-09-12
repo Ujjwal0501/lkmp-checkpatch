@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 5372e1e5b4c8 ("iio:light:ltr501: Drop unnecessary cast of parameter in regmap_bulk_read") has no obvious style problems and is ready for submission.

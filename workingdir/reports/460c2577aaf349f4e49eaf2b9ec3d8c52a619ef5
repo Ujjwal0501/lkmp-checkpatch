@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 143 exceeds 100 columns
+#279: FILE: drivers/net/ethernet/broadcom/bnxt/bnxt_hsi.h:2339:
++	#define ERROR_RECOVERY_QCFG_RESP_ERR_RECOVERY_CNT_REG_ADDR_SPACE_LAST     ERROR_RECOVERY_QCFG_RESP_ERR_RECOVERY_CNT_REG_ADDR_SPACE_BAR1
+
+total: 0 errors, 1 warnings, 0 checks, 370 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 460c2577aaf3 ("bnxt_en: Update firmware spec. to 1.10.1.33.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

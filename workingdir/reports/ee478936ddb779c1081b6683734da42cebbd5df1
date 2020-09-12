@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit ee478936ddb7 ("i2c: pxa: always set fm and hs members for each type") has no obvious style problems and is ready for submission.

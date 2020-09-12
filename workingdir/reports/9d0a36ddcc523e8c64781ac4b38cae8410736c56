@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit 9d0a36ddcc52 ("arm64: dts: fvp/juno: Fix bus node names") has no obvious style problems and is ready for submission.

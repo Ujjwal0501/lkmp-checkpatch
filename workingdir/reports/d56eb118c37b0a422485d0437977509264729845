@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit d56eb118c37b ("ARM: dts: stm32: Add alternate pinmux for ADC pins") has no obvious style problems and is ready for submission.

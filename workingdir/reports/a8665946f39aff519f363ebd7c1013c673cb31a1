@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 94 lines checked
+
+Commit a8665946f39a ("drm/amd/display: add optc get crc support for timings with ODM/DSC") has no obvious style problems and is ready for submission.

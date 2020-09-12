@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 273288189471 ("iomap: fix the iomap_fiemap prototype") has no obvious style problems and is ready for submission.

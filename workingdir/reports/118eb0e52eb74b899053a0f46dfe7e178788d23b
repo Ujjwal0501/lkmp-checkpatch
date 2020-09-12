@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 118eb0e52eb7 ("spi: bcm2835: Implement shutdown callback") has no obvious style problems and is ready for submission.

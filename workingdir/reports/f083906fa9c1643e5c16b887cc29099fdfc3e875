@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit fatal: bad o ("4b263fcba829aaf3f")'
+#7: 
+ACPICA commit 2c2eefa827bd37297f5f9ca4b263fcba829aaf3f
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#55: FILE: include/acpi/actypes.h:818:
++#define ACPI_ADR_SPACE_PLATFORM_RT      (acpi_adr_space_type) 11
+
+total: 2 errors, 0 warnings, 27 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f083906fa9c1 ("ACPICA: iASL: add new OperationRegion subtype keyword PlatformRtMechanism") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit fe9446251945 ("ASoC: mediatek: mt8183: fix error handling of platform_get_irq()") has no obvious style problems and is ready for submission.

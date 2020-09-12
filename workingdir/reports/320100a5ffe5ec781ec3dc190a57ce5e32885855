@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit 320100a5ffe5 ("x86/entry: Remove the TRACE_IRQS cruft") has no obvious style problems and is ready for submission.

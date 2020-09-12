@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 66 lines checked
+
+Commit c72ddf0dbf2d ("net: ipa: get rid of workaround in ipa_endpoint_stop()") has no obvious style problems and is ready for submission.

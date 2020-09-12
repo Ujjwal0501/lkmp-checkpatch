@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit c7fa77016eb6 ("powerpc/mm: Standardise __ptep_test_and_clear_young() params between PPC32 and PPC64") has no obvious style problems and is ready for submission.

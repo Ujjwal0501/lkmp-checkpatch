@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 460 lines checked
+
+Commit f18e26af6aba ("RDMA/mlx5: Convert modify QP to use MLX5_SET macros") has no obvious style problems and is ready for submission.

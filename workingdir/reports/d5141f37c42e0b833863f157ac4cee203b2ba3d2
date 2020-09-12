@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 75 lines checked
+
+Commit d5141f37c42e ("firmware: arm_scmi: Add notifications support in transport layer") has no obvious style problems and is ready for submission.

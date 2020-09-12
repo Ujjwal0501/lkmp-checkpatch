@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit a9410a625064 ("drm/i915/uc: do not free err log on uc_fini") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 99ba8b9b0d97 ("dmaengine: dw: Initialize channel before each transfer") has no obvious style problems and is ready for submission.

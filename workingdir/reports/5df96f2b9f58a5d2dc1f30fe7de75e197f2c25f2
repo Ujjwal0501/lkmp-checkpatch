@@ -1,0 +1,23 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#14: 
+3. integrity_recalc calls if (unlikely(dm_suspended(ic->ti))) goto unlock_ret;
+
+ERROR:BAD_SIGN_OFF: Unrecognized email address: 'Mikulas Patocka <mpatocka redhat com>'
+#21: 
+Signed-off-by: Mikulas Patocka <mpatocka redhat com>
+
+ERROR:BAD_SIGN_OFF: Unrecognized email address: 'stable vger kernel org # v4.18+'
+#23: 
+Cc: stable vger kernel org # v4.18+
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Mikulas Patocka <mpatocka@redhat.com>'
+
+total: 2 errors, 2 warnings, 78 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5df96f2b9f58 ("dm integrity: fix integrity recalculation that is improperly skipped") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

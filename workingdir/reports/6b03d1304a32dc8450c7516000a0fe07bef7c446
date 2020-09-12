@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit d73d65293e3e ("[PATCH] pidhash: kill switch_exec_pids")'
+#14: 
+in d73d65293e3e ("[PATCH] pidhash: kill switch_exec_pids") there
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 48e6484d4902 ("[PATCH] proc: Rewrite the proc dentry flush on exit optimization")'
+#19: 
+when I introduced 48e6484d4902 ("[PATCH] proc: Rewrite the proc dentry
+
+total: 2 errors, 0 warnings, 44 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6b03d1304a32 ("proc: Ensure we see the exit of each process tid exactly once") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

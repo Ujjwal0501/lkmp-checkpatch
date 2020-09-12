@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 243f5908b135 ("sparc: remove unused header file nfs_fs.h") has no obvious style problems and is ready for submission.

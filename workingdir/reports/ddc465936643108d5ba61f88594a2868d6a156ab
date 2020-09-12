@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit ddc465936643 ("Revert "rculist: Describe variadic macro argument in a Sphinx-compatible way"") has no obvious style problems and is ready for submission.

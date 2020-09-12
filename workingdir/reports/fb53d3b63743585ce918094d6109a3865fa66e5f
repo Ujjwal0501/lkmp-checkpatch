@@ -1,0 +1,17 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#33: FILE: tools/include/uapi/linux/bpf.h:2022:
++ * ^I^Ipossible to both shrink and grow the packet tail.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#34: FILE: tools/include/uapi/linux/bpf.h:2023:
++ * ^I^IShrink done via *delta* being a negative integer.$
+
+total: 0 errors, 2 warnings, 18 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fb53d3b63743 ("tools/bpf: sync bpf.h") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

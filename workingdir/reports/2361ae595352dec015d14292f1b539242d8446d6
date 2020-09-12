@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 2361ae595352 ("dm mpath: switch paths in dm_blk_ioctl() code path") has no obvious style problems and is ready for submission.

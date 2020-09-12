@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 33 lines checked
+
+Commit 161158d7af3f ("iwlwifi: pcie: gen2: minor code cleanups in byte table update") has no obvious style problems and is ready for submission.

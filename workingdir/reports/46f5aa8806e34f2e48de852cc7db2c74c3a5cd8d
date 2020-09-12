@@ -1,0 +1,34 @@
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#68: FILE: drivers/md/bcache/bset.c:34:
++			pr_cont("%llu:%llu\n", KEY_INODE(k), KEY_OFFSET(k));
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#157: FILE: drivers/md/bcache/extents.c:133:
++	pr_cont(" %s", buf);
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#163: FILE: drivers/md/bcache/extents.c:138:
++		pr_cont(" bucket %zu", n);
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#167: FILE: drivers/md/bcache/extents.c:140:
++			pr_cont(" prio %i",
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#172: FILE: drivers/md/bcache/extents.c:144:
++	pr_cont(" %s\n", bch_ptr_status(b->c, k));
+
+WARNING:OOM_MESSAGE: Possible unnecessary 'out of memory' message
+#930: FILE: drivers/md/bcache/writeback.c:920:
+ 	if (!state) {
++		pr_warn("sectors dirty init failed: cannot allocate memory\n");
+
+total: 0 errors, 6 warnings, 787 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 46f5aa8806e3 ("bcache: Convert pr_<level> uses to a more typical style") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

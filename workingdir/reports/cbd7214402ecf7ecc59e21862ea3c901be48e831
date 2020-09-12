@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit cbd7214402ec ("arm64: dts: rockchip: Define the rockchip Video Decoder node on rk3399") has no obvious style problems and is ready for submission.

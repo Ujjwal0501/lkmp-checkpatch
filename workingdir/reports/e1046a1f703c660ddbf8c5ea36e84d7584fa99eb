@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit e1046a1f703c ("drm/amdgpu: Adjust the SDMA doorbell info printing") has no obvious style problems and is ready for submission.

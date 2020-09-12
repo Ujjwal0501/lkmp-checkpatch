@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 80 lines checked
+
+Commit 6b99262fd2f2 ("phy: amlogic: meson8b-usb2: Don't set REG_ADP_BC_ACA_ENABLE on Meson8") has no obvious style problems and is ready for submission.

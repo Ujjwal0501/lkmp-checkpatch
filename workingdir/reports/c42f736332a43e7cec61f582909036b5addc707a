@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 10 lines checked
+
+Commit c42f736332a4 ("staging: greybus: hid: remove braces {} around single statement block") has no obvious style problems and is ready for submission.

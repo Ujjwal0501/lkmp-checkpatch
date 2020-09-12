@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 6ee091efa7b5 ("s390/qeth: set TX IRQ marker on last buffer in a group") has no obvious style problems and is ready for submission.

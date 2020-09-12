@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'superflous' may be misspelled - perhaps 'superfluous'?
+#8: 
+the only caller, and remove the superflous blk-mq checks.
+
+total: 0 errors, 1 warnings, 69 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 10ec5e86f9b8 ("block: merge part_{inc,dev}_in_flight into their only callers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

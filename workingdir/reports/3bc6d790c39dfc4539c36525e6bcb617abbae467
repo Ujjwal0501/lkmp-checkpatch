@@ -1,0 +1,21 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#30: FILE: drivers/power/supply/Kconfig:544:
++config CHARGER_MP2629
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#56: 
+new file mode 100644
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "mps,mp2629_charger" appears un-documented -- check ./Documentation/devicetree/bindings/
+#713: FILE: drivers/power/supply/mp2629_charger.c:653:
++	{ .compatible = "mps,mp2629_charger"},
+
+total: 0 errors, 3 warnings, 692 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3bc6d790c39d ("power: supply: Add support for mps mp2629 battery charger") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

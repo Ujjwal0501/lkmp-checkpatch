@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 177 lines checked
+
+Commit ebfa7f8ae155 ("iwlwifi: yoyo: add support for parsing SHARED_MEM_ALLOC version 4") has no obvious style problems and is ready for submission.

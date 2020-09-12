@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 2c18bd525c47 ("x86/resctrl: Fix memory bandwidth counter width for AMD") has no obvious style problems and is ready for submission.

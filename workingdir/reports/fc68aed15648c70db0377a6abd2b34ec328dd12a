@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit fc68aed15648 ("net: hns3: remove two unused macros in hclgevf_cmd.c") has no obvious style problems and is ready for submission.

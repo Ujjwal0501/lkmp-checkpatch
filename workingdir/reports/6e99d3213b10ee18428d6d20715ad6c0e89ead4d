@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 6e99d3213b10 ("efi/libstub: Add missing prototype for PE/COFF entry point") has no obvious style problems and is ready for submission.

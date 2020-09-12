@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 265 lines checked
+
+Commit 762d961aee40 ("clk: socfpga: stratix10: use new parent data scheme") has no obvious style problems and is ready for submission.

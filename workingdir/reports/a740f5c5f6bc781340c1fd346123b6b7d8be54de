@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 72 lines checked
+
+Commit a740f5c5f6bc ("drm/i915/selftests: Skip energy consumption tests if not controlling freq") has no obvious style problems and is ready for submission.

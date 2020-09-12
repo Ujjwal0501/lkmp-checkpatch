@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 4f311afc2035 ("sched/core: Fix CONFIG_GCC_PLUGIN_RANDSTRUCT build fail") has no obvious style problems and is ready for submission.

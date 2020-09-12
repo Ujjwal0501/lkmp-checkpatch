@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 3b50142d8528 ("MAINTAINERS: sort field names for all entries")'
+#9: 
+See commits 3b50142d8528 ("MAINTAINERS: sort field names for all
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 6680125ea5a2 ("MAINTAINERS: list the section entries in the preferred order")'
+#10: 
+entries") and 6680125ea5a2 ("MAINTAINERS: list the section entries in
+
+total: 2 errors, 0 warnings, 51 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7ccf41a89cb0 ("checkpatch: additional MAINTAINER section entry ordering checks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

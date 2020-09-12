@@ -1,0 +1,18 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#49: 
+new file mode 100644
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#276: FILE: drivers/usb/typec/ucsi/psy.c:223:
++	con->psy_desc.type = POWER_SUPPLY_TYPE_USB,
++	con->psy_desc.usb_types = ucsi_psy_usb_types;
+
+total: 0 errors, 2 warnings, 314 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 992a60ed0d5e ("usb: typec: ucsi: register with power_supply class") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

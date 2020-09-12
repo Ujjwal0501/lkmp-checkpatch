@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 22 lines checked
+
+Commit ce3c3bf0bfad ("mlxsw: spectrum: Use dedicated trap group for sampled packets") has no obvious style problems and is ready for submission.

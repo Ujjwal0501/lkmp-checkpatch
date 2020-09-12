@@ -1,0 +1,35 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#41: FILE: tools/testing/selftests/vm/pkey-powerpc.h:32:
++#define NR_RESERVED_PKEYS_64K_3KEYS	3 /* PowerNV and KVM: pkey-0,
++					     pkey-1 and exec-only key */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#41: FILE: tools/testing/selftests/vm/pkey-powerpc.h:32:
++					     pkey-1 and exec-only key */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#43: FILE: tools/testing/selftests/vm/pkey-powerpc.h:34:
++#define NR_RESERVED_PKEYS_64K_4KEYS	4 /* PowerVM: pkey-0, pkey-1,
++					     pkey-31 and exec-only key */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#43: FILE: tools/testing/selftests/vm/pkey-powerpc.h:34:
++					     pkey-31 and exec-only key */
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - bool arch_is_powervm() should probably be bool arch_is_powervm(void)
+#51: FILE: tools/testing/selftests/vm/pkey-powerpc.h:72:
++static inline bool arch_is_powervm()
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#57: FILE: tools/testing/selftests/vm/pkey-powerpc.h:78:
++	    (stat("/sys/firmware/devicetree/base/chosen/qemu,graphic-width", &buf) == -1) )
+
+total: 2 errors, 4 warnings, 39 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c63e5e7f9942 ("selftests/vm/pkeys: fix number of reserved powerpc pkeys") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

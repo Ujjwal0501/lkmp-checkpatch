@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ae2c5d804242 ("khugepaged: drain LRU add pagevec after swapin") has no obvious style problems and is ready for submission.

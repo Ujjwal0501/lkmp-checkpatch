@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 49 lines checked
+
+Commit d4bf77bd7493 ("mt76: mt7615: introduce mt7663u support to mt7615_write_txwi") has no obvious style problems and is ready for submission.

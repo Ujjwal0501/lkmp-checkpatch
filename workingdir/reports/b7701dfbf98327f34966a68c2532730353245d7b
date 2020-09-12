@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit b7701dfbf983 ("vfio-ccw: Register a chp_event callback for vfio-ccw") has no obvious style problems and is ready for submission.

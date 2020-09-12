@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit b9901654a90a ("ASoC: amd: irq handler changes for ACP3x PDM dma driver") has no obvious style problems and is ready for submission.

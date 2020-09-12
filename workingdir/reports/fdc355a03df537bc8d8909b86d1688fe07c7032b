@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit fdc355a03df5 ("phy: rockchip: Fix return value of inno_dsidphy_probe()") has no obvious style problems and is ready for submission.

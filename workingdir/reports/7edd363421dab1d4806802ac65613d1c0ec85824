@@ -1,0 +1,19 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#57: 
+new file mode 100644
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "mediatek,mt6360_pmu" appears un-documented -- check ./Documentation/devicetree/bindings/
+#470: FILE: drivers/mfd/mt6360-core.c:409:
++	{ .compatible = "mediatek,mt6360_pmu", },
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Gene Chen <gene.chen.richtek@gmail.com>'
+
+total: 0 errors, 3 warnings, 690 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7edd363421da ("mfd: Add support for PMIC MT6360") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

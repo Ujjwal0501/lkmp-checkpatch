@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit becd2014923f ("SUNRPC: Add missing definition of ARCH_IMPLEMENTS_FLUSH_DCACHE_PAGE") has no obvious style problems and is ready for submission.

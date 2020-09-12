@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 30 lines checked
+
+Commit bd7db3021aa7 ("rndis_wlan: Replace zero-length array with flexible-array") has no obvious style problems and is ready for submission.

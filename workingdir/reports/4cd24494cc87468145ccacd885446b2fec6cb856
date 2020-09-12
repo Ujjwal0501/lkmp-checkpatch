@@ -1,0 +1,15 @@
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#62: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_gem.c:271:
++	if (flags & AMDGPU_GEM_CREATE_ENCRYPTED) {
++		/* XXX: pad out alignment to meet TMZ requirements */
++	}
+
+total: 0 errors, 1 warnings, 57 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4cd24494cc87 ("drm/amdgpu: set TMZ bits in PTEs for secure BO (v4)") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

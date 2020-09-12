@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit a6a82ce18ba4 ("rcu/tree: Count number of batched kfree_rcu() locklessly") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit fede8076aab4 ("KVM: x86: handle wrap around 32-bit address space") has no obvious style problems and is ready for submission.

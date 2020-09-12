@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit eec13b42d41b ("ARM: 8986/1: hw_breakpoint: Don't invoke overflow handler on uaccess watchpoints") has no obvious style problems and is ready for submission.

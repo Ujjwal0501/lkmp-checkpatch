@@ -1,0 +1,26 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#83: 
+new file mode 100644
+
+WARNING:INCLUDE_LINUX: Use #include <linux/pgtable.h> instead of <asm/pgtable.h>
+#270: FILE: mm/debug_vm_pgtable.c:31:
++#include <asm/pgtable.h>
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#544: FILE: mm/debug_vm_pgtable.c:305:
++	unsigned long pud_aligned, p4d_aligned, pgd_aligned;
++	spinlock_t *uninitialized_var(ptl);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'ptl' should also have an identifier name
+#544: FILE: mm/debug_vm_pgtable.c:305:
++	spinlock_t *uninitialized_var(ptl);
+
+total: 0 errors, 4 warnings, 492 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 399145f9eb6c ("mm/debug: add tests validating architecture page table helpers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

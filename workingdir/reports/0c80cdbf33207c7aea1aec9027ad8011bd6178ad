@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 12 lines checked
+
+Commit 0c80cdbf3320 ("e1000e: Warn if disabling ULP failed") has no obvious style problems and is ready for submission.

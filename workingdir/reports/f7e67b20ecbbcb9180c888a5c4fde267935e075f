@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 1258 lines checked
+
+Commit f7e67b20ecbb ("xfs: move the fork format fields into struct xfs_ifork") has no obvious style problems and is ready for submission.

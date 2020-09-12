@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 223 lines checked
+
+Commit 1b70061f5939 ("clk: qcom: gcc: Add support for a new frequency for SC7180") has no obvious style problems and is ready for submission.

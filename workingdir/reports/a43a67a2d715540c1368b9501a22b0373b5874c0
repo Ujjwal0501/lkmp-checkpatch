@@ -1,0 +1,17 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#225: FILE: fs/btrfs/inode.c:7210:
++		loff_t length, unsigned flags, struct iomap *iomap,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#382: FILE: fs/btrfs/inode.c:7356:
++		ssize_t written, unsigned flags, struct iomap *iomap)
+
+total: 0 errors, 2 warnings, 543 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a43a67a2d715 ("btrfs: switch to iomap_dio_rw() for dio") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

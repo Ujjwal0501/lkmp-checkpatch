@@ -1,0 +1,85 @@
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#422: FILE: arch/x86/entry/entry_64.S:1061:
++idtentry	X86_TRAP_DE		divide_error		do_divide_error			has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#423: FILE: arch/x86/entry/entry_64.S:1062:
++idtentry	X86_TRAP_OF		overflow		do_overflow			has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#424: FILE: arch/x86/entry/entry_64.S:1063:
++idtentry	X86_TRAP_BP		int3			do_int3				has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#425: FILE: arch/x86/entry/entry_64.S:1064:
++idtentry	X86_TRAP_BR		bounds			do_bounds			has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#426: FILE: arch/x86/entry/entry_64.S:1065:
++idtentry	X86_TRAP_UD		invalid_op		do_invalid_op			has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#427: FILE: arch/x86/entry/entry_64.S:1066:
++idtentry	X86_TRAP_NM		device_not_available	do_device_not_available		has_error_code=0
+
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#428: FILE: arch/x86/entry/entry_64.S:1067:
++idtentry	X86_TRAP_OLD_MF		coprocessor_segment_overrun	do_coprocessor_segment_overrun	has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#429: FILE: arch/x86/entry/entry_64.S:1068:
++idtentry	X86_TRAP_TS		invalid_TSS		do_invalid_TSS			has_error_code=1
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#430: FILE: arch/x86/entry/entry_64.S:1069:
++idtentry	X86_TRAP_NP		segment_not_present	do_segment_not_present		has_error_code=1
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#431: FILE: arch/x86/entry/entry_64.S:1070:
++idtentry	X86_TRAP_SS		stack_segment		do_stack_segment		has_error_code=1
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#432: FILE: arch/x86/entry/entry_64.S:1071:
++idtentry	X86_TRAP_GP		general_protection	do_general_protection		has_error_code=1
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#433: FILE: arch/x86/entry/entry_64.S:1072:
++idtentry	X86_TRAP_SPURIOUS	spurious_interrupt_bug	do_spurious_interrupt_bug	has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#434: FILE: arch/x86/entry/entry_64.S:1073:
++idtentry	X86_TRAP_MF		coprocessor_error	do_coprocessor_error		has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#435: FILE: arch/x86/entry/entry_64.S:1074:
++idtentry	X86_TRAP_AC		alignment_check		do_alignment_check		has_error_code=1
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#436: FILE: arch/x86/entry/entry_64.S:1075:
++idtentry	X86_TRAP_XF		simd_coprocessor_error	do_simd_coprocessor_error	has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#438: FILE: arch/x86/entry/entry_64.S:1077:
++idtentry	X86_TRAP_PF		page_fault		do_page_fault			has_error_code=1
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#453: FILE: arch/x86/entry/entry_64.S:1086:
++idtentry	512 /* dummy */		hypervisor_callback	xen_do_hypervisor_callback	has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#454: FILE: arch/x86/entry/entry_64.S:1087:
++idtentry	X86_TRAP_NMI		xennmi			do_nmi				has_error_code=0
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#455: FILE: arch/x86/entry/entry_64.S:1088:
++idtentry	X86_TRAP_DB		xendebug		do_debug			has_error_code=0
+
+total: 0 errors, 19 warnings, 427 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cfa82a00533f ("x86/entry: Distangle idtentry") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

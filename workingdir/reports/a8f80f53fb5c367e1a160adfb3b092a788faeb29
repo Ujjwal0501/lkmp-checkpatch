@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit a8f80f53fb5c ("mm/gup: update pin_user_pages.rst for "case 3" (mmu notifiers)") has no obvious style problems and is ready for submission.

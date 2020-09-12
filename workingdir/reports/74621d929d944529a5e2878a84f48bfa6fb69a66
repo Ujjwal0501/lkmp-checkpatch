@@ -1,0 +1,21 @@
+WARNING:DEEP_INDENTATION: Too many leading tabs - consider code refactoring
+#73: FILE: tools/lib/traceevent/event-parse.c:1534:
++						if (token[0] == '(')
+
+WARNING:DEEP_INDENTATION: Too many leading tabs - consider code refactoring
+#75: FILE: tools/lib/traceevent/event-parse.c:1536:
++						else if (token[0] == ')')
+
+WARNING:DEEP_INDENTATION: Too many leading tabs - consider code refactoring
+#77: FILE: tools/lib/traceevent/event-parse.c:1538:
++						if (!depth)
+
+total: 0 errors, 3 warnings, 57 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 74621d929d94 ("tools lib traceevent: Handle __attribute__((user)) in field names") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

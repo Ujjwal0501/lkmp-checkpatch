@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 98 lines checked
+
+Commit 37c54f9bd486 ("kernel: set USER_DS in kthread_use_mm") has no obvious style problems and is ready for submission.

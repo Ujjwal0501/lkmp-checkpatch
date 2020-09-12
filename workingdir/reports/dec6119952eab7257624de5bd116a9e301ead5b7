@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 79 lines checked
+
+Commit dec6119952ea ("efi/printf: Factor out integer argument retrieval") has no obvious style problems and is ready for submission.

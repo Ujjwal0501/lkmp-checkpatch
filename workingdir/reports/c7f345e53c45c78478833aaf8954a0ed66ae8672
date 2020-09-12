@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit c7f345e53c45 ("drm/amd/display: initialize get_max_link_cap") has no obvious style problems and is ready for submission.

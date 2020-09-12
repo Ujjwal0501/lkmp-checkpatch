@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 433022b58e62 ("arm64: cpufeature: Extend comment to describe absence of field info") has no obvious style problems and is ready for submission.

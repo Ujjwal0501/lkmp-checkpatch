@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit aa8ba13cae31 ("vfio/mdev: Fix reference count leak in add_mdev_supported_type") has no obvious style problems and is ready for submission.

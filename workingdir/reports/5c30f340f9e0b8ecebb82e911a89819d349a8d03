@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 81 lines checked
+
+Commit 5c30f340f9e0 ("mmc: host: sdhci-msm: Configure dll-user-control in dll init sequence") has no obvious style problems and is ready for submission.

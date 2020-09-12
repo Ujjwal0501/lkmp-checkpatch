@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 034aa9cd698e ("arm64: pgtable: Clear the GP bit for non-executable kernel pages") has no obvious style problems and is ready for submission.

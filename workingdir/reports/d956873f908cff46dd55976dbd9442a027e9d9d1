@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 223 lines checked
+
+Commit d956873f908c ("net/mlx5e: Introduce kconfig var for TC support") has no obvious style problems and is ready for submission.

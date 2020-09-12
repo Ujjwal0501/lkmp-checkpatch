@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 324 lines checked
+
+Commit 5ce0592b0ee5 ("RDMA/mlx5: Combine copy of create QP command in RSS RAW QP") has no obvious style problems and is ready for submission.

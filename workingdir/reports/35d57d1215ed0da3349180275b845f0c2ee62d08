@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 35d57d1215ed ("ARM: decompressor: move GOT into .data for EFI enabled builds") has no obvious style problems and is ready for submission.

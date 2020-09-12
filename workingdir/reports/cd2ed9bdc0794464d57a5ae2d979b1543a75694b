@@ -1,0 +1,16 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#58: FILE: fs/nfs/nfstrace.h:1047:
++	TP_printk("fileid=%02x:%02x:%llu fhandle=0x%08x "
++		  "offset=%lld count=%u res=%u pos=%llu status=%d",
+
+total: 0 errors, 2 warnings, 64 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cd2ed9bdc079 ("NFS: Add a tracepoint in nfs_set_pgio_error()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

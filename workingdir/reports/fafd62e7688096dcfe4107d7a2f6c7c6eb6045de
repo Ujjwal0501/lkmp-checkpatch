@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit fafd62e76880 ("cpuidle: tegra: Support CPU cluster power-down state on Tegra30") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 115 lines checked
+
+Commit 9d78edeaec75 ("proc: proc_pid_ns takes super_block as an argument") has no obvious style problems and is ready for submission.

@@ -1,0 +1,381 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#357: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'include/linux/atomic-arch-fallback.h', please use '/*' instead
+#362: FILE: include/linux/atomic-arch-fallback.h:1:
++// SPDX-License-Identifier: GPL-2.0
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#362: FILE: include/linux/atomic-arch-fallback.h:1:
++// SPDX-License-Identifier: GPL-2.0
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#445: FILE: include/linux/atomic-arch-fallback.h:84:
++	return smp_load_acquire(&(v)->counter);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#454: FILE: include/linux/atomic-arch-fallback.h:93:
++	smp_store_release(&(v)->counter, i);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#470: FILE: include/linux/atomic-arch-fallback.h:109:
++	int ret = arch_atomic_add_return_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#491: FILE: include/linux/atomic-arch-fallback.h:130:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#512: FILE: include/linux/atomic-arch-fallback.h:151:
++	int ret = arch_atomic_fetch_add_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#533: FILE: include/linux/atomic-arch-fallback.h:172:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#554: FILE: include/linux/atomic-arch-fallback.h:193:
++	int ret = arch_atomic_sub_return_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#575: FILE: include/linux/atomic-arch-fallback.h:214:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#596: FILE: include/linux/atomic-arch-fallback.h:235:
++	int ret = arch_atomic_fetch_sub_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#617: FILE: include/linux/atomic-arch-fallback.h:256:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#686: FILE: include/linux/atomic-arch-fallback.h:325:
++	int ret = arch_atomic_inc_return_relaxed(v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#707: FILE: include/linux/atomic-arch-fallback.h:346:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#767: FILE: include/linux/atomic-arch-fallback.h:406:
++	int ret = arch_atomic_fetch_inc_relaxed(v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#788: FILE: include/linux/atomic-arch-fallback.h:427:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#857: FILE: include/linux/atomic-arch-fallback.h:496:
++	int ret = arch_atomic_dec_return_relaxed(v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#878: FILE: include/linux/atomic-arch-fallback.h:517:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#938: FILE: include/linux/atomic-arch-fallback.h:577:
++	int ret = arch_atomic_fetch_dec_relaxed(v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#959: FILE: include/linux/atomic-arch-fallback.h:598:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#980: FILE: include/linux/atomic-arch-fallback.h:619:
++	int ret = arch_atomic_fetch_and_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1001: FILE: include/linux/atomic-arch-fallback.h:640:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1070: FILE: include/linux/atomic-arch-fallback.h:709:
++	int ret = arch_atomic_fetch_andnot_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1091: FILE: include/linux/atomic-arch-fallback.h:730:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1112: FILE: include/linux/atomic-arch-fallback.h:751:
++	int ret = arch_atomic_fetch_or_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1133: FILE: include/linux/atomic-arch-fallback.h:772:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1154: FILE: include/linux/atomic-arch-fallback.h:793:
++	int ret = arch_atomic_fetch_xor_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1175: FILE: include/linux/atomic-arch-fallback.h:814:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1196: FILE: include/linux/atomic-arch-fallback.h:835:
++	int ret = arch_atomic_xchg_relaxed(v, i);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1217: FILE: include/linux/atomic-arch-fallback.h:856:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1238: FILE: include/linux/atomic-arch-fallback.h:877:
++	int ret = arch_atomic_cmpxchg_relaxed(v, old, new);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1259: FILE: include/linux/atomic-arch-fallback.h:898:
++	int ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1281: FILE: include/linux/atomic-arch-fallback.h:920:
++	int r, o = *old;
++	r = arch_atomic_cmpxchg(v, o, new);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1294: FILE: include/linux/atomic-arch-fallback.h:933:
++	int r, o = *old;
++	r = arch_atomic_cmpxchg_acquire(v, o, new);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1307: FILE: include/linux/atomic-arch-fallback.h:946:
++	int r, o = *old;
++	r = arch_atomic_cmpxchg_release(v, o, new);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1320: FILE: include/linux/atomic-arch-fallback.h:959:
++	int r, o = *old;
++	r = arch_atomic_cmpxchg_relaxed(v, o, new);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1335: FILE: include/linux/atomic-arch-fallback.h:974:
++	bool ret = arch_atomic_try_cmpxchg_relaxed(v, old, new);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1356: FILE: include/linux/atomic-arch-fallback.h:995:
++	bool ret;
++	__atomic_pre_full_fence();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#1552: FILE: include/linux/atomic-arch-fallback.h:1191:
++	return smp_load_acquire(&(v)->counter);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#1561: FILE: include/linux/atomic-arch-fallback.h:1200:
++	smp_store_release(&(v)->counter, i);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1577: FILE: include/linux/atomic-arch-fallback.h:1216:
++	s64 ret = arch_atomic64_add_return_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1598: FILE: include/linux/atomic-arch-fallback.h:1237:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1619: FILE: include/linux/atomic-arch-fallback.h:1258:
++	s64 ret = arch_atomic64_fetch_add_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1640: FILE: include/linux/atomic-arch-fallback.h:1279:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1661: FILE: include/linux/atomic-arch-fallback.h:1300:
++	s64 ret = arch_atomic64_sub_return_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1682: FILE: include/linux/atomic-arch-fallback.h:1321:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1703: FILE: include/linux/atomic-arch-fallback.h:1342:
++	s64 ret = arch_atomic64_fetch_sub_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1724: FILE: include/linux/atomic-arch-fallback.h:1363:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1793: FILE: include/linux/atomic-arch-fallback.h:1432:
++	s64 ret = arch_atomic64_inc_return_relaxed(v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1814: FILE: include/linux/atomic-arch-fallback.h:1453:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1874: FILE: include/linux/atomic-arch-fallback.h:1513:
++	s64 ret = arch_atomic64_fetch_inc_relaxed(v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1895: FILE: include/linux/atomic-arch-fallback.h:1534:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1964: FILE: include/linux/atomic-arch-fallback.h:1603:
++	s64 ret = arch_atomic64_dec_return_relaxed(v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#1985: FILE: include/linux/atomic-arch-fallback.h:1624:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2045: FILE: include/linux/atomic-arch-fallback.h:1684:
++	s64 ret = arch_atomic64_fetch_dec_relaxed(v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2066: FILE: include/linux/atomic-arch-fallback.h:1705:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2087: FILE: include/linux/atomic-arch-fallback.h:1726:
++	s64 ret = arch_atomic64_fetch_and_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2108: FILE: include/linux/atomic-arch-fallback.h:1747:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2177: FILE: include/linux/atomic-arch-fallback.h:1816:
++	s64 ret = arch_atomic64_fetch_andnot_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2198: FILE: include/linux/atomic-arch-fallback.h:1837:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2219: FILE: include/linux/atomic-arch-fallback.h:1858:
++	s64 ret = arch_atomic64_fetch_or_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2240: FILE: include/linux/atomic-arch-fallback.h:1879:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2261: FILE: include/linux/atomic-arch-fallback.h:1900:
++	s64 ret = arch_atomic64_fetch_xor_relaxed(i, v);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2282: FILE: include/linux/atomic-arch-fallback.h:1921:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2303: FILE: include/linux/atomic-arch-fallback.h:1942:
++	s64 ret = arch_atomic64_xchg_relaxed(v, i);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2324: FILE: include/linux/atomic-arch-fallback.h:1963:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2345: FILE: include/linux/atomic-arch-fallback.h:1984:
++	s64 ret = arch_atomic64_cmpxchg_relaxed(v, old, new);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2366: FILE: include/linux/atomic-arch-fallback.h:2005:
++	s64 ret;
++	__atomic_pre_full_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2388: FILE: include/linux/atomic-arch-fallback.h:2027:
++	s64 r, o = *old;
++	r = arch_atomic64_cmpxchg(v, o, new);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2401: FILE: include/linux/atomic-arch-fallback.h:2040:
++	s64 r, o = *old;
++	r = arch_atomic64_cmpxchg_acquire(v, o, new);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2414: FILE: include/linux/atomic-arch-fallback.h:2053:
++	s64 r, o = *old;
++	r = arch_atomic64_cmpxchg_release(v, o, new);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2427: FILE: include/linux/atomic-arch-fallback.h:2066:
++	s64 r, o = *old;
++	r = arch_atomic64_cmpxchg_relaxed(v, o, new);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2442: FILE: include/linux/atomic-arch-fallback.h:2081:
++	bool ret = arch_atomic64_try_cmpxchg_relaxed(v, old, new);
++	__atomic_acquire_fence();
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#2463: FILE: include/linux/atomic-arch-fallback.h:2102:
++	bool ret;
++	__atomic_pre_full_fence();
+
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#3072: FILE: scripts/atomic/gen-atomic-fallback.sh:2:
+ # SPDX-License-Identifier: GPL-2.0
+
+total: 0 errors, 76 warnings, 2947 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 37f8173dd849 ("locking/atomics: Flip fallbacks and instrumentation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

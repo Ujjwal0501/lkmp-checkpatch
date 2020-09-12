@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit f6644143c63f ("f2fs: compress: let lz4 compressor handle output buffer budget properly") has no obvious style problems and is ready for submission.

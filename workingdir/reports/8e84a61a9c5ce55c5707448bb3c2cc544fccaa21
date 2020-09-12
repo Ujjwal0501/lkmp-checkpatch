@@ -1,0 +1,45 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#11: 
+1) Name: x.x.x.x Uses: 1 Capability: 0x8001f3fc	Session Status: 1 Security type: RawNTLMSSP
+
+WARNING:STATIC_CONST_CHAR_ARRAY: char * array declaration might be better as static const
+#30: FILE: fs/cifs/cifs_debug.c:224:
++	const char *security_types[] = {"Unspecified", "LANMAN", "NTLM",
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#31: FILE: fs/cifs/cifs_debug.c:225:
++                                       "NTLMv2", "RawNTLMSSP", "Kerberos"};$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#31: FILE: fs/cifs/cifs_debug.c:225:
++                                       "NTLMv2", "RawNTLMSSP", "Kerberos"};$
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#40: FILE: fs/cifs/cifs_debug.c:381:
++			seq_printf(m,"Security type: %s\n",
+ 			            ^
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#41: FILE: fs/cifs/cifs_debug.c:382:
++                                      security_types[server->ops->select_sectype(server, ses->sectype)]);
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#41: FILE: fs/cifs/cifs_debug.c:382:
++                                      security_types[server->ops->select_sectype(server, ses->sectype)]);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#41: FILE: fs/cifs/cifs_debug.c:382:
++                                      security_types[server->ops->select_sectype(server, ses->sectype)]);$
+
+total: 3 errors, 5 warnings, 18 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 8e84a61a9c5c ("cifs: dump Security Type info in DebugData") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

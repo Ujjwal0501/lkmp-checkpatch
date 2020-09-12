@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 35 lines checked
+
+Commit 745e5ad5084d ("net: qed: Remove unneeded cast from memory allocation") has no obvious style problems and is ready for submission.

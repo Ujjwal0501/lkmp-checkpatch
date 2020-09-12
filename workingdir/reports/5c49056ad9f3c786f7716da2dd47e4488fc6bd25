@@ -1,0 +1,14 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#51: FILE: drivers/iio/humidity/hts221.h:43:
++		__le16 channels[2];
++		s64 ts __aligned(8);
+
+total: 0 errors, 1 warnings, 49 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5c49056ad9f3 ("iio:humidity:hts221 Fix alignment and data leak issues") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,21 @@
+WARNING:LONG_LINE_STRING: line length of 103 exceeds 100 columns
+#105: FILE: drivers/net/ethernet/mellanox/mlxsw/spectrum_matchall.c:248:
++			NL_SET_ERR_MSG(f->common.extack, "Failed to add behind existing flower rules");
+
+WARNING:LONG_LINE_STRING: line length of 108 exceeds 100 columns
+#111: FILE: drivers/net/ethernet/mellanox/mlxsw/spectrum_matchall.c:254:
++			NL_SET_ERR_MSG(f->common.extack, "Failed to add in front of existing flower rules");
+
+WARNING:LONG_LINE_STRING: line length of 103 exceeds 100 columns
+#124: FILE: drivers/net/ethernet/mellanox/mlxsw/spectrum_matchall.c:269:
++			NL_SET_ERR_MSG(f->common.extack, "Failed to add behind existing flower rules");
+
+total: 0 errors, 3 warnings, 0 checks, 88 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 18346b70ab77 ("mlxsw: spectrum_matchall: Forbid to insert matchall rules in collision with flower rules") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

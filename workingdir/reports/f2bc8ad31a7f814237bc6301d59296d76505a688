@@ -1,0 +1,17 @@
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#355: FILE: net/ethtool/cabletest.c:243:
++		cfg->first = nla_get_u32(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#372: FILE: net/ethtool/cabletest.c:260:
++			NL_SET_ERR_MSG_ATTR(
+
+total: 0 errors, 0 warnings, 2 checks, 370 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f2bc8ad31a7f ("net: ethtool: Allow PHY cable test TDR data to configured") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

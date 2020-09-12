@@ -1,0 +1,35 @@
+WARNING:TYPO_SPELLING: 'TRANFER' may be misspelled - perhaps 'TRANSFER'?
+#8: 
+for the current transfer to complete or ended (by END_TRANFER command).
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#34: FILE: drivers/usb/dwc3/gadget.c:922:
++		unsigned stream_id, unsigned short_not_ok,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#34: FILE: drivers/usb/dwc3/gadget.c:922:
++		unsigned stream_id, unsigned short_not_ok,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#35: FILE: drivers/usb/dwc3/gadget.c:923:
++		unsigned no_interrupt, unsigned is_last)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#35: FILE: drivers/usb/dwc3/gadget.c:923:
++		unsigned no_interrupt, unsigned is_last)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#52: FILE: drivers/usb/dwc3/gadget.c:1045:
++	unsigned		is_last = req->request.is_last;
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Thinh Nguyen <Thinh.Nguyen@synopsys.com>'
+
+total: 0 errors, 7 warnings, 89 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3eaecd0c2333 ("usb: dwc3: gadget: Handle XferComplete for streams") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

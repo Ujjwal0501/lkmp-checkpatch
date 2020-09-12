@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 229 lines checked
+
+Commit d06a09b94c61 ("netlink: extend policy range validation") has no obvious style problems and is ready for submission.

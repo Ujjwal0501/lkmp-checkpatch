@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit e7a57270e53d ("staging: bcm2835-camera: Drop PREVIEW_LAYER") has no obvious style problems and is ready for submission.

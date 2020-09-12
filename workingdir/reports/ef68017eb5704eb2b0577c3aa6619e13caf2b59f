@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 199 lines checked
+
+Commit ef68017eb570 ("x86/kvm: Handle async page faults directly through do_page_fault()") has no obvious style problems and is ready for submission.

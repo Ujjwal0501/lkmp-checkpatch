@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 666daa9f977d ("btrfs: only check priority tickets for priority flushing") has no obvious style problems and is ready for submission.

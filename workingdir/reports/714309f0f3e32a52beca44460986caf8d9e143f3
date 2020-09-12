@@ -1,0 +1,21 @@
+WARNING:LONG_LINE_STRING: line length of 102 exceeds 100 columns
+#30: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_fru_eeprom.c:123:
++		DRM_WARN("FRU Product Number is larger than 32 characters. This is likely a mistake");
+
+WARNING:LONG_LINE_STRING: line length of 102 exceeds 100 columns
+#44: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_fru_eeprom.c:141:
++		DRM_WARN("FRU Product Number is larger than 16 characters. This is likely a mistake");
+
+WARNING:LONG_LINE_STRING: line length of 101 exceeds 100 columns
+#58: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_fru_eeprom.c:167:
++		DRM_WARN("FRU Serial Number is larger than 16 characters. This is likely a mistake");
+
+total: 0 errors, 3 warnings, 39 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 714309f0f3e3 ("drm/amdgpu: Fix FRU data checking") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

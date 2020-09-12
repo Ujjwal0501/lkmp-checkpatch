@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 1f4982ef56f7 ("net: hns3: fix a print format issue in hclge_mac_mdio_config()") has no obvious style problems and is ready for submission.

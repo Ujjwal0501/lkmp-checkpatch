@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 88 lines checked
+
+Commit b00ff6d8c1c3 ("powerpc/ptdump: Properly handle non standard page size") has no obvious style problems and is ready for submission.

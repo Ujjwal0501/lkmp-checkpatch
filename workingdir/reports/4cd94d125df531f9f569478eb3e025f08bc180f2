@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 4cd94d125df5 ("selftests: kvm: Add vm_get_fd() in kvm_util") has no obvious style problems and is ready for submission.

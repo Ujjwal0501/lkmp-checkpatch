@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 111 lines checked
+
+Commit 02337f1f5914 ("ice: Simplify ice_sriov_configure") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 214 lines checked
+
+Commit 03c761b00c87 ("drm/i915/dp: Add writing of DP SDPs") has no obvious style problems and is ready for submission.

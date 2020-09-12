@@ -1,0 +1,25 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#26: 
+  $ find . -name 'Kconfig*' | xargs sed -i 's/^[[:space:]]*---help---/\thelp/'
+
+WARNING:OBSOLETE: drivers/net/ethernet/8390/Kconfig is marked as 'obsolete' in the MAINTAINERS hierarchy.  No unnecessary modifications please.
+
+WARNING:OBSOLETE: drivers/net/ethernet/8390/Kconfig is marked as 'obsolete' in the MAINTAINERS hierarchy.  No unnecessary modifications please.
+
+WARNING:OBSOLETE: drivers/net/wireless/intersil/hostap/Kconfig is marked as 'obsolete' in the MAINTAINERS hierarchy.  No unnecessary modifications please.
+
+WARNING:OBSOLETE: drivers/net/wireless/intersil/hostap/Kconfig is marked as 'obsolete' in the MAINTAINERS hierarchy.  No unnecessary modifications please.
+
+WARNING:OBSOLETE: drivers/sfi/Kconfig is marked as 'obsolete' in the MAINTAINERS hierarchy.  No unnecessary modifications please.
+
+WARNING:OBSOLETE: drivers/sfi/Kconfig is marked as 'obsolete' in the MAINTAINERS hierarchy.  No unnecessary modifications please.
+
+total: 0 errors, 7 warnings, 19353 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a7f7f6248d97 ("treewide: replace '---help---' in Kconfig files with 'help'") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

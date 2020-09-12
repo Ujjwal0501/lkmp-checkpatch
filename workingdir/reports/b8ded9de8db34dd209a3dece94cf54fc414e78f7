@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 82 lines checked
+
+Commit b8ded9de8db3 ("net/smc: pre-fetch send buffer outside of send_lock") has no obvious style problems and is ready for submission.

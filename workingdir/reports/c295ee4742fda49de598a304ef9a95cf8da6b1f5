@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c295ee4742fd ("block: always define struct blk_integrity in genhd.h") has no obvious style problems and is ready for submission.

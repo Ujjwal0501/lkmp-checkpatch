@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 121 lines checked
+
+Commit bdbdf0f06337 ("spi: dw: Locally wait for the DMA transfers completion") has no obvious style problems and is ready for submission.

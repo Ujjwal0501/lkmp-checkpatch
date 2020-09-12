@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 903 lines checked
+
+Commit 4730f4a6c6b2 ("IB/hfi1: Activate the dummy netdev") has no obvious style problems and is ready for submission.

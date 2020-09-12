@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 124 exceeds 100 columns
+#47: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_sdma.h:111:
++#define amdgpu_emit_copy_buffer(adev, ib, s, d, b, t) (adev)->mman.buffer_funcs->emit_copy_buffer((ib),  (s), (d), (b), (t))
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#47: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_sdma.h:111:
++#define amdgpu_emit_copy_buffer(adev, ib, s, d, b, t) (adev)->mman.buffer_funcs->emit_copy_buffer((ib),  (s), (d), (b), (t))
+
+total: 1 errors, 1 warnings, 87 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit be7538ff7488 ("drm/amdgpu: expand sdma copy_buffer interface with tmz parameter") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

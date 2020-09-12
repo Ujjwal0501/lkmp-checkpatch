@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit cb97c2d680dd ("KVM: x86: Take an unsigned 32-bit int for has_emulated_msr()'s index") has no obvious style problems and is ready for submission.

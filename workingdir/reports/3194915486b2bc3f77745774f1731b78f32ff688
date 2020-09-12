@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 6e2d85ec0559 ("net: phy: Stop with excessive soft reset")'
+#6: 
+Since 6e2d85ec0559 ("net: phy: Stop with excessive soft reset")
+
+total: 1 errors, 0 warnings, 51 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3194915486b2 ("net: phy: remove genphy_no_soft_reset") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

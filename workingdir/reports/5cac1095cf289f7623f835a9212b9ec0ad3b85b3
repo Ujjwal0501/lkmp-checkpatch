@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 126 lines checked
+
+Commit 5cac1095cf28 ("scsi: ufs: Make ufshcd_wait_for_register() sleep instead of busy-waiting") has no obvious style problems and is ready for submission.

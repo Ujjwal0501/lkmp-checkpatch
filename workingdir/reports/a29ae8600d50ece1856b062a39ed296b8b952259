@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit a29ae8600d50 ("clk: meson: meson8b: Don't rely on u-boot to init all GP_PLL registers") has no obvious style problems and is ready for submission.

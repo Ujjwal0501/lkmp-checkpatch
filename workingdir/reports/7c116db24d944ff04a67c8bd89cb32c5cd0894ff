@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit 7c116db24d94 ("efi/libstub/arm64: Retain 2MB kernel Image alignment if !KASLR") has no obvious style problems and is ready for submission.

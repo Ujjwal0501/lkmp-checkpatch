@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 15 lines checked
+
+Commit c57673852062 ("brcmfmac: fix wrong location to get firmware feature") has no obvious style problems and is ready for submission.

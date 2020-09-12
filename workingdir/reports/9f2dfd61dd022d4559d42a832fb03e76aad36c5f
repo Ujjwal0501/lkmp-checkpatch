@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 9f2dfd61dd02 ("x86,ftrace: Shrink ftrace_regs_caller() by one byte") has no obvious style problems and is ready for submission.

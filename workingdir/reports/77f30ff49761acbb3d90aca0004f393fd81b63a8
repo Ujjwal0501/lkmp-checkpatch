@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 77f30ff49761 ("usb: cdns3: gadget: assign interrupt number to USB gadget structure") has no obvious style problems and is ready for submission.

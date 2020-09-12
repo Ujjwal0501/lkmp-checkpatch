@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 285 lines checked
+
+Commit 8174a8512e3e ("pinctrl: mediatek: make MediaTek pinctrl v2 driver ready for buidling loadable module") has no obvious style problems and is ready for submission.

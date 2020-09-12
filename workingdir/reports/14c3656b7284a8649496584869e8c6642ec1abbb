@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit 14c3656b7284 ("mmap locking API: add MMAP_LOCK_INITIALIZER") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 131 lines checked
+
+Commit d1ad88fe9fa9 ("net: atlantic: move IS_CHIP_FEATURE to aq_hw.h") has no obvious style problems and is ready for submission.

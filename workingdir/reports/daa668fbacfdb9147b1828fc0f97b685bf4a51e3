@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit daa668fbacfd ("ceph: normalize 'delta' parameter usage in check_quota_exceeded") has no obvious style problems and is ready for submission.

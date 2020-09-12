@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 58 lines checked
+
+Commit 8c35a1957611 ("drm/i915/selftests: fix error handling in __live_lrc_indirect_ctx_bb()") has no obvious style problems and is ready for submission.

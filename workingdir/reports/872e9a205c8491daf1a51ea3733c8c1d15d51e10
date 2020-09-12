@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 23 lines checked
+
+Commit 872e9a205c84 ("mm, memory_failure: don't send BUS_MCEERR_AO for action required error") has no obvious style problems and is ready for submission.

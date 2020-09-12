@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit dad5b324212e ("efi/tpm: Use efi_err for error messages") has no obvious style problems and is ready for submission.

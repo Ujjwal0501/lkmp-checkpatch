@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 77 lines checked
+
+Commit a42c1ed50aaf ("drm/amd/display: Convert memory from cpu to fw endianness correctly") has no obvious style problems and is ready for submission.

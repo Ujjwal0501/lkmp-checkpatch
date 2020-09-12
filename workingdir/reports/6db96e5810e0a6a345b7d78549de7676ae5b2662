@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit 6db96e5810e0 ("mmc: host: Introduce the request_atomic() for the host") has no obvious style problems and is ready for submission.

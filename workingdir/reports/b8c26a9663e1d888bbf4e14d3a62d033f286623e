@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit b8c26a9663e1 ("mmc: sdio: Move SDIO IDs from smssdio driver to common include file") has no obvious style problems and is ready for submission.

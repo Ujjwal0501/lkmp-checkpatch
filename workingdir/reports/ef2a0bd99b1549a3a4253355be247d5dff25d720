@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 18 lines checked
+
+Commit ef2a0bd99b15 ("net: dsa: b53: Remove is_static argument to b53_read_op()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:MISPLACED_INIT: __initdata should be placed after tsc_early_khz
+#59: FILE: arch/x86/kernel/tsc.c:44:
++static unsigned int __initdata tsc_early_khz;
+
+total: 0 errors, 1 warnings, 42 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bd35c77e32e4 ("x86/tsc: Add tsc_early_khz command line parameter") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

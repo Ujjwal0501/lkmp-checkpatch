@@ -1,0 +1,17 @@
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO | S_IWUSR' are not preferred. Consider using octal permissions '0644'.
+#70: FILE: arch/s390/kernel/ipl.c:827:
++	__BIN_ATTR(scp_data, (S_IRUGO | S_IWUSR), reipl_nvme_scpdata_read,
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO | S_IWUSR' are not preferred. Consider using octal permissions '0644'.
+#102: FILE: arch/s390/kernel/ipl.c:859:
++	__ATTR(loadparm, S_IRUGO | S_IWUSR, reipl_nvme_loadparm_show,
+
+total: 0 errors, 2 warnings, 206 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 23a457b8d57d ("s390: nvme reipl") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

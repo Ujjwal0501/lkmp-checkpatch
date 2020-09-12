@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 64 lines checked
+
+Commit 24ebec25fb27 ("arm64: hw_breakpoint: Don't invoke overflow handler on uaccess watchpoints") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#34: 
+Signed-off-by: Alexei Starovoitov <ast@kernel.org>
+
+WARNING:LONG_LINE_STRING: line length of 106 exceeds 100 columns
+#307: FILE: net/core/dev.c:8851:
++			NL_SET_ERR_MSG(extack, "BPF_XDP_DEVMAP programs can not be attached to a device");
+
+total: 0 errors, 2 warnings, 244 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fbee97feed9b ("bpf: Add support to attach bpf program to a devmap entry") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

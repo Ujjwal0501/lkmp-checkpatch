@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 610c823510f7 ("nvme-tcp: initialize tagset numa value to the value of the ctrl") has no obvious style problems and is ready for submission.

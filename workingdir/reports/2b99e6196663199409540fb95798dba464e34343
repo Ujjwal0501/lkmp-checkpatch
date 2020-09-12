@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 2b99e6196663 ("arm64: dts: rockchip: fix pd_tcpc0 and pd_tcpc1 node position on rk3399") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit b8a13e5e8f37 ("hwmon: (dell-smm) Use one DMI match for all XPS models") has no obvious style problems and is ready for submission.

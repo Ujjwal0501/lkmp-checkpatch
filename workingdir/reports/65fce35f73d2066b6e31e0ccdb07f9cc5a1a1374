@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 65fce35f73d2 ("platform/x86: touchscreen_dmi: Drop comma in terminator line") has no obvious style problems and is ready for submission.

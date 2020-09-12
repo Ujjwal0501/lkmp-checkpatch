@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit da565e792be5 ("ext4: remove the call to fiemap_check_flags in ext4_fiemap") has no obvious style problems and is ready for submission.

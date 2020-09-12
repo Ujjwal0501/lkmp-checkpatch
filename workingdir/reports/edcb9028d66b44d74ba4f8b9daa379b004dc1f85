@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 61 lines checked
+
+Commit edcb9028d66b ("drm/i915/display: Load DP_TP_CTL/STATUS offset before use it") has no obvious style problems and is ready for submission.

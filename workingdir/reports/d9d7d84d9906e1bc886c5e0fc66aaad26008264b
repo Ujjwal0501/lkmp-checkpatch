@@ -1,0 +1,13 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#105: FILE: arch/arm64/kvm/inject_fault.c:71:
++		BUG();
+
+total: 0 errors, 1 warnings, 117 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d9d7d84d9906 ("KVM: arm64: Parametrize exception entry with a target EL") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

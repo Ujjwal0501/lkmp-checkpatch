@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit a97bf49f824e ("RDMA/hns: Simplify the status judgment code of hns_roce_v1_m_qp()") has no obvious style problems and is ready for submission.

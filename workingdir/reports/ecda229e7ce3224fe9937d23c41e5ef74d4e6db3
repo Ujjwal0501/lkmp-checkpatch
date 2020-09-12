@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 136 lines checked
+
+Commit ecda229e7ce3 ("staging: wfx: fix endianness of the field 'status'") has no obvious style problems and is ready for submission.

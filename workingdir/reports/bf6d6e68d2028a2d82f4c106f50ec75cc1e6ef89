@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit bf6d6e68d202 ("soundwire: intel: fix memory leak with devm_kasprintf") has no obvious style problems and is ready for submission.

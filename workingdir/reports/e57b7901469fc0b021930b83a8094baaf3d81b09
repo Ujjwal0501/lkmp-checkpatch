@@ -1,0 +1,125 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#78: 
+new file mode 100644
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#137: FILE: drivers/net/wireless/mediatek/mt76/mt7915/debugfs.c:24:
++		/* fall through */
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#439: FILE: drivers/net/wireless/mediatek/mt76/mt7915/dma.c:75:
++		/* fall through */
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse '_idx' - possible side-effects?
+#1005: FILE: drivers/net/wireless/mediatek/mt76/mt7915/init.c:135:
++#define CCK_RATE(_idx, _rate) {						\
++	.bitrate = _rate,						\
++	.flags = IEEE80211_RATE_SHORT_PREAMBLE,				\
++	.hw_value = (MT_PHY_TYPE_CCK << 8) | (_idx),			\
++	.hw_value_short = (MT_PHY_TYPE_CCK << 8) | (4 + (_idx)),	\
++}
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse '_idx' - possible side-effects?
+#1012: FILE: drivers/net/wireless/mediatek/mt76/mt7915/init.c:142:
++#define OFDM_RATE(_idx, _rate) {					\
++	.bitrate = _rate,						\
++	.hw_value = (MT_PHY_TYPE_OFDM << 8) | (_idx),			\
++	.hw_value_short = (MT_PHY_TYPE_OFDM << 8) | (_idx),		\
++}
+
+WARNING:TYPO_SPELLING: 'enble' may be misspelled - perhaps 'enable'?
+#1149: FILE: drivers/net/wireless/mediatek/mt76/mt7915/init.c:279:
++	/* TODO: enble DBDC */
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1173: FILE: drivers/net/wireless/mediatek/mt76/mt7915/init.c:303:
++	/*
++	 * Make the secondary PHY MAC address local without overlapping with
+
+CHECK:MULTIPLE_ASSIGNMENTS: multiple assignments should be avoided
+#1598: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:327:
++			idx = i = FIELD_GET(MT_PRXV_TX_RATE, rxv.v[0]);
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#1604: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:333:
++				/* fall through */
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1973: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:702:
++	/*
++	 * TODO: MT_TX_FREE_LATENCY is msdu time from the TXD is queued into PLE,
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1983: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:712:
++		/*
++		 * 1'b1: new wcid pair.
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2158: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:887:
++/*
++ * TODO: mib counters are read-clear and there're many HE functionalities need
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2226: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:955:
++	ieee80211_iterate_active_interfaces(dev->mt76.hw,
++		IEEE80211_IFACE_ITER_RESUME_ALL,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2233: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:962:
++	ieee80211_iterate_active_interfaces(dev->mt76.phy2->hw,
++		IEEE80211_IFACE_ITER_RESUME_ALL,
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse '_hw' - possible side-effects?
+#3284: FILE: drivers/net/wireless/mediatek/mt76/mt7915/main.c:375:
++#define MT76_FILTER(_flag, _hw) do {					\
++		flags |= *total_flags & FIF_##_flag;			\
++		phy->rxfilter &= ~(_hw);				\
++		phy->rxfilter |= !(flags & FIF_##_flag) * (_hw);	\
++	} while (0)
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3333: FILE: drivers/net/wireless/mediatek/mt76/mt7915/main.c:424:
++	/*
++	 * station mode uses BSSID to map the wlan entry to a peer,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#4160: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mcu.c:504:
++		ieee80211_iterate_active_interfaces_atomic(dev->mt76.hw,
++				IEEE80211_IFACE_ITER_RESUME_ALL,
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#5589: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mcu.c:1933:
++	dev->mt76.mcu_ops = &mt7915_mcu_ops,
++
++	ret = mt7915_driver_own(dev);
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#6859: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mt7915.h:41:
++
++
+
+CHECK:UNCOMMENTED_DEFINITION: spinlock_t definition without comment
+#6907: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mt7915.h:89:
++	spinlock_t ampdu_lock;
+
+CHECK:UNCOMMENTED_DEFINITION: spinlock_t definition without comment
+#6975: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mt7915.h:157:
++	spinlock_t sta_poll_lock;
+
+CHECK:UNCOMMENTED_DEFINITION: spinlock_t definition without comment
+#6979: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mt7915.h:161:
++	spinlock_t token_lock;
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse '_n' - possible side-effects?
+#7714: FILE: drivers/net/wireless/mediatek/mt76/mt7915/regs.h:277:
++#define MT_INT_RX_DONE(_n)		((_n) ? BIT((_n) - 1) : BIT(16))
+
+total: 0 errors, 11 warnings, 12 checks, 7622 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e57b7901469f ("mt76: add mac80211 driver for MT7915 PCIe-based chipsets") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

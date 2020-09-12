@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 75ac6dce7f03 ("ASoC: Intel: soc-acpi: change machine driver name for WM8804 platforms") has no obvious style problems and is ready for submission.

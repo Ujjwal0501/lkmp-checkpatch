@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit 276bd3f003b1 ("ARM: dts: stm32: remove now redundant STM32MP15x video cell sizes") has no obvious style problems and is ready for submission.

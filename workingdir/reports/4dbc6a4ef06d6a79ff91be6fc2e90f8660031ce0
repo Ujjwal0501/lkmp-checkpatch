@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 72 lines checked
+
+Commit 4dbc6a4ef06d ("usb: typec: ucsi: save power data objects in PD mode") has no obvious style problems and is ready for submission.

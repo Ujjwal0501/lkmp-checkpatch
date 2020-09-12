@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 61 lines checked
+
+Commit 20c22ad32957 ("drm/dp_mst: Remove drm_dp_mst_has_audio()") has no obvious style problems and is ready for submission.

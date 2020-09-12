@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 177 lines checked
+
+Commit b09fb65e8637 ("objtool: Remove INSN_STACK") has no obvious style problems and is ready for submission.

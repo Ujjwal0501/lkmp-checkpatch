@@ -1,0 +1,17 @@
+WARNING:DEVICE_ATTR_PERMS: DEVICE_ATTR unusual permissions '0400' used
+#104: FILE: arch/powerpc/kernel/sysfs.c:780:
++}
+
+WARNING:DEVICE_ATTR_PERMS: DEVICE_ATTR unusual permissions '0400' used
+#134: FILE: arch/powerpc/kernel/sysfs.c:810:
++}
+
+total: 0 errors, 2 warnings, 149 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6909f179ca7a ("powerpc/sysfs: Show idle_purr and idle_spurr for every CPU") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

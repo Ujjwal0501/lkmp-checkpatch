@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 58 lines checked
+
+Commit c4cb164426ae ("maccess: rename strncpy_from_unsafe_strict to strncpy_from_kernel_nofault") has no obvious style problems and is ready for submission.

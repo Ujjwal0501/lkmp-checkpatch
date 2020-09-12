@@ -1,0 +1,19 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#46: FILE: sound/soc/codecs/Kconfig:1649:
++config SND_SOC_ZL38060
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#80: 
+new file mode 100644
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Sven Van Asbroeck <thesven73@gmail.com>'
+
+total: 0 errors, 3 warnings, 675 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 52e8a94baf90 ("ASoC: Add initial ZL38060 driver") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

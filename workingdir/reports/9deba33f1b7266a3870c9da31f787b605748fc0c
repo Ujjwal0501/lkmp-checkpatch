@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 82 lines checked
+
+Commit 9deba33f1b72 ("enetc: Fix HW_VLAN_CTAG_TX|RX toggling") has no obvious style problems and is ready for submission.

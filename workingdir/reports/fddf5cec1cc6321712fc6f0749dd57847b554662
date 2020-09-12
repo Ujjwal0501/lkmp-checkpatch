@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit fddf5cec1cc6 ("mtd: rawnand: diskonchip: Get rid of doc2000_readbuf_dword()") has no obvious style problems and is ready for submission.

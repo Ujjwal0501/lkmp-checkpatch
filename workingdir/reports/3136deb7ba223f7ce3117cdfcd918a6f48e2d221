@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 47 lines checked
+
+Commit 3136deb7ba22 ("drm/i915: Peel dma-fence-chains for await") has no obvious style problems and is ready for submission.

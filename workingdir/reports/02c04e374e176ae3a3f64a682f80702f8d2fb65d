@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 149 lines checked
+
+Commit 02c04e374e17 ("powerpc/fadump: use static allocation for reserved memory ranges") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit c70805dca139 ("mmc: meson-mx-sdhc: Fix manual RX FIFO flushing") has no obvious style problems and is ready for submission.

@@ -1,0 +1,15 @@
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#108: FILE: drivers/gpu/drm/nouveau/nouveau_display.c:268:
++		for (mod = 0;
+[...]
++		     mod++);
+
+total: 1 errors, 0 warnings, 51 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit faa0fcf943d2 ("drm/nouveau: Accept 'legacy' format modifiers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

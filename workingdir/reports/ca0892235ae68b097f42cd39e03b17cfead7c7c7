@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 257 lines checked
+
+Commit ca0892235ae6 ("mlxsw: spectrum_span: Remove old SPAN API") has no obvious style problems and is ready for submission.

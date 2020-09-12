@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'at'
+#15: 
+While at at removing the duplicated call to icl_tc_phy_aux_ch() in
+
+total: 0 errors, 1 warnings, 107 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 34a3f0b273a7 ("drm/i915/display: Move out code to return the digital_port of the aux ch") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

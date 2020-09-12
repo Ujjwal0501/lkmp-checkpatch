@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit 623ba664b74a ("gfs2: When freezing gfs2, use GL_EXACT and not GL_NOCACHE") has no obvious style problems and is ready for submission.

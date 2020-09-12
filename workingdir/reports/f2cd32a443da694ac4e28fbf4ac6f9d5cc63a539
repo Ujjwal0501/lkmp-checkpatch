@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 52 lines checked
+
+Commit f2cd32a443da ("rndis_wlan: Remove logically dead code") has no obvious style problems and is ready for submission.

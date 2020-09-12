@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit f384ff95f652 ("drm/amdgpu: retire AMDGPU_REGS_KIQ flag") has no obvious style problems and is ready for submission.

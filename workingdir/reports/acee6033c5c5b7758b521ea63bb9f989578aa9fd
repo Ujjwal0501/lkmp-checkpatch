@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 118 lines checked
+
+Commit acee6033c5c5 ("media: Revert "media: v4l2-fwnode: Add a convenience function for registering subdevs with notifiers"") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit d121f63c00e3 ("drm/i915/display: Return early after MISSING_CASE for write_dp_sdp") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit ab785cfa5907 ("iommu/sun50i: Fix compile warnings") has no obvious style problems and is ready for submission.

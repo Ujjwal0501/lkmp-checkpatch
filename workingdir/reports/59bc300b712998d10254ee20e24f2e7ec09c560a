@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit 59bc300b7129 ("x86/entry: Clarify irq_{enter,exit}_rcu()") has no obvious style problems and is ready for submission.

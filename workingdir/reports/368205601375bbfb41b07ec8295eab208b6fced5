@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 472 lines checked
+
+Commit 368205601375 ("dm zoned: move fields from struct dmz_dev to dmz_metadata") has no obvious style problems and is ready for submission.

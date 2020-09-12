@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit b744b43f79cc ("kbuild: add CONFIG_LD_IS_LLD") has no obvious style problems and is ready for submission.

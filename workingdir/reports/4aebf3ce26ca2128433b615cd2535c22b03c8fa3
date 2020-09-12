@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 322 lines checked
+
+Commit 4aebf3ce26ca ("crypto/nx: Make enable code generic to add new GZIP compression type") has no obvious style problems and is ready for submission.

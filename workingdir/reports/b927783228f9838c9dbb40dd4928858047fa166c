@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 106 exceeds 100 columns
+#57: FILE: drivers/gpu/drm/i915/display/icl_dsi.c:876:
++		line_time_us = (htotal * (bpp / 8) * byte_clk_period_ns) / (1000 * intel_dsi->lane_count);
+
+total: 0 errors, 1 warnings, 79 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b927783228f9 ("drm/i915/dsi: Add vblank calculation for command mode") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

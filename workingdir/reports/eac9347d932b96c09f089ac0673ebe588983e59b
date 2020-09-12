@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit eac9347d932b ("tpm_tis_spi: Don't send anything during flow control") has no obvious style problems and is ready for submission.

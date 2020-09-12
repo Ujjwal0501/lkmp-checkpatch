@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 413d3ea6b775 ("arm64: traps: Dump registers prior to panic() in bad_mode()") has no obvious style problems and is ready for submission.

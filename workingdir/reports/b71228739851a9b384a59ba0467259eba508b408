@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 234 lines checked
+
+Commit b71228739851 ("dm zoned: store zone id within the zone structure and kill dmz_id()") has no obvious style problems and is ready for submission.

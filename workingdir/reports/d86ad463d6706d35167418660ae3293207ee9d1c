@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit d86ad463d670 ("ARM: OMAP2+: Fix regression for using local timer on non-SMP SoCs") has no obvious style problems and is ready for submission.

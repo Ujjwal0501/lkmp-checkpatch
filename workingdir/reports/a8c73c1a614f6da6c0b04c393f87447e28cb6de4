@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit a8c73c1a614f ("io_uring: use kvfree() in io_sqe_buffer_register()") has no obvious style problems and is ready for submission.

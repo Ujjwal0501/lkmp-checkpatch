@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 250 lines checked
+
+Commit e0ef26fbe2b0 ("iavf: fix speed reporting over virtchnl") has no obvious style problems and is ready for submission.

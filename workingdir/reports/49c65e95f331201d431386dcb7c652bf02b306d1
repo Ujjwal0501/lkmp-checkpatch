@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 34 lines checked
+
+Commit 49c65e95f331 ("igb: make igb_set_fc_watermarks() return void") has no obvious style problems and is ready for submission.

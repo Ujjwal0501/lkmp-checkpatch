@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 102 lines checked
+
+Commit baedb87d1b53 ("genirq/affinity: Handle affinity setting on inactive interrupts correctly") has no obvious style problems and is ready for submission.

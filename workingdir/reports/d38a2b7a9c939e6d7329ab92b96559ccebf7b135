@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit d38a2b7a9c93 ("mm: memcg/slab: fix memory leak at non-root kmem_cache destroy") has no obvious style problems and is ready for submission.

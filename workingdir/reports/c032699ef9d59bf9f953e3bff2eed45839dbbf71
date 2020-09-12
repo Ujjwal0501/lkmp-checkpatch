@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c032699ef9d5 ("platform/chrome: cros_ec_i2c: Appease the kernel-doc deity") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit edfac966f60d ("arm64: dts: juno: Use proper DT node name for USB") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 91 lines checked
+
+Commit e369d8227fd2 ("printk: Fix preferred console selection with multiple matches") has no obvious style problems and is ready for submission.

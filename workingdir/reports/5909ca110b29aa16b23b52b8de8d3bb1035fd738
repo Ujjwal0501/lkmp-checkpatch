@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 5909ca110b29 ("btrfs: fix page leaks after failure to lock page for delalloc") has no obvious style problems and is ready for submission.

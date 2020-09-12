@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 124 lines checked
+
+Commit b28efb930ba5 ("net: ethtool: Add attributes for cable test reports") has no obvious style problems and is ready for submission.

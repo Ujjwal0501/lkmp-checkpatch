@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 72 lines checked
+
+Commit 4fef41bfb1d8 ("perf thread-stack: Add thread_stack__sample_late()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit f0410bbf7d0f ("spi: dw: Return any value retrieved from the dma_transfer callback") has no obvious style problems and is ready for submission.

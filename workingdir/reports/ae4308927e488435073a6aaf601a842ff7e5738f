@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit ae4308927e48 ("perf evsel: Rename perf_evsel__fallback() to evsel__fallback()") has no obvious style problems and is ready for submission.

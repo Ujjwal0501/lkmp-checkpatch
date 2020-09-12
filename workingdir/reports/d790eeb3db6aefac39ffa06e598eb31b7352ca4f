@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit d790eeb3db6a ("i2c: Drop stray comma in MODULE_AUTHOR statements") has no obvious style problems and is ready for submission.

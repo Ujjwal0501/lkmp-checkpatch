@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 194 lines checked
+
+Commit 0b4edf111870 ("ARM: dts: Move am33xx and am43xx mmc nodes to sdhci-omap driver") has no obvious style problems and is ready for submission.

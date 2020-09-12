@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit ec43f7434379 ("i2c: brcmstb: Allow to compile it on BCM2835") has no obvious style problems and is ready for submission.

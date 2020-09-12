@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 405 lines checked
+
+Commit 1f55b7ab907d ("RDMA/mlx4: Remove FMR support for memory registration") has no obvious style problems and is ready for submission.

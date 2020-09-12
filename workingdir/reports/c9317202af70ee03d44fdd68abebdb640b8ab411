@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit c9317202af70 ("x86/entry/64: Use native swapgs in asm_load_gs_index()") has no obvious style problems and is ready for submission.

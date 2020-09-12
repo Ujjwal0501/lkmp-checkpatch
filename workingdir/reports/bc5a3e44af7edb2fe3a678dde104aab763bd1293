@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit bc5a3e44af7e ("Documentation: media: convert to use i2c_new_client_device()") has no obvious style problems and is ready for submission.

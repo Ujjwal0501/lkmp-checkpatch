@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit bd0d696023cb ("dt-bindings: arm-smmu: Allow mmu-400, smmu-v1 compatible") has no obvious style problems and is ready for submission.

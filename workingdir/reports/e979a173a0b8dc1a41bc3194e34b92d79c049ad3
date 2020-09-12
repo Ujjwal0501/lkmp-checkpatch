@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 125 lines checked
+
+Commit e979a173a0b8 ("svcrdma: Add tracepoints to report ->xpo_accept failures") has no obvious style problems and is ready for submission.

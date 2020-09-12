@@ -1,0 +1,25 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#69: 
+  27b9a8122ff71a "Btrfs: fix csum tree corruption, duplicate and outdated checksums"
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 27b9a8122ff7 ("Btrfs: fix csum tree corruption, duplicate and outdated checksums")'
+#69: 
+  27b9a8122ff71a "Btrfs: fix csum tree corruption, duplicate and outdated checksums"
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit b84b8390d600 ("Btrfs: fix file read corruption after extent cloning and fsync")'
+#70: 
+  b84b8390d6009c "Btrfs: fix file read corruption after extent cloning and fsync"
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 40e046acbd2f ("Btrfs: fix missing data checksums after replaying a log tree")'
+#71: 
+  40e046acbd2f36 "Btrfs: fix missing data checksums after replaying a log tree"
+
+total: 3 errors, 1 warnings, 79 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e289f03ea79b ("btrfs: fix corrupt log due to concurrent fsync of inodes with shared extents") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

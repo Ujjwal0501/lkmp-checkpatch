@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit b41d272eda6d ("net: dsa: sja1105: remove set but not used variable 'prev_time'") has no obvious style problems and is ready for submission.

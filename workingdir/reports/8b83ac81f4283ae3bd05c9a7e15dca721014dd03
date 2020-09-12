@@ -1,0 +1,24 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#358: FILE: include/trace/events/f2fs.h:1873:
+ 		"gc [data=%llu, node=%llu], "
++		"cp [data=%llu, node=%llu, meta=%llu], "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#359: FILE: include/trace/events/f2fs.h:1874:
++		"cp [data=%llu, node=%llu, meta=%llu], "
++		"app [read=%llu (direct=%llu, buffered=%llu), mapped=%llu], "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#360: FILE: include/trace/events/f2fs.h:1875:
++		"app [read=%llu (direct=%llu, buffered=%llu), mapped=%llu], "
++		"fs [data=%llu, node=%llu, meta=%llu]",
+
+total: 0 errors, 3 warnings, 298 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8b83ac81f428 ("f2fs: support read iostat") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

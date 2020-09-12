@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 61 lines checked
+
+Commit f9382669cf5e ("netfilter: nf_tables: pass hook list to nft_{un,}register_flowtable_net_hooks()") has no obvious style problems and is ready for submission.

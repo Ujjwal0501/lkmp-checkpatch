@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 110 lines checked
+
+Commit b4b8a3bf9ef0 ("selftests/bpf: Convert test_flow_dissector to use BPF skeleton") has no obvious style problems and is ready for submission.

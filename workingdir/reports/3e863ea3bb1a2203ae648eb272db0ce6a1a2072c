@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 3e863ea3bb1a ("io_uring: missed req_init_async() for IOSQE_ASYNC") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit d32709dac627 ("drm/amdgpu: resume kiq access debugfs") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit ef5a294be8d0 ("KVM: arm64: Add emulation for 32bit guests accessing ACTLR2") has no obvious style problems and is ready for submission.

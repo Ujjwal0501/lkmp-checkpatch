@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 250 lines checked
+
+Commit 08eb9658ae12 ("mm: rename various 'offset' parameters to 'index'") has no obvious style problems and is ready for submission.

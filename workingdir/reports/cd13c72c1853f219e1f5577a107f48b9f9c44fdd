@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 134 lines checked
+
+Commit cd13c72c1853 ("ARM: dts: qcom: msm8974-klte: Add max77826 pmic node") has no obvious style problems and is ready for submission.

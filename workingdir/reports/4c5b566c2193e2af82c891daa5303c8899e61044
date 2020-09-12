@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 92aa63a5a1bf ("[PATCH] kdump: Retrieve saved max pfn")'
+#8: 
+  92aa63a5a1bf ("[PATCH] kdump: Retrieve saved max pfn")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 921d58c0e699 ("vmcore: remove saved_max_pfn check")'
+#13: 
+  921d58c0e699 ("vmcore: remove saved_max_pfn check")
+
+total: 2 errors, 0 warnings, 34 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4c5b566c2193 ("crash_dump: Remove no longer used saved_max_pfn") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

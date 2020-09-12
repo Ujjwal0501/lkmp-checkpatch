@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 15c3d5aae73e ("media: coda: lock capture queue wakeup against decoder stop command") has no obvious style problems and is ready for submission.

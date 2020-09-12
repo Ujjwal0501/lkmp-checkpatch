@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 86 lines checked
+
+Commit a4d9653666b3 ("mm: use readahead_control to pass arguments") has no obvious style problems and is ready for submission.

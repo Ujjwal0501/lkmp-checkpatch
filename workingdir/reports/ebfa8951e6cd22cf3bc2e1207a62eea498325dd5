@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit ebfa8951e6cd ("arm64: dts: imx8mm: specify #sound-dai-cells for SAI nodes") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 11425c4519e2 ("drm/ttm: Fix dma_fence refcnt leak when adding move fence") has no obvious style problems and is ready for submission.

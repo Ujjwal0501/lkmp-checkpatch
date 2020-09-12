@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 7f023ec91c3c ("net: sched: remove unused inline function qdisc_reset_all_tx") has no obvious style problems and is ready for submission.

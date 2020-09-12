@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit e4ef7de160c6 ("selftests/x86/syscall_nt: Add more flag combinations") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 36 lines checked
+
+Commit e269060e79ed ("staging: wfx: simplify handling of beacon filter during join process") has no obvious style problems and is ready for submission.

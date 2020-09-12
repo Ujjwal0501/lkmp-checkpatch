@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 7ff864e1ad34 ("mfd: wm8994: Silence warning about supplies during deferred probe") has no obvious style problems and is ready for submission.

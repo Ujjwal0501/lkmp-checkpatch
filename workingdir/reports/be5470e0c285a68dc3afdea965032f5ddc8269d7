@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit be5470e0c285 ("powerpc/crashkernel: Take "mem=" option into account") has no obvious style problems and is ready for submission.

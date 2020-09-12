@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 224 lines checked
+
+Commit 62ab466ca881 ("loop: Move loop_set_status_from_info() and friends up") has no obvious style problems and is ready for submission.

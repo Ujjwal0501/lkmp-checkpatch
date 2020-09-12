@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 17168f5c1bef ("kcsan: Avoid inserting __tsan_func_entry/exit if possible") has no obvious style problems and is ready for submission.

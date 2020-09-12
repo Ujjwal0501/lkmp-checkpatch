@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 59 lines checked
+
+Commit d60d81acc2c1 ("libbpf: Add support for bpf_link-based netns attachment") has no obvious style problems and is ready for submission.

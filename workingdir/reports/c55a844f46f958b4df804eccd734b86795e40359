@@ -1,0 +1,21 @@
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#695: FILE: include/asm-generic/hyperv-tlfs.h:98:
++	volatile u32 tsc_sequence;
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#697: FILE: include/asm-generic/hyperv-tlfs.h:100:
++	volatile u64 tsc_scale;
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#698: FILE: include/asm-generic/hyperv-tlfs.h:101:
++	volatile s64 tsc_offset;
+
+total: 0 errors, 3 warnings, 986 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c55a844f46f9 ("x86/hyperv: Split hyperv-tlfs.h into arch dependent and independent files") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

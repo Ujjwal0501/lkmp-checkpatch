@@ -1,0 +1,61 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#46: 
+ rename drivers/staging/media/atomisp/pci/atomisp2/css2400/{hive_isp_css_common/host/input_system_local.h => isp2400_input_system_local.h} (100%)
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_global.h', please use '/*' instead
+#66: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_global.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#66: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_global.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_local.h', please use '/*' instead
+#82: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_local.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#82: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_local.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_private.h', please use '/*' instead
+#98: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_private.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#98: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_private.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_public.h', please use '/*' instead
+#114: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_public.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#114: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/input_system_public.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'drivers/staging/media/atomisp/pci/atomisp2/css2400/system_global.h', please use '/*' instead
+#168: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/system_global.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#168: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/system_global.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'drivers/staging/media/atomisp/pci/atomisp2/css2400/system_local.h', please use '/*' instead
+#184: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/system_local.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#184: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/system_local.h:1:
++// SPDX-License-Identifier: GPL-2.0-or-later
+
+total: 0 errors, 13 warnings, 0 checks, 58 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b82cd6b7f587 ("media: atomisp: make all file names unique at atomisp driver") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

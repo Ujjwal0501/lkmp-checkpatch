@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c37c9162a2fa ("efi/libstub/random: Increase random alloc granularity") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit fba8dbeaf30e ("x86/idt: Remove update_intr_gate()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 0dd2334fd5b9 ("arm64: entry: remove unneeded semicolon in el1_sync_handler()") has no obvious style problems and is ready for submission.

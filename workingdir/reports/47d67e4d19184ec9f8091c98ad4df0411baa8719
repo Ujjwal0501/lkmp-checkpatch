@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 23 lines checked
+
+Commit 47d67e4d1918 ("arm64: insn: Report PAC and BTI instructions as skippable") has no obvious style problems and is ready for submission.

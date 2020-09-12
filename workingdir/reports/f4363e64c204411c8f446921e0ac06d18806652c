@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit f4363e64c204 ("mtd: spi-nor: core: fix kernel-doc typo for spi_nor_[{info|sfdp}_]init_params()") has no obvious style problems and is ready for submission.

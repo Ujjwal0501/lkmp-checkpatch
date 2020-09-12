@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit c24fd2481e0b ("igc: Remove dead code related to flower filter") has no obvious style problems and is ready for submission.

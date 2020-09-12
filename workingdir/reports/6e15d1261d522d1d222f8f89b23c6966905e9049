@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 6e15d1261d52 ("ALSA: hda/realtek: Enable headset mic of Acer C20-820 with ALC269VC") has no obvious style problems and is ready for submission.

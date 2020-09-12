@@ -1,0 +1,26 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#38: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_compat_css20.c:653:
++			* control whether use isp2.7 */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments should align the * on each line
+#38: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_compat_css20.c:653:
++			/* the isp default to use ISP2.2 and the camera hal will
++			* control whether use isp2.7 */
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#40: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_compat_css20.c:655:
++				stream_env->pipe_configs[pipe_id].isp_pipe_version =  SH_CSS_ISP_PIPE_VERSION_2_7;
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#42: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_compat_css20.c:657:
++				stream_env->pipe_configs[pipe_id].isp_pipe_version = SH_CSS_ISP_PIPE_VERSION_2_2;
+
+total: 0 errors, 4 warnings, 0 checks, 134 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7ef17aa55fc3 ("media: atomisp: atomisp_compat_css20.c: detect ISP at runtime") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 263 lines checked
+
+Commit 9817aa80dcdc ("xfs: refactor log recovery EFI item dispatch for pass2 commit functions") has no obvious style problems and is ready for submission.

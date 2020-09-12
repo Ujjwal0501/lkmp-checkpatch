@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 1597bfbfdb3c ("ASoC: ti: remove comparison to bool in omap_mcbsp_dai_set_dai_fmt()") has no obvious style problems and is ready for submission.

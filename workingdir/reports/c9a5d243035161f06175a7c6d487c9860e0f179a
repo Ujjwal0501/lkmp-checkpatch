@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 108 lines checked
+
+Commit c9a5d2430351 ("net/smc: delete an asymmetric link as SMC server") has no obvious style problems and is ready for submission.

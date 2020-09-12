@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 99 lines checked
+
+Commit 4fb5eec94c51 ("drm/i915/display: clean up intel_PLL_is_valid()") has no obvious style problems and is ready for submission.

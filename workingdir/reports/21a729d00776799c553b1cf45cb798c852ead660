@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 140 lines checked
+
+Commit 21a729d00776 ("drm/mst: Separate sideband packet header parsing from message building") has no obvious style problems and is ready for submission.

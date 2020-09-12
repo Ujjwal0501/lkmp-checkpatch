@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 100 lines checked
+
+Commit fb90a1c85d8f ("Crypto/chcr: Calculate src and dst sg lengths separately for dma map") has no obvious style problems and is ready for submission.

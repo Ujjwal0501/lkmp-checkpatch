@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 42 lines checked
+
+Commit d7dcf8a54ea5 ("staging: wfx: relocate LINK_ID_NO_ASSOC and MAX_STA_IN_AP_MODE to hif API") has no obvious style problems and is ready for submission.

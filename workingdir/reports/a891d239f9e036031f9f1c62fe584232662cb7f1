@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit a891d239f9e0 ("drm/amdgpu: set error query ready after all IPs late init") has no obvious style problems and is ready for submission.

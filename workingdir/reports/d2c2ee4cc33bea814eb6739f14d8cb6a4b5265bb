@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 132 lines checked
+
+Commit d2c2ee4cc33b ("arm64: traps: Shuffle code to eliminate forward declarations") has no obvious style problems and is ready for submission.

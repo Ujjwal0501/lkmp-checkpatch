@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 5523f06a1950 ("usb: chipidea: pull down dp for possible charger detection operation") has no obvious style problems and is ready for submission.

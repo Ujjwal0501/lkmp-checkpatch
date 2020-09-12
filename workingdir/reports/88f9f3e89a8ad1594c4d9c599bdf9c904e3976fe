@@ -1,0 +1,57 @@
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#125: FILE: drivers/mtd/nand/raw/nandsim.c:742:
++	if ((ret = ns_alloc_device(ns)) != 0)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#252: FILE: drivers/mtd/nand/raw/nandsim.c:1091:
++static uint32_t ns_get_state_by_command(unsigned command)
+
+WARNING:LONG_LINE_STRING: line length of 132 exceeds 100 columns
+#665: FILE: drivers/mtd/nand/raw/nandsim.c:1972:
++				NS_WARN("write_byte: command (%#x) wasn't expected, expected state is %s, ignore previous states\n",
+
+WARNING:LONG_LINE_STRING: line length of 121 exceeds 100 columns
+#706: FILE: drivers/mtd/nand/raw/nandsim.c:2021:
++			NS_ERR("write_byte: address (%#x) isn't expected, expected state is %s, switch to STATE_READY\n",
+
+WARNING:LONG_LINE_STRING: line length of 106 exceeds 100 columns
+#742: FILE: drivers/mtd/nand/raw/nandsim.c:2053:
++			NS_ERR("write_byte: data input (%#x) isn't expected, state is %s, switch to %s\n",
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#802: FILE: drivers/mtd/nand/raw/nandsim.c:2305:
++	if ((retval = ns_parse_weakblocks()) != 0)
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#806: FILE: drivers/mtd/nand/raw/nandsim.c:2308:
++	if ((retval = ns_parse_weakpages()) != 0)
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#810: FILE: drivers/mtd/nand/raw/nandsim.c:2311:
++	if ((retval = ns_parse_gravepages()) != 0)
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#819: FILE: drivers/mtd/nand/raw/nandsim.c:2345:
++	if ((retval = ns_setup_wear_reporting(nsmtd)) != 0)
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#823: FILE: drivers/mtd/nand/raw/nandsim.c:2348:
++	if ((retval = ns_init(nsmtd)) != 0)
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#830: FILE: drivers/mtd/nand/raw/nandsim.c:2354:
++	if ((retval = ns_parse_badblocks(ns, nsmtd)) != 0)
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#839: FILE: drivers/mtd/nand/raw/nandsim.c:2363:
++	if ((retval = ns_debugfs_create(ns)) != 0)
+
+total: 8 errors, 4 warnings, 777 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 88f9f3e89a8a ("mtd: rawnand: nandsim: Use a consistent ns_ prefix for all functions") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

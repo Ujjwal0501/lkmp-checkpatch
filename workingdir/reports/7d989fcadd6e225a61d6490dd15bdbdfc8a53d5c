@@ -1,0 +1,35 @@
+ERROR:MULTISTATEMENT_MACRO_USE_DO_WHILE: Macros starting with if should be enclosed by a do - while loop to avoid possible if/else logic defects
+#28: FILE: tools/objtool/arch/x86/decode.c:80:
++#define ADD_OP(op) \
++	if (!(op = calloc(1, sizeof(*op)))) \
++		return -1; \
++	else for (list_add_tail(&op->list, ops_list); op; op = NULL)
+
+WARNING:MACRO_WITH_FLOW_CONTROL: Macros with flow control statements should be avoided
+#28: FILE: tools/objtool/arch/x86/decode.c:80:
++#define ADD_OP(op) \
++	if (!(op = calloc(1, sizeof(*op)))) \
++		return -1; \
++	else for (list_add_tail(&op->list, ops_list); op; op = NULL)
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#29: FILE: tools/objtool/arch/x86/decode.c:81:
++	if (!(op = calloc(1, sizeof(*op)))) \
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#31: FILE: tools/objtool/arch/x86/decode.c:83:
++	else for (list_add_tail(&op->list, ops_list); op; op = NULL)
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#31: FILE: tools/objtool/arch/x86/decode.c:83:
++	else for (list_add_tail(&op->list, ops_list); op; op = NULL)
+
+total: 4 errors, 1 warnings, 416 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7d989fcadd6e ("objtool: Rework allocating stack_ops on decode") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

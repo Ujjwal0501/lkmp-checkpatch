@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e411eb257b33 ("libbpf: Return err if bpf_object__load failed") has no obvious style problems and is ready for submission.

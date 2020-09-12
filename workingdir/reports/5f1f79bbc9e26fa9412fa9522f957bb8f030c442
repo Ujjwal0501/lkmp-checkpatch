@@ -1,0 +1,45 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#113: 
+new file mode 100644
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#346: FILE: drivers/virtio/virtio_mem.c:229:
++	BUG_ON(vm->nb_mb_state[old_state] == 0);
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#390: FILE: drivers/virtio/virtio_mem.c:273:
++#define virtio_mem_for_each_mb_state(_vm, _mb_id, _state) \
++	for (_mb_id = _vm->first_mb_id; \
++	     _mb_id < _vm->next_mb_id && _vm->nb_mb_state[_state]; \
++	     _mb_id++) \
++		if (virtio_mem_mb_get_state(_vm, _mb_id) == _state)
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#609: FILE: drivers/virtio/virtio_mem.c:492:
++		BUG();
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#621: FILE: drivers/virtio/virtio_mem.c:504:
++		BUG_ON(zone == ZONE_MOVABLE);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#634: FILE: drivers/virtio/virtio_mem.c:517:
++		BUG();
+
+WARNING:REPEATED_WORD: Possible repeated word: 'is'
+#778: FILE: drivers/virtio/virtio_mem.c:661:
++	 * size/alignment and that this callback is is called with such a
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#1571: FILE: drivers/virtio/virtio_mem.c:1454:
++		BUG_ON(rc);
+
+total: 1 errors, 7 warnings, 1766 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5f1f79bbc9e2 ("virtio-mem: Paravirtualized memory hotplug") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 67 lines checked
+
+Commit dd86fec7e06a ("devlink: factor out building a snapshot notification") has no obvious style problems and is ready for submission.

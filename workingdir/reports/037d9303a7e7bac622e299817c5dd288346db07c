@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 037d9303a7e7 ("arm: mm: use __pfn_to_section() to get mem_section") has no obvious style problems and is ready for submission.

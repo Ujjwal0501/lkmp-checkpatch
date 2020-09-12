@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit a2aede970a8e ("scsi: scsi_debug: Improve command duration calculation") has no obvious style problems and is ready for submission.

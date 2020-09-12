@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 216 lines checked
+
+Commit 0aab3e1b04ae ("net/mlx5e: IPSec, Expose IPsec HW stat only for supporting HW") has no obvious style problems and is ready for submission.

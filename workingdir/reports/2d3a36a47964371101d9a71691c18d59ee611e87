@@ -1,0 +1,21 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit ba841078cd05 ("mm/mempolicy: Allow lookup_node() to handle fatal signal")'
+#6: 
+ba841078cd05 ("mm/mempolicy: Allow lookup_node() to handle fatal signal")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit ae46d2aa6a7f ("mm/gup: Let __get_user_pages_locked() return -EINTR for fatal signal")'
+#9: 
+ae46d2aa6a7f ("mm/gup: Let __get_user_pages_locked() return -EINTR for
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit ba841078cd05 ("mm/mempolicy: Allow lookup_node() to handle fatal signal")'
+#10: 
+fatal signal") in the mean time so ba841078cd05 can be reverted.
+
+total: 3 errors, 0 warnings, 28 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2d3a36a47964 ("mm, mempolicy: fix up gup usage in lookup_node") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 13fe5a59b3c7 ("staging: wfx: simplify the check if the the device is associated") has no obvious style problems and is ready for submission.

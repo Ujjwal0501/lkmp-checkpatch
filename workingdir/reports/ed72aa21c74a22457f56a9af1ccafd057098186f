@@ -1,0 +1,54 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#29: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c:6400:
++			dev_info(adev->dev, "Instance[%d]: SubBlock %s, "
++				"SEC %d\n", i, vml2_mems[i], sec_count);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#38: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c:6407:
++			dev_info(adev->dev, "Instance[%d]: SubBlock %s, "
++				"DED %d\n", i, vml2_mems[i], ded_count);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#49: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c:6420:
++			dev_info(adev->dev, "Instance[%d]: SubBlock %s, "
++				"SEC %d\n", i, vml2_walker_mems[i], sec_count);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#59: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c:6428:
++			dev_info(adev->dev, "Instance[%d]: SubBlock %s, "
++				"DED %d\n", i, vml2_walker_mems[i], ded_count);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#70: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c:6440:
++			dev_info(adev->dev, "Instance[%d]: SubBlock %s, "
++				"SEC %d\n", i, atc_l2_cache_2m_mems[i],
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#82: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c:6453:
++			dev_info(adev->dev, "Instance[%d]: SubBlock %s, "
++				"SEC %d\n", i, atc_l2_cache_4k_mems[i],
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#92: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c:6461:
++			dev_info(adev->dev, "Instance[%d]: SubBlock %s, "
++				"DED %d\n", i, atc_l2_cache_4k_mems[i],
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#113: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c:6494:
++			dev_info(adev->dev, "GFX SubBlock %s, "
++				"Instance[%d][%d], SEC %d\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#123: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c:6506:
++			dev_info(adev->dev, "GFX SubBlock %s, "
++				"Instance[%d][%d], DED %d\n",
+
+total: 0 errors, 9 warnings, 111 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ed72aa21c74a ("drm/amdgpu: replace DRM prefix with PCI device info for GFX RAS") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

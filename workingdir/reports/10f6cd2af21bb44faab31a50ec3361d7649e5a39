@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 23 lines checked
+
+Commit 10f6cd2af21b ("pmu/smmuv3: Clear IRQ affinity hint on device removal") has no obvious style problems and is ready for submission.

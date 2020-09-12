@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#20: 
+    70 69 64 5f 33 00 ff ff                          pid_3...
+
+total: 0 errors, 1 warnings, 11 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dde3c6b72a16 ("mm/slub: fix a memory leak in sysfs_slab_add()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

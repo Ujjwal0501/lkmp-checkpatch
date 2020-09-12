@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit bbbea1f2a9b1 ("ARM: dts: mmp3: Fix USB & USB PHY node names") has no obvious style problems and is ready for submission.

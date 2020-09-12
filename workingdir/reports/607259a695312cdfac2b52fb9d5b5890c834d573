@@ -1,0 +1,17 @@
+CHECK:MULTIPLE_ASSIGNMENTS: multiple assignments should be avoided
+#284: FILE: net/ipv4/ipip.c:339:
++	p->i_key = p->o_key = 0;
+
+CHECK:MULTIPLE_ASSIGNMENTS: multiple assignments should be avoided
+#285: FILE: net/ipv4/ipip.c:340:
++	p->i_flags = p->o_flags = 0;
+
+total: 0 errors, 0 warnings, 2 checks, 241 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 607259a69531 ("net: add a new ndo_tunnel_ioctl method") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

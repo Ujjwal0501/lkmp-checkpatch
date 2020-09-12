@@ -1,0 +1,21 @@
+WARNING:BAD_SIGN_OFF: 'Reported-and-tested-by:' is the preferred signature form
+#12: 
+Reported-and-Tested-by:  Luo Xiaogang <lxgrxd@163.com>
+
+WARNING:BAD_SIGN_OFF: Use a single space after Reported-and-tested-by:
+#12: 
+Reported-and-Tested-by:  Luo Xiaogang <lxgrxd@163.com>
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct net *' should also have an identifier name
+#113: FILE: fs/nfsd/nfsd.h:93:
++int get_nfsdfs(struct net *);
+
+total: 0 errors, 3 warnings, 85 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 681370f4b00a ("nfsd4: fix nfsdfs reference count loop") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

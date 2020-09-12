@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'calucate' may be misspelled - perhaps 'calculate'?
+#11: 
+MP process is based on this thermal value. So we calucate the delta of
+
+total: 0 errors, 1 warnings, 0 checks, 527 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 608d2a08f842 ("rtw88: 8723d: Add power tracking") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

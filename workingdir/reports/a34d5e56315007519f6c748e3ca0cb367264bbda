@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit a34d5e563150 ("gpiolib: Separate GPIO_GET_LINEINFO_WATCH_IOCTL conditional") has no obvious style problems and is ready for submission.

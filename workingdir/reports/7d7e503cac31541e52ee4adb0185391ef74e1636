@@ -1,0 +1,38 @@
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#65: FILE: tools/perf/jvmti/libjvmti.c:52:
++	for (i = 0; i < nr_lines && loc_tab[i].start_location <= bci; i++) {
++		src_line = i;
++	}
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#135: FILE: tools/perf/jvmti/libjvmti.c:110:
++                                /*$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#136: FILE: tools/perf/jvmti/libjvmti.c:111:
++                                 * c->methods is the stack of inlined method calls$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#137: FILE: tools/perf/jvmti/libjvmti.c:112:
++                                 * at c->pc. [0] is the leaf method. Caller frames$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#138: FILE: tools/perf/jvmti/libjvmti.c:113:
++                                 * are ignored at the moment.$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#139: FILE: tools/perf/jvmti/libjvmti.c:114:
++                                 */$
+
+total: 5 errors, 1 warnings, 118 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 7d7e503cac31 ("perf jvmti: Remove redundant jitdump line table entries") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

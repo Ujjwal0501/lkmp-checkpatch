@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit fb1a9fc550cf ("rtlwifi: use true,false for bool variable in rtl_init_rfkill()") has no obvious style problems and is ready for submission.

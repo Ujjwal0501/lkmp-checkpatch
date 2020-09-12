@@ -1,0 +1,22 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#81: FILE: include/linux/pagemap.h:682:
++	BUG_ON(rac->_batch_count > rac->_nr_pages);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#101: FILE: include/linux/pagemap.h:702:
++	unsigned int i = 0;
++	XA_STATE(xas, &rac->mapping->i_pages, 0);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#104: FILE: include/linux/pagemap.h:705:
++	BUG_ON(rac->_batch_count > rac->_nr_pages);
+
+total: 0 errors, 3 warnings, 146 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 042124cc64c3 ("mm: add new readahead_control API") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

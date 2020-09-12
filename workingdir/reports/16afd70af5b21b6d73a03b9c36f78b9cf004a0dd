@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'two'
+#44: FILE: drivers/clk/meson/meson8b.c:2142:
++ * The VPU clock has two two identical clock trees (vpu_0 and vpu_1)
+
+total: 0 errors, 1 warnings, 35 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 16afd70af5b2 ("clk: meson: meson8b: Make the CCF use the glitch-free VPU mux") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,47 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#29: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c:102:
++	memcpy((void *)channels, (void *)rtw_2ghz_channels,
+ 		sizeof(struct ieee80211_channel)*RTW_2G_CHANNELS_NUM
+
+WARNING:LONG_LINE: line length of 116 exceeds 100 columns
+#38: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c:136:
++	spt_band->channels = (struct ieee80211_channel *)(((u8 *)spt_band)+sizeof(struct ieee80211_supported_band));
+
+CHECK:SPACING: spaces preferred around that '+' (ctx:VxV)
+#38: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c:136:
++	spt_band->channels = (struct ieee80211_channel *)(((u8 *)spt_band)+sizeof(struct ieee80211_supported_band));
+ 	                                                                  ^
+
+WARNING:LONG_LINE: line length of 127 exceeds 100 columns
+#39: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c:137:
++	spt_band->bitrates = (struct ieee80211_rate *)(((u8 *)spt_band->channels)+sizeof(struct ieee80211_channel)*n_channels);
+
+CHECK:SPACING: spaces preferred around that '+' (ctx:VxV)
+#39: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c:137:
++	spt_band->bitrates = (struct ieee80211_rate *)(((u8 *)spt_band->channels)+sizeof(struct ieee80211_channel)*n_channels);
+ 	                                                                         ^
+
+CHECK:SPACING: spaces preferred around that '*' (ctx:VxV)
+#39: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c:137:
++	spt_band->bitrates = (struct ieee80211_rate *)(((u8 *)spt_band->channels)+sizeof(struct ieee80211_channel)*n_channels);
+ 	                                                                                                          ^
+
+CHECK:SPACING: spaces preferred around that '+' (ctx:VxV)
+#97: FILE: drivers/staging/rtl8723bs/os_dep/recv_linux.c:233:
++			u16 len = *(u16 *)(skb->data+ETH_HLEN+2);
+ 			                            ^
+
+CHECK:SPACING: spaces preferred around that '+' (ctx:VxV)
+#97: FILE: drivers/staging/rtl8723bs/os_dep/recv_linux.c:233:
++			u16 len = *(u16 *)(skb->data+ETH_HLEN+2);
+ 			                                     ^
+
+total: 0 errors, 2 warnings, 6 checks, 66 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b95f955674bf ("staging: rtl8723bs: os_dep: Cleanup pointer casting code style") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

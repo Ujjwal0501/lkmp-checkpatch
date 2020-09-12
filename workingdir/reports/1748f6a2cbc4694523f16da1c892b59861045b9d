@@ -1,0 +1,24 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#56: FILE: include/linux/rhashtable.h:371:
++	struct rhash_lock_head __rcu *const *bkt = (void *)p;
++	return __rht_ptr(rcu_dereference(*bkt), bkt);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#67: FILE: include/linux/rhashtable.h:380:
++	struct rhash_lock_head __rcu *const *bkt = (void *)p;
++	return __rht_ptr(rht_dereference_bucket(*bkt, tbl, hash), bkt);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#76: FILE: include/linux/rhashtable.h:387:
++	struct rhash_lock_head __rcu *const *bkt = (void *)p;
++	return __rht_ptr(rcu_dereference_protected(*bkt, 1), bkt);
+
+total: 0 errors, 3 warnings, 49 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1748f6a2cbc4 ("rhashtable: Fix unprotected RCU dereference in __rht_ptr") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

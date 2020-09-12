@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 114 lines checked
+
+Commit 8378449d1f79 ("spi: dw: Use regset32 DebugFS method to create regdump file") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 274 lines checked
+
+Commit e83f195aa45c ("RDMA/cm: Pull duplicated code into cm_queue_work_unlock()") has no obvious style problems and is ready for submission.

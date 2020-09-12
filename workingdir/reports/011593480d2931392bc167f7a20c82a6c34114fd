@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 011593480d29 ("binfmt_elf_fdpic: fix execfd build regression") has no obvious style problems and is ready for submission.

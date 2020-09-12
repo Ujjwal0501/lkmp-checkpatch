@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 50 lines checked
+
+Commit 60689de46c7f ("mac80211: fix memory overlap due to variable length param") has no obvious style problems and is ready for submission.

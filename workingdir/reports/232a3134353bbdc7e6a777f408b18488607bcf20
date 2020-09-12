@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 121 exceeds 100 columns
+#41: FILE: drivers/clk/mmp/clk-of-mmp2.c:378:
++	{MMP2_CLK_AUDIO, "audio_clk", "audio_mix_clk", CLK_SET_RATE_PARENT, APMU_AUDIO, 0x12, 0x12, 0x0, 0, &audio_lock},
+
+total: 0 errors, 1 warnings, 22 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 232a3134353b ("clk: mmp2: Add the audio clock") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

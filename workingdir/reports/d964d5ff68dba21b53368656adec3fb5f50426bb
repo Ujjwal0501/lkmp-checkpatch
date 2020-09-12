@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit d964d5ff68db ("dmaengine: ti: k3-udma: Fix delayed_work usage for tx drain workaround") has no obvious style problems and is ready for submission.

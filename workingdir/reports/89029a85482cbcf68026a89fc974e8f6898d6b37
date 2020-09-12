@@ -1,0 +1,18 @@
+ERROR:BAD_SIGN_OFF: Unrecognized email address: 'Evelyn Tsai <evelyn.tsai@mediatek.com'
+#9: 
+Tested-by: Evelyn Tsai <evelyn.tsai@mediatek.com
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#33: FILE: drivers/net/wireless/mediatek/mt76/mt7915/init.c:65:
++	/*
++	 * TODO: DBDC & check whether iBF phase calibration data has
+
+total: 1 errors, 1 warnings, 0 checks, 587 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 89029a85482c ("mt76: mt7915: add Tx beamformer support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

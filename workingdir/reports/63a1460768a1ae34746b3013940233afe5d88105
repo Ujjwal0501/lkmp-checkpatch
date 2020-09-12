@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 17 lines checked
+
+Commit 63a1460768a1 ("mtd: rawnand: diskonchip: Stop using nand_release()") has no obvious style problems and is ready for submission.

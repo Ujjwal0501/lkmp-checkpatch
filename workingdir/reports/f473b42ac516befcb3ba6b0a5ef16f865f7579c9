@@ -1,0 +1,21 @@
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'dev' - possible side-effects?
+#105: FILE: drivers/net/wireless/mediatek/mt76/mt76.h:674:
++#define mt76_for_each_q_rx(dev, i)	\
++	for (i = 0; i < ARRAY_SIZE((dev)->q_rx) && \
++		    (dev)->q_rx[i].ndesc; i++)
+
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'i' - possible side-effects?
+#105: FILE: drivers/net/wireless/mediatek/mt76/mt76.h:674:
++#define mt76_for_each_q_rx(dev, i)	\
++	for (i = 0; i < ARRAY_SIZE((dev)->q_rx) && \
++		    (dev)->q_rx[i].ndesc; i++)
+
+total: 0 errors, 0 warnings, 2 checks, 102 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f473b42ac516 ("mt76: only iterate over initialized rx queues") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

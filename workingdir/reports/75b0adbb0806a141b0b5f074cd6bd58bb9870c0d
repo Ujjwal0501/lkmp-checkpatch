@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#32: FILE: Documentation/devicetree/bindings/sound/tlv320adcx140.yaml:72:
++       channel is latched on the the positive edge.
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#34: FILE: Documentation/devicetree/bindings/sound/tlv320adcx140.yaml:74:
++       latched on the the negative edge.
+
+total: 0 errors, 2 warnings, 36 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 75b0adbb0806 ("ASoC: tlv320adcx140: Add device tree property for PDM edges") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

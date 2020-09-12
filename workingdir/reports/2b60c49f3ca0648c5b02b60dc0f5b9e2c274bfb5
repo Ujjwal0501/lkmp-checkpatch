@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 2b60c49f3ca0 ("spi: amd: Fix duplicate iounmap in error path") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#59: FILE: fs/f2fs/f2fs.h:197:
++#define CP_RESIZE ^I0x00000080$
+
+total: 0 errors, 1 warnings, 275 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b4b10061ef98 ("f2fs: refactor resize_fs to avoid meta updates in progress") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

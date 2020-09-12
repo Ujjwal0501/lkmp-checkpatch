@@ -1,0 +1,33 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#8: 
+    /Documentation/PCI/boot-interrupts.rst:42: WARNING: Unexpected indentation.
+
+WARNING:USE_RELATIVE_PATH: use relative pathname instead of absolute in changelog text
+#8: 
+    /Documentation/PCI/boot-interrupts.rst:42: WARNING: Unexpected indentation.
+
+WARNING:USE_RELATIVE_PATH: use relative pathname instead of absolute in changelog text
+#9: 
+    /Documentation/PCI/boot-interrupts.rst:52: WARNING: Block quote ends without a blank line; unexpected unindent.
+
+WARNING:USE_RELATIVE_PATH: use relative pathname instead of absolute in changelog text
+#10: 
+    /Documentation/PCI/boot-interrupts.rst:92: WARNING: Unexpected indentation.
+
+WARNING:USE_RELATIVE_PATH: use relative pathname instead of absolute in changelog text
+#11: 
+    /Documentation/PCI/boot-interrupts.rst:98: WARNING: Unexpected indentation.
+
+WARNING:USE_RELATIVE_PATH: use relative pathname instead of absolute in changelog text
+#12: 
+    /Documentation/PCI/boot-interrupts.rst:136: WARNING: Unexpected indentation.
+
+total: 0 errors, 6 warnings, 83 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a588332fba0b ("docs: pci: boot-interrupts.rst: improve html output") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

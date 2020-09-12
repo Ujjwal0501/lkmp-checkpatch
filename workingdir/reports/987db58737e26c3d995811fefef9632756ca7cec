@@ -1,0 +1,13 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct se_cmd *' should also have an identifier name
+#88: FILE: include/target/target_core_fabric.h:156:
++sense_reason_t target_cmd_parse_cdb(struct se_cmd *);
+
+total: 0 errors, 1 warnings, 48 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 987db58737e2 ("scsi: target: Rename target_setup_cmd_from_cdb() to target_cmd_parse_cdb()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

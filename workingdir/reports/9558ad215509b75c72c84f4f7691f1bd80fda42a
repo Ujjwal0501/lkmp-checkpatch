@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit 9558ad215509 ("ASoC: rt5677: Use devm_snd_soc_register_component()") has no obvious style problems and is ready for submission.

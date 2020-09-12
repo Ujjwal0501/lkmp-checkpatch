@@ -1,0 +1,49 @@
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#243: FILE: arch/mips/include/asm/asmmacro.h:48:
++    defined(CONFIG_CPU_MIPSR6)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#270: FILE: arch/mips/include/asm/asmmacro.h:135:
++    defined(CONFIG_CPU_MIPSR5) || defined(CONFIG_CPU_MIPSR6)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#279: FILE: arch/mips/include/asm/asmmacro.h:194:
++    defined(CONFIG_CPU_MIPSR5) || defined(CONFIG_CPU_MIPSR6)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#289: FILE: arch/mips/include/asm/asmmacro.h:205:
++    defined(CONFIG_CPU_MIPSR6)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#408: FILE: arch/mips/include/asm/cpu-type.h:62:
++    defined(CONFIG_SYS_HAS_CPU_MIPS32_R5) || \$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#411: FILE: arch/mips/include/asm/cpu-type.h:65:
++    defined(CONFIG_SYS_HAS_CPU_MIPS64_R5) || \$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#451: FILE: arch/mips/include/asm/fpu.h:75:
++      defined(CONFIG_CPU_MIPSR6) || defined(CONFIG_64BIT))$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#466: FILE: arch/mips/include/asm/hazards.h:26:
++     defined(CONFIG_CPU_MIPSR6)) && \$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#467: FILE: arch/mips/include/asm/hazards.h:27:
++    !defined(CONFIG_CPU_CAVIUM_OCTEON) && !defined(CONFIG_CPU_LOONGSON64)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#477: FILE: arch/mips/include/asm/hazards.h:283:
++      defined(CONFIG_CPU_MIPSR6)$
+
+total: 0 errors, 10 warnings, 567 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ab7c01fdc3cf ("mips: Add MIPS Release 5 support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

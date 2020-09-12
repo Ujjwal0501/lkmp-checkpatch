@@ -1,0 +1,13 @@
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#41: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:351:
++				/* fall through */
+
+total: 0 errors, 1 warnings, 0 checks, 68 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5205071a519c ("mt76: mt7915: enable Rx HE rate reporting") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

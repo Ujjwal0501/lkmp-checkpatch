@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit 3af73b286cce ("io_uring: don't derive close state from ->func") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:TYPO_SPELLING: 'targetted' may be misspelled - perhaps 'targeted'?
+#7: 
+Today, there is no user for the cpuidle cooling device. The targetted
+
+WARNING:LINE_CONTINUATIONS: Avoid unnecessary line continuations
+#151: FILE: drivers/thermal/cpuidle_cooling.c:266:
++			pr_err("Failed to register the cpuidle cooling device" \
+
+total: 0 errors, 2 warnings, 129 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dfd0bda3703c ("thermal/drivers/cpuidle_cooling: Change the registration function") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

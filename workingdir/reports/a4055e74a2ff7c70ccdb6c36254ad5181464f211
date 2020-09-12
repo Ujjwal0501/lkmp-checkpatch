@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit a4055e74a2ff ("mac80211: Don't destroy auth data in case of anti-clogging") has no obvious style problems and is ready for submission.

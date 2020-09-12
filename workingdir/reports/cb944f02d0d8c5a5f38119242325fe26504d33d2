@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit cb944f02d0d8 ("kselftest: arm64: Remove redundant clean target") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 34 lines checked
+
+Commit ba61539c6ae5 ("ip_tunnel: fix use-after-free in ip_tunnel_lookup()") has no obvious style problems and is ready for submission.

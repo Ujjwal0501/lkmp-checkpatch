@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit bf755817f82a ("ARM: dts: omap5: add SHA crypto accelerator node") has no obvious style problems and is ready for submission.

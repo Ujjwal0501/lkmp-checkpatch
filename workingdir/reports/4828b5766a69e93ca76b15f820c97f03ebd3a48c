@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 23 lines checked
+
+Commit 4828b5766a69 ("net: hns3: remove unused struct hnae3_unic_private_info") has no obvious style problems and is ready for submission.

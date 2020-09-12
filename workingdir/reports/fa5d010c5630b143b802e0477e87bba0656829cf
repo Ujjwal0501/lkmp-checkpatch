@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 334 lines checked
+
+Commit fa5d010c5630 ("RDMA: Group create AH arguments in struct") has no obvious style problems and is ready for submission.

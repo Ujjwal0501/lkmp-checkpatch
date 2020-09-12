@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f386775510bf ("mm/compaction: fix a typo in comment "pessemistic"->"pessimistic"") has no obvious style problems and is ready for submission.

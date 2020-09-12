@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit 5795b6f5607f ("loop: Factor out setting loop device size") has no obvious style problems and is ready for submission.

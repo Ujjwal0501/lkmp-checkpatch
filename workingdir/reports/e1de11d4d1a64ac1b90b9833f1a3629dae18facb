@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit e1de11d4d1a6 ("x86/entry: Introduce local_db_{save,restore}()") has no obvious style problems and is ready for submission.

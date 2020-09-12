@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 148 lines checked
+
+Commit 6198bdb48922 ("iio: accel: Add bma150/smb380 support to bma180") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#29: FILE: drivers/irqchip/Kconfig:552:
++config LOONGSON_PCH_MSI
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#50: 
+new file mode 100644
+
+total: 0 errors, 2 warnings, 273 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 632dcc2c75ef ("irqchip: Add Loongson PCH MSI controller") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

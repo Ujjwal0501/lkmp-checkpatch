@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 116 lines checked
+
+Commit 547aa7c262a4 ("mtd: rawnand: davinci: Implement exec_op()") has no obvious style problems and is ready for submission.

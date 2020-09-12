@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 2cd38fd15e4e ("driver core: Remove unnecessary is_fwnode_dev variable in device_add()") has no obvious style problems and is ready for submission.

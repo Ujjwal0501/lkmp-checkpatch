@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 111 lines checked
+
+Commit bb5cce12ac71 ("arm64: dts: fvp/juno: Fix node address fields") has no obvious style problems and is ready for submission.

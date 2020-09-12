@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 67 lines checked
+
+Commit ac3158cb0108 ("bnxt_en: Allocate TQM ring context memory according to fw specification.") has no obvious style problems and is ready for submission.

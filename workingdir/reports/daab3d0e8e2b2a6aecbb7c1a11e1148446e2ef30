@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 316 lines checked
+
+Commit daab3d0e8e2b ("drm/sun4i: de2: csc_mode in de2 format struct is mostly redundant") has no obvious style problems and is ready for submission.

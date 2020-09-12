@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 31 lines checked
+
+Commit 4e637c70b503 ("mptcp: attempt coalescing when moving skbs to mptcp rx queue") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit dc2733dea2be ("mtd: rawnand: nandsim: Fix the label pointing on nand_cleanup()") has no obvious style problems and is ready for submission.

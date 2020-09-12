@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 867 lines checked
+
+Commit 0daede80f870 ("i2c: designware: Convert driver to using regmap API") has no obvious style problems and is ready for submission.

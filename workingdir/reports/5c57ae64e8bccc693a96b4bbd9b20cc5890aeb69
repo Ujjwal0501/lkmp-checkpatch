@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 189 lines checked
+
+Commit 5c57ae64e8bc ("media: i2c/Kconfig: use sub-menus for I2C support") has no obvious style problems and is ready for submission.

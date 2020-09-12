@@ -1,0 +1,21 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#38: FILE: include/linux/ieee80211.h:3336:
++#define PR_KHZ(f) KHZ_TO_MHZ(f), f % 1000
+
+CHECK:CONCATENATED_STRING: Concatenated strings should use spaces between elements
+#237: FILE: net/wireless/trace.h:2843:
++	TP_printk(WDEV_PR_FMT ", freq: "KHZ_F", sig dbm: %d",
+
+CHECK:CONCATENATED_STRING: Concatenated strings should use spaces between elements
+#248: FILE: net/wireless/trace.h:3124:
++	TP_printk(WIPHY_PR_FMT ", freq: "KHZ_F", sig_dbm: %d",
+
+total: 1 errors, 0 warnings, 2 checks, 184 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e76fede8bf7c ("cfg80211: add KHz variants of frame RX API") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

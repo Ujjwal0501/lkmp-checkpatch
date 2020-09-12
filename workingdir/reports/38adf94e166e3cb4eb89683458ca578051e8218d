@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 59 lines checked
+
+Commit 38adf94e166e ("nvme: consolidate chunk_sectors settings") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit deaf160f8aa7 ("f2fs: remove redundant assignment to variable err") has no obvious style problems and is ready for submission.

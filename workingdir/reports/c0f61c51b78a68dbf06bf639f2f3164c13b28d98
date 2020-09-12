@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c0f61c51b78a ("platform/x86: acerhdf: replace space by * in modalias") has no obvious style problems and is ready for submission.

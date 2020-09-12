@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 10223c5286f7 ("arm64: barrier: Use '__unqual_scalar_typeof' for acquire/release macros") has no obvious style problems and is ready for submission.

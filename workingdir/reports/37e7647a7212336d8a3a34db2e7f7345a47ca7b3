@@ -1,0 +1,59 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#64: FILE: Documentation/filesystems/proc.rst:2193:
++proc /proc proc rw,relatime,hidepid=2 0 0
+
+WARNING:REPEATED_WORD: Possible repeated word: 'mount'
+#66: FILE: Documentation/filesystems/proc.rst:2195:
++# strace -e mount mount -o hidepid=1 -t proc proc /tmp/proc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#66: FILE: Documentation/filesystems/proc.rst:2195:
++# strace -e mount mount -o hidepid=1 -t proc proc /tmp/proc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#71: FILE: Documentation/filesystems/proc.rst:2200:
++proc /proc proc rw,relatime,hidepid=2 0 0
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#72: FILE: Documentation/filesystems/proc.rst:2201:
++proc /tmp/proc proc rw,relatime,hidepid=2 0 0
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#77: FILE: Documentation/filesystems/proc.rst:2206:
++# mount -o remount,hidepid=1 -t proc proc /tmp/proc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#80: FILE: Documentation/filesystems/proc.rst:2209:
++proc /proc proc rw,relatime,hidepid=1 0 0
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#81: FILE: Documentation/filesystems/proc.rst:2210:
++proc /tmp/proc proc rw,relatime,hidepid=1 0 0
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#90: FILE: Documentation/filesystems/proc.rst:2219:
++# mount -o hidepid=2 -t proc proc /proc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#91: FILE: Documentation/filesystems/proc.rst:2220:
++# mount -o hidepid=1 -t proc proc /tmp/proc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#93: FILE: Documentation/filesystems/proc.rst:2222:
++proc /proc proc rw,relatime,hidepid=2 0 0
+
+WARNING:REPEATED_WORD: Possible repeated word: 'proc'
+#94: FILE: Documentation/filesystems/proc.rst:2223:
++proc /tmp/proc proc rw,relatime,hidepid=1 0 0
+
+total: 0 errors, 13 warnings, 72 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 37e7647a7212 ("docs: proc: add documentation for "hidepid=4" and "subset=pid" options and new mount behavior") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit edcec4a86919 ("dt-bindings: marvell,mmp2: Add clock id for the I2S clocks") has no obvious style problems and is ready for submission.

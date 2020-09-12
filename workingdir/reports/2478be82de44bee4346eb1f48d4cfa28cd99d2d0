@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 344 lines checked
+
+Commit 2478be82de44 ("usb: renesas-xhci: Add ROM loader for uPD720201") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#13: 
+a0 a4 ce 19 81 88 ff ff 60 ce 09 0d 81 88 ff ff ........`.......
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#13: 
+a0 a4 ce 19 81 88 ff ff 60 ce 09 0d 81 88 ff ff ........`.......
+
+total: 0 errors, 2 warnings, 11 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f3bd9dae3708 ("io_uring: fix memleak in __io_sqe_files_update()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

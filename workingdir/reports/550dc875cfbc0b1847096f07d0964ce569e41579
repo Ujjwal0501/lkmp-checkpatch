@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 550dc875cfbc ("scsi: mpt3sas: Rename function name is_MSB_are_same") has no obvious style problems and is ready for submission.

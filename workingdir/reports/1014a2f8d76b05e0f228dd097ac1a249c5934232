@@ -1,0 +1,17 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#41: FILE: drivers/iommu/qcom_iommu.c:88:
++static struct qcom_iommu_ctx * to_ctx(struct qcom_iommu_domain *d, unsigned asid)
+
+ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+#41: FILE: drivers/iommu/qcom_iommu.c:88:
++static struct qcom_iommu_ctx * to_ctx(struct qcom_iommu_domain *d, unsigned asid)
+
+total: 1 errors, 1 warnings, 97 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1014a2f8d76b ("iommu/qcom: Use domain rather than dev as tlb cookie") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

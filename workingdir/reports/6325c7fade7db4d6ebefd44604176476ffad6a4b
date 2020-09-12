@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 6325c7fade7d ("ALSA: hda: Drop unused snd_hda_queue_unsol_event()") has no obvious style problems and is ready for submission.

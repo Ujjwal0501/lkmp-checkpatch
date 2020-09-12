@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 43d0d37acbe4 ("powerpc/dt_cpu_ftrs: Advertise support for ISA v3.1 if selected") has no obvious style problems and is ready for submission.

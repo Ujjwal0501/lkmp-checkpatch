@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 111 lines checked
+
+Commit 0ba50e861ae9 ("x86/entry/common: Provide idtentry_enter/exit()") has no obvious style problems and is ready for submission.

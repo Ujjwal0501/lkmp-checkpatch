@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 413 lines checked
+
+Commit bd82fdabf162 ("dm zoned: move random and sequential zones into struct dmz_dev") has no obvious style problems and is ready for submission.

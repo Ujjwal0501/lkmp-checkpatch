@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit fde812b32c1e ("drm/amdgpu: drop redundant cg/pg ungate on runpm enter") has no obvious style problems and is ready for submission.

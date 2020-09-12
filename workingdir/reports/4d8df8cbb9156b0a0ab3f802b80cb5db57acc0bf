@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 4d8df8cbb915 ("x86/speculation: PR_SPEC_FORCE_DISABLE enforcement for indirect branches.") has no obvious style problems and is ready for submission.

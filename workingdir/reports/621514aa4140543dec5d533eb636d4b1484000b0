@@ -1,0 +1,23 @@
+WARNING:SUSPECT_CODE_INDENT: suspect code indent for conditional statements (8, 8)
+#192: FILE: drivers/gpu/drm/amd/display/dc/core/dc_link.c:425:
++	if (link->link_id.id == CONNECTOR_ID_PCIE)
+[...]
+ 	switch (link->link_id.id) {
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#214: FILE: drivers/gpu/drm/amd/display/dc/core/dc_link.c:462:
++static enum signal_type decide_signal_from_strap_and_dongle_type(enum display_dongle_type dongle_type,
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#215: FILE: drivers/gpu/drm/amd/display/dc/core/dc_link.c:463:
++								 struct audio_support *audio_support)
+
+total: 0 errors, 3 warnings, 263 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 621514aa4140 ("drm/amd/display: codestyle cleanup on dc_link file until detect_dp func") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,13 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int *' to bare use of 'unsigned *'
+#133: FILE: arch/powerpc/kernel/kgdb.c:424:
++	err = get_kernel_nofault(instr, (unsigned *) addr);
+
+total: 0 errors, 1 warnings, 68 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0c389d89abc2 ("maccess: make get_kernel_nofault() check for minimal type compatibility") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

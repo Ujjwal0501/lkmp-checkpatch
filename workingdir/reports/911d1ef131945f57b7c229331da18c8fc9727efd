@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit 911d1ef13194 ("ARM: defconfig: u8500: Enable new drivers for samsung-golden") has no obvious style problems and is ready for submission.

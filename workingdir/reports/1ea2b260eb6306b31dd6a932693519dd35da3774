@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 1ea2b260eb63 ("drm/amdgpu: Re-enable FRU check for most models v5") has no obvious style problems and is ready for submission.

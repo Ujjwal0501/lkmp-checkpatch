@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 86 lines checked
+
+Commit a72319bf2827 ("staging: wfx: apply 80-columns rule to strings") has no obvious style problems and is ready for submission.

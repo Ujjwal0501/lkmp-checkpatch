@@ -1,0 +1,25 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+The locking rules for walking nested shadow linux page table is different from process
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int *' to bare use of 'unsigned *'
+#28: FILE: arch/powerpc/kvm/book3s_hv_nested.c:754:
++					unsigned long ea, unsigned *hshift)
+
+WARNING:USE_LOCKDEP: Where possible, use lockdep_assert_held instead of assertions based on spin_is_locked
+#37: FILE: arch/powerpc/kvm/book3s_hv_nested.c:763:
++	VM_WARN(!spin_is_locked(&kvm->mmu_lock),
+
+WARNING:QUOTED_WHITESPACE_BEFORE_NEWLINE: unnecessary whitespace before a quoted newline
+#38: FILE: arch/powerpc/kvm/book3s_hv_nested.c:764:
++		"%s called with kvm mmu_lock not held \n", __func__);
+
+total: 0 errors, 4 warnings, 60 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dc891849e030 ("powerpc/kvm/nested: Add helper to walk nested shadow linux page table.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

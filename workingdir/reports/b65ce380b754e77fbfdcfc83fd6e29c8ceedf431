@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 95 lines checked
+
+Commit b65ce380b754 ("genetlink: clean up family attributes allocations") has no obvious style problems and is ready for submission.

@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#18: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)
+#23: FILE: Documentation/devicetree/bindings/net/realtek-bluetooth.yaml:1:
++# SPDX-License-Identifier: GPL-2.0
+
+total: 0 errors, 2 warnings, 54 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1cc2d0e021f8 ("dt-bindings: net: bluetooth: Add rtl8723bs-bluetooth") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

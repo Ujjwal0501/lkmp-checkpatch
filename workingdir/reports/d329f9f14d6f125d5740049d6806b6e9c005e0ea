@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit d329f9f14d6f ("ARM: dts: dra7-ipu-dsp-common: Add timers to IPU and DSP nodes") has no obvious style problems and is ready for submission.

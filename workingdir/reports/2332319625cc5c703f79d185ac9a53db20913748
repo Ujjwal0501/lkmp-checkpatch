@@ -1,0 +1,13 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#52: FILE: fs/f2fs/data.c:2199:
++	unsigned nr_pages = rac ? readahead_count(rac) : 1;
+
+total: 0 errors, 1 warnings, 140 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2332319625cc ("f2fs: convert from readpages to readahead") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 63 lines checked
+
+Commit b707fffda6a3 ("xfs: abort consistently on dquot flush failure") has no obvious style problems and is ready for submission.

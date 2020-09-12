@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit b778e1ee1afe ("ovl: only pass ->ki_flags to ovl_iocb_to_rwf()") has no obvious style problems and is ready for submission.

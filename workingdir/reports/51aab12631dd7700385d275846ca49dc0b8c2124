@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 135 lines checked
+
+Commit 51aab12631dd ("RDMA/core: Get xmit slave for LAG") has no obvious style problems and is ready for submission.

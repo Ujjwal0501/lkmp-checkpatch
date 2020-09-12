@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 200 lines checked
+
+Commit 6b0b0fa2bce6 ("crypto: lib/sha1 - rename "sha" to "sha1"") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit e6209318d63e ("powerpc/32s: Blacklist functions running with MMU disabled for kprobe") has no obvious style problems and is ready for submission.

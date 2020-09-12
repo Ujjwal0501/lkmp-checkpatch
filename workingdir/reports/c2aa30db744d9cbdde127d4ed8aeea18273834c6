@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 87 lines checked
+
+Commit c2aa30db744d ("Bluetooth: debugfs option to unset MITM flag") has no obvious style problems and is ready for submission.

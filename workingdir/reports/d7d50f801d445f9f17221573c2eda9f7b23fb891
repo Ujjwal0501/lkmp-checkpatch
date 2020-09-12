@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 365 lines checked
+
+Commit d7d50f801d44 ("drm/i915/perf: Schedule oa_config after modifying the contexts") has no obvious style problems and is ready for submission.

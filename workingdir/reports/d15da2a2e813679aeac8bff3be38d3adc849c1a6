@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 47 lines checked
+
+Commit d15da2a2e813 ("nl80211: link recursive netlink nested policy") has no obvious style problems and is ready for submission.

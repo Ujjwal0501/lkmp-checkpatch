@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 98749b7188af ("yam: fix possible memory leak in yam_init_driver") has no obvious style problems and is ready for submission.

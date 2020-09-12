@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit fad003b6c8e3 ("Bluetooth: Fix inconsistent lock state with RFCOMM")'
+#7: 
+   fad003b6c8e3d ("Bluetooth: Fix inconsistent lock state with RFCOMM")
+
+total: 1 errors, 0 warnings, 0 checks, 25 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e6da0edc24ee ("Bluetooth: Acquire sk_lock.slock without disabling interrupts") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

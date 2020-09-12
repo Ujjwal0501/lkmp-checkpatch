@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 104 lines checked
+
+Commit 628d06a48f57 ("scs: Add page accounting for shadow call stack allocations") has no obvious style problems and is ready for submission.

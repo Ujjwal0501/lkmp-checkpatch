@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit cccc46474227 ("clk: imx8m: drop clk_hw_set_parent for A53") has no obvious style problems and is ready for submission.

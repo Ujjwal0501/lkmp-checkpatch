@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit befc113c56a7 ("net: ag71xx: add missed clk_disable_unprepare in error path of probe") has no obvious style problems and is ready for submission.

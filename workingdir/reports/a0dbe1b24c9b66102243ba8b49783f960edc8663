@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 36 lines checked
+
+Commit a0dbe1b24c9b ("staging: most: usb: don't use expressions that might fail in a declaration") has no obvious style problems and is ready for submission.

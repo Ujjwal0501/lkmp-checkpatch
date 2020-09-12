@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit a275727b1899 ("Revert "tipc: Fix potential tipc_aead refcnt leak in tipc_crypto_rcv"") has no obvious style problems and is ready for submission.

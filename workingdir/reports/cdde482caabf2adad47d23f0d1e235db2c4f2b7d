@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit cdde482caabf ("drm/amd/display: Refactor color management to take dm plane state") has no obvious style problems and is ready for submission.

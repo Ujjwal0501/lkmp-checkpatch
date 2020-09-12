@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 8d4edcfe78c0 ("virtio-mem: Use -ETXTBSY as error code if the device is busy") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit cf961fce30f8 ("spi: pxa2xx: Add support for Intel Tiger Lake PCH-H") has no obvious style problems and is ready for submission.

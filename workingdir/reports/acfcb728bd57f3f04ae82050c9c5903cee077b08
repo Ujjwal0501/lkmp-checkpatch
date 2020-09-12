@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit acfcb728bd57 ("scsi: bnx2fc: Remove unneeded semicolon in bnx2fc_fcoe.c") has no obvious style problems and is ready for submission.

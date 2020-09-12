@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 195 lines checked
+
+Commit 3971a7734862 ("arm64: dts: renesas: r8a77961: Add SCIF and HSCIF nodes") has no obvious style problems and is ready for submission.

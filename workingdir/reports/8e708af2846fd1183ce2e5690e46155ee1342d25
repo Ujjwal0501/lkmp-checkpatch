@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 172 lines checked
+
+Commit 8e708af2846f ("habanalabs: support hwmon_reset_history attribute") has no obvious style problems and is ready for submission.

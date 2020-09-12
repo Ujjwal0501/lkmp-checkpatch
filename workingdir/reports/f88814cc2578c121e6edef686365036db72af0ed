@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#9: 
+  bf67fad19e493b ("efi: Use more granular check for availability for variable services")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit bf67fad19e49 ("efi: Use more granular check for availability for variable services")'
+#9: 
+  bf67fad19e493b ("efi: Use more granular check for availability for variable services")
+
+total: 1 errors, 1 warnings, 90 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f88814cc2578 ("efi/efivars: Expose RT service availability via efivars abstraction") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

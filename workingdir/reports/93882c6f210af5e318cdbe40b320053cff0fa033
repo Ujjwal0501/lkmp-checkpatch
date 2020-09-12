@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 160 lines checked
+
+Commit 93882c6f210a ("r8169: switch from netif_xxx message functions to netdev_xxx") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#15: 
+Tested-by: Stefan Wahren <stefan.wahren@i2se.com>
+
+total: 0 errors, 1 warnings, 104 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fbbc5ff3f7f9 ("firmware: raspberrypi: Introduce vl805 init routine") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit 52e61fde5ec9 ("scsi: zfcp: Move fc_host updates during xport data handling into fenced function") has no obvious style problems and is ready for submission.

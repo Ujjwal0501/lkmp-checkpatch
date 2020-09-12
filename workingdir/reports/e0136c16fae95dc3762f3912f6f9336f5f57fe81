@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit e0136c16fae9 ("vhost: replace -1 with VHOST_FILE_UNBIND in ioctls") has no obvious style problems and is ready for submission.

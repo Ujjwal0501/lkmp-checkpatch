@@ -1,0 +1,41 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#18: 
+  drwxr-xr-x. 2 root root    0 Apr 17 10:53 .
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#19: 
+  drwxr-xr-x. 6 root root    0 Apr 17 07:02 ..
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#20: 
+  -r--r--r--. 1 root root 4096 Apr 17 10:53 max_precise
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#37: 
+  drwxr-xr-x. 2 root root    0 Apr 17 10:51 .
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#38: 
+  drwxr-xr-x. 6 root root    0 Apr 17 10:04 ..
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#39: 
+  -r--r--r--. 1 root root 4096 Apr 17 11:37 branches
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#40: 
+  -r--r--r--. 1 root root 4096 Apr 17 10:51 max_precise
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#41: 
+  -r--r--r--. 1 root root 4096 Apr 17 11:37 pmu_name
+
+total: 0 errors, 8 warnings, 182 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6f91ea283a1e ("perf header: Support CPU PMU capabilities") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

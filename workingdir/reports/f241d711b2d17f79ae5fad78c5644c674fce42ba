@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit f241d711b2d1 ("KVM: nSVM: extract preparation of VMCB for nested run") has no obvious style problems and is ready for submission.

@@ -1,0 +1,73 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#6: 
+When using trace-cmd on 5.6-rt for the function graph tracer, the output was
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#86: FILE: kernel/trace/trace_entries.h:81:
++		__field_packed(	unsigned long,	graph_ent,	func		)
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#86: FILE: kernel/trace/trace_entries.h:81:
++		__field_packed(	unsigned long,	graph_ent,	func		)
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#87: FILE: kernel/trace/trace_entries.h:82:
++		__field_packed(	int,		graph_ent,	depth		)
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#87: FILE: kernel/trace/trace_entries.h:82:
++		__field_packed(	int,		graph_ent,	depth		)
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#100: FILE: kernel/trace/trace_entries.h:95:
++		__field_packed(	unsigned long,	ret,		func	)
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#100: FILE: kernel/trace/trace_entries.h:95:
++		__field_packed(	unsigned long,	ret,		func	)
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#101: FILE: kernel/trace/trace_entries.h:96:
++		__field_packed(	unsigned long,	ret,		overrun	)
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#101: FILE: kernel/trace/trace_entries.h:96:
++		__field_packed(	unsigned long,	ret,		overrun	)
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#102: FILE: kernel/trace/trace_entries.h:97:
++		__field_packed(	unsigned long long, ret,	calltime)
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#103: FILE: kernel/trace/trace_entries.h:98:
++		__field_packed(	unsigned long long, ret,	rettime	)
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#103: FILE: kernel/trace/trace_entries.h:98:
++		__field_packed(	unsigned long long, ret,	rettime	)
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#104: FILE: kernel/trace/trace_entries.h:99:
++		__field_packed(	int,		ret,		depth	)
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#104: FILE: kernel/trace/trace_entries.h:99:
++		__field_packed(	int,		ret,		depth	)
+
+ERROR:MULTISTATEMENT_MACRO_USE_DO_WHILE: Macros with multiple statements should be enclosed in a do - while loop
+#117: FILE: kernel/trace/trace_export.c:49:
++#define __field_packed(type, container, item)		type item;
+
+WARNING:TRAILING_SEMICOLON: macros should not use a trailing semicolon
+#117: FILE: kernel/trace/trace_export.c:49:
++#define __field_packed(type, container, item)		type item;
+
+total: 14 errors, 2 warnings, 75 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4649079b9de1 ("tracing: Make ftrace packed events have align of 1") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit c42ad5d43582 ("perf flamegraph: Explicitly set utf-8 encoding") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit 0b6d4ca04a86 ("f2fs: don't return vmalloc() memory from f2fs_kmalloc()") has no obvious style problems and is ready for submission.

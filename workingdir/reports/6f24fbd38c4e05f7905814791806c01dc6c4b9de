@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'defintions' may be misspelled - perhaps 'definitions'?
+#4: 
+Subject: [PATCH] mm: make early_pfn_to_nid() and related defintions close to
+
+total: 0 errors, 1 warnings, 89 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6f24fbd38c4e ("mm: make early_pfn_to_nid() and related defintions close to each other") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 184 lines checked
+
+Commit e78355b577c4 ("usb: gadget: udc: atmel: Don't use DT to configure end point") has no obvious style problems and is ready for submission.

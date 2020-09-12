@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 303 lines checked
+
+Commit c9d40913ac5a ("KVM: x86: enable event window in inject_pending_event") has no obvious style problems and is ready for submission.

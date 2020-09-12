@@ -1,0 +1,17 @@
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#156: FILE: arch/x86/xen/enlighten_pv.c:638:
++	TRAP_ENTRY_REDIR(exc_debug,			true  ),
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#162: FILE: arch/x86/xen/enlighten_pv.c:643:
++	TRAP_ENTRY_REDIR(exc_nmi,			true  ),
+
+total: 2 errors, 0 warnings, 129 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f41f0824224e ("x86/entry/xen: Route #DB correctly on Xen PV") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

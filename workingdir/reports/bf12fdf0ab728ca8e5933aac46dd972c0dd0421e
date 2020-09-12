@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit e3a3c3a20555 ("UIO: fix uio_pdrv_genirq with device tree but no interrupt")'
+#6: 
+While e3a3c3a20555 ("UIO: fix uio_pdrv_genirq with device tree but no
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 26dac3c49d56 ("uio: Remove uio_pdrv and use uio_pdrv_genirq instead")'
+#9: 
+26dac3c49d56 ("uio: Remove uio_pdrv and use uio_pdrv_genirq instead")
+
+total: 2 errors, 0 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bf12fdf0ab72 ("uio_pdrv_genirq: fix use without device tree and no interrupt") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

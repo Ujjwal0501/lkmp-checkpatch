@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'flusing' may be misspelled - perhaps 'flushing'?
+#6: 
+Let's guarantee flusing dirty meta pages to avoid infinite loop.
+
+total: 0 errors, 1 warnings, 9 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9c30df7c5a30 ("f2fs: flush dirty meta pages when flushing them") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

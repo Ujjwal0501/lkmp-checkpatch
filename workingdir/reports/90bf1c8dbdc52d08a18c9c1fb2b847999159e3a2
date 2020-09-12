@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 81 lines checked
+
+Commit 90bf1c8dbdc5 ("net/mlx5: Move internal timer read function to clock library") has no obvious style problems and is ready for submission.

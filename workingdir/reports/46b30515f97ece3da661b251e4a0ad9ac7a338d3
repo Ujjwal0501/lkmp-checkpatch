@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 78 lines checked
+
+Commit 46b30515f97e ("clocksource/drivers/timer-ti-32k: Add support for initializing directly") has no obvious style problems and is ready for submission.

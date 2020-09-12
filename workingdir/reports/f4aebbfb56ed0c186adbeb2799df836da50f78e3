@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit f4aebbfb56ed ("net/mlx5e: Fix CPU mapping after function reload to avoid aRFS RX crash") has no obvious style problems and is ready for submission.

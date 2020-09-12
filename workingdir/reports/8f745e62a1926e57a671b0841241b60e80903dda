@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 8f745e62a192 ("ocfs2: add missing annotation for dlm_empty_lockres()") has no obvious style problems and is ready for submission.

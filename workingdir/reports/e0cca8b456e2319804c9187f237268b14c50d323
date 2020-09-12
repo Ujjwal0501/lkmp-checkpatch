@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit e0cca8b456e2 ("RDMA/srpt: Increase max_send_sge") has no obvious style problems and is ready for submission.

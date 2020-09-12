@@ -1,0 +1,237 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#11: 
+via BPF_CSUM_LEVEL_{INC,DEC} which calls __skb_{incr,decr}_checksum_unnecessary()
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#40: FILE: include/uapi/linux/bpf.h:3225:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#41: FILE: include/uapi/linux/bpf.h:3226:
++ * ^I^IChange the skbs checksum level by one layer up or down, or$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#42: FILE: include/uapi/linux/bpf.h:3227:
++ * ^I^Ireset it entirely to none in order to have the stack perform$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#43: FILE: include/uapi/linux/bpf.h:3228:
++ * ^I^Ichecksum validation. The level is applicable to the following$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#44: FILE: include/uapi/linux/bpf.h:3229:
++ * ^I^Iprotocols: TCP, UDP, GRE, SCTP, FCOE. For example, a decap of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#45: FILE: include/uapi/linux/bpf.h:3230:
++ * ^I^I| ETH | IP | UDP | GUE | IP | TCP | into | ETH | IP | TCP |$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#46: FILE: include/uapi/linux/bpf.h:3231:
++ * ^I^Ithrough **bpf_skb_adjust_room**\ () helper with passing in$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#47: FILE: include/uapi/linux/bpf.h:3232:
++ * ^I^I**BPF_F_ADJ_ROOM_NO_CSUM_RESET** flag would require one^Icall$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#48: FILE: include/uapi/linux/bpf.h:3233:
++ * ^I^Ito **bpf_csum_level**\ () with **BPF_CSUM_LEVEL_DEC** since$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#49: FILE: include/uapi/linux/bpf.h:3234:
++ * ^I^Ithe UDP header is removed. Similarly, an encap of the latter$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#50: FILE: include/uapi/linux/bpf.h:3235:
++ * ^I^Iinto the former could be accompanied by a helper call to$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#51: FILE: include/uapi/linux/bpf.h:3236:
++ * ^I^I**bpf_csum_level**\ () with **BPF_CSUM_LEVEL_INC** if the$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#52: FILE: include/uapi/linux/bpf.h:3237:
++ * ^I^Iskb is still intended to be processed in higher layers of the$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#53: FILE: include/uapi/linux/bpf.h:3238:
++ * ^I^Istack instead of just egressing at tc.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#55: FILE: include/uapi/linux/bpf.h:3240:
++ * ^I^IThere are three supported level settings at this time:$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#57: FILE: include/uapi/linux/bpf.h:3242:
++ * ^I^I* **BPF_CSUM_LEVEL_INC**: Increases skb->csum_level for skbs$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#58: FILE: include/uapi/linux/bpf.h:3243:
++ * ^I^I  with CHECKSUM_UNNECESSARY.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#59: FILE: include/uapi/linux/bpf.h:3244:
++ * ^I^I* **BPF_CSUM_LEVEL_DEC**: Decreases skb->csum_level for skbs$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#60: FILE: include/uapi/linux/bpf.h:3245:
++ * ^I^I  with CHECKSUM_UNNECESSARY.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#61: FILE: include/uapi/linux/bpf.h:3246:
++ * ^I^I* **BPF_CSUM_LEVEL_RESET**: Resets skb->csum_level to 0 and$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#62: FILE: include/uapi/linux/bpf.h:3247:
++ * ^I^I  sets CHECKSUM_NONE to force checksum validation by the stack.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#63: FILE: include/uapi/linux/bpf.h:3248:
++ * ^I^I* **BPF_CSUM_LEVEL_QUERY**: No-op, returns the current$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#64: FILE: include/uapi/linux/bpf.h:3249:
++ * ^I^I  skb->csum_level.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#65: FILE: include/uapi/linux/bpf.h:3250:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#66: FILE: include/uapi/linux/bpf.h:3251:
++ * ^I^I0 on success, or a negative error in case of failure. In the$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#67: FILE: include/uapi/linux/bpf.h:3252:
++ * ^I^Icase of **BPF_CSUM_LEVEL_QUERY**, the current skb->csum_level$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#68: FILE: include/uapi/linux/bpf.h:3253:
++ * ^I^Iis returned or the error code -EACCES in case the skb is not$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#69: FILE: include/uapi/linux/bpf.h:3254:
++ * ^I^Isubject to CHECKSUM_UNNECESSARY.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#171: FILE: tools/include/uapi/linux/bpf.h:3225:
++ * ^IDescription$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#172: FILE: tools/include/uapi/linux/bpf.h:3226:
++ * ^I^IChange the skbs checksum level by one layer up or down, or$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#173: FILE: tools/include/uapi/linux/bpf.h:3227:
++ * ^I^Ireset it entirely to none in order to have the stack perform$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#174: FILE: tools/include/uapi/linux/bpf.h:3228:
++ * ^I^Ichecksum validation. The level is applicable to the following$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#175: FILE: tools/include/uapi/linux/bpf.h:3229:
++ * ^I^Iprotocols: TCP, UDP, GRE, SCTP, FCOE. For example, a decap of$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#176: FILE: tools/include/uapi/linux/bpf.h:3230:
++ * ^I^I| ETH | IP | UDP | GUE | IP | TCP | into | ETH | IP | TCP |$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#177: FILE: tools/include/uapi/linux/bpf.h:3231:
++ * ^I^Ithrough **bpf_skb_adjust_room**\ () helper with passing in$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#178: FILE: tools/include/uapi/linux/bpf.h:3232:
++ * ^I^I**BPF_F_ADJ_ROOM_NO_CSUM_RESET** flag would require one^Icall$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#179: FILE: tools/include/uapi/linux/bpf.h:3233:
++ * ^I^Ito **bpf_csum_level**\ () with **BPF_CSUM_LEVEL_DEC** since$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#180: FILE: tools/include/uapi/linux/bpf.h:3234:
++ * ^I^Ithe UDP header is removed. Similarly, an encap of the latter$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#181: FILE: tools/include/uapi/linux/bpf.h:3235:
++ * ^I^Iinto the former could be accompanied by a helper call to$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#182: FILE: tools/include/uapi/linux/bpf.h:3236:
++ * ^I^I**bpf_csum_level**\ () with **BPF_CSUM_LEVEL_INC** if the$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#183: FILE: tools/include/uapi/linux/bpf.h:3237:
++ * ^I^Iskb is still intended to be processed in higher layers of the$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#184: FILE: tools/include/uapi/linux/bpf.h:3238:
++ * ^I^Istack instead of just egressing at tc.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#186: FILE: tools/include/uapi/linux/bpf.h:3240:
++ * ^I^IThere are three supported level settings at this time:$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#188: FILE: tools/include/uapi/linux/bpf.h:3242:
++ * ^I^I* **BPF_CSUM_LEVEL_INC**: Increases skb->csum_level for skbs$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#189: FILE: tools/include/uapi/linux/bpf.h:3243:
++ * ^I^I  with CHECKSUM_UNNECESSARY.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#190: FILE: tools/include/uapi/linux/bpf.h:3244:
++ * ^I^I* **BPF_CSUM_LEVEL_DEC**: Decreases skb->csum_level for skbs$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#191: FILE: tools/include/uapi/linux/bpf.h:3245:
++ * ^I^I  with CHECKSUM_UNNECESSARY.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#192: FILE: tools/include/uapi/linux/bpf.h:3246:
++ * ^I^I* **BPF_CSUM_LEVEL_RESET**: Resets skb->csum_level to 0 and$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#193: FILE: tools/include/uapi/linux/bpf.h:3247:
++ * ^I^I  sets CHECKSUM_NONE to force checksum validation by the stack.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#194: FILE: tools/include/uapi/linux/bpf.h:3248:
++ * ^I^I* **BPF_CSUM_LEVEL_QUERY**: No-op, returns the current$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#195: FILE: tools/include/uapi/linux/bpf.h:3249:
++ * ^I^I  skb->csum_level.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#196: FILE: tools/include/uapi/linux/bpf.h:3250:
++ * ^IReturn$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#197: FILE: tools/include/uapi/linux/bpf.h:3251:
++ * ^I^I0 on success, or a negative error in case of failure. In the$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#198: FILE: tools/include/uapi/linux/bpf.h:3252:
++ * ^I^Icase of **BPF_CSUM_LEVEL_QUERY**, the current skb->csum_level$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#199: FILE: tools/include/uapi/linux/bpf.h:3253:
++ * ^I^Iis returned or the error code -EACCES in case the skb is not$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#200: FILE: tools/include/uapi/linux/bpf.h:3254:
++ * ^I^Isubject to CHECKSUM_UNNECESSARY.$
+
+total: 0 errors, 57 warnings, 178 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7cdec54f9713 ("bpf: Add csum_level helper for fixing up csum levels") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

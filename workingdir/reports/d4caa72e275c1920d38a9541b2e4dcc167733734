@@ -1,0 +1,56 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#22: 
+ .../dc/dce/{dce_panel.c => dce_panel_cntl.c}  | 64 +++++++-------
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#286: FILE: drivers/gpu/drm/amd/display/dc/dce/dce_panel_cntl.h:35:
++#define DCE_PANEL_CNTL_REG_LIST()\
++	DCE_PANEL_CNTL_SR(PWRSEQ_CNTL, LVTMA), \
++	DCE_PANEL_CNTL_SR(PWRSEQ_STATE, LVTMA), \
+ 	SR(BL_PWM_CNTL), \
+ 	SR(BL_PWM_CNTL2), \
+ 	SR(BL_PWM_PERIOD_CNTL), \
+ 	SR(BL_PWM_GRP1_REG_LOCK)
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#302: FILE: drivers/gpu/drm/amd/display/dc/dce/dce_panel_cntl.h:47:
++#define DCN_PANEL_CNTL_REG_LIST()\
++	DCN_PANEL_CNTL_SR(PWRSEQ_CNTL, LVTMA), \
++	DCN_PANEL_CNTL_SR(PWRSEQ_STATE, LVTMA), \
+ 	SR(BL_PWM_CNTL), \
+ 	SR(BL_PWM_CNTL2), \
+ 	SR(BL_PWM_PERIOD_CNTL), \
+ 	SR(BL_PWM_GRP1_REG_LOCK)
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#327: FILE: drivers/gpu/drm/amd/display/dc/dce/dce_panel_cntl.h:58:
++#define DCE_PANEL_CNTL_MASK_SH_LIST(mask_sh) \
++	DCE_PANEL_CNTL_SF(LVTMA_, PWRSEQ_CNTL, BLON, mask_sh),\
++	DCE_PANEL_CNTL_SF(LVTMA_, PWRSEQ_CNTL, DIGON, mask_sh),\
++	DCE_PANEL_CNTL_SF(LVTMA_, PWRSEQ_CNTL, DIGON_OVRD, mask_sh),\
++	DCE_PANEL_CNTL_SF(LVTMA_, PWRSEQ_STATE, PWRSEQ_TARGET_STATE_R, mask_sh), \
++	DCE_PANEL_CNTL_SF(, BL_PWM_PERIOD_CNTL, BL_PWM_PERIOD, mask_sh), \
++	DCE_PANEL_CNTL_SF(, BL_PWM_PERIOD_CNTL, BL_PWM_PERIOD_BITCNT, mask_sh), \
++	DCE_PANEL_CNTL_SF(, BL_PWM_CNTL, BL_ACTIVE_INT_FRAC_CNT, mask_sh), \
++	DCE_PANEL_CNTL_SF(, BL_PWM_CNTL, BL_PWM_FRACTIONAL_EN, mask_sh), \
++	DCE_PANEL_CNTL_SF(, BL_PWM_CNTL, BL_PWM_EN, mask_sh), \
++	DCE_PANEL_CNTL_SF(, BL_PWM_GRP1_REG_LOCK, BL_PWM_GRP1_IGNORE_MASTER_LOCK_EN, mask_sh), \
++	DCE_PANEL_CNTL_SF(, BL_PWM_GRP1_REG_LOCK, BL_PWM_GRP1_REG_LOCK, mask_sh), \
++	DCE_PANEL_CNTL_SF(, BL_PWM_GRP1_REG_LOCK, BL_PWM_GRP1_REG_UPDATE_PENDING, mask_sh)
+
+ERROR:MULTISTATEMENT_MACRO_USE_DO_WHILE: Macros with multiple statements should be enclosed in a do - while loop
+#342: FILE: drivers/gpu/drm/amd/display/dc/dce/dce_panel_cntl.h:72:
++#define DCE_PANEL_CNTL_REG_FIELD_LIST(type) \
+ 	type BLON;\
+ 	type DIGON;\
+ 	type DIGON_OVRD;\
+
+total: 4 errors, 1 warnings, 956 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d4caa72e275c ("drm/amd/display: change from panel to panel cntl") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

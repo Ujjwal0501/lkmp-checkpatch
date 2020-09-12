@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 3d3fb3c5be9c ("mtd: rawnand: brcmnand: fix CS0 layout") has no obvious style problems and is ready for submission.

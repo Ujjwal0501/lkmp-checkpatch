@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit a3608f5954d0 ("objtool: Rename struct cfi_state") has no obvious style problems and is ready for submission.

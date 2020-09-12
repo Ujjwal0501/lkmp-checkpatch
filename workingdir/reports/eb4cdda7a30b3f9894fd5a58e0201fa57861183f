@@ -1,0 +1,29 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#21: 
+new file mode 100644
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#402: FILE: arch/arm/boot/dts/r8a7742.dtsi:377:
++		interrupts-extended = <&gic GIC_PPI 13 (GIC_CPU_MASK_SIMPLE(8) | IRQ_TYPE_LEVEL_LOW)>,
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#403: FILE: arch/arm/boot/dts/r8a7742.dtsi:378:
++				      <&gic GIC_PPI 14 (GIC_CPU_MASK_SIMPLE(8) | IRQ_TYPE_LEVEL_LOW)>,
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#404: FILE: arch/arm/boot/dts/r8a7742.dtsi:379:
++				      <&gic GIC_PPI 11 (GIC_CPU_MASK_SIMPLE(8) | IRQ_TYPE_LEVEL_LOW)>,
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#405: FILE: arch/arm/boot/dts/r8a7742.dtsi:380:
++				      <&gic GIC_PPI 10 (GIC_CPU_MASK_SIMPLE(8) | IRQ_TYPE_LEVEL_LOW)>;
+
+total: 0 errors, 5 warnings, 389 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit eb4cdda7a30b ("ARM: dts: r8a7742: Initial SoC device tree") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

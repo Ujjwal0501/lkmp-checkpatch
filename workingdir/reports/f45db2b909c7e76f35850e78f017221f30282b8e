@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 53 lines checked
+
+Commit f45db2b909c7 ("sunrpc: check that domain table is empty at module unload.") has no obvious style problems and is ready for submission.

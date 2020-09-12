@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit 5bedd3afee8e ("nvme: add a Identify Namespace Identification Descriptor list quirk") has no obvious style problems and is ready for submission.

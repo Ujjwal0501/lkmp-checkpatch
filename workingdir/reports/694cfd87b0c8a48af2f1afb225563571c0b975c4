@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 694cfd87b0c8 ("x86/setup: Add an initrdmem= option to specify initrd physical address") has no obvious style problems and is ready for submission.

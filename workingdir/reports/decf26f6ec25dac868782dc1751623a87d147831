@@ -1,0 +1,46 @@
+WARNING:SUSPECT_CODE_INDENT: suspect code indent for conditional statements (4, 12)
+#128: FILE: drivers/parport/parport_cs.c:144:
+     if (p == NULL) {
++	    pr_notice("parport_cs: parport_pc_probe_port() at 0x%3x, irq %u failed\n",
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#448: FILE: drivers/parport/parport_pc.c:2100:
++		pr_cont(" (0x%lx)", p->base_hi);
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#457: FILE: drivers/parport/parport_pc.c:2111:
++		pr_cont(", irq %d", p->irq);
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#466: FILE: drivers/parport/parport_pc.c:2135:
++			pr_cont(", dma %d", p->dma);
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#470: FILE: drivers/parport/parport_pc.c:2138:
++			pr_cont(", using FIFO");
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#477: FILE: drivers/parport/parport_pc.c:2144:
++	pr_cont(" [");
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#483: FILE: drivers/parport/parport_pc.c:2149:
++			pr_cont("%s%s", f ? "," : "", #x);	\
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#492: FILE: drivers/parport/parport_pc.c:2165:
++	pr_cont("(,...)");
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#495: FILE: drivers/parport/parport_pc.c:2167:
++	pr_cont("]\n");
+
+total: 0 errors, 9 warnings, 656 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit decf26f6ec25 ("parport: Convert printk(KERN_<LEVEL> to pr_<level>(") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

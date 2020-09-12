@@ -1,0 +1,19 @@
+WARNING:MACRO_WITH_FLOW_CONTROL: Macros with flow control statements should be avoided
+#59: FILE: fs/pstore/ram.c:698:
++#define parse_u32(name, field, default_value) {				\
++		ret = ramoops_parse_dt_u32(pdev, name, default_value,	\
++					    &value);			\
+ 		if (ret < 0)						\
+ 			return ret;					\
+ 		field = value;						\
+ 	}
+
+total: 0 errors, 1 warnings, 59 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 26961d76ff35 ("pstore/ram: Refactor DT size parsing") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

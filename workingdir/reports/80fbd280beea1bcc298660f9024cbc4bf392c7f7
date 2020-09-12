@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 80fbd280beea ("KVM: x86: Unexport x86_fpu_cache and make it static") has no obvious style problems and is ready for submission.

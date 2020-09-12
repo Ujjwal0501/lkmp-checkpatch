@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f3f90c6db188 ("drm/lima: fix wait pp reset timeout") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit f80fe8944e08 ("ntb: hw: remove the code that sets the DMA mask") has no obvious style problems and is ready for submission.

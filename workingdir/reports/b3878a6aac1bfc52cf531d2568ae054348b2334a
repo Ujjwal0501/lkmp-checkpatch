@@ -1,0 +1,787 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#845: 
+new file mode 100644
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#857: FILE: arch/mips/include/asm/unaligned-emul.h:8:
++#define  _LoadHW(addr, value, res, type)  \
++do {                                                \
++	__asm__ __volatile__ (".set\tnoat\n"        \
++		"1:\t"type##_lb("%0", "0(%2)")"\n"  \
++		"2:\t"type##_lbu("$1", "1(%2)")"\n\t"\
++		"sll\t%0, 0x8\n\t"                  \
++		"or\t%0, $1\n\t"                    \
++		"li\t%1, 0\n"                       \
++		"3:\t.set\tat\n\t"                  \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#880: FILE: arch/mips/include/asm/unaligned-emul.h:31:
++#define  _LoadW(addr, value, res, type)   \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\t"type##_lwl("%0", "(%2)")"\n"   \
++		"2:\t"type##_lwr("%0", "3(%2)")"\n\t"\
++		"li\t%1, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#902: FILE: arch/mips/include/asm/unaligned-emul.h:53:
++#define  _LoadW(addr, value, res, type) \
++do {                                                \
++	__asm__ __volatile__ (			    \
++		".set\tpush\n"			    \
++		".set\tnoat\n\t"		    \
++		"1:"type##_lb("%0", "0(%2)")"\n\t"  \
++		"2:"type##_lbu("$1", "1(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"3:"type##_lbu("$1", "2(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"4:"type##_lbu("$1", "3(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"li\t%1, 0\n"			    \
++		".set\tpop\n"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%1, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (value), "=r" (res)	    \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#937: FILE: arch/mips/include/asm/unaligned-emul.h:88:
++#define  _LoadHWU(addr, value, res, type) \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		".set\tnoat\n"                      \
++		"1:\t"type##_lbu("%0", "0(%2)")"\n" \
++		"2:\t"type##_lbu("$1", "1(%2)")"\n\t"\
++		"sll\t%0, 0x8\n\t"                  \
++		"or\t%0, $1\n\t"                    \
++		"li\t%1, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".set\tat\n\t"                      \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#962: FILE: arch/mips/include/asm/unaligned-emul.h:113:
++#define  _LoadWU(addr, value, res, type)  \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\t"type##_lwl("%0", "(%2)")"\n"  \
++		"2:\t"type##_lwr("%0", "3(%2)")"\n\t"\
++		"dsll\t%0, %0, 32\n\t"              \
++		"dsrl\t%0, %0, 32\n\t"              \
++		"li\t%1, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		"\t.section\t.fixup,\"ax\"\n\t"     \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#984: FILE: arch/mips/include/asm/unaligned-emul.h:135:
++#define  _LoadDW(addr, value, res)  \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\tldl\t%0, (%2)\n"               \
++		"2:\tldr\t%0, 7(%2)\n\t"            \
++		"li\t%1, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		"\t.section\t.fixup,\"ax\"\n\t"     \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1006: FILE: arch/mips/include/asm/unaligned-emul.h:157:
++#define  _LoadWU(addr, value, res, type) \
++do {                                                \
++	__asm__ __volatile__ (			    \
++		".set\tpush\n\t"		    \
++		".set\tnoat\n\t"		    \
++		"1:"type##_lbu("%0", "0(%2)")"\n\t" \
++		"2:"type##_lbu("$1", "1(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"3:"type##_lbu("$1", "2(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"4:"type##_lbu("$1", "3(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"li\t%1, 0\n"			    \
++		".set\tpop\n"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%1, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (value), "=r" (res)	    \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1039: FILE: arch/mips/include/asm/unaligned-emul.h:190:
++#define  _LoadDW(addr, value, res)  \
++do {                                                \
++	__asm__ __volatile__ (			    \
++		".set\tpush\n\t"		    \
++		".set\tnoat\n\t"		    \
++		"1:lb\t%0, 0(%2)\n\t"		    \
++		"2:lbu\t $1, 1(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"3:lbu\t$1, 2(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"4:lbu\t$1, 3(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"5:lbu\t$1, 4(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"6:lbu\t$1, 5(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"7:lbu\t$1, 6(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"8:lbu\t$1, 7(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"li\t%1, 0\n"			    \
++		".set\tpop\n\t"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%1, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		STR(PTR)"\t5b, 11b\n\t"		    \
++		STR(PTR)"\t6b, 11b\n\t"		    \
++		STR(PTR)"\t7b, 11b\n\t"		    \
++		STR(PTR)"\t8b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (value), "=r" (res)	    \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1091: FILE: arch/mips/include/asm/unaligned-emul.h:242:
++#define  _StoreHW(addr, value, res, type) \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		".set\tnoat\n"                      \
++		"1:\t"type##_sb("%1", "1(%2)")"\n"  \
++		"srl\t$1, %1, 0x8\n"                \
++		"2:\t"type##_sb("$1", "0(%2)")"\n"  \
++		".set\tat\n\t"                      \
++		"li\t%0, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%0, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"              \
++		STR(PTR)"\t2b, 4b\n\t"              \
++		".previous"                         \
++		: "=r" (res)                        \
++		: "r" (value), "r" (addr), "i" (-EFAULT));\
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1115: FILE: arch/mips/include/asm/unaligned-emul.h:266:
++#define  _StoreW(addr, value, res, type)  \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\t"type##_swl("%1", "(%2)")"\n"  \
++		"2:\t"type##_swr("%1", "3(%2)")"\n\t"\
++		"li\t%0, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%0, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=r" (res)                                \
++		: "r" (value), "r" (addr), "i" (-EFAULT));  \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1135: FILE: arch/mips/include/asm/unaligned-emul.h:286:
++#define  _StoreDW(addr, value, res) \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\tsdl\t%1,(%2)\n"                \
++		"2:\tsdr\t%1, 7(%2)\n\t"            \
++		"li\t%0, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%0, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=r" (res)                                \
++		: "r" (value), "r" (addr), "i" (-EFAULT));  \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1156: FILE: arch/mips/include/asm/unaligned-emul.h:307:
++#define  _StoreW(addr, value, res, type)  \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		".set\tpush\n\t"		    \
++		".set\tnoat\n\t"		    \
++		"1:"type##_sb("%1", "3(%2)")"\n\t"  \
++		"srl\t$1, %1, 0x8\n\t"		    \
++		"2:"type##_sb("$1", "2(%2)")"\n\t"  \
++		"srl\t$1, $1,  0x8\n\t"		    \
++		"3:"type##_sb("$1", "1(%2)")"\n\t"  \
++		"srl\t$1, $1, 0x8\n\t"		    \
++		"4:"type##_sb("$1", "0(%2)")"\n\t"  \
++		".set\tpop\n\t"			    \
++		"li\t%0, 0\n"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%0, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (res)				    \
++		: "r" (value), "r" (addr), "i" (-EFAULT)    \
++		: "memory");                                \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1187: FILE: arch/mips/include/asm/unaligned-emul.h:338:
++#define  _StoreDW(addr, value, res) \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		".set\tpush\n\t"		    \
++		".set\tnoat\n\t"		    \
++		"1:sb\t%1, 7(%2)\n\t"		    \
++		"dsrl\t$1, %1, 0x8\n\t"		    \
++		"2:sb\t$1, 6(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"3:sb\t$1, 5(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"4:sb\t$1, 4(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"5:sb\t$1, 3(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"6:sb\t$1, 2(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"7:sb\t$1, 1(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"8:sb\t$1, 0(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		".set\tpop\n\t"			    \
++		"li\t%0, 0\n"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%0, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		STR(PTR)"\t5b, 11b\n\t"		    \
++		STR(PTR)"\t6b, 11b\n\t"		    \
++		STR(PTR)"\t7b, 11b\n\t"		    \
++		STR(PTR)"\t8b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (res)				    \
++		: "r" (value), "r" (addr), "i" (-EFAULT)    \
++		: "memory");                                \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1235: FILE: arch/mips/include/asm/unaligned-emul.h:386:
++#define  _LoadHW(addr, value, res, type)  \
++do {                                                \
++	__asm__ __volatile__ (".set\tnoat\n"        \
++		"1:\t"type##_lb("%0", "1(%2)")"\n"  \
++		"2:\t"type##_lbu("$1", "0(%2)")"\n\t"\
++		"sll\t%0, 0x8\n\t"                  \
++		"or\t%0, $1\n\t"                    \
++		"li\t%1, 0\n"                       \
++		"3:\t.set\tat\n\t"                  \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1258: FILE: arch/mips/include/asm/unaligned-emul.h:409:
++#define  _LoadW(addr, value, res, type)   \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\t"type##_lwl("%0", "3(%2)")"\n" \
++		"2:\t"type##_lwr("%0", "(%2)")"\n\t"\
++		"li\t%1, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1280: FILE: arch/mips/include/asm/unaligned-emul.h:431:
++#define  _LoadW(addr, value, res, type) \
++do {                                                \
++	__asm__ __volatile__ (			    \
++		".set\tpush\n"			    \
++		".set\tnoat\n\t"		    \
++		"1:"type##_lb("%0", "3(%2)")"\n\t"  \
++		"2:"type##_lbu("$1", "2(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"3:"type##_lbu("$1", "1(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"4:"type##_lbu("$1", "0(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"li\t%1, 0\n"			    \
++		".set\tpop\n"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%1, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (value), "=r" (res)	    \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1316: FILE: arch/mips/include/asm/unaligned-emul.h:467:
++#define  _LoadHWU(addr, value, res, type) \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		".set\tnoat\n"                      \
++		"1:\t"type##_lbu("%0", "1(%2)")"\n" \
++		"2:\t"type##_lbu("$1", "0(%2)")"\n\t"\
++		"sll\t%0, 0x8\n\t"                  \
++		"or\t%0, $1\n\t"                    \
++		"li\t%1, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".set\tat\n\t"                      \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1341: FILE: arch/mips/include/asm/unaligned-emul.h:492:
++#define  _LoadWU(addr, value, res, type)  \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\t"type##_lwl("%0", "3(%2)")"\n" \
++		"2:\t"type##_lwr("%0", "(%2)")"\n\t"\
++		"dsll\t%0, %0, 32\n\t"              \
++		"dsrl\t%0, %0, 32\n\t"              \
++		"li\t%1, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		"\t.section\t.fixup,\"ax\"\n\t"     \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1363: FILE: arch/mips/include/asm/unaligned-emul.h:514:
++#define  _LoadDW(addr, value, res)  \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\tldl\t%0, 7(%2)\n"              \
++		"2:\tldr\t%0, (%2)\n\t"             \
++		"li\t%1, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		"\t.section\t.fixup,\"ax\"\n\t"     \
++		"4:\tli\t%1, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=&r" (value), "=r" (res)         \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1385: FILE: arch/mips/include/asm/unaligned-emul.h:536:
++#define  _LoadWU(addr, value, res, type) \
++do {                                                \
++	__asm__ __volatile__ (			    \
++		".set\tpush\n\t"		    \
++		".set\tnoat\n\t"		    \
++		"1:"type##_lbu("%0", "3(%2)")"\n\t" \
++		"2:"type##_lbu("$1", "2(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"3:"type##_lbu("$1", "1(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"4:"type##_lbu("$1", "0(%2)")"\n\t" \
++		"sll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"li\t%1, 0\n"			    \
++		".set\tpop\n"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%1, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (value), "=r" (res)	    \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1418: FILE: arch/mips/include/asm/unaligned-emul.h:569:
++#define  _LoadDW(addr, value, res)  \
++do {                                                \
++	__asm__ __volatile__ (			    \
++		".set\tpush\n\t"		    \
++		".set\tnoat\n\t"		    \
++		"1:lb\t%0, 7(%2)\n\t"		    \
++		"2:lbu\t$1, 6(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"3:lbu\t$1, 5(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"4:lbu\t$1, 4(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"5:lbu\t$1, 3(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"6:lbu\t$1, 2(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"7:lbu\t$1, 1(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"8:lbu\t$1, 0(%2)\n\t"		    \
++		"dsll\t%0, 0x8\n\t"		    \
++		"or\t%0, $1\n\t"		    \
++		"li\t%1, 0\n"			    \
++		".set\tpop\n\t"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%1, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		STR(PTR)"\t5b, 11b\n\t"		    \
++		STR(PTR)"\t6b, 11b\n\t"		    \
++		STR(PTR)"\t7b, 11b\n\t"		    \
++		STR(PTR)"\t8b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (value), "=r" (res)	    \
++		: "r" (addr), "i" (-EFAULT));       \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1468: FILE: arch/mips/include/asm/unaligned-emul.h:619:
++#define  _StoreHW(addr, value, res, type) \
++do {                                                 \
++	__asm__ __volatile__ (                      \
++		".set\tnoat\n"                      \
++		"1:\t"type##_sb("%1", "0(%2)")"\n"  \
++		"srl\t$1,%1, 0x8\n"                 \
++		"2:\t"type##_sb("$1", "1(%2)")"\n"  \
++		".set\tat\n\t"                      \
++		"li\t%0, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%0, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=r" (res)                        \
++		: "r" (value), "r" (addr), "i" (-EFAULT));\
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1492: FILE: arch/mips/include/asm/unaligned-emul.h:643:
++#define  _StoreW(addr, value, res, type)  \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\t"type##_swl("%1", "3(%2)")"\n" \
++		"2:\t"type##_swr("%1", "(%2)")"\n\t"\
++		"li\t%0, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%0, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=r" (res)                                \
++		: "r" (value), "r" (addr), "i" (-EFAULT));  \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1512: FILE: arch/mips/include/asm/unaligned-emul.h:663:
++#define  _StoreDW(addr, value, res) \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		"1:\tsdl\t%1, 7(%2)\n"              \
++		"2:\tsdr\t%1, (%2)\n\t"             \
++		"li\t%0, 0\n"                       \
++		"3:\n\t"                            \
++		".insn\n\t"                         \
++		".section\t.fixup,\"ax\"\n\t"       \
++		"4:\tli\t%0, %3\n\t"                \
++		"j\t3b\n\t"                         \
++		".previous\n\t"                     \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 4b\n\t"               \
++		STR(PTR)"\t2b, 4b\n\t"               \
++		".previous"                         \
++		: "=r" (res)                                \
++		: "r" (value), "r" (addr), "i" (-EFAULT));  \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1534: FILE: arch/mips/include/asm/unaligned-emul.h:685:
++#define  _StoreW(addr, value, res, type)  \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		".set\tpush\n\t"		    \
++		".set\tnoat\n\t"		    \
++		"1:"type##_sb("%1", "0(%2)")"\n\t"  \
++		"srl\t$1, %1, 0x8\n\t"		    \
++		"2:"type##_sb("$1", "1(%2)")"\n\t"  \
++		"srl\t$1, $1,  0x8\n\t"		    \
++		"3:"type##_sb("$1", "2(%2)")"\n\t"  \
++		"srl\t$1, $1, 0x8\n\t"		    \
++		"4:"type##_sb("$1", "3(%2)")"\n\t"  \
++		".set\tpop\n\t"			    \
++		"li\t%0, 0\n"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%0, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (res)				    \
++		: "r" (value), "r" (addr), "i" (-EFAULT)    \
++		: "memory");                                \
++} while (0)
+
+WARNING:SINGLE_STATEMENT_DO_WHILE_MACRO: Single statement macros should not use a do {} while (0) loop
+#1565: FILE: arch/mips/include/asm/unaligned-emul.h:716:
++#define  _StoreDW(addr, value, res) \
++do {                                                \
++	__asm__ __volatile__ (                      \
++		".set\tpush\n\t"		    \
++		".set\tnoat\n\t"		    \
++		"1:sb\t%1, 0(%2)\n\t"		    \
++		"dsrl\t$1, %1, 0x8\n\t"		    \
++		"2:sb\t$1, 1(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"3:sb\t$1, 2(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"4:sb\t$1, 3(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"5:sb\t$1, 4(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"6:sb\t$1, 5(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"7:sb\t$1, 6(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		"8:sb\t$1, 7(%2)\n\t"		    \
++		"dsrl\t$1, $1, 0x8\n\t"		    \
++		".set\tpop\n\t"			    \
++		"li\t%0, 0\n"			    \
++		"10:\n\t"			    \
++		".insn\n\t"			    \
++		".section\t.fixup,\"ax\"\n\t"	    \
++		"11:\tli\t%0, %3\n\t"		    \
++		"j\t10b\n\t"			    \
++		".previous\n\t"			    \
++		".section\t__ex_table,\"a\"\n\t"    \
++		STR(PTR)"\t1b, 11b\n\t"		    \
++		STR(PTR)"\t2b, 11b\n\t"		    \
++		STR(PTR)"\t3b, 11b\n\t"		    \
++		STR(PTR)"\t4b, 11b\n\t"		    \
++		STR(PTR)"\t5b, 11b\n\t"		    \
++		STR(PTR)"\t6b, 11b\n\t"		    \
++		STR(PTR)"\t7b, 11b\n\t"		    \
++		STR(PTR)"\t8b, 11b\n\t"		    \
++		".previous"			    \
++		: "=&r" (res)				    \
++		: "r" (value), "r" (addr), "i" (-EFAULT)    \
++		: "memory");                                \
++} while (0)
+
+total: 0 errors, 27 warnings, 1582 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b3878a6aac1b ("MIPS: Fix build warning about "PTR_STR" redefinition") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 96 lines checked
+
+Commit edbf3b2a87db ("s390/qdio: do more fine-grained allocation roll-back") has no obvious style problems and is ready for submission.

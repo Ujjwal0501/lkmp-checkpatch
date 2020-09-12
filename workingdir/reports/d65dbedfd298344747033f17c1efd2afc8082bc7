@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 108 lines checked
+
+Commit d65dbedfd298 ("net/mlx5: Add support for COPY steering action") has no obvious style problems and is ready for submission.

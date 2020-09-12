@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 88 lines checked
+
+Commit e6e7abffe386 ("blk-mq: simplify the blk_mq_get_request calling convention") has no obvious style problems and is ready for submission.

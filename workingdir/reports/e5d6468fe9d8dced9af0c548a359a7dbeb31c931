@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 167 lines checked
+
+Commit e5d6468fe9d8 ("Bluetooth: hci_qca: Add support for Qualcomm Bluetooth SoC QCA6390") has no obvious style problems and is ready for submission.

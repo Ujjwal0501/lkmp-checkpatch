@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit c51323ee7ab4 ("net/mlx5e: en_tc: Fix incorrect type in initializer warnings") has no obvious style problems and is ready for submission.

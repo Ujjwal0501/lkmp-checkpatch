@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 137a1cecb89a ("ARM: dts: uniphier: add #address-cells and #size-cells to SPI nodes") has no obvious style problems and is ready for submission.

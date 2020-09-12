@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 40e2c465894e ("ASoC: SOF: Intel: hda: Clear RIRB status before reading WP") has no obvious style problems and is ready for submission.

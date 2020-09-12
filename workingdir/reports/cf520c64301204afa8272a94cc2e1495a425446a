@@ -1,0 +1,17 @@
+WARNING:DEVICE_ATTR_FUNCTIONS: Consider renaming function(s) 'show_calibration_count' to 'calibration_count_show'
+#70: FILE: drivers/input/touchscreen/elants_i2c.c:1085:
++static DEVICE_ATTR(calibration_count, S_IRUGO, show_calibration_count, NULL);
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO' are not preferred. Consider using octal permissions '0444'.
+#70: FILE: drivers/input/touchscreen/elants_i2c.c:1085:
++static DEVICE_ATTR(calibration_count, S_IRUGO, show_calibration_count, NULL);
+
+total: 0 errors, 2 warnings, 54 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cf520c643012 ("Input: elants_i2c - provide an attribute to show calibration count") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 75 lines checked
+
+Commit ef3e40a7ea8d ("KVM: arm64: Save the host's PtrAuth keys in non-preemptible context") has no obvious style problems and is ready for submission.

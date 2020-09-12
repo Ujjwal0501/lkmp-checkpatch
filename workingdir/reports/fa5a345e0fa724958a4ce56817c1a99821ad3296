@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit fa5a345e0fa7 ("staging: wfx: fix messages names in tracepoints") has no obvious style problems and is ready for submission.

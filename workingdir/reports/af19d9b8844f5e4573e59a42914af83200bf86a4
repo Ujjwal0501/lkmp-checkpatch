@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit af19d9b8844f ("ARM: dts: rtd1195: Exclude boot ROM from memory ranges") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 7a0c18fb5c71 ("mtd: rawnand: marvell: Use nand_cleanup() when the device is not yet registered") has no obvious style problems and is ready for submission.

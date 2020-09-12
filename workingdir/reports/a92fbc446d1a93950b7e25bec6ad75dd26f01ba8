@@ -1,0 +1,13 @@
+ERROR:SPACING: space required before the open parenthesis '('
+#174: FILE: drivers/md/dm-zoned-metadata.c:1461:
++	for(idx = 0; idx < zmd->nr_zones; idx++) {
+
+total: 1 errors, 0 warnings, 244 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a92fbc446d1a ("dm zoned: convert to xarray") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

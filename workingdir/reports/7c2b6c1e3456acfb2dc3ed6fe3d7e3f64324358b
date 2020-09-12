@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#14: 
+ .../css2400/{css_2400_system/hrt => }/bits.h  |   0
+
+WARNING:LONG_LINE_COMMENT: line length of 101 exceeds 100 columns
+#7280: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/hive_isp_css_common/host/system_local.h:28:
++/* HRT assumes 32 by default (see Linux/include/hive_types.h), overrule it in case it is different */
+
+total: 0 errors, 2 warnings, 0 checks, 64 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7c2b6c1e3456 ("media: atomisp: remove several duplicated files") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

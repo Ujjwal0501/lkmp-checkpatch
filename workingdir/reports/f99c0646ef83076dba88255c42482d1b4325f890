@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit f99c0646ef83 ("mtk-star-emac: mark PM functions as __maybe_unused") has no obvious style problems and is ready for submission.

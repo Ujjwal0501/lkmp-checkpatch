@@ -1,0 +1,26 @@
+WARNING:TYPO_SPELLING: 'pathes' may be misspelled - perhaps 'paths'?
+#7: 
+Some code pathes, especially the low level entry code, must be protected
+
+ERROR:SPACING: space required before the open parenthesis '('
+#162: FILE: include/linux/compiler.h:178:
++#define instrumentation_begin()		do { } while(0)
+
+ERROR:SPACING: space required before the open parenthesis '('
+#163: FILE: include/linux/compiler.h:179:
++#define instrumentation_end()		do { } while(0)
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#178: FILE: include/linux/compiler_types.h:122:
++#define noinstr								\
++	noinline notrace __attribute((__section__(".noinstr.text")))
+
+total: 3 errors, 1 warnings, 121 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 655389666643 ("vmlinux.lds.h: Create section for protection against instrumentation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

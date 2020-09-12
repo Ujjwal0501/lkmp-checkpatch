@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 987d65d01356 ("drm: debugfs: make drm_debugfs_create_files() never fail")'
+#6: 
+Since commit 987d65d01356 (drm: debugfs: make
+
+total: 1 errors, 0 warnings, 62 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f06b2052f74d ("drm/i915: have *_debugfs_init() functions return void.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

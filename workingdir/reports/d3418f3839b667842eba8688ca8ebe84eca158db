@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 187 lines checked
+
+Commit d3418f3839b6 ("arm64: vdso: use consistent 'abi' nomenclature") has no obvious style problems and is ready for submission.

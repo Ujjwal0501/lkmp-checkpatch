@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 84836ded76ec ("arm64: dts: rockchip: fix defines in pd_vio node for rk3399") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit b0acc5d6bf33 ("selftests/vm/pkeys: fix assertion in test_pkey_alloc_exhaust()") has no obvious style problems and is ready for submission.

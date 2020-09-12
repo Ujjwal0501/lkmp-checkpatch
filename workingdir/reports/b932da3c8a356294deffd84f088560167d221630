@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 210 lines checked
+
+Commit b932da3c8a35 ("drm/i915: Eliminate port sync copy pasta") has no obvious style problems and is ready for submission.

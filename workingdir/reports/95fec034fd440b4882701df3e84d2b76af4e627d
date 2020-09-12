@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 85 lines checked
+
+Commit 95fec034fd44 ("bnxt_en: prepare to refactor ethtool reset types") has no obvious style problems and is ready for submission.

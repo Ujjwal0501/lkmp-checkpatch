@@ -1,0 +1,33 @@
+ERROR:INLINE_LOCATION: inline keyword should sit between storage class and type
+#68: FILE: net/bpf/test_run.c:154:
++int noinline bpf_fentry_test7(struct bpf_fentry_test_t *arg)
+
+ERROR:INLINE_LOCATION: inline keyword should sit between storage class and type
+#73: FILE: net/bpf/test_run.c:159:
++int noinline bpf_fentry_test8(struct bpf_fentry_test_t *arg)
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#126: FILE: tools/testing/selftests/bpf/progs/fentry_test.c:63:
++__u64 test7_result = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#135: FILE: tools/testing/selftests/bpf/progs/fentry_test.c:72:
++__u64 test8_result = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#156: FILE: tools/testing/selftests/bpf/progs/fexit_test.c:64:
++__u64 test7_result = 0;
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to 0
+#165: FILE: tools/testing/selftests/bpf/progs/fexit_test.c:73:
++__u64 test8_result = 0;
+
+total: 6 errors, 0 warnings, 95 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d923021c2ce1 ("bpf: Add tests for PTR_TO_BTF_ID vs. null comparison") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

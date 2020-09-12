@@ -1,0 +1,80 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#82: FILE: drivers/scsi/lpfc/lpfc_nvme.c:444:
++			 "6047 NVMEx LS REQ %px cmpl DID %x Xri: %x "
++			 "status %x reason x%x cmd:x%px lsreg:x%px bmp:x%px "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#83: FILE: drivers/scsi/lpfc/lpfc_nvme.c:445:
++			 "status %x reason x%x cmd:x%px lsreg:x%px bmp:x%px "
++			 "ndlp:x%px\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#157: FILE: drivers/scsi/lpfc/lpfc_nvme.c:614:
+ 				 "6045 Issue GEN REQ WQE to NPORT x%x "
++				 "Data: x%x x%x  rc x%x\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#167: FILE: drivers/scsi/lpfc/lpfc_nvme.c:623:
++			 "6050 Issue GEN REQ WQE to NPORT x%x "
++			 "Data: oxid: x%x state: x%x wq:x%px lsreq:x%px "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#168: FILE: drivers/scsi/lpfc/lpfc_nvme.c:624:
++			 "Data: oxid: x%x state: x%x wq:x%px lsreq:x%px "
++			 "bmp:x%px xmit:%d 1st:%d\n",
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#245: FILE: drivers/scsi/lpfc/lpfc_nvme.c:658:
++		lpfc_printf_vlog(vport, KERN_ERR,
++				 LOG_NVME_DISC | LOG_NODE | LOG_NVME_IOERR,
++				 "6051 NVMEx LS REQ: Bad NDLP x%px, Failing "
++				 "LS Req\n",
++				 ndlp);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#248: FILE: drivers/scsi/lpfc/lpfc_nvme.c:661:
++				 "6051 NVMEx LS REQ: Bad NDLP x%px, Failing "
++				 "LS Req\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#268: FILE: drivers/scsi/lpfc/lpfc_nvme.c:673:
++				 "6088 NVMEx LS REQ: Fail DID x%06x not "
++				 "ready for IO. Type x%x, State x%x\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#296: FILE: drivers/scsi/lpfc/lpfc_nvme.c:696:
++				 "6044 NVMEx LS REQ: Could not alloc LS buf "
++				 "for DID %x\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#310: FILE: drivers/scsi/lpfc/lpfc_nvme.c:706:
++				 "6042 NVMEx LS REQ: Could not alloc mbuf "
++				 "for DID %x\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#338: FILE: drivers/scsi/lpfc/lpfc_nvme.c:730:
++			"6149 NVMEx LS REQ: Issue to DID 0x%06x lsreq x%px, "
++			"rqstlen:%d rsplen:%d %pad %pad\n",
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#358: FILE: drivers/scsi/lpfc/lpfc_nvme.c:739:
++		lpfc_printf_vlog(vport, KERN_ERR,
++				 LOG_NVME_DISC | LOG_NVME_IOERR,
++				 "6052 NVMEx REQ: EXIT. issue ls wqe failed "
++				 "lsreq x%px Status %x DID %x\n",
++				 pnvme_lsreq, ret, ndlp->nlp_DID);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#361: FILE: drivers/scsi/lpfc/lpfc_nvme.c:742:
++				 "6052 NVMEx REQ: EXIT. issue ls wqe failed "
++				 "lsreq x%px Status %x DID %x\n",
+
+total: 0 errors, 13 warnings, 407 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6514b25d3fba ("lpfc: Refactor Send LS Request support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

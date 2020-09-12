@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit a17cb784fcd7 ("iio: move 'indio_dev->info' null check first in __iio_device_register()") has no obvious style problems and is ready for submission.

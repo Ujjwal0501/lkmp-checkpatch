@@ -1,0 +1,25 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#18: 
+new file mode 100644
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'synchronize_rcu_tasks', this function's name, in a string
+#133: FILE: kernel/rcu/tasks.h:111:
++			 "synchronize_rcu_tasks called too soon");
+
+WARNING:LONG_LINE: line length of 129 exceeds 100 columns
+#351: FILE: kernel/rcu/tasks.h:329:
++	if (WARN_ONCE(IS_ERR(t), "%s: Could not start Tasks-RCU grace-period kthread, OOM is now expected behavior\n", __func__))
+
+WARNING:LONG_LINE: line length of 128 exceeds 100 columns
+#386: FILE: kernel/rcu/tasks.h:364:
++		pr_info("\tTasks-RCU CPU stall warnings timeout set to %d (rcu_task_stall_timeout).\n", rcu_task_stall_timeout);
+
+total: 0 errors, 4 warnings, 748 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit eacd6f04a133 ("rcu-tasks: Move Tasks RCU to its own file") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

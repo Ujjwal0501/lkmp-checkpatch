@@ -1,0 +1,13 @@
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO' are not preferred. Consider using octal permissions '0444'.
+#65: FILE: drivers/scsi/scsi_debug.c:5554:
++module_param_named(zone_size_mb, sdeb_zbc_zone_size_mb, int, S_IRUGO);
+
+total: 0 errors, 1 warnings, 45 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 98e0a689868c ("scsi: scsi_debug: Add zone_size_mb module parameter") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

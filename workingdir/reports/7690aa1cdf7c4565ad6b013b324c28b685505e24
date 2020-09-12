@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 110 lines checked
+
+Commit 7690aa1cdf7c ("netlink: limit recursion depth in policy validation") has no obvious style problems and is ready for submission.

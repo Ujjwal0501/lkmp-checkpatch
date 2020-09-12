@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 0ba577802b0b ("s390: ptrace: hard-code "s390x" instead of UTS_MACHINE") has no obvious style problems and is ready for submission.

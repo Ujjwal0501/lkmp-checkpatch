@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 72 lines checked
+
+Commit 1c11e74e9079 ("usb: dwc3: keystone: Turn on USB3 PHY before controller") has no obvious style problems and is ready for submission.

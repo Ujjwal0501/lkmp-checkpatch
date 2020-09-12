@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 78 lines checked
+
+Commit d4cf9939a614 ("media: atomisp: get rid of several typedef-style defines") has no obvious style problems and is ready for submission.

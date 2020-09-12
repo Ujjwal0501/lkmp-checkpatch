@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit adc99fd37839 ("nvme-tcp: fix possible hang waiting for icresp response") has no obvious style problems and is ready for submission.

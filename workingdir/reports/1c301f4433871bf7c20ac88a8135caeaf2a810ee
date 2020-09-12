@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#64: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:1917:
++			sos_hdr_v1_1 = (const struct psp_firmware_header_v1_1 *)adev->psp.sos_fw->data;
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#73: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:1926:
++			sos_hdr_v1_2 = (const struct psp_firmware_header_v1_2 *)adev->psp.sos_fw->data;
+
+total: 0 errors, 2 warnings, 82 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1c301f443387 ("drm/amdgpu: add helper function to init sos ucode") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

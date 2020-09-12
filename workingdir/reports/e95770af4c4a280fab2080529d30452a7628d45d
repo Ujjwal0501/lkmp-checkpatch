@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#45: 
+new file mode 100644
+
+WARNING:LONG_LINE_STRING: line length of 104 exceeds 100 columns
+#461: FILE: tools/perf/tests/api-io.c:282:
++	if (do_test_get_dec("10000000000000000000000000000000000000000000000000000000000123456789ab99c",
+
+total: 0 errors, 2 warnings, 440 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e95770af4c4a ("tools api: Add a lightweight buffered reading api") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

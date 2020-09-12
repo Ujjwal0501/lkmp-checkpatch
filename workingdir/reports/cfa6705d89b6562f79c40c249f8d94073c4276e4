@@ -1,0 +1,13 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#59: FILE: include/linux/radix-tree.h:27:
++	unsigned nr;
+
+total: 0 errors, 1 warnings, 98 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cfa6705d89b6 ("radix-tree: Use local_lock for protection") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

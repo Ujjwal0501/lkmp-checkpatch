@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit a885f3cc6f83 ("perf docs: Extend CAP_SYS_ADMIN with CAP_PERFMON where needed") has no obvious style problems and is ready for submission.

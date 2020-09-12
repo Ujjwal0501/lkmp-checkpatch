@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit ccfc2d5cdb02 ("drm/nouveau: Use generic helper to check _PR3 presence") has no obvious style problems and is ready for submission.

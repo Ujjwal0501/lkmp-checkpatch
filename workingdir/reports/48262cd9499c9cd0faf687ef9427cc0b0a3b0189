@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 48262cd9499c ("drm/amdgpu: add checks if DMA-buf P2P is supported") has no obvious style problems and is ready for submission.

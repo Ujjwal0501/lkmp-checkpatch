@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b4a4f036e846 ("soc: sifive: l2 cache: Eliminate an unsigned zero compare warning") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit b1fe0d0937dd ("clk: imx: drop the dependency on ARM64 for i.MX8M") has no obvious style problems and is ready for submission.

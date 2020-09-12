@@ -1,0 +1,19 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#374: FILE: tools/testing/selftests/vm/protection_keys.c:446:
++	dprintf3("%s(pkey=%d, rights=%lx, flags=%lx) = %x"
++		" pkey_reg now: %x old_pkey_reg: %x\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#596: FILE: tools/testing/selftests/vm/protection_keys.c:963:
++	dprintf1("%s() set pkey_reg=%x to restore state after signal "
++		       "nuked it\n", __func__, shadow_pkey_reg);
+
+total: 0 errors, 2 warnings, 694 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c4273c7f0ec3 ("selftests/vm/pkeys: rename all references to pkru to a generic name") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

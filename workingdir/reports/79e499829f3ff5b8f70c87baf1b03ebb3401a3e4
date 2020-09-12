@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 168 lines checked
+
+Commit 79e499829f3f ("net: enetc: add hw tc hw offload features for PSPF capability") has no obvious style problems and is ready for submission.

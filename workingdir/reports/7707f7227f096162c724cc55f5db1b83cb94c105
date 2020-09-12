@@ -1,0 +1,21 @@
+WARNING:TYPO_SPELLING: 'modifer' may be misspelled - perhaps 'modifier'?
+#181: FILE: drivers/gpu/drm/rockchip/rockchip_drm_vop.c:772:
++		DRM_DEBUG_KMS("Unsupported format modifer 0x%llx\n", modifier);
+
+WARNING:LONG_LINE: line length of 151 exceeds 100 columns
+#209: FILE: drivers/gpu/drm/rockchip/rockchip_drm_vop.c:841:
++			DRM_ERROR("AFBC does not support offset display, xpos=%d, ypos=%d, offset=%d\n", state->src.x1, state->src.y1, fb->offsets[0]);
+
+WARNING:LONG_LINE: line length of 106 exceeds 100 columns
+#277: FILE: drivers/gpu/drm/rockchip/rockchip_drm_vop.c:1446:
++		DRM_DEBUG_KMS("Invalid number of AFBC planes; got %d, expected at most 1\n", afbc_planes);
+
+total: 0 errors, 3 warnings, 514 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7707f7227f09 ("drm/rockchip: Add support for afbc") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

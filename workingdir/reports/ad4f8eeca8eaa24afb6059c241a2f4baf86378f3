@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit ad4f8eeca8ea ("kcsan: Address missing case with KCSAN_REPORT_VALUE_CHANGE_ONLY") has no obvious style problems and is ready for submission.

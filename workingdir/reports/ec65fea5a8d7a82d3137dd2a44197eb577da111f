@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 97 lines checked
+
+Commit ec65fea5a8d7 ("io_uring: deduplicate io_openat{,2}_prep()") has no obvious style problems and is ready for submission.

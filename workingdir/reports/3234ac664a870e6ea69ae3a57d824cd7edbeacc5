@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 176 lines checked
+
+Commit 3234ac664a87 ("/dev/mem: Revoke mappings when a driver claims the region") has no obvious style problems and is ready for submission.

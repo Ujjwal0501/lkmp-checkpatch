@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit bbd6aac3ae15 ("ALSA: fireface: fix configuration error for nominal sampling transfer frequency") has no obvious style problems and is ready for submission.

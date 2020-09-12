@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit b386cd65d961 ("RDMA/rtrs: Fix some signedness bugs in error handling") has no obvious style problems and is ready for submission.

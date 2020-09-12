@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'funtion' may be misspelled - perhaps 'function'?
+#16: 
+__device_suspend_late(), because running the same callback funtion
+
+total: 0 errors, 1 warnings, 170 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 107d47b2b95e ("PM: sleep: core: Simplify the SMART_SUSPEND flag handling") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,21 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#9: 
+commit 36bc683dde0a ("kernel-doc: rename the kernel-doc directive 'functions' to 'identifiers'")
+
+WARNING:TYPO_SPELLING: 'Forse' may be misspelled - perhaps 'Force'?
+#916: FILE: Documentation/translations/it_IT/process/deprecated.rst:162:
++  è importante. Forse dovrebbe essere rimosso del tutto?
+
+WARNING:TYPO_SPELLING: 'forse' may be misspelled - perhaps 'force'?
+#921: FILE: Documentation/translations/it_IT/process/deprecated.rst:167:
++  affrontare il giudizio di Linus, allora forse potrai usare "%px",
+
+total: 0 errors, 3 warnings, 874 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b67aa4ef68ed ("doc:it_IT: align Italian translation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

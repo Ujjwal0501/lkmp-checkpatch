@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 141 lines checked
+
+Commit 310f80d61717 ("vexpress: Move setting master site to vexpress-config bus") has no obvious style problems and is ready for submission.

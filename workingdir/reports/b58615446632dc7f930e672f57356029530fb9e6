@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit b58615446632 ("drm/amdgpu: only set DPM_FLAG_NEVER_SKIP for legacy ATPX BOCO") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 77 lines checked
+
+Commit bcfedae7d928 ("modpost: print symbol dump file as the build target in short log") has no obvious style problems and is ready for submission.

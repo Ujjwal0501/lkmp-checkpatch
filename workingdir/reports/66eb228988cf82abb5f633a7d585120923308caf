@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 126 lines checked
+
+Commit 66eb228988cf ("spi: orion: Convert to use GPIO descriptors") has no obvious style problems and is ready for submission.

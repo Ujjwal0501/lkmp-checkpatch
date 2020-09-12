@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#114: FILE: tools/perf/tests/builtin-test.c:673:
++				if (!perf_test__matches(t->subtest.get_desc(subi), curr, argc, argv))
+
+total: 0 errors, 1 warnings, 83 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d685e6c1b872 ("perf tests: Consider subtests when searching for user specified tests") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,13 @@
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#94: FILE: arch/x86/kernel/alternative.c:786:
++typedef struct {
+
+total: 0 errors, 1 warnings, 120 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9020d3956317 ("x86/alternatives: Move temporary_mm helpers into C") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

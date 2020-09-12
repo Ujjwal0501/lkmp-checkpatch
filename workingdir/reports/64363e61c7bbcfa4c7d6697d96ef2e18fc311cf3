@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 142 lines checked
+
+Commit 64363e61c7bb ("net/mlx5: Change lag mutex lock to spin lock") has no obvious style problems and is ready for submission.

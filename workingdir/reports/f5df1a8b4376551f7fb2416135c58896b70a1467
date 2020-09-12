@@ -1,0 +1,13 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#26: FILE: drivers/net/wireless/realtek/rtw88/Kconfig:39:
++config RTW88_8723DE
+
+total: 0 errors, 1 warnings, 0 checks, 23 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f5df1a8b4376 ("rtw88: 8723d: Add 8723DE to Kconfig and Makefile") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

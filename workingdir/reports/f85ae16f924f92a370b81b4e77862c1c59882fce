@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit f85ae16f924f ("ionic: use offset for ethtool regs data") has no obvious style problems and is ready for submission.

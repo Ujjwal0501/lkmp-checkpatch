@@ -1,0 +1,14 @@
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list 'S:' before 'W:'
+#42: FILE: MAINTAINERS:1038:
++W:	http://ez.analog.com/community/linux-device-drivers
++S:	Supported
+
+total: 0 errors, 1 warnings, 1380 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fff7352bf7a3 ("iio: imu: Add support for adis16475") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

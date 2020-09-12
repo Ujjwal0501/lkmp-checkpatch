@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 85625e642950 ("drm/amdgpu: enable hibernate support on Navi1X") has no obvious style problems and is ready for submission.

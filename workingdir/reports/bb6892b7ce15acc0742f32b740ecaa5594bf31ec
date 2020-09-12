@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit bb6892b7ce15 ("drm/i915/gt: Use the correct err_unlock unwind path for a closed context") has no obvious style problems and is ready for submission.

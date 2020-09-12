@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 78 lines checked
+
+Commit 1244a32736f8 ("perf parse: Add 'struct parse_events_state' pointer to scanner") has no obvious style problems and is ready for submission.

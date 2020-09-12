@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 196 lines checked
+
+Commit abfd23743d47 ("staging: vt6656: Use sk_buff buffer for tx header") has no obvious style problems and is ready for submission.

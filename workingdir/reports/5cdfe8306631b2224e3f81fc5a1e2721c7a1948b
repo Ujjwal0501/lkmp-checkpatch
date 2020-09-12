@@ -1,0 +1,13 @@
+CHECK:CAMELCASE: Avoid CamelCase: <PktCntrDisable>
+#38: FILE: drivers/net/ethernet/realtek/r8169_main.c:1878:
++			tp->cp_cmd |= PktCntrDisable;
+
+total: 0 errors, 0 warnings, 1 checks, 15 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5cdfe8306631 ("r8169: work around an irq coalescing related tx timeout") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

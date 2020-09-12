@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit 3aef9ca6a42a ("iommu/vt-d: Use a helper function to skip agaw for SL") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 160 lines checked
+
+Commit ae220204873e ("staging: vt6656: Refactor the vnt_rf_table_download function") has no obvious style problems and is ready for submission.

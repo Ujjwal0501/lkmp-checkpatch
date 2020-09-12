@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 9d139131e973 ("mips: Drop CONFIG_MTD_M25P80 in various defconfig files") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 282 lines checked
+
+Commit ff222b7e45eb ("ALSA: firewire-motu: add wrapper functions for protocol-dependent operations") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 182 lines checked
+
+Commit d29bdd69ecdd ("net: schedule: add action gate offloading") has no obvious style problems and is ready for submission.

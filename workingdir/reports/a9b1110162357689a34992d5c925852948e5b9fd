@@ -1,0 +1,309 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#25: 
+Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS rel-1.12.0-59-gc9ba5276e321-prebuilt.qemu.org 04/01/2014
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#109: 
+ ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fc'
+#110: 
+ ffff88801e0b3f80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#111: 
+>ffff88801e0b4000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#113: 
+ ffff88801e0b4080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fb'
+#114: 
+ ffff88801e0b4100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+total: 0 errors, 75 warnings, 0 checks, 28 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a9b111016235 ("llc: make sure applications use ARPHRD_ETHER") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

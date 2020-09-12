@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 850 lines checked
+
+Commit 328aa08a081b ("bpf: Selftests, break down test_sockmap into subtests") has no obvious style problems and is ready for submission.

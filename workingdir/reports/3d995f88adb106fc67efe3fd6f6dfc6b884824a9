@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 3d995f88adb1 ("ACPI: APEI: Put the boot error record table after parsing") has no obvious style problems and is ready for submission.

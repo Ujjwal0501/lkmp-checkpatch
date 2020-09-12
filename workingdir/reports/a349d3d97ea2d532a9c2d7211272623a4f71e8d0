@@ -1,0 +1,14 @@
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#63: FILE: MAINTAINERS:14489:
++F:	drivers/staging/media/rkvdec/
++F:	Documentation/devicetree/bindings/media/rockchip,vdec.yaml
+
+total: 0 errors, 1 warnings, 42 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a349d3d97ea2 ("media: MAINTAINERS: Fix Hantro, Rga and Rkvdec entries") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

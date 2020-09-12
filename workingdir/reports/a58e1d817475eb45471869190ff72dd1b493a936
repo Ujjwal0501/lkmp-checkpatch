@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 17 lines checked
+
+Commit a58e1d817475 ("ice: remove VM/VF disable command on CORER/GLOBR reset") has no obvious style problems and is ready for submission.

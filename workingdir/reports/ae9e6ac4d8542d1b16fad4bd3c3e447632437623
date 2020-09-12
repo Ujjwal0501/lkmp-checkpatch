@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit ae9e6ac4d854 ("spi: dw: remove unused dw_spi_chip handling") has no obvious style problems and is ready for submission.

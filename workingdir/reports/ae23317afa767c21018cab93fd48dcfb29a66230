@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit ae23317afa76 ("dt-bindings: iio: accel: Add bma150 family compatibles to bma180") has no obvious style problems and is ready for submission.

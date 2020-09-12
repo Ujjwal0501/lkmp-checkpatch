@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit d7372dfb3f7f ("drm/nouveau: fix runtime pm imbalance on error") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 84 lines checked
+
+Commit 76883a6cc145 ("RDMA/mlx5: Remove second user copy in create_user_qp") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 72 lines checked
+
+Commit a8b380c379ef ("scripts: sphinx-pre-install: only ask to activate valid venvs") has no obvious style problems and is ready for submission.

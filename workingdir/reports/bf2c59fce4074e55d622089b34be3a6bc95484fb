@@ -1,0 +1,17 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#48: 
+Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#135: FILE: kernel/sched/core.c:6200:
++	BUG_ON(current != this_rq()->idle);
+
+total: 0 errors, 2 warnings, 67 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bf2c59fce407 ("sched/core: Fix illegal RCU from offline CPUs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

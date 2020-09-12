@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 7ccadf23b861 ("KVM: arm64: Add missing reset handlers for PMU emulation") has no obvious style problems and is ready for submission.

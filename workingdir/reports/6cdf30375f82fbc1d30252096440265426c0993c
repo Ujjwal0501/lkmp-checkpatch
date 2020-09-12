@@ -1,0 +1,17 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int *' to bare use of 'unsigned *'
+#43: FILE: arch/powerpc/include/asm/kvm_book3s_64.h:651:
++					unsigned long ea, unsigned *hshift);
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int *' to bare use of 'unsigned *'
+#102: FILE: arch/powerpc/kvm/book3s_hv_nested.c:754:
++				 unsigned long ea, unsigned *hshift)
+
+total: 0 errors, 2 warnings, 90 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6cdf30375f82 ("powerpc/kvm/book3s: Use kvm helpers to walk shadow or secondary table") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

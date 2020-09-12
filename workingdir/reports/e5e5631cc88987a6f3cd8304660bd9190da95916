@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 216 lines checked
+
+Commit e5e5631cc889 ("mtd: rawnand: gpmi: Use nand_extract_bits()") has no obvious style problems and is ready for submission.

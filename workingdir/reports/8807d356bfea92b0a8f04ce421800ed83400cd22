@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 8807d356bfea ("ARM: dts: exynos: Fix GPIO polarity for thr GalaxyS3 CM36651 sensor's bus") has no obvious style problems and is ready for submission.

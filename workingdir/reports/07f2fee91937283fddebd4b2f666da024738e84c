@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 07f2fee91937 ("i915/gvt: remove unused xen bits") has no obvious style problems and is ready for submission.

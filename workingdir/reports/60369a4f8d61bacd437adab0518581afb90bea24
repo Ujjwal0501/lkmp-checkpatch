@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 60369a4f8d61 ("x86/PCI: Drop unused xen_register_pirq() gsi_override parameter") has no obvious style problems and is ready for submission.

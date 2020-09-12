@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 97 lines checked
+
+Commit a8173820f441 ("gpio: gpiolib: Allow GPIO IRQs to lazy disable") has no obvious style problems and is ready for submission.

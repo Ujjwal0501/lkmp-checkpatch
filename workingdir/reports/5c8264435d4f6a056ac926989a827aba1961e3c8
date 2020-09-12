@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit 5c8264435d4f ("mptcp: remove inner wait loop from mptcp_sendmsg_frag") has no obvious style problems and is ready for submission.

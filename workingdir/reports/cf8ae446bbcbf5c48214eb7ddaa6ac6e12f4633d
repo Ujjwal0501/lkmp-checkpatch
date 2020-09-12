@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 816 lines checked
+
+Commit cf8ae446bbcb ("arm64: dts: renesas: Fix IOMMU device node names") has no obvious style problems and is ready for submission.

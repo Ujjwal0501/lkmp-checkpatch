@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 29da47cfc1f0 ("dma-buf: Prettify typecasts for dma-fence-chain") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 91 lines checked
+
+Commit 885902531586 ("hugetlbfs: get unmapped area below TASK_UNMAPPED_BASE for hugetlbfs") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 234 lines checked
+
+Commit 29ac8979cdf7 ("drm/msm/a6xx: use msm_gem for GMU memory objects") has no obvious style problems and is ready for submission.

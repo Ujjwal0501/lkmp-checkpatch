@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit a101e3dad8a9 ("drm/tegra: hub: Register child devices") has no obvious style problems and is ready for submission.

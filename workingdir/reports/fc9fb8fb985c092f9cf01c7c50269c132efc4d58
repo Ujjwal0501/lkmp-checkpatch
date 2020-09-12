@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 75 lines checked
+
+Commit fc9fb8fb985c ("firmware: xilinx: Remove eemi ops for clock_setdivider") has no obvious style problems and is ready for submission.

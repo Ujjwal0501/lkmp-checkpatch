@@ -1,0 +1,21 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'in'
+#41: 
+returning -EAGAIN in in icl_tc_cold_exit()
+
+WARNING:MSLEEP: msleep < 20ms can sleep for up to 20ms; see Documentation/timers/timers-howto.rst
+#83: FILE: drivers/gpu/drm/i915/display/intel_display_power.c:588:
++		msleep(1);
+
+WARNING:MSLEEP: msleep < 20ms can sleep for up to 20ms; see Documentation/timers/timers-howto.rst
+#88: FILE: drivers/gpu/drm/i915/display/intel_display_power.c:593:
++		msleep(1);
+
+total: 0 errors, 3 warnings, 157 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit feb7e0ef5ff8 ("drm/i915/tc/icl: Implement TC cold sequences") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

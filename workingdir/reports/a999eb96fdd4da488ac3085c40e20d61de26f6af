@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 47 lines checked
+
+Commit a999eb96fdd4 ("s390/pci: ioremap() align with generic code") has no obvious style problems and is ready for submission.

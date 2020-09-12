@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit 20396365a16d ("ovl: fix oops in ovl_indexdir_cleanup() with nfs_export=on") has no obvious style problems and is ready for submission.

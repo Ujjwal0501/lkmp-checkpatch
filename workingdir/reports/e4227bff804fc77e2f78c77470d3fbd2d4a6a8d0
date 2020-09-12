@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit e4227bff804f ("net: stmmac: dwmac-meson8b: Fetch the "timing-adjustment" clock") has no obvious style problems and is ready for submission.

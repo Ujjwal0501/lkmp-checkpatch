@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 13 lines checked
+
+Commit e9ebce2d4c8b ("media: staging: rkisp1: rsz: get the capture format info from the capture struct") has no obvious style problems and is ready for submission.

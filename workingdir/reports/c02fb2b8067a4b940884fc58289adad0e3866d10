@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit c02fb2b8067a ("i2c: busses: convert to devm_platform_get_and_ioremap_resource") has no obvious style problems and is ready for submission.

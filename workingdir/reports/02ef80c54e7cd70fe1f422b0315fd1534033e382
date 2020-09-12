@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 255 lines checked
+
+Commit 02ef80c54e7c ("drm/msm/a6xx: update pdc/rscc GMU registers for A640/A650") has no obvious style problems and is ready for submission.

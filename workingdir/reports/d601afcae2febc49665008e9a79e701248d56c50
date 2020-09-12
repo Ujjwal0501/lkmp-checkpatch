@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 48 lines checked
+
+Commit d601afcae2fe ("e1000e: Relax condition to trigger reset for ME workaround") has no obvious style problems and is ready for submission.

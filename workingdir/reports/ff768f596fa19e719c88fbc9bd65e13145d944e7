@@ -1,0 +1,23 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#12: 
+ .../{media/kapi => driver-api/media}/cec-core.rst    |  0
+
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#306: FILE: MAINTAINERS:5130:
+ X:	Documentation/userspace-api/media/
++X:	Documentation/driver-api/media/
+
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#314: FILE: MAINTAINERS:10614:
+ F:	Documentation/userspace-api/media/
++F:	Documentation/driver-api/media/
+
+total: 0 errors, 3 warnings, 74 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ff768f596fa1 ("media: docs: kAPI docs: move them to driver-api") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

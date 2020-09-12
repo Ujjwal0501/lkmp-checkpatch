@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 138 lines checked
+
+Commit ec269f1250c6 ("staging: qlge: Remove unnecessary spaces in qlge_main.c") has no obvious style problems and is ready for submission.

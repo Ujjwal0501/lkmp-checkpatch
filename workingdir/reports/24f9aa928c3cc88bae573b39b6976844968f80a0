@@ -1,0 +1,13 @@
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#28: FILE: arch/arm/include/asm/checksum.h:45:
++__wsum csum_and_copy_from_user (const void __user *src, void *dst,
+
+total: 0 errors, 1 warnings, 20 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 24f9aa928c3c ("arm: switch to csum_and_copy_from_user()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit b7ade38165ca ("sunrpc: fixed rollback in rpc_gssd_dummy_populate()") has no obvious style problems and is ready for submission.

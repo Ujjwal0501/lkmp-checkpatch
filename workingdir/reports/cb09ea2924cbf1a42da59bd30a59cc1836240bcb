@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 93 lines checked
+
+Commit cb09ea2924cb ("x86/entry: Convert XEN hypercall vector to IDTENTRY_SYSVEC") has no obvious style problems and is ready for submission.

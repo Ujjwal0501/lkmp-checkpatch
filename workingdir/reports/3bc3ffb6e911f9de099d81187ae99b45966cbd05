@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 672 lines checked
+
+Commit 3bc3ffb6e911 ("mlxsw: spectrum: Rename acl_block to flow_block") has no obvious style problems and is ready for submission.

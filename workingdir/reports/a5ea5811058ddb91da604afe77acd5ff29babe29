@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit a5ea5811058d ("blk-mq: move the call to blk_queue_enter_live out of blk_mq_get_request") has no obvious style problems and is ready for submission.

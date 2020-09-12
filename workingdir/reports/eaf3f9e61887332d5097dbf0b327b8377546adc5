@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit eaf3f9e61887 ("arm32/64/elf: Split READ_IMPLIES_EXEC from executable PT_GNU_STACK") has no obvious style problems and is ready for submission.

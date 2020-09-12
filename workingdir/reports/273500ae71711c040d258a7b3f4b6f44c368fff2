@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 273500ae7171 ("drm/i915: Whitelist context-local timestamp in the gen9 cmdparser") has no obvious style problems and is ready for submission.

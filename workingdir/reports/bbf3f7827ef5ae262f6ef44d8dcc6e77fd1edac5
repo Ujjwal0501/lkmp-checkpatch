@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit bbf3f7827ef5 ("media: atomisp: add firmware load code for ISP2401 rev B0") has no obvious style problems and is ready for submission.

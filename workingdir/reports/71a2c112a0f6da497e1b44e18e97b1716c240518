@@ -1,0 +1,21 @@
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#64: FILE: include/trace/events/huge_memory.h:15:
++	EM( SCAN_EXCEED_SWAP_PTE,	"exceed_swap_pte")		\
+
+ERROR:SPACING: space prohibited after that open parenthesis '('
+#65: FILE: include/trace/events/huge_memory.h:16:
++	EM( SCAN_EXCEED_SHARED_PTE,	"exceed_shared_pte")		\
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void collapse_max_ptes_shared() should probably be void collapse_max_ptes_shared(void)
+#263: FILE: tools/testing/selftests/vm/khugepaged.c:929:
++static void collapse_max_ptes_shared()
+
+total: 3 errors, 0 warnings, 267 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 71a2c112a0f6 ("khugepaged: introduce 'max_ptes_shared' tunable") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

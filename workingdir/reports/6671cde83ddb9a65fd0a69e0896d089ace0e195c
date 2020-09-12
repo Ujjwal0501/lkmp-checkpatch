@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 529 lines checked
+
+Commit 6671cde83ddb ("RDMA/mlx5: Refactor mlx5_post_send() to improve readability") has no obvious style problems and is ready for submission.

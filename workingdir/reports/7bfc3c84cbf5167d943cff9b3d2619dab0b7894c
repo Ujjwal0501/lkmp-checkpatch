@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit 7bfc3c84cbf5 ("drivers/powerpc: Replace _ALIGN_UP() by ALIGN()") has no obvious style problems and is ready for submission.

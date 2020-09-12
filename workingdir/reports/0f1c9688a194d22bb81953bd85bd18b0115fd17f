@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 49 lines checked
+
+Commit 0f1c9688a194 ("tty/sysrq: alpha: export and use __sysrq_get_key_op()") has no obvious style problems and is ready for submission.

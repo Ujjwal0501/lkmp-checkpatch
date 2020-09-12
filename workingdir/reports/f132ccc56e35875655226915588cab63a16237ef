@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit f132ccc56e35 ("selftests: tc-testing: Add a TDC test for pedit munge ip6 dsfield") has no obvious style problems and is ready for submission.

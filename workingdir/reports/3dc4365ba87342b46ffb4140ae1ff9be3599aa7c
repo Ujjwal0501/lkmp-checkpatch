@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 81 lines checked
+
+Commit 3dc4365ba873 ("media: ti-vpe: cal: fix DMA memory corruption") has no obvious style problems and is ready for submission.

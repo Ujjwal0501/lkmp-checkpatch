@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 188 lines checked
+
+Commit f9912ada8286 ("x86/entry: Remove debug IDT frobbing") has no obvious style problems and is ready for submission.

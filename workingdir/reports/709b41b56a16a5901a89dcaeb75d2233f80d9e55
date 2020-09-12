@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 64 lines checked
+
+Commit 709b41b56a16 ("misc: rtsx: Remove unnecessary rts5249_set_aspm(), rts5260_set_aspm()") has no obvious style problems and is ready for submission.

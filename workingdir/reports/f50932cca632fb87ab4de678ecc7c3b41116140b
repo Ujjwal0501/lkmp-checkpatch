@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 104 lines checked
+
+Commit f50932cca632 ("net: bcmgenet: add WAKE_FILTER support") has no obvious style problems and is ready for submission.

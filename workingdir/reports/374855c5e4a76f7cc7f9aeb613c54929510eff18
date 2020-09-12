@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 374855c5e4a7 ("tools lib traceevent: Add API to read time information from kbuffer") has no obvious style problems and is ready for submission.

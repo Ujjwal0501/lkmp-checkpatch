@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 68 lines checked
+
+Commit b1f3e43dbfac ("inet_diag: add support for cgroup filter") has no obvious style problems and is ready for submission.

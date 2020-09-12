@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit 5f3b82a168d5 ("pinctrl: lynxpoint: Use platform_get_irq_optional() explicitly") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit d1f56f318d23 ("sh: add missing EXPORT_SYMBOL() for __delay") has no obvious style problems and is ready for submission.

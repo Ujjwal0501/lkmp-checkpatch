@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 52 lines checked
+
+Commit d628ee4fef1d ("mlx5: Rx queue setup time determine frame_sz for XDP") has no obvious style problems and is ready for submission.

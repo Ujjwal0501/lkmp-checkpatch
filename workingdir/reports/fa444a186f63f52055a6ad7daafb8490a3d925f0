@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 38 lines checked
+
+Commit fa444a186f63 ("iio: dac: ad5380: Replace indio_dev->mlock with own device lock") has no obvious style problems and is ready for submission.

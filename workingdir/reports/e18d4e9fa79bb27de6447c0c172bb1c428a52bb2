@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit e18d4e9fa79b ("bus: mhi: core: Handle syserr during power_up") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 346 lines checked
+
+Commit c631c696823c ("net: hns3: refactor the promisc mode setting") has no obvious style problems and is ready for submission.

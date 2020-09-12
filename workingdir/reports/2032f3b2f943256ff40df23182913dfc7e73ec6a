@@ -1,0 +1,14 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#176: FILE: net/wireless/nl80211.c:15254:
++			if (nla_put_u32(msg, i,
++				   ieee80211_channel_to_khz(req->channels[i])))
+
+total: 0 errors, 0 warnings, 1 checks, 144 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2032f3b2f943 ("nl80211: support scan frequencies in KHz") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

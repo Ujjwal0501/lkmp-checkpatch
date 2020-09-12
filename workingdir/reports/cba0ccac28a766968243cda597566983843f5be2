@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 145 lines checked
+
+Commit cba0ccac28a7 ("xfs: refactor recovered RUI log item playback") has no obvious style problems and is ready for submission.

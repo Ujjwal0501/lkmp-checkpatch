@@ -1,0 +1,25 @@
+WARNING:LONG_LINE_STRING: line length of 139 exceeds 100 columns
+#30: FILE: tools/testing/selftests/net/fib_nexthops.sh:22:
++IPV4_TESTS="ipv4_fcnal ipv4_grp_fcnal ipv4_withv6_fcnal ipv4_fcnal_runtime ipv4_large_grp ipv4_compat_mode ipv4_fdb_grp_fcnal ipv4_torture"
+
+WARNING:LONG_LINE_STRING: line length of 121 exceeds 100 columns
+#31: FILE: tools/testing/selftests/net/fib_nexthops.sh:23:
++IPV6_TESTS="ipv6_fcnal ipv6_grp_fcnal ipv6_fcnal_runtime ipv6_large_grp ipv6_compat_mode ipv6_fdb_grp_fcnal ipv6_torture"
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#84: FILE: tools/testing/selftests/net/fib_nexthops.sh:815:
++	ip netns exec me mausezahn veth1 -B 2001:db8:101::2 -A 2001:db8:91::1 -c 0 -t tcp "dp=1-1023, flags=syn" >/dev/null 2>&1 &
+
+WARNING:LONG_LINE: line length of 123 exceeds 100 columns
+#147: FILE: tools/testing/selftests/net/fib_nexthops.sh:1417:
++	ip netns exec me mausezahn veth1 -B 172.16.101.2 -A 172.16.1.1 -c 0 -t tcp "dp=1-1023, flags=syn" >/dev/null 2>&1 &
+
+total: 0 errors, 4 warnings, 133 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7c741868ceab ("selftests: Add torture tests to nexthop tests") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

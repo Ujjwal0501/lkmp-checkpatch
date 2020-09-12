@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit ae1c3b73945c ("i2c: pxa: ensure timeout messages are unique") has no obvious style problems and is ready for submission.

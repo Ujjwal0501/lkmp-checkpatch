@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 309 lines checked
+
+Commit ab053c09ee20 ("scsi: qla2xxx: Cast explicitly to uint16_t / uint32_t") has no obvious style problems and is ready for submission.

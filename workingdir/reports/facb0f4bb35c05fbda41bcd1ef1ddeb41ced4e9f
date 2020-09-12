@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 6 lines checked
+
+Commit facb0f4bb35c ("ASoC: nau8825: Change Tegra clk_out_2 provider to PMC") has no obvious style problems and is ready for submission.

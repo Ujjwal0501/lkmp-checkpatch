@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 17 lines checked
+
+Commit baf3f08ef408 ("cifs: get rid of unused parameter in reconn_setup_dfs_targets()") has no obvious style problems and is ready for submission.

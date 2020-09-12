@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#15: 
+Signed-off-by: Mark Brown <broonie@kernel.org>
+
+total: 0 errors, 1 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8fede89f853a ("spi: Make spi_delay_exec() warn if called from atomic context") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 21d81f888299 ("drm/lima: Clean up IRQ warnings") has no obvious style problems and is ready for submission.

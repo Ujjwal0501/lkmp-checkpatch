@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit d9b8fbf15d05 ("ALSA: es1688: Add the missed snd_card_free()") has no obvious style problems and is ready for submission.

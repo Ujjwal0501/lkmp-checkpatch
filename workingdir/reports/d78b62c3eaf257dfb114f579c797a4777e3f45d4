@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 55 lines checked
+
+Commit d78b62c3eaf2 ("staging: vt6656: Use return instead of goto") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 112 lines checked
+
+Commit f009c89df79a ("io: Provide _inX() and _outX()") has no obvious style problems and is ready for submission.

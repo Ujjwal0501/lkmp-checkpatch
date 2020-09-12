@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit 5cd17f343bd1 ("btrfs: speed up and simplify generic_bin_search") has no obvious style problems and is ready for submission.

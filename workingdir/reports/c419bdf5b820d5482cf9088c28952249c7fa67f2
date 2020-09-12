@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 47 lines checked
+
+Commit c419bdf5b820 ("drm/amd/amdgpu: Correct gfx10's CG sequence") has no obvious style problems and is ready for submission.

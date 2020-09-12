@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 128 lines checked
+
+Commit ecf1b4ca9711 ("media: atomisp: get rid of some unused static vars") has no obvious style problems and is ready for submission.

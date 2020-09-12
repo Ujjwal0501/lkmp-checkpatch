@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 31 lines checked
+
+Commit abaef5374e53 ("staging: wfx: drop unused argument in wfx_get_prio_queue()") has no obvious style problems and is ready for submission.

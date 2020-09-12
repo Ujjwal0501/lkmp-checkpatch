@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 38 lines checked
+
+Commit a97f52b0f1a6 ("media: staging: media: imx: no need to check return value of debugfs_create functions") has no obvious style problems and is ready for submission.

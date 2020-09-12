@@ -1,0 +1,16 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:NEEDLESS_IF: kfree(NULL) is safe and this check is probably not required
+#165: FILE: drivers/gpu/drm/amd/powerplay/smu_v11_0.c:737:
+ 	if (table_context->driver_pptable)
++		kfree(table_context->driver_pptable);
+
+total: 0 errors, 2 warnings, 206 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 38748ad88a2f ("drm/amdgpu: enable one vf mode for nv12") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

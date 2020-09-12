@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 131 lines checked
+
+Commit 8123f265248c ("KVM: x86/mmu: Add a helper to consolidate root sp allocation") has no obvious style problems and is ready for submission.

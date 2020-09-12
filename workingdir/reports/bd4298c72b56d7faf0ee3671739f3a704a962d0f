@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 110 lines checked
+
+Commit bd4298c72b56 ("arm64: stacktrace: Factor out some common code into on_stack()") has no obvious style problems and is ready for submission.

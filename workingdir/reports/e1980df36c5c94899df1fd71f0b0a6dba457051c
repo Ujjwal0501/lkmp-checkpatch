@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit e1980df36c5c ("iommu/amd: Remove PD_DMA_OPS_MASK") has no obvious style problems and is ready for submission.

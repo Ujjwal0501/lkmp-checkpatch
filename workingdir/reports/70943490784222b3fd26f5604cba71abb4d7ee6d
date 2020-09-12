@@ -1,0 +1,29 @@
+WARNING:TYPO_SPELLING: 'explicitely' may be misspelled - perhaps 'explicitly'?
+#20: 
+One needs to explicitely ask for its inclusion by using the LIBPFM4 make
+
+WARNING:REPEATED_WORD: Possible repeated word: 'events'
+#88: FILE: tools/perf/Documentation/perf-record.txt:619:
++--pfm-events events::
+
+WARNING:REPEATED_WORD: Possible repeated word: 'events'
+#110: FILE: tools/perf/Documentation/perf-stat.txt:75:
++--pfm-events events::
+
+WARNING:REPEATED_WORD: Possible repeated word: 'events'
+#131: FILE: tools/perf/Documentation/perf-top.txt:333:
++--pfm-events events::
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#287: 
+new file mode 100644
+
+total: 0 errors, 5 warnings, 808 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 709434907842 ("perf tools: Add optional support for libpfm4") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

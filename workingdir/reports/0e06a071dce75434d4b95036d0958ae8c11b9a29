@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#32: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#37: FILE: Documentation/userspace-api/media/v4l/vidioc-subdev-querycap.rst:1:
++.. Permission is granted to copy, distribute and/or modify this
+
+WARNING:REPEATED_WORD: Possible repeated word: 'device'
+#135: FILE: Documentation/userspace-api/media/v4l/vidioc-subdev-querycap.rst:99:
++      - The sub-device device node is registered in read-only mode.
+
+total: 0 errors, 3 warnings, 119 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0e06a071dce7 ("media: v4l: document VIDIOC_SUBDEV_QUERYCAP") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

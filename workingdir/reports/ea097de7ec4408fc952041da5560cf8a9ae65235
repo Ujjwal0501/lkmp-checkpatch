@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 19 lines checked
+
+Commit ea097de7ec44 ("staging: wfx: fix endianness of fields media_delay and tx_queue_delay") has no obvious style problems and is ready for submission.

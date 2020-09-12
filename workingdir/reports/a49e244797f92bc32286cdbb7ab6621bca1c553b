@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit a49e244797f9 ("ARM: dts: stm32: Enable I2C2 on DHCOM PDK2 carrier board") has no obvious style problems and is ready for submission.

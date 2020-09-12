@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c5ec874e55ba ("fs/xfs: Remove unnecessary initialization of i_rwsem") has no obvious style problems and is ready for submission.

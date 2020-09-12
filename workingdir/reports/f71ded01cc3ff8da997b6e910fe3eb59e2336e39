@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit f71ded01cc3f ("scsi: bfa: Remove unneeded semicolon in bfa_fcs_rport.c") has no obvious style problems and is ready for submission.

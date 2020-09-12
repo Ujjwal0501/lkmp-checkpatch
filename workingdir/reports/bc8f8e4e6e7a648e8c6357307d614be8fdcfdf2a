@@ -1,0 +1,21 @@
+WARNING:BAD_SIGN_OFF: 'Acked-by:' is the preferred signature form
+#17: 
+Acked-By: Anton Ivanov <anton.ivanov@cambridgegreys.com>
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#79: FILE: arch/um/drivers/vector_user.c:383:
++		printk(UM_KERN_ERR "fd open: bad or missing fd argument");
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#85: FILE: arch/um/drivers/vector_user.c:389:
++		printk(UM_KERN_ERR "fd open: allocation failed");
+
+total: 0 errors, 3 warnings, 83 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bc8f8e4e6e7a ("um: Add a generic "fd" vector transport") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

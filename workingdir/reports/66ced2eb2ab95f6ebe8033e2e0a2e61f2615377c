@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 66ced2eb2ab9 ("RDMA/srpt: Reduce max_recv_sge to 1") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 753 lines checked
+
+Commit 1b60d2ec982a ("btrfs: backref: rename and move handle_one_tree_block()") has no obvious style problems and is ready for submission.

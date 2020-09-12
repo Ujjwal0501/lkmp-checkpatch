@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 170 lines checked
+
+Commit e34aa5abfcf5 ("iwlwifi: pcie: remove occurrences of 22000 in the FW name defines") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit dbe9337109c2 ("sched/cpuacct: Fix charge cpuacct.usage_sys") has no obvious style problems and is ready for submission.

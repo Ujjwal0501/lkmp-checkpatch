@@ -1,0 +1,15 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct watchdog_device *' should also have an identifier name
+#67: FILE: include/linux/watchdog.h:48:
++	int (*stop)(struct watchdog_device *);
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Bumsik Kim <kbumsik@gmail.com>'
+
+total: 0 errors, 2 warnings, 34 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f249eef9e66e ("watchdog: clarify that stop() is optional") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

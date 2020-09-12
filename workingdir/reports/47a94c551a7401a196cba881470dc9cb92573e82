@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 106 lines checked
+
+Commit 47a94c551a74 ("platform/x86: dcdbas: Check SMBIOS for protected buffer address") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 54b7feb93fc3 ("drm/amdgpu: Avoid integer overflow in amdgpu_device_suspend_display_audio") has no obvious style problems and is ready for submission.

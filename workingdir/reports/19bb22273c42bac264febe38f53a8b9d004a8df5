@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit 19bb22273c42 ("i2c: mux: pca954x: Refactor pca954x_irq_handler()") has no obvious style problems and is ready for submission.

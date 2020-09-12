@@ -1,0 +1,82 @@
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#778: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/smu7_hwmgr.c:1095:
++		(0 == smum_send_msg_to_smc(hwmgr, PPSMC_MSG_DPM_Enable, NULL)),
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#1051: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/smu7_hwmgr.c:3966:
++					(PPSMC_Msg)PPSMC_MSG_SetVBITimeout_VEGAM, data->frame_time_x2,
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#2251: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega10_powertune.c:928:
++		smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_ConfigureGfxDidt, didt_block_info,
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#2309: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega12_baco.c:99:
++			if (smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_EnterBaco, 0, NULL))
+
+WARNING:LONG_LINE: line length of 119 exceeds 100 columns
+#2392: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega12_hwmgr.c:788:
++		smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_SetAllowedFeaturesMaskHigh, allowed_features_high,
+
+WARNING:LONG_LINE: line length of 117 exceeds 100 columns
+#2399: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega12_hwmgr.c:794:
++		smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_SetAllowedFeaturesMaskLow, allowed_features_low,
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#2455: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega12_hwmgr.c:915:
++		smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_GetDcModeMaxDpmFreq, (clkid << 16),
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#2628: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega12_hwmgr.c:1317:
++			smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_GetDpmClockFreq, (PPCLK_UCLK << 16),
+
+ERROR:SPACING: need consistent spacing around '/' (ctx:WxV)
+#2661: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega12_hwmgr.c:1508:
++					min_clocks.dcefClockInSR /100,
+ 					                         ^
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#2697: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega12_hwmgr.c:2359:
++				(PPCLK_UCLK << 16 ) | dpm_table->dpm_state.hard_min_level,
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#3277: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega20_hwmgr.c:2340:
++				(PPCLK_UCLK << 16 ) | dpm_table->dpm_state.hard_min_level,
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#3306: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega20_hwmgr.c:3513:
++				(PPCLK_UCLK << 16 ) | dpm_table->dpm_state.hard_min_level,
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#3316: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega20_hwmgr.c:3539:
++				(PPCLK_FCLK << 16 ) | dpm_table->dpm_state.soft_min_level,
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#3407: FILE: drivers/gpu/drm/amd/powerplay/hwmgr/vega20_hwmgr.c:4213:
++						  pstate ? XGMI_MODE_PSTATE_D0 : XGMI_MODE_PSTATE_D3,
+
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#3667: FILE: drivers/gpu/drm/amd/powerplay/smumgr/polaris10_smumgr.c:102:
++		if (0 != smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_PerformBtc, smu_data->avfs_btc_param,
+
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#3667: FILE: drivers/gpu/drm/amd/powerplay/smumgr/polaris10_smumgr.c:102:
++		if (0 != smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_PerformBtc, smu_data->avfs_btc_param,
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#4315: FILE: drivers/gpu/drm/amd/powerplay/smumgr/vega12_smumgr.c:207:
++					lower_32_bits(priv->smu_tables.entry[TABLE_PMSTATUSLOG].mc_addr),
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#4471: FILE: drivers/gpu/drm/amd/powerplay/smumgr/vega20_smumgr.c:391:
++					lower_32_bits(priv->smu_tables.entry[TABLE_PMSTATUSLOG].mc_addr),
+
+total: 5 errors, 13 warnings, 4047 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a0ec225633d9 ("drm/amd/powerplay: unified interfaces for message issuing and response checking") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

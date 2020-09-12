@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 38 lines checked
+
+Commit 2318976619da ("ARM: 8976/1: module: allow arch overrides for .init section names") has no obvious style problems and is ready for submission.

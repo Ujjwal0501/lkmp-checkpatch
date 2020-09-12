@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 700 lines checked
+
+Commit e8a7fdc505bb ("arm64: dts: ipq8074: qcom: Re-arrange dts nodes based on address") has no obvious style problems and is ready for submission.

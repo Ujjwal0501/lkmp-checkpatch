@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit cd07ecccba13 ("net: ena: xdp: XDP_TX: fix memory leak") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#10: 
+cc1: warning: writing 8 bytes into a region of size 0 [-Wstringop-overflow=]
+
+total: 0 errors, 1 warnings, 12 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d26c0cc53950 ("bpf: Avoid gcc-10 stringop-overflow warning in struct bpf_prog") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

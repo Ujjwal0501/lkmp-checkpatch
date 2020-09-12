@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 43 lines checked
+
+Commit b86b0b150fed ("Bluetooth: L2CAP: Fix handling LE modes by L2CAP_OPTIONS") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 52 lines checked
+
+Commit db30a57779b1 ("net: Add testing sysfs attribute") has no obvious style problems and is ready for submission.

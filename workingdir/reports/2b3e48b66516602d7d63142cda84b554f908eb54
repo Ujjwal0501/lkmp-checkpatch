@@ -1,0 +1,13 @@
+CHECK:CAMELCASE: Avoid CamelCase: <IntrMitigate>
+#115: FILE: drivers/net/ethernet/realtek/r8169_main.c:1921:
++	RTL_W16(tp, IntrMitigate, w);
+
+total: 0 errors, 0 warnings, 1 checks, 97 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2b3e48b66516 ("r8169: improve rtl_set_coalesce") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

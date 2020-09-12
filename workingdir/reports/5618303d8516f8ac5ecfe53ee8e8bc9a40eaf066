@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 5618303d8516 ("cifs: update ctime and mtime during truncate") has no obvious style problems and is ready for submission.

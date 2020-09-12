@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 93581359e7ae ("libbpf: Install headers as part of make install") has no obvious style problems and is ready for submission.

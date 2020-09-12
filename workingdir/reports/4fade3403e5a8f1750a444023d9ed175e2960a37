@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 4fade3403e5a ("ARM: dts: pxa168: Add missing address/size cells to i2c nodes") has no obvious style problems and is ready for submission.

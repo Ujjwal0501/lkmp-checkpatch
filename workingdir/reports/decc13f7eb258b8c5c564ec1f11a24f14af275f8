@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 13 lines checked
+
+Commit decc13f7eb25 ("svcrdma: Displayed remote IP address should match stored address") has no obvious style problems and is ready for submission.

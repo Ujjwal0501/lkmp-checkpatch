@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit afbc9c9e8bfe ("cfg80211: add a helper to identify 6 GHz PSCs") has no obvious style problems and is ready for submission.

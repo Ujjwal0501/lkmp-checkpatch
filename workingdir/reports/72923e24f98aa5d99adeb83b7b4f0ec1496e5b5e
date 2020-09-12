@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 72923e24f98a ("drm/nouveau/kms/nv50-: bail from nv50_audio_disable() early if audio not enabled") has no obvious style problems and is ready for submission.

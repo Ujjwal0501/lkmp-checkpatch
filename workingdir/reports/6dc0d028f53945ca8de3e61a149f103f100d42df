@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'evalution' may be misspelled - perhaps 'evaluation'?
+#159: FILE: drivers/gpu/drm/i915/gt/selftest_rps.c:285:
++			pr_notice("%s: rps evalution interval not ticking\n",
+
+total: 0 errors, 1 warnings, 193 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6dc0d028f539 ("drm/i915/gt: Fix up clock frequency") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

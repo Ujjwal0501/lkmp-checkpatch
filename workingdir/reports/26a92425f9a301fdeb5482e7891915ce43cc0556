@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 26a92425f9a3 ("efi/x86: Remove __efistub_global and add relocation check") has no obvious style problems and is ready for submission.

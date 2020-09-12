@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 0755e85570a4 ("powerpc/xive: Do not expose a debugfs file when XIVE is disabled") has no obvious style problems and is ready for submission.

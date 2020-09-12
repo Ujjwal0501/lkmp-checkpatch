@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit d074684a268d ("dt-bindings: i2c: i2c-stm32f7: add st,stm32mp15-i2c compatible") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 00fdec98d988 ("ARC: entry: fix potential EFA clobber when TIF_SYSCALL_TRACE") has no obvious style problems and is ready for submission.

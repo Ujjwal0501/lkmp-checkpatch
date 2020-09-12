@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 35b371ff0141 ("blk-mq: remove a pointless queue enter pair in blk_mq_alloc_request_hctx") has no obvious style problems and is ready for submission.

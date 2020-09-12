@@ -1,0 +1,41 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#232: FILE: drivers/gpu/drm/i915/intel_pm.c:5735:
++				    "[PLANE:%d:%s]   level %cwm0,%cwm1,%cwm2,%cwm3,%cwm4,%cwm5,%cwm6,%cwm7,%ctwm,%cswm"
++				    " -> %cwm0,%cwm1,%cwm2,%cwm3,%cwm4,%cwm5,%cwm6,%cwm7,%ctwm,%cswm\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#252: FILE: drivers/gpu/drm/i915/intel_pm.c:5752:
++				    "[PLANE:%d:%s]   lines %c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d"
++				      " -> %c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d,%c%3d\n",
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#260: FILE: drivers/gpu/drm/i915/intel_pm.c:5763:
++				    enast(old_wm->sagv_wm0.ignore_lines), old_wm->sagv_wm0.plane_res_l,
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#269: FILE: drivers/gpu/drm/i915/intel_pm.c:5773:
++				    enast(new_wm->trans_wm.ignore_lines), new_wm->trans_wm.plane_res_l,
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#270: FILE: drivers/gpu/drm/i915/intel_pm.c:5774:
++				    enast(new_wm->sagv_wm0.ignore_lines), new_wm->sagv_wm0.plane_res_l);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#276: FILE: drivers/gpu/drm/i915/intel_pm.c:5778:
++				    "[PLANE:%d:%s]  blocks %4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d"
++				    " -> %4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#296: FILE: drivers/gpu/drm/i915/intel_pm.c:5795:
++				    "[PLANE:%d:%s] min_ddb %4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d"
++				    " -> %4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d,%4d\n",
+
+total: 0 errors, 7 warnings, 251 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7241c57d3140 ("drm/i915: Add TGL+ SAGV support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

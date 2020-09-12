@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit f73a047456e2 ("iio: light: bh1780: use mod_devicetable.h and drop of_match_ptr macro") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'git'
+#25: FILE: MAINTAINERS:3321:
++T:	git git://git.kernel.org/pub/scm/linux/kernel/git/nsaenz/linux-rpi.git
+
+total: 0 errors, 1 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9442c09e784d ("MAINTAINERS: Update Raspberry Pi development repository") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

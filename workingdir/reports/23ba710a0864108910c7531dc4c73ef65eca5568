@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 158 lines checked
+
+Commit 23ba710a0864 ("x86/mce: Fix all mce notifiers to update the mce->kflags bitmask") has no obvious style problems and is ready for submission.

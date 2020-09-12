@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit b0275d956fab ("ASoC: soc-card: add snd_soc_card_remove()") has no obvious style problems and is ready for submission.

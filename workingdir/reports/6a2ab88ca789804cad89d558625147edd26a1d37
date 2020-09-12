@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 6a2ab88ca789 ("ARM: configs: at91: sama5: enable MCP16502 regulator") has no obvious style problems and is ready for submission.

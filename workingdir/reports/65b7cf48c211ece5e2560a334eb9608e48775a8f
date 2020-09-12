@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 65b7cf48c211 ("usb: cdns3: trace: fix some endian issues") has no obvious style problems and is ready for submission.

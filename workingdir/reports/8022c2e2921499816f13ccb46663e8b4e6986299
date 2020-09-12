@@ -1,0 +1,38 @@
+WARNING:LONG_LINE: line length of 125 exceeds 100 columns
+#71: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1357:
++			binary->sctbl_width_per_color = _ISP2400_SCTBL_WIDTH_PER_COLOR(sc_3a_dis_padded_width, s3a_log_deci);
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#74: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1359:
++			binary->sctbl_height = _ISP2400_SCTBL_HEIGHT(sc_3a_dis_height, s3a_log_deci);
+
+WARNING:LONG_LINE: line length of 121 exceeds 100 columns
+#77: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1361:
++			binary->sctbl_width_per_color = _ISP2401_SCTBL_WIDTH_PER_COLOR(isp_internal_width, s3a_log_deci);
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#81: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/binary/src/binary.c:1363:
++			binary->sctbl_height = _ISP2401_SCTBL_HEIGHT(isp_internal_height, s3a_log_deci);
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#108: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_defs.h:264:
++ * one more grid cell is needed as margin. */
+
+WARNING:LONG_LINE_COMMENT: line length of 109 exceeds 100 columns
+#111: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_defs.h:267:
++/* The shading table width and height are the number of grids, not cells. The last grid should be counted. */
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#124: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_defs.h:280:
++
++
+
+total: 0 errors, 6 warnings, 1 checks, 97 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8022c2e29214 ("media: atomisp: get rid of ia_css_sc_param.h version dependency") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

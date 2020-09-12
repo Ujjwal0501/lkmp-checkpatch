@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 9a8074e3bcd7 ("ath11k: fix error message to correctly report the command that failed") has no obvious style problems and is ready for submission.

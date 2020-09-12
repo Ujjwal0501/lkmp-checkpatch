@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 113 lines checked
+
+Commit 72f9525ad76b ("virtio-mem: Try to unplug the complete online memory block first") has no obvious style problems and is ready for submission.

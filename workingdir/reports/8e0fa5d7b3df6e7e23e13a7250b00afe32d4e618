@@ -1,0 +1,17 @@
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#42: FILE: fs/btrfs/btrfs_inode.h:324:
++	smp_mb();
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#47: FILE: fs/btrfs/btrfs_inode.h:329:
++	smp_mb__before_atomic();
+
+total: 0 errors, 2 warnings, 40 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8e0fa5d7b3df ("Revert "btrfs: remove BTRFS_INODE_READDIO_NEED_LOCK"") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

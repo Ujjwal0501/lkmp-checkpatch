@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#25: 
+new file mode 100644
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#107: FILE: Documentation/ABI/testing/sysfs-class-rtrs-client:78:
++Description:	RO, Contains the the name of HCA the connection established on.
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#193: FILE: Documentation/ABI/testing/sysfs-class-rtrs-server:27:
++Description:	RO, Contains the the name of HCA the connection established on.
+
+total: 0 errors, 3 warnings, 397 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 745b6a3d4a67 ("RDMA/rtrs: a bit of documentation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

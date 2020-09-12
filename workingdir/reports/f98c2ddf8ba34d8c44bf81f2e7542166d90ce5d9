@@ -1,0 +1,17 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct se_cmd *' should also have an identifier name
+#64: FILE: include/target/target_core_fabric.h:155:
++sense_reason_t target_cmd_init_cdb(struct se_cmd *, unsigned char *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'unsigned char *' should also have an identifier name
+#64: FILE: include/target/target_core_fabric.h:155:
++sense_reason_t target_cmd_init_cdb(struct se_cmd *, unsigned char *);
+
+total: 0 errors, 2 warnings, 36 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f98c2ddf8ba3 ("scsi: target: Factor out a new helper, target_cmd_init_cdb()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

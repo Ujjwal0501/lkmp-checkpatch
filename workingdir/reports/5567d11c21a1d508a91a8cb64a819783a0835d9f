@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'singal' may be misspelled - perhaps 'signal'?
+#4: 
+Subject: [PATCH] x86/mce: Send #MC singal from task work
+
+total: 0 errors, 1 warnings, 105 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5567d11c21a1 ("x86/mce: Send #MC singal from task work") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

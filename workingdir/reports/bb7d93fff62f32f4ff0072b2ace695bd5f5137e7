@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit bb7d93fff62f ("drm: encoder_slave: use new I2C API") has no obvious style problems and is ready for submission.

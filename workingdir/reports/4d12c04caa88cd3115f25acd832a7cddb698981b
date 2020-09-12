@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 79 lines checked
+
+Commit 4d12c04caa88 ("RDMA: Remove 'max_map_per_fmr'") has no obvious style problems and is ready for submission.

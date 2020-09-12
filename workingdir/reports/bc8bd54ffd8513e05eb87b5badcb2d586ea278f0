@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit bc8bd54ffd85 ("drm/msm: Fix 0xfffflub in "Refactor address space initialization"") has no obvious style problems and is ready for submission.

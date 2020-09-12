@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 65 lines checked
+
+Commit ce3d9544ceca ("net: add sock_set_keepalive") has no obvious style problems and is ready for submission.

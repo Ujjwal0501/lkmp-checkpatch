@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#83: FILE: drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c:6834:
++				acrtc_state->stream->link->psr_settings.psr_version != PSR_VERSION_UNSUPPORTED &&
+
+WARNING:LONG_LINE: line length of 116 exceeds 100 columns
+#196: FILE: drivers/gpu/drm/amd/display/dc/core/dc_link.c:2529:
++	else if ((dmcu != NULL && dmcu->funcs->is_dmcu_initialized(dmcu)) && link->psr_settings.psr_feature_enabled)
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#221: FILE: drivers/gpu/drm/amd/display/dc/core/dc_link.c:2716:
++		link->psr_settings.psr_feature_enabled = psr->funcs->psr_copy_settings(psr, link, psr_context);
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#224: FILE: drivers/gpu/drm/amd/display/dc/core/dc_link.c:2718:
++		link->psr_settings.psr_feature_enabled = dmcu->funcs->setup_psr(dmcu, link, psr_context);
+
+total: 0 errors, 4 warnings, 291 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d1ebfdd8d0fc ("drm/amd/display: Unify psr feature flags") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

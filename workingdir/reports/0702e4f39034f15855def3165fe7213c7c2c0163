@@ -1,0 +1,15 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#56: FILE: fs/ocfs2/dlmfs/dlmfs.c:253:
++		BUG_ON(got != count);
+
+total: 0 errors, 2 warnings, 57 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0702e4f39034 ("dlmfs: convert dlmfs_file_read() to copy_to_user()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

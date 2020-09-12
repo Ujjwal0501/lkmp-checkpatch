@@ -1,0 +1,15 @@
+WARNING:TYPO_SPELLING: 'preceeding' may be misspelled - perhaps 'preceding'?
+#8: 
+This is made possible by a preceeding patch which added a drmm_
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Daniel Vetter <daniel.vetter@ffwll.ch>'
+
+total: 0 errors, 2 warnings, 29 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fe1cc102a381 ("drm/ingenic: Drop explicit drm_mode_config_cleanup call") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

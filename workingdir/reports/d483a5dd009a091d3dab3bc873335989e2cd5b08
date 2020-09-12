@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit d483a5dd009a ("mm: vmscan: limit the range of LRU type balancing") has no obvious style problems and is ready for submission.

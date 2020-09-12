@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 8b0401373734 ("pNFS/flexfiles: Fix list corruption if the mirror count changes") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit e955f959ac52 ("media: si2157: Better check for running tuner in init") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#69: FILE: drivers/gpu/drm/amd/display/dc/dce/dmub_abm.c:367:
++	cmd.abm_init_config.abm_init_config_data.src.quad_part = dc->dmub_srv->dmub->scratch_mem_fb.gpu_addr;
+
+total: 0 errors, 1 warnings, 91 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c5d5b0ecf9c8 ("drm/amd/display: Implement abm config table copy to dmcub") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

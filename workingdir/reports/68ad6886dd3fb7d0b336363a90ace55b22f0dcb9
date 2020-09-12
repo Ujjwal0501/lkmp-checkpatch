@@ -1,0 +1,14 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#27: FILE: net/ipv6/addrconf.c:2787:
++static int addrconf_set_sit_dstaddr(struct net *net, struct net_device *dev,
++		struct in6_ifreq *ireq)
+
+total: 0 errors, 0 warnings, 1 checks, 106 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 68ad6886dd3f ("ipv6: streamline addrconf_set_dstaddr") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

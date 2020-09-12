@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#41: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:740:
++			dc->res_pool->hubbub->funcs->allow_self_refresh_control(dc->res_pool->hubbub,
+
+WARNING:LONG_LINE: line length of 135 exceeds 100 columns
+#42: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:741:
++										!dc->res_pool->hubbub->ctx->dc->debug.disable_stutter);
+
+total: 0 errors, 2 warnings, 16 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 087a1ff8fbd0 ("drm/amd/display: Fix disable_stutter debug option") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,145 @@
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#1793: FILE: kernel/sysctl.c:1577:
++	return -ENOSYS;
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#1799: FILE: kernel/sysctl.c:1583:
++	return -ENOSYS;
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#1805: FILE: kernel/sysctl.c:1589:
++	return -ENOSYS;
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#1811: FILE: kernel/sysctl.c:1595:
++	return -ENOSYS;
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#1817: FILE: kernel/sysctl.c:1601:
++	return -ENOSYS;
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#1823: FILE: kernel/sysctl.c:1607:
++	return -ENOSYS;
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1847: FILE: kernel/sysctl.c:1626:
++    return -ENOSYS;$
+
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#1847: FILE: kernel/sysctl.c:1626:
++    return -ENOSYS;
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#2133: FILE: kernel/sysctl.c:1902:
++^I^I.maxlen ^I= sizeof(long),$
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2183: FILE: kernel/sysctl.c:1952:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2190: FILE: kernel/sysctl.c:1959:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2199: FILE: kernel/sysctl.c:1968:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2208: FILE: kernel/sysctl.c:1977:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2217: FILE: kernel/sysctl.c:1986:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2314: FILE: kernel/sysctl.c:2083:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2332: FILE: kernel/sysctl.c:2101:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2341: FILE: kernel/sysctl.c:2110:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2400: FILE: kernel/sysctl.c:2169:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2480: FILE: kernel/sysctl.c:2249:
++		.maxlen		= sizeof (int),
+
+WARNING:NR_CPUS: usage of NR_CPUS is often wrong - consider using cpu_possible(), num_possible_cpus(), for_each_possible_cpu(), etc
+#2522: FILE: kernel/sysctl.c:2291:
++		.maxlen		= NR_CPUS,
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2585: FILE: kernel/sysctl.c:2354:
++		.maxlen         = sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2617: FILE: kernel/sysctl.c:2386:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2624: FILE: kernel/sysctl.c:2393:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2649: FILE: kernel/sysctl.c:2418:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2658: FILE: kernel/sysctl.c:2427:
++		.maxlen		= sizeof (unsigned long),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2667: FILE: kernel/sysctl.c:2436:
++		.maxlen		= sizeof (int),
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#2676: FILE: kernel/sysctl.c:2445:
++		.maxlen		= sizeof (int),
+
+WARNING:TABSTOP: Statements should start on a tabstop
+#3020: FILE: kernel/sysctl.c:2784:
++	 {
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#3155: FILE: kernel/sysctl.c:2919:
++    defined(CONFIG_ARCH_WANT_DEFAULT_TOPDOWN_MMAP_LAYOUT)$
+
+ERROR:SPACING: spaces required around that '||' (ctx:VxE)
+#3227: FILE: kernel/sysctl.c:2991:
++#if (defined(CONFIG_X86_32) && !defined(CONFIG_UML))|| \
+                                                     ^
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#3228: FILE: kernel/sysctl.c:2992:
++   (defined(CONFIG_SUPERH) && defined(CONFIG_VSYSCALL))$
+
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#3444: FILE: kernel/sysctl.c:3203:
++#endif^I$
+
+WARNING:PREFER_IS_ENABLED: Prefer IS_ENABLED(<FOO>) to CONFIG_<FOO> || CONFIG_<FOO>_MODULE
+#3498: FILE: kernel/sysctl.c:3257:
++#if defined(CONFIG_BINFMT_MISC) || defined(CONFIG_BINFMT_MISC_MODULE)
+
+total: 2 errors, 31 warnings, 3624 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit f461d2dcd511 ("sysctl: avoid forward declarations") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

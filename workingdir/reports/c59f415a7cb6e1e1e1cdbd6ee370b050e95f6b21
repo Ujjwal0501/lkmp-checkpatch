@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit c59f415a7cb6 ("Use proc_pid_ns() to get pid_namespace from the proc superblock") has no obvious style problems and is ready for submission.

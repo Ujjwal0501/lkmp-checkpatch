@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 2f5f5302c569 ("spi: bcm-qspi: MSPI_SPCR0_MSB MSTR bit exists only on legacy controllers") has no obvious style problems and is ready for submission.

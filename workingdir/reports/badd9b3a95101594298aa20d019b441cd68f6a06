@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 298 lines checked
+
+Commit badd9b3a9510 ("media: atomisp: isp_const.h: get rid of an unused big define list") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 83 lines checked
+
+Commit 1032095053b3 ("EDAC/skx: Use the mcmtr register to retrieve close_pg/bank_xor_enable") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 51d6bba66113 ("ARM: dts: pxa168: Fix the gpio interrupt cell number") has no obvious style problems and is ready for submission.

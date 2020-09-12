@@ -1,0 +1,18 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'is'
+#16: 
+The old API is updated to call the new API and is is left there in the
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#396: FILE: drivers/platform/x86/intel_scu_ipc.c:418:
++	u8 tmp[2] = { data, mask };
++	return pwr_reg_rdwr(scu, &addr, tmp, 1, IPCMSG_PCNTRL, IPC_CMD_PCNTRL_M);
+
+total: 0 errors, 2 warnings, 492 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f57fa18583f5 ("platform/x86: intel_scu_ipc: Introduce new SCU IPC API") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

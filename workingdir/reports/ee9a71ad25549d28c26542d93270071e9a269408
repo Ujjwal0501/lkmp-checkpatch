@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ee9a71ad2554 ("ARM: samsung: Omit superfluous error message in s3c_adc_probe()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 80 lines checked
+
+Commit a66d21d7dba8 ("usb: xhci: Add support for Renesas controller with memory") has no obvious style problems and is ready for submission.

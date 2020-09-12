@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit c8ffcd122760 ("ath11k: convert to devm_platform_get_and_ioremap_resource") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit 55714cddbf10 ("KVM: nSVM: Move SMI vmexit handling to svm_check_nested_events()") has no obvious style problems and is ready for submission.

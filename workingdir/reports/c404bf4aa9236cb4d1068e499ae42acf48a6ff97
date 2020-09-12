@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 71 lines checked
+
+Commit c404bf4aa923 ("USB: serial: ch341: add basis for quirk detection") has no obvious style problems and is ready for submission.

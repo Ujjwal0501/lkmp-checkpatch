@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit dbe0241570ed ("mtd: rawnand: gpio: Stop using nand_release()") has no obvious style problems and is ready for submission.

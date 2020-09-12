@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 8dd4daa04278 ("arm64: mm: reset address tag set by kasan sw tagging") has no obvious style problems and is ready for submission.

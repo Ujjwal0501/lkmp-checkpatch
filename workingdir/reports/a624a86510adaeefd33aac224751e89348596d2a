@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 201 lines checked
+
+Commit a624a86510ad ("crypto/chtls:Fix compile error when CONFIG_IPV6 is disabled") has no obvious style problems and is ready for submission.

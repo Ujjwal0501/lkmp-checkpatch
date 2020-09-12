@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 59476f80d878 ("efi/x86: Only copy upto the end of setup_header") has no obvious style problems and is ready for submission.

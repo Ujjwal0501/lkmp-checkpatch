@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ed2ac8116ff2 ("i2c: nvidia-gpu: Use PTR_ERR_OR_ZERO() to simplify code") has no obvious style problems and is ready for submission.

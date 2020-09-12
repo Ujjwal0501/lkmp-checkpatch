@@ -1,0 +1,29 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#101: FILE: drivers/gpu/drm/nouveau/nouveau_display.c:194:
++	BUG_ON(!tile_mode || !kind);
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#146: FILE: drivers/gpu/drm/nouveau/nouveau_display.c:239:
++	if (drm->client.device.info.family < NV_DEVICE_INFO_V0_TESLA) {
++		return -EINVAL;
++	}
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#150: FILE: drivers/gpu/drm/nouveau/nouveau_display.c:243:
++	BUG_ON(!disp->format_modifiers);
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#152: FILE: drivers/gpu/drm/nouveau/nouveau_display.c:245:
++	for (mod = 0;
+[...]
++	     mod++);
+
+total: 1 errors, 3 warnings, 184 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fa4f4c213f5f ("drm/nouveau/kms: Support NVIDIA format modifiers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

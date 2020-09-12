@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit de46e0289310 ("power: supply: core: reduce power_supply_show_usb_type() parameters") has no obvious style problems and is ready for submission.

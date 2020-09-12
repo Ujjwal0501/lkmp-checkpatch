@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit dce4f2807f69 ("arm64: Add MIDR value for KRYO4XX gold CPU cores") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 5e23663b49e1 ("fanotify: don't write with size under sizeof(response)") has no obvious style problems and is ready for submission.

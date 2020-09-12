@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 45 lines checked
+
+Commit fecd8833cc48 ("media: atomisp: Use temporary variable for device in gmin_subdev_add()") has no obvious style problems and is ready for submission.

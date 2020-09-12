@@ -1,0 +1,29 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#18: 
+  2ebb17717550 ("sched/core: Offload wakee task activation if it the wakee is descheduling")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 2ebb17717550 ("sched/core: Offload wakee task activation if it the wakee is descheduling")'
+#18: 
+  2ebb17717550 ("sched/core: Offload wakee task activation if it the wakee is descheduling")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit c6e7bd7afaeb ("sched/core: Optimize ttwu() spinning on p->on_cpu")'
+#24: 
+  c6e7bd7afaeb ("sched/core: Optimize ttwu() spinning on p->on_cpu")
+
+WARNING:TYPO_SPELLING: 'existant' may be misspelled - perhaps 'existent'?
+#41: 
+is from the wrong CPU, therefore we'll iterate into the non-existant
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#201: FILE: kernel/sched/core.c:2638:
++	if (smp_load_acquire(&p->on_cpu) &&
+
+total: 2 errors, 3 warnings, 77 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b6e13e85829f ("sched/core: Fix ttwu() race") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 29 lines checked
+
+Commit e1ebe9f9c88e ("media: staging: imgu: do not hold spinlock during freeing mmu page table") has no obvious style problems and is ready for submission.

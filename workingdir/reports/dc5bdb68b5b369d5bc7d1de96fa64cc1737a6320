@@ -1,0 +1,19 @@
+WARNING:TYPO_SPELLING: 'wheter' may be misspelled - perhaps 'whether'?
+#33: 
+While pondering all this I'm also wondering wheter we should have a
+
+WARNING:BAD_SIGN_OFF: 'Reported-and-tested-by:' is the preferred signature form
+#44: 
+Reported-and-Tested-by: shlomo@fastmail.com
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Daniel Vetter <daniel.vetter@ffwll.ch>'
+
+total: 0 errors, 3 warnings, 109 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dc5bdb68b5b3 ("drm/fb-helper: Fix vt restore") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

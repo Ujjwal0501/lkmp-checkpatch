@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 45 lines checked
+
+Commit d08a4095abd8 ("soc/tegra: fuse: Trivial clean-up of tegra_init_revision()") has no obvious style problems and is ready for submission.

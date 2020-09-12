@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit fb0ab17f1ab7 ("arm64: dts: rockchip: add bus-width properties to mmc nodes for px30") has no obvious style problems and is ready for submission.

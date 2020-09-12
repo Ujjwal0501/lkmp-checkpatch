@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 147 lines checked
+
+Commit 3ec1b26c04d4 ("xfs: use a xfs_btree_cur for the ->finish_cleanup state") has no obvious style problems and is ready for submission.

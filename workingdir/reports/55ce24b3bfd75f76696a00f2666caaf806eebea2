@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 55ce24b3bfd7 ("scsi: hisi_sas: Display proc_name in sysfs") has no obvious style problems and is ready for submission.

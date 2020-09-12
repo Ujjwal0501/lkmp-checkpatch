@@ -1,0 +1,42 @@
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#104: FILE: include/asm-generic/pgtable.h:1237:
++typedef unsigned int pgtbl_mod_mask;
+
+ERROR:SPACING: spaces required around that '|=' (ctx:VxV)
+#174: FILE: include/linux/mm.h:2259:
++	  (__pte_alloc_kernel(pmd) || ({*(mask)|=PGTBL_PMD_MODIFIED;0;})))?\
+ 	                                       ^
+
+ERROR:SPACING: space required after that ';' (ctx:VxV)
+#174: FILE: include/linux/mm.h:2259:
++	  (__pte_alloc_kernel(pmd) || ({*(mask)|=PGTBL_PMD_MODIFIED;0;})))?\
+ 	                                                           ^
+
+ERROR:SPACING: space required after that ';' (ctx:VxV)
+#174: FILE: include/linux/mm.h:2259:
++	  (__pte_alloc_kernel(pmd) || ({*(mask)|=PGTBL_PMD_MODIFIED;0;})))?\
+ 	                                                             ^
+
+ERROR:SPACING: spaces required around that '?' (ctx:VxE)
+#174: FILE: include/linux/mm.h:2259:
++	  (__pte_alloc_kernel(pmd) || ({*(mask)|=PGTBL_PMD_MODIFIED;0;})))?\
+ 	                                                                  ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#175: FILE: include/linux/mm.h:2260:
++		NULL: pte_offset_kernel(pmd, address))
+ 		    ^
+
+WARNING:INDENTED_LABEL: labels should not be indented
+#175: FILE: include/linux/mm.h:2260:
++		NULL: pte_offset_kernel(pmd, address))
+
+total: 5 errors, 2 warnings, 105 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d8626138009b ("mm: add functions to track page directory modifications") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

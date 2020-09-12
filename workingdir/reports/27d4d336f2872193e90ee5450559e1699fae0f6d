@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 197 lines checked
+
+Commit 27d4d336f287 ("tools lib traceevent: Add append() function helper for appending strings") has no obvious style problems and is ready for submission.

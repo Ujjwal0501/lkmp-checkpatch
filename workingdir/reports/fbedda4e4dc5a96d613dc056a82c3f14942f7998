@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit fbedda4e4dc5 ("PCI: keystone: Don't select CONFIG_PCI_KEYSTONE_HOST by default") has no obvious style problems and is ready for submission.

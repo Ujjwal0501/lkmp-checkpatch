@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit b8f2935f7244 ("mm, memcg: fix some typos in memcontrol.c") has no obvious style problems and is ready for submission.

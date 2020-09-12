@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 24552d10339f ("efi/libstub: Fix missing-prototype warning for skip_spaces()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 216 exceeds 100 columns
+#143: FILE: drivers/gpu/drm/i915/display/intel_fbc.c:536:
++		drm_info_once(&dev_priv->drm, "not enough stolen space for compressed buffer (need %d more bytes), disabling. Hint: you may be able to increase stolen memory size in the BIOS to avoid this.\n", size);
+
+total: 0 errors, 1 warnings, 90 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 97ed48b5c8b1 ("drm/i915/fbc: convert to drm_device based logging macros.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

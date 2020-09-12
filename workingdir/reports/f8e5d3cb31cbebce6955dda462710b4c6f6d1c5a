@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit f8e5d3cb31cb ("i2c: pxa: add and use definitions for IBMR register") has no obvious style problems and is ready for submission.

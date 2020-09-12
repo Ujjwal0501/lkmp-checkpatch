@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 129 exceeds 100 columns
+#55: FILE: drivers/gpu/drm/drm_dp_helper.c:1183:
++	{ OUI(0x00, 0x10, 0xfa), DEVICE_ID(101, 68, 21, 101, 98, 97), false, BIT(DP_DPCD_QUIRK_CAN_DO_MAX_LINK_RATE_3_24_GBPS) },
+
+total: 0 errors, 1 warnings, 38 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 639e0db2d70f ("drm/i915/dp: Add dpcd link_rate quirk for Apple 15" MBP 2017 (v3)") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

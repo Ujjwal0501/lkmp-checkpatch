@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit ad03da58ea57 ("media: ti-vpe: cal: remove useless CAL_GEN_* macros") has no obvious style problems and is ready for submission.

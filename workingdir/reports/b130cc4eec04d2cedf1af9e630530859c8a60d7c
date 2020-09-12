@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 51 lines checked
+
+Commit b130cc4eec04 ("drm/amd/display: temporary clamp the vratio used to 1.0") has no obvious style problems and is ready for submission.

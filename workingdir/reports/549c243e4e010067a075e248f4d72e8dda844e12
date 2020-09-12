@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#43: 
+new file mode 100644
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#211: FILE: drivers/net/ethernet/mellanox/mlx5/core/en/rep/neigh.c:164:
++	/* This assignment is valid as long as the the neigh reference
+
+total: 0 errors, 2 warnings, 0 checks, 802 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 549c243e4e01 ("net/mlx5e: Extract neigh-specific code from en_rep.c to rep/neigh.c") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

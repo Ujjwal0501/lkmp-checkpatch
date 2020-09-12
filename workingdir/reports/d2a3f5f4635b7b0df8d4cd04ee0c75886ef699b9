@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit d2a3f5f4635b ("Bluetooth: Add HCI device identifier for VIRTIO devices") has no obvious style problems and is ready for submission.

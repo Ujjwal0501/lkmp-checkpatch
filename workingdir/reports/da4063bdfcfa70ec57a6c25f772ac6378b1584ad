@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit da4063bdfcfa ("netlink: allow NLA_MSECS to have range validation") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c0901577e1dc ("kbuild: doc: rename LDFLAGS to KBUILD_LDFLAGS") has no obvious style problems and is ready for submission.

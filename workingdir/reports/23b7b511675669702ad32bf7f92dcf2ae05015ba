@@ -1,0 +1,13 @@
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#27: FILE: drivers/net/ethernet/intel/igc/igc_main.c:2204:
++		return -ENOTSUPP;
+
+total: 0 errors, 1 warnings, 0 checks, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 23b7b5116756 ("igc: Check unsupported flag in igc_add_mac_filter()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

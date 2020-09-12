@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 626a83238e6a ("net: dsa: felix: accept VLAN config regardless of bridge VLAN awareness state") has no obvious style problems and is ready for submission.

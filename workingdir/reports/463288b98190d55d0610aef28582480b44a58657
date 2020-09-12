@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 167 lines checked
+
+Commit 463288b98190 ("staging: vt6556: vnt_rf_setpower convert to use ieee80211_channel.") has no obvious style problems and is ready for submission.

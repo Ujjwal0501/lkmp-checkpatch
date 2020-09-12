@@ -1,0 +1,13 @@
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#85: FILE: tools/objtool/arch/x86/decode.c:490:
++		/* fallthrough */
+
+total: 0 errors, 1 warnings, 89 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b490f4536200 ("objtool: Move the IRET hack into the arch decoder") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

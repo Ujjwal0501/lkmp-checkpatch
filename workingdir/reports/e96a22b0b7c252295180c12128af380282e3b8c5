@@ -1,0 +1,28 @@
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#91: FILE: drivers/scsi/lpfc/lpfc_nvme.c:818:
++		lpfc_printf_log(phba, KERN_ERR,
++				LOG_NVME_DISC | LOG_NODE |
++					LOG_NVME_IOERR | LOG_NVME_ABTS,
++				"6049 NVMEx LS REQ Abort: Bad NDLP x%px DID "
++				"x%06x, Failing LS Req\n",
++				ndlp, ndlp ? ndlp->nlp_DID : 0);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#95: FILE: drivers/scsi/lpfc/lpfc_nvme.c:822:
++				"6049 NVMEx LS REQ Abort: Bad NDLP x%px DID "
++				"x%06x, Failing LS Req\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#107: FILE: drivers/scsi/lpfc/lpfc_nvme.c:829:
++			 "6040 NVMEx LS REQ Abort: Issue LS_ABORT for lsreq "
++			 "x%p rqstlen:%d rsplen:%d %pad %pad\n",
+
+total: 0 errors, 3 warnings, 166 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e96a22b0b7c2 ("lpfc: Refactor Send LS Abort support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

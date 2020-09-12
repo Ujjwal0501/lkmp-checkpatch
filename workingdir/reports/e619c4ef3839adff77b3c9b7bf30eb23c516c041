@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 109 lines checked
+
+Commit e619c4ef3839 ("ARM: dts: s5pv210: Add remaining i2c-gpio adapters to Aries boards") has no obvious style problems and is ready for submission.

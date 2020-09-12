@@ -1,0 +1,14 @@
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#164: FILE: fs/nfsd/nfscache.c:149:
++	return drc_slab ? 0: -ENOMEM;
+ 	                   ^
+
+total: 1 errors, 0 warnings, 116 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 027690c75e8f ("nfsd4: make drc_slab global, not per-net") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

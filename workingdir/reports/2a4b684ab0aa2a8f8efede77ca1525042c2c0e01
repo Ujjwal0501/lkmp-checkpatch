@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 2a4b684ab0aa ("scsi: qla2xxx: Use make_handle() instead of open-coding it") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit e000940473d1 ("bnxt_en: Return from timer if interface is not in open state.") has no obvious style problems and is ready for submission.

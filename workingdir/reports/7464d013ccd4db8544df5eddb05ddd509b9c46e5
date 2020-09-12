@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#20: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#25: FILE: tools/bpf/bpftool/Documentation/bpftool-link.rst:1:
++================
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#128: FILE: tools/bpf/bpftool/Documentation/bpftool-link.rst:104:
++    -rw------- 1 root root 0 Apr 23 21:39 link
+
+total: 0 errors, 3 warnings, 118 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7464d013ccd4 ("bpftool: Add bpftool-link manpage") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

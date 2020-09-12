@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 98 lines checked
+
+Commit fa3748775b92 ("net/mlx5e: Handle errors from netif_set_real_num_{tx,rx}_queues") has no obvious style problems and is ready for submission.

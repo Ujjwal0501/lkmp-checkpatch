@@ -1,0 +1,21 @@
+WARNING:TYPO_SPELLING: 'MAIBOX' may be misspelled - perhaps 'MAILBOX'?
+#153: FILE: drivers/gpu/drm/amd/amdgpu/mxgpu_nv.h:64:
++#define NV_MAIBOX_CONTROL_TRN_OFFSET_BYTE (mmMAILBOX_CONTROL * 4)
+
+WARNING:TYPO_SPELLING: 'MAIBOX' may be misspelled - perhaps 'MAILBOX'?
+#154: FILE: drivers/gpu/drm/amd/amdgpu/mxgpu_nv.h:65:
++#define NV_MAIBOX_CONTROL_RCV_OFFSET_BYTE (NV_MAIBOX_CONTROL_TRN_OFFSET_BYTE + 1)
+
+WARNING:TYPO_SPELLING: 'MAIBOX' may be misspelled - perhaps 'MAILBOX'?
+#154: FILE: drivers/gpu/drm/amd/amdgpu/mxgpu_nv.h:65:
++#define NV_MAIBOX_CONTROL_RCV_OFFSET_BYTE (NV_MAIBOX_CONTROL_TRN_OFFSET_BYTE + 1)
+
+total: 0 errors, 3 warnings, 125 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ff1f03a7b8c4 ("drm/amdgpu: use static mmio offset for NV mailbox") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

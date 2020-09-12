@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 109 lines checked
+
+Commit 10b910cb7ede ("selftests: kvm: add a SVM version of state-test") has no obvious style problems and is ready for submission.

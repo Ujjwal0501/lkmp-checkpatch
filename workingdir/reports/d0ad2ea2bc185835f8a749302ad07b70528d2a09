@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 45 lines checked
+
+Commit d0ad2ea2bc18 ("bnxt_en: Store the running firmware version code.") has no obvious style problems and is ready for submission.

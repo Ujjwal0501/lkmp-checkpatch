@@ -1,0 +1,25 @@
+WARNING:SPACING: Unnecessary space before function pointer arguments
+#30: FILE: arch/sparc/include/asm/floppy_64.h:50:
++	unsigned char	(*fd_inb) (unsigned long port, unsigned int reg);
+
+WARNING:SPACING: Unnecessary space before function pointer arguments
+#31: FILE: arch/sparc/include/asm/floppy_64.h:51:
++	void		(*fd_outb) (unsigned char value, unsigned long base,
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#59: FILE: arch/sparc/include/asm/floppy_64.h:106:
++		printk("floppy: Asked to read unknown port %x\n", reg);
+
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#84: FILE: arch/sparc/include/asm/floppy_64.h:125:
++		printk("floppy: Asked to write to unknown port %x\n", reg);
+
+total: 0 errors, 4 warnings, 138 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6cb7e6967184 ("floppy: use symbolic register names in the sparc64 port") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

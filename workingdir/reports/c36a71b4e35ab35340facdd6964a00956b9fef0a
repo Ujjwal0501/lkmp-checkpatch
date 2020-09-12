@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c36a71b4e35a ("ext4: fix EXT_MAX_EXTENT/INDEX to check for zeroed eh_max") has no obvious style problems and is ready for submission.

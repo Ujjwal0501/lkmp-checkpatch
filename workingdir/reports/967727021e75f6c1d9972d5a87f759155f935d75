@@ -1,0 +1,14 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#41: FILE: drivers/gpu/drm/amd/display/dc/core/dc_link_dp.c:4229:
++		DC_LOG_ERROR("Error in DP aux read transaction,"
++			     " not writing source specific data\n");
+
+total: 0 errors, 1 warnings, 21 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 967727021e75 ("drm/amd/display: DispalyPort: Write OUI only if panel supports it") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

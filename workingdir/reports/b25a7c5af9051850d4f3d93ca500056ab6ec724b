@@ -1,0 +1,14 @@
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#51: FILE: kernel/module.c:1533:
++	return sprintf(buf, "0x%px\n",
++		       kallsyms_show_value(file->f_cred) ? (void *)sattr->address : NULL);
+
+total: 0 errors, 1 warnings, 18 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b25a7c5af905 ("module: Do not expose section addresses to non-CAP_SYSLOG") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

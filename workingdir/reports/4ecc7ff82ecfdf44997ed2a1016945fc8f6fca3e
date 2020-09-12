@@ -1,0 +1,13 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#40: FILE: drivers/pinctrl/sh-pfc/Kconfig:78:
++config PINCTRL_PFC_R8A7742
+
+total: 0 errors, 1 warnings, 813 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4ecc7ff82ecf ("pinctrl: sh-pfc: r8a7790: Add r8a7742 PFC support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

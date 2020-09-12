@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit d08d6f5d7524 ("s390/pci: adaptation of iommu to multifunction") has no obvious style problems and is ready for submission.

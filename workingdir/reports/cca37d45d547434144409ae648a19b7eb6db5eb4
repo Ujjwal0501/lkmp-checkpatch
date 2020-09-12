@@ -1,0 +1,61 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_volume *' should also have an identifier name
+#75: FILE: fs/afs/internal.h:1435:
++extern struct afs_volume *afs_get_volume(struct afs_volume *, enum afs_volume_trace);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_net *' should also have an identifier name
+#76: FILE: fs/afs/internal.h:1436:
++extern void afs_put_volume(struct afs_net *, struct afs_volume *, enum afs_volume_trace);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_volume *' should also have an identifier name
+#76: FILE: fs/afs/internal.h:1436:
++extern void afs_put_volume(struct afs_net *, struct afs_volume *, enum afs_volume_trace);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#190: FILE: fs/afs/volume.c:177:
++		int u = atomic_inc_return(&volume->usage);
++		trace_afs_volume(volume->vid, u, reason);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#206: FILE: fs/afs/volume.c:192:
++		int u = atomic_dec_return(&volume->usage);
++		trace_afs_volume(vid, u, reason);
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#243: FILE: include/trace/events/afs.h:282:
++#define afs_volume_traces \
++	EM(afs_volume_trace_alloc,		"ALLOC         ") \
++	EM(afs_volume_trace_free,		"FREE          ") \
++	EM(afs_volume_trace_get_alloc_sbi,	"GET sbi-alloc ") \
++	EM(afs_volume_trace_get_cell_insert,	"GET cell-insrt") \
++	EM(afs_volume_trace_get_new_op,		"GET op-new    ") \
++	EM(afs_volume_trace_get_query_alias,	"GET cell-alias") \
++	EM(afs_volume_trace_put_cell_dup,	"PUT cell-dup  ") \
++	EM(afs_volume_trace_put_cell_root,	"PUT cell-root ") \
++	EM(afs_volume_trace_put_destroy_sbi,	"PUT sbi-destry") \
++	EM(afs_volume_trace_put_free_fc,	"PUT fc-free   ") \
++	EM(afs_volume_trace_put_put_op,		"PUT op-put    ") \
++	EM(afs_volume_trace_put_query_alias,	"PUT cell-alias") \
++	EM(afs_volume_trace_put_validate_fc,	"PUT fc-validat") \
++	E_(afs_volume_trace_remove,		"REMOVE        ")
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#272: FILE: include/trace/events/afs.h:1344:
++		    __field(afs_volid_t,		vid		)
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#273: FILE: include/trace/events/afs.h:1345:
++		    __field(int,			ref		)
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#274: FILE: include/trace/events/afs.h:1346:
++		    __field(enum afs_volume_trace,	reason		)
+
+total: 4 errors, 5 warnings, 227 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cca37d45d547 ("afs: Add a tracepoint to track the lifetime of the afs_volume struct") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

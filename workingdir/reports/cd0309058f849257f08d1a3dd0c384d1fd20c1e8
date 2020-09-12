@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 101 lines checked
+
+Commit cd0309058f84 ("maccess: remove probe_read_common and probe_write_common") has no obvious style problems and is ready for submission.

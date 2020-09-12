@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit c8c240e284b3 ("cfg80211: reg: remove support for built-in regdb")'
+#7: 
+Back with commit c8c240e284b3 (cfg80211: reg: remove support for
+
+WARNING:REPEATED_WORD: Possible repeated word: 'mentions'
+#11: 
+though, which is why it still mentions mentions the old way of loading
+
+total: 1 errors, 1 warnings, 0 checks, 10 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a3b018febccd ("cfg80211: fix CFG82011_CRDA_SUPPORT still mentioning internal regdb") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 112 lines checked
+
+Commit f25a066d1a07 ("firmware: imx-scu: Support one TX and one RX") has no obvious style problems and is ready for submission.

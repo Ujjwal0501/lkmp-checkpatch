@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 12 lines checked
+
+Commit fd55199d3b76 ("net: ethtool: cabletest: Make ethnl_act_cable_test_tdr_cfg static") has no obvious style problems and is ready for submission.

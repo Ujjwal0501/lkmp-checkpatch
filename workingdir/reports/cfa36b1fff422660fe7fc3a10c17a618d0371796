@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit cfa36b1fff42 ("net: dsa: sja1105: exit sja1105_vlan_filtering when called multiple times") has no obvious style problems and is ready for submission.

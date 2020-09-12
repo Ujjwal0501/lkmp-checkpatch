@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 198 lines checked
+
+Commit 5ffb4d858b70 ("net/mlx5e: Calculate SQ stop room in a robust way") has no obvious style problems and is ready for submission.

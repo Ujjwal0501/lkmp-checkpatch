@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 5ea5647f4918 ("drm/bridge: sii9234: silence warning about regulators during deferred probe") has no obvious style problems and is ready for submission.

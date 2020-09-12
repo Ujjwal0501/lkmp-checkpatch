@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 88 lines checked
+
+Commit b12c07a4bb06 ("powerpc/mm: Reduce hugepd size for 8M hugepages on 8xx") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit a466a5cfbb56 ("alpha: remove unneeded semicolon in osf_sys.c") has no obvious style problems and is ready for submission.

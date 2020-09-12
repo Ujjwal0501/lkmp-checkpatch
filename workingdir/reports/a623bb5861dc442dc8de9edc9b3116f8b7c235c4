@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit a623bb5861dc ("powerpc/8xx: Map IMMR with a huge page") has no obvious style problems and is ready for submission.

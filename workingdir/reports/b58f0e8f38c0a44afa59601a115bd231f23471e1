@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 118 lines checked
+
+Commit b58f0e8f38c0 ("net: add sock_set_reuseaddr") has no obvious style problems and is ready for submission.

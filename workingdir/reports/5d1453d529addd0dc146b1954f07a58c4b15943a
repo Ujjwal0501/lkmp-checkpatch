@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 5d1453d529ad ("drm/i915/dp: Made intel_dp_adjust_train() non-static") has no obvious style problems and is ready for submission.

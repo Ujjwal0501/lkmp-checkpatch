@@ -1,0 +1,21 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+Currently idsfromsid mount option allows querying owner information from the
+
+WARNING:REPEATED_WORD: Possible repeated word: 'See'
+#65: FILE: fs/cifs/cifsacl.h:181:
++ * See See http://technet.microsoft.com/en-us/library/hh509017(v=ws.10).aspx
+
+WARNING:REPEATED_WORD: Possible repeated word: 'See'
+#101: FILE: fs/cifs/smb2pdu.c:2320:
++/* See See http://technet.microsoft.com/en-us/library/hh509017(v=ws.10).aspx */
+
+total: 0 errors, 3 warnings, 219 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 975221eca5fb ("smb3: allow uid and gid owners to be set on create with idsfromsid mount option") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

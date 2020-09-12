@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit c2919132734f ("powerpc/watchpoint: Get watchpoint count dynamically while disabling them") has no obvious style problems and is ready for submission.

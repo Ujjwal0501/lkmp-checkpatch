@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 15217d170a44 ("ASoC: fsl_mqs: Fix unchecked return value for clk_prepare_enable") has no obvious style problems and is ready for submission.

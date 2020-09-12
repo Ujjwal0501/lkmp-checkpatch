@@ -1,0 +1,29 @@
+WARNING:TYPO_SPELLING: 'reqeust' may be misspelled - perhaps 'request'?
+#9: 
+hctx have no maps and reqeust, when a bio was mapped to these
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#44: 
+[ 8040.805643] Code: 00 00 00 00 00 41 83 c5 01 44 39 6d 50 77 b8 5b 5d 41 5c 41 5d 41 5e 41 5f c3 48 8b bb 98 00 00 00 89 d6 e8 8c 81 03 00 eb 83 <0f> 0b e9 52 ff ff ff 0f 1f 00 0f 1f 44 00 00 41 57 48 89 f1 41 56
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#44: 
+[ 8040.805643] Code: 00 00 00 00 00 41 83 c5 01 44 39 6d 50 77 b8 5b 5d 41 5c 41 5d 41 5e 41 5f c3 48 8b bb 98 00 00 00 89 d6 e8 8c 81 03 00 eb 83 <0f> 0b e9 52 ff ff ff 0f 1f 00 0f 1f 44 00 00 41 57 48 89 f1 41 56
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#75: 
+[ 8229.365265] Code: 44 24 04 44 01 e0 48 8b 74 24 38 65 48 33 34 25 28 00 00 00 75 33 48 83 c4 40 5b 5d 41 5c 41 5d 41 5e c3 48 8d 68 10 4c 89 ef <44> 8b 60 04 48 89 ee e8 dd f9 ff ff 83 f8 ff 75 c8 e9 67 fe ff ff
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#75: 
+[ 8229.365265] Code: 44 24 04 44 01 e0 48 8b 74 24 38 65 48 33 34 25 28 00 00 00 75 33 48 83 c4 40 5b 5d 41 5c 41 5d 41 5e c3 48 8d 68 10 4c 89 ef <44> 8b 60 04 48 89 ee e8 dd f9 ff ff 83 f8 ff 75 c8 e9 67 fe ff ff
+
+total: 0 errors, 5 warnings, 36 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fd689871bbfb ("block: alloc map and request for new hardware queue") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

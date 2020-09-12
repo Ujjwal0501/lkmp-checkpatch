@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 5f706b4a3bd6 ("drm/edid: Don't include ext block csum in DispID size") has no obvious style problems and is ready for submission.

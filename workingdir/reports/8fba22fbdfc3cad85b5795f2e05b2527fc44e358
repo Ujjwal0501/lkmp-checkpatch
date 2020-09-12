@@ -1,0 +1,14 @@
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#677: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/ia_css_types.h:309:
++
++
+
+total: 0 errors, 0 warnings, 1 checks, 959 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8fba22fbdfc3 ("media: atomisp: get rid of trivial ISP2401 dependencies on header files") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

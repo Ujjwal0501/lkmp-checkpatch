@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'unecessary' may be misspelled - perhaps 'unnecessary'?
+#9: 
+CONFIG_STRICT_MODULE_RWX ifdef block within it. This is unecessary and
+
+total: 0 errors, 1 warnings, 55 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit db991af02f11 ("module: break nested ARCH_HAS_STRICT_MODULE_RWX and STRICT_MODULE_RWX #ifdefs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

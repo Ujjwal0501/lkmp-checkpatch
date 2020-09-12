@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ddea4ed01058 ("drm/amd/display: remove duplicate assignment of dcn21_funcs members") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 10 lines checked
+
+Commit 2f2a7ffad5c6 ("AX.25: Fix out-of-bounds read in ax25_connect()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit c55f5692748c ("ALSA: line6: Add poll callback for hwdep") has no obvious style problems and is ready for submission.

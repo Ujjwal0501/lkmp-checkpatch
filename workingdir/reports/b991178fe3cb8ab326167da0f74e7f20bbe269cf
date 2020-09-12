@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b991178fe3cb ("platform/x86: thinkpad_acpi: Remove always false 'value < 0' statement") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit c52f232e1107 ("ALSA: fireface: code refactoring to add enumeration constants for model identification") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_COMMENT: line length of 109 exceeds 100 columns
+#71: FILE: arch/mips/include/asm/cpu.h:427:
++#define MIPS_CPU_MAC_2008_ONLY	BIT_ULL(60)	/* CPU Only support MAC2008 Fused multiply-add instruction */
+
+total: 0 errors, 1 warnings, 93 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 742318ad5eee ("mips: Add CP0 Write Merge config support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 61 lines checked
+
+Commit 4121fb0db68e ("RDMA/core: Check that type_attrs is not NULL prior access") has no obvious style problems and is ready for submission.

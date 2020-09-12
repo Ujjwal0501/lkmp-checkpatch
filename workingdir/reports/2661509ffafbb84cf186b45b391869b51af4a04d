@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 76 lines checked
+
+Commit 2661509ffafb ("staging: vt6656: Remove duplicate code in vnt_vt3184_init function") has no obvious style problems and is ready for submission.

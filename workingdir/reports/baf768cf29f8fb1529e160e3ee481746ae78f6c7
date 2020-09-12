@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit baf768cf29f8 ("media: atomisp: set DFS to MAX if sensor doesn't report fps") has no obvious style problems and is ready for submission.

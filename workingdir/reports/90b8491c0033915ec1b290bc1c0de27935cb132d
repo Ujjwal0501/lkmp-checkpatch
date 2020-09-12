@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 107 lines checked
+
+Commit 90b8491c0033 ("scsi: ufs: Introduce ufs_hba_variant_params to group customizable parameters") has no obvious style problems and is ready for submission.

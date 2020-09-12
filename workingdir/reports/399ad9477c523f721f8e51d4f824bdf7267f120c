@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_COMMENT: line length of 101 exceeds 100 columns
+#30: FILE: drivers/usb/serial/option.c:1162:
++	{ USB_DEVICE_INTERFACE_CLASS(TELIT_VENDOR_ID, 0x1033, 0xff),	/* Telit LE910C1-EUX (ECM) */
+
+total: 0 errors, 1 warnings, 10 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 399ad9477c52 ("USB: serial: option: add Telit LE910C1-EUX compositions") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

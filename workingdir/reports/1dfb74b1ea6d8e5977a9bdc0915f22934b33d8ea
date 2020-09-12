@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 51 lines checked
+
+Commit 1dfb74b1ea6d ("staging: vt6656: move key frag controls to vnt_fill_txkey") has no obvious style problems and is ready for submission.

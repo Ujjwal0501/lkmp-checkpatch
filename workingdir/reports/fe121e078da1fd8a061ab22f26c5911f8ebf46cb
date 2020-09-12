@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit fe121e078da1 ("sch_choke: Remove classid from choke_skb_cb.") has no obvious style problems and is ready for submission.

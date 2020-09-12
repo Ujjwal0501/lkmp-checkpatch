@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit f0e0884acf8a ("clk: meson: meson8b: make the hdmi_sys clock tree mutable") has no obvious style problems and is ready for submission.

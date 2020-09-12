@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 99 lines checked
+
+Commit 986db2d14a6d ("exec: simplify the copy_strings_kernel calling convention") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 8a03746c8baf ("hwmon: (nct6775) Accept PECI Calibration as temperature source for NCT6798D") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 7890b9701b79 ("nvme-multipath: stop using ->queuedata") has no obvious style problems and is ready for submission.

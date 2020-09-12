@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#9: 
+[ 1324.523778] Code: 4c 89 f7 e8 cd a2 a0 d8 e9 99 fe ff ff 45 31 ff e9 91 fe ff ff 0f 1f 44 00 00 55 48 85 ff 48 89 e5 74 0e 48 8b 87 d8 2b 01 00 <40> 88 b0 38 01 00 00 5d c3 66 90 0f 1f 44 00 00 55 31 c0 48 85 ff
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#9: 
+[ 1324.523778] Code: 4c 89 f7 e8 cd a2 a0 d8 e9 99 fe ff ff 45 31 ff e9 91 fe ff ff 0f 1f 44 00 00 55 48 85 ff 48 89 e5 74 0e 48 8b 87 d8 2b 01 00 <40> 88 b0 38 01 00 00 5d c3 66 90 0f 1f 44 00 00 55 31 c0 48 85 ff
+
+total: 0 errors, 2 warnings, 15 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a9d82d2f9129 ("drm/amdgpu: fix non-pointer dereference for non-RAS supported") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 27 lines checked
+
+Commit 576b4ff89922 ("staging: bcm2835-camera: Simplify set_framerate_params") has no obvious style problems and is ready for submission.

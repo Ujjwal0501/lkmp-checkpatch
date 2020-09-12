@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 27 lines checked
+
+Commit e36cac0c0564 ("bnx2x: Remove unused inline function bnx2x_vf_vlan_credit") has no obvious style problems and is ready for submission.

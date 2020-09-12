@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit d4d80e69927a ("Call sysctl_head_finish on error") has no obvious style problems and is ready for submission.

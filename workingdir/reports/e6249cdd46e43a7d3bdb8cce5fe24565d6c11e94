@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit e6249cdd46e4 ("block: add blk_io_schedule() for avoiding task hung in sync dio") has no obvious style problems and is ready for submission.

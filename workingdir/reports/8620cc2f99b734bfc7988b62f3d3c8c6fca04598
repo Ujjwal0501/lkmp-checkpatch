@@ -1,0 +1,25 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#33: 
+new file mode 100644
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "samsung,clock-xxti" appears un-documented -- check ./Documentation/devicetree/bindings/
+#241: FILE: arch/arm/boot/dts/exynos4210-i9100.dts:204:
++			compatible = "samsung,clock-xxti";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "samsung,clock-xusbxti" appears un-documented -- check ./Documentation/devicetree/bindings/
+#246: FILE: arch/arm/boot/dts/exynos4210-i9100.dts:209:
++			compatible = "samsung,clock-xusbxti";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "brcm,bcm4330-fmac" appears un-documented -- check ./Documentation/devicetree/bindings/
+#766: FILE: arch/arm/boot/dts/exynos4210-i9100.dts:729:
++		compatible = "brcm,bcm4330-fmac";
+
+total: 0 errors, 4 warnings, 775 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8620cc2f99b7 ("ARM: dts: exynos: Add devicetree file for the Galaxy S2") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

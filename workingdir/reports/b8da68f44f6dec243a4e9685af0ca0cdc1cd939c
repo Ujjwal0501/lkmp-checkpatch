@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 149 lines checked
+
+Commit b8da68f44f6d ("platform/x86: intel_pmc_ipc: Move PCI IDs to intel_scu_pcidrv.c") has no obvious style problems and is ready for submission.

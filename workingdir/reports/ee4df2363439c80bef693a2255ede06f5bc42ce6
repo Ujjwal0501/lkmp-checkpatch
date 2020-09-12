@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#161: 
+new file mode 100644
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#244: FILE: drivers/clk/mmp/pwr-island.c:79:
++	/* Turn off and isolate the the power island. */
+
+total: 0 errors, 2 warnings, 225 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ee4df2363439 ("clk: mmp2: Add support for power islands") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

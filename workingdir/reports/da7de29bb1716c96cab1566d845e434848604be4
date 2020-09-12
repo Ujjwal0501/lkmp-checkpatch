@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 125 lines checked
+
+Commit da7de29bb171 ("staging: iio: ad5933: attach life-cycle of kfifo buffer to parent device and use managed calls throughout") has no obvious style problems and is ready for submission.

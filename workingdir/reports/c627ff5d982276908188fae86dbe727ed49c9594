@@ -1,0 +1,21 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#46: FILE: drivers/virtio/virtio_mem.c:283:
++#define virtio_mem_for_each_mb_state_rev(_vm, _mb_id, _state) \
++	for (_mb_id = _vm->next_mb_id - 1; \
++	     _mb_id >= _vm->first_mb_id && _vm->nb_mb_state[_state]; \
++	     _mb_id--) \
++		if (virtio_mem_mb_get_state(_vm, _mb_id) == _state)
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#125: FILE: drivers/virtio/virtio_mem.c:1183:
++		BUG_ON(rc);
+
+total: 1 errors, 1 warnings, 153 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c627ff5d9822 ("virtio-mem: Paravirtualized memory hotunplug part 1") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

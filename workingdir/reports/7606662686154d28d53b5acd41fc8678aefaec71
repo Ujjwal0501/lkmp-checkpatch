@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 760666268615 ("video: fbdev: don't print error message on platform_get_irq() failure") has no obvious style problems and is ready for submission.

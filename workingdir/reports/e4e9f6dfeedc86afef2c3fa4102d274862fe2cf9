@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit e4e9f6dfeedc ("arm64: bti: Fix support for userspace only BTI") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit b607e6d17db5 ("mm: only allow page table mappings for built-in zsmalloc") has no obvious style problems and is ready for submission.

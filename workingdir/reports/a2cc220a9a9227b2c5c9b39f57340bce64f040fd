@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 106 lines checked
+
+Commit a2cc220a9a92 ("firmware: xilinx: Add sysfs and API to set boot health status") has no obvious style problems and is ready for submission.

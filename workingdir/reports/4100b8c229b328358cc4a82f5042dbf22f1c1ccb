@@ -1,0 +1,71 @@
+WARNING:TYPO_SPELLING: 'informations' may be misspelled - perhaps 'information'?
+#15: 
+various informations (per-master and global TLB accesses, hits and misses,
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#37: FILE: drivers/iommu/Kconfig:306:
++config SUN50I_IOMMU
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#62: 
+new file mode 100644
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#562: FILE: drivers/iommu/sun50i-iommu.c:496:
++		phys_addr_t pt_phys = sun50i_dte_get_pt_address(dte);
++		return (u32 *)phys_to_virt(pt_phys);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#607: FILE: drivers/iommu/sun50i-iommu.c:541:
++		phys_addr_t page_phys = sun50i_pte_get_page_address(*pte_addr);
++		dev_err(iommu->dev,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#670: FILE: drivers/iommu/sun50i-iommu.c:604:
++static struct iommu_domain *sun50i_iommu_domain_alloc(unsigned type)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#837: FILE: drivers/iommu/sun50i-iommu.c:771:
++	unsigned id = args->args[0];
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#862: FILE: drivers/iommu/sun50i-iommu.c:796:
++				      unsigned master, phys_addr_t iova,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#863: FILE: drivers/iommu/sun50i-iommu.c:797:
++				      unsigned prot)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#875: FILE: drivers/iommu/sun50i-iommu.c:809:
++					      unsigned addr_reg,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#876: FILE: drivers/iommu/sun50i-iommu.c:810:
++					      unsigned blame_reg)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#879: FILE: drivers/iommu/sun50i-iommu.c:813:
++	unsigned master;
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#902: FILE: drivers/iommu/sun50i-iommu.c:836:
++	unsigned master;
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#903: FILE: drivers/iommu/sun50i-iommu.c:837:
++	unsigned dir;
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#1084: FILE: drivers/iommu/sun50i-iommu.c:1018:
++^I^I.of_match_table ^I= sun50i_iommu_dt,$
+
+total: 0 errors, 15 warnings, 1049 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4100b8c229b3 ("iommu: Add Allwinner H6 IOMMU driver") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

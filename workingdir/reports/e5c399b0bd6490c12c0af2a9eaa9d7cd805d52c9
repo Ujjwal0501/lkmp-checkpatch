@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e5c399b0bd64 ("ACPI: GED: use correct trigger type field in _Exx / _Lxx handling") has no obvious style problems and is ready for submission.

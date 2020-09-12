@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 101 lines checked
+
+Commit f4d7a681b826 ("media: video-mux: Parse information from firmware without using callbacks") has no obvious style problems and is ready for submission.

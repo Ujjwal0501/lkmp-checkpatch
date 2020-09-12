@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 117 lines checked
+
+Commit cb0721c7e200 ("net: Refactor arguments of inet{,6}_bind") has no obvious style problems and is ready for submission.

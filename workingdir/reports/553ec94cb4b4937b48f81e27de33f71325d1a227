@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_STRING: line length of 111 exceeds 100 columns
+#66: FILE: drivers/md/dm-mpath.c:707:
++			DMERR("%s: QIFNP disabled but saved as enabled, saving again loses state, not saving!",
+
+total: 0 errors, 1 warnings, 64 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 553ec94cb4b4 ("dm mpath: restrict queue_if_no_path state machine") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

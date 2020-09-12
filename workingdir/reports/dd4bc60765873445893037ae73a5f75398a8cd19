@@ -1,0 +1,14 @@
+WARNING:SUSPECT_CODE_INDENT: suspect code indent for conditional statements (8, 13)
+#53: FILE: arch/arm64/kernel/setup.c:323:
++	if (!efi_enabled(EFI_BOOT) && ((u64)_text % MIN_KIMG_ALIGN) != 0)
++	     pr_warn(FW_BUG "Kernel image misaligned at boot, please fix your bootloader!");
+
+total: 0 errors, 1 warnings, 20 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dd4bc6076587 ("arm64: warn on incorrect placement of the kernel by the bootloader") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

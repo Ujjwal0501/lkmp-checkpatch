@@ -1,0 +1,121 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_atomic_state *' should also have an identifier name
+#581: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:149:
++	void (*pre_pll_enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_encoder *' should also have an identifier name
+#581: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:149:
++	void (*pre_pll_enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct intel_crtc_state *' should also have an identifier name
+#581: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:149:
++	void (*pre_pll_enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct drm_connector_state *' should also have an identifier name
+#581: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:149:
++	void (*pre_pll_enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_atomic_state *' should also have an identifier name
+#586: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:153:
++	void (*pre_enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_encoder *' should also have an identifier name
+#586: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:153:
++	void (*pre_enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct intel_crtc_state *' should also have an identifier name
+#586: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:153:
++	void (*pre_enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct drm_connector_state *' should also have an identifier name
+#586: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:153:
++	void (*pre_enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_atomic_state *' should also have an identifier name
+#591: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:157:
++	void (*enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_encoder *' should also have an identifier name
+#591: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:157:
++	void (*enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct intel_crtc_state *' should also have an identifier name
+#591: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:157:
++	void (*enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct drm_connector_state *' should also have an identifier name
+#591: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:157:
++	void (*enable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_atomic_state *' should also have an identifier name
+#599: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:164:
++	void (*disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_encoder *' should also have an identifier name
+#599: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:164:
++	void (*disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct intel_crtc_state *' should also have an identifier name
+#599: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:164:
++	void (*disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct drm_connector_state *' should also have an identifier name
+#599: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:164:
++	void (*disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_atomic_state *' should also have an identifier name
+#604: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:168:
++	void (*post_disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_encoder *' should also have an identifier name
+#604: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:168:
++	void (*post_disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct intel_crtc_state *' should also have an identifier name
+#604: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:168:
++	void (*post_disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct drm_connector_state *' should also have an identifier name
+#604: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:168:
++	void (*post_disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_atomic_state *' should also have an identifier name
+#609: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:172:
++	void (*post_pll_disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_encoder *' should also have an identifier name
+#609: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:172:
++	void (*post_pll_disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct intel_crtc_state *' should also have an identifier name
+#609: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:172:
++	void (*post_pll_disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct drm_connector_state *' should also have an identifier name
+#609: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:172:
++	void (*post_pll_disable)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_atomic_state *' should also have an identifier name
+#614: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:176:
++	void (*update_pipe)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct intel_encoder *' should also have an identifier name
+#614: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:176:
++	void (*update_pipe)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct intel_crtc_state *' should also have an identifier name
+#614: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:176:
++	void (*update_pipe)(struct intel_atomic_state *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct drm_connector_state *' should also have an identifier name
+#614: FILE: drivers/gpu/drm/i915/display/intel_display_types.h:176:
++	void (*update_pipe)(struct intel_atomic_state *,
+
+total: 0 errors, 28 warnings, 1137 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ede9771d7f84 ("drm/i915: Pass atomic state to encoder hooks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

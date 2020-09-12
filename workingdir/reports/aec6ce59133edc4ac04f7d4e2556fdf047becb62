@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit aec6ce59133e ("bpf: handle the compat string in bpf_trace_copy_string better") has no obvious style problems and is ready for submission.

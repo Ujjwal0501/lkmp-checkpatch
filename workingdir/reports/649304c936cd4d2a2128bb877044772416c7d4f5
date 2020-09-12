@@ -1,0 +1,30 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'pstore'
+#38: FILE: Documentation/admin-guide/pstore-blk.rst:13:
++    mount -t pstore pstore /sys/fs/pstore
+
+WARNING:REPEATED_WORD: Possible repeated word: 'pstore'
+#143: FILE: Documentation/admin-guide/pstore-blk.rst:118:
++ # mount -t pstore pstore /sys/fs/pstore
+
+WARNING:REPEATED_WORD: Possible repeated word: 'debugfs'
+#144: FILE: Documentation/admin-guide/pstore-blk.rst:119:
++ # mount -t debugfs debugfs /sys/kernel/debug/
+
+WARNING:REPEATED_WORD: Possible repeated word: 'pstore'
+#148: FILE: Documentation/admin-guide/pstore-blk.rst:123:
++ # mount -t pstore pstore /sys/fs/pstore
+
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#263: FILE: MAINTAINERS:13663:
+ F:	Documentation/admin-guide/ramoops.rst
++F:	Documentation/admin-guide/pstore-blk.rst
+
+total: 0 errors, 5 warnings, 244 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 649304c936cd ("Documentation: Add details for pstore/blk") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

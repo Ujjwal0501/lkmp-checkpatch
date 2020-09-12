@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 19 lines checked
+
+Commit 95d1f398c4dc ("media: atomisp: keep the ISP powered on when setting it") has no obvious style problems and is ready for submission.

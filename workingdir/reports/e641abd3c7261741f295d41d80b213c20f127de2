@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit e641abd3c726 ("Try to load acpi_ipmi when an SSIF ACPI IPMI interface is added") has no obvious style problems and is ready for submission.

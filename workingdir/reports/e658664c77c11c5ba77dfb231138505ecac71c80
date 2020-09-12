@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit e658664c77c1 ("net/mlx5e: Use proper name field for the UMR key") has no obvious style problems and is ready for submission.

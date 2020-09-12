@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit cd217f230079 ("i2c: algo-pca: Add 0x78 as SCL stuck low status for PCA9665") has no obvious style problems and is ready for submission.

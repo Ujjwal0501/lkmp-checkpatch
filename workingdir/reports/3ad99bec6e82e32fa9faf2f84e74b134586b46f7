@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 3ad99bec6e82 ("iomap: remove lockdep_assert_held()") has no obvious style problems and is ready for submission.

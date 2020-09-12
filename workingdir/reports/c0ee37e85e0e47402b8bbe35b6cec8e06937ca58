@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 172 lines checked
+
+Commit c0ee37e85e0e ("maccess: rename probe_user_{read,write} to copy_{from,to}_user_nofault") has no obvious style problems and is ready for submission.

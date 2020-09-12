@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 37 lines checked
+
+Commit 8146458fcd79 ("mlxsw: spectrum_span: Reduce nesting in mlxsw_sp_span_entry_configure()") has no obvious style problems and is ready for submission.

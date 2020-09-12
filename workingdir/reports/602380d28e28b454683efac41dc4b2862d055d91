@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 110 lines checked
+
+Commit 602380d28e28 ("blk-mq: add blk_mq_all_tag_iter") has no obvious style problems and is ready for submission.

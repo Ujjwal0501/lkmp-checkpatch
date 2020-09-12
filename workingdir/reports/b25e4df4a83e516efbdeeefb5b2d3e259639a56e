@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit b25e4df4a83e ("Bluetooth: hci_bcm: respect IRQ polarity from DT") has no obvious style problems and is ready for submission.

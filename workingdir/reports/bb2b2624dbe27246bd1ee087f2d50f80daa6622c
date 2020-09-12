@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit bb2b2624dbe2 ("mailbox: imx: Add runtime PM callback to handle MU clocks") has no obvious style problems and is ready for submission.

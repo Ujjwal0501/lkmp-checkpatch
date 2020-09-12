@@ -1,0 +1,21 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#17: 
+Reviewed-by: Manasi Navare <manasi.d.navare@intel.com>
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#36: FILE: drivers/gpu/drm/i915/i915_reg.h:9800:
++#define DDI_DP_COMP_CTL(pipe)			_MMIO_PIPE(pipe, _DDI_DP_COMP_CTL_A, _DDI_DP_COMP_CTL_B)
+
+WARNING:LONG_LINE: line length of 116 exceeds 100 columns
+#49: FILE: drivers/gpu/drm/i915/i915_reg.h:9813:
++#define DDI_DP_COMP_PAT(pipe, i)		_MMIO(_PIPE(pipe, _DDI_DP_COMP_PAT_A, _DDI_DP_COMP_PAT_B) + (i) * 4)
+
+total: 0 errors, 3 warnings, 24 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fce214aea8e0 ("drm/i915/dp: Register definition for DP compliance register") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

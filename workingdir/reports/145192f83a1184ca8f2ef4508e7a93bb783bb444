@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 19 lines checked
+
+Commit 145192f83a11 ("r8169: use rtl8169_set_features in rtl8169_init_one") has no obvious style problems and is ready for submission.

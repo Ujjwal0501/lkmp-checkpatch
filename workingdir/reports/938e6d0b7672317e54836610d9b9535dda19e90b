@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 28 lines checked
+
+Commit 938e6d0b7672 ("mlxsw: spectrum: Change default rate and priority of DHCP packets") has no obvious style problems and is ready for submission.

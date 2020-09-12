@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 48f0bcfb7aad ("iommu/vt-d: Fix misuse of iommu_domain_identity_map()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 0978de9fc733 ("misc: fastrpc: Fix an incomplete memory release in fastrpc_rpmsg_probe()") has no obvious style problems and is ready for submission.

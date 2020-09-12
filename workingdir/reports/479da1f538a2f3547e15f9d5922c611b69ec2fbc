@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 479da1f538a2 ("backlight: Add backlight_device_get_by_name()") has no obvious style problems and is ready for submission.

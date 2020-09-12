@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 204 lines checked
+
+Commit d2a8cfc6f320 ("soc: qcom: rpmh-rsc: Remove the pm_lock") has no obvious style problems and is ready for submission.

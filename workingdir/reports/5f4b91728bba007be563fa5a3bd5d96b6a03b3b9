@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 5f4b91728bba ("Bluetooth: Add MGMT_EV_PHY_CONFIGURATION_CHANGED to supported list") has no obvious style problems and is ready for submission.

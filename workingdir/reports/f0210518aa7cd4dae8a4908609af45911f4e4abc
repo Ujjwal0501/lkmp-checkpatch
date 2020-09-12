@@ -1,0 +1,17 @@
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "mediatek,mt2712-tphy" appears un-documented -- check ./Documentation/devicetree/bindings/
+#29: FILE: arch/arm64/boot/dts/mediatek/mt2712e.dtsi:706:
++		compatible = "mediatek,mt2712-tphy",
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "mediatek,mt2712-tphy" appears un-documented -- check ./Documentation/devicetree/bindings/
+#71: FILE: arch/arm64/boot/dts/mediatek/mt2712e.dtsi:770:
++		compatible = "mediatek,mt2712-tphy",
+
+total: 0 errors, 2 warnings, 82 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f0210518aa7c ("arm64: dts: mt2712: use non-empty ranges for usb-phy") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

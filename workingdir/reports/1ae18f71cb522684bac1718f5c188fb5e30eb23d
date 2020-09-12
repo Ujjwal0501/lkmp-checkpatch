@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 1ae18f71cb52 ("f2fs: fix checkpoint=disable:%u%%") has no obvious style problems and is ready for submission.

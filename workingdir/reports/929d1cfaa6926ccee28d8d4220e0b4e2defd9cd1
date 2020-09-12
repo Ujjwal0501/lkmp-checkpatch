@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit 929d1cfaa692 ("KVM: MMU: pass arbitrary CR0/CR4/EFER to kvm_init_shadow_mmu") has no obvious style problems and is ready for submission.

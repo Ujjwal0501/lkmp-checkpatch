@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit cecbc9ce80e7 ("null_blk: Zero-initialize read buffers in non-memory-backed mode") has no obvious style problems and is ready for submission.

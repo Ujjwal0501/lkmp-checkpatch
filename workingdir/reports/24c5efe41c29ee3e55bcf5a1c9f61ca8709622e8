@@ -1,0 +1,13 @@
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#79: FILE: net/sunrpc/auth_gss/gss_mech_switch.c:74:
++		dom = svcauth_gss_register_pseudoflavor(
+
+total: 0 errors, 0 warnings, 1 checks, 77 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 24c5efe41c29 ("sunrpc: clean up properly in gss_mech_unregister()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

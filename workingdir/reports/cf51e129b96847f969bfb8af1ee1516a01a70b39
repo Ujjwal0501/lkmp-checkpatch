@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 262 lines checked
+
+Commit cf51e129b968 ("sparc32: fix register window handling in genregs32_[gs]et()") has no obvious style problems and is ready for submission.

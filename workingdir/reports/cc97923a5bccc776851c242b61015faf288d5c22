@@ -1,0 +1,22 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'with'
+#6: 
+Don't burden the common block code with with specifics of the libata DMA
+
+WARNING:SPACING: Unnecessary space before function pointer name
+#359: FILE: include/scsi/scsi_host.h:278:
++	bool (* dma_need_drain)(struct request *rq);
+
+ERROR:SPACING: space prohibited after that '*' (ctx:BxW)
+#359: FILE: include/scsi/scsi_host.h:278:
++	bool (* dma_need_drain)(struct request *rq);
+ 	      ^
+
+total: 1 errors, 2 warnings, 282 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cc97923a5bcc ("block: move dma drain handling to scsi") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit ed6330330276 ("mmc: sdhci: Add helpers for the auto-CMD23 flag") has no obvious style problems and is ready for submission.

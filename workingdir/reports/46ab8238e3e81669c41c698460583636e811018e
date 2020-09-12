@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 46ab8238e3e8 ("ARM: dts: DRA7: Add common IPU and DSP nodes") has no obvious style problems and is ready for submission.

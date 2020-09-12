@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 80 lines checked
+
+Commit c30f4cb2d4c7 ("media: atomisp: Refactor PMIC detection to a separate function") has no obvious style problems and is ready for submission.

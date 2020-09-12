@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit eaf4d22a9ea4 ("docs: mm/gup: pin_user_pages.rst: add a "case 5"") has no obvious style problems and is ready for submission.

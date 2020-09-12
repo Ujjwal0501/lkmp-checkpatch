@@ -1,0 +1,37 @@
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#880: FILE: drivers/gpu/drm/amd/amdgpu/vcn_v2_5.c:1440:
++				WREG32_SOC15(VCN, inst_idx, mmUVD_RB_BASE_HI, upper_32_bits(ring->gpu_addr));
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#882: FILE: drivers/gpu/drm/amd/amdgpu/vcn_v2_5.c:1442:
++				WREG32_SOC15(VCN, inst_idx, mmUVD_RB_RPTR, lower_32_bits(ring->wptr));
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#883: FILE: drivers/gpu/drm/amd/amdgpu/vcn_v2_5.c:1443:
++				WREG32_SOC15(VCN, inst_idx, mmUVD_RB_WPTR, lower_32_bits(ring->wptr));
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#895: FILE: drivers/gpu/drm/amd/amdgpu/vcn_v2_5.c:1450:
++				WREG32_SOC15(VCN, inst_idx, mmUVD_RB_BASE_HI2, upper_32_bits(ring->gpu_addr));
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#897: FILE: drivers/gpu/drm/amd/amdgpu/vcn_v2_5.c:1452:
++				WREG32_SOC15(VCN, inst_idx, mmUVD_RB_RPTR2, lower_32_bits(ring->wptr));
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#898: FILE: drivers/gpu/drm/amd/amdgpu/vcn_v2_5.c:1453:
++				WREG32_SOC15(VCN, inst_idx, mmUVD_RB_WPTR2, lower_32_bits(ring->wptr));
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#905: FILE: drivers/gpu/drm/amd/amdgpu/vcn_v2_5.c:1458:
++					   RREG32_SOC15(VCN, inst_idx, mmUVD_SCRATCH2) & 0x7FFFFFFF);
+
+total: 0 errors, 7 warnings, 948 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 68a9fb4d2980 ("drm/amdgpu: change HWIP from UVD to VCN for VCN2.5") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

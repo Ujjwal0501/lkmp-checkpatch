@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit c30dd9270197 ("arm64: dts: meson-sm1: add cpu thermal nodes") has no obvious style problems and is ready for submission.

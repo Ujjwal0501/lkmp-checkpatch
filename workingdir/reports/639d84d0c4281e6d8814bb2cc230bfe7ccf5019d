@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 18 lines checked
+
+Commit 639d84d0c428 ("net: hns3: modify an incorrect type in struct hclge_cfg_gro_status_cmd") has no obvious style problems and is ready for submission.

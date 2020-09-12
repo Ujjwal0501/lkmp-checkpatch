@@ -1,0 +1,62 @@
+WARNING:SUSPECT_CODE_INDENT: suspect code indent for conditional statements (24, 40)
+#121: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.c:1220:
++			if (buf->type == V4L2_BUF_TYPE_VIDEO_CAPTURE_ION)
++					attributes.type = HRT_USR_ION;
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments should align the * on each line
+#130: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.c:1229:
++					/*
++					* Make sure the shared fd we just got
+
+WARNING:LINE_CONTINUATIONS: Avoid line continuations in quoted strings
+#145: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.c:1244:
++					dev_err(isp->dev, "v4l2 buffer type is ION, \
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#215: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.c:1341:
++				ret = atomisp_css_offline_capture_configure(asd,
++					asd->params.offline_parm.num_captures,
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#246: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.c:1610:
++^I^I^I^I         unsigned int wdt_duration)$
+
+WARNING:BRACES: braces {} are not necessary for any arm of this statement
+#293: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.c:1875:
++		if (!atomisp_hw_is_isp2401) {
+[...]
++		} else {
+[...]
+
+WARNING:MULTILINE_DEREFERENCE: Avoid multiple line dereference - prefer 'isp->inputs[asd->input_curr].camera->ctrl_handler'
+#340: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.c:2366:
++			return v4l2_queryctrl(isp->inputs[asd->input_curr].camera->
++					    ctrl_handler, qc);
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#404: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.c:2514:
+ 
++
+
+CHECK:SPACING: spaces preferred around that '*' (ctx:WxV)
+#559: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.h:31:
++atomisp_format_bridge *atomisp_get_format_bridge(unsigned int pixelformat);
+                       ^
+
+CHECK:SPACING: spaces preferred around that '*' (ctx:WxV)
+#562: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_ioctl.h:34:
++atomisp_format_bridge *atomisp_get_format_bridge_from_mbus(u32 mbus_code);
+                       ^
+
+total: 1 errors, 5 warnings, 4 checks, 517 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 9ace178dee15 ("media: atomisp: atomisp_ioctl.c: get rid of a ISP2400/ISP2401 dependency") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

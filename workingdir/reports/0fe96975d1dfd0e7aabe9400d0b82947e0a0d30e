@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 32 lines checked
+
+Commit 0fe96975d1df ("mt76: mt7615: fix ssid configuration in mt7615_mcu_hw_scan") has no obvious style problems and is ready for submission.

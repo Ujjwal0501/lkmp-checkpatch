@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'Commit 2ad6691d988c ("rxrpc: Fix race between incoming ACK parser and retransmitter")'
+#6: 
+Commit 2ad6691d988c, which moved the modification of the status annotation
+
+total: 1 errors, 0 warnings, 0 checks, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 02c28dffb13a ("rxrpc: Fix afs large storage transmission performance drop") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

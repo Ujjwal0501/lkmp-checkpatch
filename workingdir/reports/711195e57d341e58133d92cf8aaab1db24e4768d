@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit 711195e57d34 ("RDMA/hns: Reserve one sge in order to avoid local length error") has no obvious style problems and is ready for submission.

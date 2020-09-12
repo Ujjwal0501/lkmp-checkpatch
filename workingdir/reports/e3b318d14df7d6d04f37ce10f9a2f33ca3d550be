@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 59 lines checked
+
+Commit e3b318d14df7 ("btrfs: convert btrfs_dio_private->pending_bios to refcount_t") has no obvious style problems and is ready for submission.

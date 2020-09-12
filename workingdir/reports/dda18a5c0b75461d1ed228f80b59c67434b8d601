@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+b9f4c01f3e0b ("selftest/bpf: Make bpf_iter selftest compilable against old vmlinux.h")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit b9f4c01f3e0b ("selftest/bpf: Make bpf_iter selftest compilable against old vmlinux.h")'
+#7: 
+b9f4c01f3e0b ("selftest/bpf: Make bpf_iter selftest compilable against old vmlinux.h")
+
+total: 1 errors, 1 warnings, 50 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dda18a5c0b75 ("selftests/bpf: Convert bpf_iter_test_kern{3, 4}.c to define own bpf_iter_meta") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

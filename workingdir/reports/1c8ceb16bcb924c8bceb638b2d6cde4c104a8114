@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 1c8ceb16bcb9 ("bus: bt1-apb: Include linux/io.h") has no obvious style problems and is ready for submission.

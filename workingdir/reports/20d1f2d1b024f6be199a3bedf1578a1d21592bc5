@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit 20d1f2d1b024 ("net: bcmgenet: use hardware padding of runt frames") has no obvious style problems and is ready for submission.

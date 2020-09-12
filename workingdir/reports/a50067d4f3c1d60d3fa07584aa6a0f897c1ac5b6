@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#113: 
+new file mode 100644
+
+WARNING:TYPO_SPELLING: 'miniumum' may be misspelled - perhaps 'minimum'?
+#290: FILE: sound/soc/codecs/rt5682-i2c.c:173:
++	/* Sleep for 300 ms miniumum */
+
+total: 0 errors, 2 warnings, 1799 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a50067d4f3c1 ("ASoC: rt5682: split i2c driver into separate module") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

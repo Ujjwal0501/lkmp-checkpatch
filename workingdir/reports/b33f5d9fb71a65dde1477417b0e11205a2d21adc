@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'ADVERTISMENT' may be misspelled - perhaps 'ADVERTISEMENT'?
+#32: FILE: drivers/net/ethernet/mellanox/mlxsw/spectrum.c:4087:
++	MLXSW_SP_RXL_MARK(L3_IPV6_NEIGHBOR_ADVERTISMENT, TRAP_TO_CPU,
+
+total: 0 errors, 1 warnings, 0 checks, 14 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b33f5d9fb71a ("mlxsw: spectrum: Use same trap group for IPv6 ND and ARP packets") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

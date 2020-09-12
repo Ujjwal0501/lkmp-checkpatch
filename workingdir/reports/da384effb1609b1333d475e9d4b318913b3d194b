@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 22 lines checked
+
+Commit da384effb160 ("net: dsa: vsc73xx: convert to devm_platform_ioremap_resource") has no obvious style problems and is ready for submission.

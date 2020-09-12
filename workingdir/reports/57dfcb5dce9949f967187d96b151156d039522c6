@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit 57dfcb5dce99 ("arm64: dts: ti: k3-am65-main: Add ehrpwm nodes") has no obvious style problems and is ready for submission.

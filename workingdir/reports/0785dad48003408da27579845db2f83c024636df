@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 39 lines checked
+
+Commit 0785dad48003 ("r8169: use devm_mdiobus_register") has no obvious style problems and is ready for submission.

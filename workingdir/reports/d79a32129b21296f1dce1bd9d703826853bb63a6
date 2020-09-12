@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 282 lines checked
+
+Commit d79a32129b21 ("bpf: Selftests, remove prints from sockmap tests") has no obvious style problems and is ready for submission.

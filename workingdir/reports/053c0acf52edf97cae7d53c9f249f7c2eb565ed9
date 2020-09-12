@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 053c0acf52ed ("RDMA/hns: Fix assignment to ba_pg_sz of eqe") has no obvious style problems and is ready for submission.

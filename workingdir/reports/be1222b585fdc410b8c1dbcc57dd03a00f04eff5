@@ -1,0 +1,13 @@
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#505: FILE: drivers/net/ethernet/intel/i40e/i40e_xsk.c:419:
++static struct i40e_rx_buffer_zc *i40e_get_rx_buffer_zc(
+
+total: 0 errors, 0 warnings, 1 checks, 524 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit be1222b585fd ("i40e: Separate kernel allocated rx_bi rings from AF_XDP rings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

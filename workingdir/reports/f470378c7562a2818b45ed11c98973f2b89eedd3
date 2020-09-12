@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit f470378c7562 ("bpf: Extend bpf_base_func_proto helpers with probe_* and *current_task*") has no obvious style problems and is ready for submission.

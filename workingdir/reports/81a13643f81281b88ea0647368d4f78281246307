@@ -1,0 +1,73 @@
+CHECK:CAMELCASE: Avoid CamelCase: <uRrvTime>
+#29: FILE: drivers/staging/vt6655/rxtx.c:198:
++	unsigned int uRrvTime = 0;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uRTSTime>
+#30: FILE: drivers/staging/vt6655/rxtx.c:199:
++	unsigned int uRTSTime = 0;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uCTSTime>
+#31: FILE: drivers/staging/vt6655/rxtx.c:200:
++	unsigned int uCTSTime = 0;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uAckTime>
+#32: FILE: drivers/staging/vt6655/rxtx.c:201:
++	unsigned int uAckTime = 0;
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#39: FILE: drivers/staging/vt6655/rxtx.c:207:
++		uAckTime = BBuGetFrameTime(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <BBuGetFrameTime>
+#39: FILE: drivers/staging/vt6655/rxtx.c:207:
++		uAckTime = BBuGetFrameTime(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <pDevice>
+#39: FILE: drivers/staging/vt6655/rxtx.c:207:
++		uAckTime = BBuGetFrameTime(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byPreambleType>
+#39: FILE: drivers/staging/vt6655/rxtx.c:207:
++		uAckTime = BBuGetFrameTime(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopCCKBasicRate>
+#39: FILE: drivers/staging/vt6655/rxtx.c:207:
++		uAckTime = BBuGetFrameTime(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#48: FILE: drivers/staging/vt6655/rxtx.c:215:
++		uAckTime = BBuGetFrameTime(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopOFDMBasicRate>
+#48: FILE: drivers/staging/vt6655/rxtx.c:215:
++		uAckTime = BBuGetFrameTime(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <pvRrvTime>
+#62: FILE: drivers/staging/vt6655/rxtx.c:1047:
++	void *pvRrvTime = NULL;
+
+CHECK:CAMELCASE: Avoid CamelCase: <pMICHDR>
+#63: FILE: drivers/staging/vt6655/rxtx.c:1048:
++	struct vnt_mic_hdr *pMICHDR = NULL;
+
+CHECK:CAMELCASE: Avoid CamelCase: <pvRTS>
+#64: FILE: drivers/staging/vt6655/rxtx.c:1049:
++	void *pvRTS = NULL;
+
+CHECK:CAMELCASE: Avoid CamelCase: <pvCTS>
+#65: FILE: drivers/staging/vt6655/rxtx.c:1050:
++	void *pvCTS = NULL;
+
+CHECK:CAMELCASE: Avoid CamelCase: <pvTxDataHd>
+#66: FILE: drivers/staging/vt6655/rxtx.c:1051:
++	void *pvTxDataHd = NULL;
+
+total: 0 errors, 2 warnings, 14 checks, 51 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 81a13643f812 ("staging: vt6655: Remove multiple assignments.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

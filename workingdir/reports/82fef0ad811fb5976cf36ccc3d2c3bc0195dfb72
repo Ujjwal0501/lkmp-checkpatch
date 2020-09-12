@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 82fef0ad811f ("x86/mm: unencrypted non-blocking DMA allocations use coherent pools") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 3a88d7c5c944 ("arm64: kconfig: Update and comment GCC version check for kernel BTI") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:ENOSYS: ENOSYS means 'invalid syscall nr' and nothing else
+#149: FILE: include/linux/of_mdio.h:128:
++	return -ENOSYS;
+
+total: 0 errors, 1 warnings, 123 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5972157c2dde ("net: mdio: of: export part of of_mdiobus_register_phy()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

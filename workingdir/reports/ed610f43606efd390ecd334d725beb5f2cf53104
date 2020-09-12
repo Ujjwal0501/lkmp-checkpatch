@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit ed610f43606e ("drm/i915/selftests: Always call the provided engine->emit_init_breadcrumb") has no obvious style problems and is ready for submission.

@@ -1,0 +1,21 @@
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#26: FILE: drivers/i2c/busses/i2c-pxa.c:289:
++	printk("%s %08x:", prefix, val);
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#31: FILE: drivers/i2c/busses/i2c-pxa.c:293:
++			pr_cont(" %s", str);
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#34: FILE: drivers/i2c/busses/i2c-pxa.c:296:
++	pr_cont("\n");
+
+total: 0 errors, 3 warnings, 30 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bb82ba690757 ("i2c: pxa: clean up decode_bits()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

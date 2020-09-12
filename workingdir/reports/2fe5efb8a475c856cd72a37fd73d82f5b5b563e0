@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 2fe5efb8a475 ("brcmsmac: Add missing annotation for brcms_rfkill_set_hw_state()") has no obvious style problems and is ready for submission.

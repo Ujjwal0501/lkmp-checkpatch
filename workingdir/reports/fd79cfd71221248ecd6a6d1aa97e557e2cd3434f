@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit fd79cfd71221 ("docs: debugfs: Update struct debugfs_reg32 definition") has no obvious style problems and is ready for submission.

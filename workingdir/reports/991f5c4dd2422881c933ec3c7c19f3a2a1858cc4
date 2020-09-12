@@ -1,0 +1,21 @@
+WARNING:CONST_STRUCT: struct clk_ops should normally be const
+#41: FILE: arch/m68k/coldfire/clk.c:86:
++struct clk_ops clk_ops2 = {
+
+WARNING:CONST_STRUCT: struct clk_ops should normally be const
+#197: FILE: arch/m68k/include/asm/mcfclk.h:33:
++extern struct clk_ops clk_ops2;
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#203: 
+new file mode 100644
+
+total: 0 errors, 3 warnings, 163 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 991f5c4dd242 ("m68k: mcf5441x: add support for esdhc mmc controller") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

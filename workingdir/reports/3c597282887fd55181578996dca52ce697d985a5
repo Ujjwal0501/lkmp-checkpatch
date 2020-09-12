@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 3c597282887f ("erofs: fix partially uninitialized misuse in z_erofs_onlinepage_fixup") has no obvious style problems and is ready for submission.

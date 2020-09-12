@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit f78bf066acb9 ("platform/x86: intel_pmc_core: Change Jasper Lake S0ix debug reg map back to ICL") has no obvious style problems and is ready for submission.

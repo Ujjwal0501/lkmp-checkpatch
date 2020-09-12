@@ -1,0 +1,17 @@
+WARNING:OBSOLETE: drivers/net/ethernet/8390/ne2k-pci.c is marked as 'obsolete' in the MAINTAINERS hierarchy.  No unnecessary modifications please.
+
+WARNING:OBSOLETE: drivers/net/ethernet/8390/ne2k-pci.c is marked as 'obsolete' in the MAINTAINERS hierarchy.  No unnecessary modifications please.
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#57: FILE: drivers/net/ethernet/8390/ne2k-pci.c:1:
++/* A Linux device driver for PCI NE2000 clones.
+
+total: 0 errors, 3 warnings, 0 checks, 663 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 53c0ec4f4db1 ("ne2k-pci: Fix various coding-style issues and improve printk() usage") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

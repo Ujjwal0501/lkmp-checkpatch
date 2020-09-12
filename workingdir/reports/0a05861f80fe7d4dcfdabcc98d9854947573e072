@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 0a05861f80fe ("xsk: Fix typo in xsk_umem_consume_tx and xsk_generic_xmit comments") has no obvious style problems and is ready for submission.

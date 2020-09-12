@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit e7d3c33c58e0 ("mfd: intel_soc_pmic: Add SCU IPC member to struct intel_soc_pmic") has no obvious style problems and is ready for submission.

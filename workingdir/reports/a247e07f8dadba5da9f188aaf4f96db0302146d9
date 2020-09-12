@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit a247e07f8dad ("scsi: sr: Fix sr_probe() missing mutex_destroy") has no obvious style problems and is ready for submission.

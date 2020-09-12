@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit d67c72e6cce9 ("ceph: request expedited service on session's last cap flush") has no obvious style problems and is ready for submission.

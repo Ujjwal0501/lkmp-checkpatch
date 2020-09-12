@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit e45a4b652dbd ("mtd: rawnand: Fix nand_gpio_waitrdy()") has no obvious style problems and is ready for submission.

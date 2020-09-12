@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+Pavel noticed that a debug message (disabled by default) in creating the security
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#55: FILE: fs/cifs/smb2pdu.c:2341:
++	cifs_dbg(FYI, "owner S-1-5-88-1-%d, group S-1-5-88-2-%d\n", current_fsuid().val, current_fsgid().val);
+
+total: 0 errors, 2 warnings, 24 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a7a519a49262 ("smb3: Add debug message for new file creation with idsfromsid mount option") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit d7442ba13d62 ("regulator: da9063: fix LDO9 suspend and warning.") has no obvious style problems and is ready for submission.

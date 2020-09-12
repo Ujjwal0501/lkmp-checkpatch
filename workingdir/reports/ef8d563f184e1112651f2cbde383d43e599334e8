@@ -1,0 +1,19 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#233: FILE: fs/f2fs/file.c:3591:
++		f2fs_warn(sbi, "%s: partial blocks were released i_ino=%lx "
++			"iblocks=%llu, released=%u, compr_blocks=%llu, "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#234: FILE: fs/f2fs/file.c:3592:
++			"iblocks=%llu, released=%u, compr_blocks=%llu, "
++			"run fsck to fix.",
+
+total: 0 errors, 2 warnings, 217 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ef8d563f184e ("f2fs: introduce F2FS_IOC_RELEASE_COMPRESS_BLOCKS") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

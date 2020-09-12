@@ -1,0 +1,13 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#27: FILE: drivers/nvme/host/core.c:3413:
++		unsigned nsid, struct nvme_ns_ids *ids)
+
+total: 0 errors, 1 warnings, 17 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 03f8cebc127f ("nvme: remove unused parameter") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

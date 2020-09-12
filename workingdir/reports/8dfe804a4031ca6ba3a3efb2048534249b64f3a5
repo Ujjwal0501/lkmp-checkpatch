@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'compatability' may be misspelled - perhaps 'compatibility'?
+#35: FILE: arch/arm64/kernel/perf_regs.c:19:
++	 * we're stuck with it for ABI compatability reasons.
+
+total: 0 errors, 1 warnings, 37 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8dfe804a4031 ("arm64: perf: Report the PC value in REGS_ABI_32 mode") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

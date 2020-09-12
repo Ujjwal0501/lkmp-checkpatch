@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 320 lines checked
+
+Commit ded3491b8522 ("drm/amd/display: code cleanup on dc_link from is_same_edid to get_ddc_line") has no obvious style problems and is ready for submission.

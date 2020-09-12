@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit c281a6c1ac6b ("x86: switch 32bit csum_and_copy_to_user() to user_access_{begin,end}()") has no obvious style problems and is ready for submission.

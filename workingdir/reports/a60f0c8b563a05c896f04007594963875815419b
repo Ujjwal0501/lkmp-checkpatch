@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 140 lines checked
+
+Commit a60f0c8b563a ("staging: bcm2835-camera: reduce multiline statements") has no obvious style problems and is ready for submission.

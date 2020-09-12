@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 112 lines checked
+
+Commit e5a9c95f9bdb ("floppy: cleanup: make get_fdc_version() not rely on current_fdc anymore") has no obvious style problems and is ready for submission.

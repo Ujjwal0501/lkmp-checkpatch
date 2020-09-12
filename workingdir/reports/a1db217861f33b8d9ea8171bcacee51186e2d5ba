@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 180 lines checked
+
+Commit a1db217861f3 ("net: flow_offload: fix flow_indr_dev_unregister path") has no obvious style problems and is ready for submission.

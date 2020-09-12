@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 92 lines checked
+
+Commit d4eaa2837851 ("mm: add kvfree_sensitive() for freeing sensitive data objects") has no obvious style problems and is ready for submission.

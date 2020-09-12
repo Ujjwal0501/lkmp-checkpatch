@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 32275d3f758f ("afs: Show more a bit more server state in /proc/net/afs/servers") has no obvious style problems and is ready for submission.

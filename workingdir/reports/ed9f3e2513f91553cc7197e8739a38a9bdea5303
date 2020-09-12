@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 134 lines checked
+
+Commit ed9f3e2513f9 ("scsi: scsi_debug: Implement PRE-FETCH commands") has no obvious style problems and is ready for submission.

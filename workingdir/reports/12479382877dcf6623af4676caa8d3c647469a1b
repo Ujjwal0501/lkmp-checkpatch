@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 164 lines checked
+
+Commit 12479382877d ("regmap-irq: make it possible to add irq_chip do a specific device node") has no obvious style problems and is ready for submission.

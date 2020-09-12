@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit b717fa5cb1a1 ("drm/amdgpu: fix size calculation in amdgpu_ttm_copy_mem_to_mem") has no obvious style problems and is ready for submission.

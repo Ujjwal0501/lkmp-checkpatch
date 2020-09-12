@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit f7d31e65368a ("x86/kvm/hyper-v: Explicitly align hcall param for kvm_hyperv_exit") has no obvious style problems and is ready for submission.

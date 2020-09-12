@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 3093c6410172 ("i2c: mux: pca954x: Move device_remove_file() out of pca954x_cleanup()") has no obvious style problems and is ready for submission.

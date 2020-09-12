@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 1493674ba3c0 ("fpga: ice40-spi: Use new structure for SPI transfer delays") has no obvious style problems and is ready for submission.

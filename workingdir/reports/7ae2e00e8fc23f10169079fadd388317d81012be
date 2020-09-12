@@ -1,0 +1,17 @@
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'test_xdp_adjust_tail_grow', this function's name, in a string
+#55: FILE: tools/testing/selftests/bpf/prog_tests/xdp_adjust_tail.c:35:
++	const char *file = "./test_xdp_adjust_tail_grow.o";
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#164: 
+new file mode 100644
+
+total: 0 errors, 2 warnings, 169 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7ae2e00e8fc2 ("selftests/bpf: Xdp_adjust_tail add grow tail tests") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

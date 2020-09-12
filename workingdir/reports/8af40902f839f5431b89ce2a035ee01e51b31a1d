@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 8af40902f839 ("ath11k: remove conversion to bool in ath11k_dp_rxdesc_mpdu_valid()") has no obvious style problems and is ready for submission.

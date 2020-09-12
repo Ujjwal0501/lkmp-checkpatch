@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 59 lines checked
+
+Commit 5f930713728b ("igc: Refactor igc_del_mac_filter()") has no obvious style problems and is ready for submission.

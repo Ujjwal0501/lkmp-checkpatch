@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 4765db373ea3 ("Bluetooth: hci_h5: Add support for binding RTL8723BS with device tree") has no obvious style problems and is ready for submission.

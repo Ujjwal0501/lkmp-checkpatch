@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit f5ef076215df ("drm/tilcdc: Set up fbdev after fully registering device") has no obvious style problems and is ready for submission.

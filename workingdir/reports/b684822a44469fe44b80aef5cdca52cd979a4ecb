@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit b684822a4446 ("drm: Skip drm_mode_config_validate() for !modeset") has no obvious style problems and is ready for submission.

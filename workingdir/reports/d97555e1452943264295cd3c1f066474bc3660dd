@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 165 lines checked
+
+Commit d97555e14529 ("net/mlx5e: Add bond_metadata and its slave entries") has no obvious style problems and is ready for submission.

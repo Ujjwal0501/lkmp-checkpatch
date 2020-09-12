@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit cc15461c73d7 ("SMB3: Honor 'seal' flag for multiuser mounts") has no obvious style problems and is ready for submission.

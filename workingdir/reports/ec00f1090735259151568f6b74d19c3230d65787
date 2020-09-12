@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 10 lines checked
+
+Commit ec00f1090735 ("igc: Fix igc_uc_unsync()") has no obvious style problems and is ready for submission.

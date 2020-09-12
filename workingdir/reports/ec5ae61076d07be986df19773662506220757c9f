@@ -1,0 +1,19 @@
+WARNING:OOM_MESSAGE: Possible unnecessary 'out of memory' message
+#463: FILE: drivers/net/dsa/sja1105/sja1105_main.c:2015:
++		if (!s) {
++			dev_err(priv->ds->dev, "Failed to allocate memory\n");
+
+WARNING:OOM_MESSAGE: Possible unnecessary 'out of memory' message
+#594: FILE: drivers/net/dsa/sja1105/sja1105_main.c:2238:
++		if (!v) {
++			dev_err(ds->dev, "Out of memory while storing VLAN\n");
+
+total: 0 errors, 2 warnings, 0 checks, 745 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ec5ae61076d0 ("net: dsa: sja1105: save/restore VLANs using a delta commit method") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 34 lines checked
+
+Commit e1167e16114f ("net/mlx5: reduce stack usage in qp_read_field") has no obvious style problems and is ready for submission.

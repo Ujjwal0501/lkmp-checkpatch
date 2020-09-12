@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit bf97bac9dc64 ("net: atm: Remove the error message according to the atomic context") has no obvious style problems and is ready for submission.

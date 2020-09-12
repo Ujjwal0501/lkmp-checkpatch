@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit 82028e0a2a9b ("btrfs: inode: cleanup the log-tree exceptions in btrfs_truncate_inode_items()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 164 lines checked
+
+Commit cdeb21da1783 ("fscrypt: add fscrypt_add_test_dummy_key()") has no obvious style problems and is ready for submission.

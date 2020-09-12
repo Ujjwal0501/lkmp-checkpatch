@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 96 lines checked
+
+Commit bf40bf5ecf3f ("MIPS: ingenic: DTS: Add nodes for the watchdog/PWM/OST") has no obvious style problems and is ready for submission.

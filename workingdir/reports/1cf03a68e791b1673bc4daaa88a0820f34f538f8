@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#234: FILE: fs/ceph/super.h:356:
++	 * Link to the the auth cap's session's s_cap_dirty list. s_cap_dirty
+
+total: 0 errors, 1 warnings, 191 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1cf03a68e791 ("ceph: convert mdsc->cap_dirty to a per-session list") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

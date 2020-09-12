@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 203 lines checked
+
+Commit ac45abc0e2a8 ("io_uring: remove custom ->func handlers") has no obvious style problems and is ready for submission.

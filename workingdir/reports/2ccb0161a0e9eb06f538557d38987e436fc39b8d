@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 2ccb0161a0e9 ("net: macb: use phy_interface_mode_is_rgmii everywhere") has no obvious style problems and is ready for submission.

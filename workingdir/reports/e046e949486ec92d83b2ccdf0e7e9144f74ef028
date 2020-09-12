@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 63 lines checked
+
+Commit e046e949486e ("xfs: factor out a xfs_defer_create_intent helper") has no obvious style problems and is ready for submission.

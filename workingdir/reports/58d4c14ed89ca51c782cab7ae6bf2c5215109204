@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 164 exceeds 100 columns
+#25: FILE: drivers/media/v4l2-core/v4l2-common.c:255:
++		{ .format = V4L2_PIX_FMT_BGR666,  .pixel_enc = V4L2_PIXEL_ENC_RGB, .mem_planes = 1, .comp_planes = 1, .bpp = { 4, 0, 0, 0 }, .hdiv = 1, .vdiv = 1 },
+
+total: 0 errors, 1 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 58d4c14ed89c ("media: v4l2-common: Add BGR666 to v4l2_format_info") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

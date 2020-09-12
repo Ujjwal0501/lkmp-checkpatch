@@ -1,0 +1,148 @@
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#902: FILE: drivers/staging/media/atomisp/pci/system_global.h:98:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#907: FILE: drivers/staging/media/atomisp/pci/system_global.h:103:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#912: FILE: drivers/staging/media/atomisp/pci/system_global.h:108:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#917: FILE: drivers/staging/media/atomisp/pci/system_global.h:113:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#923: FILE: drivers/staging/media/atomisp/pci/system_global.h:119:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#928: FILE: drivers/staging/media/atomisp/pci/system_global.h:124:
++typedef enum {
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#935: FILE: drivers/staging/media/atomisp/pci/system_global.h:131:
++/* this extra define is needed because we want to use it also
++   in the preprocessor, and that doesn't work with enums.
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#939: FILE: drivers/staging/media/atomisp/pci/system_global.h:135:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#946: FILE: drivers/staging/media/atomisp/pci/system_global.h:142:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#951: FILE: drivers/staging/media/atomisp/pci/system_global.h:147:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#956: FILE: drivers/staging/media/atomisp/pci/system_global.h:152:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#964: FILE: drivers/staging/media/atomisp/pci/system_global.h:160:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#969: FILE: drivers/staging/media/atomisp/pci/system_global.h:165:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#974: FILE: drivers/staging/media/atomisp/pci/system_global.h:170:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#986: FILE: drivers/staging/media/atomisp/pci/system_global.h:182:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#991: FILE: drivers/staging/media/atomisp/pci/system_global.h:187:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#996: FILE: drivers/staging/media/atomisp/pci/system_global.h:192:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1015: FILE: drivers/staging/media/atomisp/pci/system_global.h:211:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1020: FILE: drivers/staging/media/atomisp/pci/system_global.h:216:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1035: FILE: drivers/staging/media/atomisp/pci/system_global.h:231:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1046: FILE: drivers/staging/media/atomisp/pci/system_global.h:242:
++typedef enum {
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#1063: FILE: drivers/staging/media/atomisp/pci/system_global.h:259:
++
++
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1086: FILE: drivers/staging/media/atomisp/pci/system_global.h:282:
++typedef enum {
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#1093: FILE: drivers/staging/media/atomisp/pci/system_global.h:289:
++
++
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1097: FILE: drivers/staging/media/atomisp/pci/system_global.h:293:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1108: FILE: drivers/staging/media/atomisp/pci/system_global.h:304:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1115: FILE: drivers/staging/media/atomisp/pci/system_global.h:311:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1141: FILE: drivers/staging/media/atomisp/pci/system_global.h:337:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1148: FILE: drivers/staging/media/atomisp/pci/system_global.h:344:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1155: FILE: drivers/staging/media/atomisp/pci/system_global.h:351:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1164: FILE: drivers/staging/media/atomisp/pci/system_global.h:360:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1172: FILE: drivers/staging/media/atomisp/pci/system_global.h:368:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1180: FILE: drivers/staging/media/atomisp/pci/system_global.h:376:
++typedef enum {
+
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#1194: FILE: drivers/staging/media/atomisp/pci/system_global.h:390:
++typedef enum {
+
+total: 0 errors, 32 warnings, 2 checks, 563 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4b28ded7634c ("media: atomisp: move global stuff into a common header") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 38 lines checked
+
+Commit ebd6e96b33a2 ("RDMA/ipoib: Remove can_sleep parameter from iboib_mcast_alloc") has no obvious style problems and is ready for submission.

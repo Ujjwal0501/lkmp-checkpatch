@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit a7a047ea5e01 ("iio: pressure: bmp280: Drop unneeded explicit castings") has no obvious style problems and is ready for submission.

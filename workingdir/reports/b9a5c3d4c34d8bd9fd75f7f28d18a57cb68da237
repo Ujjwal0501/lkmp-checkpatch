@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit b9a5c3d4c34d ("nvme: refine the Qemu Identify CNS quirk") has no obvious style problems and is ready for submission.

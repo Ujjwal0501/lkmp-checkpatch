@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 38 lines checked
+
+Commit 8cfba76383e9 ("pipe: Allow buffers to be marked read-whole-or-error for notifications") has no obvious style problems and is ready for submission.

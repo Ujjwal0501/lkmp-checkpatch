@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 65 lines checked
+
+Commit 5f1572e6178e ("net/mlx5e: Fix ethtool hfunc configuration change") has no obvious style problems and is ready for submission.

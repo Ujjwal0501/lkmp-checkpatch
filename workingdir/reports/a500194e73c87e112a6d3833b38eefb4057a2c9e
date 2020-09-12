@@ -1,0 +1,17 @@
+WARNING:TYPO_SPELLING: 'fimware' may be misspelled - perhaps 'firmware'?
+#4: 
+Subject: [PATCH] drm/amdgpu/vcn: fix spelling mistake "fimware" -> "firmware"
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#24: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_vcn.c:190:
++			dev_err(adev->dev, "VCN %d (%d) failed to allocate firmware shared bo\n", i, r);
+
+total: 0 errors, 2 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a500194e73c8 ("drm/amdgpu/vcn: fix spelling mistake "fimware" -> "firmware"") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

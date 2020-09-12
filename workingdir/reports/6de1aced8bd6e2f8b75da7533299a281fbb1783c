@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit 6de1aced8bd6 ("arm64: dts: realtek: rtd129x: Add SB2 and SCPU Wrapper syscon nodes") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 114 lines checked
+
+Commit eed22a46b979 ("drm/i915: Pass encoder all the way to intel_ddi_transcoder_func_reg_val_get()") has no obvious style problems and is ready for submission.

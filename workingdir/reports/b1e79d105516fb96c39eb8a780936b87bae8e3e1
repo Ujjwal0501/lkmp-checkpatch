@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 82 lines checked
+
+Commit b1e79d105516 ("mt76: mt7663u: fix memory leaks in mt7663u_probe") has no obvious style problems and is ready for submission.

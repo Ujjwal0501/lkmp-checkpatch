@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Co-developed-by and Signed-off-by: name/email do not match 
+#13: 
+Co-developed-by: Shik Chen <shik@chromium.org>
+Signed-off-by: Pi-Hsun Shih <pihsun@chromium.org>
+total: 0 errors, 1 warnings, 10 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d178770d8d21 ("scripts/decode_stacktrace: strip basepath from all paths") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

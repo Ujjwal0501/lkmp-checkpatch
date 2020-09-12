@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit bd6e38983bb7 ("MIPS: Remove useless parameter of bootcmdline_init()") has no obvious style problems and is ready for submission.

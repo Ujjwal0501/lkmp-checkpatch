@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 55 lines checked
+
+Commit 816d84826e89 ("ALSA: firewire-lib: code refactoring for syt offset calculation") has no obvious style problems and is ready for submission.

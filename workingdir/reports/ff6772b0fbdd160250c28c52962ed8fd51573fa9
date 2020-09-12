@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ff6772b0fbdd ("drm/amdgpu/dc: Use WARN_ON_ONCE for ASSERT") has no obvious style problems and is ready for submission.

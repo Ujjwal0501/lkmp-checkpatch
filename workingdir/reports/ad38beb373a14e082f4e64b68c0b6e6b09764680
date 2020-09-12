@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit ad38beb373a1 ("Revert "usb: dwc3: exynos: Add support for Exynos5422 suspend clk"") has no obvious style problems and is ready for submission.

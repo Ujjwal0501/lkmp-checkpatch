@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit e71ee06e3ca3 ("RISC-V: Force select RISCV_INTC for CONFIG_RISCV") has no obvious style problems and is ready for submission.

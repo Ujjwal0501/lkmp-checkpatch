@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit bc41d0c40ec2 ("KVM: nVMX: Use vpid_sync_vcpu_addr() to emulate INVVPID with address") has no obvious style problems and is ready for submission.

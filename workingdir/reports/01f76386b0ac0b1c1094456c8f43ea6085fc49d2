@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 01f76386b0ac ("riscv: set the permission of vdso_data to read-only") has no obvious style problems and is ready for submission.

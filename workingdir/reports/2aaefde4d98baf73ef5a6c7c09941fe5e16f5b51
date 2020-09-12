@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit 2aaefde4d98b ("perf evsel: Rename __perf_evsel__sample_size() to __evsel__sample_size()") has no obvious style problems and is ready for submission.

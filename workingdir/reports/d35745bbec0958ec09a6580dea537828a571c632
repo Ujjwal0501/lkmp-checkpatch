@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 137 lines checked
+
+Commit d35745bbec09 ("drm/amdgpu: apply AMDGPU_IB_FLAG_EMIT_MEM_SYNC to compute IBs too (v3)") has no obvious style problems and is ready for submission.

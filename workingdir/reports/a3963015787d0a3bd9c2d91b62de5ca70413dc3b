@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit a3963015787d ("fs/seq_file.c: seq_read: Update pr_info_ratelimited") has no obvious style problems and is ready for submission.

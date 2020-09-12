@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 8ab1d40a646e ("block: remove rcu_read_lock() from part_stat_lock()") has no obvious style problems and is ready for submission.

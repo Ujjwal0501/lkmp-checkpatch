@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 72dc0f515913 ("drm/dp_mst: Remove drm_dp_mst_topology_cbs.destroy_connector") has no obvious style problems and is ready for submission.

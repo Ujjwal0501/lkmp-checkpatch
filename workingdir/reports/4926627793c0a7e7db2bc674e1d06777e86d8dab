@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 40 lines checked
+
+Commit 4926627793c0 ("mm: remove __get_vm_area") has no obvious style problems and is ready for submission.

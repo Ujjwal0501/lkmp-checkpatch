@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 76ed2e105796 ("Revert "tty: xilinx_uartps: Fix missing id assignment to the console"") has no obvious style problems and is ready for submission.

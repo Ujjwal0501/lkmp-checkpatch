@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit a2f63ee8b5ea ("drm/amdgpu: correct fbdev suspend on gpu reset") has no obvious style problems and is ready for submission.

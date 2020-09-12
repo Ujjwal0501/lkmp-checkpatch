@@ -1,0 +1,14 @@
+ERROR:SPACING: spaces required around that ':' (ctx:VxE)
+#41: FILE: arch/powerpc/include/asm/book3s/64/kup-radix.h:25:
++998:
+    ^
+
+total: 1 errors, 0 warnings, 51 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d4539074b0e9 ("powerpc/64s/kuap: Conditionally restore AMR in kuap_restore_amr asm") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit c571686a92ff ("mm/util.c: remove the VM_WARN_ONCE for vm_committed_as underflow check") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 553 lines checked
+
+Commit 8ae178760b23 ("scsi: qla2xxx: Simplify the functions for dumping firmware") has no obvious style problems and is ready for submission.

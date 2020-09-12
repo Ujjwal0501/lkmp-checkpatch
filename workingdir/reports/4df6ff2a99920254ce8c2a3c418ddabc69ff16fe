@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit 4df6ff2a9992 ("nfp: don't check lack of RX/TX channels") has no obvious style problems and is ready for submission.

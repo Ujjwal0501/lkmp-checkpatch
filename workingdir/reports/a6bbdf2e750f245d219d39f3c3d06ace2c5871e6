@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit a6bbdf2e750f ("libbpf: Remove unneeded semicolon in btf_dump_emit_type") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 89 lines checked
+
+Commit bf38fbad12b3 ("f2fs: support fiemap on compressed inode") has no obvious style problems and is ready for submission.

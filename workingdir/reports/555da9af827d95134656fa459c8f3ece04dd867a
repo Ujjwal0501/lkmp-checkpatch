@@ -1,0 +1,19 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#188: FILE: net/smc/smc_llc.c:234:
++	rc = wait_event_interruptible_timeout(lgr->llc_waiter,
++			(lgr->llc_flow_lcl.type == SMC_LLC_FLOW_NONE &&
+
+WARNING:NEEDLESS_IF: kfree(NULL) is safe and this check is probably not required
+#281: FILE: net/smc/smc_llc.c:849:
++	if (lgr->delayed_event) {
++		kfree(lgr->delayed_event);
+
+total: 0 errors, 1 warnings, 1 checks, 254 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 555da9af827d ("net/smc: add event-based llc_flow framework") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

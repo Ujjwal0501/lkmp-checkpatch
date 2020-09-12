@@ -1,0 +1,21 @@
+WARNING:LONG_LINE_STRING: line length of 111 exceeds 100 columns
+#26: FILE: tools/testing/selftests/net/fib_nexthops.sh:22:
++IPV4_TESTS="ipv4_fcnal ipv4_grp_fcnal ipv4_withv6_fcnal ipv4_fcnal_runtime ipv4_compat_mode ipv4_fdb_grp_fcnal"
+
+WARNING:LONG_LINE_STRING: line length of 157 exceeds 100 columns
+#105: FILE: tools/testing/selftests/net/fib_nexthops.sh:346:
++	run_cmd "$IP link add name vx10 type vxlan id 1010 local 2001:db8:91::9 remote 2001:db8:91::10 dstport 4789 nolearning noudpcsum tos inherit ttl 100"
+
+WARNING:LONG_LINE_STRING: line length of 144 exceeds 100 columns
+#178: FILE: tools/testing/selftests/net/fib_nexthops.sh:419:
++	run_cmd "$IP link add name vx10 type vxlan id 1010 local 10.0.0.1 remote 10.0.0.2 dstport 4789 nolearning noudpcsum tos inherit ttl 100"
+
+total: 0 errors, 3 warnings, 178 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0534c5489c11 ("selftests: net: add fdb nexthop tests") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

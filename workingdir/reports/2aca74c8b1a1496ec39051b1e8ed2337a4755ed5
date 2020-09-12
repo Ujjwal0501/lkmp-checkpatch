@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#22: 
+new file mode 100644
+
+WARNING:REPEATED_WORD: Possible repeated word: 'supports'
+#119: FILE: Documentation/admin-guide/media/building.rst:93:
++       When a GPU driver supports supports HDMI CEC, it will automatically
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#273: FILE: Documentation/admin-guide/media/building.rst:247:
++When using this option, the defaults for the the media support core
+
+total: 0 errors, 3 warnings, 364 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2aca74c8b1a1 ("media: admin-guide: add a generic building guide") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

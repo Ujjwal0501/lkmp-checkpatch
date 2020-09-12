@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit fafcc40fd526 ("dt-bindings: thermal: rcar-thermal: Add device tree support for r8a7742") has no obvious style problems and is ready for submission.

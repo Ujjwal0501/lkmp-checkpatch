@@ -1,0 +1,39 @@
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#213: FILE: drivers/staging/media/atomisp/pci/atomisp_gmin_platform.c:482:
+ 
++
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#317: FILE: drivers/staging/media/atomisp/pci/atomisp_gmin_platform.c:619:
++	int ret;
++	ret = axp_regulator_set(dev, gs, gs->eldo2_sel_reg, gs->eldo2_1p8v,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#329: FILE: drivers/staging/media/atomisp/pci/atomisp_gmin_platform.c:631:
++	ret = axp_regulator_set(dev, gs, gs->eldo1_sel_reg, gs->eldo1_1p8v,
++		ELDO_CTRL_REG, gs->eldo1_ctrl_shift, true);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#341: FILE: drivers/staging/media/atomisp/pci/atomisp_gmin_platform.c:643:
++	int ret;
++	ret = axp_regulator_set(dev, gs, gs->eldo1_sel_reg, gs->eldo1_1p8v,
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#351: FILE: drivers/staging/media/atomisp/pci/atomisp_gmin_platform.c:653:
++
++
+
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#404: FILE: drivers/staging/media/atomisp/pci/atomisp_gmin_platform.c:756:
++
++
+
+total: 0 errors, 2 warnings, 4 checks, 412 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b4dc4e139beb ("media: atomisp: add support for different PMIC configurations") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

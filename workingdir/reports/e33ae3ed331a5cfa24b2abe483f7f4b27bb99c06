@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit e33ae3ed331a ("kbuild: use $(CC_VERSION_TEXT) to evaluate CC_IS_GCC and CC_IS_CLANG") has no obvious style problems and is ready for submission.

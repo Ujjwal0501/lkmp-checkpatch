@@ -1,0 +1,25 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 6e20fb18054c ("drivers/gpio/pca953x.c: add a mutex to fix race condition")'
+#12: 
+6e20fb18054c ("drivers/gpio/pca953x.c: add a mutex to fix race condition")
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#15: 
+Below are the traces and shell reproducers before and after proposed change.
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 35d13d94893f ("gpio: pca953x: convert to use bitmap API")'
+#68: 
+Depends-on: 35d13d94893f ("gpio: pca953x: convert to use bitmap API")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 49427232764d ("gpio: pca953x: Perform basic regmap conversion")'
+#69: 
+Depends-on: 49427232764d ("gpio: pca953x: Perform basic regmap conversion")
+
+total: 3 errors, 1 warnings, 19 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 064c73afe738 ("gpio: pca953x: Synchronize interrupt handler properly") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

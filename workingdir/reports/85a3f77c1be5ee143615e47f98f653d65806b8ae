@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 85a3f77c1be5 ("mmc: cb710: Inform the mmc core about the maximum busy timeout") has no obvious style problems and is ready for submission.

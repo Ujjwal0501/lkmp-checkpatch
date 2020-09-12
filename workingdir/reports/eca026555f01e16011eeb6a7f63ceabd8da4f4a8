@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 25 lines checked
+
+Commit eca026555f01 ("mt76: mt7615: fix hw_scan with ssid_type for specified SSID only") has no obvious style problems and is ready for submission.

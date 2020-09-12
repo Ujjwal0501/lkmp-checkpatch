@@ -1,0 +1,13 @@
+WARNING:MSLEEP: msleep < 20ms can sleep for up to 20ms; see Documentation/timers/timers-howto.rst
+#124: FILE: drivers/gpu/drm/i915/display/intel_display_power.c:4015:
++			msleep(1);
+
+total: 0 errors, 1 warnings, 186 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3c02934b24e3 ("drm/i915/tc/tgl: Implement TC cold sequences") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

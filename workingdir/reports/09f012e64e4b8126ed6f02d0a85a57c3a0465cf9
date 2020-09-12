@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 59 lines checked
+
+Commit 09f012e64e4b ("stmmac: intel: Fix clock handling on error and remove paths") has no obvious style problems and is ready for submission.

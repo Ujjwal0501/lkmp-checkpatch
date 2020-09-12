@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit d0abbc3ce695 ("perf parse-events: Add parse_events_option() variant that creates evlist") has no obvious style problems and is ready for submission.

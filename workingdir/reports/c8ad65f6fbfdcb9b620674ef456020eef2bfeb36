@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 108 lines checked
+
+Commit c8ad65f6fbfd ("w1_therm: fix reset_select_slave during discovery") has no obvious style problems and is ready for submission.

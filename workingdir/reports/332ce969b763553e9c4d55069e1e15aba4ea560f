@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#15: 
+ d68:	61 29 ff ff 	ori     r9,r9,65535
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#20: 
+ d7c:	61 29 ff ff 	ori     r9,r9,65535
+
+total: 0 errors, 2 warnings, 40 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 332ce969b763 ("powerpc/8xx: Reduce time spent in allow_user_access() and friends") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

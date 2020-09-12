@@ -1,0 +1,13 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit fatal: bad o ("08e7aa3c4154bea2d")'
+#7: 
+ACPICA commit cd66d0a50fdc9cc4dcd998e08e7aa3c4154bea2d
+
+total: 1 errors, 0 warnings, 11 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 034fdaa50803 ("ACPICA: Disassembler: ignore AE_ALREADY_EXISTS status when parsing create operators") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

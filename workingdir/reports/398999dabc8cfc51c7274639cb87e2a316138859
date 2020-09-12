@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 67 lines checked
+
+Commit 398999dabc8c ("staging: wfx: split wfx_get_ps_timeout() from wfx_update_pm()") has no obvious style problems and is ready for submission.

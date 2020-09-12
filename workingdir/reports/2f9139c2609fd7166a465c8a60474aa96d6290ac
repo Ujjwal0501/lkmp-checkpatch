@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 195 lines checked
+
+Commit 2f9139c2609f ("arm64: dts: amlogic: use the new USB control driver for GXL and GXM") has no obvious style problems and is ready for submission.

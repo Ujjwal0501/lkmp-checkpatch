@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 778627c78f01 ("ARM: s3c64xx: convert to use i2c_new_client_device()") has no obvious style problems and is ready for submission.

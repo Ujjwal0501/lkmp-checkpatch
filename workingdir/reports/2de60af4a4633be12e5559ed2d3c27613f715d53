@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 2de60af4a463 ("drm/i915/gvt: Add one missing MMIO handler for D_SKL_PLUS") has no obvious style problems and is ready for submission.

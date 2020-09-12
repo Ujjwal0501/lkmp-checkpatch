@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 20 lines checked
+
+Commit ca0c753815fe ("bnxt_en: Init ethtool link settings after reading updated PHY configuration.") has no obvious style problems and is ready for submission.

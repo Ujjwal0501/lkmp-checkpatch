@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 89f12d6509bf ("firmware: imx: scu: Fix possible memory leak in imx_scu_probe()") has no obvious style problems and is ready for submission.

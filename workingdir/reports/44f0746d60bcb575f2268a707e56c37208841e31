@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit 44f0746d60bc ("arm64: dts: uniphier: Add ethernet aliases") has no obvious style problems and is ready for submission.

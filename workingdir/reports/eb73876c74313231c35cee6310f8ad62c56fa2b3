@@ -1,0 +1,17 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#78: FILE: include/linux/compiler_types.h:181:
++# define __no_kasan_or_inline __no_sanitize_address notrace __maybe_unused
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#90: FILE: include/linux/compiler_types.h:193:
++# define __no_kcsan_or_inline __no_kcsan notrace __maybe_unused
+
+total: 2 errors, 0 warnings, 70 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit eb73876c7431 ("compiler.h: Move function attributes to compiler_types.h") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

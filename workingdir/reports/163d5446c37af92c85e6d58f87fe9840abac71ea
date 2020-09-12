@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 163d5446c37a ("drm/nouveau/disp/gm200-: fix regression from HDA SOR selection changes") has no obvious style problems and is ready for submission.

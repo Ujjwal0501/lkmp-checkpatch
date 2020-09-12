@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 109 lines checked
+
+Commit 37e91bd4b399 ("iommu/vt-d: Disable non-recoverable fault processing before unbind") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 175 lines checked
+
+Commit e70b081c6f37 ("iommu/vt-d: Remove IOVA handling code from the non-dma_ops path") has no obvious style problems and is ready for submission.

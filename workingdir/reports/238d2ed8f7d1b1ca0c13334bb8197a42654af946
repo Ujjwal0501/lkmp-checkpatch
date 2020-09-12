@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 238d2ed8f7d1 ("hv_utils: Always execute the fcopy and vss callbacks in a tasklet") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit d652509e7a24 ("drm/amd/display: Check ramp != NULL before applying lut1d for degamma") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 83 lines checked
+
+Commit 88cfedd0d7ab ("net: ks8851: Use 16-bit writes to program MAC address") has no obvious style problems and is ready for submission.

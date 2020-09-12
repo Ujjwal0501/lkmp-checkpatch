@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 19ab0f005b16 ("ASoC: rt5682: Let dai clks be registered whether mclk exists or not") has no obvious style problems and is ready for submission.

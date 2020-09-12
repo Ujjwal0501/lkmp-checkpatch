@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit febeb6dff7be ("libbpf: Add _GNU_SOURCE for reallocarray to ringbuf.c") has no obvious style problems and is ready for submission.

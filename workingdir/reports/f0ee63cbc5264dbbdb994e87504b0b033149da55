@@ -1,0 +1,25 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#79: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ttm.c:304:
++				 unsigned num_pages, uint64_t offset,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#80: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ttm.c:305:
++				 unsigned window, struct amdgpu_ring *ring,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#86: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ttm.c:311:
++	unsigned num_dw, num_bytes;
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#93: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ttm.c:318:
++	BUG_ON(adev->mman.buffer_funcs->copy_max_bytes <
+
+total: 0 errors, 4 warnings, 359 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f0ee63cbc526 ("drm/amdgpu: cleanup amdgpu_ttm_copy_mem_to_mem and amdgpu_map_buffer v2") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

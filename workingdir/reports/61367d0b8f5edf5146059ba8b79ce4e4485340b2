@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'iio'
+#18: 
+     [    2.729268] iio iio:device0: failed to read Who-Am-I register.
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#30: 
+from stm32_spi_communication_type(), but there is no related process for this
+
+total: 0 errors, 2 warnings, 52 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 61367d0b8f5e ("spi: stm32: Add 'SPI_SIMPLEX_RX', 'SPI_3WIRE_RX' support for stm32f4") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

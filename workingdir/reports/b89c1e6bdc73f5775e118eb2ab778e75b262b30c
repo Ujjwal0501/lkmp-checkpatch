@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit b89c1e6bdc73 ("dpaa2-eth: fix return codes used in ndo_setup_tc") has no obvious style problems and is ready for submission.

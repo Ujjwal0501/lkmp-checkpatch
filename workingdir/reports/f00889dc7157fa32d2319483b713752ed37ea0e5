@@ -1,0 +1,39 @@
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#76: FILE: drivers/gpu/drm/amd/display/dc/dml/dcn20/display_mode_vba_20v2.c:2616:
++					if (mode_lib->vba.BlendingAndTiming[k] == j) {
++						PlaneWithMinActiveDRAMClockChangeMargin = j;
++					}
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#88: FILE: drivers/gpu/drm/amd/display/dc/dml/dcn20/display_mode_vba_20v2.c:2628:
++		if (!((k == PlaneWithMinActiveDRAMClockChangeMargin) && (mode_lib->vba.BlendingAndTiming[k] == k))
+
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#89: FILE: drivers/gpu/drm/amd/display/dc/dml/dcn20/display_mode_vba_20v2.c:2629:
++				&& !(mode_lib->vba.BlendingAndTiming[k] == PlaneWithMinActiveDRAMClockChangeMargin)
+
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#91: FILE: drivers/gpu/drm/amd/display/dc/dml/dcn20/display_mode_vba_20v2.c:2631:
++						< SecondMinActiveDRAMClockChangeMarginOneDisplayInVBLank) {
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#107: FILE: drivers/gpu/drm/amd/display/dc/dml/dcn20/display_mode_vba_20v2.c:2657:
++						mode_lib->vba.AllowDramClockChangeOneDisplayVactive))
+
+WARNING:LONG_LINE: line length of 131 exceeds 100 columns
+#108: FILE: drivers/gpu/drm/amd/display/dc/dml/dcn20/display_mode_vba_20v2.c:2658:
++					&& mode_lib->vba.PrefetchMode[mode_lib->vba.VoltageLevel][mode_lib->vba.maxMpcComb] == 0) {
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#140: FILE: drivers/gpu/drm/amd/display/dc/dml/display_mode_vba.c:227:
++	mode_lib->vba.AllowDramClockChangeOneDisplayVactive = soc->allow_dram_clock_one_display_vactive;
+
+total: 0 errors, 7 warnings, 95 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f00889dc7157 ("drm/amd/display: Allow PState switch in VBLANK one display VACTIVE") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 25bdae0f1c66 ("clk: samsung: exynos5433: Add IGNORE_UNUSED flag to sclk_i2s1") has no obvious style problems and is ready for submission.

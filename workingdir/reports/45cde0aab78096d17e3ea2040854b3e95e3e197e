@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 74 lines checked
+
+Commit 45cde0aab780 ("media: imx: imx7-mipi-csis: Centralize initialization of pad formats") has no obvious style problems and is ready for submission.

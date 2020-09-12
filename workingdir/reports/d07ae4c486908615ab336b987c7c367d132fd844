@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit d07ae4c48690 ("dma-mapping: DMA_COHERENT_POOL should select GENERIC_ALLOCATOR") has no obvious style problems and is ready for submission.

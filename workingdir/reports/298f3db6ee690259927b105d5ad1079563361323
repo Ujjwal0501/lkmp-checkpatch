@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 298f3db6ee69 ("dma-contiguous: fix comment for dma_release_from_contiguous") has no obvious style problems and is ready for submission.

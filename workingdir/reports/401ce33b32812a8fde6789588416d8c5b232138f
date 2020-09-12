@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 92 lines checked
+
+Commit 401ce33b3281 ("ice: Always clear QRXFLXP_CNTXT before writing new value") has no obvious style problems and is ready for submission.

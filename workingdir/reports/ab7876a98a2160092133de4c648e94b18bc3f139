@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 128 lines checked
+
+Commit ab7876a98a21 ("arm64: elf: Enable BTI at exec based on ELF program properties") has no obvious style problems and is ready for submission.

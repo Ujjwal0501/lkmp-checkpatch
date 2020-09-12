@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 244 lines checked
+
+Commit ec9cdca0663a ("net/mlx5e: Unify reserving space for WQEs") has no obvious style problems and is ready for submission.

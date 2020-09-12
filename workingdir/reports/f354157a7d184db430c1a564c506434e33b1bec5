@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit f354157a7d18 ("pinctrl: samsung: Save/restore eint_mask over suspend for EINT_TYPE GPIOs") has no obvious style problems and is ready for submission.

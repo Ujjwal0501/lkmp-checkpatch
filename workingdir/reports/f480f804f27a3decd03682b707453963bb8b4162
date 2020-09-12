@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f480f804f27a ("ASoC: SOF: change type char to uint8_t in trace.h") has no obvious style problems and is ready for submission.

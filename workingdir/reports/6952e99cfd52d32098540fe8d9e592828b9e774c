@@ -1,0 +1,79 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#34: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:300:
++		dev_warn(adev->dev, "RAS WARN: error injection "
++				"currently inaccessible\n");
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#44: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:329:
++			dev_warn(adev->dev, "RAS WARN: 0x%llx has been marked "
++					"as bad before error injection!\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#54: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:596:
++			dev_err(adev->dev, "RAS ERROR: %s %s feature "
++					"failed ret %d\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#75: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:766:
++		dev_info(adev->dev, "%ld correctable hardware errors "
++					"detected in %s block, no user "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#76: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:767:
++					"detected in %s block, no user "
++					"action is needed.\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#84: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:773:
++		dev_info(adev->dev, "%ld uncorrectable hardware errors "
++					"detected in %s block\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#130: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:1664:
++			dev_warn(adev->dev, "RAS WARN: reserve vram for "
++					"retired page %llx fail\n", bp);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#181: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:2069:
++		dev_info(adev->dev, "uncorrectable hardware error"
++			"(ERREVENT_ATHUB_INTERRUPT) detected!\n");
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#195: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_umc.c:114:
++			dev_warn(adev->dev, "Failed to alloc memory for "
++					"umc error address record!\n");
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#206: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_umc.c:125:
++		dev_info(adev->dev, "%ld uncorrectable hardware errors "
++				"detected in UMC block\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#228: FILE: drivers/gpu/drm/amd/amdgpu/nbio_v7_4.c:327:
++			dev_info(adev->dev, "%ld correctable hardware "
++					"errors detected in %s block, "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#229: FILE: drivers/gpu/drm/amd/amdgpu/nbio_v7_4.c:328:
++					"errors detected in %s block, "
++					"no user action is needed.\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#237: FILE: drivers/gpu/drm/amd/amdgpu/nbio_v7_4.c:334:
++			dev_info(adev->dev, "%ld uncorrectable hardware "
++					"errors detected in %s block\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#243: FILE: drivers/gpu/drm/amd/amdgpu/nbio_v7_4.c:339:
++		dev_info(adev->dev, "RAS controller interrupt triggered "
++					"by NBIF error\n");
+
+total: 0 errors, 14 warnings, 195 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6952e99cfd52 ("drm/amdgpu: refine ras related message print") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

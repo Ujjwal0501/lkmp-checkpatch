@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 299 lines checked
+
+Commit fc5d1f1a42fb ("KVM: arm64: vgic-v3: Take cpu_if pointer directly instead of vcpu") has no obvious style problems and is ready for submission.

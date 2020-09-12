@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f37b451f45a2 ("libnvdimm: Replace guid_copy() with import_guid() where it makes sense") has no obvious style problems and is ready for submission.

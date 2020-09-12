@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 109 lines checked
+
+Commit 0e97fbb08055 ("drm/i915/gem: Use a single chained reloc batches for a single execbuf") has no obvious style problems and is ready for submission.

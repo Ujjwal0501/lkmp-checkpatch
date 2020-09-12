@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 58b0fb862600 ("clk: zynqmp: fix memory leak in zynqmp_register_clocks") has no obvious style problems and is ready for submission.

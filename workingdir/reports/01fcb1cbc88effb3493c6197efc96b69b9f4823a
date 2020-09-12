@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 120 lines checked
+
+Commit 01fcb1cbc88e ("vhost: allow device that does not depend on vhost worker") has no obvious style problems and is ready for submission.

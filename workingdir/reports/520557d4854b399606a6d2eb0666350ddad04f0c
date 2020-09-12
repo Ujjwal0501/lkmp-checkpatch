@@ -1,0 +1,37 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#50: 
+new file mode 100644
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "beagle,am5729-beagleboneai" appears un-documented -- check ./Documentation/devicetree/bindings/
+#71: FILE: arch/arm/boot/dts/am5729-beagleboneai.dts:17:
++	compatible = "beagle,am5729-beagleboneai", "ti,am5728",
+
+WARNING:LONG_LINE_COMMENT: line length of 101 exceeds 100 columns
+#482: FILE: arch/arm/boot/dts/am5729-beagleboneai.dts:428:
++			st,norequest-mask = <0x00>; /* mask any channels to be used by touchscreen */
+
+WARNING:LONG_LINE: line length of 123 exceeds 100 columns
+#485: FILE: arch/arm/boot/dts/am5729-beagleboneai.dts:431:
++				iio-channels = <&adc0 4>, <&adc0 1>, <&adc0 2>, <&adc0 3>, <&adc0 4>, <&adc0 5>, <&adc0 6>;
+
+WARNING:LONG_LINE_STRING: line length of 107 exceeds 100 columns
+#486: FILE: arch/arm/boot/dts/am5729-beagleboneai.dts:432:
++				iio-channel-names = "AIN0_P9_39", "AIN1_P9_40", "AIN2_P9_37", "AIN3_P9_38",
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ti,pruss-shmem" appears un-documented -- check ./Documentation/devicetree/bindings/
+#568: FILE: arch/arm/boot/dts/am5729-beagleboneai.dts:514:
++		compatible = "ti,pruss-shmem";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ti,pruss-shmem" appears un-documented -- check ./Documentation/devicetree/bindings/
+#574: FILE: arch/arm/boot/dts/am5729-beagleboneai.dts:520:
++		compatible = "ti,pruss-shmem";
+
+total: 0 errors, 7 warnings, 738 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 520557d4854b ("ARM: dts: am5729: beaglebone-ai: adding device tree") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

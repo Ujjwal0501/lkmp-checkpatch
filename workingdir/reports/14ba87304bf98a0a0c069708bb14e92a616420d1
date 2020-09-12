@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 495 lines checked
+
+Commit 14ba87304bf9 ("RDMA/hns: Remove redundant type cast for general pointers") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 163 lines checked
+
+Commit a5360a35772f ("arm64: dts: realtek: rtd139x: Introduce CRT, iso and misc syscon") has no obvious style problems and is ready for submission.

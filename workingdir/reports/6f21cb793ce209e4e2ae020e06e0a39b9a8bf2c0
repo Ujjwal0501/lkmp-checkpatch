@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 52 lines checked
+
+Commit 6f21cb793ce2 ("staging: vt6656: call vnt_update_pre_ed_threshold from vnt_config.") has no obvious style problems and is ready for submission.

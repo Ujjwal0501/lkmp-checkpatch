@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f00eb5ff2f6f ("EDAC/amd64: Remove redundant assignment to variable ret in hw_info_get()") has no obvious style problems and is ready for submission.

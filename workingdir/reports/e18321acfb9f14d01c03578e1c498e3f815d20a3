@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e18321acfb9f ("IB/hfi1: Add explicit cast OPA_MTU_8192 to 'enum ib_mtu'") has no obvious style problems and is ready for submission.

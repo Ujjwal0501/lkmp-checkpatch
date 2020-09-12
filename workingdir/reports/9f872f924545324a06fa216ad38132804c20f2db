@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 9f872f924545 ("ARM: dts: Fix am33xx.dtsi ti,sysc-mask wrong softreset flag") has no obvious style problems and is ready for submission.

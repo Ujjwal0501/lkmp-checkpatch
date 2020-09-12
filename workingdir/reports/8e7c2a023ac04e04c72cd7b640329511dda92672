@@ -1,0 +1,97 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#9: 
+While working on BPF ringbuf implementation, testing, and benchmarking, I've
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#138: 
+new file mode 100644
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_libbpf() should probably be void setup_libbpf(void)
+#184: FILE: tools/testing/selftests/bpf/bench.c:42:
++void setup_libbpf()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_timer() should probably be void setup_timer(void)
+#376: FILE: tools/testing/selftests/bpf/bench.c:234:
++static void setup_timer()
+
+ERROR:GLOBAL_INITIALISERS: do not initialise globals to NULL
+#438: FILE: tools/testing/selftests/bpf/bench.c:296:
++const struct bench *bench = NULL;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#440: FILE: tools/testing/selftests/bpf/bench.c:298:
++extern const struct bench bench_count_global;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#441: FILE: tools/testing/selftests/bpf/bench.c:299:
++extern const struct bench bench_count_local;
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_benchmark() should probably be void setup_benchmark(void)
+#448: FILE: tools/testing/selftests/bpf/bench.c:306:
++static void setup_benchmark()
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#520: FILE: tools/testing/selftests/bpf/bench.c:378:
++static void collect_measurements(long delta_ns) {
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#544: FILE: tools/testing/selftests/bpf/bench.c:402:
++		for (i = 0; i < ARRAY_SIZE(benchs); i++) {
++			printf("- %s\n", benchs[i]->name);
++		}
+
+ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+#615: FILE: tools/testing/selftests/bpf/bench.h:44:
++	void (*measure)(struct bench_res* res);
+
+ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+#616: FILE: tools/testing/selftests/bpf/bench.h:45:
++	void (*report_progress)(int iter, struct bench_res* res, long delta_ns);
+
+WARNING:PREFER_ALIGNED: __aligned(size) is preferred over __attribute__((aligned(size)))
+#622: FILE: tools/testing/selftests/bpf/bench.h:51:
++} __attribute__((aligned(128)));
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_libbpf() should probably be void setup_libbpf(void)
+#627: FILE: tools/testing/selftests/bpf/bench.h:56:
++void setup_libbpf();
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - __u64 get_time_ns() should probably be __u64 get_time_ns(void)
+#631: FILE: tools/testing/selftests/bpf/bench.h:60:
++static inline __u64 get_time_ns() {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#631: FILE: tools/testing/selftests/bpf/bench.h:60:
++static inline __u64 get_time_ns() {
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#673: FILE: tools/testing/selftests/bpf/benchs/bench_count.c:15:
++	while (true) {
++		atomic_inc(&ctx->hits.value);
++	}
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void count_local_setup() should probably be void count_local_setup(void)
+#697: FILE: tools/testing/selftests/bpf/benchs/bench_count.c:39:
++static void count_local_setup()
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#711: FILE: tools/testing/selftests/bpf/benchs/bench_count.c:53:
++	while (true) {
++		atomic_inc(&ctx->hits[idx].value);
++	}
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#727: FILE: tools/testing/selftests/bpf/benchs/bench_count.c:69:
++	for (i = 0; i < env.producer_cnt; i++) {
++		res->hits += atomic_swap(&ctx->hits[i].value, 0);
++	}
+
+total: 11 errors, 9 warnings, 624 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8e7c2a023ac0 ("selftests/bpf: Add benchmark runner infrastructure") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

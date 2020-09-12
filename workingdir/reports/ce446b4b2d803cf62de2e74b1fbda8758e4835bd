@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 114 lines checked
+
+Commit ce446b4b2d80 ("mtd: rawnand: Take check_only into account") has no obvious style problems and is ready for submission.

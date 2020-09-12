@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit bfcba38d95a0 ("media: ov5640: fix use of destroyed mutex") has no obvious style problems and is ready for submission.

@@ -1,0 +1,46 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'shared'
+#53: FILE: arch/x86/entry/entry_32.S:757:
++ * Include the defines which emit the idt entries which are shared
++ * shared between 32 and 64 bit.
+
+WARNING:REPEATED_WORD: Possible repeated word: 'shared'
+#70: FILE: arch/x86/entry/entry_64.S:703:
++ * Include the defines which emit the idt entries which are shared
++ * shared between 32 and 64 bit.
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#78: 
+new file mode 100644
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#132: FILE: arch/x86/include/asm/idtentry.h:50:
++	__##func (regs);						\
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#144: FILE: arch/x86/include/asm/idtentry.h:62:
++#define DECLARE_IDTENTRY(vector, func)					\
++	idtentry vector asm_##func func has_error_code=0 sane=1
+
+WARNING:REPEATED_WORD: Possible repeated word: 'func'
+#145: FILE: arch/x86/include/asm/idtentry.h:63:
++	idtentry vector asm_##func func has_error_code=0 sane=1
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#145: FILE: arch/x86/include/asm/idtentry.h:63:
++	idtentry vector asm_##func func has_error_code=0 sane=1
+ 	                                              ^
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#145: FILE: arch/x86/include/asm/idtentry.h:63:
++	idtentry vector asm_##func func has_error_code=0 sane=1
+ 	                                                     ^
+
+total: 3 errors, 5 warnings, 100 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 53aaf262c66e ("x86/idtentry: Provide macros to define/declare IDT entry points") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

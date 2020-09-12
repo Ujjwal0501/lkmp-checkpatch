@@ -1,0 +1,27 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct nvkm_subdev_func *' should also have an identifier name
+#21: FILE: drivers/gpu/drm/nouveau/include/nvkm/core/subdev.h:27:
++int nvkm_subdev_new_(const struct nvkm_subdev_func *, struct nvkm_device *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct nvkm_device *' should also have an identifier name
+#21: FILE: drivers/gpu/drm/nouveau/include/nvkm/core/subdev.h:27:
++int nvkm_subdev_new_(const struct nvkm_subdev_func *, struct nvkm_device *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct nvkm_subdev **' should also have an identifier name
+#21: FILE: drivers/gpu/drm/nouveau/include/nvkm/core/subdev.h:27:
++int nvkm_subdev_new_(const struct nvkm_subdev_func *, struct nvkm_device *,
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#40: FILE: drivers/gpu/drm/nouveau/nvkm/core/subdev.c:230:
++	if (!(*psubdev = kzalloc(sizeof(**psubdev), GFP_KERNEL)))
+
+total: 1 errors, 4 warnings, 22 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f02ca8425a5c ("drm/nouveau/core: add nvkm_subdev_new_() for bare subdevs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

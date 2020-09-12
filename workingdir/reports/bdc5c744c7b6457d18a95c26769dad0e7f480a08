@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit bdc5c744c7b6 ("drivers/perf: Fix kernel panic when rmmod PMU modules during perf sampling") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 79d520838652 ("RDMA/hns: Fix wrong PBL offset when VA is not aligned to PAGE_SIZE") has no obvious style problems and is ready for submission.

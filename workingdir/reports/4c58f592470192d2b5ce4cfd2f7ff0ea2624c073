@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 4c58f5924701 ("net: hns3: replace num_req_vfs with num_alloc_vport in hclge_reset_umv_space()") has no obvious style problems and is ready for submission.

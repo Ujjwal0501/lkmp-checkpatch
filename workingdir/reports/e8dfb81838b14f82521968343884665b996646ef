@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit e8dfb81838b1 ("perf parse-events: Fix memory leaks found on parse_events") has no obvious style problems and is ready for submission.

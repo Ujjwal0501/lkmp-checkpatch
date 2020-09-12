@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit b97f77baa845 ("drm/i915/gt: Check carefully for an idle engine in wait-for-idle") has no obvious style problems and is ready for submission.

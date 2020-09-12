@@ -1,0 +1,25 @@
+CHECK:CAMELCASE: Avoid CamelCase: <RxRWT>
+#79: FILE: drivers/net/ethernet/realtek/r8169_main.c:4451:
++			else if (status & RxRWT || !(status & (RxRUNT | RxCRC)))
+
+CHECK:CAMELCASE: Avoid CamelCase: <RxRUNT>
+#79: FILE: drivers/net/ethernet/realtek/r8169_main.c:4451:
++			else if (status & RxRWT || !(status & (RxRUNT | RxCRC)))
+
+CHECK:CAMELCASE: Avoid CamelCase: <RxCRC>
+#79: FILE: drivers/net/ethernet/realtek/r8169_main.c:4451:
++			else if (status & RxRWT || !(status & (RxRUNT | RxCRC)))
+
+CHECK:CAMELCASE: Avoid CamelCase: <Rx_databuff>
+#116: FILE: drivers/net/ethernet/realtek/r8169_main.c:4475:
++		rx_buf = page_address(tp->Rx_databuff[entry]);
+
+total: 0 errors, 0 warnings, 4 checks, 125 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 588c7e5cc048 ("r8169: make rtl_rx better readable") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

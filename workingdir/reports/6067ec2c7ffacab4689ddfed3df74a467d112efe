@@ -1,0 +1,16 @@
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#37: FILE: arch/arm/boot/dts/rk3229-xms6.dts:45:
++^I^I              <&gpio2 29 GPIO_ACTIVE_LOW>;$
+
+total: 1 errors, 0 warnings, 28 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 6067ec2c7ffa ("ARM: dts: enable WLAN for Mecer Xtreme Mini S6") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

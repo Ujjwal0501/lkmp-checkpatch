@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit b59293b469b9 ("scsi: mpt3sas: Remove unused including <linux/version.h>") has no obvious style problems and is ready for submission.

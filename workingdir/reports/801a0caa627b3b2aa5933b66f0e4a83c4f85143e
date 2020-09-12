@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 132 lines checked
+
+Commit 801a0caa627b ("drm/i915/huc: make "support huc" reflect HW capabilities") has no obvious style problems and is ready for submission.

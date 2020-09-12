@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 98 lines checked
+
+Commit f6a7c21c9910 ("drm/i915/execlists: Verify we don't submit two identical CCIDs") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit bd4bb225eb3a ("clk: qcom: gcc: Add support for Secure control source clock") has no obvious style problems and is ready for submission.

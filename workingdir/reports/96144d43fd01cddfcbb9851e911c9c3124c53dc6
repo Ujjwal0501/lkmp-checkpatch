@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 96144d43fd01 ("iio: buffer: remove attrcount_orig var from sysfs creation") has no obvious style problems and is ready for submission.

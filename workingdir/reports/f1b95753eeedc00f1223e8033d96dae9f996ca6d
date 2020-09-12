@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 85 lines checked
+
+Commit f1b95753eeed ("net/mlx5e: TX, Generalise code and usage of error CQE dump") has no obvious style problems and is ready for submission.

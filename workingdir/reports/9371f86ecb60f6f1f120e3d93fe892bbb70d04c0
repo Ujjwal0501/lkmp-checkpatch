@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit 9371f86ecb60 ("bpfilter: match bit size of bpfilter_umh to that of the kernel") has no obvious style problems and is ready for submission.

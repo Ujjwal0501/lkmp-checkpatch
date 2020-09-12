@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ba053dd3b4d8 ("mtd: spi-nor: fix kernel-doc for spi_nor::reg_proto") has no obvious style problems and is ready for submission.

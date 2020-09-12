@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit ea2fce88d2fd ("mld: fix memory leak in ipv6_mc_destroy_dev()") has no obvious style problems and is ready for submission.

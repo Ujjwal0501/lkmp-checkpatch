@@ -1,0 +1,25 @@
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#57: FILE: arch/powerpc/include/asm/uaccess.h:547:
++		__put_user_goto(*(long*)(_src + _i), (long __user *)(_dst + _i), e);\
+
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#59: FILE: arch/powerpc/include/asm/uaccess.h:549:
++		__put_user_goto(*(u32*)(_src + _i), (u32 __user *)(_dst + _i), e);	\
+
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#63: FILE: arch/powerpc/include/asm/uaccess.h:553:
++		__put_user_goto(*(u16*)(_src + _i), (u16 __user *)(_dst + _i), e);	\
+
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#67: FILE: arch/powerpc/include/asm/uaccess.h:557:
++		__put_user_goto(*(u8*)(_src + _i), (u8 __user *)(_dst + _i), e);\
+
+total: 4 errors, 0 warnings, 27 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 17bc43367fc2 ("powerpc/uaccess: Implement unsafe_copy_to_user() as a simple loop") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

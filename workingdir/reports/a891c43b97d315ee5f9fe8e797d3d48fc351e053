@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 64 lines checked
+
+Commit a891c43b97d3 ("powerpc/8xx: Prepare handlers for _PAGE_HUGE for 512k pages.") has no obvious style problems and is ready for submission.

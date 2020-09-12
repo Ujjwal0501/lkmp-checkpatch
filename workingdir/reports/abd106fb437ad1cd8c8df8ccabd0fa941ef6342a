@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit abd106fb437a ("powerpc/64s: machine check do not trace real-mode handler") has no obvious style problems and is ready for submission.

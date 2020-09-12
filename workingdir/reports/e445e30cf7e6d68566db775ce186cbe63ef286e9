@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 87 lines checked
+
+Commit e445e30cf7e6 ("bnxt_tc: update indirect block support") has no obvious style problems and is ready for submission.

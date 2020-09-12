@@ -1,0 +1,13 @@
+ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+#89: FILE: fs/io_uring.c:2818:
++	struct io_splice* sp = &req->splice;
+
+total: 1 errors, 0 warnings, 111 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f2a8d5c7a218 ("io_uring: add tee(2) support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

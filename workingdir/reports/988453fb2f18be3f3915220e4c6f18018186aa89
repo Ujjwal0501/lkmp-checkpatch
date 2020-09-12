@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit 988453fb2f18 ("crypto: hisilicon/qm - change debugfs file name from qm_regs to regs") has no obvious style problems and is ready for submission.

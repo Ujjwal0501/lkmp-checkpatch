@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 12 lines checked
+
+Commit 75c36dbb1c37 ("ethtool: don't call set_channels in drivers if config didn't change") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#201: FILE: include/trace/events/vmscan.h:277:
++	TP_ARGS(highest_zoneidx, order, nr_requested, nr_scanned, nr_skipped, nr_taken, isolate_mode, lru),
+
+total: 0 errors, 1 warnings, 943 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 97a225e69a1f ("mm/page_alloc: integrate classzone_idx and high_zoneidx") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

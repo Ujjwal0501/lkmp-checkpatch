@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 81e96851ea32 ("x86: math-emu: Fix up 'cmp' insn for clang ias") has no obvious style problems and is ready for submission.

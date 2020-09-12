@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 320bdbd81615 ("crypto: cavium/nitrox - Fix 'nitrox_get_first_device()' when ndevlist is fully iterated") has no obvious style problems and is ready for submission.

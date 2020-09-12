@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 49769d4d350d ("mmc: sdhci: add spin lock for sdhci_set_default_irqs in sdhci_init") has no obvious style problems and is ready for submission.

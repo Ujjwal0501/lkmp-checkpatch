@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 220 lines checked
+
+Commit b14a40dbdea5 ("mlxsw: spectrum_trap: Store all trap group data in one array") has no obvious style problems and is ready for submission.

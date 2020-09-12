@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 27 lines checked
+
+Commit 40cf7fbe8a43 ("hinic: Use ARRAY_SIZE for nic_vf_cmd_msg_handler") has no obvious style problems and is ready for submission.

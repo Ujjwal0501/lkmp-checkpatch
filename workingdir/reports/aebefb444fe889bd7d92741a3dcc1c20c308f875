@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 118 lines checked
+
+Commit aebefb444fe8 ("iio: adc: ad7793: define/use own IIO channel macros") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b639c22c98ff ("drm/amdgpu/sriov add amdgpu_amdkfd_pre_reset in gpu reset") has no obvious style problems and is ready for submission.

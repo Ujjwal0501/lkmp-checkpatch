@@ -1,0 +1,21 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#15: 
+the the new sysfs attribute 'papr/flags' is also introduced at
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#36: 
+new file mode 100644
+
+WARNING:REPEATED_WORD: Possible repeated word: 'bitmap'
+#84: FILE: arch/powerpc/platforms/pseries/papr_scm.c:26:
++/* DIMM health bitmap bitmap indicators */
+
+total: 0 errors, 3 warnings, 237 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b791abf3201d ("powerpc/papr_scm: Fetch nvdimm health information from PHYP") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

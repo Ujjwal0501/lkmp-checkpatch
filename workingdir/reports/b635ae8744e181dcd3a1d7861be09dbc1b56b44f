@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+nbio v7.4 size of ih doorbell range is 64 bit. This requires 2 DWords per register.
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#31: FILE: drivers/gpu/drm/amd/amdgpu/nbio_v7_4.c:188:
++		ih_doorbell_range = REG_SET_FIELD(ih_doorbell_range, BIF_IH_DOORBELL_RANGE, SIZE, 4);
+
+total: 0 errors, 2 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b635ae8744e1 ("drm/amdgpu: ih doorbell size of range changed for nbio v7.4") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 24 lines checked
+
+Commit eaa7b7228ff7 ("Bluetooth: Fix advertising handle is set to 0") has no obvious style problems and is ready for submission.

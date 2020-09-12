@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit eed6ed6e7085 ("usb: cdns3: change dev_info to dev_dbg for debug message") has no obvious style problems and is ready for submission.

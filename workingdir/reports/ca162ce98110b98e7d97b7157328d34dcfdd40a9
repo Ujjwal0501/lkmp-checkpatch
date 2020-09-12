@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit ca162ce98110 ("pwm: img: Call pm_runtime_put() in pm_runtime_get_sync() failed case") has no obvious style problems and is ready for submission.

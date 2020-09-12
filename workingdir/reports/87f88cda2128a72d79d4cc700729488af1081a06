@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 206 lines checked
+
+Commit 87f88cda2128 ("net/smc: rkey processing for a new link as SMC client") has no obvious style problems and is ready for submission.

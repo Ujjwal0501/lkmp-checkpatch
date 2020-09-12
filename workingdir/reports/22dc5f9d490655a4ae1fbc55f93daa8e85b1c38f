@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit 22dc5f9d4906 ("mtd: rawnand: micron: Allow controllers to overload raw accessors") has no obvious style problems and is ready for submission.

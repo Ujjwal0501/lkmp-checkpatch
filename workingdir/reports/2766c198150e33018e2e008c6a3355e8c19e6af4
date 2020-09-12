@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 2766c198150e ("clk: mmp2: Rename mmp2_pll_init() to mmp2_main_clk_init()") has no obvious style problems and is ready for submission.

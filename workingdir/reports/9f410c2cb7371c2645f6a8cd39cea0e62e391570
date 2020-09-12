@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 18 lines checked
+
+Commit 9f410c2cb737 ("myri10ge: Remove unused inline function myri10ge_vlan_ip_csum") has no obvious style problems and is ready for submission.

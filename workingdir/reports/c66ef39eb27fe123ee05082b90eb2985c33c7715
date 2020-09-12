@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 55 lines checked
+
+Commit c66ef39eb27f ("hwmon: (drivetemp) Avoid SCT usage on Toshiba DT01ACA family drives") has no obvious style problems and is ready for submission.

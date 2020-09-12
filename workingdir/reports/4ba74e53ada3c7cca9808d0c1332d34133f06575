@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 284 lines checked
+
+Commit 4ba74e53ada3 ("drm/i915/selftests: Verify frequency scaling with RPS") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_COMMENT: line length of 103 exceeds 100 columns
+#42: FILE: sound/pci/hda/hda_controller.h:44:
++#define AZX_DCAPS_SUSPEND_SPURIOUS_WAKEUP (1 << 27) /* Workaround for spurious wakeups after suspend */
+
+total: 0 errors, 1 warnings, 43 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a6630529aecb ("ALSA: hda: Workaround for spurious wakeups on some Intel platforms") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

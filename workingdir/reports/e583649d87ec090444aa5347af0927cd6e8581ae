@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit e583649d87ec ("mfd: stmfx: Reset chip on resume as supply was disabled") has no obvious style problems and is ready for submission.

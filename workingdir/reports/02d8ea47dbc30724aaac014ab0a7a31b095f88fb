@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 137 lines checked
+
+Commit 02d8ea47dbc3 ("drm/i915: Move icl_get_trans_port_sync_config() into the DDI code") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 2dc8b5246d2c ("net/mlx5: TX WQE Add trailer insertion field") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 283 lines checked
+
+Commit c6cb522c1461 ("ASoC: soc-compress: add snd_compress_ops") has no obvious style problems and is ready for submission.

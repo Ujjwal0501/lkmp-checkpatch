@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 49686df5b874 ("spi: remove redundant assignment to variable ms") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 081c95df8992 ("usb: gadget: legacy: fix redundant initialization warnings from cppcheck") has no obvious style problems and is ready for submission.

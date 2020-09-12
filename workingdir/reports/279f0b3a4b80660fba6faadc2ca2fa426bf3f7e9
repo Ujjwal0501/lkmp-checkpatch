@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 279f0b3a4b80 ("hwmon: (k10temp) Add AMD family 17h model 60h PCI match") has no obvious style problems and is ready for submission.

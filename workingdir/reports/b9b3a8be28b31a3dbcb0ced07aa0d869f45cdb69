@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit b9b3a8be28b3 ("firmware: xilinx: Remove eemi ops for get_api_version") has no obvious style problems and is ready for submission.

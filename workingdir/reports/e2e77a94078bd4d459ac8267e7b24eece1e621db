@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 92 lines checked
+
+Commit e2e77a94078b ("usb: cdns3: mark local functions static") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 29 lines checked
+
+Commit 3c2d8a046a4c ("mlxsw: spectrum: Use dedicated trap group for ACL trap") has no obvious style problems and is ready for submission.

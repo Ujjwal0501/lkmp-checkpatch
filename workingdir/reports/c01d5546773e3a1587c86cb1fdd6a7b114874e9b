@@ -1,0 +1,236 @@
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#142: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:683:
++    struct atomisp_video_pipe *pipe, struct ia_css_frame *frame)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#156: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:768:
++    enum ia_css_pipe_id css_pipe_id,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#157: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:769:
++    enum ia_css_buffer_type buf_type)$
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#511: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:1924:
++static enum ia_css_frame_format
+ v4l2_fmt_to_sh_fmt(u32 fmt) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1738: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:257:
++int atomisp_css_frame_allocate_from_info(struct ia_css_frame **frame,
++	const struct ia_css_frame_info *info);
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1785: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:304:
++    enum ia_css_frame_format format);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1791: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:309:
++    struct ia_css_frame_info *info);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1797: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:314:
++    struct ia_css_frame_info *info);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1833: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:344:
++    enum ia_css_frame_format format);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1838: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:348:
++    struct ia_css_frame_info *info);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1843: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:352:
++    struct ia_css_frame_info *info);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1849: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:357:
++    struct ia_css_frame_info *info);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1854: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:361:
++    struct ia_css_frame_info *info);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1859: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:365:
++    struct ia_css_frame_info *info);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1864: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:369:
++    struct ia_css_frame_info *info);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1869: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:373:
++    struct ia_css_frame_info *info);$
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#1951: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:504:
++struct ia_css_shading_table *atomisp_css_shading_table_alloc(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#1962: FILE: drivers/staging/media/atomisp/pci/atomisp_compat.h:512:
++struct ia_css_morph_table *atomisp_css_morph_table_allocate(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2013: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:219:
++    struct ia_css_isp_config *config)$
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2218: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:2174:
++int atomisp_css_frame_allocate_from_info(struct ia_css_frame **frame,
++	const struct ia_css_frame_info *info)
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2326: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3012:
++    enum ia_css_frame_format format)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2335: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3033:
++    struct ia_css_frame_info *info)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2344: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3042:
++    struct ia_css_frame_info *info)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2380: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3108:
++    enum ia_css_frame_format format)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2389: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3126:
++    enum ia_css_frame_format format)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2398: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3145:
++    struct ia_css_frame_info *info)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2407: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3164:
++    struct ia_css_frame_info *info)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2416: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3179:
++    struct ia_css_frame_info *info)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2425: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3191:
++    struct ia_css_frame_info *info)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2434: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3199:
++    struct ia_css_frame_info *info)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2443: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3218:
++    struct ia_css_frame_info *info)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#2452: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3233:
++    struct ia_css_frame_info *info)$
+
+CHECK:ALLOC_SIZEOF_STRUCT: Prefer vzalloc(sizeof(*tab)...) over vzalloc(sizeof(struct ia_css_ctc_table)...)
+#2851: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3910:
++	tab = vzalloc(sizeof(struct ia_css_ctc_table));
+
+CHECK:ALLOC_SIZEOF_STRUCT: Prefer vzalloc(sizeof(*tab)...) over vzalloc(sizeof(struct ia_css_gamma_table)...)
+#2869: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:3938:
++	tab = vzalloc(sizeof(struct ia_css_gamma_table));
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2923: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:4142:
++struct ia_css_shading_table *atomisp_css_shading_table_alloc(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2943: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:4159:
++struct ia_css_morph_table *atomisp_css_morph_table_allocate(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3131: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:4695:
++struct ia_css_dvs_grid_info *atomisp_css_get_dvs_grid_info(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#3132: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:4696:
++    struct ia_css_grid_info *grid_info)$
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3347: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.h:184:
++struct ia_css_dvs_grid_info *atomisp_css_get_dvs_grid_info(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#3348: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.h:185:
++    struct ia_css_grid_info *grid_info);$
+
+WARNING:LONG_LINE: line length of 124 exceeds 100 columns
+#4065: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:33:
++	{ MEDIA_BUS_FMT_SBGGR8_1X8, 8, 8, ATOMISP_INPUT_FORMAT_RAW_8, IA_CSS_BAYER_ORDER_BGGR, ATOMISP_INPUT_FORMAT_RAW_8 },
+
+WARNING:LONG_LINE: line length of 124 exceeds 100 columns
+#4066: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:34:
++	{ MEDIA_BUS_FMT_SGBRG8_1X8, 8, 8, ATOMISP_INPUT_FORMAT_RAW_8, IA_CSS_BAYER_ORDER_GBRG, ATOMISP_INPUT_FORMAT_RAW_8 },
+
+WARNING:LONG_LINE: line length of 124 exceeds 100 columns
+#4067: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:35:
++	{ MEDIA_BUS_FMT_SGRBG8_1X8, 8, 8, ATOMISP_INPUT_FORMAT_RAW_8, IA_CSS_BAYER_ORDER_GRBG, ATOMISP_INPUT_FORMAT_RAW_8 },
+
+WARNING:LONG_LINE: line length of 124 exceeds 100 columns
+#4068: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:36:
++	{ MEDIA_BUS_FMT_SRGGB8_1X8, 8, 8, ATOMISP_INPUT_FORMAT_RAW_8, IA_CSS_BAYER_ORDER_RGGB, ATOMISP_INPUT_FORMAT_RAW_8 },
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#4069: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:37:
++	{ MEDIA_BUS_FMT_SBGGR10_1X10, 10, 10, ATOMISP_INPUT_FORMAT_RAW_10, IA_CSS_BAYER_ORDER_BGGR, ATOMISP_INPUT_FORMAT_RAW_10 },
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#4070: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:38:
++	{ MEDIA_BUS_FMT_SGBRG10_1X10, 10, 10, ATOMISP_INPUT_FORMAT_RAW_10, IA_CSS_BAYER_ORDER_GBRG, ATOMISP_INPUT_FORMAT_RAW_10 },
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#4071: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:39:
++	{ MEDIA_BUS_FMT_SGRBG10_1X10, 10, 10, ATOMISP_INPUT_FORMAT_RAW_10, IA_CSS_BAYER_ORDER_GRBG, ATOMISP_INPUT_FORMAT_RAW_10 },
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#4072: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:40:
++	{ MEDIA_BUS_FMT_SRGGB10_1X10, 10, 10, ATOMISP_INPUT_FORMAT_RAW_10, IA_CSS_BAYER_ORDER_RGGB, ATOMISP_INPUT_FORMAT_RAW_10 },
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#4073: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:41:
++	{ MEDIA_BUS_FMT_SBGGR12_1X12, 12, 12, ATOMISP_INPUT_FORMAT_RAW_12, IA_CSS_BAYER_ORDER_BGGR, ATOMISP_INPUT_FORMAT_RAW_12 },
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#4074: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:42:
++	{ MEDIA_BUS_FMT_SGBRG12_1X12, 12, 12, ATOMISP_INPUT_FORMAT_RAW_12, IA_CSS_BAYER_ORDER_GBRG, ATOMISP_INPUT_FORMAT_RAW_12 },
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#4075: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:43:
++	{ MEDIA_BUS_FMT_SGRBG12_1X12, 12, 12, ATOMISP_INPUT_FORMAT_RAW_12, IA_CSS_BAYER_ORDER_GRBG, ATOMISP_INPUT_FORMAT_RAW_12 },
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#4076: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:44:
++	{ MEDIA_BUS_FMT_SRGGB12_1X12, 12, 12, ATOMISP_INPUT_FORMAT_RAW_12, IA_CSS_BAYER_ORDER_RGGB, ATOMISP_INPUT_FORMAT_RAW_12 },
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#4082: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:47:
++	{ MEDIA_BUS_FMT_JPEG_1X8, 8, 8, IA_CSS_FRAME_FORMAT_BINARY_8, 0, ATOMISP_INPUT_FORMAT_BINARY_8 },
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#4083: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:48:
++	{ V4L2_MBUS_FMT_CUSTOM_NV12, 12, 12, IA_CSS_FRAME_FORMAT_NV12, 0, IA_CSS_FRAME_FORMAT_NV12 },
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#4084: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:49:
++	{ V4L2_MBUS_FMT_CUSTOM_NV21, 12, 12, IA_CSS_FRAME_FORMAT_NV21, 0, IA_CSS_FRAME_FORMAT_NV21 },
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#4088: FILE: drivers/staging/media/atomisp/pci/atomisp_subdev.c:52:
++	{ V4L2_MBUS_FMT_CUSTOM_M10MO_RAW, 8, 8, IA_CSS_FRAME_FORMAT_BINARY_8, 0, ATOMISP_INPUT_FORMAT_BINARY_8 },
+
+total: 1 errors, 45 warnings, 10 checks, 3900 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c01d5546773e ("media: atomisp: partially get rid of one abstraction layer") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

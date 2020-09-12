@@ -1,0 +1,13 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#47: FILE: drivers/regulator/tps80031-regulator.c:533:
++			unsigned val;
+
+total: 0 errors, 1 warnings, 25 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2ea8db7200d4 ("regulator: tps80031: remove redundant assignment to variables ret and val") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

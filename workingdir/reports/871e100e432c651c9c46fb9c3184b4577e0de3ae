@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 871e100e432c ("scs: Move DEFINE_SCS macro into core code") has no obvious style problems and is ready for submission.

@@ -1,0 +1,32 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#55: 
+new file mode 100644
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#88: FILE: tools/testing/selftests/vm/pkey-powerpc.h:29:
++#define NR_RESERVED_PKEYS_4K	27 /* pkey-0, pkey-1, exec-only-pkey
++				      and 24 other keys that cannot be
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#89: FILE: tools/testing/selftests/vm/pkey-powerpc.h:30:
++				      represented in the PTE */
+
+WARNING:RETURN_VOID: void function return statements are not generally useful
+#145: FILE: tools/testing/selftests/vm/pkey-powerpc.h:86:
++	return;
++}
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#185: FILE: tools/testing/selftests/vm/protection_keys.c:198:
++	dprintf3("%s(pkey=%d, rights=%lx, flags=%lx) = %x"
++		" pkey_reg now: %016llx old_pkey_reg: %016llx\n",
+
+total: 0 errors, 5 warnings, 445 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 589944b53b0f ("selftests/vm/pkeys: introduce powerpc support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

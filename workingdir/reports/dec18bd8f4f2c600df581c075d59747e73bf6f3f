@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit dec18bd8f4f2 ("mtd: spi-nor: sfdp: prepare BFPT parsing for JESD216 rev D") has no obvious style problems and is ready for submission.

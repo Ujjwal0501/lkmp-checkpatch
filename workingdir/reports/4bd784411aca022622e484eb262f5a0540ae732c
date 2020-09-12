@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 4bd784411aca ("mmc: tmio: Further fixup runtime PM management at remove") has no obvious style problems and is ready for submission.

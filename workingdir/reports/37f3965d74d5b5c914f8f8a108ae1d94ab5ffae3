@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit 37f3965d74d5 ("sc16is7xx: Always use falling edge IRQ") has no obvious style problems and is ready for submission.

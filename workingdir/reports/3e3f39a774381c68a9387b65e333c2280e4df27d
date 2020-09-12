@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 3e3f39a77438 ("arm64: dts: allwinner: a64: Add msgbox node") has no obvious style problems and is ready for submission.

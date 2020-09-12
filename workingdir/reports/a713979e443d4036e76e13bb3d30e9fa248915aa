@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit a713979e443d ("efi/libstub: Use %ls for filename") has no obvious style problems and is ready for submission.

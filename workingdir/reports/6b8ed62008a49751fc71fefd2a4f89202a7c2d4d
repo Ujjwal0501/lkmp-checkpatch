@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 92 lines checked
+
+Commit 6b8ed62008a4 ("ext4: avoid unnecessary transaction starts during writeback") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 191 lines checked
+
+Commit 0a3e060f340d ("tipc: add test for Nagle algorithm effectiveness") has no obvious style problems and is ready for submission.

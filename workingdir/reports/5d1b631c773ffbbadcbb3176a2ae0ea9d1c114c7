@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 5d1b631c773f ("arm64: bti: Document behaviour for dynamically linked binaries") has no obvious style problems and is ready for submission.

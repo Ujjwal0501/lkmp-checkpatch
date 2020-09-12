@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 625 lines checked
+
+Commit abafbc551fdd ("vfio-pci: Invalidate mmaps and block MMIO access on disabled memory") has no obvious style problems and is ready for submission.

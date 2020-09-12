@@ -1,0 +1,14 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#209: FILE: drivers/nvme/host/fc.c:1533:
++			"NVME-FC{%d}: Multiple Disconnect Association "
++			"LS's received\n", ctrl->cnum);
+
+total: 0 errors, 1 warnings, 476 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 14fd1e98afaf ("nvme-fc: Add Disconnect Association Rcv support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

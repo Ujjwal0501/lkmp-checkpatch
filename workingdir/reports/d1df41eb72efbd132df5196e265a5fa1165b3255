@@ -1,0 +1,18 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#36: 
+Signed-off-by: Lionel Landwerlin <lionel.g.landwerlin@intel.com>
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#225: FILE: drivers/gpu/drm/i915/i915_perf.c:523:
++			DRM_NOTE("unlanded report(s) head=0x%x "
++				 "tail=0x%x hw_tail=0x%x\n",
+
+total: 0 errors, 2 warnings, 361 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d1df41eb72ef ("drm/i915/perf: rework aging tail workaround") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

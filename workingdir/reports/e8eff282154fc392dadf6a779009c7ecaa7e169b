@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit e8eff282154f ("KVM: VMX: Flush all EPTP/VPID contexts on remote TLB flush") has no obvious style problems and is ready for submission.

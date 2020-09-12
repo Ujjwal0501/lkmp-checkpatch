@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit b7b2796b9b31 ("mailbox: imx: ONLY IPC MU needs IRQF_NO_SUSPEND flag") has no obvious style problems and is ready for submission.

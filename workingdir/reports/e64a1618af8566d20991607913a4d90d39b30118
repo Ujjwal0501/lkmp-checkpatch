@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit e64a1618af85 ("s390: fix system call single stepping") has no obvious style problems and is ready for submission.

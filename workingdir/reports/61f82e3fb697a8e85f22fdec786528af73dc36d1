@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit 61f82e3fb697 ("perf kcore_copy: Fix module map when there are no modules loaded") has no obvious style problems and is ready for submission.

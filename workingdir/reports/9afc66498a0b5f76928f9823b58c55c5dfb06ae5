@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 119 lines checked
+
+Commit 9afc66498a0b ("btrfs: block-group: refactor how we read one block group item") has no obvious style problems and is ready for submission.

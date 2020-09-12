@@ -1,0 +1,62 @@
+CHECK:SPACING: spaces preferred around that '-' (ctx:VxV)
+#70: FILE: drivers/staging/media/atomisp/include/hmm/hmm.h:32:
++#define mmgr_EXCEPTION         ((ia_css_ptr)-1)
+                                             ^
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#152: 
+deleted file mode 100644
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#492: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:805:
++^I^I^I        HMM_BO_PRIVATE, 0, NULL,$
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#492: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:805:
++	frame->data = hmm_alloc(frame->data_bytes,
++			        HMM_BO_PRIVATE, 0, NULL,
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#493: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:806:
++^I^I^I        frame->contiguous ?$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#494: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:807:
++^I^I^I        ATOMISP_MAP_FLAG_CONTIGUOUS : 0);$
+
+WARNING:LONG_LINE: line length of 126 exceeds 100 columns
+#517: FILE: drivers/staging/media/atomisp/pci/runtime/isp_param/src/isp_param.c:131:
++					css_params->params[pclass][mem].address = hmm_alloc(size, HMM_BO_PRIVATE, 0, NULL, 0);
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#580: FILE: drivers/staging/media/atomisp/pci/runtime/rmgr/src/rmgr_vbuf.c:300:
++				(*handle)->vptr = hmm_alloc((*handle)->size, HMM_BO_PRIVATE, 0, NULL, 0);
+
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#749: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3018:
++				  hmm_alloc(sizeof(struct ia_css_macc_table), HMM_BO_PRIVATE, 0, NULL, 0));
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#779: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3293:
++						hmm_alloc(CEIL_MUL(sizeof(struct sh_css_ddr_address_map),
+
+WARNING:LONG_LINE: line length of 104 exceeds 100 columns
+#806: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3364:
++			pipe->scaler_pp_lut = hmm_alloc(sizeof(zoom_table), HMM_BO_PRIVATE, 0, NULL, 0);
+
+WARNING:LONG_LINE: line length of 126 exceeds 100 columns
+#824: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4549:
++					 hmm_alloc(sizeof(struct ia_css_isp_parameter_set_info), HMM_BO_PRIVATE, 0, NULL, 0));
+
+total: 3 errors, 7 warnings, 2 checks, 509 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 08fef4fa947b ("media: atomisp: get rid of memory_access.c") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

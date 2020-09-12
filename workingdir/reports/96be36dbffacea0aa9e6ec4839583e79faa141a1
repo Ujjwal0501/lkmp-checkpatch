@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit 96be36dbffac ("PCI: aardvark: Replace custom macros by standard linux/pci_regs.h macros") has no obvious style problems and is ready for submission.

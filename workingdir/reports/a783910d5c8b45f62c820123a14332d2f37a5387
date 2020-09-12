@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit a783910d5c8b ("drm/amdgpu/kiq: add no_scheduler flag to KIQ") has no obvious style problems and is ready for submission.

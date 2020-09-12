@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 133 lines checked
+
+Commit 5cb51cfe8ad6 ("net: hns3: add support for dumping MAC reg in debugfs") has no obvious style problems and is ready for submission.

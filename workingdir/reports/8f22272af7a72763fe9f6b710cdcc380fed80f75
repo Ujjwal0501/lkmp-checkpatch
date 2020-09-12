@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 179 lines checked
+
+Commit 8f22272af7a7 ("dm zoned: add device pointer to struct dm_zone") has no obvious style problems and is ready for submission.

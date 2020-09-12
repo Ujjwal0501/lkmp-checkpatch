@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 391 lines checked
+
+Commit a6154805d073 ("media: atomisp: remove non-used 32-bits consts at system_local") has no obvious style problems and is ready for submission.

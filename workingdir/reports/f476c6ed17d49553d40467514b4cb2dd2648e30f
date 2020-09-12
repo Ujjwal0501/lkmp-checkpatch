@@ -1,0 +1,17 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'name'
+#574: FILE: Documentation/filesystems/coda.rst:527:
++    a directory entry.  The directory entry requested carries name name
+
+WARNING:REPEATED_WORD: Possible repeated word: 'name'
+#936: FILE: Documentation/filesystems/coda.rst:889:
++    Remove the directory with name name from the directory
+
+total: 0 errors, 2 warnings, 1693 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f476c6ed17d4 ("docs: filesystems: convert coda.txt to ReST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

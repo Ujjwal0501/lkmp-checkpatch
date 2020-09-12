@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 45 lines checked
+
+Commit 38427e5a47bf ("soc: qcom: rpmh-rsc: Allow using free WAKE TCS for active request") has no obvious style problems and is ready for submission.

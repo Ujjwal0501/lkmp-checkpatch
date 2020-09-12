@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 424 lines checked
+
+Commit 0f7cb26830a6 ("ath10k: add rx bitrate report for SDIO") has no obvious style problems and is ready for submission.

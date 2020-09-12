@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 144 lines checked
+
+Commit 0a7c7b47e44f ("ALSA: firewire-motu: move spec data to v2 protocol file") has no obvious style problems and is ready for submission.

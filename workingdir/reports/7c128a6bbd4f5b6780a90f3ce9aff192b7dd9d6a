@@ -1,0 +1,31 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#12: 
+  sk               Eth Pid        Groups   Rmem     Wmem     Dump  Locks    Drops    Inode
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#62: 
+new file mode 100644
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#75: FILE: tools/testing/selftests/bpf/progs/bpf_iter_ipv6_route.c:9:
++extern bool CONFIG_IPV6_SUBTREES __kconfig __weak;
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#166: FILE: tools/testing/selftests/bpf/progs/bpf_iter_netlink.c:32:
++		BPF_SEQ_PRINTF(seq, "sk               Eth Pid        Groups   "
++				    "Rmem     Wmem     Dump  Locks    Drops    "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#167: FILE: tools/testing/selftests/bpf/progs/bpf_iter_netlink.c:33:
++				    "Rmem     Wmem     Dump  Locks    Drops    "
++				    "Inode\n");
+
+total: 0 errors, 5 warnings, 128 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7c128a6bbd4f ("tools/bpf: selftests: Add iterator programs for ipv6_route and netlink") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

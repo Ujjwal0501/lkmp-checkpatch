@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit 0f92afee81ec ("iio:chemical:atlas-sensor: Drop unnecessary explicit casts in regmap_bulk_read calls") has no obvious style problems and is ready for submission.

@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#35: FILE: drivers/gpu/drm/amd/display/dc/core/dc.c:2213:
++						pipe_ctx->stream_res.abm->funcs->set_abm_immediate_disable(
+
+WARNING:LONG_LINE: line length of 106 exceeds 100 columns
+#37: FILE: drivers/gpu/drm/amd/display/dc/core/dc.c:2215:
++								pipe_ctx->stream->link->panel_cntl->inst);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#210: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:906:
++			pipe_ctx->stream_res.abm->funcs->set_abm_immediate_disable(pipe_ctx->stream_res.abm,
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#261: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_hwseq.c:2046:
++			pipe_ctx->stream_res.abm->funcs->set_abm_immediate_disable(pipe_ctx->stream_res.abm,
+
+total: 0 errors, 4 warnings, 219 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 18400f91c1c1 ("drm/amd/display: Add panel cntl id for set backlight level.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

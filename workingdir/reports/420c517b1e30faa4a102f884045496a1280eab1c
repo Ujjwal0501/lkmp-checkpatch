@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 420c517b1e30 ("dt-bindings: PCI: brcmstb: New prop 'aspm-no-l0s'") has no obvious style problems and is ready for submission.

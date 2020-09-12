@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 541 lines checked
+
+Commit 74c6881019b7 ("powerpc/watchpoint: Prepare handler to handle more than one watchpoint") has no obvious style problems and is ready for submission.

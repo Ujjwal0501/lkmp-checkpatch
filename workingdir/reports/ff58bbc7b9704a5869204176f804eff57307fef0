@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit ff58bbc7b970 ("ALSA: usb-audio: Fix potential use-after-free of streams") has no obvious style problems and is ready for submission.

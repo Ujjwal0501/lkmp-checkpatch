@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 116214d4e8fb ("sparc64: constify sysrq_key_op") has no obvious style problems and is ready for submission.

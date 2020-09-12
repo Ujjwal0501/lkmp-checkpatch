@@ -1,0 +1,14 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#37: FILE: include/linux/compiler_types.h:200:
++#define noinstr								\
++	noinline notrace __attribute((__section__(".noinstr.text"))) __no_kcsan
+
+total: 1 errors, 0 warnings, 20 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5ddbc4082e10 ("x86, kcsan: Add __no_kcsan to noinstr") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

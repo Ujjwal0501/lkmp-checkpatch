@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit da1978ac3d6c ("clk: meson: meson8b: Fix the first parent of vid_pll_in_sel") has no obvious style problems and is ready for submission.

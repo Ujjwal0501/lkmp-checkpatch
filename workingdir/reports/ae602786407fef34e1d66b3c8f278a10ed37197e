@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 24 lines checked
+
+Commit ae602786407f ("net: mscc: Fix OF_MDIO config check") has no obvious style problems and is ready for submission.

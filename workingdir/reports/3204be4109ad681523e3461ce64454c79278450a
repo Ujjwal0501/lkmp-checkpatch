@@ -1,0 +1,19 @@
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#38: FILE: arch/arm64/include/asm/kvm_host.h:409:
++#define vcpu_cp14(v,r)		((v)->arch.ctxt.copro[(r) ^ CPx_BIAS])
+                    ^
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#39: FILE: arch/arm64/include/asm/kvm_host.h:410:
++#define vcpu_cp15(v,r)		((v)->arch.ctxt.copro[(r) ^ CPx_BIAS])
+                    ^
+
+total: 2 errors, 0 warnings, 12 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3204be4109ad ("KVM: arm64: Make vcpu_cp1x() work on Big Endian hosts") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 46 lines checked
+
+Commit 59f8f7c84c50 ("net/mlx5: Fix forward to next namespace") has no obvious style problems and is ready for submission.

@@ -1,0 +1,22 @@
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#61: FILE: arch/powerpc/kernel/head_booke.h:537:
++#define STACK_EXC_LVL_FRAME_SIZE	ALIGN(sizeof (struct exception_regs), 16)
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#235: FILE: arch/powerpc/platforms/powermac/bootx_init.c:111:
++		*(mem) = ALIGN(*(mem),4); \
+ 		                     ^
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#307: FILE: arch/powerpc/platforms/powernv/pci-ioda.c:3866:
++	size = ALIGN(max_t(unsigned, phb->ioda.total_pe_num, 8) / 8,
+
+total: 1 errors, 2 warnings, 275 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b71153164103 ("powerpc: Replace _ALIGN_UP() by ALIGN()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

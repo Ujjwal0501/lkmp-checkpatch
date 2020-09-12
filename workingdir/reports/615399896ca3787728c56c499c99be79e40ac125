@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit 615399896ca3 ("nvme-fc: Sync header to FC-NVME-2 rev 1.08") has no obvious style problems and is ready for submission.

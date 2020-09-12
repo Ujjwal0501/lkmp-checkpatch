@@ -1,0 +1,18 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#18: 
+ .../3com/{vortex.txt => vortex.rst}           | 227 +++++++++---------
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#496: FILE: drivers/net/ethernet/3com/3c59x.c:1957:
+ 				pr_err("Probably a duplex mismatch.  See "
++						"Documentation/networking/device_drivers/3com/vortex.rst\n");
+
+total: 0 errors, 2 warnings, 0 checks, 441 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9ea2af8d16f5 ("docs: networking: device drivers: convert 3com/vortex.txt to ReST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

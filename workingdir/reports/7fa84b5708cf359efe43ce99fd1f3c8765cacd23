@@ -1,0 +1,25 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#16: 
+ Code: c0 0f 84 6d fa ff ff 44 8b 15 4e 9d ba 00 45 85 d2 0f 85 5d fa ff ff 48 c7 c6 f2 de 2b 82 48 c7 c7 f1 8a 2b 82 e8 d2 4d 72 ff <0f> 0b 4c 8b 4d 88 e9 3f fa ff ff f6 c2 04 0f 84 37 fe ff ff 48 89
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#16: 
+ Code: c0 0f 84 6d fa ff ff 44 8b 15 4e 9d ba 00 45 85 d2 0f 85 5d fa ff ff 48 c7 c6 f2 de 2b 82 48 c7 c7 f1 8a 2b 82 e8 d2 4d 72 ff <0f> 0b 4c 8b 4d 88 e9 3f fa ff ff f6 c2 04 0f 84 37 fe ff ff 48 89
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#16: 
+ Code: c0 0f 84 6d fa ff ff 44 8b 15 4e 9d ba 00 45 85 d2 0f 85 5d fa ff ff 48 c7 c6 f2 de 2b 82 48 c7 c7 f1 8a 2b 82 e8 d2 4d 72 ff <0f> 0b 4c 8b 4d 88 e9 3f fa ff ff f6 c2 04 0f 84 37 fe ff ff 48 89
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#16: 
+ Code: c0 0f 84 6d fa ff ff 44 8b 15 4e 9d ba 00 45 85 d2 0f 85 5d fa ff ff 48 c7 c6 f2 de 2b 82 48 c7 c7 f1 8a 2b 82 e8 d2 4d 72 ff <0f> 0b 4c 8b 4d 88 e9 3f fa ff ff f6 c2 04 0f 84 37 fe ff ff 48 89
+
+total: 0 errors, 4 warnings, 29 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7fa84b5708cf ("RDMA/mlx5: Initialize QP mutex for the debug kernels") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

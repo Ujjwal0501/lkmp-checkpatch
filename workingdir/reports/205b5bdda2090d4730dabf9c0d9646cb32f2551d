@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit 205b5bdda209 ("serial: qcom_geni_serial: Support kgdboc_earlycon") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit e8ec193e485d ("ASoC: wm8994: remove wm1811_snd_controls and mixin_boost_tlv") has no obvious style problems and is ready for submission.

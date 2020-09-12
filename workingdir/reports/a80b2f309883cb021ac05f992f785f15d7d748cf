@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit a80b2f309883 ("HID: asus: Simplify skipping of mappings for Asus T100CHI keyboard-dock") has no obvious style problems and is ready for submission.

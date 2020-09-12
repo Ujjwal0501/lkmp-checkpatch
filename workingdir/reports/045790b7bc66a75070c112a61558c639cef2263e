@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 66 lines checked
+
+Commit 045790b7bc66 ("wil6210: account for napi_gro_receive never returning GRO_DROP") has no obvious style problems and is ready for submission.

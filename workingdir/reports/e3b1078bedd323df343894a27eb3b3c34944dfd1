@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 355 lines checked
+
+Commit e3b1078bedd3 ("fscrypt: add support for IV_INO_LBLK_32 policies") has no obvious style problems and is ready for submission.

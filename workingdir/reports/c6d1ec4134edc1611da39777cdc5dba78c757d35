@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 47 lines checked
+
+Commit c6d1ec4134ed ("drm/amdkfd: Put ASIC revision into HSA capability") has no obvious style problems and is ready for submission.

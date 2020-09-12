@@ -1,0 +1,17 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#43: FILE: block/bio.c:757:
++				 struct page *page, unsigned len,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#44: FILE: block/bio.c:758:
++				 unsigned offset, bool *same_page)
+
+total: 0 errors, 2 warnings, 125 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e4581105771b ("block: rename __bio_add_pc_page to bio_add_hw_page") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 63 lines checked
+
+Commit 8b9c23cdf04f ("igc: Cleanup _get|set_rxnfc ethtool ops") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 265 lines checked
+
+Commit 720909a7abd3 ("x86/entry: Convert various system vectors") has no obvious style problems and is ready for submission.

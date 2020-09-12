@@ -1,0 +1,19 @@
+ERROR:SPACING: spaces required around that '?' (ctx:VxW)
+#259: FILE: arch/powerpc/xmon/xmon.c:711:
++				    IS_RFID(ppc_inst_read(bp->instr))? "rfid": "mtmsrd");
+ 				                                     ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#259: FILE: arch/powerpc/xmon/xmon.c:711:
++				    IS_RFID(ppc_inst_read(bp->instr))? "rfid": "mtmsrd");
+ 				                                             ^
+
+total: 2 errors, 0 warnings, 188 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f8faaffaa7d9 ("powerpc: Use a function for reading instructions") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

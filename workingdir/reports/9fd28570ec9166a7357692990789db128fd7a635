@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'DISBLED' may be misspelled - perhaps 'DISABLED'?
+#9: 
+WARNING: 'DISBLED' may be misspelled - perhaps 'DISABLED'?
+
+total: 0 errors, 1 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9fd28570ec91 ("iio: light: tsl2563: Rename macro to fix typo") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

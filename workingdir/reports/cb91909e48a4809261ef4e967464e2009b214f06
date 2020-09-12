@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit cb91909e48a4 ("tools/virtio: Use tools/include/list.h instead of stubs") has no obvious style problems and is ready for submission.

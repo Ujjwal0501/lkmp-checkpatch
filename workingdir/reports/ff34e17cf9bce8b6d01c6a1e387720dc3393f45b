@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ff34e17cf9bc ("soc: mediatek: Missing platform_device_unregister() on error in mtk_mmsys_probe()") has no obvious style problems and is ready for submission.

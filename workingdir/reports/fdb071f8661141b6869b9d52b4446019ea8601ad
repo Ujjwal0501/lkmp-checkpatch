@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit fdb071f86611 ("perf tools: Do not display extra info when there is nothing to build") has no obvious style problems and is ready for submission.

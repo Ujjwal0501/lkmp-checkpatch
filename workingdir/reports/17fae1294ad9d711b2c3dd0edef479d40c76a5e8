@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 104 lines checked
+
+Commit 17fae1294ad9 ("x86/{mce,mm}: Unmap the entire page if the whole page is affected and poisoned") has no obvious style problems and is ready for submission.

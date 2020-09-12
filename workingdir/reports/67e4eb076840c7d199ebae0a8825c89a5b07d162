@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit b676b293fb48 ("mm, thp: fix mapped pages avoiding unevictable list on mlock")'
+#14: 
+b676b293fb48 ("mm, thp: fix mapped pages avoiding unevictable list on
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 9a73f61bdb8a ("thp, mlock: do not mlock PTE-mapped file huge pages")'
+#15: 
+mlock") added it and 9a73f61bdb8a ("thp, mlock: do not mlock PTE-mapped
+
+total: 2 errors, 0 warnings, 28 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 67e4eb076840 ("mm: thp: don't need to drain lru cache when splitting and mlocking THP") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

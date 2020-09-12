@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit 84da071f3df5 ("btrfs: optimize split page read in btrfs_get_##bits") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit fa0c9cb11bad ("platform/x86: intel_cht_int33fe: Convert to use set_secondary_fwnode()") has no obvious style problems and is ready for submission.

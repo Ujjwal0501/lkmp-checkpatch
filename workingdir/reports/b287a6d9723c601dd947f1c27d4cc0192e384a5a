@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit b287a6d9723c ("ASoC: fsl_asrc_dma: Fix data copying speed issue with EDMA") has no obvious style problems and is ready for submission.

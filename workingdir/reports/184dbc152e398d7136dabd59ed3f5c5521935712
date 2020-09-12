@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 184dbc152e39 ("arm64: silicon-errata.rst: Sort the Cortex-A55 entries") has no obvious style problems and is ready for submission.

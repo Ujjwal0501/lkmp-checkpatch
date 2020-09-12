@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 5671ad667ebb ("mmc: mmc_spi: Respect the cmd->busy_timeout from the mmc core") has no obvious style problems and is ready for submission.

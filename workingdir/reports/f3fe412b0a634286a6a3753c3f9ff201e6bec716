@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 48 lines checked
+
+Commit f3fe412b0a63 ("mlxsw: spectrum: Do not rely on machine endianness") has no obvious style problems and is ready for submission.

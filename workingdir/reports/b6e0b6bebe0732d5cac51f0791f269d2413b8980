@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 26 lines checked
+
+Commit b6e0b6bebe07 ("net/mlx5: Fix fatal error handling during device load") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 94 lines checked
+
+Commit 3ff8df1430e9 ("powerpc/kvm/book3s: Avoid using rmap to protect parallel page table update.") has no obvious style problems and is ready for submission.

@@ -1,0 +1,14 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#112: FILE: drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c:255:
++					snprintf(p, ETH_GSTRING_LEN,
++					     aq_ethtool_queue_stat_names[si],
+
+total: 0 errors, 0 warnings, 1 checks, 202 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4272ba8b11f8 ("net: atlantic: per-TC queue statistics") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 60bb44652a0d ("mm: don't return the number of pages from map_kernel_range{,_noflush}") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 788f87ac608c ("xdp: export the DEV_MAP_BULK_SIZE macro") has no obvious style problems and is ready for submission.

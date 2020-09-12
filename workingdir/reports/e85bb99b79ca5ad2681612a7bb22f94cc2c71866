@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 175 lines checked
+
+Commit e85bb99b79ca ("iommu/vt-d: Add get_domain_info() helper") has no obvious style problems and is ready for submission.

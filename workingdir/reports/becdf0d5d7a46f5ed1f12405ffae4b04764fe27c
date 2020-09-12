@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit becdf0d5d7a4 ("mt76: mt7615: fix mt7615_firmware_own for mt7663e") has no obvious style problems and is ready for submission.

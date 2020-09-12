@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit ba54d4d4d284 ("raid5: remove gfp flags from scribble_alloc()") has no obvious style problems and is ready for submission.

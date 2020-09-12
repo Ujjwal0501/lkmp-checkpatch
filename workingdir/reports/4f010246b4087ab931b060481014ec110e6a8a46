@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 4f010246b408 ("net/bpfilter: Initialize pos in __bpfilter_process_sockopt") has no obvious style problems and is ready for submission.

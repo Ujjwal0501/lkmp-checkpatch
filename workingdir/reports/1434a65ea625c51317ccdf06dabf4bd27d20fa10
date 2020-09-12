@@ -1,0 +1,13 @@
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#32: FILE: fs/overlayfs/namei.c:200:
++	if (!IS_ERR(ret) && d_flags_negative(smp_load_acquire(&ret->d_flags))) {
+
+total: 0 errors, 1 warnings, 79 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1434a65ea625 ("ovl: drop negative dentry in upper layer") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

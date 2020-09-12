@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 3da87ec67a49 ("ALSA: usb-audio: Add implicit feedback quirk for SSL2") has no obvious style problems and is ready for submission.

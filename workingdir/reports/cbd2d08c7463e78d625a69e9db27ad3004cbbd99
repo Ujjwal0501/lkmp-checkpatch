@@ -1,0 +1,21 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#11: 
+1. Boot up picasso platform, launches desktop, Don't do anything (APU enter into "gfxoff" state)
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#86: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:376:
++			if (current_level != AMD_DPM_FORCED_LEVEL_MANUAL && level == AMD_DPM_FORCED_LEVEL_MANUAL)
+
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#88: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_pm.c:378:
++			else if (current_level == AMD_DPM_FORCED_LEVEL_MANUAL && level != AMD_DPM_FORCED_LEVEL_MANUAL)
+
+total: 0 errors, 3 warnings, 15 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cbd2d08c7463 ("drm/amd/powerpay: Disable gfxoff when setting manual mode on picasso and raven") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

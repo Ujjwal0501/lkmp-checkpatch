@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 138 lines checked
+
+Commit 7ba294e43595 ("net/mlx5: Update SW steering new cmd interface") has no obvious style problems and is ready for submission.

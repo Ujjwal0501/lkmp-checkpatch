@@ -1,0 +1,17 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#15: 
+     inside parameter list will not be visible outside of this definition or declaration
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit bfe3d8f6313d ("x86/tlb: Restrict access to tlbstate")'
+#29: 
+  bfe3d8f6313d ("x86/tlb: Restrict access to tlbstate")
+
+total: 1 errors, 1 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bd1de2a7aace ("x86/tlb/uv: Add a forward declaration for struct flush_tlb_info") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

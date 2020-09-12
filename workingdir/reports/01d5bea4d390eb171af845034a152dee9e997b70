@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 47 lines checked
+
+Commit 01d5bea4d390 ("clk: imx: Add helpers for passing the device as argument") has no obvious style problems and is ready for submission.

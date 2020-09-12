@@ -1,0 +1,15 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#34: FILE: arch/powerpc/include/asm/ptrace.h:193:
++#define CHECK_FULL_REGS(regs)	BUG_ON(!FULL_REGS(regs))
+
+total: 0 errors, 2 warnings, 47 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit feb9df3462e6 ("powerpc/64s: Always has full regs, so remove remnant checks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

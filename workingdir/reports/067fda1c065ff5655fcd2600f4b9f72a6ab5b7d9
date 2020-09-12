@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 511 lines checked
+
+Commit 067fda1c065f ("iio: hid-sensors: move triggered buffer setup into hid_sensor_setup_trigger") has no obvious style problems and is ready for submission.

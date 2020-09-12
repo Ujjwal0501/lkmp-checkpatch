@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 82503f8412df ("mtd: rawnand: nandsim: Use an additional label when freeing the nandsim object") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 135 lines checked
+
+Commit cd30d26cf307 ("x86/tlb: Move __flush_tlb_global() out of line") has no obvious style problems and is ready for submission.

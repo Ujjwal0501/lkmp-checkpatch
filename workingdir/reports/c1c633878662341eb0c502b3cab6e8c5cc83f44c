@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit c1c633878662 ("f2fs: introduce f2fs_bmap_compress()") has no obvious style problems and is ready for submission.

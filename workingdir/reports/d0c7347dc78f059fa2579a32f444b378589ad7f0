@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit d0c7347dc78f ("mfd: mt6397: Trim probe function to support different chips more cleanly") has no obvious style problems and is ready for submission.

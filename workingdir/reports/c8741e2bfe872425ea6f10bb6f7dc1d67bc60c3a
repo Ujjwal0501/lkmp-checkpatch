@@ -1,0 +1,17 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#34: FILE: include/uapi/linux/bpf.h:2018:
++ * ^I^Ipossible to both shrink and grow the packet tail.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#35: FILE: include/uapi/linux/bpf.h:2019:
++ * ^I^IShrink done via *delta* being a negative integer.$
+
+total: 0 errors, 2 warnings, 0 checks, 31 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c8741e2bfe87 ("xdp: Allow bpf_xdp_adjust_tail() to grow packet size") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

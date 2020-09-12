@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 109 lines checked
+
+Commit de0083c7ed7d ("hsr: avoid to create proc file after unregister") has no obvious style problems and is ready for submission.

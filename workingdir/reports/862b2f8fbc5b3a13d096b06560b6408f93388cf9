@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 543 lines checked
+
+Commit 862b2f8fbc5b ("perf evsel: Rename *perf_evsel__*set_sample_*() to *evsel__*set_sample_*()") has no obvious style problems and is ready for submission.

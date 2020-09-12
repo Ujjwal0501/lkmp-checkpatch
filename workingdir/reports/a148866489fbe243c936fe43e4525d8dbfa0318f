@@ -1,0 +1,28 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 90b5363acd47 ("sched: Clean up scheduler_ipi()")'
+#6: 
+The recent commit: 90b5363acd47 ("sched: Clean up scheduler_ipi()")
+
+WARNING:BRACES: braces {} are not necessary for any arm of this statement
+#228: FILE: kernel/smp.c:294:
++			if (prev) {
+[...]
++			} else {
+[...]
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#269: FILE: kernel/smp.c:692:
++	BUILD_BUG_ON(offsetof(struct task_struct, wake_entry_type) - offsetof(struct task_struct, wake_entry) !=
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#270: FILE: kernel/smp.c:693:
++		     offsetof(struct __call_single_data, flags) - offsetof(struct __call_single_data, llist));
+
+total: 1 errors, 3 warnings, 199 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a148866489fb ("sched: Replace rq::wake_list") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

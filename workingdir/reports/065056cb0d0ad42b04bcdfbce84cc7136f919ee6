@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 59 lines checked
+
+Commit 065056cb0d0a ("iio: at91-sama5d2_adc: split at91_adc_current_chan_is_touch() helper") has no obvious style problems and is ready for submission.

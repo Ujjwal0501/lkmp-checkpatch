@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 19c968222934 ("MIPS: DTS: CI20: make DM9000 Ethernet controller use NVMEM to find the default MAC address") has no obvious style problems and is ready for submission.

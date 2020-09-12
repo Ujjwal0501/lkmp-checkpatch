@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 615 lines checked
+
+Commit 3c873161a0d7 ("RDMA/hns: Add support for addressing when hopnum is 0") has no obvious style problems and is ready for submission.

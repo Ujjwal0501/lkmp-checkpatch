@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 0abcc8f65cc2 ("KVM: VMX: enable X86_FEATURE_WAITPKG in KVM capabilities") has no obvious style problems and is ready for submission.

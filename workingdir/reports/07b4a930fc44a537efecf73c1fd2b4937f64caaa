@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 07b4a930fc44 ("rcu: Don't set nesting depth negative in rcu_preempt_deferred_qs()") has no obvious style problems and is ready for submission.

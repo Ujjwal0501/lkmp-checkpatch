@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 6d75145bf6b6 ("spi: sc18is602: Fix a typo in MODULE_DESCRIPTION") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit b45fd13be340 ("thermal/drivers: imx: Fix missing of_node_put() at probe time") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit 8497376707be ("drm/i915/gt: Incorporate the virtual engine into timeslicing") has no obvious style problems and is ready for submission.

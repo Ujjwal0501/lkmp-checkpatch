@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c5e443cb7b6c ("fanotify: remove reference to fill_event_metadata()") has no obvious style problems and is ready for submission.

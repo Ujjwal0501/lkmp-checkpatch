@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 498595abf5bd ("drm/nouveau/fbcon: fix module unload when fbcon init has failed for some reason") has no obvious style problems and is ready for submission.

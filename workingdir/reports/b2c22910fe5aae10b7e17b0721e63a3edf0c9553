@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b2c22910fe5a ("ALSA: hda/realtek: Add mute LED and micmute LED support for HP systems") has no obvious style problems and is ready for submission.

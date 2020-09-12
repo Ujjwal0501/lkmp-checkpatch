@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 320 lines checked
+
+Commit d9258898ad49 ("arm64: dts: vexpress: Move fixed devices out of bus node") has no obvious style problems and is ready for submission.

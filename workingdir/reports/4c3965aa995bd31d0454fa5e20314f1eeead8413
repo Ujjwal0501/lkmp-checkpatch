@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit 4c3965aa995b ("mmc: au1xmmc: Drop redundant code in au1xmmc_send_command()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit f472d3c28385 ("btrfs: optimize split page write in btrfs_set_token_##bits") has no obvious style problems and is ready for submission.

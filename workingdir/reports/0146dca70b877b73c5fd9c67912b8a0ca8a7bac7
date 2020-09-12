@@ -1,0 +1,72 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#286: FILE: net/ipv6/esp6.c:247:
++static struct ip_esp_hdr *esp6_output_udp_encap(struct sk_buff *skb,
++					       int encap_type,
+
+CHECK:MULTIPLE_ASSIGNMENTS: multiple assignments should be avoided
+#309: FILE: net/ipv6/esp6.c:270:
++		udpdata32[0] = udpdata32[1] = 0;
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#317: FILE: net/ipv6/esp6.c:278:
++static int esp6_output_encap(struct xfrm_state *x, struct sk_buff *skb,
++			    struct esp_info *esp)
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#476: FILE: net/ipv6/esp6.c:650:
++		/*
++		 * 1) if the NAT-T peer's IP or port changed then
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#498: FILE: net/ipv6/esp6.c:672:
++		/*
++		 * 2) ignore UDP/TCP checksums in case
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#725: FILE: net/ipv6/xfrm6_input.c:99:
++	 * whatever data we need to look at. */
+
+CHECK:BRACES: braces {} should be used on all arms of this statement
+#739: FILE: net/ipv6/xfrm6_input.c:113:
++		if (len == 1 && udpdata[0] == 0xff) {
+[...]
++		} else if (len > sizeof(struct ip_esp_hdr) && udpdata32[0] != 0) {
+[...]
++		} else
+[...]
+
+CHECK:BRACES: Unbalanced braces around else statement
+#744: FILE: net/ipv6/xfrm6_input.c:118:
++		} else
+
+CHECK:BRACES: braces {} should be used on all arms of this statement
+#750: FILE: net/ipv6/xfrm6_input.c:124:
++		if (len == 1 && udpdata[0] == 0xff) {
+[...]
++		} else if (len > 2 * sizeof(u32) + sizeof(struct ip_esp_hdr) &&
+[...]
++		} else
+[...]
+
+CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+#754: FILE: net/ipv6/xfrm6_input.c:128:
++			   udpdata32[0] == 0 && udpdata32[1] == 0) {
++
+
+CHECK:BRACES: Unbalanced braces around else statement
+#757: FILE: net/ipv6/xfrm6_input.c:131:
++		} else
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#846: FILE: net/ipv6/xfrm6_protocol.c:97:
++		if ((ret = handler->input_handler(skb, nexthdr, spi, encap_type)) != -EINVAL)
+
+total: 1 errors, 3 warnings, 8 checks, 768 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0146dca70b87 ("xfrm: add support for UDPv6 encapsulation of ESP") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

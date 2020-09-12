@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 095b7a3e7745 ("x86/entry: Convert double fault exception to IDTENTRY_DF")'
+#11: 
+  095b7a3e7745 ("x86/entry: Convert double fault exception to IDTENTRY_DF")
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#13: 
+introduced a new build warning on 64-bit allnoconfig kernels, that have CONFIG_VMAP_STACK disabled:
+
+total: 1 errors, 1 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7102cb071326 ("x86/entry: Fix allnoconfig build warning") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

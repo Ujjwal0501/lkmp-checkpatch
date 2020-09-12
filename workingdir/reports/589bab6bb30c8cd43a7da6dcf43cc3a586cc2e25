@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 589bab6bb30c ("cpufreq: intel_pstate: Add one more OOB control bit") has no obvious style problems and is ready for submission.

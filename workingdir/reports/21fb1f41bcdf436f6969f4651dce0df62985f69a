@@ -1,0 +1,15 @@
+WARNING:EMAIL_SUBJECT: A patch subject line should describe the change not the tool that found it
+#4: 
+Subject: [PATCH] spi: spi-sh-msiof: Fix checkpatch error Complex macros should
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Aishwarya R <aishwaryarj100@gmail.com>'
+
+total: 0 errors, 2 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 21fb1f41bcdf ("spi: spi-sh-msiof: Fix checkpatch error Complex macros should use ()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

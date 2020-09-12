@@ -1,0 +1,33 @@
+ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+#24: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:505:
++void amdgpu_ras_parse_status_code(struct amdgpu_device* adev,
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#25: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:506:
++^I^I^I^I  const char* ^I^Iinvoke_type,$
+
+ERROR:POINTER_LOCATION: "foo* 		bar" should be "foo *bar"
+#25: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:506:
++				  const char* 		invoke_type,
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#26: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:507:
++^I^I^I^I  const char* ^I^Iblock_name,$
+
+ERROR:POINTER_LOCATION: "foo* 		bar" should be "foo *bar"
+#26: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:507:
++				  const char* 		block_name,
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#27: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:508:
++^I^I^I^I  enum ta_ras_status ^Iret)$
+
+total: 3 errors, 3 warnings, 58 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a200034b6648 ("drm/amdgpu: update RAS error handling") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

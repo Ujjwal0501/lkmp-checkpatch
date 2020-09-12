@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 52 lines checked
+
+Commit a70437cc09a1 ("tcp: add hrtimer slack to sack compression") has no obvious style problems and is ready for submission.

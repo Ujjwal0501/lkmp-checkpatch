@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 15 lines checked
+
+Commit 4079c7f7a2a0 ("net: qede: stop adding events on an already destroyed workqueue") has no obvious style problems and is ready for submission.

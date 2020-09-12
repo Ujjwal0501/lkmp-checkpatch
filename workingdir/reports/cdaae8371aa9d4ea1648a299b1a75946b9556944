@@ -1,0 +1,23 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+Previously we used the s3 codepath for gpu reset. This can lead to issues in
+
+ERROR:SPACING: space prohibited after that '*' (ctx:WxW)
+#178: FILE: drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c:1773:
++	} * bundle;
+ 	  ^
+
+WARNING:RETURN_VOID: void function return statements are not generally useful
+#207: FILE: drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c:1802:
++	return;
++}
+
+total: 1 errors, 2 warnings, 212 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cdaae8371aa9 ("drm/amd/display: Handle GPU reset for DC block") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

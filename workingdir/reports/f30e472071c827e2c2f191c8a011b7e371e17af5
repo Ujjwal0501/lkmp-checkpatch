@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit f30e472071c8 ("hsr: remove unnecessary code in hsr_dev_change_mtu()") has no obvious style problems and is ready for submission.

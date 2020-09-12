@@ -1,0 +1,22 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#218: 
+new file mode 100644
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#235: FILE: include/linux/fiemap.h:13:
++	struct fiemap_extent __user *fi_extents_start; /* Start of
++							fiemap_extent array */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#235: FILE: include/linux/fiemap.h:13:
++							fiemap_extent array */
+
+total: 0 errors, 3 warnings, 187 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 10c5db286452 ("fs: move the fiemap definitions out of fs.h") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 43a562774fce ("drm/amd/display: Use kfree() to free rgb_user in calculate_user_regamma_ramp()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 49 lines checked
+
+Commit 8ce6ee43bd6e ("power: supply: sbs-battery: add POWER_SUPPLY_PROP_CURRENT_AVG support") has no obvious style problems and is ready for submission.

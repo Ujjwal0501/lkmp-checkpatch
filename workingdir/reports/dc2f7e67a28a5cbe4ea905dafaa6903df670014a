@@ -1,0 +1,37 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#42: 
+new file mode 100644
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'find_seqno', this function's name, in a string
+#246: FILE: drivers/dma-buf/st-dma-fence-chain.c:200:
++		pr_err("Reported %d for find_seqno(0)!\n", err);
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'find_seqno', this function's name, in a string
+#255: FILE: drivers/dma-buf/st-dma-fence-chain.c:209:
++			pr_err("Reported %d for find_seqno(%d:%d)!\n",
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'find_seqno', this function's name, in a string
+#260: FILE: drivers/dma-buf/st-dma-fence-chain.c:214:
++			pr_err("Incorrect fence reported by find_seqno(%d:%d)\n",
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'find_seqno', this function's name, in a string
+#283: FILE: drivers/dma-buf/st-dma-fence-chain.c:237:
++			pr_err("Error not reported for future fence: find_seqno(%d:%d)!\n",
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'find_seqno', this function's name, in a string
+#297: FILE: drivers/dma-buf/st-dma-fence-chain.c:251:
++			pr_err("Incorrect fence reported by find_seqno(%d:%d)\n",
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'dma_fence_chain', this function's name, in a string
+#748: FILE: drivers/dma-buf/st-dma-fence-chain.c:702:
++	pr_info("sizeof(dma_fence_chain)=%zu\n",
+
+total: 0 errors, 7 warnings, 727 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dc2f7e67a28a ("dma-buf: Exercise dma-fence-chain under selftests") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

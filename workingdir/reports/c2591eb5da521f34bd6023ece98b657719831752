@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 144 lines checked
+
+Commit c2591eb5da52 ("MIPS: use ioremap_page_range") has no obvious style problems and is ready for submission.

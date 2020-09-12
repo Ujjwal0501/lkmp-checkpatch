@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 128 lines checked
+
+Commit 2b58f6d9df50 ("net/mlx5: Introduce IPsec Connect-X offload hardware bits and structures") has no obvious style problems and is ready for submission.

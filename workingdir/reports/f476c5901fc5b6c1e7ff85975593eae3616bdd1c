@@ -1,0 +1,21 @@
+WARNING:EMAIL_SUBJECT: A patch subject line should describe the change not the tool that found it
+#4: 
+Subject: [PATCH] staging: rtl8712: fix checkpatch warnings
+
+CHECK:CAMELCASE: Avoid CamelCase: <XGrptxmickey>
+#47: FILE: drivers/staging/rtl8712/rtl871x_xmit.c:372:
++				if (!memcmp(psecpriv->XGrptxmickey
+
+CHECK:CAMELCASE: Avoid CamelCase: <XGrpKeyid>
+#48: FILE: drivers/staging/rtl8712/rtl871x_xmit.c:373:
++				   [psecpriv->XGrpKeyid].skey,
+
+total: 0 errors, 1 warnings, 2 checks, 43 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f476c5901fc5 ("staging: rtl8712: fix checkpatch warnings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

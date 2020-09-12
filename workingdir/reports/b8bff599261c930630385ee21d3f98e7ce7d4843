@@ -1,0 +1,17 @@
+WARNING:TYPO_SPELLING: 'upate' may be misspelled - perhaps 'update'?
+#25: 
+Add or upate comments a appropriate to bring them up to date and
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#30: 
+Acked-by: Casey Schaufler <casey@schaufler-ca.com> # For the LSM and Smack bits
+
+total: 0 errors, 2 warnings, 283 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b8bff599261c ("exec: Factor security_bprm_creds_for_exec out of security_bprm_set_creds") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

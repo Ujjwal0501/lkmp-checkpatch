@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 581 lines checked
+
+Commit a5c4c29d24c6 ("ARM: dts: at91: Remove the USB EP child node") has no obvious style problems and is ready for submission.

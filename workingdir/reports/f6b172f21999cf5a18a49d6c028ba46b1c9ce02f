@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 74 lines checked
+
+Commit f6b172f21999 ("scsi: qedf: Add schedule recovery handler") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 252 lines checked
+
+Commit fa5e5c409213 ("x86/entry: Use idtentry for interrupts") has no obvious style problems and is ready for submission.

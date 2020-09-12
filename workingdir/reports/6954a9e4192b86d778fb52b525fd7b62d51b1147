@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit 6954a9e4192b ("ibmvnic: Flush existing work items before device removal") has no obvious style problems and is ready for submission.

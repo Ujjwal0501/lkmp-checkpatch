@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit b3f5758f0d59 ("ARM64: dts: mediatek: add an alias for ethernet0 for pumpkin boards") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit b2acc24c805a ("ASoC: soc-core: Add dynamic debug logs in soc_dai_link_sanity_check()") has no obvious style problems and is ready for submission.

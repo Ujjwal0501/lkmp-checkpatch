@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit fe4e1a576ef4 ("ACPI: watchdog: Put the watchdog action table after parsing") has no obvious style problems and is ready for submission.

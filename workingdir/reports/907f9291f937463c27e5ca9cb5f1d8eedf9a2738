@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 907f9291f937 ("CLK: HSDK: CGU: check if PLL is bypassed first") has no obvious style problems and is ready for submission.

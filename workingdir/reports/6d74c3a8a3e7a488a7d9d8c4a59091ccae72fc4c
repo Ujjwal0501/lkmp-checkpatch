@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 132 lines checked
+
+Commit 6d74c3a8a3e7 ("net/smc: multiple link support and LLC flow for smc_llc_do_delete_rkey") has no obvious style problems and is ready for submission.

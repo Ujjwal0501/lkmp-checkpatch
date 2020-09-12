@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit b37f5cc8d243 ("firmware: arm_scmi: Clear channel on reception of unexpected responses") has no obvious style problems and is ready for submission.

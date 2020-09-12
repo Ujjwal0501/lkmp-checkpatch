@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit 64536abc62c1 ("habanalabs: block scalar load_and_exe on external queue") has no obvious style problems and is ready for submission.

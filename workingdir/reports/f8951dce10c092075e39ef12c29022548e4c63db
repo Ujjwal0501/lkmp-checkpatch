@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit f8951dce10c0 ("ARM: imx: Remove imx_add_imx_dma() unused irq_err argument") has no obvious style problems and is ready for submission.

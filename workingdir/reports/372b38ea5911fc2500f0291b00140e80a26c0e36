@@ -1,0 +1,25 @@
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#55: FILE: include/linux/ieee80211.h:3700:
++       u8 tbtt_info_hdr;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#56: FILE: include/linux/ieee80211.h:3701:
++       u8 tbtt_info_len;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#57: FILE: include/linux/ieee80211.h:3702:
++       u8 op_class;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#58: FILE: include/linux/ieee80211.h:3703:
++       u8 channel;$
+
+total: 0 errors, 4 warnings, 38 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 372b38ea5911 ("ieee80211: definitions for reduced neighbor reports") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

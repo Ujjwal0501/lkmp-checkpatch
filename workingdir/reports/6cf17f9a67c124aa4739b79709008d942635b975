@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit 6cf17f9a67c1 ("s390/pci: define kernel parameters for PCI multifunction") has no obvious style problems and is ready for submission.

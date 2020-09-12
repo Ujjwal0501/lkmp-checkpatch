@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 64 lines checked
+
+Commit 8a5baa66b01f ("staging: vt6656: Remove the local variable "array"") has no obvious style problems and is ready for submission.

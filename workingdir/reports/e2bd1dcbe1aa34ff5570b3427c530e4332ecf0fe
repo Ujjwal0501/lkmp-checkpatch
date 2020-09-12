@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit e2bd1dcbe1aa ("tty: hvc: Fix data abort due to race in hvc_open") has no obvious style problems and is ready for submission.

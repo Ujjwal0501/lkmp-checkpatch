@@ -1,0 +1,13 @@
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#55: FILE: drivers/gpu/drm/i915/gt/intel_lrc.c:623:
++#define END(total_state_size) 0, (total_state_size)
+
+total: 1 errors, 0 warnings, 163 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b8a1181122f7 ("drm/i915: Use indirect ctx bb to mend CMD_BUF_CCTL") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

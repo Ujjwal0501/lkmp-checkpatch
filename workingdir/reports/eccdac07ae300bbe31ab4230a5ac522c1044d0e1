@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit eccdac07ae30 ("arm64: dts: qcom: sc7180: modify assigned clocks for sc7180 target") has no obvious style problems and is ready for submission.

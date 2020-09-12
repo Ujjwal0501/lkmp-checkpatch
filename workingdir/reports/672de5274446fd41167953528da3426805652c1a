@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 672de5274446 ("gpio: mb86s7x: Use devm_clk_get_optional() to get the input clock") has no obvious style problems and is ready for submission.

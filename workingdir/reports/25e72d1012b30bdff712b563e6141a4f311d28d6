@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit 25e72d1012b3 ("io_uring: do build_open_how() only once") has no obvious style problems and is ready for submission.

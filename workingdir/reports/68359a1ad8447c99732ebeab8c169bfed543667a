@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 68359a1ad844 ("ALSA: line6: Sync the pending work cancel at disconnection") has no obvious style problems and is ready for submission.

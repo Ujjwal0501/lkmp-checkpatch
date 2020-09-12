@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 111 lines checked
+
+Commit fac24df7b9a6 ("net: hns3: fix return value error when query MAC link status fail") has no obvious style problems and is ready for submission.

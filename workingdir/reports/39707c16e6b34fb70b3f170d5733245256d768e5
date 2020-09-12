@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 18 lines checked
+
+Commit 39707c16e6b3 ("igc: Fix NFC rules with multicast addresses") has no obvious style problems and is ready for submission.

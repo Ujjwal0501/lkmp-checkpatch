@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 24 lines checked
+
+Commit a06656211304 ("net: hns3: fix use-after-free when doing self test") has no obvious style problems and is ready for submission.

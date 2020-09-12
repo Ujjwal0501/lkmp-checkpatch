@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit d0de8c69f901 ("ASoC: max9867: don't use regmap defaults") has no obvious style problems and is ready for submission.

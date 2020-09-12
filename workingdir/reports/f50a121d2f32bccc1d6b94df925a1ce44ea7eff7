@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#53: FILE: sound/pci/hda/patch_realtek.c:7408:
++	SND_PCI_QUIRK(0x1025, 0x1430, "Acer TravelMate B311R-31", ALC256_FIXUP_ACER_MIC_NO_PRESENCE),
+
+total: 0 errors, 1 warnings, 29 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f50a121d2f32 ("ALSA: hda/realtek: Enable headset mic of Acer TravelMate B311R-31 with ALC256") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

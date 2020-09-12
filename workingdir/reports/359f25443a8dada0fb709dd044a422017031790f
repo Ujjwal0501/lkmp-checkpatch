@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 162 lines checked
+
+Commit 359f25443a8d ("hugetlbfs: move hugepagesz= parsing to arch independent code") has no obvious style problems and is ready for submission.

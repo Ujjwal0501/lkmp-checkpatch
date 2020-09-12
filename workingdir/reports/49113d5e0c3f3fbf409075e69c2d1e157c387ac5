@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 49113d5e0c3f ("net: phy: mscc: fix Serdes configuration in vsc8584_config_init") has no obvious style problems and is ready for submission.

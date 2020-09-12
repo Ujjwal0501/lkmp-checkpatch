@@ -1,0 +1,29 @@
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#62: FILE: arch/arm/boot/dts/dra7-l4.dtsi:3366:
++				clocks = <&ipu_clkctrl DRA7_IPU_TIMER5_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#85: FILE: arch/arm/boot/dts/dra7-l4.dtsi:3393:
++				clocks = <&ipu_clkctrl DRA7_IPU_TIMER6_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#96: FILE: arch/arm/boot/dts/dra7-l4.dtsi:3502:
++				clocks = <&l4per3_clkctrl DRA7_L4PER3_TIMER14_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#107: FILE: arch/arm/boot/dts/dra7-l4.dtsi:3530:
++				clocks = <&l4per3_clkctrl DRA7_L4PER3_TIMER15_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#118: FILE: arch/arm/boot/dts/dra7-l4.dtsi:3558:
++				clocks = <&l4per3_clkctrl DRA7_L4PER3_TIMER16_CLKCTRL 24>, <&timer_sys_clk_div>;
+
+total: 0 errors, 5 warnings, 82 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ebf89ed78b6a ("ARM: dts: dra7: Fix timer nodes properly for timer_sys_ck clocks") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

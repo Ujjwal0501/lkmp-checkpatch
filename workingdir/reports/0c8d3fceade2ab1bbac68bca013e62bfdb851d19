@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 0c8d3fceade2 ("bcache: configure the asynchronous registertion to be experimental") has no obvious style problems and is ready for submission.

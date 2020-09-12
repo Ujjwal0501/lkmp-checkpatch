@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit 74ebed3193aa ("x86/entry/32: Remove common_exception()") has no obvious style problems and is ready for submission.

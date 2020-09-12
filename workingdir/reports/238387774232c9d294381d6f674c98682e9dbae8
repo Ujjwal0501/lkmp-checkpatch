@@ -1,0 +1,45 @@
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#95: FILE: drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c:1407:
++			clock_limits[i].dispclk_mhz = dcn2_1_soc.clock_limits[closest_clk_lvl].dispclk_mhz;
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#96: FILE: drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c:1408:
++			clock_limits[i].dppclk_mhz = dcn2_1_soc.clock_limits[closest_clk_lvl].dppclk_mhz;
+
+WARNING:LONG_LINE: line length of 127 exceeds 100 columns
+#97: FILE: drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c:1409:
++			clock_limits[i].dram_bw_per_chan_gbps = dcn2_1_soc.clock_limits[closest_clk_lvl].dram_bw_per_chan_gbps;
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#98: FILE: drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c:1410:
++			clock_limits[i].dscclk_mhz = dcn2_1_soc.clock_limits[closest_clk_lvl].dscclk_mhz;
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#99: FILE: drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c:1411:
++			clock_limits[i].dtbclk_mhz = dcn2_1_soc.clock_limits[closest_clk_lvl].dtbclk_mhz;
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#100: FILE: drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c:1412:
++			clock_limits[i].phyclk_d18_mhz = dcn2_1_soc.clock_limits[closest_clk_lvl].phyclk_d18_mhz;
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#101: FILE: drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c:1413:
++			clock_limits[i].phyclk_mhz = dcn2_1_soc.clock_limits[closest_clk_lvl].phyclk_mhz;
+
+WARNING:LONG_LINE: line length of 124 exceeds 100 columns
+#108: FILE: drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c:1420:
++			dcn2_1_soc.clock_limits[dcn2_1_soc.num_states] = dcn2_1_soc.clock_limits[dcn2_1_soc.num_states - 1];
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#109: FILE: drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c:1421:
++			dcn2_1_soc.clock_limits[dcn2_1_soc.num_states].state = dcn2_1_soc.num_states;
+
+total: 0 errors, 9 warnings, 92 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 238387774232 ("drm/amd/display: fix rn soc bb update") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

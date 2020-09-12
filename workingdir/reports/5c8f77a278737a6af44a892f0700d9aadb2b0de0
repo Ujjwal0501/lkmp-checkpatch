@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit 5c8f77a27873 ("irqdomain: Make irq_domain_reset_irq_data() available to  non-hierarchical users") has no obvious style problems and is ready for submission.

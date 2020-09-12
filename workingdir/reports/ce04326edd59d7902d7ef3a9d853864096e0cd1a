@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ce04326edd59 ("habanalabs: increase h/w timer when checking idle") has no obvious style problems and is ready for submission.

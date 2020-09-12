@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 41 lines checked
+
+Commit 790709f24972 ("net: relax SO_TXTIME CAP_NET_ADMIN check") has no obvious style problems and is ready for submission.

@@ -1,0 +1,48 @@
+WARNING:TYPO_SPELLING: 'unecessary' may be misspelled - perhaps 'unnecessary'?
+#72: 
+v8: Remove unecessary {} around if else
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#74: 
+v9: Use kstrdup_const, which requires kfree_const and introducing a free_dr()
+
+ERROR:BAD_SIGN_OFF: Unrecognized email address: 'Neil Armstrong <narmstrong@baylibre.com'
+#86: 
+Cc: Neil Armstrong <narmstrong@baylibre.com
+
+WARNING:NEEDLESS_IF: kfree(NULL) is safe and this check is probably not required
+#168: FILE: drivers/gpu/drm/drm_drv.c:841:
++	} else if (dev->managed.final_kfree)
++		kfree(dev->managed.final_kfree);
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#187: 
+new file mode 100644
+
+ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+#262: FILE: drivers/gpu/drm/drm_managed.c:71:
++static __always_inline struct drmres * alloc_dr(drmres_release_t release,
+
+ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+#322: FILE: drivers/gpu/drm/drm_managed.c:131:
++	dr = alloc_dr(action, data ? sizeof(void*) : 0,
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'include/drm/drm_managed.h', please use '/*' instead
+#417: FILE: include/drm/drm_managed.h:1:
++// SPDX-License-Identifier: GPL-2.0
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#417: FILE: include/drm/drm_managed.h:1:
++// SPDX-License-Identifier: GPL-2.0
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Daniel Vetter <daniel.vetter@ffwll.ch>'
+
+total: 3 errors, 7 warnings, 322 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c6603c740e0e ("drm: add managed resources tied to drm_device") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 20355e5f73a7 ("x86/entry: Exclude low level entry code from sanitizing") has no obvious style problems and is ready for submission.

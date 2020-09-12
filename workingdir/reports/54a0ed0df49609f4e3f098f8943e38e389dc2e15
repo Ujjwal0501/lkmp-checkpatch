@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 72 lines checked
+
+Commit 54a0ed0df496 ("net: dsa: provide an option for drivers to always receive bridge VLANs") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 80 lines checked
+
+Commit a6688d919b22 ("net/smc: enqueue all received LLC messages") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit e7534fd42a99 ("selftests: implement flower classifier terse dump tests") has no obvious style problems and is ready for submission.

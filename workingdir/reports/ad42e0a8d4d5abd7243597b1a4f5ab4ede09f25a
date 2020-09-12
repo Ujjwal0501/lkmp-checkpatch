@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit ad42e0a8d4d5 ("mips: Add CPS_NS16550_WIDTH config") has no obvious style problems and is ready for submission.

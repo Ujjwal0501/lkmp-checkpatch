@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit 1c4b3c409998 ("crypto: powerpc/sha1 - remove unused temporary workspace") has no obvious style problems and is ready for submission.

@@ -1,0 +1,49 @@
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#54: FILE: arch/arm64/include/asm/assembler.h:758:
++.macro emit_aarch64_feature_1_and, feat=GNU_PROPERTY_AARCH64_FEATURE_1_DEFAULT
+                                        ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#60: FILE: arch/arm64/include/asm/assembler.h:764:
++1:      .string "GNU"
+  ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxE)
+#61: FILE: arch/arm64/include/asm/assembler.h:765:
++2:
+  ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#63: FILE: arch/arm64/include/asm/assembler.h:767:
++3:      .long   GNU_PROPERTY_AARCH64_FEATURE_1_AND
+  ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxE)
+#65: FILE: arch/arm64/include/asm/assembler.h:769:
++4:
+  ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxE)
+#73: FILE: arch/arm64/include/asm/assembler.h:777:
++5:
+  ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxE)
+#75: FILE: arch/arm64/include/asm/assembler.h:779:
++6:
+  ^
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#80: FILE: arch/arm64/include/asm/assembler.h:784:
++.macro emit_aarch64_feature_1_and, feat=0
+                                        ^
+
+total: 8 errors, 0 warnings, 54 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3a9b136c998f ("arm64: asm: Provide a mechanism for generating ELF note for BTI") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

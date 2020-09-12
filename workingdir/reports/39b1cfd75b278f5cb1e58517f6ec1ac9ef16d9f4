@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 109 lines checked
+
+Commit 39b1cfd75b27 ("xfs: fix inode ag walk predicate function return values") has no obvious style problems and is ready for submission.

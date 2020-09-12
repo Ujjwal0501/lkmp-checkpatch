@@ -1,0 +1,17 @@
+WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#59: 
+Analyzed-by: Vlastimil Babka <vbabka@suse.cz>
+
+WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#60: 
+Analyzed-by: Matthew Wilcox <willy@infradead.org>
+
+total: 0 errors, 2 warnings, 16 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 243bce09c91b ("mm: fix swap cache node allocation mask") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

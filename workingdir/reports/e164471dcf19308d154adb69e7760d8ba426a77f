@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit e164471dcf19 ("nvme: don't protect ns mutation with ns->head->lock") has no obvious style problems and is ready for submission.

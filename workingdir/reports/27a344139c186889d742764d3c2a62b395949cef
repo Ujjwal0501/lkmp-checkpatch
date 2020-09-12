@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 27a344139c18 ("soc: qcom: socinfo: add missing soc_id sysfs entry") has no obvious style problems and is ready for submission.

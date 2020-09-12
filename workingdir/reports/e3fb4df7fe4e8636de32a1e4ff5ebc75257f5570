@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit e3fb4df7fe4e ("modpost: re-add -e to set external_module flag") has no obvious style problems and is ready for submission.

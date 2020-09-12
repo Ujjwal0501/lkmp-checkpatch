@@ -1,0 +1,13 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#24: 
+  metric expr unc_iio_data_req_of_cpu.mem_read.part0 + unc_iio_data_req_of_cpu.mem_read.part1 + unc_iio_data_req_of_cpu.mem_read.part2 + unc_iio_data_req_of_cpu.mem_read.part3 for LLC_MISSES.PCIE_READ
+
+total: 0 errors, 1 warnings, 203 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4ac22b484d4c ("perf parse-events: Make add PMU verbose output clearer") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

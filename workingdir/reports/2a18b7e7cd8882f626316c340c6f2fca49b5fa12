@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 76 lines checked
+
+Commit 2a18b7e7cd88 ("KVM: async_pf: Inject 'page ready' event only if 'page not present' was previously injected") has no obvious style problems and is ready for submission.

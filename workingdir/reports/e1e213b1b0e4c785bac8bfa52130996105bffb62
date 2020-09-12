@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit e1e213b1b0e4 ("media: v4l2-mem2mem: return CAPTURE buffer first") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 152 lines checked
+
+Commit 285aa631e353 ("arm64: dts: qcom: msm8998: remove unit name for thermal trip points") has no obvious style problems and is ready for submission.

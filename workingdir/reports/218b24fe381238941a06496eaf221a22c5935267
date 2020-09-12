@@ -1,0 +1,14 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#65: FILE: net/smc/smc_llc.c:632:
++static void smc_llc_rx_confirm_rkey_cont(struct smc_link *link,
++				      struct smc_llc_msg_confirm_rkey_cont *llc)
+
+total: 0 errors, 0 warnings, 1 checks, 63 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 218b24fe3812 ("net/smc: adapt SMC remote DELETE_RKEY processing to use the LLC flow") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

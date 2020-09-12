@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit f4be140fa33f ("KVM: arm64: Drop PTE_S2_MEMATTR_MASK") has no obvious style problems and is ready for submission.

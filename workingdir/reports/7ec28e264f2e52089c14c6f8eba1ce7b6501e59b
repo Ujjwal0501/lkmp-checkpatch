@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 61 lines checked
+
+Commit 7ec28e264f2e ("KVM: Use vmemdup_user()") has no obvious style problems and is ready for submission.

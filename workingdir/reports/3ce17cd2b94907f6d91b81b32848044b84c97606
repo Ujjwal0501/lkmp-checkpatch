@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 3ce17cd2b949 ("hwmon: (scmi) Fix potential buffer overflow in scmi_hwmon_probe()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 38a4d932f70a ("arm64: dts: qcom: msm8916: move gpu opp table to gpu node") has no obvious style problems and is ready for submission.

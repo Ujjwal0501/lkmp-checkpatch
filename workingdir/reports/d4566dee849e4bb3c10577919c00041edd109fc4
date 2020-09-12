@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 245 lines checked
+
+Commit d4566dee849e ("drm/amdkfd: Track GPU memory utilization per process") has no obvious style problems and is ready for submission.

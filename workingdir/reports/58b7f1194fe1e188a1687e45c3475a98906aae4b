@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 63 lines checked
+
+Commit 58b7f1194fe1 ("mm/page_alloc.c: extract check_[new|free]_page_bad() common part to page_bad_reason()") has no obvious style problems and is ready for submission.

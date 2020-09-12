@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#12: 
+VM_FAULT_OOM otherwise the the page fault path will not notify the
+
+total: 0 errors, 1 warnings, 11 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 545b1b077ca6 ("mm: do_swap_page(): fix up the error code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

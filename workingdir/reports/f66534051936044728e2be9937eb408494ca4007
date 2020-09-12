@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit f66534051936 ("RDMA/cma: Initialize the flow label of CM's route path record") has no obvious style problems and is ready for submission.

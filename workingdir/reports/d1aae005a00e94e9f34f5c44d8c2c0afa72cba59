@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit d1aae005a00e ("mtd: rawnand: plat_nand: Stop using nand_release()") has no obvious style problems and is ready for submission.

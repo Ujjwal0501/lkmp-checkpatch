@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 143 lines checked
+
+Commit e383085c2425 ("RDMA/mlx5: Set ECE options during QP create") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 782fe98b9350 ("clk: Remove unused inline function clk_debug_reparent") has no obvious style problems and is ready for submission.

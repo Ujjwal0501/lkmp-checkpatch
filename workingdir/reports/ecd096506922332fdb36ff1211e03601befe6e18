@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit ecd096506922 ("mm: make deferred init's max threads arch-specific") has no obvious style problems and is ready for submission.

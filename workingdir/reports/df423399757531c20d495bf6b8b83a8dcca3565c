@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit df4233997575 ("f2fs: Fix the accounting of dcc->undiscard_blks") has no obvious style problems and is ready for submission.

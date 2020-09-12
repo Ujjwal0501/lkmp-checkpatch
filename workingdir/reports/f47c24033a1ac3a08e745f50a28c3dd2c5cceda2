@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit f47c24033a1a ("scsi: storvsc: Remove memset before memory freeing in storvsc_suspend()") has no obvious style problems and is ready for submission.

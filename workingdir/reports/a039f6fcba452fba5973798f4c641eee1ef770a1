@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 21 lines checked
+
+Commit a039f6fcba45 ("ice: Use coalesce values from q_vector 0 when increasing q_vectors") has no obvious style problems and is ready for submission.

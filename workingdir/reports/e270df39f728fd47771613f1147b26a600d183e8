@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit e270df39f728 ("nvmem: jz4780-efuse: Use PTR_ERR_OR_ZERO() to simplify code") has no obvious style problems and is ready for submission.

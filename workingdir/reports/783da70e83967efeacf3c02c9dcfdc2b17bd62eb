@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 84 lines checked
+
+Commit 783da70e8396 ("net: add sock_enable_timestamps") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 25 lines checked
+
+Commit b3c2ed21c0bd ("net/mlx5e: Fix VXLAN configuration restore after function reload") has no obvious style problems and is ready for submission.

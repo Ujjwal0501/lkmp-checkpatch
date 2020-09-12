@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 219 lines checked
+
+Commit 303e6a9ddcdc ("powerpc/watchpoint: Convert thread_struct->hw_brk to an array") has no obvious style problems and is ready for submission.

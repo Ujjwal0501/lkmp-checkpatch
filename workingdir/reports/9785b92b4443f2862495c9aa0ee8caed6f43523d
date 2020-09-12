@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 40 lines checked
+
+Commit 9785b92b4443 ("mlxsw: spectrum: Add packet traps for BFD packets") has no obvious style problems and is ready for submission.

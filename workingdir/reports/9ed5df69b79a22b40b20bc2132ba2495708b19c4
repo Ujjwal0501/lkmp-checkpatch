@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 9ed5df69b79a ("powerpc/kprobes: Use probe_address() to read instructions") has no obvious style problems and is ready for submission.

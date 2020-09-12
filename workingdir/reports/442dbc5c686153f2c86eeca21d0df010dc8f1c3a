@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit 442dbc5c6861 ("drm/i915: Make exclusive awaits on i915_active optional") has no obvious style problems and is ready for submission.

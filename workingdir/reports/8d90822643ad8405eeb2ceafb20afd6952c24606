@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#66: FILE: crypto/crypto_engine.c:485:
++						       int (*cbk_do_batch)(struct crypto_engine *engine),
+
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#118: FILE: include/crypto/engine.h:114:
++						       int (*cbk_do_batch)(struct crypto_engine *engine),
+
+total: 0 errors, 2 warnings, 80 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8d90822643ad ("crypto: engine - support for batch requests") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 36ef9a2d3f76 ("selftests/bpf: Cleanup some file descriptors in test_maps") has no obvious style problems and is ready for submission.

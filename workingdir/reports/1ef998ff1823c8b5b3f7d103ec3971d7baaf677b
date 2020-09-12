@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 1ef998ff1823 ("perf intel-pt: Consolidate thread-stack use condition") has no obvious style problems and is ready for submission.

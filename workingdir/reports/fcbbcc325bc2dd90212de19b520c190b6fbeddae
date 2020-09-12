@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit fcbbcc325bc2 ("ASoC: soc-card: add snd_soc_card_remove_dai_link()") has no obvious style problems and is ready for submission.

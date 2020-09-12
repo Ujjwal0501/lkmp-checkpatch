@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 10 lines checked
+
+Commit 1260e083d4cf ("mlxsw: spectrum: Share one group for all locally delivered packets") has no obvious style problems and is ready for submission.

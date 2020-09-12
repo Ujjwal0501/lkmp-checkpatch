@@ -1,0 +1,17 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#86: FILE: drivers/media/i2c/Kconfig:637:
++config VIDEO_THS7303
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#95: FILE: drivers/media/i2c/Kconfig:646:
++config VIDEO_M52790
+
+total: 0 errors, 2 warnings, 234 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f48fd1514212 ("media: i2c/Kconfig: reorganize items there") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

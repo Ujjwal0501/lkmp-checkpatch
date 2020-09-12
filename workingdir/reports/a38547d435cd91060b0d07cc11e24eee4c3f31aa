@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit a38547d435cd ("drm_read(): get rid of pointless access_ok()") has no obvious style problems and is ready for submission.

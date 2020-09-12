@@ -1,0 +1,17 @@
+WARNING:USE_FUNC: __func__ should be used instead of gcc specific __FUNCTION__
+#120: FILE: fs/xfs/xfs_icreate_item.c:204:
++			 "%s: unsupported chunk length", __FUNCTION__);
+
+WARNING:USE_FUNC: __func__ should be used instead of gcc specific __FUNCTION__
+#128: FILE: fs/xfs/xfs_icreate_item.c:212:
++			 __FUNCTION__);
+
+total: 0 errors, 2 warnings, 290 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3ec6efa703cf ("xfs: refactor log recovery icreate item dispatch for pass2 commit functions") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

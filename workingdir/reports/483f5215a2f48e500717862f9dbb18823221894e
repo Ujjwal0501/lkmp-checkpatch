@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 10 lines checked
+
+Commit 483f5215a2f4 ("media: atomisp: atomisp_compat_ioctl32.c: be independent of ISP version") has no obvious style problems and is ready for submission.

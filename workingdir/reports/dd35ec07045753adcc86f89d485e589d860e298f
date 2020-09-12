@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 77 lines checked
+
+Commit dd35ec070457 ("arm64/cpufeature: Introduce ID_DFR1 CPU register") has no obvious style problems and is ready for submission.

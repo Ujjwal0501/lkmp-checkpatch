@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 211 lines checked
+
+Commit b664db8e3f97 ("powerpc/rtas: Implement reentrant rtas call") has no obvious style problems and is ready for submission.

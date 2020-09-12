@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit ebe6976d3634 ("pcm_native: result of put_user() needs to be checked") has no obvious style problems and is ready for submission.

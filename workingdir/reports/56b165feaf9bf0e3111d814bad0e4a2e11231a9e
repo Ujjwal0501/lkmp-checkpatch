@@ -1,0 +1,42 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#7: 
+https://lore.kernel.org/dri-devel/faf63d8a9ed23c16af69762f59d0dca6b2bf085f.camel@redhat.com/T/#mce6480be738160e9d07c5d023e88fd78d7a06d27
+
+WARNING:BAD_SIGN_OFF: Co-developed-by: must be immediately followed by Signed-off-by:
+#27: 
+Co-developed-by: Lyude Paul <lyude@redhat.com>
+Reviewed-by: Lyude Paul <lyude@redhat.com>
+WARNING:LONG_LINE_COMMENT: line length of 141 exceeds 100 columns
+#74: FILE: drivers/gpu/drm/drm_vblank.c:66:
++ *    physical →   ⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽
+
+WARNING:LONG_LINE_COMMENT: line length of 140 exceeds 100 columns
+#79: FILE: drivers/gpu/drm/drm_vblank.c:71:
++ *                |↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓|
+
+WARNING:LONG_LINE_COMMENT: line length of 154 exceeds 100 columns
+#81: FILE: drivers/gpu/drm/drm_vblank.c:73:
++ *                |↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓|   updates the
+
+WARNING:LONG_LINE_COMMENT: line length of 152 exceeds 100 columns
+#91: FILE: drivers/gpu/drm/drm_vblank.c:83:
++ *    vertical    |⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽| ← display
+
+WARNING:LONG_LINE_COMMENT: line length of 141 exceeds 100 columns
+#95: FILE: drivers/gpu/drm/drm_vblank.c:87:
++ *    start of →   ⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽⎽
+
+WARNING:REPEATED_WORD: Possible repeated word: 'buffer'
+#103: FILE: drivers/gpu/drm/drm_vblank.c:95:
++ * vertical blanking period so that settings like gamma, the image buffer
++ * buffer to be scanned out, etc. can safely be changed without showing
+
+total: 0 errors, 8 warnings, 69 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 56b165feaf9b ("drm/vblank: Add intro to documentation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

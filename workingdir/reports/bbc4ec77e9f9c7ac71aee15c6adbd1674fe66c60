@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit bbc4ec77e9f9 ("ext4: mballoc: add more mb_debug() msgs") has no obvious style problems and is ready for submission.

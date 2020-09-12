@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 225 lines checked
+
+Commit c056618c53a7 ("mlxsw: spectrum_span: Add APIs to bind / unbind a SPAN agent") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 46 lines checked
+
+Commit c36b71503a22 ("KVM: x86/mmu: Avoid an extra memslot lookup in try_async_pf() for L2") has no obvious style problems and is ready for submission.

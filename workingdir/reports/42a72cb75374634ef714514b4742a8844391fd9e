@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit 42a72cb75374 ("btrfs: run btrfs_try_granting_tickets if a priority ticket fails") has no obvious style problems and is ready for submission.

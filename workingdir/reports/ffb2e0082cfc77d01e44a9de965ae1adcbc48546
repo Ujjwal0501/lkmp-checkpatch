@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit ffb2e0082cfc ("media: Kconfig: include test_drivers with MEDIA_TEST_SUPPORT") has no obvious style problems and is ready for submission.

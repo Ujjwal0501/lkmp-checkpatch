@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 8508f4cba308 ("serial: amba-pl011: Make sure we initialize the port.lock spinlock") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit b1c3b7f13e40 ("drm/amd/display: remove variable "result" in dcn20_patch_unknown_plane_state()") has no obvious style problems and is ready for submission.

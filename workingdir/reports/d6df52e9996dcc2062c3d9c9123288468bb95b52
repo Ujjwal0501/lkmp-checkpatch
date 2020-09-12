@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit d6df52e9996d ("s390/maccess: add no DAT mode to kernel_write") has no obvious style problems and is ready for submission.

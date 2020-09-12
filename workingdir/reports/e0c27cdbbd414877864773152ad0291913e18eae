@@ -1,0 +1,13 @@
+CHECK:USLEEP_RANGE: usleep_range is preferred over udelay; see Documentation/timers/timers-howto.rst
+#156: FILE: drivers/net/wireless/realtek/rtw88/phy.c:732:
++	udelay(120);
+
+total: 0 errors, 0 warnings, 1 checks, 183 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e0c27cdbbd41 ("rtw88: 8723d: Add RF read/write ops") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

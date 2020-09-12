@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit 045189452210 ("io_uring: separate DRAIN flushing into a cold path") has no obvious style problems and is ready for submission.

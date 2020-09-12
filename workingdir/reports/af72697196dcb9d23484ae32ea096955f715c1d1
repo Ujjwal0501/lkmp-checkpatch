@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 106 lines checked
+
+Commit af72697196dc ("staging: wfx: drop argument tx_allowed_mask since it is constant now") has no obvious style problems and is ready for submission.

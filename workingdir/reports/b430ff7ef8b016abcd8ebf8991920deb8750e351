@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 148 lines checked
+
+Commit b430ff7ef8b0 ("drm/stm: ltdc: check number of endpoints") has no obvious style problems and is ready for submission.

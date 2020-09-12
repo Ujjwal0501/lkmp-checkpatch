@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit a6e26648e6e2 ("dmaengine: mmp_tdma: Remove the MMP_SRAM dependency") has no obvious style problems and is ready for submission.

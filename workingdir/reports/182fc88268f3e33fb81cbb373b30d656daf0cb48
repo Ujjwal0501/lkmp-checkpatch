@@ -1,0 +1,16 @@
+WARNING:DT_SPLIT_BINDING_PATCH: DT binding docs and includes should be a separate patch. See: Documentation/devicetree/bindings/submitting-patches.rst
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#78: FILE: drivers/power/supply/sbs-battery.c:218:
++	int val = sbs_read_word_data(chip->client, BATTERY_MODE_OFFSET);
++	if (val < 0)
+
+total: 0 errors, 2 warnings, 71 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 182fc88268f3 ("power: supply: sbs-battery: add ability to disable charger broadcasts") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

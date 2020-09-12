@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 197 lines checked
+
+Commit a0036bb413d5 ("net: ipa: define SMEM memory region for IPA") has no obvious style problems and is ready for submission.

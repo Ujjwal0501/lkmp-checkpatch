@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 11ebc2321b8e ("drm/i915/audio: fix compressed_bpp check") has no obvious style problems and is ready for submission.

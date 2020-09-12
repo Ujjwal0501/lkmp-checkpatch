@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 282 lines checked
+
+Commit 61fb24822166 ("scsi: target: tcmu: Userspace must not complete queued commands") has no obvious style problems and is ready for submission.

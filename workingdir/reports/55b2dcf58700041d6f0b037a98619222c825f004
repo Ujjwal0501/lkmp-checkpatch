@@ -1,0 +1,21 @@
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'rcu_torture_stall', this function's name, in a string
+#76: FILE: kernel/rcu/rcutorture.c:1629:
++		VERBOSE_TOROUT_STRING("rcu_torture_stall begin GP stall");
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'rcu_torture_stall', this function's name, in a string
+#85: FILE: kernel/rcu/rcutorture.c:1638:
++		VERBOSE_TOROUT_STRING("rcu_torture_stall begin CPU stall");
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'rcu_torture_stall', this function's name, in a string
+#95: FILE: kernel/rcu/rcutorture.c:1658:
++	pr_alert("rcu_torture_stall end.\n");
+
+total: 0 errors, 3 warnings, 115 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 55b2dcf58700 ("rcu: Allow rcutorture to starve grace-period kthread") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

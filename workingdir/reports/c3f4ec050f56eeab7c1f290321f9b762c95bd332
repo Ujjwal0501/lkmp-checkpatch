@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit c3f4ec050f56 ("m68k/PCI: Fix a memory leak in an error handling path") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 278 lines checked
+
+Commit 7dcb7848ba11 ("pstore/blk: Support non-block storage devices") has no obvious style problems and is ready for submission.

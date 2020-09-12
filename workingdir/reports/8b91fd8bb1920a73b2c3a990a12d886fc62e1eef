@@ -1,0 +1,14 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#75: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:3171:
++	bool voltage_supported = false;
++	DC_FP_START();
+
+total: 0 errors, 1 warnings, 55 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8b91fd8bb192 ("drm/amd/display: work around fp code being emitted outside of DC_FP_START/END") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

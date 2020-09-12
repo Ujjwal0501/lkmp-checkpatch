@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit e14a15eba89a ("arm64: dts: qcom: sc7180: Add Q6V5 MSS node") has no obvious style problems and is ready for submission.

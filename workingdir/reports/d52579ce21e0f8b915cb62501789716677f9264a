@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit d52579ce21e0 ("clk: socfpga: add const to _ops data structures") has no obvious style problems and is ready for submission.

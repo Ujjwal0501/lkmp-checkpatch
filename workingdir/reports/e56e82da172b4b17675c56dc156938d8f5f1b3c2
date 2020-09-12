@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit e56e82da172b ("ARM64: dts: mediatek: add pericfg syscon to mt8516.dtsi") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 84 lines checked
+
+Commit fc1f75a0347a ("iio: inkern: drop devm_iio_channel_release{_all} API calls") has no obvious style problems and is ready for submission.

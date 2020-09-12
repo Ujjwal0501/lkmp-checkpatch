@@ -1,0 +1,14 @@
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#57: FILE: net/mac80211/agg-tx.c:473:
++		/*
++		 * We really should use what the driver told us it will
+
+total: 0 errors, 1 warnings, 0 checks, 91 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 31d8bb4e07f8 ("mac80211: agg-tx: refactor sending addba") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

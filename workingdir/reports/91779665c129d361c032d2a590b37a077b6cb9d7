@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 91779665c129 ("Bluetooth: Modify LE window and interval for suspend") has no obvious style problems and is ready for submission.

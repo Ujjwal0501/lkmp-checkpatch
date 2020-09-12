@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 38743e414e7c ("ARM: tegra: Do not fully reinitialize L2 on resume") has no obvious style problems and is ready for submission.

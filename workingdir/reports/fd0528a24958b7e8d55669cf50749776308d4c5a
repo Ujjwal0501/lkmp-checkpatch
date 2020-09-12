@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit fd0528a24958 ("efi/libstub: Buffer output of efi_puts") has no obvious style problems and is ready for submission.

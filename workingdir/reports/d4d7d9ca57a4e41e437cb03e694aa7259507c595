@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#62: FILE: drivers/gpu/drm/i915/i915_reg.h:9734:
++#define  PORT_SYNC_MODE_MASTER_SELECT(x)	REG_FIELD_PREP(PORT_SYNC_MODE_MASTER_SELECT_MASK, (x))
+
+total: 0 errors, 1 warnings, 34 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d4d7d9ca57a4 ("drm/i915: Use REG_FIELD_PREP() & co. for TRANS_DDI_FUNC_CTL2") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

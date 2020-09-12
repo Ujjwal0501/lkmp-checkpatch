@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 81 lines checked
+
+Commit aa8c406b0adb ("perf evsel: Rename perf_evsel__open_per_*() to evsel__open_per_*()") has no obvious style problems and is ready for submission.

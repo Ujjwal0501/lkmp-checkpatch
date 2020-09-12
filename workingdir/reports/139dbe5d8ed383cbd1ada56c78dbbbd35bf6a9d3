@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 139dbe5d8ed3 ("arm64: syscall: Expand the comment about ptrace and syscall(-1)") has no obvious style problems and is ready for submission.

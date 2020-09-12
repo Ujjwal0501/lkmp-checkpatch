@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit edfaf6fa73f1 ("drm/amdgpu: add fw release for sdma v5_0") has no obvious style problems and is ready for submission.

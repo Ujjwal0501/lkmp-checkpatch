@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 87 lines checked
+
+Commit c983e3271923 ("igc: Change byte order in struct igc_nfc_filter") has no obvious style problems and is ready for submission.

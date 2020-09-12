@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 228 lines checked
+
+Commit 0f1dd02295f3 ("drm/i915/gem: Split eb_vma into its own allocation") has no obvious style problems and is ready for submission.

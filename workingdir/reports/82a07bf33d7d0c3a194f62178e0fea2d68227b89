@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#20: 
+ .../{ipvs-sysctl.txt => ipvs-sysctl.rst}      | 188 +++++++++---------
+
+WARNING:REPEATED_WORD: Possible repeated word: 'that'
+#195: FILE: Documentation/networking/ipvs-sysctl.rst:117:
++	1), and 3 means that that the strategy is always enabled.
+
+total: 0 errors, 2 warnings, 292 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 82a07bf33d7d ("docs: networking: convert ipvs-sysctl.txt to ReST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

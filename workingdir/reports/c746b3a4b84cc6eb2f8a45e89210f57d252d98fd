@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c746b3a4b84c ("KVM: VMX: Skip global INVVPID fallback if vpid==0 in vpid_sync_context()") has no obvious style problems and is ready for submission.

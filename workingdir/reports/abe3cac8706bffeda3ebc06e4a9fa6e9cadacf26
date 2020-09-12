@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 22 lines checked
+
+Commit abe3cac8706b ("bpf, sk_msg: Add some generic helpers that may be useful from sk_msg") has no obvious style problems and is ready for submission.

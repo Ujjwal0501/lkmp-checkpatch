@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit a9fa7cb6aa99 ("KVM: x86: replace is_smm checks with kvm_x86_ops.smi_allowed") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 308 lines checked
+
+Commit bf28a3ba0986 ("dm zoned: store device in struct dmz_sb") has no obvious style problems and is ready for submission.

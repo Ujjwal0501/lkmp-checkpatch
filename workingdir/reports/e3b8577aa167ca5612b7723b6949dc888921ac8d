@@ -1,0 +1,21 @@
+CHECK:CAMELCASE: Avoid CamelCase: <uNextPktTime>
+#27: FILE: drivers/staging/vt6655/rxtx.c:269:
++			uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <s_uGetTxRsvTime>
+#27: FILE: drivers/staging/vt6655/rxtx.c:269:
++			uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType,
+
+CHECK:CAMELCASE: Avoid CamelCase: <pDevice>
+#27: FILE: drivers/staging/vt6655/rxtx.c:269:
++			uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType,
+
+total: 0 errors, 0 warnings, 3 checks, 45 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e3b8577aa167 ("staging: vt6655: extract index manupulation out of function call") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

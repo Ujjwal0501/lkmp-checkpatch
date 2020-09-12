@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit d65aca9ff83b ("via-pmu: don't bother with access_ok()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 56 lines checked
+
+Commit 484a75b1dbc4 ("sfc: use efx_has_cap for capability checks outside of NIC-specific code") has no obvious style problems and is ready for submission.

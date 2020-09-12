@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 6eb3b8acfd07 ("iio: buffer-dmaengine: use %zu specifier for sprintf(align)") has no obvious style problems and is ready for submission.

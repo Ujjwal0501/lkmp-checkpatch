@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit e3a3c3a20555 ("UIO: fix uio_pdrv_genirq with device tree but no interrupt")'
+#6: 
+Since e3a3c3a20555 ("UIO: fix uio_pdrv_genirq with device tree but no
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 7723f4c5ecdb ("driver core: platform: Add an error message to platform_get_irq*()")'
+#8: 
+so the change in 7723f4c5ecdb ("driver core: platform: Add an error
+
+total: 2 errors, 0 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 324ac45f25e6 ("uio_pdrv_genirq: Remove warning when irq is not specified") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

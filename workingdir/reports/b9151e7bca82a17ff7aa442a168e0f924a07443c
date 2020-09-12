@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit b9151e7bca82 ("blk-mq: Add blk_mq_delay_run_hw_queues() API call") has no obvious style problems and is ready for submission.

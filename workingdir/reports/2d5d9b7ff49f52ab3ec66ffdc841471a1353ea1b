@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 2d5d9b7ff49f ("cfg80211: fix mask type in cfg80211_tid_cfg structure") has no obvious style problems and is ready for submission.

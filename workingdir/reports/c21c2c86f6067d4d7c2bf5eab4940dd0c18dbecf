@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit c21c2c86f606 ("ARM: dts: sun8i-h3: add opp table for mali gpu") has no obvious style problems and is ready for submission.

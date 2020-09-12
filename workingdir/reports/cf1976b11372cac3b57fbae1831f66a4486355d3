@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit cf1976b11372 ("drm/i915: Also drop vm.ref along error paths for vma construction") has no obvious style problems and is ready for submission.

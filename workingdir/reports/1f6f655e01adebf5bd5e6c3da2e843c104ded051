@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 40 lines checked
+
+Commit 1f6f655e01ad ("x86/mm: Add a x86_has_pat_wp() helper") has no obvious style problems and is ready for submission.

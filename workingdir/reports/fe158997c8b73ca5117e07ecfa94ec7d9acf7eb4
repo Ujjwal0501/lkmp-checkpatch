@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit fe158997c8b7 ("drm/amdgpu: shrink critical section in amdgpu_amdkfd_gpuvm_free_memory_of_gpu") has no obvious style problems and is ready for submission.

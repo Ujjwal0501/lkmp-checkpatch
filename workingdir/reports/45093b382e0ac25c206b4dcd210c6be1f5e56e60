@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 45093b382e0a ("powerpc/watchpoint/ptrace: Return actual num of available watchpoints") has no obvious style problems and is ready for submission.

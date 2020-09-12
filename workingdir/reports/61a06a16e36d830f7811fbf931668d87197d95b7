@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 102 lines checked
+
+Commit 61a06a16e36d ("iommu/vt-d: Support flushing more translation cache types") has no obvious style problems and is ready for submission.

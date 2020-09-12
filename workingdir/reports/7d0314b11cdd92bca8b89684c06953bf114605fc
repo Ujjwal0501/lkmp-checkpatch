@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 103 lines checked
+
+Commit 7d0314b11cdd ("net/mlx5e: Modify uplink state on interface up/down") has no obvious style problems and is ready for submission.

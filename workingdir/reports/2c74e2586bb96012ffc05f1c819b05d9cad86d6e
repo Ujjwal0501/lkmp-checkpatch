@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 280 lines checked
+
+Commit 2c74e2586bb9 ("powerpc/40x: Rework 40x PTE access and TLB miss") has no obvious style problems and is ready for submission.

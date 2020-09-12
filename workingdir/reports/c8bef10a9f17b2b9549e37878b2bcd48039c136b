@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 47 lines checked
+
+Commit c8bef10a9f17 ("powerpc/8xx: Refactor kernel address boundary comparison") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 5cb1a5481cc3 ("iio: __iio_update_buffers: Update mode before preenable/after postdisable") has no obvious style problems and is ready for submission.

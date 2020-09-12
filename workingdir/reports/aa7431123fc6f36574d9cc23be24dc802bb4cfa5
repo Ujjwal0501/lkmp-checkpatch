@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 119 lines checked
+
+Commit aa7431123fc6 ("selftests: mlxsw: tc_restrictions: add couple of test for the correct matchall-flower ordering") has no obvious style problems and is ready for submission.

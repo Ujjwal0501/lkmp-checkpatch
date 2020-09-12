@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 79 lines checked
+
+Commit 25fd6de315f4 ("drm/i915/gt: Small tidy of gen8+ breadcrumb emission") has no obvious style problems and is ready for submission.

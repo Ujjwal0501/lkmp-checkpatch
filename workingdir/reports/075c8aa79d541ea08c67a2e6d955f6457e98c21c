@@ -1,0 +1,13 @@
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#22: FILE: tools/testing/selftests/net/forwarding/tc_actions.sh:2:
+ # SPDX-License-Identifier: GPL-2.0
+
+total: 0 errors, 1 warnings, 62 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 075c8aa79d54 ("selftests: forwarding: tc_actions.sh: add matchall mirror test") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

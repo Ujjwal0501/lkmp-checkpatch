@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 42 lines checked
+
+Commit f8de2bf26ce9 ("mt76: mt7615: modify mt7615_ampdu_stat_read for each phy") has no obvious style problems and is ready for submission.

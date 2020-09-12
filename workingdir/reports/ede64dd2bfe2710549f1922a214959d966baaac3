@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 59 lines checked
+
+Commit ede64dd2bfe2 ("xfrm: place xfrm6_local_dontfrag in xfrm.h") has no obvious style problems and is ready for submission.

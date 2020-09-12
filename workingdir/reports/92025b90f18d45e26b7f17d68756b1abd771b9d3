@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 92025b90f18d ("ARM: dts sunxi: Relax a bit the CMA pool allocation range") has no obvious style problems and is ready for submission.

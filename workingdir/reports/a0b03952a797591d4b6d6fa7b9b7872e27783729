@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit a0b03952a797 ("ALSA: hda/realtek - Add quirk for MSI GE63 laptop") has no obvious style problems and is ready for submission.

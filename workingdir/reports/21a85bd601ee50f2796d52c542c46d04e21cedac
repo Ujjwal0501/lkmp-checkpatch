@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_STRING: line length of 107 exceeds 100 columns
+#37: FILE: scripts/link-vmlinux.sh:147:
++		echo >&2 "BTF: ${1}: pahole version $(${PAHOLE} --version) is too old, need at least v1.16"
+
+total: 0 errors, 1 warnings, 10 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 21a85bd601ee ("scripts: Require pahole v1.16 when generating BTF") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

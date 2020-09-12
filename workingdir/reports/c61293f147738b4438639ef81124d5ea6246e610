@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 74 lines checked
+
+Commit c61293f14773 ("rtc: ingenic: Use local 'dev' variable in probe") has no obvious style problems and is ready for submission.

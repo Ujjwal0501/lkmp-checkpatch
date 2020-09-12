@@ -1,0 +1,17 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#86: FILE: drivers/gpu/drm/amd/display/dc/core/dc_link.c:657:
++			 * of this function). */
+
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#215: FILE: drivers/gpu/drm/amd/display/dc/hdcp/hdcp_msg.c:340:
++				link->dpcd_caps.dongle_caps.dongle_type == DISPLAY_DONGLE_DP_VGA_CONVERTER)) {
+
+total: 0 errors, 2 warnings, 259 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fe8db3bcf2e5 ("drm/amd/display: query hdcp capability during link detect") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

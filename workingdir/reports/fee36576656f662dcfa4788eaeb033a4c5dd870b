@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit fee36576656f ("s390/cio: Remove unused inline function idset_sch_get_first") has no obvious style problems and is ready for submission.

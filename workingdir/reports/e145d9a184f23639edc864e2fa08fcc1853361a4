@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit e145d9a184f2 ("interconnect: Add devm_of_icc_get() as exported API for users") has no obvious style problems and is ready for submission.

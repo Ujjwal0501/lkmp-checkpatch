@@ -1,0 +1,13 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct spi_imx_data *' should also have an identifier name
+#26: FILE: drivers/spi/spi-imx.c:74:
++	void (*disable_dma)(struct spi_imx_data *);
+
+total: 0 errors, 1 warnings, 73 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bcd8e7761ec9 ("spi: imx: fallback to PIO if dma setup failure") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

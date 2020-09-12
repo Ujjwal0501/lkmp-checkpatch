@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit 7391fba2678c ("ceph: don't release i_ceph_lock in handle_cap_trunc") has no obvious style problems and is ready for submission.

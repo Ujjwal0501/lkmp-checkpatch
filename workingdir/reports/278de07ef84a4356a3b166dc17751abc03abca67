@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 278de07ef84a ("apparmor: Replace two seq_printf() calls by seq_puts() in aa_label_seq_xprint()") has no obvious style problems and is ready for submission.

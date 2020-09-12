@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 93dff2fed2fb ("KVM: nVMX: Migrate the VMX-preemption timer") has no obvious style problems and is ready for submission.

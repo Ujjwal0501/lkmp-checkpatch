@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 30 lines checked
+
+Commit 46ef5b89ec0e ("ip6_gre: fix null-ptr-deref in ip6gre_init_net()") has no obvious style problems and is ready for submission.

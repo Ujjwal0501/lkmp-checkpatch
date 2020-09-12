@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 195 lines checked
+
+Commit 20b291f51802 ("crypto: hisilicon - refactor module parameter pf_q_num related code") has no obvious style problems and is ready for submission.

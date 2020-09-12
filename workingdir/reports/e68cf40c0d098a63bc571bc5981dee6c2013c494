@@ -1,0 +1,29 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#80: FILE: fs/ext4/mballoc.c:4166:
++	ext4_msg(sb, KERN_ERR, "Can't allocate:"
++			" Allocation context details:");
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#84: FILE: fs/ext4/mballoc.c:4170:
++	ext4_msg(sb, KERN_ERR, "orig %lu/%lu/%lu@%lu, "
++			"goal %lu/%lu/%lu@%lu, "
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#85: FILE: fs/ext4/mballoc.c:4171:
++			"goal %lu/%lu/%lu@%lu, "
++			"best %lu/%lu/%lu@%lu cr %d",
+
+WARNING:RETURN_VOID: void function return statements are not generally useful
+#106: FILE: fs/ext4/mballoc.c:4192:
++	return;
++}
+
+total: 0 errors, 4 warnings, 87 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e68cf40c0d09 ("ext4: mballoc: refactor ext4_mb_show_ac()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

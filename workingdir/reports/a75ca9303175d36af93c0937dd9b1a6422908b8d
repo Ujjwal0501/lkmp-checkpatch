@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit a75ca9303175 ("block/bio-integrity: don't free 'buf' if bio_integrity_add_page() failed") has no obvious style problems and is ready for submission.

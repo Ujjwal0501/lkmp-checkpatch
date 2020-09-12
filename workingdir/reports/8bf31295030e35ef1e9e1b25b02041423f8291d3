@@ -1,0 +1,17 @@
+WARNING:BAD_SIGN_OFF: Co-developed-by: must be immediately followed by Signed-off-by:
+#11: 
+Co-developed-by: Jiaxun Yang <jiaxun.yang@flygoat.com>
+Message-Id: <1590220602-3547-6-git-send-email-chenhc@lemote.com>
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#27: FILE: arch/mips/kvm/entry.c:59:
++#define C0_PGD		9, 7
+
+total: 1 errors, 1 warnings, 51 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8bf31295030e ("KVM: MIPS: Use lddir/ldpte instructions to lookup gpa_mm.pgd") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit fc3bb095ab02 ("f2fs: avoid utf8_strncasecmp() with unstable name") has no obvious style problems and is ready for submission.

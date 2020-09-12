@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 88 lines checked
+
+Commit bdf8710d69f8 ("block: move dma_pad handling from blk_rq_map_sg into the callers") has no obvious style problems and is ready for submission.

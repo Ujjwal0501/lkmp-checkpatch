@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit bfa50e1427e4 ("vfio-ccw: make vfio_ccw_regops variables declarations static") has no obvious style problems and is ready for submission.

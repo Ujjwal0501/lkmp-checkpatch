@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 114 lines checked
+
+Commit c5a01ec7579a ("drm/i915: Fix skl+ non-scaled pfit modes") has no obvious style problems and is ready for submission.

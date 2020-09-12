@@ -1,0 +1,73 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#45: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#50: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/capsgv100.c:1:
++/*
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#102: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/capsgv100.c:53:
++	if (!(caps = kzalloc(sizeof(*caps), GFP_KERNEL)))
+
+ERROR:SPACING: space required after that ',' (ctx:VxO)
+#118: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/rootgv100.c:30:
++		{{-1,-1,GV100_DISP_CAPS                }, gv100_disp_caps_new },
+ 		    ^
+
+ERROR:SPACING: space required before that '-' (ctx:OxV)
+#118: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/rootgv100.c:30:
++		{{-1,-1,GV100_DISP_CAPS                }, gv100_disp_caps_new },
+ 		     ^
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#118: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/rootgv100.c:30:
++		{{-1,-1,GV100_DISP_CAPS                }, gv100_disp_caps_new },
+ 		       ^
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct nvkm_oclass *' should also have an identifier name
+#130: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/rootnv50.h:27:
++int gv100_disp_caps_new(const struct nvkm_oclass *, void *, u32,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#130: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/rootnv50.h:27:
++int gv100_disp_caps_new(const struct nvkm_oclass *, void *, u32,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'u32' should also have an identifier name
+#130: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/rootnv50.h:27:
++int gv100_disp_caps_new(const struct nvkm_oclass *, void *, u32,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct nv50_disp *' should also have an identifier name
+#130: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/rootnv50.h:27:
++int gv100_disp_caps_new(const struct nvkm_oclass *, void *, u32,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct nvkm_object **' should also have an identifier name
+#130: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/rootnv50.h:27:
++int gv100_disp_caps_new(const struct nvkm_oclass *, void *, u32,
+
+ERROR:SPACING: space required after that ',' (ctx:VxO)
+#144: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/roottu102.c:30:
++		{{-1,-1,GV100_DISP_CAPS                }, gv100_disp_caps_new },
+ 		    ^
+
+ERROR:SPACING: space required before that '-' (ctx:OxV)
+#144: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/roottu102.c:30:
++		{{-1,-1,GV100_DISP_CAPS                }, gv100_disp_caps_new },
+ 		     ^
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#144: FILE: drivers/gpu/drm/nouveau/nvkm/engine/disp/roottu102.c:30:
++		{{-1,-1,GV100_DISP_CAPS                }, gv100_disp_caps_new },
+ 		       ^
+
+total: 7 errors, 8 warnings, 99 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9c1c08a68dcd ("drm/nouveau/disp/gv100-: expose capabilities class") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

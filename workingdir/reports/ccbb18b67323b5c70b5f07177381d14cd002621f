@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'managment' may be misspelled - perhaps 'management'?
+#17: 
+I plan on moving all of the bprm->file managment into fs/exec.c and out
+
+total: 0 errors, 1 warnings, 126 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ccbb18b67323 ("exec/binfmt_script: Don't modify bprm->buf and then return -ENOEXEC") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

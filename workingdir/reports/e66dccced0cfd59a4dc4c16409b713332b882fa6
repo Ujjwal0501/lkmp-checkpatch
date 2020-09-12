@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 131 lines checked
+
+Commit e66dccced0cf ("net: ethernet: ti: cpts: separate hw counter read from timecounter") has no obvious style problems and is ready for submission.

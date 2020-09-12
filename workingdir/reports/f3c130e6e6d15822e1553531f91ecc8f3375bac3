@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 89 lines checked
+
+Commit f3c130e6e6d1 ("afs: Don't use probe running state to make decisions outside probe code") has no obvious style problems and is ready for submission.

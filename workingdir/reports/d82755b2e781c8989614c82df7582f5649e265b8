@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 129 lines checked
+
+Commit d82755b2e781 ("KVM: arm64: Kill off CONFIG_KVM_ARM_HOST") has no obvious style problems and is ready for submission.

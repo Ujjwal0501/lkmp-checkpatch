@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit f8aa7e3958bc ("KVM: nVMX: Invalidate all EPTP contexts when emulating INVEPT for L1") has no obvious style problems and is ready for submission.

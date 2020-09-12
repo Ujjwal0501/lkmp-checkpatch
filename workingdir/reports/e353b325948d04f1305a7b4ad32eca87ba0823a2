@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit e353b325948d ("arm64: dts: imx8mm-beacon: Fix voltages on LDO1 and LDO2") has no obvious style problems and is ready for submission.

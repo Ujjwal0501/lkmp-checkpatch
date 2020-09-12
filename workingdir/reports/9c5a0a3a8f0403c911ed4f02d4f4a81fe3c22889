@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 47 lines checked
+
+Commit 9c5a0a3a8f04 ("clk / soc: mediatek: Bind clock and gpu driver for mt2712") has no obvious style problems and is ready for submission.

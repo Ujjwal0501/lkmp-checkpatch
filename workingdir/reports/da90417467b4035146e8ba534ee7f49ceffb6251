@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 87 lines checked
+
+Commit da90417467b4 ("drm/i915: Add YUV444 packed format support for skl+") has no obvious style problems and is ready for submission.

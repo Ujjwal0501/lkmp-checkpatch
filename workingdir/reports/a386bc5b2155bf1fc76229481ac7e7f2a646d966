@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit a386bc5b2155 ("mptcp: use list_first_entry_or_null") has no obvious style problems and is ready for submission.

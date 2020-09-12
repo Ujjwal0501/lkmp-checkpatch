@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 112 lines checked
+
+Commit ba27c5cf286d ("scsi: mpt3sas: Don't change the DMA coherent mask after allocations") has no obvious style problems and is ready for submission.

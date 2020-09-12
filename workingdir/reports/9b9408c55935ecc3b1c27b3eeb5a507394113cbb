@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit 9b9408c55935 ("powerpc/powernv/pci: Register iommu group at PE DMA setup") has no obvious style problems and is ready for submission.

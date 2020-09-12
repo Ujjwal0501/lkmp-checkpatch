@@ -1,0 +1,33 @@
+WARNING:PRINTK_WITHOUT_KERN_LEVEL: printk() should include KERN_<LEVEL> facility level
+#92: FILE: arch/powerpc/kernel/kprobes.c:237:
++		printk("Can't step on instruction %x\n", ppc_inst_val(insn));
+
+ERROR:SPACING: spaces required around that '?' (ctx:VxW)
+#404: FILE: arch/powerpc/lib/sstep.c:1225:
++			imm = (word & 0x400)? regs->ctr: regs->link;
+ 			                    ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#404: FILE: arch/powerpc/lib/sstep.c:1225:
++			imm = (word & 0x400)? regs->ctr: regs->link;
+ 			                               ^
+
+ERROR:SPACING: spaces required around that '?' (ctx:VxW)
+#668: FILE: arch/powerpc/lib/sstep.c:1541:
++			imm = (word & 0x10000)? 0x8002: 0xefffffffffffeffeUL;
+ 			                      ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#668: FILE: arch/powerpc/lib/sstep.c:1541:
++			imm = (word & 0x10000)? 0x8002: 0xefffffffffffeffeUL;
+ 			                              ^
+
+total: 4 errors, 1 warnings, 1140 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 777e26f0edf8 ("powerpc: Use an accessor for instructions") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

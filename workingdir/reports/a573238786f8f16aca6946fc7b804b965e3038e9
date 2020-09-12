@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 72 lines checked
+
+Commit a573238786f8 ("virtio-mem: Offline and remove completely unplugged memory blocks") has no obvious style problems and is ready for submission.

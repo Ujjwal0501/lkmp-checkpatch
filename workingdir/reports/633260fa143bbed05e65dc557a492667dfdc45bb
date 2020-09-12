@@ -1,0 +1,108 @@
+WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#23: 
+Originally-by: Andy Lutomirski <luto@kernel.org>
+
+WARNING:LONG_LINE: line length of 107 exceeds 100 columns
+#196: FILE: arch/x86/entry/entry_64.S:999:
++apicinterrupt SPURIOUS_APIC_VECTOR		spurious_apic_interrupt		smp_spurious_apic_interrupt
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#209: FILE: arch/x86/include/asm/entry_arch.h:38:
++BUILD_INTERRUPT(spurious_apic_interrupt,SPURIOUS_APIC_VECTOR)
+                                        ^
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#249: FILE: arch/x86/include/asm/idtentry.h:366:
++    vector=FIRST_EXTERNAL_VECTOR$
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#249: FILE: arch/x86/include/asm/idtentry.h:366:
++    vector=FIRST_EXTERNAL_VECTOR
+           ^
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#250: FILE: arch/x86/include/asm/idtentry.h:367:
++    pos = .$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#251: FILE: arch/x86/include/asm/idtentry.h:368:
++    .rept (FIRST_SYSTEM_VECTOR - FIRST_EXTERNAL_VECTOR)$
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#251: FILE: arch/x86/include/asm/idtentry.h:368:
++    .rept (FIRST_SYSTEM_VECTOR - FIRST_EXTERNAL_VECTOR)
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#258: FILE: arch/x86/include/asm/idtentry.h:375:
++    pos=pos+8$
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#258: FILE: arch/x86/include/asm/idtentry.h:375:
++    pos=pos+8
+        ^
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#259: FILE: arch/x86/include/asm/idtentry.h:376:
++    vector=vector+1$
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#259: FILE: arch/x86/include/asm/idtentry.h:376:
++    vector=vector+1
+           ^
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#260: FILE: arch/x86/include/asm/idtentry.h:377:
++    .endr$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#266: FILE: arch/x86/include/asm/idtentry.h:383:
++    vector=FIRST_SYSTEM_VECTOR$
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#266: FILE: arch/x86/include/asm/idtentry.h:383:
++    vector=FIRST_SYSTEM_VECTOR
+           ^
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#267: FILE: arch/x86/include/asm/idtentry.h:384:
++    pos = .$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#268: FILE: arch/x86/include/asm/idtentry.h:385:
++    .rept (NR_VECTORS - FIRST_SYSTEM_VECTOR)$
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#268: FILE: arch/x86/include/asm/idtentry.h:385:
++    .rept (NR_VECTORS - FIRST_SYSTEM_VECTOR)
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#275: FILE: arch/x86/include/asm/idtentry.h:392:
++    pos=pos+8$
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#275: FILE: arch/x86/include/asm/idtentry.h:392:
++    pos=pos+8
+        ^
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#276: FILE: arch/x86/include/asm/idtentry.h:393:
++    vector=vector+1$
+
+ERROR:SPACING: spaces required around that '=' (ctx:VxV)
+#276: FILE: arch/x86/include/asm/idtentry.h:393:
++    vector=vector+1
+           ^
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#277: FILE: arch/x86/include/asm/idtentry.h:394:
++    .endr$
+
+total: 7 errors, 16 warnings, 320 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 633260fa143b ("x86/irq: Convey vector as argument and not in ptregs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

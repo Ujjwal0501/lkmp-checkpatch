@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 44734a594196 ("usb: gadget: fix potential double-free in m66592_probe.") has no obvious style problems and is ready for submission.

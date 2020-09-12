@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit aa449a7965a6 ("selinux: fix a double free in cond_read_node()/cond_read_list()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 128 lines checked
+
+Commit 2374c09b1c8a ("sysctl: remove all extern declaration from sysctl.c") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 00a1aca23e71 ("ASoC: mmp-sspa: Flip SNDRV_PCM_FMTBIT_S24_3LE on") has no obvious style problems and is ready for submission.

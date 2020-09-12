@@ -1,0 +1,29 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#31: 
+[1] https://lore.kernel.org/linux-block/alpine.DEB.2.21.1904051331270.1802@nanos.tec.linutronix.de/
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#119: FILE: block/blk-mq.c:397:
++		 * off the the CPU, and thus off the hctx that is going away.
+
+WARNING:MSLEEP: msleep < 20ms can sleep for up to 20ms; see Documentation/timers/timers-howto.rst
+#121: FILE: block/blk-mq.c:399:
++		msleep(3);
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#185: FILE: block/blk-mq.c:2408:
++	smp_mb__after_atomic();
+
+WARNING:MSLEEP: msleep < 20ms can sleep for up to 20ms; see Documentation/timers/timers-howto.rst
+#194: FILE: block/blk-mq.c:2417:
++			msleep(5);
+
+total: 0 errors, 5 warnings, 233 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bf0beec0607d ("blk-mq: drain I/O when all CPUs in a hctx are offline") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e33a58a29c6a ("gpio: pca935x: Allow IRQ support for driver built as a module") has no obvious style problems and is ready for submission.

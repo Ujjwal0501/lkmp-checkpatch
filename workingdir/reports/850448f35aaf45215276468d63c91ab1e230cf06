@@ -1,0 +1,14 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#112: FILE: arch/x86/kvm/vmx/nested.c:3373:
++		u64 timer_value = vmx_calc_preemption_timer_value(vcpu);
++		vmx_start_preemption_timer(vcpu, timer_value);
+
+total: 0 errors, 1 warnings, 144 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 850448f35aaf ("KVM: nVMX: Fix VMX preemption timer migration") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

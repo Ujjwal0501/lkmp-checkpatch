@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 989f51752783 ("dt-bindings: usb: ingenic,musb: Add usb-role-switch property") has no obvious style problems and is ready for submission.

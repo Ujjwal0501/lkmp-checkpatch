@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c85c7cdef3c9 ("leds: trigger: remove redundant assignment to variable ret") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 55b244221c3f ("selftests/bpf: Fix cgroup sockopt verifier test") has no obvious style problems and is ready for submission.

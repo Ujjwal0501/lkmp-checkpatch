@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 062022315e8a ("mm/memory-failure: Add memory_failure_queue_kick()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 24 lines checked
+
+Commit 27640ce68d21 ("bnxt_en: Fix completion ring sizing with TPA enabled.") has no obvious style problems and is ready for submission.

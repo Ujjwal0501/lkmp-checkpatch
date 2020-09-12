@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 92 lines checked
+
+Commit 3577dd37c703 ("arm64/cpufeature: Add get_arm64_ftr_reg_nowarn()") has no obvious style problems and is ready for submission.

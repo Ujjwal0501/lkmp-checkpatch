@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 71 lines checked
+
+Commit dd4fa6c1b89a ("drm/amd/amdgpu: remove hardcoded module name in prints") has no obvious style problems and is ready for submission.

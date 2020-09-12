@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit ca6c9c8b107f ("perf top: Move sb_evlist to 'struct perf_top'") has no obvious style problems and is ready for submission.

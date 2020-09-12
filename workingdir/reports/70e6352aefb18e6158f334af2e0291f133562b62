@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 70e6352aefb1 ("firmware: arm_sdei: Put the SDEI table after using it") has no obvious style problems and is ready for submission.

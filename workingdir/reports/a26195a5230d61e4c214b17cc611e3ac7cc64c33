@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 703 lines checked
+
+Commit a26195a5230d ("btrfs: reloc: add btrfs_ prefix for backref_node/edge/cache") has no obvious style problems and is ready for submission.

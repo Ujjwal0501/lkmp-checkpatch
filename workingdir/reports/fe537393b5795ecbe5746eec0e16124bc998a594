@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit fe537393b579 ("bpf: Fix returned error sign when link doesn't support updates") has no obvious style problems and is ready for submission.

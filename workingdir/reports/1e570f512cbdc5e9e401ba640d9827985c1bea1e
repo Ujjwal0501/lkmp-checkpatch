@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 75 lines checked
+
+Commit 1e570f512cbd ("arm64/sve: Eliminate data races on sve_default_vl") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit fd7af71be542 ("kexec: do not verify the signature without the lockdown or mandatory signature") has no obvious style problems and is ready for submission.

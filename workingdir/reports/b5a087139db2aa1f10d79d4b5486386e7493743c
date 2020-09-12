@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit b5a087139db2 ("ARM: dts: stm32: Enable thermal sensor support on stm32mp15xx-dkx") has no obvious style problems and is ready for submission.

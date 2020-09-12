@@ -1,0 +1,17 @@
+WARNING:TYPO_SPELLING: 'splitted' may be misspelled - perhaps 'split'?
+#573: FILE: arch/x86/kvm/x86.c:230:
++	VM_STAT("nx_largepages_splitted", nx_lpage_splits, .mode = 0444),
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#586: FILE: include/linux/kvm_host.h:1133:
++#define VM_STAT(n, x, ...) ^I^I^I^I^I^I^I\$
+
+total: 0 errors, 2 warnings, 531 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 812756a82ea5 ("kvm_host: unify VM_STAT and VCPU_STAT definitions in a single place") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

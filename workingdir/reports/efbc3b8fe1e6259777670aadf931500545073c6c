@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit efbc3b8fe1e6 ("selftests/bpf: Cleanup comments in test_maps") has no obvious style problems and is ready for submission.

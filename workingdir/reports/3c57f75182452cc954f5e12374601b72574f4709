@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 97 lines checked
+
+Commit 3c57f7518245 ("f2fs: use strcmp() in parse_options()") has no obvious style problems and is ready for submission.

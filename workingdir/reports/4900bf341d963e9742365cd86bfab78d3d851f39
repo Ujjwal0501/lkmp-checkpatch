@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 74 lines checked
+
+Commit 4900bf341d96 ("net: ipa: have ipa_endpoint_init_ctrl() return previous state") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 37 lines checked
+
+Commit 631a6582b75f ("drm/i915/gt: Do not schedule normal requests immediately along virtual") has no obvious style problems and is ready for submission.

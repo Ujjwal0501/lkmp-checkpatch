@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'settting' may be misspelled - perhaps 'setting'?
+#15: 
+In fact settting TRAP from ptrace doesn't seem like a great idea
+
+total: 0 errors, 1 warnings, 54 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit db30144b5c9c ("powerpc: Use set_trap() and avoid open-coding trap masking") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,11 @@
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Ricardo Ribalda Delgado <ricardo@ribalda.com>'
+
+total: 0 errors, 1 warnings, 104 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cea0fad0f8b4 ("mailmap: change email for Ricardo Ribalda") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

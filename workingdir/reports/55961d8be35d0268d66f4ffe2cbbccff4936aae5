@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 43 lines checked
+
+Commit 55961d8be35d ("mt76: fix A-MPDU density handling") has no obvious style problems and is ready for submission.

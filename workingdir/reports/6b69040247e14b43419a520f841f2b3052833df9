@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 6b69040247e1 ("cifs/smb3: Fix data inconsistent when zero file range") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 1dae7e0e58b4 ("btrfs: reloc: clear DEAD_RELOC_TREE bit for orphan roots to prevent runaway balance") has no obvious style problems and is ready for submission.

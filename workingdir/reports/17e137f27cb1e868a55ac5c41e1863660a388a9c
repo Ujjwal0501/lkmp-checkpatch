@@ -1,0 +1,29 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#6: 
+Due to the new L1.0b0c011b policy, many SDMA registers are blocked which raise
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#70: FILE: drivers/gpu/drm/amd/amdgpu/sdma_v5_0.c:170:
++							(const u32)ARRAY_SIZE(golden_settings_sdma_5_sriov));
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#74: FILE: drivers/gpu/drm/amd/amdgpu/sdma_v5_0.c:174:
++							(const u32)ARRAY_SIZE(golden_settings_sdma_5));
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#129: FILE: drivers/gpu/drm/amd/amdgpu/sdma_v5_0.c:659:
++			WREG32(sdma_v5_0_get_reg_offset(adev, i, mmSDMA0_SEM_WAIT_FAIL_TIMER_CNTL), 0);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#176: FILE: drivers/gpu/drm/amd/amdgpu/sdma_v5_0.c:754:
++			temp |= ((CACHE_READ_POLICY_L2__DEFAULT << 12) | (CACHE_WRITE_POLICY_L2__DEFAULT << 14));
+
+total: 0 errors, 5 warnings, 167 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 17e137f27cb1 ("drm/amdgpu: skip access sdma_v5_0 registers under SRIOV (v2)") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

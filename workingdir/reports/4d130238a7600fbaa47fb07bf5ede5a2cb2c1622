@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit 4d130238a760 ("drm/amdgpu: cleanup idh event/req for NV headers") has no obvious style problems and is ready for submission.

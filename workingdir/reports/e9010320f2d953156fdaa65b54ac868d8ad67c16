@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 80 lines checked
+
+Commit e9010320f2d9 ("usb: cdns3: gadget: make a bunch of functions static") has no obvious style problems and is ready for submission.

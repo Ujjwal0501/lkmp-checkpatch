@@ -1,0 +1,53 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#16: 
+  [root@five a]# perf record --overwrite -e sched:*switch,syscalls:*recvmmsg --switch-output-event syscalls:sys_enter_recvmmsg
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#32: 
+  drwxr-xr-x.  2 root root    4096 Apr 27 17:59 .
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#33: 
+  dr-xr-x---. 12 root root    4096 Apr 27 17:46 ..
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#34: 
+  -rw-------.  1 root root 3936125 Apr 27 17:58 perf.data.2020042717585458
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#35: 
+  -rw-------.  1 root root 5074869 Apr 27 17:59 perf.data.2020042717590235
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#36: 
+  -rw-------.  1 root root 4291037 Apr 27 17:59 perf.data.2020042717590398
+
+WARNING:REPEATED_WORD: Possible repeated word: 'root'
+#37: 
+  -rw-------.  1 root root 7617037 Apr 27 17:59 perf.data.2020042717590511
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#132: FILE: tools/perf/builtin-record.c:1445:
++	struct record *rec = data;
++	pthread_kill(rec->thread_id, SIGUSR2);
+
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#173: FILE: tools/perf/builtin-record.c:2205:
++^I * If we're using --switch-output-events, then we imply its $
+
+WARNING:LONG_LINE: line length of 125 exceeds 100 columns
+#192: FILE: tools/perf/builtin-record.c:2474:
++	OPT_CALLBACK_SET(0, "switch-output-event", &record.sb_evlist, &record.switch_output_event_set, "switch output event",
+
+total: 1 errors, 9 warnings, 97 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 899e5ffbf246 ("perf record: Introduce --switch-output-event") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

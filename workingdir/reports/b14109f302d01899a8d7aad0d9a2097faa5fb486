@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit b14109f302d0 ("tty: serial: fsl_lpuart: Use __maybe_unused instead of #if CONFIG_PM_SLEEP") has no obvious style problems and is ready for submission.

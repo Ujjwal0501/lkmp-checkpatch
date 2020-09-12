@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 95 lines checked
+
+Commit 50aec2c3135e ("RDMA/mlx5: Return ECE data after modify QP") has no obvious style problems and is ready for submission.

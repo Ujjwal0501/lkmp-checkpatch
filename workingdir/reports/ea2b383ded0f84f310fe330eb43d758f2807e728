@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ea2b383ded0f ("drm/i915/params: don't expose inject_probe_failure in debugfs") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+CHECK:SPACING: No space is necessary after a cast
+#87: FILE: drivers/net/ethernet/mellanox/mlxsw/spectrum_span.c:785:
++	mlxsw_sp_port_headroom_8x_adjust(mlxsw_sp_port, (u16 *) &buffsize);
+
+total: 0 errors, 0 warnings, 1 checks, 43 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 60833d54d56c ("mlxsw: spectrum: Adjust headroom buffers for 8x ports") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

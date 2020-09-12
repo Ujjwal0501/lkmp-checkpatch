@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 145 lines checked
+
+Commit 20f829999c38 ("gfs2: Rework read and page fault locking") has no obvious style problems and is ready for submission.

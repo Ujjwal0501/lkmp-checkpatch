@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit c61e5644c697 ("crypto: hisilicon - Cap block size at 2^31") has no obvious style problems and is ready for submission.

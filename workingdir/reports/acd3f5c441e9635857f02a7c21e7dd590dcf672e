@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 71 lines checked
+
+Commit acd3f5c441e9 ("mm: remove early_pfn_in_nid() and CONFIG_NODES_SPAN_OTHER_NODES") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 101dde4207f1 ("xfrm: Fix crash when the hold queue is used.") has no obvious style problems and is ready for submission.

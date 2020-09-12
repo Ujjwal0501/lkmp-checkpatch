@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 108 lines checked
+
+Commit 6ae72bfa656e ("PCI: Unify pcie_find_root_port() and pci_find_pcie_root_port()") has no obvious style problems and is ready for submission.

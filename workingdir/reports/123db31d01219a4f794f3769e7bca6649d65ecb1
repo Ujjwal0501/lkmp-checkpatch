@@ -1,0 +1,14 @@
+CHECK:MACRO_ARG_PRECEDENCE: Macro argument 'adapter' may be better as '(adapter)' to avoid precedence issues
+#113: FILE: drivers/net/vmxnet3/vmxnet3_int.h:416:
++#define VMXNET3_VERSION_GE_4(adapter) \
++	(adapter->version >= VMXNET3_REV_4 + 1)
+
+total: 0 errors, 0 warnings, 1 checks, 63 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 123db31d0121 ("vmxnet3: prepare for version 4 changes") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

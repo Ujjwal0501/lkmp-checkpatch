@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit db67aa33d58d ("gpio: mb86s7x: Remove superfluous test for ACPI companion") has no obvious style problems and is ready for submission.

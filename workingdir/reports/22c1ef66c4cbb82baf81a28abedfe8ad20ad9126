@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit 22c1ef66c4cb ("dm zoned: allocate zone by device index") has no obvious style problems and is ready for submission.

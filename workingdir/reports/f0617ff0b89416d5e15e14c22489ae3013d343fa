@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#224: FILE: drivers/gpu/drm/i915/display/intel_dp.c:5830:
++							      intel_crtc_pch_transcoder(crtc), false);
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#246: FILE: drivers/gpu/drm/i915/display/intel_dp.c:5846:
++							      intel_crtc_pch_transcoder(crtc), true);
+
+total: 0 errors, 2 warnings, 230 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f0617ff0b894 ("drm/i915: Push MST link retraining to the hotplug work") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

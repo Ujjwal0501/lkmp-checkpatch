@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit 806f04e9fd2c ("rcu: Allow for smp_call_function() running callbacks from idle") has no obvious style problems and is ready for submission.

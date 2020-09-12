@@ -1,0 +1,13 @@
+CHECK:MACRO_ARG_PRECEDENCE: Macro argument 'ring' may be better as '(ring)' to avoid precedence issues
+#46: FILE: net/9p/trans_xen.c:47:
++#define XEN_9PFS_RING_SIZE(ring)  XEN_FLEX_RING_SIZE(ring->intf->ring_order)
+
+total: 0 errors, 0 warnings, 1 checks, 168 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 36f9967531da ("9p/xen: increase XEN_9PFS_RING_ORDER") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_STRING: line length of 188 exceeds 100 columns
+#73: FILE: drivers/gpu/drm/i915/i915_perf.c:3633:
++				DRM_DEBUG("OA exponent would exceed the max sampling frequency (sysctl dev.i915.oa_max_sample_rate) %uHz without CAP_PERFMON or CAP_SYS_ADMIN privileges\n",
+
+total: 0 errors, 1 warnings, 39 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4e3d3456b78f ("drm/i915/perf: Open access for CAP_PERFMON privileged process") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

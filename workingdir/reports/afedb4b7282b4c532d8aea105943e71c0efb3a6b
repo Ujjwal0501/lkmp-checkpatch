@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit afedb4b7282b ("spi: spi-mtk-nor: make mtk_nor_exec_op() statuc") has no obvious style problems and is ready for submission.

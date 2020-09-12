@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit ee1bd483cc06 ("inet_diag: bc: read cgroup id only for full sockets") has no obvious style problems and is ready for submission.

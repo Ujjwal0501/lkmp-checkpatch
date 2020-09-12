@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 71 lines checked
+
+Commit da74b6933b3b ("wlcore: fix runtime pm imbalance in wlcore_irq_locked") has no obvious style problems and is ready for submission.

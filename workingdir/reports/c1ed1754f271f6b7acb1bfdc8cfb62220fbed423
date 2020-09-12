@@ -1,0 +1,19 @@
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#60: FILE: arch/powerpc/kvm/book3s_64_mmu_radix.c:43:
++					  (to != NULL) ? __pa(to): 0,
+ 					                         ^
+
+ERROR:SPACING: spaces required around that ':' (ctx:VxW)
+#61: FILE: arch/powerpc/kvm/book3s_64_mmu_radix.c:44:
++					  (from != NULL) ? __pa(from): 0, n);
+ 					                             ^
+
+total: 2 errors, 0 warnings, 9 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c1ed1754f271 ("powerpc/kvm/book3s64: Fix kernel crash with nested kvm & DEBUG_VIRTUAL") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

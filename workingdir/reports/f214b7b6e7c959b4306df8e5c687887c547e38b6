@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 40 lines checked
+
+Commit f214b7b6e7c9 ("staging: wfx: fix potential dead lock between join and scan") has no obvious style problems and is ready for submission.

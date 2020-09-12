@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit b7e159eb008e ("IB/{hfi1, ipoib, rdma}: Broadcast ping sent packets which exceeded mtu size") has no obvious style problems and is ready for submission.

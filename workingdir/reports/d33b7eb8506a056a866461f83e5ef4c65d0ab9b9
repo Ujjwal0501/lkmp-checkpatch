@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#22: 
+deleted file mode 100644
+
+WARNING:DT_SPLIT_BINDING_PATCH: DT binding docs and includes should be a separate patch. See: Documentation/devicetree/bindings/submitting-patches.rst
+
+WARNING:DT_SPLIT_BINDING_PATCH: DT binding docs and includes should be a separate patch. See: Documentation/devicetree/bindings/submitting-patches.rst
+
+WARNING:REPEATED_WORD: Possible repeated word: 'used'
+#67: FILE: Documentation/devicetree/bindings/clock/qcom,a53pll.yaml:13:
++  The A53 PLL on few Qualcomm platforms is the main CPU PLL used used for
+
+total: 0 errors, 4 warnings, 40 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d33b7eb8506a ("dt-bindings: clock: Add YAML schemas for QCOM A53 PLL") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

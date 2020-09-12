@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 54 lines checked
+
+Commit dc0f3ed1973f ("net: phy: at803x: add cable diagnostics support for ATH9331 and ATH8032") has no obvious style problems and is ready for submission.

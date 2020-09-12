@@ -1,0 +1,13 @@
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#314: FILE: arch/x86/xen/enlighten_pv.c:616:
++	TRAP_ENTRY(exc_machine_check,			true  ),
+
+total: 1 errors, 0 warnings, 210 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8cd501c1facc ("x86/entry: Convert Machine Check to IDTENTRY_IST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

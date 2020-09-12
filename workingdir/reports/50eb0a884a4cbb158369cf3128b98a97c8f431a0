@@ -1,0 +1,13 @@
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#203: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mcu.c:3593:
++		return -ENOTSUPP;
+
+total: 0 errors, 1 warnings, 0 checks, 183 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 50eb0a884a4c ("mt76: enable p2p support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

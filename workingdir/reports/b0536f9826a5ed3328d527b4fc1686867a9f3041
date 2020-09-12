@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit b0536f9826a5 ("iio: adc: ad7780: Fix a resource handling path in 'ad7780_probe()'") has no obvious style problems and is ready for submission.

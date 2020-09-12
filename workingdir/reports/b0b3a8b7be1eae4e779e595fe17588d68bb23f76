@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit b0b3a8b7be1e ("ARM: dts: stm32: Add bindings for FDCAN1 on AV96") has no obvious style problems and is ready for submission.

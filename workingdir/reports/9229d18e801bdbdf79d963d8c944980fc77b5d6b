@@ -1,0 +1,25 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct xfs_inode *' should also have an identifier name
+#277: FILE: fs/xfs/libxfs/xfs_inode_fork.h:91:
++int		xfs_iformat_data_fork(struct xfs_inode *, struct xfs_dinode *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct xfs_dinode *' should also have an identifier name
+#277: FILE: fs/xfs/libxfs/xfs_inode_fork.h:91:
++int		xfs_iformat_data_fork(struct xfs_inode *, struct xfs_dinode *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct xfs_inode *' should also have an identifier name
+#278: FILE: fs/xfs/libxfs/xfs_inode_fork.h:92:
++int		xfs_iformat_attr_fork(struct xfs_inode *, struct xfs_dinode *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct xfs_dinode *' should also have an identifier name
+#278: FILE: fs/xfs/libxfs/xfs_inode_fork.h:92:
++int		xfs_iformat_attr_fork(struct xfs_inode *, struct xfs_dinode *);
+
+total: 0 errors, 4 warnings, 239 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9229d18e801b ("xfs: split xfs_iformat_fork") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

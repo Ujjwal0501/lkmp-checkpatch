@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 147 lines checked
+
+Commit 1cfd3426ef98 ("ath10k: Fix NULL pointer dereference in AHB device probe") has no obvious style problems and is ready for submission.

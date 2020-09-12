@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 89 lines checked
+
+Commit 3ad7e45820d0 ("ARM: dts: aspeed: rainier: Set PCA9552 pin types") has no obvious style problems and is ready for submission.

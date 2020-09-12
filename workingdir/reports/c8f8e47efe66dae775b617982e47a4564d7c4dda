@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 230 lines checked
+
+Commit c8f8e47efe66 ("net: ethernet: ti: cpts: move tx timestamp processing to ptp worker only") has no obvious style problems and is ready for submission.

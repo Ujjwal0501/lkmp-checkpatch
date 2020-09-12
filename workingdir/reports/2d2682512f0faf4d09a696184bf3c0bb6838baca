@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 138 lines checked
+
+Commit 2d2682512f0f ("riscv: Allow device trees to be built into the kernel") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit 9b7012dfc33d ("s390/qdio: de-duplicate tiqdio_inbound_processing()") has no obvious style problems and is ready for submission.

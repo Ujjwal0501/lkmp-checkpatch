@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 164 lines checked
+
+Commit 807abcb08834 ("io_uring: ensure double poll additions work with both request types") has no obvious style problems and is ready for submission.

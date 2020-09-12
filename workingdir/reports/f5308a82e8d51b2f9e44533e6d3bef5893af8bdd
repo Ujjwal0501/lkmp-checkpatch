@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit fatal: bad o ("d349b3f2448da18cb")'
+#6: 
+ACPICA commit 0ebacf12b8ca66ce6d3fce4d349b3f2448da18cb
+
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#17: 
+Signed-off-by: Yue Haibing <yuehaibing@huawei.com>
+
+total: 1 errors, 1 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f5308a82e8d5 ("ACPICA: Make acpi_protocol_lengths static") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

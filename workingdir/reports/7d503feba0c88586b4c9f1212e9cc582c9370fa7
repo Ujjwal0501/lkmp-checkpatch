@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit 7d503feba0c8 ("exec: In setup_new_exec cache current in the local variable me") has no obvious style problems and is ready for submission.

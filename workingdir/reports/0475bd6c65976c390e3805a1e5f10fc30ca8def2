@@ -1,0 +1,13 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#76: FILE: drivers/scsi/scsi_lib.c:1014:
++	BUG_ON(count > cmd->sdb.table.nents);
+
+total: 0 errors, 1 warnings, 65 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0475bd6c6597 ("scsi: merge scsi_init_sgtable into scsi_init_io") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

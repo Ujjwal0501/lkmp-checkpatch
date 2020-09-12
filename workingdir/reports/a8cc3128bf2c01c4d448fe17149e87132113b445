@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit a8cc3128bf2c ("crypto: stm32/crc32 - fix run-time self test issue.") has no obvious style problems and is ready for submission.

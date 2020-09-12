@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 94 lines checked
+
+Commit e3e67621e307 ("SUNRPC: Remove kernel memory address from svc_xprt tracepoints") has no obvious style problems and is ready for submission.

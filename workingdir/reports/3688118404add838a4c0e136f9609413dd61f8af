@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 84 lines checked
+
+Commit 3688118404ad ("drm/edid: Remove idx==1 assumptions from all over the DispID parsing") has no obvious style problems and is ready for submission.

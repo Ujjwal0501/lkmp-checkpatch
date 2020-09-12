@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 58 lines checked
+
+Commit 39b425170d35 ("habanalabs: leave space for 2xMSG_PROT in CB") has no obvious style problems and is ready for submission.

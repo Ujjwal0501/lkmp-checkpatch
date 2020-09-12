@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit d0e21ce40c7a ("dm zoned: Introduce dmz_dev_is_dying() and dmz_check_dev()") has no obvious style problems and is ready for submission.

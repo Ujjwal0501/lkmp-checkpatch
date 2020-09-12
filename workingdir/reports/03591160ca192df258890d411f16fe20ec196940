@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 43 lines checked
+
+Commit 03591160ca19 ("mmc: sdhci-msm: Read and use DLL Config property from device tree file") has no obvious style problems and is ready for submission.

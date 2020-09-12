@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 0741678ece68 ("iio: light: opt3001: Add mod_devicetable.h and drop use of of_match_ptr") has no obvious style problems and is ready for submission.

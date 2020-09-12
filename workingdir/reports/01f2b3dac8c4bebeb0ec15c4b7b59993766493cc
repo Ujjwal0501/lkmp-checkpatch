@@ -1,0 +1,58 @@
+CHECK:CAMELCASE: Avoid CamelCase: <ETHTOOL_LINK_MODE_10000baseKR_Full_BIT>
+#71: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:78:
++		.link_mode_bit = ETHTOOL_LINK_MODE_10000baseKR_Full_BIT,
+
+CHECK:CAMELCASE: Avoid CamelCase: <ETHTOOL_LINK_MODE_40000baseKR4_Full_BIT>
+#76: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:83:
++		.link_mode_bit = ETHTOOL_LINK_MODE_40000baseKR4_Full_BIT,
+
+CHECK:CAMELCASE: Avoid CamelCase: <ETHTOOL_LINK_MODE_40000baseCR4_Full_BIT>
+#81: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:88:
++		.link_mode_bit = ETHTOOL_LINK_MODE_40000baseCR4_Full_BIT,
+
+CHECK:CAMELCASE: Avoid CamelCase: <ETHTOOL_LINK_MODE_100000baseKR4_Full_BIT>
+#86: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:93:
++		.link_mode_bit = ETHTOOL_LINK_MODE_100000baseKR4_Full_BIT,
+
+CHECK:CAMELCASE: Avoid CamelCase: <ETHTOOL_LINK_MODE_100000baseCR4_Full_BIT>
+#91: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:98:
++		.link_mode_bit = ETHTOOL_LINK_MODE_100000baseCR4_Full_BIT,
+
+CHECK:CAMELCASE: Avoid CamelCase: <ETHTOOL_LINK_MODE_25000baseKR_Full_BIT>
+#96: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:103:
++		.link_mode_bit = ETHTOOL_LINK_MODE_25000baseKR_Full_BIT,
+
+CHECK:CAMELCASE: Avoid CamelCase: <ETHTOOL_LINK_MODE_25000baseCR_Full_BIT>
+#101: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:108:
++		.link_mode_bit = ETHTOOL_LINK_MODE_25000baseCR_Full_BIT,
+
+CHECK:CAMELCASE: Avoid CamelCase: <ETHTOOL_LINK_MODE_1000baseKX_Full_BIT>
+#116: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:123:
++		.link_mode_bit = ETHTOOL_LINK_MODE_1000baseKX_Full_BIT,
+
+CHECK:CAMELCASE: Avoid CamelCase: <Backplane>
+#189: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:227:
++		ETHTOOL_ADD_SUPPORTED_LINK_MODE(link_settings, Backplane);
+
+CHECK:CAMELCASE: Avoid CamelCase: <Pause>
+#263: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:296:
++		ETHTOOL_ADD_SUPPORTED_LINK_MODE(&settings, Pause);
+
+CHECK:CAMELCASE: Avoid CamelCase: <Asym_Pause>
+#267: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:300:
++			ETHTOOL_ADD_ADVERTISED_LINK_MODE(&settings, Asym_Pause);
+
+CHECK:SPACING: spaces preferred around that '*' (ctx:WxV)
+#479: FILE: drivers/net/ethernet/huawei/hinic/hinic_ethtool.c:512:
++				    ethtool_link_ksettings *link_settings)
+ 				                           ^
+
+total: 0 errors, 0 warnings, 12 checks, 798 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 01f2b3dac8c4 ("hinic: add link_ksettings ethtool_ops support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

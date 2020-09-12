@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 9f09e37d1544 ("mtd: spi-nor: macronix: Add support for mx25u51245g") has no obvious style problems and is ready for submission.

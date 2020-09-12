@@ -1,0 +1,33 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#131: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'tools/perf/util/perf_api_probe.c', please use '//' instead
+#136: FILE: tools/perf/util/perf_api_probe.c:1:
++/* SPDX-License-Identifier: GPL-2.0 */
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#136: FILE: tools/perf/util/perf_api_probe.c:1:
++/* SPDX-License-Identifier: GPL-2.0 */
+
+WARNING:STATIC_CONST_CHAR_ARRAY: char * array declaration might be better as static const
+#197: FILE: tools/perf/util/perf_api_probe.c:62:
++	const char *try[] = {"cycles:u", "instructions:u", "cpu-clock:u", NULL};
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#306: FILE: tools/perf/util/perf_api_probe.h:1:
++
+
+WARNING:SPDX_LICENSE_TAG: Misplaced SPDX-License-Identifier tag - use line 1 instead
+#307: FILE: tools/perf/util/perf_api_probe.h:2:
++/* SPDX-License-Identifier: GPL-2.0 */
+
+total: 0 errors, 6 warnings, 401 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 40c7d2460e03 ("perf tools: Move routines that probe for perf API features to separate file") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 109 lines checked
+
+Commit 747c519cdbe4 ("RDMA/mlx5: Reduce amount of duplication in QP destroy") has no obvious style problems and is ready for submission.

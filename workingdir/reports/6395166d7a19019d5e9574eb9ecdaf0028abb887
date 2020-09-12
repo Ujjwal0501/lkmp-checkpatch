@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 6395166d7a19 ("crypto: omap-sham - huge buffer access fixes") has no obvious style problems and is ready for submission.

@@ -1,0 +1,19 @@
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#34: FILE: arch/arm/include/asm/cacheflush.h:265:
++#define flush_icache_user_range(s,e)	__cpuc_coherent_user_range(s,e)
+                                  ^
+
+ERROR:SPACING: space required after that ',' (ctx:VxV)
+#34: FILE: arch/arm/include/asm/cacheflush.h:265:
++#define flush_icache_user_range(s,e)	__cpuc_coherent_user_range(s,e)
+                                     	                            ^
+
+total: 2 errors, 0 warnings, 21 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fca7f8e6fdeb ("arm: rename flush_cache_user_range to flush_icache_user_range") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

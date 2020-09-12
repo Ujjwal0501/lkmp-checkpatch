@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit d2353bad2c1e ("ARM: omap2: fix omap5_realtime_timer_init definition") has no obvious style problems and is ready for submission.

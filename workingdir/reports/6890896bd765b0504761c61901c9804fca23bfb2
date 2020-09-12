@@ -1,0 +1,13 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#18: 
+[1] https://lore.kernel.org/linux-next/CAKH8qBsBvKHswiX1nx40LgO+BGeTmb1NX8tiTttt_0uu6T3dCA@mail.gmail.com/T/#mff8b0c083314c68c2e2ef0211cb11bc20dc13c72
+
+total: 0 errors, 1 warnings, 0 checks, 217 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6890896bd765 ("bpf: Fix missing bpf_base_func_proto in cgroup_base_func_proto for CGROUP_NET=n") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

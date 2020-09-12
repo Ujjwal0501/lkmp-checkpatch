@@ -1,0 +1,19 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#58: FILE: drivers/target/target_core_configfs.c:1119:
++		pr_err("dev[%p]: Unable to change SE Device alua_support:"
++			" alua_support has fixed value\n", dev);
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#91: FILE: drivers/target/target_core_configfs.c:1154:
++		pr_err("dev[%p]: Unable to change SE Device pgr_support:"
++			" pgr_support has fixed value\n", dev);
+
+total: 0 errors, 2 warnings, 89 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 356ba2a8bc8d ("scsi: target: tcmu: Make pgr_support and alua_support attributes writable") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

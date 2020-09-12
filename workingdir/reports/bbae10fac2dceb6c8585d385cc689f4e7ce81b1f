@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit bbae10fac2dc ("gfs2: Don't ignore inode write errors during inode_go_sync") has no obvious style problems and is ready for submission.

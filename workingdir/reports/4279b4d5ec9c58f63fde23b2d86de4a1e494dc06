@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 29 lines checked
+
+Commit 4279b4d5ec9c ("net: hns3: modify two uncorrect macro names") has no obvious style problems and is ready for submission.

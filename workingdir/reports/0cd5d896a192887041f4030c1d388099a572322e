@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 401 lines checked
+
+Commit 0cd5d896a192 ("media: imx: utils: Handle Bayer format lookup through a selection flag") has no obvious style problems and is ready for submission.

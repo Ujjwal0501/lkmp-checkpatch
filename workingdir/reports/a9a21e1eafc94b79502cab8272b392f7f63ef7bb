@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 33 lines checked
+
+Commit a9a21e1eafc9 ("ASoC: dmaengine_pcm: export soc_component_to_pcm") has no obvious style problems and is ready for submission.

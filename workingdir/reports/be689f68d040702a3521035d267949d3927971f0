@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#11: 
+Signed-off-by: Johannes Berg <johannes.berg@intel.com>
+
+total: 0 errors, 1 warnings, 0 checks, 18 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit be689f68d040 ("cfg80211: reject channels/chandefs with KHz offset >= 1000") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

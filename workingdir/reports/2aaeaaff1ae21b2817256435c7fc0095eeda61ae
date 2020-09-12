@@ -1,0 +1,33 @@
+CHECK:CAMELCASE: Avoid CamelCase: <SetToDs>
+#102: FILE: drivers/staging/rtl8712/rtl871x_xmit.c:491:
++		SetToDs(fctrl);
+
+CHECK:CAMELCASE: Avoid CamelCase: <SetFrDs>
+#108: FILE: drivers/staging/rtl8712/rtl871x_xmit.c:497:
++		SetFrDs(fctrl);
+
+CHECK:CAMELCASE: Avoid CamelCase: <SetPrivacy>
+#126: FILE: drivers/staging/rtl8712/rtl871x_xmit.c:515:
++		SetPrivacy(fctrl);
+
+CHECK:CAMELCASE: Avoid CamelCase: <SetPriority>
+#130: FILE: drivers/staging/rtl8712/rtl871x_xmit.c:519:
++			SetPriority(qc, pattrib->priority);
+
+CHECK:CAMELCASE: Avoid CamelCase: <SetAckpolicy>
+#131: FILE: drivers/staging/rtl8712/rtl871x_xmit.c:520:
++		SetAckpolicy(qc, pattrib->ack_policy);
+
+CHECK:CAMELCASE: Avoid CamelCase: <SetSeqNum>
+#153: FILE: drivers/staging/rtl8712/rtl871x_xmit.c:542:
++			SetSeqNum(hdr, pattrib->seqnum);
+
+total: 0 errors, 0 warnings, 6 checks, 143 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2aaeaaff1ae2 ("staging: rtl8712: code improvements to make_wlanhdr") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,18 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#740: 
+new file mode 100644
+
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#747: FILE: drivers/net/wireless/ath/ath11k/hif.h:3:
++/*
++ * Copyright (c) 2019-2020 The Linux Foundation. All rights reserved.
+
+total: 0 errors, 2 warnings, 0 checks, 693 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 31858805f91a ("ath11k: Add support for multibus support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

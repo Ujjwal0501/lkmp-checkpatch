@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 01faf501eefa ("ASoC: soc-core: tidyup soc_new_pcm_runtime() rtd setups") has no obvious style problems and is ready for submission.

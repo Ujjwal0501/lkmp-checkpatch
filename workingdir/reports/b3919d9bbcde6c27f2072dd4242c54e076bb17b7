@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 42 lines checked
+
+Commit b3919d9bbcde ("staging: wfx: wfx_update_filtering_work() is no more used") has no obvious style problems and is ready for submission.

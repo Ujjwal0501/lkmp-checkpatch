@@ -1,0 +1,19 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#158: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2.c:265:
++	hw_atl_rpfl2_accept_all_mc_packets_set(self,
++					      IS_FILTER_ENABLED(IFF_ALLMULTI) &&
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#257: FILE: drivers/net/ethernet/aquantia/atlantic/hw_atl2/hw_atl2.c:382:
++				hw_atl2_act_rslvr_table_set(self, index,
++					(i + 2) << HW_ATL2_RPF_TAG_VLAN_OFFSET,
+
+total: 0 errors, 0 warnings, 2 checks, 316 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3417368494db ("net: atlantic: add A2 RPF hw_ops") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

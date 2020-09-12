@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 146 lines checked
+
+Commit 05a0542b456e ("iommu/amd: Store dev_data as device iommu private data") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ed7cca1ff014 ("drm/sun4i: tcon: Delete an error message in sun4i_tcon_init_irq()") has no obvious style problems and is ready for submission.

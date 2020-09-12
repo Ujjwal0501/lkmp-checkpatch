@@ -1,0 +1,14 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#61: FILE: tools/testing/selftests/vm/protection_keys.c:990:
++		int new_pkey = alloc_pkey();
++		pkey_assert(new_pkey != 0);
+
+total: 0 errors, 1 warnings, 65 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fa17437cb840 ("selftests/vm/pkeys: test correct behaviour of pkey-0") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

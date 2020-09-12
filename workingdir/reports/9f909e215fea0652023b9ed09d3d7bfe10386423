@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 188 lines checked
+
+Commit 9f909e215fea ("drm/i915: Implement vm_ops->access for gdb access into mmaps") has no obvious style problems and is ready for submission.

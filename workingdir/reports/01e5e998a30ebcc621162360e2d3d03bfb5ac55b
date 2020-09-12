@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 01e5e998a30e ("drm/radeon: remove defined but not used 'dte_data_tahiti_le'") has no obvious style problems and is ready for submission.

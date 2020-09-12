@@ -1,0 +1,13 @@
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#295: FILE: arch/ia64/kernel/process.c:88:
++show_stack (struct task_struct *task, unsigned long *sp, const char *loglvl)
+
+total: 0 errors, 1 warnings, 653 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9cb8f069deee ("kernel: rename show_stack_loglvl() => show_stack()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

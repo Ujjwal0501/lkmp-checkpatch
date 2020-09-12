@@ -1,0 +1,17 @@
+WARNING:MACRO_WITH_FLOW_CONTROL: Macros with flow control statements should be avoided
+#125: FILE: include/kunit/test.h:256:
++#define kunit_test_suites(suites_list...)				\
++	static struct kunit_suite *suites[] = {suites_list, NULL};	\
+ 	static int kunit_test_suites_init(void)				\
+ 	{								\
+ 		return __kunit_test_suites_init(suites);		\
+
+total: 0 errors, 1 warnings, 85 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c4714b0045ac ("Documentation: test.h - fix warnings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

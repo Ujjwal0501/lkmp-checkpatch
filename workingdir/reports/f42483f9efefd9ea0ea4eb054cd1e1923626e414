@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 47 lines checked
+
+Commit f42483f9efef ("staging: wfx: simplify wfx_tx_queues_empty()") has no obvious style problems and is ready for submission.

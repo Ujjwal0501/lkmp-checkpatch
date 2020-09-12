@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 089ef5579fc1 ("x86/vdso/vdso2c: Correct error messages on file open") has no obvious style problems and is ready for submission.

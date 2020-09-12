@@ -1,0 +1,21 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#11: 
+  5963e317b1e9 ("ftrace/x86: Do not change stacks in DEBUG when calling lockdep")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 5963e317b1e9 ("ftrace/x86: Do not change stacks in DEBUG when calling lockdep")'
+#11: 
+  5963e317b1e9 ("ftrace/x86: Do not change stacks in DEBUG when calling lockdep")
+
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#15: 
+Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
+
+total: 1 errors, 2 warnings, 72 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9628f26baef2 ("x86/entry/64: Remove TRACE_IRQS_*_DEBUG") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 40 lines checked
+
+Commit a558395d4ce3 ("staging: wfx: drop useless attributes 'filter_prbreq' and 'filter_bssid'") has no obvious style problems and is ready for submission.

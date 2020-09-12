@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 288 lines checked
+
+Commit 4ff028f6c108 ("ASoC: qcom: lpass-cpu: Make I2S SD lines configurable") has no obvious style problems and is ready for submission.

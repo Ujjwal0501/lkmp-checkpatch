@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit e2ce1059b0b3 ("perf metricgroup: Remove unnecessary ',' from events") has no obvious style problems and is ready for submission.

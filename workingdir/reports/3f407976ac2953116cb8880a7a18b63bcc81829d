@@ -1,0 +1,25 @@
+WARNING:NEW_TYPEDEFS: do not add new typedefs
+#33: FILE: arch/sparc/include/asm/page_32.h:109:
++typedef pte_t *pgtable_t;
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#48: FILE: arch/sparc/include/asm/pgalloc_32.h:54:
++#define pmd_pgtable(pmd)		(pgtable_t)__pmd_page(pmd)
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#69: FILE: arch/sparc/include/asm/pgtable_32.h:143:
++		BUG();
+
+ERROR:ASSIGN_IN_IF: do not use assignment in if condition
+#104: FILE: arch/sparc/mm/srmmu.c:364:
++	if ((ptep = pte_alloc_one_kernel(mm)) == 0)
+
+total: 2 errors, 2 warnings, 91 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3f407976ac29 ("sparc32: mm: Change pgtable_t type to pte_t * instead of struct page *") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

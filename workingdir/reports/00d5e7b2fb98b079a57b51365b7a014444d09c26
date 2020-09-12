@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 00d5e7b2fb98 ("iio: pressure: ms5611: Use get_unaligned_be24()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c3b29bf6f166 ("rtc: rv3028: Add missed check for devm_regmap_init_i2c()") has no obvious style problems and is ready for submission.

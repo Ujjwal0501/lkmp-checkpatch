@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 2a0a24ebb499 ("sched: Make scheduler_ipi inline") has no obvious style problems and is ready for submission.

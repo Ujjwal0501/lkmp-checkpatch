@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 173 lines checked
+
+Commit c6644f7201f3 ("iio: chemical: Add support for external Reset and Wakeup in CCS811") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit a98c4cd92690 ("drm/amd/amdgpu_dm/mst: Remove useless sideband tracing") has no obvious style problems and is ready for submission.

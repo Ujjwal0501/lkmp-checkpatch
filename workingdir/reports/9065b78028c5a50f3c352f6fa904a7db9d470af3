@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 9065b78028c5 ("iio: light: cm32181: Add mod_devicetable.h and remove of_match_ptr") has no obvious style problems and is ready for submission.

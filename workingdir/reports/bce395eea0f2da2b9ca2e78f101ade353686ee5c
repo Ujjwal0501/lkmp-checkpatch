@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit bce395eea0f2 ("KEYS: encrypted: use crypto_shash_tfm_digest()") has no obvious style problems and is ready for submission.

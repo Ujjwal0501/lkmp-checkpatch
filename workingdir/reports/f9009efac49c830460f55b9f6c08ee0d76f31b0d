@@ -1,0 +1,29 @@
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#64: FILE: fs/ceph/debugfs.c:133:
++	seq_printf(s, "item          total           miss            hit\n");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#65: FILE: fs/ceph/debugfs.c:134:
++	seq_printf(s, "-------------------------------------------------\n");
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#248: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'fs/ceph/metric.c', please use '//' instead
+#253: FILE: fs/ceph/metric.c:1:
++/* SPDX-License-Identifier: GPL-2.0 */
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#253: FILE: fs/ceph/metric.c:1:
++/* SPDX-License-Identifier: GPL-2.0 */
+
+total: 0 errors, 5 warnings, 232 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f9009efac49c ("ceph: add dentry lease metric support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

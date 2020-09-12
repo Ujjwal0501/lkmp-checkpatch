@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit b6522fa409cf ("parisc: add sysctl file interface panic_on_stackoverflow") has no obvious style problems and is ready for submission.

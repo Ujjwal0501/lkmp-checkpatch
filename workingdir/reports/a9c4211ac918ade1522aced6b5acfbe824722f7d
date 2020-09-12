@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit a9c4211ac918 ("NTB: perf: Don't require one more memory window than number of peers") has no obvious style problems and is ready for submission.

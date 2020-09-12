@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 48ae74c9d89f ("net: hns3: fix for not calculating TX BD send size correctly") has no obvious style problems and is ready for submission.

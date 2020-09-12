@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit e1c3cdb26ab8 ("rapidio: avoid data race between file operation callbacks and mport_cdev_add().") has no obvious style problems and is ready for submission.

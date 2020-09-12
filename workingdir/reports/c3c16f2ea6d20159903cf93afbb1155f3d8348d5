@@ -1,0 +1,13 @@
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#57: FILE: net/core/filter.c:7903:
++		*insn++ = BPF_LDX_MEM(
+
+total: 0 errors, 0 warnings, 1 checks, 37 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c3c16f2ea6d2 ("bpf: Add rx_queue_mapping to bpf_sock") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

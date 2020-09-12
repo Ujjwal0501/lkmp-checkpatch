@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 98 lines checked
+
+Commit d145dc23030b ("block: Make blk-integrity preclude hardware inline encryption") has no obvious style problems and is ready for submission.

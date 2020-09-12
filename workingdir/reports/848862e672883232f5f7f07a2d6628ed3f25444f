@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit 848862e67288 ("drm/i915/gt: Free request pool from virtual engines") has no obvious style problems and is ready for submission.

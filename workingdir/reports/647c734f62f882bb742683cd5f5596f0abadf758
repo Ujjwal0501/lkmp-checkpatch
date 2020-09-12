@@ -1,0 +1,22 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#38: 
+new file mode 100644
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#788: FILE: tools/testing/selftests/powerpc/nx-gzip/gzip_vas.c:293:
++	char *end = (char *) buf + buf_len - 1;
++	volatile char t;
+
+WARNING:VOLATILE: Use of volatile is usually wrong: see Documentation/process/volatile-considered-harmful.rst
+#788: FILE: tools/testing/selftests/powerpc/nx-gzip/gzip_vas.c:293:
++	volatile char t;
+
+total: 0 errors, 3 warnings, 809 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 647c734f62f8 ("selftests/powerpc: Add NX-GZIP engine compress testcase") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

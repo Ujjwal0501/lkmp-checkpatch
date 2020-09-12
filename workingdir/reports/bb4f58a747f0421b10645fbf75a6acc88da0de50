@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit bb4f58a747f0 ("btrfs: account for trans_block_rsv in may_commit_transaction") has no obvious style problems and is ready for submission.

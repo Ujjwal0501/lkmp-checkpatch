@@ -1,0 +1,14 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#54: FILE: arch/arm64/kernel/alternative.c:47:
++	unsigned long replptr = (unsigned long)ALT_REPL_PTR(alt);
++	return !(pc >= replptr && pc <= (replptr + alt->alt_len));
+
+total: 0 errors, 1 warnings, 22 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5679b2814219 ("arm64/alternatives: don't patch up internal branches") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

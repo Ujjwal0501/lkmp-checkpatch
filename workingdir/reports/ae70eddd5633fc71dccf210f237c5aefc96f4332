@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit ae70eddd5633 ("mm/page_alloc: restrict and formalize compound_page_dtors[]") has no obvious style problems and is ready for submission.

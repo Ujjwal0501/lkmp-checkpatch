@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit d7a6634a4cfb ("drm/amdgpu/atomfirmware: fix vram_info fetching for renoir") has no obvious style problems and is ready for submission.

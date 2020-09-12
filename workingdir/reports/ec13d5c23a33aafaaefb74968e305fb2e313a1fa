@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 343 lines checked
+
+Commit ec13d5c23a33 ("arm64: dts: qcom: sm8250-mtp: Add pm8150, pm8150l and pm8009") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit ebcdd3074a72 ("arm64: use __vmalloc_node in arch_alloc_vmap_stack") has no obvious style problems and is ready for submission.

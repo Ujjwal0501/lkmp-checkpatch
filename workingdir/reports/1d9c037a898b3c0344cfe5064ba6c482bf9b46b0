@@ -1,0 +1,18 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#90: 
+new file mode 100644
+
+ERROR:SPACING: space prohibited before that ',' (ctx:WxW)
+#134: FILE: tools/testing/selftests/bpf/progs/test_skmsg_load_helpers.c:40:
++	bpf_probe_read_kernel(&tpid , sizeof(tpid), &task->tgid);
+ 	                            ^
+
+total: 1 errors, 1 warnings, 99 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1d9c037a898b ("bpf, selftests: Add sk_msg helpers load and attach test") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

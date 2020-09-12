@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 01f3d5db4a9a ("net/mlx5: E-Switch, Fix vlan or qos setting in legacy mode") has no obvious style problems and is ready for submission.

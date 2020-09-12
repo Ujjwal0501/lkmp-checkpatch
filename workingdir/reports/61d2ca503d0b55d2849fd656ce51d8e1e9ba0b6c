@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit 61d2ca503d0b ("arm64: dts: qcom: fix pm8150 gpio interrupts") has no obvious style problems and is ready for submission.

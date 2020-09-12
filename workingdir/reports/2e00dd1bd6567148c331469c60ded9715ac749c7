@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 2e00dd1bd656 ("dt-bindings: fpga: add compatible value to Stratix10 SoC FPGA manager binding") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 4f74251df0ce ("clk: ti: dra7xx: fix RNG clock parent") has no obvious style problems and is ready for submission.

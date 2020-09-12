@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 77 lines checked
+
+Commit aeb935a45581 ("btrfs: don't set SHAREABLE flag for data reloc tree") has no obvious style problems and is ready for submission.

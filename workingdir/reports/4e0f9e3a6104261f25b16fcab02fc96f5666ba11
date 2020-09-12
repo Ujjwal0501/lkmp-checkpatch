@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 17 lines checked
+
+Commit 4e0f9e3a6104 ("RISC-V: Don't mark init section as non-executable") has no obvious style problems and is ready for submission.

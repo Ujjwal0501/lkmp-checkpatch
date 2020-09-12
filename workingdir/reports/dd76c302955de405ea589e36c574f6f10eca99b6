@@ -1,0 +1,45 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#9: 
+  f97f5a56f597 ("x86/kvm/hyper-v: Add support for synthetic debugger interface")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit f97f5a56f597 ("x86/kvm/hyper-v: Add support for synthetic debugger interface")'
+#9: 
+  f97f5a56f597 ("x86/kvm/hyper-v: Add support for synthetic debugger interface")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 850448f35aaf ("KVM: nVMX: Fix VMX preemption timer migration")'
+#10: 
+  850448f35aaf ("KVM: nVMX: Fix VMX preemption timer migration")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 2c4c41325540 ("KVM: x86: Print symbolic names of VMX VM-Exit flags in traces")'
+#11: 
+  2c4c41325540 ("KVM: x86: Print symbolic names of VMX VM-Exit flags in traces")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit cc440cdad5b7 ("KVM: nSVM: implement KVM_GET_NESTED_STATE and KVM_SET_NESTED_STATE")'
+#12: 
+  cc440cdad5b7 ("KVM: nSVM: implement KVM_GET_NESTED_STATE and KVM_SET_NESTED_STATE")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit f7d31e65368a ("x86/kvm/hyper-v: Explicitly align hcall param for kvm_hyperv_exit")'
+#13: 
+  f7d31e65368a ("x86/kvm/hyper-v: Explicitly align hcall param for kvm_hyperv_exit")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 72de5fa4c161 ("KVM: x86: announce KVM_FEATURE_ASYNC_PF_INT")'
+#14: 
+  72de5fa4c161 ("KVM: x86: announce KVM_FEATURE_ASYNC_PF_INT")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit acd05785e48c ("kvm: add capability for halt polling")'
+#15: 
+  acd05785e48c ("kvm: add capability for halt polling")
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 3ecad8c2c1ff ("docs: fix broken references for ReST files that moved around")'
+#16: 
+  3ecad8c2c1ff ("docs: fix broken references for ReST files that moved around")
+
+total: 8 errors, 1 warnings, 109 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dd76c302955d ("tools headers UAPI: Sync kvm.h headers with the kernel sources") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

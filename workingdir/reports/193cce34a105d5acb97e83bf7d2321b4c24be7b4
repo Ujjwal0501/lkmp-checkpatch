@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 72 lines checked
+
+Commit 193cce34a105 ("amdgpu/drm: remove psp access on navi10 for sriov") has no obvious style problems and is ready for submission.

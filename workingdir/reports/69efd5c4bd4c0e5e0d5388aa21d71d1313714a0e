@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 117 lines checked
+
+Commit 69efd5c4bd4c ("ALSA: firewire-lib: use sequence of syt offset and data block on pool in AMDTP domain") has no obvious style problems and is ready for submission.

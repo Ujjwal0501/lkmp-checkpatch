@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'use'
+#7: 
+my own driver, checkpatch yelled at me saying that I shouldn't use use
+
+total: 0 errors, 1 warnings, 59 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8d0910121b07 ("gpio: Make "offset" and "unsigned int", not just "unsigned"") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

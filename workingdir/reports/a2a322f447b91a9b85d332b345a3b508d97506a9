@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 166 lines checked
+
+Commit a2a322f447b9 ("net/mlx5: Refactor HCA capability set flow") has no obvious style problems and is ready for submission.

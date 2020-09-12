@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 14 lines checked
+
+Commit ba3bb0e76ccd ("tcp: fix SO_RCVLOWAT possible hangs under high mem pressure") has no obvious style problems and is ready for submission.

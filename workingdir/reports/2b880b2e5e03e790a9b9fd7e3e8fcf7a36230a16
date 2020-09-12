@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 2b880b2e5e03 ("RDMA/mlx5: Define RoCEv2 udp source port when set path") has no obvious style problems and is ready for submission.

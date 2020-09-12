@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit ab2b493d174e ("spi: Add support for mspi on brcmstb SoCs") has no obvious style problems and is ready for submission.

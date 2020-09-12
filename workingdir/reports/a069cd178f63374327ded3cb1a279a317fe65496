@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 37 lines checked
+
+Commit a069cd178f63 ("staging: vt6656: Fix vnt_tx_usb_header static checker warning") has no obvious style problems and is ready for submission.

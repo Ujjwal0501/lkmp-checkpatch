@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 111 lines checked
+
+Commit fb4f79264c0f ("net/smc: tolerate future SMCD versions") has no obvious style problems and is ready for submission.

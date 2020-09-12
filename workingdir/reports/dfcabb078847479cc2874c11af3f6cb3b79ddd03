@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 231 lines checked
+
+Commit dfcabb078847 ("sfc: move vport_id to struct efx_nic") has no obvious style problems and is ready for submission.

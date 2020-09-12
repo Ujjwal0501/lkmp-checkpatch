@@ -1,0 +1,38 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#56: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#61: FILE: drivers/gpu/drm/amd/display/dc/dce/dmub_abm.c:1:
++/*
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#105: FILE: drivers/gpu/drm/amd/display/dc/dce/dmub_abm.c:45:
++#define FN(reg_name, field_name) \
++	dce_abm->abm_shift->field_name, dce_abm->abm_mask->field_name
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#341: FILE: drivers/gpu/drm/amd/display/dc/dce/dmub_abm.c:281:
++				abm->stored_backlight_registers.LVTMA_PWRSEQ_REF_DIV_BL_PWM_REF_DIV);
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#358: FILE: drivers/gpu/drm/amd/display/dc/dce/dmub_abm.c:298:
++				&abm->stored_backlight_registers.LVTMA_PWRSEQ_REF_DIV_BL_PWM_REF_DIV);
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#484: FILE: drivers/gpu/drm/amd/display/dc/dce/dmub_abm.h:1:
++/*
+
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#687: FILE: drivers/gpu/drm/amd/display/modules/power/power_helpers.c:679:
++					dmcu, 0, (char *)(&ram_table), IRAM_RESERVE_AREA_START_V2_2);
+
+total: 1 errors, 6 warnings, 614 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 16012806e697 ("drm/amd/display: Add ABM driver implementation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

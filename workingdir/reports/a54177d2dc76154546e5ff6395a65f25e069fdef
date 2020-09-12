@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit a54177d2dc76 ("usb: gadget: f_fs: remove unneeded semicolon in __ffs_data_got_descs()") has no obvious style problems and is ready for submission.

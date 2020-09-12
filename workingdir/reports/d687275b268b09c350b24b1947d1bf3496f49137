@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 95 lines checked
+
+Commit d687275b268b ("ath11k: Add dynamic tcl ring selection logic with retry mechanism") has no obvious style problems and is ready for submission.

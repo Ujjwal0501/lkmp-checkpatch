@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 0e5596c54aa2 ("kobject: send KOBJ_REMOVE uevent when the object is removed from sysfs") has no obvious style problems and is ready for submission.

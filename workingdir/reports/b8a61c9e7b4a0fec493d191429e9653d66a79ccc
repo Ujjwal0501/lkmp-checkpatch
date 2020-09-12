@@ -1,0 +1,19 @@
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#53: FILE: fs/binfmt_elf.c:276:
++	if (bprm->have_execfd) {
++		NEW_AUX_ENT(AT_EXECFD, bprm->execfd);
+ 	}
+
+ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+#230: FILE: include/linux/binfmts.h:54:
++	struct file * executable; /* Executable to pass to the interpreter */
+
+total: 1 errors, 1 warnings, 177 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b8a61c9e7b4a ("exec: Generic execfd support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 135 lines checked
+
+Commit c36f05559104 ("genetlink: fix memory leaks in genl_family_rcv_msg_dumpit()") has no obvious style problems and is ready for submission.

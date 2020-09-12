@@ -1,0 +1,17 @@
+CHECK:MACRO_ARG_REUSE: Macro argument reuse 'x' - possible side-effects?
+#155: FILE: net/dsa/tag_8021q.c:70:
++#define DSA_8021Q_SUBVLAN(x)		\
++		(((DSA_8021Q_SUBVLAN_LO(x) << DSA_8021Q_SUBVLAN_LO_SHIFT) & \
++		  DSA_8021Q_SUBVLAN_LO_MASK) | \
++		 ((DSA_8021Q_SUBVLAN_HI(x) << DSA_8021Q_SUBVLAN_HI_SHIFT) & \
++		  DSA_8021Q_SUBVLAN_HI_MASK))
+
+total: 0 errors, 0 warnings, 1 checks, 134 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3eaae1d05f2b ("net: dsa: tag_8021q: support up to 8 VLANs per port using sub-VLANs") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 66 lines checked
+
+Commit 808fcf2e976d ("staging: wfx: fix access to le32 attribute 'len'") has no obvious style problems and is ready for submission.

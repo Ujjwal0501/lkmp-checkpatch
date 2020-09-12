@@ -1,0 +1,23 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'git'
+#28: FILE: MAINTAINERS:5341:
++T:	git git://anongit.freedesktop.org/drm/drm-misc
+
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list 'S:' before 'T:'
+#29: FILE: MAINTAINERS:5342:
++T:	git git://anongit.freedesktop.org/drm/drm-misc
++S:	Maintained
+
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list file patterns in alphabetic order
+#31: FILE: MAINTAINERS:5344:
++F:	drivers/gpu/drm/panel/panel-lvds.c
++F:	Documentation/devicetree/bindings/display/panel/lvds.yaml
+
+total: 0 errors, 3 warnings, 14 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 07de3d31f15f ("drm: panels: Add MAINTAINERS entry for LVDS panel driver") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

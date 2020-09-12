@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 83 lines checked
+
+Commit e3292f808b75 ("media: atomisp: get rid of ISP_VMEM_IS_BAMEM unused defines") has no obvious style problems and is ready for submission.

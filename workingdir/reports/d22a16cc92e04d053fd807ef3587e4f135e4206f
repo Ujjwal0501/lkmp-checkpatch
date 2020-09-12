@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit d22a16cc92e0 ("ARM: dts: imx6ul-kontron: Change WDOG_ANY signal from push-pull to open-drain") has no obvious style problems and is ready for submission.

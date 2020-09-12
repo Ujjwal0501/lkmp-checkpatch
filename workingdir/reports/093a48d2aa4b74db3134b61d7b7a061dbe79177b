@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 94 lines checked
+
+Commit 093a48d2aa4b ("cfg80211: support bigger kek/kck key length") has no obvious style problems and is ready for submission.

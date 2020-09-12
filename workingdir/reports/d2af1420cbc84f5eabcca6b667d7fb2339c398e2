@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 26 lines checked
+
+Commit d2af1420cbc8 ("net: bcmgenet: Use get_unligned_beXX() and put_unaligned_beXX()") has no obvious style problems and is ready for submission.

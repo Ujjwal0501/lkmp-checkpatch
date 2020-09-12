@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit 2c959a33f863 ("crypto: hisilicon/zip - Use temporary sqe when doing work") has no obvious style problems and is ready for submission.

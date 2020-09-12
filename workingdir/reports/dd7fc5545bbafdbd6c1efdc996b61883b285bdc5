@@ -1,0 +1,33 @@
+WARNING:TYPO_SPELLING: 'untill' may be misspelled - perhaps 'until'?
+#20: 
+untill tx credit report from firmware, if it is a noisy environment,
+
+WARNING:TYPO_SPELLING: 'untill' may be misspelled - perhaps 'until'?
+#22: 
+time, then the num_pending_tx will remain > 0 untill all packets send
+
+WARNING:TYPO_SPELLING: 'untill' may be misspelled - perhaps 'until'?
+#25: 
+ath10k_mac_wait_tx_complete, and it wait untill num_pending_tx become
+
+WARNING:USE_RELATIVE_PATH: use relative pathname instead of absolute in changelog text
+#32: 
+[  303.740739] WARNING: CPU: 1 PID: 3921 at /mnt/host/source/src/third_party/kernel/v4.19/drivers/net/wireless/ath/ath10k/mac.c:7025 ath10k_flush+0x54/0x104 [ath10k_core]
+
+WARNING:USE_RELATIVE_PATH: use relative pathname instead of absolute in changelog text
+#81: 
+[  303.744057] WARNING: CPU: 1 PID: 3921 at /mnt/host/source/src/third_party/kernel/v4.19/drivers/net/wireless/ath/ath10k/mac.c:7025 ath10k_flush+0x54/0x104 [ath10k_core]
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#130: 
+<...>-1513  [000] .... 25374.786005: ath10k_log_err: ath10k_sdio mmc1:0001:1 ath10k_flush drop:1, pending:120-0
+
+total: 0 errors, 6 warnings, 0 checks, 49 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit dd7fc5545bba ("ath10k: add flush tx packets for SDIO chip") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

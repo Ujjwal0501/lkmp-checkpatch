@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit a820feb54684 ("btrfs: open code read_fs_root") has no obvious style problems and is ready for submission.

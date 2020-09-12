@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 104 lines checked
+
+Commit 2d744ecf2b98 ("ASoC: Intel: Skylake: Automatic DMIC format configuration according to information from NHLT") has no obvious style problems and is ready for submission.

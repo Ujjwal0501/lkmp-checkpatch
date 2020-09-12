@@ -1,0 +1,33 @@
+WARNING:TYPO_SPELLING: 'specifing' may be misspelled - perhaps 'specifying'?
+#15: 
+specifing more detailed permissions instead.  It then also open codes
+
+ERROR:SPACING: need consistent spacing around '|' (ctx:VxW)
+#75: FILE: arch/x86/include/asm/pgtable_types.h:197:
++#define __PAGE_KERNEL_ROX	 (__PP|   0|   0|___A|   0|___D|   0|___G)
+                          	      ^
+
+ERROR:SPACING: need consistent spacing around '|' (ctx:VxW)
+#75: FILE: arch/x86/include/asm/pgtable_types.h:197:
++#define __PAGE_KERNEL_ROX	 (__PP|   0|   0|___A|   0|___D|   0|___G)
+                          	           ^
+
+ERROR:SPACING: need consistent spacing around '|' (ctx:VxW)
+#75: FILE: arch/x86/include/asm/pgtable_types.h:197:
++#define __PAGE_KERNEL_ROX	 (__PP|   0|   0|___A|   0|___D|   0|___G)
+                          	                     ^
+
+ERROR:SPACING: need consistent spacing around '|' (ctx:VxW)
+#75: FILE: arch/x86/include/asm/pgtable_types.h:197:
++#define __PAGE_KERNEL_ROX	 (__PP|   0|   0|___A|   0|___D|   0|___G)
+                          	                               ^
+
+total: 4 errors, 1 warnings, 24 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 800e26b81311 ("x86/hyperv: allocate the hypercall page with only read and execute bits") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

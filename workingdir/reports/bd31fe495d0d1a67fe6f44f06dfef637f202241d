@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 89 lines checked
+
+Commit bd31fe495d0d ("KVM: VMX: Add proper cache tracking for CR0") has no obvious style problems and is ready for submission.

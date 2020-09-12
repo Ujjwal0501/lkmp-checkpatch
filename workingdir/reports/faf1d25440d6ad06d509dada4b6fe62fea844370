@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 75 lines checked
+
+Commit faf1d25440d6 ("loop: Clean up LOOP_SET_STATUS lo_flags handling") has no obvious style problems and is ready for submission.

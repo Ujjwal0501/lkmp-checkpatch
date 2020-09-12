@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit deb70f7a35a2 ("powerpc/pseries/ras: Fix FWNMI_VALID off by one") has no obvious style problems and is ready for submission.

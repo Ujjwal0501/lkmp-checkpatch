@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit ac4e106d8934 ("ARM: dts: NSP: Correct FA2 mailbox node") has no obvious style problems and is ready for submission.

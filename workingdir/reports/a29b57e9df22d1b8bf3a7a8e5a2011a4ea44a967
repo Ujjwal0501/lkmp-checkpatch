@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit a29b57e9df22 ("drm/panel: ili9322: Remove unneeded semicolon") has no obvious style problems and is ready for submission.

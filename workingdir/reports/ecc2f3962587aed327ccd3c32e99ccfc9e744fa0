@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit ecc2f3962587 ("mmc: sdio: Move SDIO IDs from ath6kl driver to common include file") has no obvious style problems and is ready for submission.

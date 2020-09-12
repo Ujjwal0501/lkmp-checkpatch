@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 136 exceeds 100 columns
+#679: FILE: arch/arm64/kvm/trace_handle_exit.h:138:
++	TP_printk("%s %s reg %d (0x%08llx)", __entry->fn,  __entry->is_write?"write to":"read from", __entry->reg, __entry->write_value)
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#698: FILE: arch/arm64/kvm/trace_handle_exit.h:157:
++	TP_PROTO(unsigned long vcpu_pc, struct sys_reg_params *params, const struct sys_reg_desc *reg),
+
+total: 0 errors, 2 warnings, 598 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9ed24f4b712b ("KVM: arm64: Move virt/kvm/arm to arch/arm64") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

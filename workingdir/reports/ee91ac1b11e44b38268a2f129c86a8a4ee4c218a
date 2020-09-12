@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 44 lines checked
+
+Commit ee91ac1b11e4 ("Crypto/chcr: support for 48 byte key_len in aes-xts") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 138 lines checked
+
+Commit eb236c2994b0 ("net: bcmgenet: Move wake-up event out of side band ISR") has no obvious style problems and is ready for submission.

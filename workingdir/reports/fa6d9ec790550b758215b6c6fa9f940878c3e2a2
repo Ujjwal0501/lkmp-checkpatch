@@ -1,0 +1,13 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#21: 
+   Code: 89 df e8 87 fd ff ff 89 c2 31 c0 84 d2 74 e6 0f 1f 44 00 00 48 8b 05 fb af 7a 01 48 63 93 88 1d 01 00 48 8b 84 d0 20 0f 00 00 <48> 3b 98 88 00 00 00 75 28 f0 80 a0 80 00 00 00 fe f0 80 a3 38 20
+
+total: 0 errors, 1 warnings, 11 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fa6d9ec79055 ("mm/memory_hotplug: refrain from adding memory into an impossible node") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

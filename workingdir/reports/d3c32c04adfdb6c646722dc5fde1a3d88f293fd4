@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit d3c32c04adfd ("ARM: tegra: Switch CPU to PLLP on resume from LP1 on Tegra30/114/124") has no obvious style problems and is ready for submission.

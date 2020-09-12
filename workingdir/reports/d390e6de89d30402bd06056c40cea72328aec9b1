@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit d390e6de89d3 ("x86/hw_breakpoint: Add within_area() to check data breakpoints") has no obvious style problems and is ready for submission.

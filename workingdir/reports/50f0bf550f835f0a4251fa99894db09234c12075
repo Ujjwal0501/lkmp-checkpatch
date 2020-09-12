@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 50f0bf550f83 ("ALSA: hda: Use dev_to_hdac_dev macro") has no obvious style problems and is ready for submission.

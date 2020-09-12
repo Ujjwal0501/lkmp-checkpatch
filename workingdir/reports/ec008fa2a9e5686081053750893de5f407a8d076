@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 102 lines checked
+
+Commit ec008fa2a9e5 ("ethernet: ti: am65-cpts: add routines to support taprio offload") has no obvious style problems and is ready for submission.

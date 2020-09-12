@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#36: 
+new file mode 100644
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#86: FILE: Documentation/powerpc/vas-api.rst:46:
++The application can then submit one or more requests to the the engine by
+
+WARNING:TYPO_SPELLING: 'adress' may be misspelled - perhaps 'address'?
+#271: FILE: Documentation/powerpc/vas-api.rst:231:
++	siginfo.si_addr = CSB adress;
+
+total: 0 errors, 3 warnings, 299 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c12e38b1d52e ("Documentation/powerpc: VAS API") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

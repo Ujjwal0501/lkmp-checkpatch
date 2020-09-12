@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 67 lines checked
+
+Commit 7ea4d8a4d683 ("blk-mq: move more request initialization to blk_mq_rq_ctx_init") has no obvious style problems and is ready for submission.

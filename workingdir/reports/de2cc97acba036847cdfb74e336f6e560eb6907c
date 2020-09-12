@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 92 lines checked
+
+Commit de2cc97acba0 ("iwlwifi: scan: remove support for fw scan api v13") has no obvious style problems and is ready for submission.

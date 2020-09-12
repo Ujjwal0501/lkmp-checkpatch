@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 119 lines checked
+
+Commit 15a416e8aaa7 ("x86/entry: Treat BUG/WARN as NMI-like entries") has no obvious style problems and is ready for submission.

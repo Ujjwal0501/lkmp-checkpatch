@@ -1,0 +1,13 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_net *' should also have an identifier name
+#84: FILE: fs/afs/internal.h:1068:
++extern void afs_fs_probe_cleanup(struct afs_net *);
+
+total: 0 errors, 1 warnings, 61 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5481fc6eb8a7 ("afs: Fix hang on rmmod due to outstanding timer") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

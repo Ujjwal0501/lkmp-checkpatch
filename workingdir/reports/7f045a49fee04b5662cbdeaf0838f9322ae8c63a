@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 358 lines checked
+
+Commit 7f045a49fee0 ("bpf: Add link-based BPF program attachment to network namespace") has no obvious style problems and is ready for submission.

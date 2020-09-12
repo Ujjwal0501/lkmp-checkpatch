@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit b7db41c9e03b ("io_uring: fix regression with always ignoring signals in io_cqring_wait()") has no obvious style problems and is ready for submission.

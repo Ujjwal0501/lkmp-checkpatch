@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 95 lines checked
+
+Commit f9bccfcc3b59 ("xfs: refactor ratelimited buffer error messages into helper") has no obvious style problems and is ready for submission.

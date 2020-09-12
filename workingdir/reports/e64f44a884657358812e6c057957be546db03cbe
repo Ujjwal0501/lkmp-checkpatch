@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 82 lines checked
+
+Commit e64f44a88465 ("ceph: skip checking caps when session reconnecting and releasing reqs") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f371d5345377 ("scsi: sgiwd93: Remove unneeded semicolon in sgiwd93.c") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit cb7ee52284a2 ("drm/i915/gvt: Use ARRAY_SIZE for vgpu_types") has no obvious style problems and is ready for submission.

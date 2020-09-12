@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit 309fc03a3284 ("io_uring: account user memory freed when exit has been queued") has no obvious style problems and is ready for submission.

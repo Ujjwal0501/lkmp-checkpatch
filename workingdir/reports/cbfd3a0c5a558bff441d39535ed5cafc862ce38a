@@ -1,0 +1,63 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#103: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1525:
++	struct perf_series *ps = arg;
++	IGT_TIMEOUT(end_time);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#137: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1559:
++	struct i915_request *prev = NULL;
++	IGT_TIMEOUT(end_time);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#172: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1594:
++	struct perf_series *ps = arg;
++	IGT_TIMEOUT(end_time);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#195: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1617:
++	struct drm_i915_private *i915 = arg;
++	static int (* const func[])(void *arg) = {
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#203: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1625:
++	struct intel_engine_cs *engine;
++	int (* const *fn)(void *arg);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#327: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1749:
++	struct intel_context *ce;
++	IGT_TIMEOUT(end_time);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#395: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1817:
++	struct intel_context *ce;
++	IGT_TIMEOUT(end_time);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#464: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1886:
++	struct intel_context *ce;
++	IGT_TIMEOUT(end_time);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#520: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1942:
++	struct drm_i915_private *i915 = arg;
++	static int (* const func[])(void *arg) = {
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#528: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1950:
++	struct intel_engine_cs *engine;
++	int (* const *fn)(void *arg);
+
+WARNING:YIELD: Using yield() is generally wrong. See yield() kernel-doc (sched/core.c)
+#571: FILE: drivers/gpu/drm/i915/selftests/i915_request.c:1993:
++		yield(); /* start all threads before we kthread_stop() */
+
+total: 0 errors, 11 warnings, 601 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cbfd3a0c5a55 ("drm/i915/selftests: Add request throughput measurement to perf") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

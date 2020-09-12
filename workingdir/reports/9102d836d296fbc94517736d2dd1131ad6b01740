@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 388 lines checked
+
+Commit 9102d836d296 ("net/mlx5e: CT: Fix offload with CT action after CT NAT action") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 334b4fc17275 ("dm ebs: use dm_bufio_forget_buffers") has no obvious style problems and is ready for submission.

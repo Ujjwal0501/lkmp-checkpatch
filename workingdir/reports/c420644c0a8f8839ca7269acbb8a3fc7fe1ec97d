@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 147 lines checked
+
+Commit c420644c0a8f ("powerpc: Use mm_context vas_windows counter to issue CP_ABORT") has no obvious style problems and is ready for submission.

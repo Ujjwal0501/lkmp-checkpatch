@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit ca734cc67e3c ("kasan: fix clang compilation warning due to stack protector") has no obvious style problems and is ready for submission.

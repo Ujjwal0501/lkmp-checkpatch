@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 365 lines checked
+
+Commit 14a7e51ff184 ("docs: mm: userfaultfd.rst: use ``foo`` for literals") has no obvious style problems and is ready for submission.

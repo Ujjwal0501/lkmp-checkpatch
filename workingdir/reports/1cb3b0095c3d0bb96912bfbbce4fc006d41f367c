@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 1cb3b0095c3d ("usb/ohci-platform: Fix a warning when hibernating") has no obvious style problems and is ready for submission.

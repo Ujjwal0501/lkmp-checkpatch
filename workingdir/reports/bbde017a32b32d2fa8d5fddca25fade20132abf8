@@ -1,0 +1,17 @@
+WARNING:TYPO_SPELLING: 'ture' may be misspelled - perhaps 'true'?
+#9: 
+iopoll_completed is ture and then req->result must been perceived by
+
+WARNING:MEMORY_BARRIER: memory barrier without comment
+#134: FILE: fs/io_uring.c:1998:
++		smp_wmb();
+
+total: 0 errors, 2 warnings, 103 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bbde017a32b3 ("io_uring: add memory barrier to synchronize io_kiocb's result and iopoll_completed") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

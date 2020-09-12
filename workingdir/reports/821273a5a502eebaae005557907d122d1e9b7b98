@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit 821273a5a502 ("ieee80211: add code to obtain and parse 6 GHz operation field") has no obvious style problems and is ready for submission.

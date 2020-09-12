@@ -1,0 +1,33 @@
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#41: FILE: arch/mips/loongson2ef/common/init.c:22:
++	extern char except_vec_nmi[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#58: FILE: arch/mips/loongson64/init.c:25:
++	extern char except_vec_nmi[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#75: FILE: arch/mips/mti-malta/malta-init.c:93:
++	extern char except_vec_nmi[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#89: FILE: arch/mips/mti-malta/malta-init.c:105:
++	extern char except_vec_ejtag_debug[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#108: FILE: arch/mips/pistachio/init.c:86:
++	extern char except_vec_nmi[];
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#123: FILE: arch/mips/pistachio/init.c:99:
++	extern char except_vec_ejtag_debug[];
+
+total: 0 errors, 6 warnings, 80 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f39293fd37ff ("MIPS: Fix exception handler memcpy()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 150 lines checked
+
+Commit f55ac304ca47 ("KVM: x86: Drop @invalidate_gpa param from kvm_x86_ops' tlb_flush()") has no obvious style problems and is ready for submission.

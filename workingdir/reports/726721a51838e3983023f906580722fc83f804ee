@@ -1,0 +1,25 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#2242: 
+new file mode 100644
+
+WARNING:REPEATED_WORD: Possible repeated word: 'the'
+#3460: FILE: kernel/trace/trace_events_synth.c:1214:
++	 * to honor not logging when disabled.  For the the iterated
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'kernel/trace/trace_synth.h', please use '/*' instead
+#4042: FILE: kernel/trace/trace_synth.h:1:
++// SPDX-License-Identifier: GPL-2.0
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#4042: FILE: kernel/trace/trace_synth.h:1:
++// SPDX-License-Identifier: GPL-2.0
+
+total: 0 errors, 4 warnings, 3981 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 726721a51838 ("tracing: Move synthetic events to a separate file") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

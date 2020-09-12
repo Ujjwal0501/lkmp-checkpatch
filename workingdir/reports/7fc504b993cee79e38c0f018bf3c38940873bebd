@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 7fc504b993ce ("gpio: xgene-sb: set valid IRQ type in to_irq()") has no obvious style problems and is ready for submission.

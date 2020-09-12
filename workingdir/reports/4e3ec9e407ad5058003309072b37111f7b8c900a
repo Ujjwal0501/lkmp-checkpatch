@@ -1,0 +1,21 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#33: FILE: drivers/pinctrl/qcom/Kconfig:219:
++config PINCTRL_SM8250
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#53: 
+new file mode 100644
+
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#1257: FILE: drivers/pinctrl/qcom/pinctrl-sm8250.c:1200:
++	[70] = PINGROUP(70, SOUTH, qspi0, tsif0_en, mdp_vsync0, mdp_vsync1, mdp_vsync2, mdp_vsync3, phase_flag, _, _),
+
+total: 0 errors, 3 warnings, 1378 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4e3ec9e407ad ("pinctrl: qcom: Add sm8250 pinctrl driver.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

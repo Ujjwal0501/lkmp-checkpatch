@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 281 lines checked
+
+Commit 477a0a387072 ("RDMA/hns: Optimize 0 hop addressing for EQE buffer") has no obvious style problems and is ready for submission.

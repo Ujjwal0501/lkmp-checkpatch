@@ -1,0 +1,20 @@
+WARNING:COMMIT_MESSAGE: Missing commit description - Add an appropriate one
+
+ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+#107: FILE: fs/readdir.c:551:
++		struct compat_linux_dirent __user * lastdirent;
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#108: FILE: fs/readdir.c:552:
++		struct compat_linux_dirent __user * lastdirent;
++		lastdirent = (void __user *)buf.current_dir - buf.prev_reclen;
+
+total: 1 errors, 2 warnings, 91 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 82af599b7036 ("readdir.c: get compat_filldir() more or less in sync with filldir()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

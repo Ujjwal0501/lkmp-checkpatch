@@ -1,0 +1,37 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#10: 
+Reported-by: Francescodario Cuzzocrea <francescodario.cuzzocrea@mail.polimi.it>
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#88: FILE: drivers/staging/media/atomisp/pci/isp/kernels/sc/sc_1.0/ia_css_sc.host.c:29:
++ia_css_configure_sc(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#89: FILE: drivers/staging/media/atomisp/pci/isp/kernels/sc/sc_1.0/ia_css_sc.host.c:30:
++    const struct ia_css_binary *binary,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#90: FILE: drivers/staging/media/atomisp/pci/isp/kernels/sc/sc_1.0/ia_css_sc.host.c:31:
++    const struct ia_css_sc_configuration *config_dmem)$
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'ia_css_configure_sc', this function's name, in a string
+#93: FILE: drivers/staging/media/atomisp/pci/isp/kernels/sc/sc_1.0/ia_css_sc.host.c:34:
++			    "ia_css_configure_sc() enter:\n");
+
+WARNING:LONG_LINE: line length of 128 exceeds 100 columns
+#105: FILE: drivers/staging/media/atomisp/pci/isp/kernels/sc/sc_1.0/ia_css_sc.host.c:46:
++					 &binary->mem_params.params[IA_CSS_PARAM_CLASS_CONFIG][IA_CSS_ISP_DMEM].address[offset],
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'ia_css_configure_sc', this function's name, in a string
+#110: FILE: drivers/staging/media/atomisp/pci/isp/kernels/sc/sc_1.0/ia_css_sc.host.c:51:
++			    "ia_css_configure_sc() leave:\n");
+
+total: 0 errors, 6 warnings, 1 checks, 82 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 32efca3d5579 ("media: atomisp: move ia_css_configure_sc() implementation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

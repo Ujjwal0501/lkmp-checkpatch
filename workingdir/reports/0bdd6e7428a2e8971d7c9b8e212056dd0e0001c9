@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 0bdd6e7428a2 ("ARC: build: allow users to specify -mcpu") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 5e9cf0f0a3e9 ("cfg80211: fix 6 GHz frequencies to kHz") has no obvious style problems and is ready for submission.

@@ -1,0 +1,41 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#54: 
+new file mode 100644
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#637: FILE: drivers/input/misc/iqs269a.c:579:
++			/* fall through */
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#793: FILE: drivers/input/misc/iqs269a.c:735:
++			/* fall through */
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#799: FILE: drivers/input/misc/iqs269a.c:741:
++			/* fall through */
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#1205: FILE: drivers/input/misc/iqs269a.c:1147:
++				/* fall through */
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#1211: FILE: drivers/input/misc/iqs269a.c:1153:
++				/* fall through */
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#1335: FILE: drivers/input/misc/iqs269a.c:1277:
++				/* fall through */
+
+WARNING:PREFER_FALLTHROUGH: Prefer 'fallthrough;' over fallthrough comment
+#1341: FILE: drivers/input/misc/iqs269a.c:1283:
++				/* fall through */
+
+total: 0 errors, 8 warnings, 1856 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 04e49867fad1 ("Input: add support for Azoteq IQS269A") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

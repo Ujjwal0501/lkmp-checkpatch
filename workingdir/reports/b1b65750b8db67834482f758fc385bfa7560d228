@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit b1b65750b8db ("fat: don't allow to mount if the FAT length == 0") has no obvious style problems and is ready for submission.

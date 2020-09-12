@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 64 lines checked
+
+Commit 3637e84cd2e9 ("firmware: xilinx: Remove eemi ops for clock_enable") has no obvious style problems and is ready for submission.

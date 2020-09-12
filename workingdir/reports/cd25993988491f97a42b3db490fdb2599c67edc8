@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit cd2599398849 ("media: i2c: imx219: Drop <linux/clk-provider.h> and <linux/clkdev.h>") has no obvious style problems and is ready for submission.

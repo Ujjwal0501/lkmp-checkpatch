@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 79263c3bceb7 ("ALSA: hda: Return true,false for return type bool") has no obvious style problems and is ready for submission.

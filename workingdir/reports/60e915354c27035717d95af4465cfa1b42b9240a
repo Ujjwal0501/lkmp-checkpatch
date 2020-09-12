@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 60e915354c27 ("media: staging: rkisp1: cap: fix return values from pm functions") has no obvious style problems and is ready for submission.

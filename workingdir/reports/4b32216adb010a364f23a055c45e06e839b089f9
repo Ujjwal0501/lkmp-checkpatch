@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#38: 
+ .../media/{platform => test_drivers}/vim2m.c  |  0
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#253: FILE: drivers/media/test_drivers/Kconfig:5:
++menuconfig V4L_TEST_DRIVERS
+
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#263: FILE: drivers/media/test_drivers/Kconfig:15:
++config VIDEO_VIM2M
+
+total: 0 errors, 3 warnings, 103 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4b32216adb01 ("media: split test drivers from platform directory") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

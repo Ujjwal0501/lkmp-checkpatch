@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 21b01cc879cc ("power: supply: max17042_battery: Add support for the TTE_NOW prop") has no obvious style problems and is ready for submission.

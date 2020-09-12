@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 291 lines checked
+
+Commit ff165628d726 ("perf callchain: Stitch LBR call stack") has no obvious style problems and is ready for submission.

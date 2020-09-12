@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 216 lines checked
+
+Commit bae9defb06a7 ("parport: remove unused parport_register_device()") has no obvious style problems and is ready for submission.

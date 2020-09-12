@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'Commit 9a6e7c39810e ("KVM: async_pf: Fix #DF due to inject "Page not Present" and "Page Ready" exceptions simultaneously")'
+#7: 
+Commit 9a6e7c39810e (""KVM: async_pf: Fix #DF due to inject "Page not
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 2a266f23550b ("KVM MMU: check pending exception before injecting APF")'
+#10: 
+delivered. This situation seems to be impossible since commit 2a266f23550b
+
+total: 2 errors, 0 warnings, 47 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 84b09f33a5de ("Revert "KVM: async_pf: Fix #DF due to inject "Page not Present" and "Page Ready" exceptions simultaneously"") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

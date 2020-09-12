@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit ad0e74f0d670 ("ARM: dts: exynos: Correct the MAX8997 interrupts on the Trats board") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit beaf10efca64 ("drm/amdgpu: use %u rather than %d for sclk/mclk") has no obvious style problems and is ready for submission.

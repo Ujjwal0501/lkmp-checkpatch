@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 105 exceeds 100 columns
+#59: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu.h:1038:
++#define DREG32(reg) printk(KERN_INFO "REGISTER: " #reg " : 0x%08X\n", amdgpu_device_rreg(adev, (reg), 0))
+
+WARNING:PREFER_PR_LEVEL: Prefer [subsystem eg: netdev]_info([subsystem]dev, ... then dev_info(dev, ... then pr_info(...  to printk(KERN_INFO ...
+#59: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu.h:1038:
++#define DREG32(reg) printk(KERN_INFO "REGISTER: " #reg " : 0x%08X\n", amdgpu_device_rreg(adev, (reg), 0))
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#69: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu.h:1076:
++#define DREG32_SYS(sqf, adev, reg) seq_printf((sqf), #reg " : 0x%08X\n", amdgpu_device_rreg((adev), (reg), false))
+
+WARNING:STORAGE_CLASS: storage class 'static' should be located before type 'void'
+#125: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_device.c:370:
++void static inline amdgpu_device_wreg_no_kiq(struct amdgpu_device *adev, uint32_t reg,
+
+total: 0 errors, 4 warnings, 153 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2eee0229f65e ("drm/amdgpu: support access regs outside of mmio bar") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

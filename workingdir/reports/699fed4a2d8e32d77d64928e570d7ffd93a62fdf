@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit 699fed4a2d8e ("scsi: qed: Send BW update notifications to the protocol drivers") has no obvious style problems and is ready for submission.

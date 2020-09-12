@@ -1,0 +1,117 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#10: 
+    <stdin>:2640: (WARNING/2) Block quote ends without a blank line; unexpected unindent.
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#37: FILE: include/uapi/linux/bpf.h:3174:
++ * ^I^IIf **BPF_RB_NO_WAKEUP** is specified in *flags*, no notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#38: FILE: include/uapi/linux/bpf.h:3175:
++ * ^I^Iof new data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#39: FILE: include/uapi/linux/bpf.h:3176:
++ * ^I^IIf **BPF_RB_FORCE_WAKEUP** is specified in *flags*, notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#40: FILE: include/uapi/linux/bpf.h:3177:
++ * ^I^Iof new data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#44: FILE: include/uapi/linux/bpf.h:3179:
++ * ^I^I0 on success, or a negative error in case of failure.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#56: FILE: include/uapi/linux/bpf.h:3191:
++ * ^I^IIf **BPF_RB_NO_WAKEUP** is specified in *flags*, no notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#57: FILE: include/uapi/linux/bpf.h:3192:
++ * ^I^Iof new data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#58: FILE: include/uapi/linux/bpf.h:3193:
++ * ^I^IIf **BPF_RB_FORCE_WAKEUP** is specified in *flags*, notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#59: FILE: include/uapi/linux/bpf.h:3194:
++ * ^I^Iof new data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#70: FILE: include/uapi/linux/bpf.h:3201:
++ * ^I^IIf **BPF_RB_NO_WAKEUP** is specified in *flags*, no notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#71: FILE: include/uapi/linux/bpf.h:3202:
++ * ^I^Iof new data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#72: FILE: include/uapi/linux/bpf.h:3203:
++ * ^I^IIf **BPF_RB_FORCE_WAKEUP** is specified in *flags*, notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#73: FILE: include/uapi/linux/bpf.h:3204:
++ * ^I^Iof new data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#114: FILE: tools/include/uapi/linux/bpf.h:3174:
++ * ^I^IIf **BPF_RB_NO_WAKEUP** is specified in *flags*, no notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#115: FILE: tools/include/uapi/linux/bpf.h:3175:
++ * ^I^Iof new data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#116: FILE: tools/include/uapi/linux/bpf.h:3176:
++ * ^I^IIf **BPF_RB_FORCE_WAKEUP** is specified in *flags*, notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#117: FILE: tools/include/uapi/linux/bpf.h:3177:
++ * ^I^Iof new data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#121: FILE: tools/include/uapi/linux/bpf.h:3179:
++ * ^I^I0 on success, or a negative error in case of failure.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#133: FILE: tools/include/uapi/linux/bpf.h:3191:
++ * ^I^IIf **BPF_RB_NO_WAKEUP** is specified in *flags*, no notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#134: FILE: tools/include/uapi/linux/bpf.h:3192:
++ * ^I^Iof new data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#135: FILE: tools/include/uapi/linux/bpf.h:3193:
++ * ^I^IIf **BPF_RB_FORCE_WAKEUP** is specified in *flags*, notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#136: FILE: tools/include/uapi/linux/bpf.h:3194:
++ * ^I^Iof new data availability is sent unconditionally.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#147: FILE: tools/include/uapi/linux/bpf.h:3201:
++ * ^I^IIf **BPF_RB_NO_WAKEUP** is specified in *flags*, no notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#148: FILE: tools/include/uapi/linux/bpf.h:3202:
++ * ^I^Iof new data availability is sent.$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#149: FILE: tools/include/uapi/linux/bpf.h:3203:
++ * ^I^IIf **BPF_RB_FORCE_WAKEUP** is specified in *flags*, notification$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#150: FILE: tools/include/uapi/linux/bpf.h:3204:
++ * ^I^Iof new data availability is sent unconditionally.$
+
+total: 0 errors, 27 warnings, 140 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bcc7f554cfa7 ("bpf: Fix formatting in documentation for BPF helpers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

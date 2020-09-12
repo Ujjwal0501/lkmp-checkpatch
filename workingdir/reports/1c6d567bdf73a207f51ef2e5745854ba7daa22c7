@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 662 lines checked
+
+Commit 1c6d567bdf73 ("drm/amdgpu: rework sched_list generation") has no obvious style problems and is ready for submission.

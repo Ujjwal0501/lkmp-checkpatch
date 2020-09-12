@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit 761bc42fbecf ("mlxsw: spectrum: Use same switch case for identical groups") has no obvious style problems and is ready for submission.

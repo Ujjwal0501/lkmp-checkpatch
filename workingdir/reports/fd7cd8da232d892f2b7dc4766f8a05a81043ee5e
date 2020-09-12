@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 25 lines checked
+
+Commit fd7cd8da232d ("i915 compat ioctl(): just use drm_ioctl_kernel()") has no obvious style problems and is ready for submission.

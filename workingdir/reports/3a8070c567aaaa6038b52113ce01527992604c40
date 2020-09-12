@@ -1,0 +1,28 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#244: FILE: drivers/scsi/lpfc/lpfc_nvmet.c:1953:
+ 			"6037 NVMET Unsol rcv: sz %d rc %d: %08x %08x %08x "
++			"%08x %08x %08x\n", axchg->size, rc,
+
+WARNING:REPEATED_WORD: Possible repeated word: 'received'
+#324: FILE: drivers/scsi/lpfc/lpfc_nvmet.c:3314:
++ * @ctxp: pointer to the asynchronously received received sequence
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#412: FILE: drivers/scsi/lpfc/lpfc_sli.c:2866:
++				"6216 NVME Unsol rcv: No ndlp: "
++				"NPort_ID x%x oxid x%x\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#441: FILE: drivers/scsi/lpfc/lpfc_sli.c:2895:
++			"6155 Drop NVME LS from DID %06X: SID %06X OXID x%X "
++			"NVMe%s handler failed %d\n",
+
+total: 0 errors, 4 warnings, 412 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3a8070c567aa ("lpfc: Refactor NVME LS receive handling") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

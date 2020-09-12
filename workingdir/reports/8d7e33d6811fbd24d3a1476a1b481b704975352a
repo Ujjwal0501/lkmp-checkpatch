@@ -1,0 +1,13 @@
+WARNING:CONFIG_DESCRIPTION: please write a paragraph that describes the config symbol fully
+#58: FILE: drivers/pci/controller/dwc/Kconfig:293:
++config PCIE_UNIPHIER_EP
+
+total: 0 errors, 1 warnings, 425 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8d7e33d6811f ("PCI: uniphier: Add Socionext UniPhier Pro5 PCIe endpoint controller driver") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

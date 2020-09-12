@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e2a8b49e7955 ("powerpc/uaccess: Don't use "m<>" constraint") has no obvious style problems and is ready for submission.

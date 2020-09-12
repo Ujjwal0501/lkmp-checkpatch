@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 46b11a91124d ("usb: gadget: mass_storage: use module_usb_composite_driver to simplify the code") has no obvious style problems and is ready for submission.

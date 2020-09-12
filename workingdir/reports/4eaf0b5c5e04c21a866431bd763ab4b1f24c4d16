@@ -1,0 +1,85 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#10: 
+Add fmod_ret BPF program to existing test_overhead selftest. Also re-implement
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#119: FILE: tools/testing/selftests/bpf/bench.c:300:
++extern const struct bench bench_rename_base;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#120: FILE: tools/testing/selftests/bpf/bench.c:301:
++extern const struct bench bench_rename_kprobe;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#121: FILE: tools/testing/selftests/bpf/bench.c:302:
++extern const struct bench bench_rename_kretprobe;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#122: FILE: tools/testing/selftests/bpf/bench.c:303:
++extern const struct bench bench_rename_rawtp;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#123: FILE: tools/testing/selftests/bpf/bench.c:304:
++extern const struct bench bench_rename_fentry;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#124: FILE: tools/testing/selftests/bpf/bench.c:305:
++extern const struct bench bench_rename_fexit;
+
+WARNING:AVOID_EXTERNS: externs should be avoided in .c files
+#125: FILE: tools/testing/selftests/bpf/bench.c:306:
++extern const struct bench bench_rename_fmodret;
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#141: 
+new file mode 100644
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void validate() should probably be void validate(void)
+#159: FILE: tools/testing/selftests/bpf/benchs/bench_rename.c:14:
++static void validate()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_ctx() should probably be void setup_ctx(void)
+#191: FILE: tools/testing/selftests/bpf/benchs/bench_rename.c:46:
++static void setup_ctx()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_base() should probably be void setup_base(void)
+#219: FILE: tools/testing/selftests/bpf/benchs/bench_rename.c:74:
++static void setup_base()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_kprobe() should probably be void setup_kprobe(void)
+#224: FILE: tools/testing/selftests/bpf/benchs/bench_rename.c:79:
++static void setup_kprobe()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_kretprobe() should probably be void setup_kretprobe(void)
+#230: FILE: tools/testing/selftests/bpf/benchs/bench_rename.c:85:
++static void setup_kretprobe()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_rawtp() should probably be void setup_rawtp(void)
+#236: FILE: tools/testing/selftests/bpf/benchs/bench_rename.c:91:
++static void setup_rawtp()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_fentry() should probably be void setup_fentry(void)
+#242: FILE: tools/testing/selftests/bpf/benchs/bench_rename.c:97:
++static void setup_fentry()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_fexit() should probably be void setup_fexit(void)
+#248: FILE: tools/testing/selftests/bpf/benchs/bench_rename.c:103:
++static void setup_fexit()
+
+ERROR:FUNCTION_WITHOUT_ARGS: Bad function definition - void setup_fmodret() should probably be void setup_fmodret(void)
+#254: FILE: tools/testing/selftests/bpf/benchs/bench_rename.c:109:
++static void setup_fmodret()
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 2
+#348: FILE: tools/testing/selftests/bpf/benchs/run_bench_rename.sh:2:
++
+
+total: 9 errors, 10 warnings, 285 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4eaf0b5c5e04 ("selftest/bpf: Fmod_ret prog and implement test_overhead as part of bench") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

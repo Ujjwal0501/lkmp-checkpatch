@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 43 lines checked
+
+Commit 63417549fc8e ("iwlwifi: pcie: move iwl_pcie_ctxt_info_alloc_dma() to user") has no obvious style problems and is ready for submission.

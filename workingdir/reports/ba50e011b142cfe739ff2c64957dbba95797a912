@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ba50e011b142 ("leds: tlc591xxt: hide error on EPROBE_DEFER") has no obvious style problems and is ready for submission.

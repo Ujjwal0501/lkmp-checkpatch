@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c3ba4dbbd1d0 ("powerpc/uaccess: Don't set KUEP by default on book3s/32") has no obvious style problems and is ready for submission.

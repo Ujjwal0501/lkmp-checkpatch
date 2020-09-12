@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 167 lines checked
+
+Commit 3c32cc1bceba ("bpf: Enable bpf_iter targets registering ctx argument types") has no obvious style problems and is ready for submission.

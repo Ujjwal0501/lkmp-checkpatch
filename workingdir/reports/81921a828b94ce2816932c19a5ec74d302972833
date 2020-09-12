@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 81921a828b94 ("drm/amd/display: Use kvfree() to free coeff in build_regamma()") has no obvious style problems and is ready for submission.

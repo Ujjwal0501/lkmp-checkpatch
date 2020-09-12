@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 161 lines checked
+
+Commit 425d2b1c5638 ("ptp: ptp_clockmatrix: Add adjphase() to support PHC write phase mode.") has no obvious style problems and is ready for submission.

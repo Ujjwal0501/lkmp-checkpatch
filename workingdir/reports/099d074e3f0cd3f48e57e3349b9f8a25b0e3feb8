@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 65 lines checked
+
+Commit 099d074e3f0c ("net: atlantic: add hw_soft_reset, hw_prepare to hw_ops") has no obvious style problems and is ready for submission.

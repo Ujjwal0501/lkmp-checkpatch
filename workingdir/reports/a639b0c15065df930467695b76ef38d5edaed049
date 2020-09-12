@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit a639b0c15065 ("drm/i915/perf: Invalidate OA TLB on when closing perf stream") has no obvious style problems and is ready for submission.

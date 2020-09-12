@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit af03958da067 ("PCI/EDR: Log only ACPI_NOTIFY_DISCONNECT_RECOVER events") has no obvious style problems and is ready for submission.

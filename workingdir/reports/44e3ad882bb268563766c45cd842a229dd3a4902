@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 87 lines checked
+
+Commit 44e3ad882bb2 ("hwmon: Reduce indentation level in __hwmon_device_register()") has no obvious style problems and is ready for submission.

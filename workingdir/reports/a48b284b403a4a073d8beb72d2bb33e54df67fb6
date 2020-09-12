@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 83 lines checked
+
+Commit a48b284b403a ("audit: fix a net reference leak in audit_send_reply()") has no obvious style problems and is ready for submission.

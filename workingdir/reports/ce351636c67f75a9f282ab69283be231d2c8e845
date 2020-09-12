@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 142 lines checked
+
+Commit ce351636c67f ("PCI: rcar: Add suspend/resume") has no obvious style problems and is ready for submission.

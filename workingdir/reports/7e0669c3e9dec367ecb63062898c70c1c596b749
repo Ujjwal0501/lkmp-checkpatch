@@ -1,0 +1,21 @@
+WARNING:DATA_RACE: data_race without comment
+#45: FILE: kernel/rcu/tasks.h:297:
++		tasks_gp_state_getname(rtp), data_race(rtp->gp_state),
+
+WARNING:DATA_RACE: data_race without comment
+#48: FILE: kernel/rcu/tasks.h:299:
++		data_race(rtp->n_gps),
+
+WARNING:DATA_RACE: data_race without comment
+#49: FILE: kernel/rcu/tasks.h:300:
++		data_race(rtp->n_ipis_fails), data_race(rtp->n_ipis),
+
+total: 0 errors, 3 warnings, 37 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7e0669c3e9de ("rcu-tasks: Add IPI failure count to statistics") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

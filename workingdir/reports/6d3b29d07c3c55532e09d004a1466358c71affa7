@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 74 lines checked
+
+Commit 6d3b29d07c3c ("Revert "ACPI/IORT: Fix 'Number of IDs' handling in iort_id_map()"") has no obvious style problems and is ready for submission.

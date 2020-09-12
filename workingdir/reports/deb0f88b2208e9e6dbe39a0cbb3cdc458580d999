@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit deb0f88b2208 ("drm/mediatek: Delete not used of_device_get_match_data") has no obvious style problems and is ready for submission.

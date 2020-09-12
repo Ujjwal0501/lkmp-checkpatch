@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 50 lines checked
+
+Commit f3e0dc1d8b71 ("floppy: cleanup: make reset_fdc_info() not rely on current_fdc anymore") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit bda552a7741a ("scsi: qla2xxx: Use true, false for need_mpi_reset") has no obvious style problems and is ready for submission.

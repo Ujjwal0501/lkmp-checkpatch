@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 178 lines checked
+
+Commit a0cb12b03132 ("selftests/bpf: Make sure optvals > PAGE_SIZE are bypassed") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 168 lines checked
+
+Commit 6058eaec816f ("mm: fold and remove lru_cache_add_anon() and lru_cache_add_file()") has no obvious style problems and is ready for submission.

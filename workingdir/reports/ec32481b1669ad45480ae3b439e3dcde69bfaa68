@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit ec32481b1669 ("mailbox: ZynqMP IPI: Delete an error message in zynqmp_ipi_probe()") has no obvious style problems and is ready for submission.

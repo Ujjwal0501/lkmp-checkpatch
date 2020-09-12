@@ -1,0 +1,13 @@
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#209: FILE: drivers/hv/vmbus_drv.c:1742:
++^I * ^I^ICPU2's LOCK) && CPU2's SEND precedes CPU1's SEND$
+
+total: 0 errors, 1 warnings, 220 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 752781057343 ("Drivers: hv: vmbus: Introduce the CHANNELMSG_MODIFYCHANNEL message type") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

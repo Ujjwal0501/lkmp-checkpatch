@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 26ca88aaea26 ("i2c: tegra: Keep IRQs enabled during suspend/resume") has no obvious style problems and is ready for submission.

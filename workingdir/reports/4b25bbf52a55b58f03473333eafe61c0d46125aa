@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 4b25bbf52a55 ("bcache: pr_info() format clean up in bcache_device_init()") has no obvious style problems and is ready for submission.

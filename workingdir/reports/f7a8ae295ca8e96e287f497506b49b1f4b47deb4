@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit f7a8ae295ca8 ("ASoC: da7213: move set_pll to codec level") has no obvious style problems and is ready for submission.

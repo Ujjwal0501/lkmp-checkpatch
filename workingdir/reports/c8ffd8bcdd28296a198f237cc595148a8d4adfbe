@@ -1,0 +1,25 @@
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#368: FILE: include/uapi/linux/fcntl.h:100:
++                                           effective IDs, not real IDs.  */$
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#368: FILE: include/uapi/linux/fcntl.h:100:
++#define AT_EACCESS		0x200	/* Test access permitted for
++                                           effective IDs, not real IDs.  */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#368: FILE: include/uapi/linux/fcntl.h:100:
++                                           effective IDs, not real IDs.  */
+
+total: 1 errors, 2 warnings, 207 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit c8ffd8bcdd28 ("vfs: add faccessat2 syscall") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 173 lines checked
+
+Commit fed0c6cfcd58 ("net/mlx5e: Fetch WQE: reuse code and enforce typing") has no obvious style problems and is ready for submission.

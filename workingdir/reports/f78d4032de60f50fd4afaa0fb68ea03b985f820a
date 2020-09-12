@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit f78d4032de60 ("drm: encoder_slave: fix refcouting error for modules") has no obvious style problems and is ready for submission.

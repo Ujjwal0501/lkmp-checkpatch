@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 90 lines checked
+
+Commit 0645f7eb6f6a ("selftests/bpf: Test narrow loads for bpf_sock_addr.user_port") has no obvious style problems and is ready for submission.

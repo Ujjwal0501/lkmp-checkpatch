@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit d0bab301a046 ("soc: fsl: dpio: Prefer the CPU affine DPIO") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e2c8e92d1140 ("btrfs: fix wrong file range cleanup after an error filling dealloc range") has no obvious style problems and is ready for submission.

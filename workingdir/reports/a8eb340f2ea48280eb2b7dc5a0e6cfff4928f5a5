@@ -1,0 +1,19 @@
+WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#69: FILE: drivers/net/wireless/intel/iwlwifi/fw/init.c:114:
++	/*
++	 * In VER_1 of this command, the discrete value is considered
+
+CHECK:LINE_SPACING: Please use a blank line after function/struct/union/enum declarations
+#103: FILE: drivers/net/wireless/intel/iwlwifi/fw/init.c:148:
++}
++IWL_EXPORT_SYMBOL(iwl_set_soc_latency);
+
+total: 0 errors, 1 warnings, 1 checks, 140 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a8eb340f2ea4 ("iwlwifi: move iwl_set_soc_latency to iwl-drv to be used by other op_modes") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

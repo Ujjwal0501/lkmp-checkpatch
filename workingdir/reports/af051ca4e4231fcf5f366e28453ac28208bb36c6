@@ -1,0 +1,17 @@
+WARNING:DATA_RACE: data_race without comment
+#141: FILE: kernel/rcu/tasks.h:284:
++		data_race(rtp->gp_state),
+
+WARNING:DATA_RACE: data_race without comment
+#142: FILE: kernel/rcu/tasks.h:285:
++		jiffies - data_race(rtp->gp_jiffies),
+
+total: 0 errors, 2 warnings, 189 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit af051ca4e423 ("rcu-tasks: Make rcutorture writer stall output include GP state") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit dc802f2bc020 ("arm64: Rework ARM_ERRATUM_1414080 handling") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit ea39765843fa ("nvme-fcloop: refactor to enable target to host LS") has no obvious style problems and is ready for submission.

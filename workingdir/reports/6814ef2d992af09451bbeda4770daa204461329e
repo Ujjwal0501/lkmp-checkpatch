@@ -1,0 +1,20 @@
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#57: FILE: fs/proc/inode.c:177:
++		seq_printf(seq, ",subset=pid");
+
+WARNING:BRACES: braces {} are not necessary for any arm of this statement
+#118: FILE: fs/proc/root.c:72:
++			if (!strcmp(value, "pid")) {
+[...]
++			} else {
+[...]
+
+total: 0 errors, 2 warnings, 131 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6814ef2d992a ("proc: add option to mount only a pids subset") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,133 @@
+WARNING:LONG_LINE_COMMENT: line length of 119 exceeds 100 columns
+#47: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:107:
++			K2G_CORE_IOPAD(0x1384) (BUFFER_CLASS_B | PIN_PULLUP | MUX_MODE0)	/* i2c1_scl.i2c1_scl */
+
+WARNING:LONG_LINE_COMMENT: line length of 119 exceeds 100 columns
+#48: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:108:
++			K2G_CORE_IOPAD(0x1388) (BUFFER_CLASS_B | PIN_PULLUP | MUX_MODE0)	/* i2c1_sda.i2c1_sda */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#62: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:186:
++			K2G_CORE_IOPAD(0x1078) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata23.dssdata23 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#63: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:187:
++			K2G_CORE_IOPAD(0x107c) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata22.dssdata22 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#64: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:188:
++			K2G_CORE_IOPAD(0x1080) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata21.dssdata21 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#65: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:189:
++			K2G_CORE_IOPAD(0x1084) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata20.dssdata20 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#66: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:190:
++			K2G_CORE_IOPAD(0x1088) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata19.dssdata19 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#67: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:191:
++			K2G_CORE_IOPAD(0x108c) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata18.dssdata18 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#68: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:192:
++			K2G_CORE_IOPAD(0x1090) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata17.dssdata17 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#69: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:193:
++			K2G_CORE_IOPAD(0x1094) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata16.dssdata16 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#70: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:194:
++			K2G_CORE_IOPAD(0x1098) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata15.dssdata15 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#71: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:195:
++			K2G_CORE_IOPAD(0x109c) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata14.dssdata14 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#72: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:196:
++			K2G_CORE_IOPAD(0x10a0) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata13.dssdata13 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#73: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:197:
++			K2G_CORE_IOPAD(0x10a4) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata12.dssdata12 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#74: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:198:
++			K2G_CORE_IOPAD(0x10a8) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata11.dssdata11 */
+
+WARNING:LONG_LINE_COMMENT: line length of 116 exceeds 100 columns
+#75: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:199:
++			K2G_CORE_IOPAD(0x10ac) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata10.dssdata10 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#76: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:200:
++			K2G_CORE_IOPAD(0x10b0) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata9.dssdata9 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#77: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:201:
++			K2G_CORE_IOPAD(0x10b4) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata8.dssdata8 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#78: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:202:
++			K2G_CORE_IOPAD(0x10b8) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata7.dssdata7 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#79: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:203:
++			K2G_CORE_IOPAD(0x10bc) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata6.dssdata6 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#80: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:204:
++			K2G_CORE_IOPAD(0x10c0) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata5.dssdata5 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#81: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:205:
++			K2G_CORE_IOPAD(0x10c4) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata4.dssdata4 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#82: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:206:
++			K2G_CORE_IOPAD(0x10c8) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata3.dssdata3 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#83: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:207:
++			K2G_CORE_IOPAD(0x10cc) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata2.dssdata2 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#84: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:208:
++			K2G_CORE_IOPAD(0x10d0) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata1.dssdata1 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#85: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:209:
++			K2G_CORE_IOPAD(0x10d4) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssdata0.dssdata0 */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#86: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:210:
++			K2G_CORE_IOPAD(0x10d8) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssvsync.dssvsync */
+
+WARNING:LONG_LINE_COMMENT: line length of 114 exceeds 100 columns
+#87: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:211:
++			K2G_CORE_IOPAD(0x10dc) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dsshsync.dsshsync */
+
+WARNING:LONG_LINE_COMMENT: line length of 112 exceeds 100 columns
+#88: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:212:
++			K2G_CORE_IOPAD(0x10e0) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dsspclk.dsspclk */
+
+WARNING:LONG_LINE_COMMENT: line length of 108 exceeds 100 columns
+#89: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:213:
++			K2G_CORE_IOPAD(0x10e4) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssde.dssde */
+
+WARNING:LONG_LINE_COMMENT: line length of 110 exceeds 100 columns
+#90: FILE: arch/arm/boot/dts/keystone-k2g-evm.dts:214:
++			K2G_CORE_IOPAD(0x10e8) (BUFFER_CLASS_B | PULL_DISABLE | MUX_MODE0) /* dssfid.dssfid */
+
+total: 0 errors, 31 warnings, 122 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7856488bd83b ("ARM: dts: keystone-k2g-evm: add HDMI video support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

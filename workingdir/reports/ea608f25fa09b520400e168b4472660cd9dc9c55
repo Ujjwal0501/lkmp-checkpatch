@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 62 lines checked
+
+Commit ea608f25fa09 ("platform/x86: intel_scu_ipc: Log more information if SCU IPC command fails") has no obvious style problems and is ready for submission.

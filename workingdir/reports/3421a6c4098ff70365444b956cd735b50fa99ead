@@ -1,0 +1,23 @@
+WARNING:TYPO_SPELLING: 'preceeding' may be misspelled - perhaps 'preceding'?
+#12: 
+This is made possible by a preceeding patch which added a drmm_
+
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#30: 
+Cc: Thomas Zimmermann <tzimmermann@suse.de>
+
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#37: 
+Cc: Sam Ravnborg <sam@ravnborg.org>
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Daniel Vetter <daniel.vetter@ffwll.ch>'
+
+total: 0 errors, 4 warnings, 86 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 3421a6c4098f ("drm/mipi-dbi: Drop explicit drm_mode_config_cleanup call") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,41 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#37: 
+new file mode 100644
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "facebook,yosemitev2-bmc" appears un-documented -- check ./Documentation/devicetree/bindings/
+#50: FILE: arch/arm/boot/dts/aspeed-bmc-facebook-yosemitev2.dts:9:
++	compatible = "facebook,yosemitev2-bmc", "aspeed,ast2500";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ipmb-dev" appears un-documented -- check ./Documentation/devicetree/bindings/
+#168: FILE: arch/arm/boot/dts/aspeed-bmc-facebook-yosemitev2.dts:127:
++		compatible = "ipmb-dev";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ipmb-dev" appears un-documented -- check ./Documentation/devicetree/bindings/
+#179: FILE: arch/arm/boot/dts/aspeed-bmc-facebook-yosemitev2.dts:138:
++		compatible = "ipmb-dev";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ipmb-dev" appears un-documented -- check ./Documentation/devicetree/bindings/
+#190: FILE: arch/arm/boot/dts/aspeed-bmc-facebook-yosemitev2.dts:149:
++		compatible = "ipmb-dev";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "ipmb-dev" appears un-documented -- check ./Documentation/devicetree/bindings/
+#201: FILE: arch/arm/boot/dts/aspeed-bmc-facebook-yosemitev2.dts:160:
++		compatible = "ipmb-dev";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "atmel,24c64" appears un-documented -- check ./Documentation/devicetree/bindings/
+#211: FILE: arch/arm/boot/dts/aspeed-bmc-facebook-yosemitev2.dts:170:
++		compatible = "atmel,24c64";
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string "atmel,24c64" appears un-documented -- check ./Documentation/devicetree/bindings/
+#253: FILE: arch/arm/boot/dts/aspeed-bmc-facebook-yosemitev2.dts:212:
++		compatible = "atmel,24c64";
+
+total: 0 errors, 8 warnings, 238 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 266056d3c61d ("ARM: dts: aspeed: Adding Facebook Yosemite V2 BMC") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit 33726eff3d98 ("spi: dw: Add SPI Rx-done wait method to DMA-based transfer") has no obvious style problems and is ready for submission.

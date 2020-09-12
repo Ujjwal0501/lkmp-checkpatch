@@ -1,0 +1,17 @@
+WARNING:STATIC_CONST_CHAR_ARRAY: static const char * array should probably be static const char * const
+#45: FILE: drivers/usb/dwc3/dwc3-meson-g12a.c:112:
++static const char *meson_g12a_phy_names[] = {
+
+WARNING:STATIC_CONST_CHAR_ARRAY: static const char * array should probably be static const char * const
+#57: FILE: drivers/usb/dwc3/dwc3-meson-g12a.c:124:
++static const char *meson_a1_phy_names[] = {
+
+total: 0 errors, 2 warnings, 98 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5174564cb915 ("usb: dwc3: meson-g12a: specify phy names in soc data") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

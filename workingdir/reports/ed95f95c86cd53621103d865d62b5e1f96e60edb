@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit ed95f95c86cd ("kcsan: Fix 0-sized checks") has no obvious style problems and is ready for submission.

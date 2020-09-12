@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 60 lines checked
+
+Commit 1fca4d12f463 ("rcu: Expedite first two FQS scans under callback-overload conditions") has no obvious style problems and is ready for submission.

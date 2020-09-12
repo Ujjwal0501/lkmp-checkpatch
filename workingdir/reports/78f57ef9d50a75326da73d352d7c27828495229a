@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 78f57ef9d50a ("md: use memalloc scope APIs in mddev_suspend()/mddev_resume()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit d3cd7d02e713 ("arm64: tegra: Kill off "simple-panel" compatibles") has no obvious style problems and is ready for submission.

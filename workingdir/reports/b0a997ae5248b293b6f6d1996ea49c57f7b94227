@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 229 lines checked
+
+Commit b0a997ae5248 ("drm/i915: Emit await(batch) before MI_BB_START") has no obvious style problems and is ready for submission.

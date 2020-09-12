@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 515 lines checked
+
+Commit cc23267aedeb ("RDMA/hns: Optimize hns buffer allocation flow") has no obvious style problems and is ready for submission.

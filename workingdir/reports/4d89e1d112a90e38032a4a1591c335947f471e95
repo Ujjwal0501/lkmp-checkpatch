@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 4d89e1d112a9 ("blk-wbt: rename __wbt_update_limits to wbt_update_limits") has no obvious style problems and is ready for submission.

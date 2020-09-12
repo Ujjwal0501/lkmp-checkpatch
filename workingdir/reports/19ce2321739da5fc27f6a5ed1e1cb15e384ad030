@@ -1,0 +1,21 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 5287f9269206 ("perf script: Add flamegraph.py script")'
+#12: 
+  Our OpenEmbedded builds detected an issue with 5287f9269206 ("perf
+
+WARNING:REPEATED_WORD: Possible repeated word: 'in'
+#19: 
+  This means that there is a new binary pulled in in the shebang line
+
+ERROR:DIFF_IN_COMMIT_MSG: Avoid using diff content in the commit message - patch(1) might not work
+#27: 
+  --- a/tools/perf/scripts/python/bin/flamegraph-record
+
+total: 2 errors, 1 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 19ce2321739d ("perf flamegraph: Use /bin/bash for report and record scripts") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

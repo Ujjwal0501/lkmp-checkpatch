@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 122 lines checked
+
+Commit 7562a13d5a8c ("net/smc: multiple link support for rmb buffer registration") has no obvious style problems and is ready for submission.

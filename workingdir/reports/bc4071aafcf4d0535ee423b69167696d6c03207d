@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit bc4071aafcf4 ("hwmon: (aspeed-pwm-tacho) Avoid possible buffer overflow") has no obvious style problems and is ready for submission.

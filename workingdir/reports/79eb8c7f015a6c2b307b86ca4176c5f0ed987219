@@ -1,0 +1,16 @@
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#611: FILE: drivers/gpu/drm/i915/gem/selftests/i915_gem_client_blt.c:696:
++	struct drm_i915_private *i915 = arg;
++	I915_RND_STATE(prng);
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author ''
+
+total: 0 errors, 2 warnings, 622 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 79eb8c7f015a ("drm/i915/selftests: Add tiled blits selftest") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

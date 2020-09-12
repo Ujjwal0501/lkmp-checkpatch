@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit 093b8494f299 ("ALSA: usb-audio: Print more information in stream proc files") has no obvious style problems and is ready for submission.

@@ -1,0 +1,25 @@
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#46: FILE: drivers/gpu/drm/amd/display/modules/power/power_helpers.c:268:
++			cpu_to_be16(DIV_ROUNDUP((i * 65536), num_entries)) : DIV_ROUNDUP((i * 65536), num_entries);
+
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#48: FILE: drivers/gpu/drm/amd/display/modules/power/power_helpers.c:270:
++			cpu_to_be16(params.backlight_lut_array[lut_index]) : params.backlight_lut_array[lut_index];
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#61: FILE: drivers/gpu/drm/amd/display/modules/power/power_helpers.c:593:
++void fill_iram_v_2_3(struct iram_table_v_2_2 *ram_table, struct dmcu_iram_parameters params, bool big_endian)
+
+WARNING:LONG_LINE: line length of 119 exceeds 100 columns
+#70: FILE: drivers/gpu/drm/amd/display/modules/power/power_helpers.c:599:
++	ram_table->min_abm_backlight = (big_endian) ? cpu_to_be16(params.min_abm_backlight) : params.min_abm_backlight;
+
+total: 0 errors, 4 warnings, 122 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f12f70117a3c ("drm/amd/display: Remove byte swapping for dmcub abm config table") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

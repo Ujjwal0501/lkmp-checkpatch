@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 58fb82ccbccc ("of: of_detach_node() remove unneeded local return variable") has no obvious style problems and is ready for submission.

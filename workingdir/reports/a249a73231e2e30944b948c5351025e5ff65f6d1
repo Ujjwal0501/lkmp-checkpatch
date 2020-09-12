@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit a249a73231e2 ("kcsan: Clarify Kconfig option KCSAN_IGNORE_ATOMICS") has no obvious style problems and is ready for submission.

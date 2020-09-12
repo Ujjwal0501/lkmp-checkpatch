@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit 25cba461989c ("ALSA: seq: oss: remove unused inline function snd_seq_oss_timer_is_realtime") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 75 lines checked
+
+Commit e528ccf9320c ("drm/amd/powerplay: shutdown on HW CTF") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 81a33c1ee941 ("ovl: fix unneeded call to ovl_change_flags()") has no obvious style problems and is ready for submission.

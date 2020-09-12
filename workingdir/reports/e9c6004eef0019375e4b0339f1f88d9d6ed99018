@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 14 lines checked
+
+Commit e9c6004eef00 ("iio: adc: adi-axi-adc: Fix object reference counting") has no obvious style problems and is ready for submission.

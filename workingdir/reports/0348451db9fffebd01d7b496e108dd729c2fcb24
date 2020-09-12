@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 55 lines checked
+
+Commit 0348451db9ff ("net: sched: cls_flower: implement terse dump support") has no obvious style problems and is ready for submission.

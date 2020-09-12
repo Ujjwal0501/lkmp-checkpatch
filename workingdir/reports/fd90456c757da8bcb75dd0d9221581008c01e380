@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'registes' may be misspelled - perhaps 'registers'?
+#8: 
+EccErrCnt registes from other instances at the same time. This
+
+total: 0 errors, 1 warnings, 114 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fd90456c757d ("drm/amdgpu: decouple EccErrCnt query and clear operation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

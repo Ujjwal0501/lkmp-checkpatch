@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit c16e923dd635 ("soc: fsl_asrc: Make some functions static") has no obvious style problems and is ready for submission.

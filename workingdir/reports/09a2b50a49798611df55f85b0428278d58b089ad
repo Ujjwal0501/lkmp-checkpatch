@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 09a2b50a4979 ("igc: Remove duplicated IGC_RXPBS macro") has no obvious style problems and is ready for submission.

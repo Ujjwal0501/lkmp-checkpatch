@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 9e306ba3a929 ("binderfs: remove redundant assignment to pointer ctx") has no obvious style problems and is ready for submission.

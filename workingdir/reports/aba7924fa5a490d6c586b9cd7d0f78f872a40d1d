@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 32 lines checked
+
+Commit aba7924fa5a4 ("net: ipa: pass channel pointer to gsi_channel_state()") has no obvious style problems and is ready for submission.

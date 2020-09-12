@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 6b1c7837af0e ("gpio: merrifield: Switch over to MSI interrupts") has no obvious style problems and is ready for submission.

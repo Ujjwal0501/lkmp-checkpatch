@@ -1,0 +1,189 @@
+CHECK:CAMELCASE: Avoid CamelCase: <VNSvOutPortB>
+#154: FILE: drivers/staging/vt6655/baseband.c:1915:
++	VNSvOutPortB(iobase + MAC_REG_BBREGADR, by_bb_addr);
+
+CHECK:CAMELCASE: Avoid CamelCase: <VNSvInPortB>
+#162: FILE: drivers/staging/vt6655/baseband.c:1921:
++		VNSvInPortB(iobase + MAC_REG_BBREGCTL, &by_value);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byRFType>
+#228: FILE: drivers/staging/vt6655/baseband.c:1998:
++	unsigned char by_rf_type = priv->byRFType;
+
+CHECK:CAMELCASE: Avoid CamelCase: <byLocalID>
+#229: FILE: drivers/staging/vt6655/baseband.c:1999:
++	unsigned char by_local_id = priv->byLocalID;
+
+CHECK:CAMELCASE: Avoid CamelCase: <abyBBVGA>
+#439: FILE: drivers/staging/vt6655/baseband.c:2212:
++	if (by_bb_vga == priv->abyBBVGA[0])
+
+CHECK:CAMELCASE: Avoid CamelCase: <byBBVGACurrent>
+#470: FILE: drivers/staging/vt6655/baseband.c:2232:
++	priv->byBBVGACurrent = by_data;
+
+CHECK:CAMELCASE: Avoid CamelCase: <byData>
+#696: FILE: drivers/staging/vt6655/card.c:198:
++			bb_read_embedded(priv, 0xE7, &byData);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTxAntennaMode>
+#854: FILE: drivers/staging/vt6655/device_main.c:282:
++	bb_set_tx_antenna_mode(priv, priv->byTxAntennaMode);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byRxAntennaMode>
+#855: FILE: drivers/staging/vt6655/device_main.c:283:
++	bb_set_rx_antenna_mode(priv, priv->byRxAntennaMode);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byBBVGANew>
+#885: FILE: drivers/staging/vt6655/device_main.c:1004:
++		bb_set_vga_gain_offset(priv, priv->byBBVGANew);
+
+CHECK:CAMELCASE: Avoid CamelCase: <uDataTime>
+#938: FILE: drivers/staging/vt6655/rxtx.c:168:
++	uDataTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, cbFrameLength, wRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <pDevice>
+#938: FILE: drivers/staging/vt6655/rxtx.c:168:
++	uDataTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, cbFrameLength, wRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byPreambleType>
+#938: FILE: drivers/staging/vt6655/rxtx.c:168:
++	uDataTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, cbFrameLength, wRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byPktType>
+#938: FILE: drivers/staging/vt6655/rxtx.c:168:
++	uDataTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, cbFrameLength, wRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <cbFrameLength>
+#938: FILE: drivers/staging/vt6655/rxtx.c:168:
++	uDataTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, cbFrameLength, wRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <wRate>
+#938: FILE: drivers/staging/vt6655/rxtx.c:168:
++	uDataTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, cbFrameLength, wRate);
+
+WARNING:LONG_LINE: line length of 129 exceeds 100 columns
+#941: FILE: drivers/staging/vt6655/rxtx.c:170:
++		uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, (unsigned short)pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <uAckTime>
+#941: FILE: drivers/staging/vt6655/rxtx.c:170:
++		uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, (unsigned short)pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopCCKBasicRate>
+#941: FILE: drivers/staging/vt6655/rxtx.c:170:
++		uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, (unsigned short)pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#944: FILE: drivers/staging/vt6655/rxtx.c:172:
++		uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, (unsigned short)pDevice->byTopOFDMBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <byTopOFDMBasicRate>
+#944: FILE: drivers/staging/vt6655/rxtx.c:172:
++		uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, (unsigned short)pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#953: FILE: drivers/staging/vt6655/rxtx.c:204:
++	uDataTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, cbFrameLength, wCurrentRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <wCurrentRate>
+#953: FILE: drivers/staging/vt6655/rxtx.c:204:
++	uDataTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, cbFrameLength, wCurrentRate);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#957: FILE: drivers/staging/vt6655/rxtx.c:206:
++		uRTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 20, pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <uRTSTime>
+#957: FILE: drivers/staging/vt6655/rxtx.c:206:
++		uRTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 20, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#958: FILE: drivers/staging/vt6655/rxtx.c:207:
++		uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#964: FILE: drivers/staging/vt6655/rxtx.c:210:
++		uRTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 20, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#965: FILE: drivers/staging/vt6655/rxtx.c:211:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+CHECK:CAMELCASE: Avoid CamelCase: <uCTSTime>
+#965: FILE: drivers/staging/vt6655/rxtx.c:211:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#966: FILE: drivers/staging/vt6655/rxtx.c:212:
++		uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#970: FILE: drivers/staging/vt6655/rxtx.c:214:
++		uRTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 20, pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#971: FILE: drivers/staging/vt6655/rxtx.c:215:
++		uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#976: FILE: drivers/staging/vt6655/rxtx.c:218:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#977: FILE: drivers/staging/vt6655/rxtx.c:219:
++		uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 129 exceeds 100 columns
+#986: FILE: drivers/staging/vt6655/rxtx.c:260:
++				uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#1008: FILE: drivers/staging/vt6655/rxtx.c:280:
++				uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#1030: FILE: drivers/staging/vt6655/rxtx.c:301:
++				uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 130 exceeds 100 columns
+#1052: FILE: drivers/staging/vt6655/rxtx.c:336:
++				uAckTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#1074: FILE: drivers/staging/vt6655/rxtx.c:392:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#1080: FILE: drivers/staging/vt6655/rxtx.c:397:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#1086: FILE: drivers/staging/vt6655/rxtx.c:402:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#1095: FILE: drivers/staging/vt6655/rxtx.c:411:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#1104: FILE: drivers/staging/vt6655/rxtx.c:420:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+WARNING:LONG_LINE: line length of 113 exceeds 100 columns
+#1113: FILE: drivers/staging/vt6655/rxtx.c:429:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopCCKBasicRate);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#1122: FILE: drivers/staging/vt6655/rxtx.c:438:
++		uCTSTime = bb_get_frame_time(pDevice->byPreambleType, byPktType, 14, pDevice->byTopOFDMBasicRate);
+
+total: 0 errors, 23 warnings, 22 checks, 1019 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit af93096eef04 ("Staging: vt6655: Replace camel case variable names.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

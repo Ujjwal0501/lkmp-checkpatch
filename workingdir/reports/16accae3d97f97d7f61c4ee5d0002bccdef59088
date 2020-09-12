@@ -1,0 +1,19 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit fd3ae1e1587d ("perf/x86/rapl: Move RAPL support to common x86 code")'
+#8: 
+  fd3ae1e1587d6 ("perf/x86/rapl: Move RAPL support to common x86 code")
+
+ERROR:BAD_SIGN_OFF: Unrecognized email address: 'Stephane Eranian <eraniangoogle.com>'
+#12: 
+Signed-off-by: Stephane Eranian <eraniangoogle.com>
+
+WARNING:NO_AUTHOR_SIGN_OFF: Missing Signed-off-by: line by nominal patch author 'Stephane Eranian <eranian@google.com>'
+
+total: 2 errors, 1 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 16accae3d97f ("perf/x86/rapl: Fix RAPL config variable bug") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

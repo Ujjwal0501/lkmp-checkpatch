@@ -1,0 +1,61 @@
+CHECK:CAMELCASE: Avoid CamelCase: <uAckTime>
+#28: FILE: drivers/staging/vt6655/rxtx.c:246:
++	unsigned int uAckTime = 0, uNextPktTime = 0, len;
+
+CHECK:CAMELCASE: Avoid CamelCase: <uNextPktTime>
+#28: FILE: drivers/staging/vt6655/rxtx.c:246:
++	unsigned int uAckTime = 0, uNextPktTime = 0, len;
+
+CHECK:CAMELCASE: Avoid CamelCase: <s_uGetTxRsvTime>
+#49: FILE: drivers/staging/vt6655/rxtx.c:266:
++			uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wRate, bNeedAck);
+
+CHECK:CAMELCASE: Avoid CamelCase: <pDevice>
+#49: FILE: drivers/staging/vt6655/rxtx.c:266:
++			uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wRate, bNeedAck);
+
+WARNING:LONG_LINE: line length of 134 exceeds 100 columns
+#79: FILE: drivers/staging/vt6655/rxtx.c:306:
++				uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wFB_Opt0[FB_RATE0][wRate-RATE_18M], bNeedAck);
+
+CHECK:SPACING: spaces preferred around that '-' (ctx:VxV)
+#79: FILE: drivers/staging/vt6655/rxtx.c:306:
++				uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wFB_Opt0[FB_RATE0][wRate-RATE_18M], bNeedAck);
+ 				                                                                                ^
+
+WARNING:LONG_LINE: line length of 134 exceeds 100 columns
+#81: FILE: drivers/staging/vt6655/rxtx.c:308:
++				uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wFB_Opt1[FB_RATE0][wRate-RATE_18M], bNeedAck);
+
+CHECK:SPACING: spaces preferred around that '-' (ctx:VxV)
+#81: FILE: drivers/staging/vt6655/rxtx.c:308:
++				uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wFB_Opt1[FB_RATE0][wRate-RATE_18M], bNeedAck);
+ 				                                                                                ^
+
+WARNING:LONG_LINE: line length of 134 exceeds 100 columns
+#99: FILE: drivers/staging/vt6655/rxtx.c:332:
++				uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wFB_Opt0[FB_RATE0][wRate-RATE_18M], bNeedAck);
+
+CHECK:SPACING: spaces preferred around that '-' (ctx:VxV)
+#99: FILE: drivers/staging/vt6655/rxtx.c:332:
++				uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wFB_Opt0[FB_RATE0][wRate-RATE_18M], bNeedAck);
+ 				                                                                                ^
+
+WARNING:LONG_LINE: line length of 134 exceeds 100 columns
+#101: FILE: drivers/staging/vt6655/rxtx.c:334:
++				uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wFB_Opt1[FB_RATE0][wRate-RATE_18M], bNeedAck);
+
+CHECK:SPACING: spaces preferred around that '-' (ctx:VxV)
+#101: FILE: drivers/staging/vt6655/rxtx.c:334:
++				uNextPktTime = s_uGetTxRsvTime(pDevice, byPktType, len, wFB_Opt1[FB_RATE0][wRate-RATE_18M], bNeedAck);
+ 				                                                                                ^
+
+total: 0 errors, 4 warnings, 8 checks, 77 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b03ee7b2b886 ("Staging: vt6655: Eliminate nested if else") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit dacc4e3acf54 ("mlxsw: spectrum: Treat IPv6 link-local SIP as an exception") has no obvious style problems and is ready for submission.

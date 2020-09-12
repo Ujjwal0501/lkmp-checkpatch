@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f4617be35b4b ("arm64: kpti: Add KRYO{3, 4}XX silver CPU cores to kpti safelist") has no obvious style problems and is ready for submission.

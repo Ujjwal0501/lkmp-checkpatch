@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit e8224bfe7729 ("net_failover: fixed rollback in net_failover_open()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 100 lines checked
+
+Commit 7831112eded6 ("drm/sun4i: de2: Don't return de2_fmt_info struct") has no obvious style problems and is ready for submission.

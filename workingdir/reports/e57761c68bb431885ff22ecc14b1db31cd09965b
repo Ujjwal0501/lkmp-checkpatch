@@ -1,0 +1,14 @@
+ERROR:OPEN_BRACE: that open brace { should be on the previous line
+#28: FILE: drivers/gpu/drm/amd/powerplay/amdgpu_smu.c:199:
++	if (smu->smc_fw_if_version && smu->smc_fw_version)
++	{
+
+total: 1 errors, 0 warnings, 101 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e57761c68bb4 ("drm/amdgpu: cache smu fw version info") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

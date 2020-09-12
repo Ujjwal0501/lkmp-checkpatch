@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 36 lines checked
+
+Commit daf250f89f4c ("mt76: mt7663: keep Rx filters as the default") has no obvious style problems and is ready for submission.

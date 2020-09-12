@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit fa99ce828291 ("perf util: Fix potential SEGFAULT in put_tracepoints_path error path") has no obvious style problems and is ready for submission.

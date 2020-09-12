@@ -1,0 +1,165 @@
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#30: FILE: drivers/clk/imx/clk-imx8mm.c:447:
++	hws[IMX8MM_CLK_ENET_AXI] = imx8m_clk_hw_composite_bus("enet_axi", imx8mm_enet_axi_sels, base + 0x8880);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#39: FILE: drivers/clk/imx/clk-imx8mm.c:449:
++	hws[IMX8MM_CLK_VPU_BUS] = imx8m_clk_hw_composite_bus("vpu_bus", imx8mm_vpu_bus_sels, base + 0x8980);
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#40: FILE: drivers/clk/imx/clk-imx8mm.c:450:
++	hws[IMX8MM_CLK_DISP_AXI] = imx8m_clk_hw_composite_bus("disp_axi", imx8mm_disp_axi_sels, base + 0x8a00);
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#41: FILE: drivers/clk/imx/clk-imx8mm.c:451:
++	hws[IMX8MM_CLK_DISP_APB] = imx8m_clk_hw_composite_bus("disp_apb", imx8mm_disp_apb_sels, base + 0x8a80);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#42: FILE: drivers/clk/imx/clk-imx8mm.c:452:
++	hws[IMX8MM_CLK_DISP_RTRM] = imx8m_clk_hw_composite_bus("disp_rtrm", imx8mm_disp_rtrm_sels, base + 0x8b00);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#43: FILE: drivers/clk/imx/clk-imx8mm.c:453:
++	hws[IMX8MM_CLK_USB_BUS] = imx8m_clk_hw_composite_bus("usb_bus", imx8mm_usb_bus_sels, base + 0x8b80);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#44: FILE: drivers/clk/imx/clk-imx8mm.c:454:
++	hws[IMX8MM_CLK_GPU_AXI] = imx8m_clk_hw_composite_bus("gpu_axi", imx8mm_gpu_axi_sels, base + 0x8c00);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#45: FILE: drivers/clk/imx/clk-imx8mm.c:455:
++	hws[IMX8MM_CLK_GPU_AHB] = imx8m_clk_hw_composite_bus("gpu_ahb", imx8mm_gpu_ahb_sels, base + 0x8c80);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#52: FILE: drivers/clk/imx/clk-imx8mm.c:461:
++	hws[IMX8MM_CLK_AUDIO_AHB] = imx8m_clk_hw_composite_bus("audio_ahb", imx8mm_audio_ahb_sels, base + 0x9100);
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#71: FILE: drivers/clk/imx/clk-imx8mn.c:435:
++	hws[IMX8MN_CLK_ENET_AXI] = imx8m_clk_hw_composite_bus("enet_axi", imx8mn_enet_axi_sels, base + 0x8880);
+
+WARNING:LONG_LINE: line length of 125 exceeds 100 columns
+#72: FILE: drivers/clk/imx/clk-imx8mn.c:436:
++	hws[IMX8MN_CLK_NAND_USDHC_BUS] = imx8m_clk_hw_composite_bus("nand_usdhc_bus", imx8mn_nand_usdhc_sels, base + 0x8900);
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#73: FILE: drivers/clk/imx/clk-imx8mn.c:437:
++	hws[IMX8MN_CLK_DISP_AXI] = imx8m_clk_hw_composite_bus("disp_axi", imx8mn_disp_axi_sels, base + 0x8a00);
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#74: FILE: drivers/clk/imx/clk-imx8mn.c:438:
++	hws[IMX8MN_CLK_DISP_APB] = imx8m_clk_hw_composite_bus("disp_apb", imx8mn_disp_apb_sels, base + 0x8a80);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#75: FILE: drivers/clk/imx/clk-imx8mn.c:439:
++	hws[IMX8MN_CLK_USB_BUS] = imx8m_clk_hw_composite_bus("usb_bus", imx8mn_usb_bus_sels, base + 0x8b80);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#76: FILE: drivers/clk/imx/clk-imx8mn.c:440:
++	hws[IMX8MN_CLK_GPU_AXI] = imx8m_clk_hw_composite_bus("gpu_axi", imx8mn_gpu_axi_sels, base + 0x8c00);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#77: FILE: drivers/clk/imx/clk-imx8mn.c:441:
++	hws[IMX8MN_CLK_GPU_AHB] = imx8m_clk_hw_composite_bus("gpu_ahb", imx8mn_gpu_ahb_sels, base + 0x8c80);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#82: FILE: drivers/clk/imx/clk-imx8mn.c:445:
++	hws[IMX8MN_CLK_AUDIO_AHB] = imx8m_clk_hw_composite_bus("audio_ahb", imx8mn_audio_ahb_sels, base + 0x9100);
+
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#95: FILE: drivers/clk/imx/clk-imx8mp.c:566:
++	hws[IMX8MP_CLK_ENET_AXI] = imx8m_clk_hw_composite_bus("enet_axi", imx8mp_enet_axi_sels, ccm_base + 0x8880);
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#104: FILE: drivers/clk/imx/clk-imx8mp.c:568:
++	hws[IMX8MP_CLK_VPU_BUS] = imx8m_clk_hw_composite_bus("vpu_bus", imx8mp_vpu_bus_sels, ccm_base + 0x8980);
+
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#105: FILE: drivers/clk/imx/clk-imx8mp.c:569:
++	hws[IMX8MP_CLK_MEDIA_AXI] = imx8m_clk_hw_composite_bus("media_axi", imx8mp_media_axi_sels, ccm_base + 0x8a00);
+
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#106: FILE: drivers/clk/imx/clk-imx8mp.c:570:
++	hws[IMX8MP_CLK_MEDIA_APB] = imx8m_clk_hw_composite_bus("media_apb", imx8mp_media_apb_sels, ccm_base + 0x8a80);
+
+WARNING:LONG_LINE: line length of 116 exceeds 100 columns
+#107: FILE: drivers/clk/imx/clk-imx8mp.c:571:
++	hws[IMX8MP_CLK_HDMI_APB] = imx8m_clk_hw_composite_bus("hdmi_apb", imx8mp_media_apb_sels, ccm_base + 0x8b00);
+
+WARNING:LONG_LINE: line length of 116 exceeds 100 columns
+#108: FILE: drivers/clk/imx/clk-imx8mp.c:572:
++	hws[IMX8MP_CLK_HDMI_AXI] = imx8m_clk_hw_composite_bus("hdmi_axi", imx8mp_media_axi_sels, ccm_base + 0x8b80);
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#109: FILE: drivers/clk/imx/clk-imx8mp.c:573:
++	hws[IMX8MP_CLK_GPU_AXI] = imx8m_clk_hw_composite_bus("gpu_axi", imx8mp_gpu_axi_sels, ccm_base + 0x8c00);
+
+WARNING:LONG_LINE: line length of 112 exceeds 100 columns
+#110: FILE: drivers/clk/imx/clk-imx8mp.c:574:
++	hws[IMX8MP_CLK_GPU_AHB] = imx8m_clk_hw_composite_bus("gpu_ahb", imx8mp_gpu_ahb_sels, ccm_base + 0x8c80);
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#115: FILE: drivers/clk/imx/clk-imx8mp.c:577:
++	hws[IMX8MP_CLK_ML_AXI] = imx8m_clk_hw_composite_bus("ml_axi", imx8mp_ml_axi_sels, ccm_base + 0x8e00);
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#116: FILE: drivers/clk/imx/clk-imx8mp.c:578:
++	hws[IMX8MP_CLK_ML_AHB] = imx8m_clk_hw_composite_bus("ml_ahb", imx8mp_ml_ahb_sels, ccm_base + 0x8e80);
+
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#121: FILE: drivers/clk/imx/clk-imx8mp.c:581:
++	hws[IMX8MP_CLK_AUDIO_AHB] = imx8m_clk_hw_composite_bus("audio_ahb", imx8mp_audio_ahb_sels, ccm_base + 0x9100);
+
+WARNING:LONG_LINE: line length of 136 exceeds 100 columns
+#122: FILE: drivers/clk/imx/clk-imx8mp.c:582:
++	hws[IMX8MP_CLK_MIPI_DSI_ESC_RX] = imx8m_clk_hw_composite_bus("mipi_dsi_esc_rx", imx8mp_mipi_dsi_esc_rx_sels, ccm_base + 0x9200);
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#143: FILE: drivers/clk/imx/clk-imx8mq.c:435:
++	hws[IMX8MQ_CLK_ENET_AXI] = imx8m_clk_hw_composite_bus("enet_axi", imx8mq_enet_axi_sels, base + 0x8880);
+
+WARNING:LONG_LINE: line length of 125 exceeds 100 columns
+#144: FILE: drivers/clk/imx/clk-imx8mq.c:436:
++	hws[IMX8MQ_CLK_NAND_USDHC_BUS] = imx8m_clk_hw_composite_bus("nand_usdhc_bus", imx8mq_nand_usdhc_sels, base + 0x8900);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#145: FILE: drivers/clk/imx/clk-imx8mq.c:437:
++	hws[IMX8MQ_CLK_VPU_BUS] = imx8m_clk_hw_composite_bus("vpu_bus", imx8mq_vpu_bus_sels, base + 0x8980);
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#146: FILE: drivers/clk/imx/clk-imx8mq.c:438:
++	hws[IMX8MQ_CLK_DISP_AXI] = imx8m_clk_hw_composite_bus("disp_axi", imx8mq_disp_axi_sels, base + 0x8a00);
+
+WARNING:LONG_LINE: line length of 111 exceeds 100 columns
+#147: FILE: drivers/clk/imx/clk-imx8mq.c:439:
++	hws[IMX8MQ_CLK_DISP_APB] = imx8m_clk_hw_composite_bus("disp_apb", imx8mq_disp_apb_sels, base + 0x8a80);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#148: FILE: drivers/clk/imx/clk-imx8mq.c:440:
++	hws[IMX8MQ_CLK_DISP_RTRM] = imx8m_clk_hw_composite_bus("disp_rtrm", imx8mq_disp_rtrm_sels, base + 0x8b00);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#149: FILE: drivers/clk/imx/clk-imx8mq.c:441:
++	hws[IMX8MQ_CLK_USB_BUS] = imx8m_clk_hw_composite_bus("usb_bus", imx8mq_usb_bus_sels, base + 0x8b80);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#150: FILE: drivers/clk/imx/clk-imx8mq.c:442:
++	hws[IMX8MQ_CLK_GPU_AXI] = imx8m_clk_hw_composite_bus("gpu_axi", imx8mq_gpu_axi_sels, base + 0x8c00);
+
+WARNING:LONG_LINE: line length of 108 exceeds 100 columns
+#151: FILE: drivers/clk/imx/clk-imx8mq.c:443:
++	hws[IMX8MQ_CLK_GPU_AHB] = imx8m_clk_hw_composite_bus("gpu_ahb", imx8mq_gpu_ahb_sels, base + 0x8c80);
+
+WARNING:LONG_LINE: line length of 114 exceeds 100 columns
+#159: FILE: drivers/clk/imx/clk-imx8mq.c:450:
++	hws[IMX8MQ_CLK_AUDIO_AHB] = imx8m_clk_hw_composite_bus("audio_ahb", imx8mq_audio_ahb_sels, base + 0x9100);
+
+total: 0 errors, 39 warnings, 122 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit b1657ad708f7 ("clk: imx: use imx8m_clk_hw_composite_bus for i.MX8M bus clk slice") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

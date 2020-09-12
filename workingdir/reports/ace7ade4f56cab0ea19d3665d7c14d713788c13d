@@ -1,0 +1,41 @@
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#36: FILE: fs/nfsd/nfs4state.c:2445:
++	seq_printf(s, "- ");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#38: FILE: fs/nfsd/nfs4state.c:2447:
++	seq_printf(s, ": { type: open, ");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#47: FILE: fs/nfsd/nfs4state.c:2480:
++	seq_printf(s, "- ");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#49: FILE: fs/nfsd/nfs4state.c:2482:
++	seq_printf(s, ": { type: lock, ");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#58: FILE: fs/nfsd/nfs4state.c:2511:
++	seq_printf(s, "- ");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#60: FILE: fs/nfsd/nfs4state.c:2513:
++	seq_printf(s, ": { type: deleg, ");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#69: FILE: fs/nfsd/nfs4state.c:2535:
++	seq_printf(s, "- ");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#71: FILE: fs/nfsd/nfs4state.c:2537:
++	seq_printf(s, ": { type: layout, ");
+
+total: 0 errors, 8 warnings, 51 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ace7ade4f56c ("nfsd4: common stateid-printing code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit ac44d672787f ("MIPS: define more Loongson CP0.Config6 and CP0.Diag feature bits") has no obvious style problems and is ready for submission.

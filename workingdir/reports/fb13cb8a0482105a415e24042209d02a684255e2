@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 72 lines checked
+
+Commit fb13cb8a0482 ("printk: Introduce kmsg_dump_reason_str()") has no obvious style problems and is ready for submission.

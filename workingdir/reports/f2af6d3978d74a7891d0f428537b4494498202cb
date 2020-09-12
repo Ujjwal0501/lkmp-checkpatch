@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 128 lines checked
+
+Commit f2af6d3978d7 ("virtio-mem: Allow to specify an ACPI PXM as nid") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 125 exceeds 100 columns
+#28: FILE: arch/powerpc/tools/head_check.sh:49:
++$nm "$vmlinux" | grep -e " [TA] _stext$" -e " t start_first_256B$" -e " a text_start$" -e " t start_text$" > .tmp_symbols.txt
+
+total: 0 errors, 1 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 331aa46aaf51 ("powerpc/head_check: Avoid broken pipe") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 326 lines checked
+
+Commit bc4b295e87a8 ("s390/ap: introduce new ap function ap_get_qdev()") has no obvious style problems and is ready for submission.

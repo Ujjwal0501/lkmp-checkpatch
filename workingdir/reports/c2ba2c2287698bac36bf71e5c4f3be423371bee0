@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit c2ba2c228769 ("net/mlx5: DR: Fix cast to restricted __be32") has no obvious style problems and is ready for submission.

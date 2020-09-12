@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 102 lines checked
+
+Commit b746046238bb ("objtool: Better handle IRET") has no obvious style problems and is ready for submission.

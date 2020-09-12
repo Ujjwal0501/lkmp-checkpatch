@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 120 lines checked
+
+Commit fd5a5f221304 ("nvme-fc: Update header and host for common definitions for LS handling") has no obvious style problems and is ready for submission.

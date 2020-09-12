@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit f73531f0257f ("arm64/cpufeature: Drop open encodings while extracting parange") has no obvious style problems and is ready for submission.

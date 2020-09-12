@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit b8215dce7dfd ("selftests/bpf, flow_dissector: Close TAP device FD after the test") has no obvious style problems and is ready for submission.

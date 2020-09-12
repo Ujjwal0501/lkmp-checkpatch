@@ -1,0 +1,47 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'to'
+#36: 
+     us which cell it's notifying and can't see that a change made to to
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_cell *' should also have an identifier name
+#148: FILE: fs/afs/internal.h:1388:
++extern int afs_cell_detect_alias(struct afs_cell *, struct key *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct key *' should also have an identifier name
+#148: FILE: fs/afs/internal.h:1388:
++extern int afs_cell_detect_alias(struct afs_cell *, struct key *);
+
+WARNING:INDENTED_LABEL: labels should not be indented
+#242: FILE: fs/afs/super.c:370:
++	reget_key:
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#279: 
+new file mode 100644
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#314: FILE: fs/afs/vl_alias.c:31:
++	_leave(" = %px", volume);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#335: FILE: fs/afs/vl_alias.c:52:
++		const struct sockaddr_in *b = &srx_b->transport.sin;
++		addr_a = ntohl(a->sin_addr.s_addr);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#349: FILE: fs/afs/vl_alias.c:66:
++		const struct sockaddr_in6 *b = &srx_b->transport.sin6;
++		diff = memcmp(&a->sin6_addr, &b->sin6_addr, 16);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#359: FILE: fs/afs/vl_alias.c:76:
++		BUG();
+
+total: 0 errors, 9 warnings, 439 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8a070a964877 ("afs: Detect cell aliases 1 - Cells with root volumes") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

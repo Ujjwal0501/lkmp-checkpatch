@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit e9e7123a6665 ("drm/amd/display: Add HW rotation cursor changes to dcn10") has no obvious style problems and is ready for submission.

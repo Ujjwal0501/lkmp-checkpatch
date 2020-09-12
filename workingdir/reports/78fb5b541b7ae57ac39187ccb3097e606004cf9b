@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 78fb5b541b7a ("mac80211: Fix dropping broadcast packets in 802.11 encap") has no obvious style problems and is ready for submission.

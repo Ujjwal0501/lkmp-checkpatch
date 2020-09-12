@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 6d2e16a3181b ("clocksource: dw_apb_timer_of: Fix missing clockevent timers") has no obvious style problems and is ready for submission.

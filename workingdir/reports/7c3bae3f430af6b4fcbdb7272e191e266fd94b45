@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 54 lines checked
+
+Commit 7c3bae3f430a ("media: v4l2-ctrls: v4l2_ctrl_g/s_ctrl*(): don't continue when WARN_ON") has no obvious style problems and is ready for submission.

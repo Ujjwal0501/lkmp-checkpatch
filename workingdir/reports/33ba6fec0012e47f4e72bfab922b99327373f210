@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 33ba6fec0012 ("mmc: mmci_sdmmc: fix power on issue due to pwr_reg initialization") has no obvious style problems and is ready for submission.

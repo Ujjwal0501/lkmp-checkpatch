@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 89 lines checked
+
+Commit dab3aff7b1a5 ("drm/i915: Remove cnl pre-prod workarounds") has no obvious style problems and is ready for submission.

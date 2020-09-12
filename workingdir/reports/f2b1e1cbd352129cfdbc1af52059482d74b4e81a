@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit f2b1e1cbd352 ("ASoC: adau7118: Mark the ADAU7118 reset register as volatile") has no obvious style problems and is ready for submission.

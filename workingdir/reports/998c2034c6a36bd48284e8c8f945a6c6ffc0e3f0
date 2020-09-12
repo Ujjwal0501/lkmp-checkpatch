@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit 998c2034c6a3 ("xen: Move xen_setup_callback_vector() definition to include/xen/hvm.h") has no obvious style problems and is ready for submission.

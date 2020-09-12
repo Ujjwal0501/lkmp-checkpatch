@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 31 lines checked
+
+Commit fdb1b5e08929 ("Revert "docs: sysctl/kernel: document ngroups_max"") has no obvious style problems and is ready for submission.

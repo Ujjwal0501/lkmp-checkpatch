@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 013b2deba9a6 ("uprobes: ensure that uprobe->offset and ->ref_ctr_offset are properly aligned") has no obvious style problems and is ready for submission.

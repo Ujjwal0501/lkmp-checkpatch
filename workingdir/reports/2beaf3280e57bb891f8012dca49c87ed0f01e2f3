@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#68: FILE: include/linux/wait.h:1152:
++bool try_invoke_on_locked_down_task(struct task_struct *p, bool (*func)(struct task_struct *t, void *arg), void *arg);
+
+WARNING:LONG_LINE: line length of 117 exceeds 100 columns
+#106: FILE: kernel/sched/core.c:2662:
++bool try_invoke_on_locked_down_task(struct task_struct *p, bool (*func)(struct task_struct *t, void *arg), void *arg)
+
+total: 0 errors, 2 warnings, 66 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2beaf3280e57 ("sched/core: Add function to sample state of locked-down task") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

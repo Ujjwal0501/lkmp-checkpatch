@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 704 lines checked
+
+Commit f54736925a4f ("i2c: npcm7xx: Add support for slave mode for Nuvoton") has no obvious style problems and is ready for submission.

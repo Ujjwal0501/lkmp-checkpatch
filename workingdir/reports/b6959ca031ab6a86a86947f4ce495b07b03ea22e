@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit b6959ca031ab ("media: ti-vpe: cal: use runtime_resume for errata handling") has no obvious style problems and is ready for submission.

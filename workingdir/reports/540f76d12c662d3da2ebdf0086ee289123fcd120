@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 64 lines checked
+
+Commit 540f76d12c66 ("arm64: cpufeature: Add CPU capability for AArch32 EL1 support") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit 7f2a17369f04 ("mtd: rawnand: nandsim: Keep track of the created debugfs entries") has no obvious style problems and is ready for submission.

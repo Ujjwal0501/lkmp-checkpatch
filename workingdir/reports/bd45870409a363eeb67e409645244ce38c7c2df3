@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit bd45870409a3 ("efi/gop: Remove redundant current_fb_base") has no obvious style problems and is ready for submission.

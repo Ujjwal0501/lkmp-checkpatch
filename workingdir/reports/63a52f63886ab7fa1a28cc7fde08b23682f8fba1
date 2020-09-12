@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 58 lines checked
+
+Commit 63a52f63886a ("rtc: max77686: Use single-byte writes on MAX77620") has no obvious style problems and is ready for submission.

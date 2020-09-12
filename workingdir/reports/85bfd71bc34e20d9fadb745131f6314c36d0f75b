@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 19 lines checked
+
+Commit 85bfd71bc34e ("xprtrdma: Fix double-free in rpcrdma_ep_create()") has no obvious style problems and is ready for submission.

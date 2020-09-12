@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit 1392d37018d4 ("block: introduce blk_req_zone_write_trylock") has no obvious style problems and is ready for submission.

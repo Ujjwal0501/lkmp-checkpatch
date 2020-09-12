@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 955cbe91bcf7 ("selftests/net: rxtimestamp: fix clang issues for target arch PowerPC") has no obvious style problems and is ready for submission.

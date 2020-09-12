@@ -1,0 +1,17 @@
+WARNING:LONG_LINE_STRING: line length of 181 exceeds 100 columns
+#126: FILE: tools/testing/selftests/net/fib_nexthops.sh:968:
++	check_route6 "2001:db8:101::1" "2001:db8:101::1 nhid 122 metric 1024 pref medium nexthop via 2001:db8:91::2 dev veth1 weight 1 nexthop via 2001:db8:91::3 dev veth1 weight 1"
+
+WARNING:LONG_LINE_STRING: line length of 142 exceeds 100 columns
+#198: FILE: tools/testing/selftests/net/fib_nexthops.sh:1040:
++	check_route "172.16.101.1" "172.16.101.1 nhid 122 nexthop via 172.16.1.2 dev veth1 weight 1 nexthop via 172.16.1.2 dev veth1 weight 1"
+
+total: 0 errors, 2 warnings, 216 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4dddb5be136a ("selftests: net: add new testcases for nexthop API compat mode sysctl") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

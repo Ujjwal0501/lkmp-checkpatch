@@ -1,0 +1,13 @@
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#268: FILE: arch/x86/xen/enlighten_pv.c:619:
++	TRAP_ENTRY(exc_double_fault,			true  ),
+
+total: 1 errors, 0 warnings, 203 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit c29c775a554f ("x86/entry: Convert double fault exception to IDTENTRY_DF") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

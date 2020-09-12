@@ -1,0 +1,19 @@
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#116: FILE: drivers/firmware/efi/libstub/efi-stub.c:370:
++		if (efi_novamap) {
+ 			continue;
+ 		}
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#146: FILE: drivers/firmware/efi/libstub/efistub.h:53:
++	if (!efi_quiet) efi_printk("EFI stub: "msg);	\
+
+total: 1 errors, 1 warnings, 128 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 980771f61662 ("efi/libstub: Drop __pure getters for EFI stub options") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

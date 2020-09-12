@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit 879c93f7062f ("dt-bindings: pinctrl: Document 7211 compatible for brcm, bcm2835-gpio.txt") has no obvious style problems and is ready for submission.

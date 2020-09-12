@@ -1,0 +1,43 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#51: 
+new file mode 100644
+
+WARNING:MACRO_WITH_FLOW_CONTROL: Macros with flow control statements should be avoided
+#910: FILE: fs/pstore/zone.c:855:
++#define check_size(name, size) {					\
++		if (info->name > 0 && info->name < (size)) {		\
++			pr_err(#name " must be over %d\n", (size));	\
++			return -EINVAL;					\
++		}							\
++		if (info->name & (size - 1)) {				\
++			pr_err(#name " must be a multiple of %d\n",	\
++					(size));			\
++			return -EINVAL;					\
++		}							\
++	}
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#972: FILE: fs/pstore/zone.c:917:
++		pr_cont(" kmsg(%s",
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#975: FILE: fs/pstore/zone.c:920:
++			pr_cont(",panic_write");
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#976: FILE: fs/pstore/zone.c:921:
++		pr_cont(")");
+
+WARNING:LOGGING_CONTINUATION: Avoid logging continuation uses where feasible
+#978: FILE: fs/pstore/zone.c:923:
++	pr_cont("\n");
+
+total: 0 errors, 6 warnings, 1045 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d26c3321fe18 ("pstore/zone: Introduce common layer to manage storage zones") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

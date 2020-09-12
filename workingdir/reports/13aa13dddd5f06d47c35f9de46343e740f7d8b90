@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 68 lines checked
+
+Commit 13aa13dddd5f ("RDMA/hns: Change variables representing quantity to unsigned") has no obvious style problems and is ready for submission.

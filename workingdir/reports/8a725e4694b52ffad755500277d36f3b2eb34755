@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 70 lines checked
+
+Commit 8a725e4694b5 ("device-dax: add memory via add_memory_driver_managed()") has no obvious style problems and is ready for submission.

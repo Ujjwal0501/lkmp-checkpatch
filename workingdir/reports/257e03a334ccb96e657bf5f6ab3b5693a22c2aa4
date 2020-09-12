@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 17 lines checked
+
+Commit 257e03a334cc ("platform/x86: dell-laptop: don't register micmute LED if there is no token") has no obvious style problems and is ready for submission.

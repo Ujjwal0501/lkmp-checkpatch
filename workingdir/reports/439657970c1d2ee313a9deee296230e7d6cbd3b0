@@ -1,0 +1,19 @@
+ERROR:OPEN_BRACE: that open brace { should be on the previous line
+#38: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:762:
++	if (ras_cmd->if_version > RAS_TA_HOST_IF_VER)
++	{
+
+ERROR:ELSE_AFTER_BRACE: else should follow close brace '}'
+#53: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:777:
++		}
++		else if (ras_cmd->ras_out_message.flags.reg_access_failure_flag)
+
+total: 2 errors, 0 warnings, 41 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 439657970c1d ("drm/amdgpu: update RAS sequence to parse TA flags") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

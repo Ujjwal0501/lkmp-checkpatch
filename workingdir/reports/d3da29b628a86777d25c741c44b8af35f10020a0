@@ -1,0 +1,37 @@
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#10: 
+There are three parts of each, SPI and I²C, driver spread over the code under
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string vendor "mcp" appears un-documented -- check ./Documentation/devicetree/bindings/vendor-prefixes.yaml
+#368: FILE: drivers/pinctrl/pinctrl-mcp23s08.c:777:
++		.compatible = "mcp,mcp23008",
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string vendor "mcp" appears un-documented -- check ./Documentation/devicetree/bindings/vendor-prefixes.yaml
+#372: FILE: drivers/pinctrl/pinctrl-mcp23s08.c:781:
++		.compatible = "mcp,mcp23017",
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#451: FILE: drivers/pinctrl/pinctrl-mcp23s08.c:883:
++	unsigned		ngpio;
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#539: FILE: drivers/pinctrl/pinctrl-mcp23s08.c:1012:
++		status = mcp23s08_probe_one(data->mcp[addr], dev, 0x40 | (addr << 1), type, -1, addr);
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string vendor "mcp" appears un-documented -- check ./Documentation/devicetree/bindings/vendor-prefixes.yaml
+#563: FILE: drivers/pinctrl/pinctrl-mcp23s08.c:1047:
++		.compatible = "mcp,mcp23s08",
+
+WARNING:UNDOCUMENTED_DT_STRING: DT compatible string vendor "mcp" appears un-documented -- check ./Documentation/devicetree/bindings/vendor-prefixes.yaml
+#567: FILE: drivers/pinctrl/pinctrl-mcp23s08.c:1051:
++		.compatible = "mcp,mcp23s17",
+
+total: 0 errors, 7 warnings, 539 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d3da29b628a8 ("pinctrl: mcp23s08: Consolidate SPI and I²C code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

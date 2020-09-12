@@ -1,0 +1,13 @@
+ERROR:INITIALISED_STATIC: do not initialise statics to false
+#27: FILE: drivers/usb/gadget/udc/net2272.c:57:
++static bool use_dma = false;
+
+total: 1 errors, 0 warnings, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fe4ff11798df ("usb: gadget: net2272: use false for 'use_dma'") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

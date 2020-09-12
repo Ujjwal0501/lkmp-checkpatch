@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit dd03bcaad0b1 ("KVM: X86: Force ASYNC_PF_PER_VCPU to be power of two") has no obvious style problems and is ready for submission.

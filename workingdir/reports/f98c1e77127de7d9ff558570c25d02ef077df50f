@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 97 lines checked
+
+Commit f98c1e77127d ("KVM: VMX: Add proper cache tracking for CR4") has no obvious style problems and is ready for submission.

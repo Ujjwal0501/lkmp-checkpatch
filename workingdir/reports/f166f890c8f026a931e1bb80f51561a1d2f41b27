@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 191 lines checked
+
+Commit f166f890c8f0 ("net: ethernet: fec: Replace interrupt driven MDIO with polled IO") has no obvious style problems and is ready for submission.

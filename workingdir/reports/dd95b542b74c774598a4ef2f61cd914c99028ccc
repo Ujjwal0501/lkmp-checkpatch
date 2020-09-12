@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 56 lines checked
+
+Commit dd95b542b74c ("ARM: dts: berlin*: Fix up the SDHCI node names") has no obvious style problems and is ready for submission.

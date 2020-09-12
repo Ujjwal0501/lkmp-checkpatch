@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 1f15980525c6 ("ARM: dts: dra7-ipu-dsp-common: Add watchdog timers to IPU and DSP nodes") has no obvious style problems and is ready for submission.

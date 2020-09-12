@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 128 lines checked
+
+Commit d367a868e46b ("xfs: merge the ->diff_items defer op into ->create_intent") has no obvious style problems and is ready for submission.

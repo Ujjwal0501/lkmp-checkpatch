@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 266 lines checked
+
+Commit a871be6b8eee ("cpuidle: Convert Qualcomm SPM driver to a generic CPUidle driver") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit 802dcc7fc5ec ("RDMA/mlx5: Support TX port affinity for VF drivers in LAG mode") has no obvious style problems and is ready for submission.

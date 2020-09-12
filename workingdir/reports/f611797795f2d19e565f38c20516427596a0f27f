@@ -1,0 +1,29 @@
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#32: FILE: drivers/staging/media/atomisp/pci/isp/kernels/ref/ref_1.0/ia_css_ref.host.c:55:
++    const struct ia_css_frame * const *ref_frames,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#45: FILE: drivers/staging/media/atomisp/pci/isp/kernels/ref/ref_1.0/ia_css_ref.host.h:34:
++    const struct ia_css_frame * const *ref_frames,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#58: FILE: drivers/staging/media/atomisp/pci/isp/kernels/tnr/tnr_1.0/ia_css_tnr.host.c:98:
++    const struct ia_css_frame * const *frames)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#71: FILE: drivers/staging/media/atomisp/pci/isp/kernels/tnr/tnr_1.0/ia_css_tnr.host.h:50:
++    const struct ia_css_frame * const *frames);$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#84: FILE: drivers/staging/media/atomisp/pci/runtime/debug/src/ia_css_debug.c:2665:
++    const struct ia_css_frame *frame,$
+
+total: 0 errors, 5 warnings, 0 checks, 61 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f611797795f2 ("media: atomisp: drop a cast for a const argument") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

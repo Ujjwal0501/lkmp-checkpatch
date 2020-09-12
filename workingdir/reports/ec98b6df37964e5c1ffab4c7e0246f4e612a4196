@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#75: FILE: tools/perf/builtin-script.c:411:
++	    evsel__do_check_stype(evsel, PERF_SAMPLE_ADDR, "ADDR", PERF_OUTPUT_ADDR, allow_user_set))
+
+total: 0 errors, 1 warnings, 117 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ec98b6df3796 ("perf script: Rename perf_evsel__*() operating on 'struct evsel *' to evsel__*()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

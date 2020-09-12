@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 58 lines checked
+
+Commit bac7ca7b985b ("powerpc: module_[32|64].c: replace swap function with built-in one") has no obvious style problems and is ready for submission.

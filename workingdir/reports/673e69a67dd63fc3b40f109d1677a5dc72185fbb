@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 208 lines checked
+
+Commit 673e69a67dd6 ("net: dsa: b53: Rename num_arl_entries to num_arl_bins") has no obvious style problems and is ready for submission.

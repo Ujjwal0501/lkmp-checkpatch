@@ -1,0 +1,29 @@
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'cpp_daisy', this function's name, in a string
+#41: FILE: drivers/parport/daisy.c:318:
++		pr_debug("%s: cpp_daisy: aa5500ff(%02x)\n", port->name, s);
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'cpp_daisy', this function's name, in a string
+#51: FILE: drivers/parport/daisy.c:328:
++		pr_debug("%s: cpp_daisy: aa5500ff87(%02x)\n", port->name, s);
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'cpp_mux', this function's name, in a string
+#60: FILE: drivers/parport/daisy.c:363:
++		pr_debug("%s: cpp_mux: aa55f00f52ad%02x(%02x)\n",
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'assign_addrs', this function's name, in a string
+#70: FILE: drivers/parport/daisy.c:449:
++		pr_debug("%s: assign_addrs: aa5500ff(%02x)\n", port->name, s);
+
+WARNING:EMBEDDED_FUNCTION_NAME: Prefer using '"%s...", __func__' to using 'assign_addrs', this function's name, in a string
+#80: FILE: drivers/parport/daisy.c:459:
++		pr_debug("%s: assign_addrs: aa5500ff87(%02x)\n", port->name, s);
+
+total: 0 errors, 5 warnings, 65 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 88c5cbdef8d2 ("parport: daisy: Convert DPRINTK to pr_debug") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit d3f1cbd29fa6 ("ptp: Add adjust_phase to ptp_clock_caps capability.") has no obvious style problems and is ready for submission.

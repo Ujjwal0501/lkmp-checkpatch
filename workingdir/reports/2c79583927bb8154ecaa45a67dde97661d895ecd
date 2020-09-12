@@ -1,0 +1,17 @@
+WARNING:LONG_LINE_STRING: line length of 101 exceeds 100 columns
+#72: FILE: tools/testing/selftests/kmod/kmod.sh:526:
++	echo "0012 x $(get_test_count 0012) - test /proc/modules address visibility under CAP_SYSLOG"
+
+WARNING:LONG_LINE_STRING: line length of 104 exceeds 100 columns
+#73: FILE: tools/testing/selftests/kmod/kmod.sh:527:
++	echo "0013 x $(get_test_count 0013) - test /sys/module/*/sections/* visibility under CAP_SYSLOG"
+
+total: 0 errors, 2 warnings, 54 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2c79583927bb ("selftests: kmod: Add module address visibility test") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

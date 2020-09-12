@@ -1,0 +1,184 @@
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#97: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:404:
++                                          struct drm_file *file,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#97: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:404:
++                                          struct drm_file *file,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#98: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:405:
++                                          uint64_t in_syncobjs_addr,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#98: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:405:
++                                          uint64_t in_syncobjs_addr,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#99: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:406:
++                                          uint32_t nr_in_syncobjs,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#99: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:406:
++                                          uint32_t nr_in_syncobjs,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#100: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:407:
++                                          size_t syncobj_stride,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#100: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:407:
++                                          size_t syncobj_stride,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#101: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:408:
++                                          struct msm_ringbuffer *ring)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#101: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:408:
++                                          struct msm_ringbuffer *ring)$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#109: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:416:
++^I                   GFP_KERNEL | __GFP_NOWARN | __GFP_NORETRY);$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#118: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:425:
++^I^I^I           u64_to_user_ptr(address),$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#119: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:426:
++^I^I^I           min(syncobj_stride, sizeof(syncobj_desc)))) {$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#136: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:443:
++^I^I                             syncobj_desc.point, 0, &fence);$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#169: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:476:
++                               uint32_t nr_syncobjs)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#169: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:476:
++                               uint32_t nr_syncobjs)$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#180: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:487:
++                                                       struct drm_file *file,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#180: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:487:
++                                                       struct drm_file *file,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#181: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:488:
++                                                       uint64_t syncobjs_addr,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#181: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:488:
++                                                       uint64_t syncobjs_addr,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#182: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:489:
++                                                       uint32_t nr_syncobjs,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#182: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:489:
++                                                       uint32_t nr_syncobjs,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#183: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:490:
++                                                       size_t syncobj_stride)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#183: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:490:
++                                                       size_t syncobj_stride)$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#191: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:498:
++^I                          GFP_KERNEL | __GFP_NOWARN | __GFP_NORETRY);$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#199: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:506:
++^I^I^I           u64_to_user_ptr(address),$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#200: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:507:
++^I^I^I           min(syncobj_stride, sizeof(syncobj_desc)))) {$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#215: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:522:
++^I^I^I                            DRIVER_SYNCOBJ_TIMELINE)) {$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#222: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:529:
++^I^I^I^I        GFP_KERNEL);$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#252: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:559:
++                                  uint32_t count, struct dma_fence *fence)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#252: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:559:
++                                  uint32_t count, struct dma_fence *fence)$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#259: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:566:
++^I^I^I                      post_deps[i].chain,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#260: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:567:
++^I^I^I                      fence, post_deps[i].point);$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#264: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:571:
++^I^I^I                          fence);$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#297: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:650:
++^I^I                                  args->in_syncobjs,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#298: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:651:
++^I^I                                  args->nr_in_syncobjs,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#299: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:652:
++^I^I                                  args->syncobj_stride, ring);$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#306: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:659:
++^I^I                                args->out_syncobjs,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#307: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:660:
++^I^I                                args->nr_out_syncobjs,$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#308: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:661:
++^I^I                                args->syncobj_stride);$
+
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#328: FILE: drivers/gpu/drm/msm/msm_gem_submit.c:799:
++^I                      submit->fence);$
+
+WARNING:REPEATED_WORD: Possible repeated word: 'to'
+#397: FILE: include/uapi/drm/msm_drm.h:255:
++	__u64 in_syncobjs;    /* in, ptr to to array of drm_msm_gem_submit_syncobj */
+
+WARNING:REPEATED_WORD: Possible repeated word: 'to'
+#398: FILE: include/uapi/drm/msm_drm.h:256:
++	__u64 out_syncobjs;   /* in, ptr to to array of drm_msm_gem_submit_syncobj */
+
+total: 30 errors, 13 warnings, 339 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit ab723b7a992a ("drm/msm: Add syncobj support.") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 29fcb05bbf1a ("bpf: Undo internal BPF_PROBE_MEM in BPF insns dump") has no obvious style problems and is ready for submission.

@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: 'Reviewed-by:' is the preferred signature form
+#10: 
+Reviewed-By: Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
+
+total: 0 errors, 1 warnings, 56 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2b25f81d43b7 ("ASoC: soc-dai: add snd_soc_dai_compr_shutdown()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

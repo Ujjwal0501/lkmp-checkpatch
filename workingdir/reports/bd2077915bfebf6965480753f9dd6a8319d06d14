@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit bd2077915bfe ("spi: tools: Make default_tx/rx and input_tx static") has no obvious style problems and is ready for submission.

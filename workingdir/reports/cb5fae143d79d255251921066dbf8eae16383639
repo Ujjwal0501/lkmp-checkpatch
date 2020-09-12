@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit cb5fae143d79 ("drm/amdgpu: job is secure iff CS is secure (v5)") has no obvious style problems and is ready for submission.

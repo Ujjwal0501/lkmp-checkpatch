@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 71 lines checked
+
+Commit b58bd4c6dfe7 ("hwmon: (lm70) Add support for ACPI") has no obvious style problems and is ready for submission.

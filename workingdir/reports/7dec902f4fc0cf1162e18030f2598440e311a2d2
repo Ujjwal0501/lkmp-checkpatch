@@ -1,0 +1,13 @@
+WARNING:UNKNOWN_COMMIT_ID: Unknown commit id 'd4d0cb741d7b', maybe rebased or not pulled?
+#34: 
+Fixes: d4d0cb741d7b ("net: mscc: ocelot: deal with problematic MAC_ETYPE VCAP IS2 rules")
+
+total: 0 errors, 1 warnings, 0 checks, 28 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7dec902f4fc0 ("net: mscc: ocelot: refine the ocelot_ace_is_problematic_mac_etype function") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

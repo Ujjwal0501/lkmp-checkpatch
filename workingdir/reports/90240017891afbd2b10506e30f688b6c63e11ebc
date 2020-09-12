@@ -1,0 +1,35 @@
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#63: FILE: drivers/staging/media/atomisp/pci/hive_isp_css_common/host/irq.c:258:
++    const enum virq_id^I^I^I^Iirq_ID,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#93: FILE: drivers/staging/media/atomisp/pci/hive_isp_css_common/host/irq.c:341:
++    enum virq_id^I^I^I^I^I*irq_id)$
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#102: FILE: drivers/staging/media/atomisp/pci/hive_isp_css_common/host/irq.c:368:
++		if (IRQ_NESTING_ID[ID] == (enum virq_id)idx) {
+ 			break;
+ 		}
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#120: FILE: drivers/staging/media/atomisp/pci/hive_isp_css_common/host/irq.c:433:
++    const enum virq_id^I^Iirq_ID,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#192: FILE: drivers/staging/media/atomisp/pci/hive_isp_css_include/host/irq_public.h:139:
++    const enum virq_id^I^I^I^Iirq_ID,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#211: FILE: drivers/staging/media/atomisp/pci/hive_isp_css_include/host/irq_public.h:167:
++    enum virq_id^I^I^I^I^I*irq_id);$
+
+total: 0 errors, 6 warnings, 0 checks, 217 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 90240017891a ("media: atomisp: do some cleanup at irq_local.h") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

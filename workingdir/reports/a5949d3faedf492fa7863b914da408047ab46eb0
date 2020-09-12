@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit a5949d3faedf ("xfs: force writes to delalloc regions to unwritten") has no obvious style problems and is ready for submission.

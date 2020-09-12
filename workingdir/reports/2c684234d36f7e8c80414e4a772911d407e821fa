@@ -1,0 +1,17 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct address_space *' should also have an identifier name
+#182: FILE: include/linux/pagemap.h:628:
++void page_cache_readahead_unbounded(struct address_space *, struct file *,
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct file *' should also have an identifier name
+#182: FILE: include/linux/pagemap.h:628:
++void page_cache_readahead_unbounded(struct address_space *, struct file *,
+
+total: 0 errors, 2 warnings, 210 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 2c684234d36f ("mm: add page_cache_readahead_unbounded") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

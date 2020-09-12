@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 44 lines checked
+
+Commit 926234f1b843 ("staging: comedi: addi_apci_1564: check INSN_CONFIG_DIGITAL_TRIG shift") has no obvious style problems and is ready for submission.

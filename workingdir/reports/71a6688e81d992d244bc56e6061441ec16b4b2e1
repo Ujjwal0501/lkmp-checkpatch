@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_STRING: line length of 107 exceeds 100 columns
+#43: FILE: drivers/gpu/drm/i915/gt/selftest_lrc.c:665:
++					       i915_request_completed(client[i]) ? "completed" : "running",
+
+total: 0 errors, 1 warnings, 23 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 71a6688e81d9 ("drm/i915/selftests: Tidy up an error message for live_error_interrupt") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

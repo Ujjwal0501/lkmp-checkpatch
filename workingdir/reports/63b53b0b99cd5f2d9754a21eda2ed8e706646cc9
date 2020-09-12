@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 105 lines checked
+
+Commit 63b53b0b99cd ("cxgb4: fix endian conversions for L4 ports in filters") has no obvious style problems and is ready for submission.

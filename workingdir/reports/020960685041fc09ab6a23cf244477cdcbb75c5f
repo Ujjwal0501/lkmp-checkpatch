@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit 020960685041 ("bus: mhi: core: Add range check for channel id received in event ring") has no obvious style problems and is ready for submission.

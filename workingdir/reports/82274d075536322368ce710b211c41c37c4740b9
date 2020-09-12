@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 60 lines checked
+
+Commit 82274d075536 ("devlink: ignore -EOPNOTSUPP errors on dumpit") has no obvious style problems and is ready for submission.

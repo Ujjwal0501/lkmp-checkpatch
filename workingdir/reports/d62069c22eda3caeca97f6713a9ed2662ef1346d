@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit d62069c22eda ("spi: bcm2835: Remove shared interrupt support") has no obvious style problems and is ready for submission.

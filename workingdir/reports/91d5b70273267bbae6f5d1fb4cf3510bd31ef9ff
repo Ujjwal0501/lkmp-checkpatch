@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 47 lines checked
+
+Commit 91d5b7027326 ("xsk: Replace the cheap_dma flag with a dma_need_sync flag") has no obvious style problems and is ready for submission.

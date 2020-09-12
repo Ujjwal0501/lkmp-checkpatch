@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 781c036b678c ("ext4: remove unnecessary test_opt for DIOREAD_NOLOCK") has no obvious style problems and is ready for submission.

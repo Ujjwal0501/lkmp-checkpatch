@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#265: 
+new file mode 100644
+
+WARNING:LONG_LINE_STRING: line length of 117 exceeds 100 columns
+#333: FILE: drivers/net/ethernet/mellanox/mlxsw/spectrum_flow.c:64:
++		NL_SET_ERR_MSG_MOD(extack, "Block cannot be bound to ingress because it contains unsupported rules");
+
+WARNING:LONG_LINE_STRING: line length of 116 exceeds 100 columns
+#338: FILE: drivers/net/ethernet/mellanox/mlxsw/spectrum_flow.c:69:
++		NL_SET_ERR_MSG_MOD(extack, "Block cannot be bound to egress because it contains unsupported rules");
+
+total: 0 errors, 3 warnings, 0 checks, 340 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d52238eb7bcf ("mlxsw: spectrum: Push flow_block related functions into a separate file") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

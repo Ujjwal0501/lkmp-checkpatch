@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 6d92bc9d483a ("x86/build: Build compressed x86 kernels as PIE")'
+#8: 
+  6d92bc9d483a ("x86/build: Build compressed x86 kernels as PIE"),
+
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit 974f221c84b0 ("x86/boot: Move compressed kernel to the end of the decompression buffer")'
+#16: 
+  974f221c84b0 ("x86/boot: Move compressed kernel to the end of the
+
+total: 2 errors, 0 warnings, 26 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5214028dd89e ("x86/boot: Correct relocation destination on old linkers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

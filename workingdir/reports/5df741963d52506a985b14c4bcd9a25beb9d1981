@@ -1,0 +1,21 @@
+WARNING:TYPO_SPELLING: 'noticable' may be misspelled - perhaps 'noticeable'?
+#23: 
+horizon, has made this undesirable behavior very noticable: Even in the
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#170: 
+			overload-100/5.7-rc5-mm-workingset	overload-100/5.7-rc5-mm-lrubalance-realfile
+
+WARNING:TYPO_SPELLING: 'occuring' may be misspelled - perhaps 'occurring'?
+#186: 
+transitionary period.  The vast majority of page reclaim occuring in a
+
+total: 0 errors, 3 warnings, 77 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 5df741963d52 ("mm: fix LRU balancing effect of new transparent huge pages") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

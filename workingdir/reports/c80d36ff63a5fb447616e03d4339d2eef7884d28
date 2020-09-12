@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 41 lines checked
+
+Commit c80d36ff63a5 ("net: bcmgenet: Use devm_clk_get_optional() to get the clocks") has no obvious style problems and is ready for submission.

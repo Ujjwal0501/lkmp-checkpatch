@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 23 lines checked
+
+Commit 52b1fc3f798d ("rcutorture: Add test of holding scheduler locks across rcu_read_unlock()") has no obvious style problems and is ready for submission.

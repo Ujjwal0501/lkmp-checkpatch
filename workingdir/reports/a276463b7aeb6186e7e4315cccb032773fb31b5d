@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit a276463b7aeb ("Drivers: hv: allocate the exact needed memory for messages") has no obvious style problems and is ready for submission.

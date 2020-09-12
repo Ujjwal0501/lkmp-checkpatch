@@ -1,0 +1,22 @@
+WARNING:TYPO_SPELLING: 'seperate' may be misspelled - perhaps 'separate'?
+#6: 
+Provide a seperate IDTENTRY macro for device interrupts. Similar to
+
+WARNING:SPACING: space prohibited between function name and open parenthesis '('
+#116: FILE: arch/x86/include/asm/idtentry.h:204:
++	__##func (regs, (u8)error_code);				\
+
+ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+#133: FILE: arch/x86/include/asm/idtentry.h:361:
++#define DECLARE_IDTENTRY_IRQ(vector, func)				\
++	idtentry_irq vector func
+
+total: 1 errors, 2 warnings, 101 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0bf7c314ff68 ("x86/entry: Add IRQENTRY_IRQ macro") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

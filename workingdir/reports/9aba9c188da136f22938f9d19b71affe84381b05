@@ -1,0 +1,17 @@
+WARNING:UNKNOWN_COMMIT_ID: Unknown commit id '53f8f541ca', maybe rebased or not pulled?
+#24: 
+commit 53f8f541ca ("lib: Add i915_perf library"), previously this was
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#276: 
+deleted file mode 100644
+
+total: 0 errors, 2 warnings, 278 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9aba9c188da1 ("drm/i915/perf: remove generated code") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

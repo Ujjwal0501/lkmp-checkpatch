@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 80 lines checked
+
+Commit f8bb28e63a1e ("drm/i915/display: Split hsw_power_well_enable() into two") has no obvious style problems and is ready for submission.

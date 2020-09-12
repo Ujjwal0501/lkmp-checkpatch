@@ -1,0 +1,27 @@
+ERROR:SPACING: space prohibited after that '&' (ctx:WxW)
+#89: FILE: drivers/firmware/efi/libstub/vsprintf.c:77:
++	d2  = (h      ) & 0xffff;
+ 	                ^
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#89: FILE: drivers/firmware/efi/libstub/vsprintf.c:77:
++	d2  = (h      ) & 0xffff;
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#93: FILE: drivers/firmware/efi/libstub/vsprintf.c:81:
++	/* n = 2^48 d3 + 2^32 d2 + 2^16 d1 + d0
++	     = 281_4749_7671_0656 d3 + 42_9496_7296 d2 + 6_5536 d1 + d0 */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#93: FILE: drivers/firmware/efi/libstub/vsprintf.c:81:
++	     = 281_4749_7671_0656 d3 + 42_9496_7296 d2 + 6_5536 d1 + d0 */
+
+total: 2 errors, 2 warnings, 225 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ce5e3f909fc0 ("efi/printf: Add 64-bit and 8-bit integer support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

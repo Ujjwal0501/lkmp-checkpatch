@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 343 lines checked
+
+Commit eaad0c3aa978 ("drm/amdgpu: rename direct to immediate for VM updates") has no obvious style problems and is ready for submission.

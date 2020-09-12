@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit a70266b5b2e1 ("objtool: Remove redundant checks on operand type") has no obvious style problems and is ready for submission.

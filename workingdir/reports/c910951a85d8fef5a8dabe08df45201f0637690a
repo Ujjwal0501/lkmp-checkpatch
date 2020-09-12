@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit c910951a85d8 ("csky: replace definitions of __pXd_offset() with pXd_index()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit f019190b7d27 ("drm/mipi-dbi: Make mipi_dbi_command_stackbuf() data parameter const") has no obvious style problems and is ready for submission.

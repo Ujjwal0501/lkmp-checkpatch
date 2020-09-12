@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 100 lines checked
+
+Commit 29d5bbccb3a1 ("bonding: Add helper function to get the xmit slave in rr mode") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit b173bfe2d744 ("drm/udl: Make udl_handle_damage static") has no obvious style problems and is ready for submission.

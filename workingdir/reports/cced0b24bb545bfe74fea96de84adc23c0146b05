@@ -1,0 +1,21 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#49: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Improper SPDX comment style for 'tools/testing/selftests/x86/helpers.h', please use '/*' instead
+#54: FILE: tools/testing/selftests/x86/helpers.h:1:
++// SPDX-License-Identifier: GPL-2.0-only
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#54: FILE: tools/testing/selftests/x86/helpers.h:1:
++// SPDX-License-Identifier: GPL-2.0-only
+
+total: 0 errors, 3 warnings, 207 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cced0b24bb54 ("selftests/x86: Consolidate and fix get/set_eflags() helpers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

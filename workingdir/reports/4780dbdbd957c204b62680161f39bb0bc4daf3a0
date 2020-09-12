@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 4780dbdbd957 ("mlxsw: spectrum_span: Replace zero-length array with flexible-array member") has no obvious style problems and is ready for submission.

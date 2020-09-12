@@ -1,0 +1,13 @@
+WARNING:EMAIL_SUBJECT: A patch subject line should describe the change not the tool that found it
+#4: 
+Subject: [PATCH] mt76: mt7915: fix some sparse warnings
+
+total: 0 errors, 1 warnings, 0 checks, 41 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f9a5c0561029 ("mt76: mt7915: fix some sparse warnings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

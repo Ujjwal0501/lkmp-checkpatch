@@ -1,0 +1,13 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#29: FILE: drivers/gpu/drm/amd/amdgpu/gfx_v10_0.c:7690:
++					 unsigned vmid)
+
+total: 0 errors, 1 warnings, 26 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0da4a419a27a ("drm/amdgpu: implement soft_recovery for gfx10") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

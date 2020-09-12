@@ -1,0 +1,29 @@
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#118: FILE: drivers/gpu/drm/amd/powerplay/smumgr/fiji_smumgr.c:204:
++		if (0 != smum_send_msg_to_smc_with_parameter(hwmgr,
+
+WARNING:LONG_LINE: line length of 118 exceeds 100 columns
+#151: FILE: drivers/gpu/drm/amd/powerplay/smumgr/polaris10_smumgr.c:102:
++		if (0 != smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_PerformBtc, smu_data->avfs_btc_param)) {
+
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#151: FILE: drivers/gpu/drm/amd/powerplay/smumgr/polaris10_smumgr.c:102:
++		if (0 != smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_PerformBtc, smu_data->avfs_btc_param)) {
+
+WARNING:LONG_LINE: line length of 127 exceeds 100 columns
+#211: FILE: drivers/gpu/drm/amd/powerplay/smumgr/smu7_smumgr.c:422:
++	smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_DRV_DRAM_ADDR_HI, upper_32_bits(smu_data->header_buffer.mc_addr));
+
+WARNING:LONG_LINE: line length of 127 exceeds 100 columns
+#212: FILE: drivers/gpu/drm/amd/powerplay/smumgr/smu7_smumgr.c:423:
++	smum_send_msg_to_smc_with_parameter(hwmgr, PPSMC_MSG_DRV_DRAM_ADDR_LO, lower_32_bits(smu_data->header_buffer.mc_addr));
+
+total: 0 errors, 5 warnings, 176 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d9c8316eb372 ("drm/amd/powerplay: avoid calling SMU7 specific SMU message implemention") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

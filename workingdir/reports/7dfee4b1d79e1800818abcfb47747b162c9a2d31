@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 253 lines checked
+
+Commit 7dfee4b1d79e ("net/mlx5: IPsec, Refactor SA handle creation and destruction") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 41 lines checked
+
+Commit db438592807e ("KVM: VMX: Use vmx_interrupt_blocked() directly from vmx_handle_exit()") has no obvious style problems and is ready for submission.

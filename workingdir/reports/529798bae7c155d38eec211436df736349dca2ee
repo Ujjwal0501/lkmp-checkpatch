@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 529798bae7c1 ("remoteproc: Replace zero-length array with flexible-array") has no obvious style problems and is ready for submission.

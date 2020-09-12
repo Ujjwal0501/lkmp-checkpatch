@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 10 lines checked
+
+Commit 4a4c0cfb4be7 ("scsi: qedi: Check for buffer overflow in qedi_set_path()") has no obvious style problems and is ready for submission.

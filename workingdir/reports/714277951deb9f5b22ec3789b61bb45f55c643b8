@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit 714277951deb ("drm: Include the encoder itself in possible_clones") has no obvious style problems and is ready for submission.

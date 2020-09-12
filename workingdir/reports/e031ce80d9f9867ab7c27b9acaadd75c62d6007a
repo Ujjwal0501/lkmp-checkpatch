@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 43 lines checked
+
+Commit e031ce80d9f9 ("r8169: add helper r8168g_wait_ll_share_fifo_ready") has no obvious style problems and is ready for submission.

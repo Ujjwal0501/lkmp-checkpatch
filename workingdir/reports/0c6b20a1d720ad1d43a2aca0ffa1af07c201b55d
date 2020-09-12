@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 195 lines checked
+
+Commit 0c6b20a1d720 ("bus: mhi: core: Add support for MHI suspend and resume") has no obvious style problems and is ready for submission.

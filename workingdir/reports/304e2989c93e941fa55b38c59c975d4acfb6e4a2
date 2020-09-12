@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 52 lines checked
+
+Commit 304e2989c93e ("KVM: arm64: Move hyp_symbol_addr() to kvm_asm.h") has no obvious style problems and is ready for submission.

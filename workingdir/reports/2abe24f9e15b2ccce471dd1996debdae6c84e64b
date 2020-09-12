@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 46 lines checked
+
+Commit 2abe24f9e15b ("iwlwifi: dbg: set debug descriptor to NULL outside of iwl_fw_free_dump_desc") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 198 lines checked
+
+Commit 2cafa72e516f ("net: dsa: sja1105: add a new best_effort_vlan_filtering devlink parameter") has no obvious style problems and is ready for submission.

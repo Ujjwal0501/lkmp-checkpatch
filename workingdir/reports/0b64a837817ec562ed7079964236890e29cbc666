@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 16 lines checked
+
+Commit 0b64a837817e ("media: staging: rkisp1: rsz: change (hv)div only if capture format is YUV") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit ce6f8f02f9f6 ("KVM: arm64: Use cpus_have_final_cap for has_vhe()") has no obvious style problems and is ready for submission.

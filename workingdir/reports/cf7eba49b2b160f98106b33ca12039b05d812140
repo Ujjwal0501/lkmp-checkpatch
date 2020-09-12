@@ -1,0 +1,22 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#22: 
+ .../intel/{ipw2100.txt => ipw2100.rst}        | 240 ++++++++++--------
+
+ERROR:FSF_MAILING_ADDRESS: Do not include the paragraph about writing to the Free Software Foundation's mailing address from the sample GPL notice. The FSF has changed addresses in the past, and may do so again. Linux already includes a copy of the GPL.
+#405: FILE: Documentation/networking/device_drivers/intel/ipw2100.rst:312:
++  this program; if not, write to the Free Software Foundation, Inc., 59$
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#454: FILE: drivers/net/wireless/intel/ipw2x00/ipw2100.c:8355:
+ 		       "(detected version id of %u). "
++		       "See Documentation/networking/device_drivers/intel/ipw2100.rst\n",
+
+total: 1 errors, 2 warnings, 0 checks, 394 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit cf7eba49b2b1 ("docs: networking: device drivers: convert intel/ipw2100.txt to ReST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit c38730987b4a ("drm/i915: Move the TRANS_DDI_FUNC_CTL enable to a later point") has no obvious style problems and is ready for submission.

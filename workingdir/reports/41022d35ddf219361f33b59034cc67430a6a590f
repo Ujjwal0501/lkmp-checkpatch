@@ -1,0 +1,1310 @@
+CHECK:LOGICAL_CONTINUATIONS: Logical continuations should be on the previous line
+#143: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:440:
+ 	if (stream_env->stream_state == CSS_STREAM_STARTED
++	    && ia_css_stream_stop(stream_env->stream) != 0) {
+
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#462: FILE: drivers/staging/media/atomisp/pci/atomisp_compat_css20.c:2870:
++	if (0 != ia_css_pipe_get_info(asd->stream_env[stream_index]
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#652: FILE: drivers/staging/media/atomisp/pci/camera/pipe/interface/ia_css_pipe_binarydesc.h:65:
++int sh_css_bds_factor_get_numerator_denominator(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#665: FILE: drivers/staging/media/atomisp/pci/camera/pipe/interface/ia_css_pipe_binarydesc.h:81:
++int ia_css_pipe_get_preview_binarydesc(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#678: FILE: drivers/staging/media/atomisp/pci/camera/pipe/interface/ia_css_pipe_binarydesc.h:99:
++int ia_css_pipe_get_video_binarydesc(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#690: FILE: drivers/staging/media/atomisp/pci/camera/pipe/interface/ia_css_pipe_binarydesc.h:292:
++int binarydesc_calculate_bds_factor(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#703: FILE: drivers/staging/media/atomisp/pci/camera/pipe/src/pipe_binarydesc.c:144:
++int sh_css_bds_factor_get_numerator_denominator(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#723: FILE: drivers/staging/media/atomisp/pci/camera/pipe/src/pipe_binarydesc.c:165:
++int binarydesc_calculate_bds_factor(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#742: FILE: drivers/staging/media/atomisp/pci/camera/pipe/src/pipe_binarydesc.c:206:
++int ia_css_pipe_get_preview_binarydesc(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#775: FILE: drivers/staging/media/atomisp/pci/camera/pipe/src/pipe_binarydesc.c:325:
++int ia_css_pipe_get_video_binarydesc(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#806: FILE: drivers/staging/media/atomisp/pci/camera/util/interface/ia_css_util.h:31:
++int ia_css_convert_errno(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#817: FILE: drivers/staging/media/atomisp/pci/camera/util/interface/ia_css_util.h:40:
++int ia_css_util_check_vf_info(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#829: FILE: drivers/staging/media/atomisp/pci/camera/util/interface/ia_css_util.h:50:
++int ia_css_util_check_input(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#842: FILE: drivers/staging/media/atomisp/pci/camera/util/interface/ia_css_util.h:62:
++int ia_css_util_check_vf_out_info(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#855: FILE: drivers/staging/media/atomisp/pci/camera/util/interface/ia_css_util.h:73:
++int ia_css_util_check_res(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#868: FILE: drivers/staging/media/atomisp/pci/camera/util/src/util.c:23:
++int ia_css_convert_errno(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#907: FILE: drivers/staging/media/atomisp/pci/camera/util/src/util.c:116:
++int ia_css_util_check_vf_info(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#928: FILE: drivers/staging/media/atomisp/pci/camera/util/src/util.c:132:
++int ia_css_util_check_vf_out_info(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#970: FILE: drivers/staging/media/atomisp/pci/camera/util/src/util.c:203:
++int ia_css_util_check_input(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#1031: FILE: drivers/staging/media/atomisp/pci/ia_css_control.h:49:
++int ia_css_init(struct device           *dev,
+ 			    const struct ia_css_env *env,
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1418: FILE: drivers/staging/media/atomisp/pci/ia_css_pipe_public.h:307:
++ * @return^I^I0.$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#1436: FILE: drivers/staging/media/atomisp/pci/ia_css_pipe_public.h:377:
++ * @return^I0.$
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#1947: FILE: drivers/staging/media/atomisp/pci/isp/kernels/iterator/iterator_1.0/ia_css_iterator.host.c:40:
++int
+ ia_css_iterator_configure(
+     const struct ia_css_binary *binary,
+     const struct ia_css_frame_info *in_info) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#1980: FILE: drivers/staging/media/atomisp/pci/isp/kernels/sdis/sdis_1.0/ia_css_sdis.host.c:238:
++int
+ ia_css_get_dvs_statistics(
+     struct ia_css_dvs_statistics	       *host_stats,
+     const struct ia_css_isp_dvs_statistics *isp_stats) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#2021: FILE: drivers/staging/media/atomisp/pci/isp/kernels/sdis/sdis_2/ia_css_sdis2.host.c:178:
++int
+ ia_css_get_dvs2_statistics(
+     struct ia_css_dvs2_statistics          *host_stats,
+     const struct ia_css_isp_dvs_statistics *isp_stats) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#2093: FILE: drivers/staging/media/atomisp/pci/isp/kernels/vf/vf_1.0/ia_css_vf.host.c:87:
++static int
+ configure_kernel(
+     const struct ia_css_binary_info *info,
+     const struct ia_css_frame_info *out_info,
+     const struct ia_css_frame_info *vf_info,
+     unsigned int *downscale_log2,
+     struct ia_css_vf_configuration *config) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#2127: FILE: drivers/staging/media/atomisp/pci/isp/kernels/vf/vf_1.0/ia_css_vf.host.c:120:
++int
+ ia_css_vf_configure(
+     const struct ia_css_binary *binary,
+     const struct ia_css_frame_info *out_info,
+     struct ia_css_frame_info *vf_info,
+     unsigned int *downscale_log2) {
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#2326: FILE: drivers/staging/media/atomisp/pci/runtime/binary/src/binary.c:731:
++		err = -ENOTSUPP;
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#2335: FILE: drivers/staging/media/atomisp/pci/runtime/binary/src/binary.c:789:
++int
+ ia_css_binary_3a_grid_info(const struct ia_css_binary *binary,
+ 			   struct ia_css_grid_info *info,
+ 			   struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#2350: FILE: drivers/staging/media/atomisp/pci/runtime/binary/src/binary.c:885:
++static int
+ binary_init_info(struct ia_css_binary_xinfo *info, unsigned int i,
+ 		 bool *binary_found) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#2380: FILE: drivers/staging/media/atomisp/pci/runtime/binary/src/binary.c:910:
++int
+ ia_css_binary_init_infos(void) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#2417: FILE: drivers/staging/media/atomisp/pci/runtime/binary/src/binary.c:943:
++int
+ ia_css_binary_uninit(void) {
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#2453: FILE: drivers/staging/media/atomisp/pci/runtime/binary/src/binary.c:1121:
++		if (err) {
+ 			return err;
+ 		}
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#2484: FILE: drivers/staging/media/atomisp/pci/runtime/binary/src/binary.c:1378:
++int
+ ia_css_binary_find(struct ia_css_binary_descr *descr,
+ 		   struct ia_css_binary *binary) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2528: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/interface/ia_css_bufq.h:83:
++int ia_css_bufq_enqueue_buffer(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2541: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/interface/ia_css_bufq.h:97:
++int ia_css_bufq_dequeue_buffer(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2554: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/interface/ia_css_bufq.h:111:
++int ia_css_bufq_enqueue_psys_event(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2567: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/interface/ia_css_bufq.h:125:
++int ia_css_bufq_dequeue_psys_event(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2580: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/interface/ia_css_bufq.h:137:
++int ia_css_bufq_enqueue_isys_event(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2593: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/interface/ia_css_bufq.h:148:
++int ia_css_bufq_dequeue_isys_event(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2605: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/interface/ia_css_bufq.h:158:
++int ia_css_bufq_enqueue_tag_cmd(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2629: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/src/bufq.c:332:
++int ia_css_bufq_enqueue_buffer(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2660: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/src/bufq.c:362:
++int ia_css_bufq_dequeue_buffer(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2691: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/src/bufq.c:392:
++int ia_css_bufq_enqueue_psys_event(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2716: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/src/bufq.c:417:
++int ia_css_bufq_dequeue_psys_event(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2742: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/src/bufq.c:439:
++int ia_css_bufq_dequeue_isys_event(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2800: FILE: drivers/staging/media/atomisp/pci/runtime/bufq/src/bufq.c:489:
++int ia_css_bufq_enqueue_tag_cmd(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#2884: FILE: drivers/staging/media/atomisp/pci/runtime/frame/interface/ia_css_frame.h:117:
++int ia_css_frame_allocate_with_buffer_size(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2913: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:75:
++static int frame_allocate_with_data(struct ia_css_frame **frame,
+ 	unsigned int width,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2922: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:105:
++int ia_css_frame_allocate_from_info(struct ia_css_frame **frame,
+ 	const struct ia_css_frame_info *info)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2939: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:123:
++int ia_css_frame_allocate(struct ia_css_frame **frame,
+ 				      unsigned int width,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#2969: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:154:
++int ia_css_frame_map(struct ia_css_frame **frame,
+ 				 const struct ia_css_frame_info *info,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3012: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:202:
++int ia_css_frame_create_from_info(struct ia_css_frame **frame,
+ 	const struct ia_css_frame_info *info)
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3049: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:244:
++int ia_css_frame_set_data(struct ia_css_frame *frame,
+ 				      const ia_css_ptr mapped_data,
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3080: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:275:
++int ia_css_frame_allocate_contiguous(struct ia_css_frame **frame,
+ 	unsigned int width,
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3096: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:297:
++int ia_css_frame_allocate_contiguous_from_info(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3142: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:533:
++int ia_css_frame_allocate_with_buffer_size(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3189: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:814:
++static int frame_allocate_with_data(struct ia_css_frame **frame,
+ 	unsigned int width,
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#3224: FILE: drivers/staging/media/atomisp/pci/runtime/frame/src/frame.c:935:
++int
+ ia_css_frame_find_crop_resolution(const struct ia_css_resolution *in_res,
+ 				  const struct ia_css_resolution *out_res,
+ 				  struct ia_css_resolution *crop_res) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3268: FILE: drivers/staging/media/atomisp/pci/runtime/ifmtr/interface/ia_css_ifmtr.h:31:
++int ia_css_ifmtr_configure(struct ia_css_stream_config *config,
+ 				       struct ia_css_binary *binary);
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3280: FILE: drivers/staging/media/atomisp/pci/runtime/ifmtr/src/ifmtr.c:31:
++static int ifmtr_start_column(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3286: FILE: drivers/staging/media/atomisp/pci/runtime/ifmtr/src/ifmtr.c:36:
++static int ifmtr_input_start_line(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3296: FILE: drivers/staging/media/atomisp/pci/runtime/ifmtr/src/ifmtr.c:75:
++int ia_css_ifmtr_configure(struct ia_css_stream_config *config,
+ 				       struct ia_css_binary *binary)
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3344: FILE: drivers/staging/media/atomisp/pci/runtime/ifmtr/src/ifmtr.c:499:
++static int ifmtr_start_column(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3366: FILE: drivers/staging/media/atomisp/pci/runtime/ifmtr/src/ifmtr.c:525:
++static int ifmtr_input_start_line(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#3419: FILE: drivers/staging/media/atomisp/pci/runtime/isp_param/src/isp_param.c:104:
++int
+ ia_css_isp_param_allocate_isp_parameters(
+     struct ia_css_isp_param_host_segments *mem_params,
+     struct ia_css_isp_param_css_segments *css_params,
+     const struct ia_css_isp_param_isp_segments *mem_initializers) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3482: FILE: drivers/staging/media/atomisp/pci/runtime/isys/interface/ia_css_isys.h:54:
++int ia_css_isys_csi_rx_register_stream(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3495: FILE: drivers/staging/media/atomisp/pci/runtime/isys/interface/ia_css_isys.h:69:
++int ia_css_isys_csi_rx_unregister_stream(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3500: FILE: drivers/staging/media/atomisp/pci/runtime/isys/interface/ia_css_isys.h:73:
++int ia_css_isys_convert_compressed_format(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3509: FILE: drivers/staging/media/atomisp/pci/runtime/isys/interface/ia_css_isys.h:110:
++int ia_css_isys_convert_stream_format_to_mipi_format(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3522: FILE: drivers/staging/media/atomisp/pci/runtime/isys/src/csi_rx_rmgr.c:129:
++int ia_css_isys_csi_rx_register_stream(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3543: FILE: drivers/staging/media/atomisp/pci/runtime/isys/src/csi_rx_rmgr.c:149:
++int ia_css_isys_csi_rx_unregister_stream(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3570: FILE: drivers/staging/media/atomisp/pci/runtime/isys/src/rx.c:219:
++int ia_css_isys_convert_stream_format_to_mipi_format(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3603: FILE: drivers/staging/media/atomisp/pci/runtime/isys/src/rx.c:382:
++int ia_css_isys_convert_compressed_format(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3650: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/interface/ia_css_pipeline.h:103:
++int ia_css_pipeline_create(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3679: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/interface/ia_css_pipeline.h:162:
++int ia_css_pipeline_create_and_add_stage(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3693: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/interface/ia_css_pipeline.h:184:
++int ia_css_pipeline_get_stage(struct ia_css_pipeline *pipeline,
+ 	int mode,
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3731: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/interface/ia_css_pipeline.h:221:
++int ia_css_pipeline_get_output_stage(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3744: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/src/pipeline.c:49:
++static int pipeline_stage_create(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3753: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/src/pipeline.c:64:
++int ia_css_pipeline_create(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3816: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/src/pipeline.c:273:
++int ia_css_pipeline_create_and_add_stage(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#3866: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/src/pipeline.c:355:
++int ia_css_pipeline_get_stage(struct ia_css_pipeline *pipeline,
+ 	int mode,
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3922: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/src/pipeline.c:412:
++int ia_css_pipeline_get_output_stage(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#3940: FILE: drivers/staging/media/atomisp/pci/runtime/pipeline/src/pipeline.c:570:
++static int pipeline_stage_create(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#4043: FILE: drivers/staging/media/atomisp/pci/runtime/rmgr/interface/ia_css_rmgr_vbuf.h:55:
++STORAGE_CLASS_RMGR_H int ia_css_rmgr_init_vbuf(
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#4115: FILE: drivers/staging/media/atomisp/pci/runtime/spctrl/interface/ia_css_spctrl.h:42:
++int ia_css_spctrl_load_fw(sp_ID_t sp_id,
+ 				      ia_css_spctrl_cfg *spctrl_cfg);
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#4147: FILE: drivers/staging/media/atomisp/pci/runtime/spctrl/src/spctrl.c:40:
++int ia_css_spctrl_load_fw(sp_ID_t sp_id,
+ 				      ia_css_spctrl_cfg *spctrl_cfg)
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4243: FILE: drivers/staging/media/atomisp/pci/runtime/timer/src/timer.c:21:
++int
+ ia_css_timer_get_current_tick(
+     struct ia_css_clock_tick *curr_ts) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#4316: FILE: drivers/staging/media/atomisp/pci/sh_css.c:250:
++static int set_num_primary_stages(unsigned int *num,
+ 	enum ia_css_pipe_version version);
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#4324: FILE: drivers/staging/media/atomisp/pci/sh_css.c:258:
++static int ia_css_pipe_create_cas_scaler_desc_single_output(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#4338: FILE: drivers/staging/media/atomisp/pci/sh_css.c:277:
++int sh_css_pipe_get_viewfinder_frame_info(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4474: FILE: drivers/staging/media/atomisp/pci/sh_css.c:462:
++static int
+ verify_copy_out_frame_format(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4494: FILE: drivers/staging/media/atomisp/pci/sh_css.c:537:
++static int
+ sh_css_config_input_network(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4571: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1054:
++static int
+ sh_css_config_input_network(struct ia_css_stream *stream) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#4633: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1229:
++static int stream_csi_rx_helper(
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#4636: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1231:
++    int (*func)(enum mipi_port_id, uint32_t))$
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#4656: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1269:
++static inline int stream_register_with_csi_rx(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#4663: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1275:
++static inline int stream_unregister_with_csi_rx(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4672: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1408:
++static int
+ start_copy_on_sp(struct ia_css_pipe *pipe,
+ 		 struct ia_css_frame *out_frame) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4708: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1628:
++int
+ ia_css_load_firmware(struct device *dev, const struct ia_css_env *env,
+ 		     const struct ia_css_fw  *fw) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4741: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1660:
++int
+ ia_css_init(struct device *dev, const struct ia_css_env *env,
+ 	    const struct ia_css_fw  *fw,
+ 	    u32                 mmu_l1_base,
+ 	    enum ia_css_irq_type     irq_type) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4841: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1857:
++int
+ ia_css_enable_isys_event_queue(bool enable) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4857: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1886:
++static int
+ map_sp_threads(struct ia_css_stream *stream, bool map) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4884: FILE: drivers/staging/media/atomisp/pci/sh_css.c:1959:
++static int
+ create_host_pipeline_structure(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#4961: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2070:
++static int
+ create_host_pipeline(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5102: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2235:
++static int
+ init_pipe_defaults(enum ia_css_pipe_mode mode,
+ 		   struct ia_css_pipe *pipe,
+ 		   bool copy_pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5132: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2295:
++static int
+ pipe_generate_pipe_num(const struct ia_css_pipe *pipe,
+ 		       unsigned int *pipe_number) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5168: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2342:
++static int
+ create_pipe(enum ia_css_pipe_mode mode,
+ 	    struct ia_css_pipe **pipe,
+ 	    bool copy_pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5215: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2413:
++int
+ ia_css_pipe_destroy(struct ia_css_pipe *pipe) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#5245: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2549:
++int ia_css_irq_translate(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#5267: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2621:
++int ia_css_irq_enable(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#5304: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2690:
++static int load_copy_binary(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5329: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2726:
++static int
+ alloc_continuous_frames(
+     struct ia_css_pipe *pipe, bool init_time) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5390: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2848:
++int
+ ia_css_alloc_continuous_frame_remain(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5399: FILE: drivers/staging/media/atomisp/pci/sh_css.c:2855:
++static int
+ load_preview_binaries(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5488: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3043:
++static int
+ unload_preview_binaries(struct ia_css_pipe *pipe) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#5515: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3076:
++static int add_firmwares(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#5542: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3128:
++static int add_vf_pp_stage(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#5586: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3183:
++static int add_yuv_scaler_stage(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#5613: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3242:
++static int add_capture_pp_stage(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5649: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3321:
++static int
+ init_vf_frameinfo_defaults(struct ia_css_pipe *pipe,
+ 			   struct ia_css_frame *vf_frame, unsigned int idx) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5662: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3486:
++static int
+ init_in_frameinfo_memory_defaults(struct ia_css_pipe *pipe,
+ 				  struct ia_css_frame *frame, enum ia_css_frame_format format) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5676: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3527:
++static int
+ init_out_frameinfo_defaults(struct ia_css_pipe *pipe,
+ 			    struct ia_css_frame *out_frame, unsigned int idx) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5796: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3761:
++static int
+ create_host_acc_pipeline(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5836: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3804:
++static int
+ create_host_preview_pipeline(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5910: FILE: drivers/staging/media/atomisp/pci/sh_css.c:3973:
++static int
+ preview_start(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#5946: FILE: drivers/staging/media/atomisp/pci/sh_css.c:4109:
++int
+ ia_css_pipe_enqueue_buffer(struct ia_css_pipe *pipe,
+ 			   const struct ia_css_buffer *buffer) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6151: FILE: drivers/staging/media/atomisp/pci/sh_css.c:4377:
++int
+ ia_css_pipe_dequeue_buffer(struct ia_css_pipe *pipe,
+ 			   struct ia_css_buffer *buffer) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6277: FILE: drivers/staging/media/atomisp/pci/sh_css.c:4628:
++int
+ ia_css_dequeue_event(struct ia_css_event *event) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6283: FILE: drivers/staging/media/atomisp/pci/sh_css.c:4633:
++int
+ ia_css_dequeue_psys_event(struct ia_css_event *event) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6349: FILE: drivers/staging/media/atomisp/pci/sh_css.c:4784:
++int
+ ia_css_dequeue_isys_event(struct ia_css_event *event) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6380: FILE: drivers/staging/media/atomisp/pci/sh_css.c:4831:
++static int
+ sh_css_pipe_start(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6485: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5059:
++int
+ ia_css_stream_get_max_buffer_depth(struct ia_css_stream *stream,
+ 				   int *buffer_depth) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6499: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5070:
++int
+ ia_css_stream_set_buffer_depth(struct ia_css_stream *stream, int buffer_depth) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6515: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5083:
++int
+ ia_css_stream_get_buffer_depth(struct ia_css_stream *stream,
+ 			       int *buffer_depth) {
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#6565: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5155:
++	if (err) {
+ 		goto ERR;
+ 	}
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#6583: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5297:
++static int sh_css_pipe_configure_output(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6643: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5369:
++static int
+ sh_css_pipe_get_grid_info(struct ia_css_pipe *pipe,
+ 			  struct ia_css_grid_info *info) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6665: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5429:
++static int
+ ia_css_pipe_check_format(struct ia_css_pipe *pipe,
+ 			 enum ia_css_frame_format format) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6840: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5773:
++static int
+ unload_video_binaries(struct ia_css_pipe *pipe) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#6899: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5904:
++int sh_css_pipe_get_viewfinder_frame_info(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#6921: FILE: drivers/staging/media/atomisp/pci/sh_css.c:5935:
++static int
+ sh_css_pipe_configure_viewfinder(struct ia_css_pipe *pipe, unsigned int width,
+ 				 unsigned int height, unsigned int min_width,
+ 				 enum ia_css_frame_format format,
+ 				 unsigned int idx) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#6988: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6044:
++static int set_num_primary_stages(unsigned int *num,
+ 	enum ia_css_pipe_version version)
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#7012: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6067:
++static int load_primary_binaries(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7158: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6341:
++static int
+ allocate_delay_frames(struct ia_css_pipe *pipe) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#7200: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6427:
++static int load_advanced_binaries(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7200: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6427:
++static int load_advanced_binaries(
+     struct ia_css_pipe *pipe) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#7279: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6544:
++static int load_bayer_isp_binaries(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7279: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6544:
++static int load_bayer_isp_binaries(
+     struct ia_css_pipe *pipe) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#7305: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6573:
++static int load_low_light_binaries(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7305: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6573:
++static int load_low_light_binaries(
+     struct ia_css_pipe *pipe) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#7385: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6711:
++static int load_capture_binaries(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7385: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6711:
++static int load_capture_binaries(
+     struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7445: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6779:
++static int
+ unload_capture_binaries(struct ia_css_pipe *pipe) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#7476: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6860:
++static int ia_css_pipe_create_cas_scaler_desc_single_output(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7476: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6860:
++static int ia_css_pipe_create_cas_scaler_desc_single_output(
+     struct ia_css_frame_info *cas_scaler_in_info,
+     struct ia_css_frame_info *cas_scaler_out_info,
+     struct ia_css_frame_info *cas_scaler_vf_info,
+     struct ia_css_cas_binary_descr *descr) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#7529: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6980:
++static int ia_css_pipe_create_cas_scaler_desc(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7529: FILE: drivers/staging/media/atomisp/pci/sh_css.c:6980:
++static int ia_css_pipe_create_cas_scaler_desc(
+     struct ia_css_pipe *pipe,
+     struct ia_css_cas_binary_descr *descr) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7583: FILE: drivers/staging/media/atomisp/pci/sh_css.c:7155:
++static int
+ load_yuvpp_binaries(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7680: FILE: drivers/staging/media/atomisp/pci/sh_css.c:7355:
++static int
+ unload_yuvpp_binaries(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7737: FILE: drivers/staging/media/atomisp/pci/sh_css.c:7428:
++static int
+ sh_css_pipe_unload_binaries(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7766: FILE: drivers/staging/media/atomisp/pci/sh_css.c:7467:
++static int
+ sh_css_pipe_load_binaries(struct ia_css_pipe *pipe) {
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#7789: FILE: drivers/staging/media/atomisp/pci/sh_css.c:7502:
++			    * using -EINVAL in this case */
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7797: FILE: drivers/staging/media/atomisp/pci/sh_css.c:7509:
++static int
+ create_host_yuvpp_pipeline(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7891: FILE: drivers/staging/media/atomisp/pci/sh_css.c:7757:
++static int
+ create_host_copy_pipeline(struct ia_css_pipe *pipe,
+ 			    unsigned int max_input_width,
+ 			    struct ia_css_frame *out_frame) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7906: FILE: drivers/staging/media/atomisp/pci/sh_css.c:7809:
++static int
+ create_host_isyscopy_capture_pipeline(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#7937: FILE: drivers/staging/media/atomisp/pci/sh_css.c:7853:
++static int
+ create_host_regular_capture_pipeline(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8064: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8208:
++static int
+ create_host_capture_pipeline(struct ia_css_pipe *pipe) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#8085: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8229:
++static int capture_start(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8085: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8229:
++static int capture_start(
+     struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8124: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8298:
++static int
+ sh_css_pipe_get_output_frame_info(struct ia_css_pipe *pipe,
+ 				    struct ia_css_frame_info *info,
+ 				    unsigned int idx) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8164: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8444:
++static int
+ acc_load_extension(struct ia_css_fw_info *firmware) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8193: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8486:
++static int
+ ia_css_pipe_load_extension(struct ia_css_pipe *pipe,
+ 			    struct ia_css_fw_info *firmware) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8215: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8550:
++static int
+ sh_css_pipeline_add_acc_stage(struct ia_css_pipeline *pipeline,
+ 				const void *acc_fw) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8239: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8583:
++int ia_css_stream_capture_frame(struct ia_css_stream *stream,
+ 	unsigned int exp_id) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#8240: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8584:
++int ia_css_stream_capture_frame(struct ia_css_stream *stream,
+ 	unsigned int exp_id) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#8271: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8622:
++int ia_css_stream_capture(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8271: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8622:
++int ia_css_stream_capture(
+     struct ia_css_stream *stream,
+     int num_captures,
+     unsigned int skip,
+     int offset) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8312: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8811:
++static int
+ ia_css_acc_pipe_create(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8330: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8833:
++int
+ ia_css_pipe_create(const struct ia_css_pipe_config *config,
+ 		    struct ia_css_pipe **pipe) {
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#8368: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8865:
++if (err == 0)
+ {
+ 	IA_CSS_LOG("pipe created successfully = %p", *pipe);
+ }
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8377: FILE: drivers/staging/media/atomisp/pci/sh_css.c:8876:
++int
+ ia_css_pipe_create_extra(const struct ia_css_pipe_config *config,
+ 			    const struct ia_css_pipe_extra_config *extra_config,
+ 			    struct ia_css_pipe **pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8462: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9048:
++int
+ ia_css_pipe_get_info(const struct ia_css_pipe *pipe,
+ 			struct ia_css_pipe_info *pipe_info) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8493: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9086:
++int
+ ia_css_pipe_override_frame_format(struct ia_css_pipe *pipe,
+ 				    int pin_index,
+ 				    enum ia_css_frame_format new_format) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8538: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9131:
++static int
+ ia_css_stream_configure_rx(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8574: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9191:
++static int
+ ia_css_acc_stream_create(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8633: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9248:
++static int
+ metadata_info_init(const struct ia_css_metadata_config *mdc,
+ 		    struct ia_css_metadata_info *md) {
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#8819: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9559:
++				if (err) {
+ 					goto ERR;
+ 				}
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8943: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9787:
++int
+ ia_css_stream_destroy(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8980: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9911:
++int
+ ia_css_stream_get_info(const struct ia_css_stream *stream,
+ 			struct ia_css_stream_info *stream_info) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#8998: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9928:
++int
+ ia_css_stream_load(struct ia_css_stream *stream) {
+
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#9012: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9943:
++								    &my_css_save.stream_seeds[i].pipes[j])) != 0) {
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#9035: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9971:
++		return -ENOTSUPP;
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9040: FILE: drivers/staging/media/atomisp/pci/sh_css.c:9975:
++int
+ ia_css_stream_start(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9078: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10033:
++int
+ ia_css_stream_stop(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9099: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10092:
++int
+ ia_css_stream_unload(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9112: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10120:
++int
+ ia_css_temp_pipe_to_pipe_id(const struct ia_css_pipe *pipe,
+ 			    enum ia_css_pipe_id *pipe_id) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9130: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10201:
++int
+ ia_css_stream_set_output_padded_width(struct ia_css_stream *stream,
+ 					unsigned int output_padded_width) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9148: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10364:
++int
+ ia_css_start_sp(void) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9170: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10407:
++int
+ ia_css_stop_sp(void) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9190: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10472:
++int
+ ia_css_update_continuous_frames(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9217: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10623:
++static int set_config_on_frame_enqueue(struct ia_css_frame_info
+ 	*info, struct frame_data_wrapper *frame) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9240: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10647:
++int
+ ia_css_unlock_raw_frame(struct ia_css_stream *stream, uint32_t exp_id) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9269: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10680:
++int
+ ia_css_pipe_set_qos_ext_state(struct ia_css_pipe *pipe, uint32_t fw_handle,
+ 				bool enable) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9318: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10729:
++int
+ ia_css_pipe_get_qos_ext_state(struct ia_css_pipe *pipe, uint32_t fw_handle,
+ 				bool *enable) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9412: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10851:
++static int
+ aspect_ratio_crop_init(struct ia_css_stream *curr_stream,
+ 			struct ia_css_pipe *pipes[],
+ 			bool *do_crop_status) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9444: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10898:
++static int
+ aspect_ratio_crop(struct ia_css_pipe *curr_pipe,
+ 		    struct ia_css_resolution *effective_res) {
+
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#9475: FILE: drivers/staging/media/atomisp/pci/sh_css.c:10968:
++	if (!err)
+ 	{
+ 		*effective_res = crop_res;
+ 	} else
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9488: FILE: drivers/staging/media/atomisp/pci/sh_css_firmware.c:78:
++static int
+ setup_binary(struct ia_css_fw_info *fw, const char *fw_data,
+ 	     struct ia_css_fw_info *sh_css_fw, unsigned int binary_id) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9515: FILE: drivers/staging/media/atomisp/pci/sh_css_firmware.c:101:
++int
+ sh_css_load_blob_info(const char *fw, const struct ia_css_fw_info *bi,
+ 		      struct ia_css_blob_descr *bd,
+ 		      unsigned int index) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9574: FILE: drivers/staging/media/atomisp/pci/sh_css_firmware.c:209:
++int
+ sh_css_load_firmware(struct device *dev, const char *fw_data,
+ 		     unsigned int fw_size) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9769: FILE: drivers/staging/media/atomisp/pci/sh_css_mipi.c:37:
++int
+ ia_css_mipi_frame_specify(const unsigned int size_mem_words,
+ 			  const bool contiguous) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9782: FILE: drivers/staging/media/atomisp/pci/sh_css_mipi.c:100:
++int
+ ia_css_mipi_frame_calculate_size(const unsigned int width,
+ 				 const unsigned int height,
+ 				 const enum atomisp_input_format format,
+ 				 const bool hasSOLandEOL,
+ 				 const unsigned int embedded_data_size_words,
+ 				 unsigned int *size_mem_words) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9808: FILE: drivers/staging/media/atomisp/pci/sh_css_mipi.c:249:
++int
+ ia_css_mipi_frame_enable_check_on_size(const enum mipi_port_id port,
+ 				       const unsigned int	size_mem_words) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9832: FILE: drivers/staging/media/atomisp/pci/sh_css_mipi.c:285:
++int
+ calculate_mipi_buff_size(
+     struct ia_css_stream_config *stream_cfg,
+     unsigned int *size_mem_words) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9865: FILE: drivers/staging/media/atomisp/pci/sh_css_mipi.c:408:
++int
+ allocate_mipi_frames(struct ia_css_pipe *pipe,
+ 		     struct ia_css_stream_info *info) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9947: FILE: drivers/staging/media/atomisp/pci/sh_css_mipi.c:569:
++int
+ free_mipi_frames(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#9973: FILE: drivers/staging/media/atomisp/pci/sh_css_mipi.c:683:
++int
+ send_mipi_frames(struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10176: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1352:
++static int
+ store_fpntbl(struct ia_css_isp_parameters *params, ia_css_ptr ptr) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10202: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1432:
++static int
+ sh_css_select_dp_10bpp_config(const struct ia_css_pipe *pipe,
+ 			      bool *is_dp_10bpp) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#10226: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1458:
++				if (0 == binarydesc_calculate_bds_factor(
+
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#10226: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1458:
++				if (0 == binarydesc_calculate_bds_factor(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10235: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1474:
++int
+ sh_css_set_black_frame(struct ia_css_stream *stream,
+ 		       const struct ia_css_frame *raw_black_frame) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#10267: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1678:
++int ia_css_params_store_sctbl(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10302: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1719:
++static int
+ ia_css_process_zoom_and_motion(
+     struct ia_css_isp_parameters *params,
+     const struct ia_css_pipeline_stage *first_stage) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#10327: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:1968:
++static int sh_css_params_default_morph_table(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10357: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2121:
++int
+ ia_css_get_3a_statistics(struct ia_css_3a_statistics           *host_stats,
+ 			 const struct ia_css_isp_3a_statistics *isp_stats) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10380: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2433:
++int
+ ia_css_stream_set_isp_config(
+     struct ia_css_stream *stream,
+     const struct ia_css_isp_config *config) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10388: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2440:
++int
+ ia_css_stream_set_isp_config_on_pipe(
+     struct ia_css_stream *stream,
+     const struct ia_css_isp_config *config,
+     struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10407: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2463:
++int
+ ia_css_pipe_set_isp_config(struct ia_css_pipe *pipe,
+ 			   struct ia_css_isp_config *config) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10427: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2486:
++static int
+ sh_css_set_global_isp_config_on_pipe(
+     struct ia_css_pipe *curr_pipe,
+     const struct ia_css_isp_config *config,
+     struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10454: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2515:
++static int
+ sh_css_set_per_frame_isp_config_on_pipe(
+     struct ia_css_stream *stream,
+     const struct ia_css_isp_config *config,
+     struct ia_css_pipe *pipe) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10516: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2589:
++static int
+ sh_css_init_isp_params_from_config(struct ia_css_pipe *pipe,
+ 				   struct ia_css_isp_parameters *params,
+ 				   const struct ia_css_isp_config *config,
+ 				   struct ia_css_pipe *pipe_in) {
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#10554: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2715:
++    int *err,$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#10578: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2758:
++    int *err)$
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10587: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2900:
++int
+ ia_css_stream_isp_parameters_init(struct ia_css_stream *stream) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10628: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:2971:
++static int
+ sh_css_create_isp_params(struct ia_css_stream *stream,
+ 			 struct ia_css_isp_parameters **isp_params_out) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10672: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3255:
++int
+ sh_css_params_init(void) {
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#10709: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3335:
++int ia_css_pipe_set_bci_scaler_lut(struct ia_css_pipe *pipe,
+ 	const void *lut)
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#10728: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3356:
++		err = -ENOTSUPP;
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#10811: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:3760:
++int
+ sh_css_param_update_isp_params(struct ia_css_pipe *curr_pipe,
+ 			       struct ia_css_isp_parameters *params,
+ 			       bool commit,
+ 			       struct ia_css_pipe *pipe_in) {
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#11070: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4501:
++static int ref_sh_css_ddr_address_map(
+
+CHECK:OPEN_ENDED_LINE: Lines should not end with a '('
+#11084: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4541:
++static int write_ia_css_isp_parameter_set_info_to_ddr(
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#11105: FILE: drivers/staging/media/atomisp/pci/sh_css_params.c:4566:
++static int
+ free_ia_css_isp_parameter_set_info(
+     ia_css_ptr ptr) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#11225: FILE: drivers/staging/media/atomisp/pci/sh_css_sp.c:539:
++static int
+ set_input_frame_buffer(const struct ia_css_frame *frame) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#11247: FILE: drivers/staging/media/atomisp/pci/sh_css_sp.c:569:
++static int
+ set_output_frame_buffer(const struct ia_css_frame *frame,
+ 			unsigned int idx) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#11269: FILE: drivers/staging/media/atomisp/pci/sh_css_sp.c:611:
++static int
+ set_view_finder_buffer(const struct ia_css_frame *frame) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#11296: FILE: drivers/staging/media/atomisp/pci/sh_css_sp.c:740:
++static int
+ sh_css_sp_write_frame_pointers(const struct sh_css_binary_args *args) {
+
+CHECK:SPACING: No space is necessary after a cast
+#11319: FILE: drivers/staging/media/atomisp/pci/sh_css_sp.c:759:
++	if (err) assert(false);
+
+ERROR:TRAILING_STATEMENTS: trailing statements should be on next line
+#11319: FILE: drivers/staging/media/atomisp/pci/sh_css_sp.c:759:
++	if (err) assert(false);
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#11328: FILE: drivers/staging/media/atomisp/pci/sh_css_sp.c:794:
++static int
+ copy_isp_mem_if_to_ddr(struct ia_css_binary *binary) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#11463: FILE: drivers/staging/media/atomisp/pci/sh_css_sp.c:1604:
++int
+ ia_css_pipe_set_irq_mask(struct ia_css_pipe *pipe,
+ 			 unsigned int or_mask,
+ 			 unsigned int and_mask) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#11485: FILE: drivers/staging/media/atomisp/pci/sh_css_sp.c:1643:
++int
+ ia_css_event_get_irq_mask(const struct ia_css_pipe *pipe,
+ 			  unsigned int *or_mask,
+ 			  unsigned int *and_mask) {
+
+ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+#11516: FILE: drivers/staging/media/atomisp/pci/sh_css_version.c:21:
++int
+ ia_css_get_version(char *version, int max_size) {
+
+total: 134 errors, 17 warnings, 103 checks, 10317 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 41022d35ddf2 ("media: atomisp: get rid of non-Linux error codes") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

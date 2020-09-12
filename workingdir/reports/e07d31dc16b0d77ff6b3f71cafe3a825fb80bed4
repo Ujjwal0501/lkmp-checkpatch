@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 60 lines checked
+
+Commit e07d31dc16b0 ("net/smc: multi-link support for smc_rmb_rtoken_handling()") has no obvious style problems and is ready for submission.

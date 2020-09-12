@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit e73f02c6eb15 ("arm64: efi: Restore register x18 if it was corrupted") has no obvious style problems and is ready for submission.

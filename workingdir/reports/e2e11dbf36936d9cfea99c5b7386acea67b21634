@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 25 lines checked
+
+Commit e2e11dbf3693 ("net/mlx5e: XDP, Print the offending TX descriptor on error completion") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 52 lines checked
+
+Commit d99ce4a1e5a2 ("staging: wfx: fix endianness of the field 'channel_number'") has no obvious style problems and is ready for submission.

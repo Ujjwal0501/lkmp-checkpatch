@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit cb551b8dc079 ("scsi: mpt3sas: Fix unlock imbalance") has no obvious style problems and is ready for submission.

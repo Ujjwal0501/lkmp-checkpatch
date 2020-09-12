@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit 8523f8875bee ("drm/amdgpu: improve amdgpu_gem_info debugfs file") has no obvious style problems and is ready for submission.

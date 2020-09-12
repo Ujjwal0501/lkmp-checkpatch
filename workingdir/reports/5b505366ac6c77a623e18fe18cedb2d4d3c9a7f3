@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 239 lines checked
+
+Commit 5b505366ac6c ("power: supply: core: Add a macro that maps enum properties to text values") has no obvious style problems and is ready for submission.

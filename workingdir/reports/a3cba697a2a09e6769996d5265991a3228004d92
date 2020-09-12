@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit a3cba697a2a0 ("clk: tegra: Export functions for EMC clock scaling") has no obvious style problems and is ready for submission.

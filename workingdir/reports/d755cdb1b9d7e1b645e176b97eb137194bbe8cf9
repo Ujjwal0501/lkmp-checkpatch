@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit d755cdb1b9d7 ("usb: chipidea: introduce CI_HDRC_CONTROLLER_VBUS_EVENT glue layer use") has no obvious style problems and is ready for submission.

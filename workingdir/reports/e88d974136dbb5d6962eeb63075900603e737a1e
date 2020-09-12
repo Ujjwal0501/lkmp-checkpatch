@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit e88d974136db ("x86/entry: Change exit path of xen_failsafe_callback") has no obvious style problems and is ready for submission.

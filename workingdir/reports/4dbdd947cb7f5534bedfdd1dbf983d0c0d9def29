@@ -1,0 +1,68 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#70: FILE: tools/testing/selftests/vm/pkey-helpers.h:90:
++	dprintf4("read_pkey_reg(line=%d) pkey_reg: %016llx"
++			" shadow: %016llx\n",
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#141: FILE: tools/testing/selftests/vm/pkey-x86.h:60:
++	unsigned pkey_reg;
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#263: FILE: tools/testing/selftests/vm/protection_keys.c:377:
+ 	dprintf3("%s(pkey=%d, rights=%lx, flags=%lx) = %x"
++		" pkey_reg now: %016llx old_pkey_reg: %016llx\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#338: FILE: tools/testing/selftests/vm/protection_keys.c:511:
++	dprintf4("%s()::%d, ret: %d pkey_reg: 0x%016llx"
++			" shadow: 0x%016llx\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#346: FILE: tools/testing/selftests/vm/protection_keys.c:518:
++		dprintf4("%s()::%d, ret: %d pkey_reg: 0x%016llx"
++				" shadow: 0x%016llx\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#356: FILE: tools/testing/selftests/vm/protection_keys.c:529:
++	dprintf4("%s()::%d, ret: %d pkey_reg: 0x%016llx"
++			" shadow: 0x%016llx\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#364: FILE: tools/testing/selftests/vm/protection_keys.c:536:
++	dprintf4("%s()::%d, ret: %d pkey_reg: 0x%016llx"
++		 " shadow: 0x%016llx\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#374: FILE: tools/testing/selftests/vm/protection_keys.c:590:
++	dprintf1("%s()::%d, ret: %d pkey_reg: 0x%016llx"
++			 " shadow: 0x%016llx\n", __func__,
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#384: FILE: tools/testing/selftests/vm/protection_keys.c:610:
++		dprintf1("%s()::%d, ret: %d pkey_reg: 0x%016llx"
++			" shadow: 0x%016llx\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#390: FILE: tools/testing/selftests/vm/protection_keys.c:615:
++		dprintf1("%s()::%d, ret: %d pkey_reg: 0x%016llx"
++			" shadow: 0x%016llx\n",
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#400: FILE: tools/testing/selftests/vm/protection_keys.c:626:
++	dprintf1("%s()::%d, ret: %d pkey_reg: 0x%016llx"
++			" shadow: 0x%016llx\n", __func__,
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#419: FILE: tools/testing/selftests/vm/protection_keys.c:1118:
++		dprintf4("%s()::%d, err: %d pkey_reg: 0x%016llx"
++				" shadow: 0x%016llx\n",
+
+total: 0 errors, 12 warnings, 369 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 4dbdd947cb7f ("selftests: vm: pkeys: Use sane types for pkey register") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

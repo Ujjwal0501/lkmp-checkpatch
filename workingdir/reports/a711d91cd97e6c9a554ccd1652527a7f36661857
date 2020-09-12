@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 80 lines checked
+
+Commit a711d91cd97e ("block: add a cdrom_device_info pointer to struct gendisk") has no obvious style problems and is ready for submission.

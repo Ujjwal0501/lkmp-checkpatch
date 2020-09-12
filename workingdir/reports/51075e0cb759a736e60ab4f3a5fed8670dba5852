@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit 51075e0cb759 ("arm64: kexec_file: print appropriate variable") has no obvious style problems and is ready for submission.

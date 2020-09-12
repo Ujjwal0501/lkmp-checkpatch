@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 74 lines checked
+
+Commit 614b1f874454 ("rtw88: handle C2H_CCX_TX_RPT to know if packet TX'ed successfully") has no obvious style problems and is ready for submission.

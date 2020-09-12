@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 212 lines checked
+
+Commit cb056b9fd513 ("habanalabs: retrieve DMA mask indication from firmware") has no obvious style problems and is ready for submission.

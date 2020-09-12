@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 135 exceeds 100 columns
+#123: FILE: drivers/video/fbdev/ssd1307fb.c:750:
++	dev_info(dev, "fb%d: %s framebuffer device registered, using %d bytes of video memory\n", info->node, info->fix.id, vmem_size);
+
+total: 0 errors, 1 warnings, 98 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fa64c6badea4 ("video: ssd1307fb: Introduce temporary variable to increase readability") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit f78059805fb9 ("exfat: remove unnecessary reassignment of p_uniname->name_len") has no obvious style problems and is ready for submission.

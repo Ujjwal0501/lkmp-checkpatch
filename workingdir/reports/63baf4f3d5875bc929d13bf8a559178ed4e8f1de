@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 79 lines checked
+
+Commit 63baf4f3d587 ("drm/i915/gt: Only wait for GPU activity before unbinding a GGTT fence") has no obvious style problems and is ready for submission.

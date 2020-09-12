@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 329 lines checked
+
+Commit 45d457a4cf24 ("w1_therm: adding eeprom sysfs entry") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 112 lines checked
+
+Commit a8648098948d ("media: rc: if kernel is built without an IR codec, don't advertise it") has no obvious style problems and is ready for submission.

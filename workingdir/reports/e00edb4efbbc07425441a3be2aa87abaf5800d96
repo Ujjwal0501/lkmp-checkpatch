@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit e00edb4efbbc ("drivers: net: davinci_mdio: fix potential NULL dereference in davinci_mdio_probe()") has no obvious style problems and is ready for submission.

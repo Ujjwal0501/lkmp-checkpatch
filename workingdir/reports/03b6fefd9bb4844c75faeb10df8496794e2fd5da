@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 402 lines checked
+
+Commit 03b6fefd9bb4 ("tipc: add support for broadcast rcv stats dumping") has no obvious style problems and is ready for submission.

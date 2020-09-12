@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 46 lines checked
+
+Commit 29bd73dba4f7 ("net/smc: send failover validation message") has no obvious style problems and is ready for submission.

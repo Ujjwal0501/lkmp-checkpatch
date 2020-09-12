@@ -1,0 +1,33 @@
+WARNING:LONG_LINE: line length of 138 exceeds 100 columns
+#58: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1348:
++						unsigned int fe = dc->links[i]->link_enc->funcs->get_dig_frontend(dc->links[i]->link_enc);
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#60: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1350:
++						for (j = 0; j < dc->res_pool->stream_enc_count; j++) {
+
+WARNING:DEEP_INDENTATION: Too many leading tabs - consider code refactoring
+#60: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1350:
++						for (j = 0; j < dc->res_pool->stream_enc_count; j++) {
+
+WARNING:DEEP_INDENTATION: Too many leading tabs - consider code refactoring
+#61: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1351:
++							if (fe == dc->res_pool->stream_enc[j]->id) {
+
+WARNING:LONG_LINE: line length of 109 exceeds 100 columns
+#62: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1352:
++								dc->res_pool->stream_enc[j]->funcs->dp_blank(
+
+WARNING:LONG_LINE: line length of 117 exceeds 100 columns
+#63: FILE: drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer.c:1353:
++											dc->res_pool->stream_enc[j]);
+
+total: 0 errors, 6 warnings, 44 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8d9c07b0eb09 ("drm/amd/display: only blank dp stream which will be powered off") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 27 lines checked
+
+Commit beb12813bc75 ("rtlwifi: Fix a double free in _rtl_usb_tx_urb_setup()") has no obvious style problems and is ready for submission.

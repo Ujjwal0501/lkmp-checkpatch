@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 29 lines checked
+
+Commit fb7fb84a0c4e ("cpu/hotplug: Remove __freeze_secondary_cpus()") has no obvious style problems and is ready for submission.

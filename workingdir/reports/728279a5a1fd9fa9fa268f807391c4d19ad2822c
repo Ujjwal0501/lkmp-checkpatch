@@ -1,0 +1,13 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#238: FILE: fs/afs/internal.h:937:
++extern void afs_check_for_remote_deletion(struct afs_operation *);
+
+total: 0 errors, 1 warnings, 179 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 728279a5a1fd ("afs: Fix use of afs_check_for_remote_deletion()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

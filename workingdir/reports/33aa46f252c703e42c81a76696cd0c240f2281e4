@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit 33aa46f252c7 ("cpufreq: intel_pstate: Use passive mode by default without HWP") has no obvious style problems and is ready for submission.

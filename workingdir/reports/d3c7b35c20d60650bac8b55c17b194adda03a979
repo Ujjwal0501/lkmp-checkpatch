@@ -1,0 +1,57 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#29: 
+new file mode 100644
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#34: FILE: Documentation/admin-guide/device-mapper/dm-ebs.rst:1:
++======
+
+WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+#130: FILE: drivers/md/dm-ebs-target.c:1:
++/*
+
+WARNING:LONG_LINE_COMMENT: line length of 101 exceeds 100 columns
+#153: FILE: drivers/md/dm-ebs-target.c:24:
++	struct dm_bufio_client *bufio;	/* Use dm-bufio for read and read-modify-write processing. */
+
+WARNING:LONG_LINE_COMMENT: line length of 119 exceeds 100 columns
+#160: FILE: drivers/md/dm-ebs-target.c:31:
++	unsigned int u_bs;		/* Underlying block size in sectors retrievd from/set on lower layer device. */
+
+WARNING:LONG_LINE_COMMENT: line length of 106 exceeds 100 columns
+#162: FILE: drivers/md/dm-ebs-target.c:33:
++	bool u_bs_set:1;		/* Flag to indicate underlying block size is set on table line. */
+
+WARNING:LONG_LINE_COMMENT: line length of 101 exceeds 100 columns
+#212: FILE: drivers/md/dm-ebs-target.c:83:
++		/* Avoid reading for writes in case bio vector's page overwrites block completely. */
+
+WARNING:LIKELY_MISUSE: nested (un)?likely() calls, IS_ERR already uses unlikely() internally
+#218: FILE: drivers/md/dm-ebs-target.c:89:
++		if (unlikely(IS_ERR(ba))) {
+
+WARNING:TYPO_SPELLING: 'funtion' may be misspelled - perhaps 'function'?
+#276: FILE: drivers/md/dm-ebs-target.c:147:
++/* Worker funtion to process incoming bios. */
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#345: FILE: drivers/md/dm-ebs-target.c:216:
++ * ^I    optional, if not supplied, retrieve logical block size from underlying device$
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#494: FILE: drivers/md/dm-ebs-target.c:365:
++		       unsigned status_flags, char *result, unsigned maxlen)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#494: FILE: drivers/md/dm-ebs-target.c:365:
++		       unsigned status_flags, char *result, unsigned maxlen)
+
+total: 0 errors, 12 warnings, 523 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d3c7b35c20d6 ("dm: add emulated block size target") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

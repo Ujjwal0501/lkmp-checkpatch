@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e4553b4976d1 ("KVM: VMX: Remove vcpu_vmx's defunct copy of host_pkru") has no obvious style problems and is ready for submission.

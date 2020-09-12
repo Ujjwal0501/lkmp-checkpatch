@@ -1,0 +1,13 @@
+WARNING:EMAIL_SUBJECT: A patch subject line should describe the change not the tool that found it
+#4: 
+Subject: [PATCH] mt76: mt7915: fix sparse warnings: incorrect type initializer
+
+total: 0 errors, 1 warnings, 0 checks, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 19e29c69cc47 ("mt76: mt7915: fix sparse warnings: incorrect type initializer") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 156 lines checked
+
+Commit c8b1a84e38c2 ("media: atomisp: remove unused definitions at */isp_capture_defs.h") has no obvious style problems and is ready for submission.

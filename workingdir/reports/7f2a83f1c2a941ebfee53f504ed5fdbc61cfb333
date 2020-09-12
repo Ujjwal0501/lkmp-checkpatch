@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Co-developed-by: must be immediately followed by Signed-off-by:
+#15: 
+Co-developed-by: Jiaxun Yang <jiaxun.yang@flygoat.com>
+Message-Id: <1590220602-3547-12-git-send-email-chenhc@lemote.com>
+total: 0 errors, 1 warnings, 134 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7f2a83f1c2a9 ("KVM: MIPS: Add CPUCFG emulation for Loongson-3") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

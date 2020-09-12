@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 715878016984 ("arm64: dts: marvell: armada-37xx: Set pcie_reset_pin to gpio function") has no obvious style problems and is ready for submission.

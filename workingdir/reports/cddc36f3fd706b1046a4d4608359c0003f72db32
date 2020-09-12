@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit cddc36f3fd70 ("spi: tegra114: Fix runtime PM imbalance on error") has no obvious style problems and is ready for submission.

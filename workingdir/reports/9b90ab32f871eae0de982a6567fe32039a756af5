@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: Co-developed-by: must be immediately followed by Signed-off-by:
+#11: 
+Co-developed-by: Soul Huang <Soul.Huang@mediatek.com>
+Acked-by: Lorenzo Bianconi <lorenzo@kernel.org>
+total: 0 errors, 1 warnings, 0 checks, 102 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9b90ab32f871 ("mt76: mt7615: rework IRQ handling to prepare for MSI support") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

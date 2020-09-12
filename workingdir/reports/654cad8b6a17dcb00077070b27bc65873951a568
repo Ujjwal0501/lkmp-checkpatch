@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 19 lines checked
+
+Commit 654cad8b6a17 ("octeontx2-pf: Fix error return code in otx2_probe()") has no obvious style problems and is ready for submission.

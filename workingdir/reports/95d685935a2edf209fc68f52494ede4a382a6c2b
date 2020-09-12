@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 141 lines checked
+
+Commit 95d685935a2e ("sched/pelt: Sync util/runnable_sum with PELT window when propagating") has no obvious style problems and is ready for submission.

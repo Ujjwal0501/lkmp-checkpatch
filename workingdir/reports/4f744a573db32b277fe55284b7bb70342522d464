@@ -1,0 +1,62 @@
+ERROR:CODE_INDENT: code indent should use tabs where possible
+#173: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:4131:
++^I    ^IIA_CSS_LEAVE_ERR_PRIVATE(err);$
+
+WARNING:SPACE_BEFORE_TAB: please, no space before tabs
+#173: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:4131:
++^I    ^IIA_CSS_LEAVE_ERR_PRIVATE(err);$
+
+WARNING:LONG_LINE_COMMENT: line length of 110 exceeds 100 columns
+#524: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_sp.c:1364:
++		/* For the shading correction type 1 (the legacy shading table conversion in css is not used),
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments should align the * on each line
+#525: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_sp.c:1365:
++		/* For the shading correction type 1 (the legacy shading table conversion in css is not used),
++		* the parameters are passed to the isp for the shading table centering.
+
+ERROR:OPEN_BRACE: that open brace { should be on the previous line
+#527: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_sp.c:1367:
++		if (internal_frame_origin_bqs_on_sctbl &&
++		    params && params->shading_settings.enable_shading_table_conversion == 0)
++		{
+
+CHECK:ASSIGNMENT_CONTINUATIONS: Assignment operator '=' should be on the previous line
+#531: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_sp.c:1371:
++			sh_css_sp_group.pipe[thread_id].shading.internal_frame_origin_x_bqs_on_sctbl
++			= (uint32_t)internal_frame_origin_bqs_on_sctbl->x;
+
+CHECK:ASSIGNMENT_CONTINUATIONS: Assignment operator '=' should be on the previous line
+#533: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_sp.c:1373:
++			sh_css_sp_group.pipe[thread_id].shading.internal_frame_origin_y_bqs_on_sctbl
++			= (uint32_t)internal_frame_origin_bqs_on_sctbl->y;
+
+ERROR:OPEN_BRACE: that open brace { should be on the previous line
+#534: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_sp.c:1374:
++		} else
++		{
+
+CHECK:BRACES: Unbalanced braces around else statement
+#534: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_sp.c:1374:
++		} else
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#536: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_sp.c:1376:
++			sh_css_sp_group.pipe[thread_id].shading.internal_frame_origin_x_bqs_on_sctbl =
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#538: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_sp.c:1378:
++			sh_css_sp_group.pipe[thread_id].shading.internal_frame_origin_y_bqs_on_sctbl =
+
+total: 3 errors, 5 warnings, 3 checks, 492 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 4f744a573db3 ("media: atomisp: make sh_css_sp_init_pipeline() ISP version independent") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

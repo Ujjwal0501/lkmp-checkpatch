@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 4b44295538b4 ("KVM: x86: avoid unnecessary rmap walks when creating/moving slots") has no obvious style problems and is ready for submission.

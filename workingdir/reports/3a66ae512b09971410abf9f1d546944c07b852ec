@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 9 lines checked
+
+Commit 3a66ae512b09 ("scsi: ufs: Remove unnecessary memset for dev_info") has no obvious style problems and is ready for submission.

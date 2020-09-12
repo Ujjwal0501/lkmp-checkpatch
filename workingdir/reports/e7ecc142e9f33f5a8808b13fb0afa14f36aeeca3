@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit e7ecc142e9f3 ("block: blk-crypto-fallback: remove redundant initialization of variable err") has no obvious style problems and is ready for submission.

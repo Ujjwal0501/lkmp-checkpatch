@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 53 lines checked
+
+Commit 6623c5b3dfa5 ("nvme: clean up error handling in nvme_init_ns_head") has no obvious style problems and is ready for submission.

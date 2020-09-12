@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 228 lines checked
+
+Commit 08f4c7c86d4c ("ovl: add accessor for ofs->upper_mnt") has no obvious style problems and is ready for submission.

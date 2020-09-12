@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit da7bad98eebb ("arm64/cpuinfo: Move device_initcall() near cpuinfo_regs_init()") has no obvious style problems and is ready for submission.

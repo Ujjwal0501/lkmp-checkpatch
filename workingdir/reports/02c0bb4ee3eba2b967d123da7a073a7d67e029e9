@@ -1,0 +1,282 @@
+ERROR:OPEN_BRACE: open brace '{' following struct go on the same line
+#29: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1880:
++struct atom_smc_dpm_info_v4_7
++{
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#30: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1881:
++  struct   atom_common_table_header  table_header;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#33: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1884:
++  struct smudpm_i2c_controller_config_v2  I2cControllers[8];$
+
+WARNING:LONG_LINE_COMMENT: line length of 149 exceeds 100 columns
+#36: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1887:
++  uint16_t     MaxVoltageStepGfx; // In mV(Q2) Max voltage step that SMU will request. Multiple steps are taken if voltage change exceeds this value.
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#36: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1887:
++  uint16_t     MaxVoltageStepGfx; // In mV(Q2) Max voltage step that SMU will request. Multiple steps are taken if voltage change exceeds this value.$
+
+WARNING:LONG_LINE_COMMENT: line length of 149 exceeds 100 columns
+#37: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1888:
++  uint16_t     MaxVoltageStepSoc; // In mV(Q2) Max voltage step that SMU will request. Multiple steps are taken if voltage change exceeds this value.
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#37: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1888:
++  uint16_t     MaxVoltageStepSoc; // In mV(Q2) Max voltage step that SMU will request. Multiple steps are taken if voltage change exceeds this value.$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#39: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1890:
++  uint8_t      VddGfxVrMapping;   // Use VR_MAPPING* bitfields$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#40: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1891:
++  uint8_t      VddSocVrMapping;   // Use VR_MAPPING* bitfields$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#41: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1892:
++  uint8_t      VddMem0VrMapping;  // Use VR_MAPPING* bitfields$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#42: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1893:
++  uint8_t      VddMem1VrMapping;  // Use VR_MAPPING* bitfields$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#44: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1895:
++  uint8_t      GfxUlvPhaseSheddingMask; // set this to 1 to set PSI0/1 to 1 in ULV mode$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#45: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1896:
++  uint8_t      SocUlvPhaseSheddingMask; // set this to 1 to set PSI0/1 to 1 in ULV mode$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#46: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1897:
++  uint8_t      ExternalSensorPresent; // External RDI connected to TMON (aka TEMP IN)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#47: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1898:
++  uint8_t      Padding8_V;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#50: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1901:
++  uint16_t     GfxMaxCurrent;   // in Amps$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#51: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1902:
++  uint8_t      GfxOffset;       // in Amps$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#52: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1903:
++  uint8_t      Padding_TelemetryGfx;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#53: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1904:
++  uint16_t     SocMaxCurrent;   // in Amps$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#54: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1905:
++  uint8_t      SocOffset;       // in Amps$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#55: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1906:
++  uint8_t      Padding_TelemetrySoc;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#57: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1908:
++  uint16_t     Mem0MaxCurrent;   // in Amps$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#58: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1909:
++  uint8_t      Mem0Offset;       // in Amps$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#59: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1910:
++  uint8_t      Padding_TelemetryMem0;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#61: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1912:
++  uint16_t     Mem1MaxCurrent;   // in Amps$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#62: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1913:
++  uint8_t      Mem1Offset;       // in Amps$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#63: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1914:
++  uint8_t      Padding_TelemetryMem1;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#66: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1917:
++  uint8_t      AcDcGpio;        // GPIO pin configured for AC/DC switching$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#67: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1918:
++  uint8_t      AcDcPolarity;    // GPIO polarity for AC/DC switching$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#68: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1919:
++  uint8_t      VR0HotGpio;      // GPIO pin configured for VR0 HOT event$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#69: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1920:
++  uint8_t      VR0HotPolarity;  // GPIO polarity for VR0 HOT event$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#71: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1922:
++  uint8_t      VR1HotGpio;      // GPIO pin configured for VR1 HOT event$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#72: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1923:
++  uint8_t      VR1HotPolarity;  // GPIO polarity for VR1 HOT event$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#73: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1924:
++  uint8_t      GthrGpio;        // GPIO pin configured for GTHR Event$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#74: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1925:
++  uint8_t      GthrPolarity;    // replace GPIO polarity for GTHR$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#77: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1928:
++  uint8_t      LedPin0;         // GPIO number for LedPin[0]$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#78: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1929:
++  uint8_t      LedPin1;         // GPIO number for LedPin[1]$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#79: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1930:
++  uint8_t      LedPin2;         // GPIO number for LedPin[2]$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#80: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1931:
++  uint8_t      padding8_4;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#83: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1934:
++  uint8_t      PllGfxclkSpreadEnabled;   // on or off$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#84: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1935:
++  uint8_t      PllGfxclkSpreadPercent;   // Q4.4$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#85: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1936:
++  uint16_t     PllGfxclkSpreadFreq;      // kHz$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#88: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1939:
++  uint8_t      DfllGfxclkSpreadEnabled;   // on or off$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#89: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1940:
++  uint8_t      DfllGfxclkSpreadPercent;   // Q4.4$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#90: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1941:
++  uint16_t     DfllGfxclkSpreadFreq;      // kHz$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#93: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1944:
++  uint8_t      UclkSpreadEnabled;   // on or off$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#94: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1945:
++  uint8_t      UclkSpreadPercent;   // Q4.4$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#95: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1946:
++  uint16_t     UclkSpreadFreq;      // kHz$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#98: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1949:
++  uint8_t      SoclkSpreadEnabled;   // on or off$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#99: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1950:
++  uint8_t      SocclkSpreadPercent;   // Q4.4$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#100: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1951:
++  uint16_t     SocclkSpreadFreq;      // kHz$
+
+WARNING:LONG_LINE_COMMENT: line length of 107 exceeds 100 columns
+#103: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1954:
++  uint16_t     TotalBoardPower;     //Only needed for TCP Estimated case, where TCP = TGP+Total Board Power
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#103: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1954:
++  uint16_t     TotalBoardPower;     //Only needed for TCP Estimated case, where TCP = TGP+Total Board Power$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#104: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1955:
++  uint16_t     BoardPadding;$
+
+WARNING:LONG_LINE_COMMENT: line length of 101 exceeds 100 columns
+#107: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1958:
++  uint32_t     MvddRatio; // This is used for MVDD Vid workaround. It has 16 fractional bits (Q16.16)
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#107: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1958:
++  uint32_t     MvddRatio; // This is used for MVDD Vid workaround. It has 16 fractional bits (Q16.16)$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#110: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1961:
++  uint8_t      GpioI2cScl;          // Serial Clock$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#111: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1962:
++  uint8_t      GpioI2cSda;          // Serial Data$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#112: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1963:
++  uint16_t     GpioPadding;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#115: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1966:
++  uint8_t      LedPin3;         // GPIO number for LedPin[3] - PCIE GEN Speed$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#116: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1967:
++  uint8_t      LedPin4;         // GPIO number for LedPin[4] - PMFW Error Status$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#117: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1968:
++  uint16_t     LedEnableMask;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#120: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1971:
++  uint8_t      PowerLimitScalar[4];    //[PPT_THROTTLER_COUNT]$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#122: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1973:
++  uint8_t      MvddUlvPhaseSheddingMask;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#123: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1974:
++  uint8_t      VddciUlvPhaseSheddingMask;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#124: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1975:
++  uint8_t      Padding8_Psi1;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#125: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1976:
++  uint8_t      Padding8_Psi2;$
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#127: FILE: drivers/gpu/drm/amd/include/atomfirmware.h:1978:
++  uint32_t     BoardReserved[5];$
+
+total: 1 errors, 67 warnings, 219 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 02c0bb4ee3eb ("drm/amd/powerplay: revise the way to retrieve the board parameters") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 71 lines checked
+
+Commit f671237a4b45 ("net: hns3: add support for dumping UC and MC MAC list") has no obvious style problems and is ready for submission.

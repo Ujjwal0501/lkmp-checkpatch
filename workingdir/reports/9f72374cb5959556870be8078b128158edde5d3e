@@ -1,0 +1,17 @@
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#20: 
+ .../networking/{rxrpc.txt => rxrpc.rst}       | 306 +++++++++---------
+
+WARNING:REPEATED_WORD: Possible repeated word: 'have'
+#247: FILE: Documentation/networking/rxrpc.rst:189:
++ (#) A client-side connection is only shared between calls if they have have
+
+total: 0 errors, 2 warnings, 0 checks, 940 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9f72374cb595 ("docs: networking: convert rxrpc.txt to ReST") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

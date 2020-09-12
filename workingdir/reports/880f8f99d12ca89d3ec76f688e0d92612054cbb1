@@ -1,0 +1,27 @@
+WARNING:PRINTF_L: %Lu is non-standard C, use %llu
+#51: FILE: drivers/net/ethernet/broadcom/bnx2x/bnx2x_link.c:3123:
++			DP(NETIF_MSG_LINK, "wr 0 byte timed out after %Lu ns\n",
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#52: FILE: drivers/net/ethernet/broadcom/bnx2x/bnx2x_link.c:3124:
++			DP(NETIF_MSG_LINK, "wr 0 byte timed out after %Lu ns\n",
++					   delta);
+
+WARNING:PRINTF_L: %Lu is non-standard C, use %llu
+#75: FILE: drivers/net/ethernet/broadcom/bnx2x/bnx2x_link.c:3148:
++			DP(NETIF_MSG_LINK, "rd op timed out after %Lu ns\n",
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#76: FILE: drivers/net/ethernet/broadcom/bnx2x/bnx2x_link.c:3149:
++			DP(NETIF_MSG_LINK, "rd op timed out after %Lu ns\n",
++					   delta);
+
+total: 0 errors, 2 warnings, 2 checks, 54 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 880f8f99d12c ("bnx2x: allow bnx2x_bsc_read() to schedule") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

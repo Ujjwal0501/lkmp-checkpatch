@@ -1,0 +1,13 @@
+WARNING:LONG_LINE_COMMENT: line length of 106 exceeds 100 columns
+#50: FILE: arch/arm/boot/dts/at91-sama5d2_xplained.dts:352:
++					status = "disabled"; /* conflict with ISC_D2 & ISC_D3 data pins */
+
+total: 0 errors, 1 warnings, 39 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit bd1f49e7792b ("ARM: dts: at91: sama5d2_xplained: Describe the flx0 I2C function") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

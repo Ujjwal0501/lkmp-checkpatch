@@ -1,0 +1,33 @@
+CHECK:LINE_SPACING: Please don't use multiple blank lines
+#46: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:1268:
++
++
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#335: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:4602:
++	if (ia_css_frame_allocate(&res, arg->fmt.width, arg->fmt.height,
+ 				       sh_format, padded_width, 0)) {
+
+WARNING:LONG_LINE: line length of 138 exceeds 100 columns
+#420: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:5298:
++		asd->stream_env[ATOMISP_INPUT_STREAM_GENERAL].pipe_extra_configs[i].disable_vf_pp = asd->vfpp->val != ATOMISP_VFPP_ENABLE;
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#436: FILE: drivers/staging/media/atomisp/pci/atomisp_cmd.c:5449:
++	    ia_css_frame_allocate_from_info(&asd->raw_output_frame,
+ 		    raw_output_info))
+
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#976: FILE: drivers/staging/media/atomisp/pci/atomisp_ioctl.c:1204:
++		ret = ia_css_frame_map(&handle, &frame_info,
+ 					    (void __user *)buf->m.userptr,
+
+total: 0 errors, 1 warnings, 4 checks, 902 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 85b606e02ad7 ("media: atomisp: get rid of a bunch of other wrappers") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

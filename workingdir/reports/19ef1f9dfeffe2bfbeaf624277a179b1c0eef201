@@ -1,0 +1,14 @@
+WARNING:MAINTAINERS_STYLE: Misordered MAINTAINERS entry - list 'Q:' before 'T:'
+#32: FILE: MAINTAINERS:16063:
+ T:	git git://git.kernel.org/pub/scm/devel/sparse/sparse.git
++Q:	https://patchwork.kernel.org/project/linux-sparse/list/
+
+total: 0 errors, 1 warnings, 11 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 19ef1f9dfeff ("MAINTAINERS: update info for sparse") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

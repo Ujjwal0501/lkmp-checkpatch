@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 13f15b59ad70 ("r8169: remove remaining call to mdiobus_unregister") has no obvious style problems and is ready for submission.

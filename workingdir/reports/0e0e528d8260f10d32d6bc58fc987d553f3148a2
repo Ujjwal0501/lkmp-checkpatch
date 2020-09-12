@@ -1,0 +1,21 @@
+WARNING:LONG_LINE: line length of 147 exceeds 100 columns
+#287: FILE: arch/arm/boot/dts/at91rm9200.dtsi:136:
++				clocks = <&pmc PMC_TYPE_PERIPHERAL 17>, <&pmc PMC_TYPE_PERIPHERAL 18>, <&pmc PMC_TYPE_PERIPHERAL 19>, <&slow_xtal>;
+
+WARNING:LONG_LINE: line length of 147 exceeds 100 columns
+#296: FILE: arch/arm/boot/dts/at91rm9200.dtsi:148:
++				clocks = <&pmc PMC_TYPE_PERIPHERAL 20>, <&pmc PMC_TYPE_PERIPHERAL 21>, <&pmc PMC_TYPE_PERIPHERAL 22>, <&slow_xtal>;
+
+WARNING:LONG_LINE: line length of 120 exceeds 100 columns
+#458: FILE: arch/arm/boot/dts/at91rm9200.dtsi:700:
++			clocks = <&pmc PMC_TYPE_PERIPHERAL 23>, <&pmc PMC_TYPE_PERIPHERAL 23>, <&pmc PMC_TYPE_SYSTEM 4>;
+
+total: 0 errors, 3 warnings, 422 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 0e0e528d8260 ("ARM: dts: at91: rm9200: switch to new clock bindings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

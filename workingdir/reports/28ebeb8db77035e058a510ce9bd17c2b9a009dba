@@ -1,0 +1,49 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#11: 
+    00 70 04 55 80 88 ff ff 18 bb 5a 81 ff ff ff ff  .p.U......Z.....
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#11: 
+    00 70 04 55 80 88 ff ff 18 bb 5a 81 ff ff ff ff  .p.U......Z.....
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#11: 
+    00 70 04 55 80 88 ff ff 18 bb 5a 81 ff ff ff ff  .p.U......Z.....
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#11: 
+    00 70 04 55 80 88 ff ff 18 bb 5a 81 ff ff ff ff  .p.U......Z.....
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#12: 
+    f5 96 78 81 ff ff ff ff 37 de 8e 81 ff ff ff ff  ..x.....7.......
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#12: 
+    f5 96 78 81 ff ff ff ff 37 de 8e 81 ff ff ff ff  ..x.....7.......
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#12: 
+    f5 96 78 81 ff ff ff ff 37 de 8e 81 ff ff ff ff  ..x.....7.......
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#12: 
+    f5 96 78 81 ff ff ff ff 37 de 8e 81 ff ff ff ff  ..x.....7.......
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#12: 
+    f5 96 78 81 ff ff ff ff 37 de 8e 81 ff ff ff ff  ..x.....7.......
+
+WARNING:REPEATED_WORD: Possible repeated word: 'ff'
+#12: 
+    f5 96 78 81 ff ff ff ff 37 de 8e 81 ff ff ff ff  ..x.....7.......
+
+total: 0 errors, 10 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 28ebeb8db770 ("usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

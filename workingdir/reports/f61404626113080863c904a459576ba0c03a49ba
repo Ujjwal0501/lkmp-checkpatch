@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 35 lines checked
+
+Commit f61404626113 ("mmc: host: sdhci-esdhc-imx: add wakeup feature for GPIO CD pin") has no obvious style problems and is ready for submission.

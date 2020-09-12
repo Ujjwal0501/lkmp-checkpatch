@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 78 lines checked
+
+Commit 2592677c0486 ("ima: Use ima_hash_algo for collision detection in the measurement list") has no obvious style problems and is ready for submission.

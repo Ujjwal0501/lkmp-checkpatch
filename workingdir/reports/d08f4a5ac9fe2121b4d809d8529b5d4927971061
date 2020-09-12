@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit d08f4a5ac9fe ("ARM: dts: at91: sama5d2_ptc_ek: add PB_USER as wakeup source") has no obvious style problems and is ready for submission.

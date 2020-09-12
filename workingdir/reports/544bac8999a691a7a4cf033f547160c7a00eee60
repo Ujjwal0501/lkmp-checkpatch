@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 15 lines checked
+
+Commit 544bac8999a6 ("mtd: rawnand: cafe: Stop using nand_release()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 88 lines checked
+
+Commit bea24f766efc ("selftests/ftrace: Distinguish between hist and synthetic event checks") has no obvious style problems and is ready for submission.

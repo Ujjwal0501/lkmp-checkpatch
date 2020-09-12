@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit c28d9a285668 ("ax88172a: fix ax88172a_unbind() failures") has no obvious style problems and is ready for submission.

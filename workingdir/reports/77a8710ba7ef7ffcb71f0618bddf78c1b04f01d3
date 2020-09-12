@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 77a8710ba7ef ("parisc: turn csum_partial_copy_from_user() into csum_and_copy_from_user()") has no obvious style problems and is ready for submission.

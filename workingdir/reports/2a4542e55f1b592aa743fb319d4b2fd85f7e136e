@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 83 lines checked
+
+Commit 2a4542e55f1b ("nvmem: core: cleanup old eeprom compat entry attributes") has no obvious style problems and is ready for submission.

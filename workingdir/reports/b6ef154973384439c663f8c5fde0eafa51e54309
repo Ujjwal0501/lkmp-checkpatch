@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 78 lines checked
+
+Commit b6ef15497338 ("staging: wfx: replace wfx_tx_queues_get_after_dtim() by wfx_tx_queues_has_cab()") has no obvious style problems and is ready for submission.

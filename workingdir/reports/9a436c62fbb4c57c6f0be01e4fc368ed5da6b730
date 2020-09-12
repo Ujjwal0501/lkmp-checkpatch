@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit 9a436c62fbb4 ("spi: rb4xx: update driver to be device tree aware") has no obvious style problems and is ready for submission.

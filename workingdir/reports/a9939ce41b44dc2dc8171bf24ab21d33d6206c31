@@ -1,0 +1,13 @@
+CHECK:UNCOMMENTED_DEFINITION: struct mutex definition without comment
+#33: FILE: drivers/staging/vc04_services/bcm2835-camera/bcm2835-camera.h:39:
++	struct mutex mutex;
+
+total: 0 errors, 0 warnings, 1 checks, 171 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit a9939ce41b44 ("staging: bcm2835-camera: Make struct indentation consistent") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

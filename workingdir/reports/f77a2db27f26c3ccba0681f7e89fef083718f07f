@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 12 lines checked
+
+Commit f77a2db27f26 ("drm/i915/icl+: Don't enable DDI IO power on a TypeC port in TBT mode") has no obvious style problems and is ready for submission.

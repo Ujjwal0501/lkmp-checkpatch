@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 22 lines checked
+
+Commit 462cfcb4aa1c ("i2c: designware: Drop unneeded condition in i2c_dw_validate_speed()") has no obvious style problems and is ready for submission.

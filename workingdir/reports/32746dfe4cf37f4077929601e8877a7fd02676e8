@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit 32746dfe4cf3 ("powerpc/rtas: Remove machine_check_in_rtas()") has no obvious style problems and is ready for submission.

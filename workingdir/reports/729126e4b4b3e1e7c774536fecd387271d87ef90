@@ -1,0 +1,17 @@
+WARNING:TYPO_SPELLING: 'doesnt' may be misspelled - perhaps 'doesn't'?
+#101: FILE: Documentation/admin-guide/media/bttv.rst:61:
++trouble making audio work, please read :ref:`still_doesnt_work`.
+
+WARNING:TYPO_SPELLING: 'doesnt' may be misspelled - perhaps 'doesn't'?
+#115: FILE: Documentation/admin-guide/media/bttv.rst:84:
++.. _still_doesnt_work:
+
+total: 0 errors, 2 warnings, 447 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 729126e4b4b3 ("media: docs: update bttv.rst information") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

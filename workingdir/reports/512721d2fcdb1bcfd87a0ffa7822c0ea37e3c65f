@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 512721d2fcdb ("KVM: PPC: Book3S HV: Read ibm,secure-memory nodes") has no obvious style problems and is ready for submission.

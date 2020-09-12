@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 129 lines checked
+
+Commit 2618d530dd8b ("net/scm: cleanup scm_detach_fds") has no obvious style problems and is ready for submission.

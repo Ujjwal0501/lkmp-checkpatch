@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit 0c35c67412f0 ("virtio-mmio: Delete an error message in vm_find_vqs()") has no obvious style problems and is ready for submission.

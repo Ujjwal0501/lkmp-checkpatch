@@ -1,0 +1,20 @@
+ERROR:TRAILING_WHITESPACE: trailing whitespace
+#74: FILE: net/ethtool/cabletest.c:257:
++ $
+
+WARNING:LEADING_SPACE: please, no spaces at the start of a line
+#74: FILE: net/ethtool/cabletest.c:257:
++ $
+
+total: 1 errors, 1 warnings, 0 checks, 121 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Commit 6b4a0fc10652 ("net: ethtool: Add helpers for cable test TDR data") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

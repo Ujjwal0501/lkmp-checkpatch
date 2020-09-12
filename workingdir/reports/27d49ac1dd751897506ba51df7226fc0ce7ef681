@@ -1,0 +1,18 @@
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#34: FILE: drivers/md/dm-zoned-metadata.c:1030:
++	if (sb_block != (u64)dsb->zone->id << zmd->zone_nr_blocks_shift ) {
+
+WARNING:SPLIT_STRING: quoted string split across lines
+#36: FILE: drivers/md/dm-zoned-metadata.c:1032:
++		dmz_dev_err(dev, "Invalid superblock position "
++			    "(is %llu expected %llu)",
+
+total: 1 errors, 1 warnings, 22 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 27d49ac1dd75 ("dm zoned: check superblock location") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

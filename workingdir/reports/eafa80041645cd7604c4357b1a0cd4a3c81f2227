@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 36 lines checked
+
+Commit eafa80041645 ("usb: gadget: lpc32xx_udc: don't dereference ep pointer before null check") has no obvious style problems and is ready for submission.

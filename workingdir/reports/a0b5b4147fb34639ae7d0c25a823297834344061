@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit a0b5b4147fb3 ("mm: memcontrol: update page->mem_cgroup stability rules") has no obvious style problems and is ready for submission.

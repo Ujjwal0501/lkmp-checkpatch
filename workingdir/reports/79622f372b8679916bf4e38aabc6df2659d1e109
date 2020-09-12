@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 103 lines checked
+
+Commit 79622f372b86 ("i2c: pxa: move private definitions to i2c-pxa.c") has no obvious style problems and is ready for submission.

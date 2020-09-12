@@ -1,0 +1,18 @@
+WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+#51: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:1002:
++	/* If err_event_athub occurs error inject was successful, however
++	   return status from TA is no long reliable */
+
+WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+#51: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c:1002:
++	   return status from TA is no long reliable */
+
+total: 0 errors, 2 warnings, 99 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 001a0a95ed7a ("drm/amdgpu: switch to common ras ta helper") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

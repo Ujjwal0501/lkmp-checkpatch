@@ -1,0 +1,15 @@
+WARNING:BRACES: braces {} are not necessary for single statement blocks
+#71: FILE: tools/perf/jvmti/libjvmti.c:272:
++			if (ret != JVMTI_ERROR_NOT_FOUND) {
++				warnx("jvmti: cannot get line table for method");
++			}
+
+total: 0 errors, 1 warnings, 31 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 959f8ed4c1a8 ("perf jvmti: Do not report error when missing debug information") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 232 lines checked
+
+Commit d3c84299f208 ("arm64: dts: mediatek: Add I2C support for MT6797 SoC") has no obvious style problems and is ready for submission.

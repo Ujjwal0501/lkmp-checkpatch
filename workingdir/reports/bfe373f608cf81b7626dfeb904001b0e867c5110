@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit bfe373f608cf ("blk-mq-debugfs: update blk_queue_flag_name[] accordingly for new flags") has no obvious style problems and is ready for submission.

@@ -1,0 +1,309 @@
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#445: FILE: fs/afs/dir.c:813:
++	op->error = -ENOTSUPP;
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#478: FILE: fs/afs/dir.c:820:
++	if (op->error == -ENOTSUPP) {
+
+WARNING:VSPRINTF_SPECIFIER_PX: Using vsprintf specifier '%px' potentially exposes the kernel memory layout, if you don't really need the address please consider using '%p'.
+#566: FILE: fs/afs/dir.c:962:
++	_debug("splice %px", dentry->d_inode);
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#2029: FILE: fs/afs/dynroot.c:77:
++	BUG_ON(!(inode->i_state & I_NEW));
+
+WARNING:SYMBOLIC_PERMS: Symbolic permissions 'S_IRUGO | S_IXUGO' are not preferred. Consider using octal permissions '0555'.
+#2032: FILE: fs/afs/dynroot.c:80:
++	inode->i_mode		= S_IFDIR | S_IRUGO | S_IXUGO;
+
+WARNING:FILE_PATH_CHANGES: added, moved or deleted file(s), does MAINTAINERS need updating?
+#2335: 
+new file mode 100644
+
+WARNING:ENOTSUPP: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
+#4395: FILE: fs/afs/fsclient.c:1923:
++		op->error = -ENOTSUPP;
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#5125: FILE: fs/afs/inode.c:489:
++	vnode->fid.vid		= as->volume->vid,
++	vnode->fid.vnode	= 1;
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#5155: FILE: fs/afs/inode.c:519:
++	BUG_ON(!(inode->i_state & I_NEW));
+
+WARNING:SUSPECT_COMMA_SEMICOLON: Possible comma where semicolon could be used
+#5158: FILE: fs/afs/inode.c:522:
++	vnode->cb_v_break = as->volume->cb_v_break,
++
++	op = afs_alloc_operation(key, as->volume);
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#5336: FILE: fs/afs/internal.h:131:
++	unsigned		count2;		/* count used in unmarshalling */
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#5433: FILE: fs/afs/internal.h:818:
++			unsigned	first_offset;	/* offset into mapping[first] */
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#5434: FILE: fs/afs/internal.h:819:
++			unsigned	last_to;	/* amount of mapping[last] */
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5503: FILE: fs/afs/internal.h:1023:
++extern void afs_fs_fetch_status(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5504: FILE: fs/afs/internal.h:1024:
++extern void afs_fs_fetch_data(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5505: FILE: fs/afs/internal.h:1025:
++extern void afs_fs_create_file(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5506: FILE: fs/afs/internal.h:1026:
++extern void afs_fs_make_dir(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5507: FILE: fs/afs/internal.h:1027:
++extern void afs_fs_remove_file(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5508: FILE: fs/afs/internal.h:1028:
++extern void afs_fs_remove_dir(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5509: FILE: fs/afs/internal.h:1029:
++extern void afs_fs_link(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5510: FILE: fs/afs/internal.h:1030:
++extern void afs_fs_symlink(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5511: FILE: fs/afs/internal.h:1031:
++extern void afs_fs_rename(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5512: FILE: fs/afs/internal.h:1032:
++extern void afs_fs_store_data(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5513: FILE: fs/afs/internal.h:1033:
++extern void afs_fs_setattr(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5514: FILE: fs/afs/internal.h:1034:
++extern void afs_fs_get_volume_status(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5515: FILE: fs/afs/internal.h:1035:
++extern void afs_fs_set_lock(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5516: FILE: fs/afs/internal.h:1036:
++extern void afs_fs_extend_lock(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5517: FILE: fs/afs/internal.h:1037:
++extern void afs_fs_release_lock(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5528: FILE: fs/afs/internal.h:1042:
++extern void afs_fs_inline_bulk_status(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5538: FILE: fs/afs/internal.h:1049:
++extern void afs_fs_fetch_acl(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5539: FILE: fs/afs/internal.h:1050:
++extern void afs_fs_store_acl(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct key *' should also have an identifier name
+#5544: FILE: fs/afs/internal.h:1055:
++extern struct afs_operation *afs_alloc_operation(struct key *, struct afs_volume *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_volume *' should also have an identifier name
+#5544: FILE: fs/afs/internal.h:1055:
++extern struct afs_operation *afs_alloc_operation(struct key *, struct afs_volume *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5545: FILE: fs/afs/internal.h:1056:
++extern int afs_put_operation(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5546: FILE: fs/afs/internal.h:1057:
++extern bool afs_begin_vnode_operation(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5547: FILE: fs/afs/internal.h:1058:
++extern void afs_wait_for_operation(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5548: FILE: fs/afs/internal.h:1059:
++extern int afs_do_sync_operation(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5579: FILE: fs/afs/internal.h:1090:
++extern void afs_vnode_commit_status(struct afs_operation *, struct afs_vnode_param *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_vnode_param *' should also have an identifier name
+#5579: FILE: fs/afs/internal.h:1090:
++extern void afs_vnode_commit_status(struct afs_operation *, struct afs_vnode_param *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct inode *' should also have an identifier name
+#5582: FILE: fs/afs/internal.h:1092:
++extern int afs_ilookup5_test_by_fid(struct inode *, void *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'void *' should also have an identifier name
+#5582: FILE: fs/afs/internal.h:1092:
++extern int afs_ilookup5_test_by_fid(struct inode *, void *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5588: FILE: fs/afs/internal.h:1094:
++extern struct inode *afs_iget(struct afs_operation *, struct afs_vnode_param *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_vnode_param *' should also have an identifier name
+#5588: FILE: fs/afs/internal.h:1094:
++extern struct inode *afs_iget(struct afs_operation *, struct afs_vnode_param *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct super_block *' should also have an identifier name
+#5589: FILE: fs/afs/internal.h:1095:
++extern struct inode *afs_root_iget(struct super_block *, struct key *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct key *' should also have an identifier name
+#5589: FILE: fs/afs/internal.h:1095:
++extern struct inode *afs_root_iget(struct super_block *, struct key *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'const struct afs_operation *' should also have an identifier name
+#5602: FILE: fs/afs/internal.h:1185:
++extern void afs_dump_edestaddrreq(const struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_net *' should also have an identifier name
+#5639: FILE: fs/afs/internal.h:1435:
++extern void afs_put_volume(struct afs_net *, struct afs_volume *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_volume *' should also have an identifier name
+#5639: FILE: fs/afs/internal.h:1435:
++extern void afs_put_volume(struct afs_net *, struct afs_volume *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5677: FILE: fs/afs/internal.h:1465:
++extern void yfs_fs_fetch_file_status(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5678: FILE: fs/afs/internal.h:1466:
++extern void yfs_fs_fetch_data(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5679: FILE: fs/afs/internal.h:1467:
++extern void yfs_fs_create_file(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5680: FILE: fs/afs/internal.h:1468:
++extern void yfs_fs_make_dir(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5681: FILE: fs/afs/internal.h:1469:
++extern void yfs_fs_remove_file2(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5682: FILE: fs/afs/internal.h:1470:
++extern void yfs_fs_remove_file(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5683: FILE: fs/afs/internal.h:1471:
++extern void yfs_fs_remove_dir(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5684: FILE: fs/afs/internal.h:1472:
++extern void yfs_fs_link(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5685: FILE: fs/afs/internal.h:1473:
++extern void yfs_fs_symlink(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5686: FILE: fs/afs/internal.h:1474:
++extern void yfs_fs_rename(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5687: FILE: fs/afs/internal.h:1475:
++extern void yfs_fs_store_data(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5688: FILE: fs/afs/internal.h:1476:
++extern void yfs_fs_setattr(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5689: FILE: fs/afs/internal.h:1477:
++extern void yfs_fs_get_volume_status(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5690: FILE: fs/afs/internal.h:1478:
++extern void yfs_fs_set_lock(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5691: FILE: fs/afs/internal.h:1479:
++extern void yfs_fs_extend_lock(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5692: FILE: fs/afs/internal.h:1480:
++extern void yfs_fs_release_lock(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5693: FILE: fs/afs/internal.h:1481:
++extern void yfs_fs_fetch_status(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5694: FILE: fs/afs/internal.h:1482:
++extern void yfs_fs_inline_bulk_status(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5706: FILE: fs/afs/internal.h:1495:
++extern void yfs_fs_fetch_opaque_acl(struct afs_operation *);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_operation *' should also have an identifier name
+#5707: FILE: fs/afs/internal.h:1496:
++extern void yfs_fs_store_opaque_acl2(struct afs_operation *);
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#6263: FILE: fs/afs/super.c:502:
++		struct afs_net *net = afs_net(as->net_ns);
++		afs_put_volume(net, as->volume);
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#6514: FILE: fs/afs/write.c:417:
++			  unsigned offset, unsigned to)
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#6514: FILE: fs/afs/write.c:417:
++			  unsigned offset, unsigned to)
+
+WARNING:TABSTOP: Statements should start on a tabstop
+#8672: FILE: include/trace/events/afs.h:657:
++		    unsigned int __len = min_t(unsigned int, name->len, 23);
+
+WARNING:TABSTOP: Statements should start on a tabstop
+#8702: FILE: include/trace/events/afs.h:695:
++		    unsigned int __len = min_t(unsigned int, name->len, 23);
+
+WARNING:TABSTOP: Statements should start on a tabstop
+#8703: FILE: include/trace/events/afs.h:696:
++		    unsigned int __len2 = min_t(unsigned int, name2->len, 23);
+
+total: 0 errors, 74 warnings, 8267 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit e49c7b2f6de7 ("afs: Build an abstraction around an "operation" concept") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

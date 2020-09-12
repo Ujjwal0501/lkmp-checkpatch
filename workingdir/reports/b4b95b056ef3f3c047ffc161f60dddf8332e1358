@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 82 lines checked
+
+Commit b4b95b056ef3 ("drm/i915/dsi: Configure transcoder operation for command mode.") has no obvious style problems and is ready for submission.

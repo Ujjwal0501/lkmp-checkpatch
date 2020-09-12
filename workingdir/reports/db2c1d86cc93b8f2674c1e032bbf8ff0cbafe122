@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit db2c1d86cc93 ("md: remove __clear_page_buffers and use attach/detach_page_private") has no obvious style problems and is ready for submission.

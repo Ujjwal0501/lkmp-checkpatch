@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 22 lines checked
+
+Commit 098286ff930c ("bnxt_en: Add doorbell information to bnxt_en_dev struct.") has no obvious style problems and is ready for submission.

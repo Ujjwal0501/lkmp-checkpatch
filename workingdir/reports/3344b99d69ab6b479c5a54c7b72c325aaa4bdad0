@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 214 lines checked
+
+Commit 3344b99d69ab ("ath10k: add bitrate parse for peer stats info") has no obvious style problems and is ready for submission.

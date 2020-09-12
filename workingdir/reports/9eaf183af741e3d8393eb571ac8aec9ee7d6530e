@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 36 lines checked
+
+Commit 9eaf183af741 ("mac80211: Report beacon protection failures to user space") has no obvious style problems and is ready for submission.

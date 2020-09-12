@@ -1,0 +1,14 @@
+CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+#99: FILE: drivers/staging/media/rkisp1/rkisp1-dev.c:258:
++		ep = fwnode_graph_get_endpoint_by_id(dev_fwnode(rkisp1->dev),
++			0, next_id, FWNODE_GRAPH_ENDPOINT_NEXT);
+
+total: 0 errors, 0 warnings, 1 checks, 115 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 1d3ac27801e5 ("media: staging: rkisp1: replace the call to v4l2_async_notifier_parse_fwnode_endpoints_by_port") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

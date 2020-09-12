@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit 5125bfeeb6e4 ("MIPS: Loongson: Use CONFIG_NR_CPUS_DEFAULT_64 to support more CPUs") has no obvious style problems and is ready for submission.

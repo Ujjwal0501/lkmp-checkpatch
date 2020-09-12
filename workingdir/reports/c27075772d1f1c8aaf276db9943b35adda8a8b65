@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit c27075772d1f ("mtd: rawnand: marvell: Fix the condition on a return code") has no obvious style problems and is ready for submission.

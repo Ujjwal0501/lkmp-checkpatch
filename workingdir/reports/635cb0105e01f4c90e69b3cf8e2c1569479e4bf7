@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 44 lines checked
+
+Commit 635cb0105e01 ("mt76: mt7615: disable hw/sched scan ops for non-offload firmware") has no obvious style problems and is ready for submission.

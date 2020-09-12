@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 48 lines checked
+
+Commit e5a971d76d70 ("ftrace: Use synchronize_rcu_tasks_rude() instead of ftrace_sync()") has no obvious style problems and is ready for submission.

@@ -1,0 +1,18 @@
+WARNING:BAD_SIGN_OFF: Duplicate signature
+#13: 
+Signed-off-by: Joerg Roedel <jroedel@suse.de>
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#54: FILE: drivers/iommu/iommu.c:1391:
++		int attr = 1;
++		iommu_domain_set_attr(dom,
+
+total: 0 errors, 2 warnings, 91 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit ff2a08b39bce ("iommu: Move default domain allocation to separate function") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

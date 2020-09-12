@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 145 lines checked
+
+Commit fcb82a939df8 ("i2c: designware: Add Baikal-T1 System I2C support") has no obvious style problems and is ready for submission.

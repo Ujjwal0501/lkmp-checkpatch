@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 30 lines checked
+
+Commit ead7ba136267 ("ACPI: scan: Put SPCR and STAO table after using it") has no obvious style problems and is ready for submission.

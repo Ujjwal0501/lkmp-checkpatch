@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit 113fcb46cfd5 ("perf s390-cpumsf: Implement ->evsel_is_auxtrace() callback") has no obvious style problems and is ready for submission.

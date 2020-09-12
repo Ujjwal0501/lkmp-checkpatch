@@ -1,0 +1,13 @@
+WARNING:LONG_LINE: line length of 115 exceeds 100 columns
+#24: FILE: drivers/staging/media/atomisp/pci/sh_css_firmware.c:225:
++	strscpy(FW_rel_ver_name, file_header->version, min(sizeof(FW_rel_ver_name), sizeof(file_header->version)));
+
+total: 0 errors, 1 warnings, 0 checks, 8 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f770e91a7b64 ("media: atomisp: limit the name of the firmware file") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 21 lines checked
+
+Commit f32b6775c795 ("crypto: ccp - use crypto_shash_tfm_digest()") has no obvious style problems and is ready for submission.

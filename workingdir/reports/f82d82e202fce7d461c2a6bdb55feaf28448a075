@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit f82d82e202fc ("mtd: rawnand: nandsim: Rename a label in ns_init_module()") has no obvious style problems and is ready for submission.

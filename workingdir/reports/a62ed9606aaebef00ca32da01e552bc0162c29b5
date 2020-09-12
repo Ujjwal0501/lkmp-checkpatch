@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit a62ed9606aae ("ASoC: fsl_micfil: Do not pass irq numbers in comments") has no obvious style problems and is ready for submission.

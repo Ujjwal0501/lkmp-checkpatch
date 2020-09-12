@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 54 lines checked
+
+Commit c288b0ca86a0 ("net_sched: sch_fq: do not call fq_peek() twice per packet") has no obvious style problems and is ready for submission.

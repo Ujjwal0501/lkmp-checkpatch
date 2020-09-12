@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 215 lines checked
+
+Commit dc6490b0c505 ("staging: vt6656: Move calling point of vnt_fill_txkey.") has no obvious style problems and is ready for submission.

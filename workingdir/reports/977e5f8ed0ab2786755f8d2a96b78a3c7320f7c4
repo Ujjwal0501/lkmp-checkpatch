@@ -1,0 +1,37 @@
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_server *' should also have an identifier name
+#135: FILE: fs/afs/internal.h:1248:
++extern struct afs_server *afs_use_server(struct afs_server *, enum afs_server_trace);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_net *' should also have an identifier name
+#136: FILE: fs/afs/internal.h:1249:
++extern void afs_unuse_server(struct afs_net *, struct afs_server *, enum afs_server_trace);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_server *' should also have an identifier name
+#136: FILE: fs/afs/internal.h:1249:
++extern void afs_unuse_server(struct afs_net *, struct afs_server *, enum afs_server_trace);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_net *' should also have an identifier name
+#137: FILE: fs/afs/internal.h:1250:
++extern void afs_unuse_server_notime(struct afs_net *, struct afs_server *, enum afs_server_trace);
+
+WARNING:FUNCTION_ARGUMENTS: function definition argument 'struct afs_server *' should also have an identifier name
+#137: FILE: fs/afs/internal.h:1250:
++extern void afs_unuse_server_notime(struct afs_net *, struct afs_server *, enum afs_server_trace);
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#532: FILE: include/trace/events/afs.h:1283:
++		    __field(int,			ref		)
+
+ERROR:SPACING: space prohibited before that close parenthesis ')'
+#533: FILE: include/trace/events/afs.h:1284:
++		    __field(int,			active		)
+
+total: 2 errors, 5 warnings, 438 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 977e5f8ed0ab ("afs: Split the usage count on struct afs_server") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

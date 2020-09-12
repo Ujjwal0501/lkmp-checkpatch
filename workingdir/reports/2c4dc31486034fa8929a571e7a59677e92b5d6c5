@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit 2c4dc3148603 ("net: ethernet: ti: add NETIF_F_HW_TC hw feature flag for taprio offload") has no obvious style problems and is ready for submission.

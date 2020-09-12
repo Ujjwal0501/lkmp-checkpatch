@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 24 lines checked
+
+Commit bc8788b2f3a0 ("arm64: tegra: Add XUDC node on Tegra194") has no obvious style problems and is ready for submission.

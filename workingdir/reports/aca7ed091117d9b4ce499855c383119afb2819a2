@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 8 lines checked
+
+Commit aca7ed091117 ("i2c: drop duplicated word in the header file") has no obvious style problems and is ready for submission.

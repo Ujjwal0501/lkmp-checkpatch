@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 11 lines checked
+
+Commit 4877b19e13a3 ("media: atomisp: spctrl: be sure to zero .code_addr after free") has no obvious style problems and is ready for submission.

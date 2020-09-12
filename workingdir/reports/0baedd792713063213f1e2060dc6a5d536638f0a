@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 45 lines checked
+
+Commit 0baedd792713 ("KVM: x86: make Hyper-V PV TLB flush use tlb_flush_guest()") has no obvious style problems and is ready for submission.

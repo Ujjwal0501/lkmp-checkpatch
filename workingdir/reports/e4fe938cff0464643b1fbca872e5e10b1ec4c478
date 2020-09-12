@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 172 lines checked
+
+Commit e4fe938cff04 ("sfc: move 'must restore' flags out of ef10-specific nic_data") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 16 lines checked
+
+Commit d7670879c5c4 ("mm, slab: fix sign conversion problem in memcg_uncharge_slab()") has no obvious style problems and is ready for submission.

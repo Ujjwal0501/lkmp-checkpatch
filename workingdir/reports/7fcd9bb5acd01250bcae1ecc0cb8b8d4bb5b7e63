@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 20 lines checked
+
+Commit 7fcd9bb5acd0 ("ALSA: hda: fix NULL pointer dereference during suspend") has no obvious style problems and is ready for submission.

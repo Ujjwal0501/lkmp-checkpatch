@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 77 lines checked
+
+Commit 7e928263fc53 ("mtd: rawnand: onfi: Avoid doing a copy of the parameter page") has no obvious style problems and is ready for submission.

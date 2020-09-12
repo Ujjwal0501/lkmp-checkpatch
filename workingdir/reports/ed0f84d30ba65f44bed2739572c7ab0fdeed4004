@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 128 lines checked
+
+Commit ed0f84d30ba6 ("exfat: replace 'time_ms' with 'time_cs'") has no obvious style problems and is ready for submission.

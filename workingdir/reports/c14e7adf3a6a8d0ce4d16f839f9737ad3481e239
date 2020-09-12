@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 116 lines checked
+
+Commit c14e7adf3a6a ("scsi: ufs: sysfs: Add sysfs entries for write booster") has no obvious style problems and is ready for submission.

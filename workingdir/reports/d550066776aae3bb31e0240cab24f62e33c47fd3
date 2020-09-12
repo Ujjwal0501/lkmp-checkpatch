@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 133 lines checked
+
+Commit d550066776aa ("net/smc: mutex to protect the lgr against parallel reconfigurations") has no obvious style problems and is ready for submission.

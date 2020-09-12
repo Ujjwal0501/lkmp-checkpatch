@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit ca72cc348355 ("virtio-balloon: Document byte ordering of poison_val") has no obvious style problems and is ready for submission.

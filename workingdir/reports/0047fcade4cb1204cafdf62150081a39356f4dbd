@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 34 lines checked
+
+Commit 0047fcade4cb ("KVM: VMX: Move nested EPT out of kvm_x86_ops.get_tdp_level() hook") has no obvious style problems and is ready for submission.

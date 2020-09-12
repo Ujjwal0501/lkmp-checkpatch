@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 139 lines checked
+
+Commit c362a06e96ea ("net/sched: act_gate: fix configuration of the periodic timer") has no obvious style problems and is ready for submission.

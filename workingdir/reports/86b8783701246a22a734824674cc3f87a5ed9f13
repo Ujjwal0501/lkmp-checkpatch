@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 86b878370124 ("arm64: vdso: Add '-Bsymbolic' to ldflags") has no obvious style problems and is ready for submission.

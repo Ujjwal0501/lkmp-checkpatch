@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 211 lines checked
+
+Commit c48254fa48e5 ("net/smc: move add link processing for new device into llc layer") has no obvious style problems and is ready for submission.

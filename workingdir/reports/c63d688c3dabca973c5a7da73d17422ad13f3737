@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit c63d688c3dab ("powerpc/dt_cpu_ftrs: Enable Prefixed Instructions") has no obvious style problems and is ready for submission.

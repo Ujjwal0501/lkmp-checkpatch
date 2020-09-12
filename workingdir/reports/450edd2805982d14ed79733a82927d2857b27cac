@@ -1,0 +1,13 @@
+WARNING:BAD_SIGN_OFF: 'Reported-by:' is the preferred signature form
+#15: 
+Reported-By: Denis <pro.denis@protonmail.com>
+
+total: 0 errors, 1 warnings, 0 checks, 12 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 450edd280598 ("ath9k_htc: Silence undersized packet warnings") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

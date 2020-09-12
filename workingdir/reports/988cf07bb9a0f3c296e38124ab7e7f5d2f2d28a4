@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 183 lines checked
+
+Commit 988cf07bb9a0 ("staging: wfx: handle firmware events synchronously") has no obvious style problems and is ready for submission.

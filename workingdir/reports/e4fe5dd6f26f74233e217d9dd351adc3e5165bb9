@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 239 lines checked
+
+Commit e4fe5dd6f26f ("rcu-tasks: Further refactor RCU-tasks to allow adding more variants") has no obvious style problems and is ready for submission.

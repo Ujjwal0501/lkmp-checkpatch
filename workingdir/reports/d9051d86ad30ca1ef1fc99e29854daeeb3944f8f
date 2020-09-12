@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 82 lines checked
+
+Commit d9051d86ad30 ("ASoC: soc-pcm: replace snd_soc_runtime_activate()/deactivate() to macro") has no obvious style problems and is ready for submission.

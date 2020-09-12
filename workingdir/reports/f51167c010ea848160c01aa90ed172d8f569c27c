@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit f51167c010ea ("mmc: s3cmci: Drop redundant code in s3cmci_setup_data()") has no obvious style problems and is ready for submission.

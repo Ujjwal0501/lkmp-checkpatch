@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 342 lines checked
+
+Commit a9a753594a89 ("drm/sun4i: de2: rgb field in de2 format struct is redundant") has no obvious style problems and is ready for submission.

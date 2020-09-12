@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 7 lines checked
+
+Commit e5ebf357bbfc ("thermal/drivers/thermal_hwmon: Include export.h") has no obvious style problems and is ready for submission.

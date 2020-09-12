@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 79 lines checked
+
+Commit bfd1e0eb08f6 ("net: ks8851: Rename ndev to netdev in probe") has no obvious style problems and is ready for submission.

@@ -1,0 +1,41 @@
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#90: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:64:
++		  unsigned size, enum amdgpu_ib_pool_type pool_type,
+
+WARNING:UNSPECIFIED_INT: Prefer 'unsigned int' to bare use of 'unsigned'
+#173: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:369:
++	unsigned i;
+
+WARNING:QUOTED_WHITESPACE_BEFORE_NEWLINE: unnecessary whitespace before a quoted newline
+#187: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:447:
++	seq_printf(m, "--------------------- DELAYED --------------------- \n");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#187: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:447:
++	seq_printf(m, "--------------------- DELAYED --------------------- \n");
+
+WARNING:QUOTED_WHITESPACE_BEFORE_NEWLINE: unnecessary whitespace before a quoted newline
+#190: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:450:
++	seq_printf(m, "-------------------- IMMEDIATE -------------------- \n");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#190: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:450:
++	seq_printf(m, "-------------------- IMMEDIATE -------------------- \n");
+
+WARNING:QUOTED_WHITESPACE_BEFORE_NEWLINE: unnecessary whitespace before a quoted newline
+#193: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:453:
++	seq_printf(m, "--------------------- DIRECT ---------------------- \n");
+
+WARNING:PREFER_SEQ_PUTS: Prefer seq_puts to seq_printf
+#193: FILE: drivers/gpu/drm/amd/amdgpu/amdgpu_ib.c:453:
++	seq_printf(m, "--------------------- DIRECT ---------------------- \n");
+
+total: 0 errors, 8 warnings, 286 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 9ecefb19c3a6 ("drm/amdgpu: cleanup IB pool handling a bit") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 11 lines checked
+
+Commit d071e91361bb ("kcsan: Change data_race() to no longer require marking racing accesses") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 66 lines checked
+
+Commit ae372cb1750f ("net/sched: act_ct: fix restore the qdisc_skb_cb after defrag") has no obvious style problems and is ready for submission.

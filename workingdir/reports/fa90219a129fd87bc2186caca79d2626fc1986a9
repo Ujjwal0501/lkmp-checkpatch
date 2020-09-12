@@ -1,0 +1,17 @@
+WARNING:LONG_LINE: line length of 101 exceeds 100 columns
+#53: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2218:
++			pipes[pipe_cnt].pipe.src.viewport_width_c = scl->viewport_c_unadjusted.width;
+
+WARNING:LONG_LINE: line length of 103 exceeds 100 columns
+#55: FILE: drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c:2220:
++			pipes[pipe_cnt].pipe.src.viewport_height_c = scl->viewport_c_unadjusted.height;
+
+total: 0 errors, 2 warnings, 35 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit fa90219a129f ("drm/amd/display: fix dml pipe merge logic") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

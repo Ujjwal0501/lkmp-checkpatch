@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 32 lines checked
+
+Commit db415f7aae07 ("exfat: fix name_hash computation on big endian systems") has no obvious style problems and is ready for submission.

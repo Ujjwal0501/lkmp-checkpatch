@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 98 lines checked
+
+Commit 41a23ab336fb ("KVM: selftests: do not substitute SVM/VMX check with KVM_CAP_NESTED_STATE check") has no obvious style problems and is ready for submission.

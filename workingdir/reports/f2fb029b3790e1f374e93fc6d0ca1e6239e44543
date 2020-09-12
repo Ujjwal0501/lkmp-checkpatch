@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 41 lines checked
+
+Commit f2fb029b3790 ("media: atomisp: improve IRQ handling debug messages") has no obvious style problems and is ready for submission.

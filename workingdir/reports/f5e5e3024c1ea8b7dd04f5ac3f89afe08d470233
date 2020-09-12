@@ -1,0 +1,13 @@
+WARNING:TYPO_SPELLING: 'enought' may be misspelled - perhaps 'enough'?
+#7: 
+clear enought. Also, the actual documentation it's not correct in all
+
+total: 0 errors, 1 warnings, 0 checks, 207 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f5e5e3024c1e ("staging: vt6656: Remove functions' documentation") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

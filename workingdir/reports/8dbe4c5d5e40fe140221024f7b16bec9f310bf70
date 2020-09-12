@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 8dbe4c5d5e40 ("net: dsa: bcm_sf2: Fix node reference count") has no obvious style problems and is ready for submission.

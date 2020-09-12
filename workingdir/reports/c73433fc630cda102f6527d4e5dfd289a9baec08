@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 87 lines checked
+
+Commit c73433fc630c ("arm64/cpufeature: Validate hypervisor capabilities during CPU hotplug") has no obvious style problems and is ready for submission.

@@ -1,0 +1,18 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#80: FILE: drivers/md/dm-bufio.c:1355:
++	BUG_ON(dm_bufio_in_request());
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#97: FILE: drivers/md/dm-bufio.c:1372:
++		struct dm_buffer *b;
++		dm_bufio_lock(c);
+
+total: 0 errors, 2 warnings, 105 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 6fbeb0048e6b ("dm bufio: implement discard") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

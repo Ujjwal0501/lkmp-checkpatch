@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 31 lines checked
+
+Commit ca7e3edc221d ("net/smc: remove set but not used variables 'del_llc, del_llc_resp'") has no obvious style problems and is ready for submission.

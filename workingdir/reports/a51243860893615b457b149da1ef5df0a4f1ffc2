@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 9 lines checked
+
+Commit a51243860893 ("qed: add missing error test for DBG_STATUS_NO_MATCHING_FRAMING_MODE") has no obvious style problems and is ready for submission.

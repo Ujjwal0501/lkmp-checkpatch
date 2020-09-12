@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 48 lines checked
+
+Commit b3ae2459f897 ("net/tls: Add force_resync for driver resync") has no obvious style problems and is ready for submission.

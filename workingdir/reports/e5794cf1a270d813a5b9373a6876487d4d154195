@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 120 lines checked
+
+Commit e5794cf1a270 ("s390/pci: create links between PFs and VFs") has no obvious style problems and is ready for submission.

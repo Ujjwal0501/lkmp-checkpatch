@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 124 lines checked
+
+Commit 9cbe0fc8cd9c ("mmc: host: Prepare host drivers for mmc_regulator_set_vqmmc() returning > 0") has no obvious style problems and is ready for submission.

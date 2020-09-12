@@ -1,0 +1,27 @@
+WARNING:REPEATED_WORD: Possible repeated word: 'shared'
+#48: FILE: arch/x86/entry/entry_32.S:746:
+  * Include the defines which emit the idt entries which are shared
++ * shared between 32 and 64 bit and emit the __irqentry_text_* markers
+
+WARNING:REPEATED_WORD: Possible repeated word: 'shared'
+#73: FILE: arch/x86/entry/entry_64.S:481:
+  * Include the defines which emit the idt entries which are shared
++ * shared between 32 and 64 bit and emit the __irqentry_text_* markers
+
+WARNING:PREFER_SECTION: __section(.irqentry.text) is preferred over __attribute__((section(".irqentry.text")))
+#202: FILE: include/linux/interrupt.h:764:
++# define __irq_entry	 __attribute__((__section__(".irqentry.text")))
+
+WARNING:PREFER_SECTION: __section(.softirqentry.text) is preferred over __attribute__((section(".softirqentry.text")))
+#205: FILE: include/linux/interrupt.h:767:
++#define __softirq_entry  __attribute__((__section__(".softirqentry.text")))
+
+total: 0 errors, 4 warnings, 124 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit f0178fc01fe4 ("x86/entry: Unbreak __irqentry_text_start/end magic") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

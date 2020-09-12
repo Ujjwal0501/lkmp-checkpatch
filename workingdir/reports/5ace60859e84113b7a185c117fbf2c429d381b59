@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 137 lines checked
+
+Commit 5ace60859e84 ("i2c: smbus: Add a way to instantiate SPD EEPROMs automatically") has no obvious style problems and is ready for submission.

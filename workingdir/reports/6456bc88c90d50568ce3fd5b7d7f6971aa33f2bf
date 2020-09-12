@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 365 lines checked
+
+Commit 6456bc88c90d ("ARM: dts: aspeed: mihawk: add aliases for i2c") has no obvious style problems and is ready for submission.

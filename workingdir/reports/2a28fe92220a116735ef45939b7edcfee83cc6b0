@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit 2a28fe92220a ("drm/amd/display: Correct updating logic of dcn21's pipe VM flags") has no obvious style problems and is ready for submission.

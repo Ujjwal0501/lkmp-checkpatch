@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 57 lines checked
+
+Commit 54b2fcee1db0 ("nvme-pci: remove last_sq_tail") has no obvious style problems and is ready for submission.

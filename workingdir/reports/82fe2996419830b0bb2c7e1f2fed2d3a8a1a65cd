@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 8 lines checked
+
+Commit 82fe29964198 ("net/mlx5e: Set of completion request bit should not clear other adjacent bits") has no obvious style problems and is ready for submission.

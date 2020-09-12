@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 27 lines checked
+
+Commit f8953043e6e2 ("ASoC: fsl_asrc: Set ASR76K and ASR56K based on processing clock") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 64 lines checked
+
+Commit 5d12da9dd6c1 ("efi/libstub/arm64: Simplify randomized loading of kernel image") has no obvious style problems and is ready for submission.

@@ -1,0 +1,18 @@
+WARNING:SPLIT_STRING: quoted string split across lines
+#55: FILE: tools/virtio/virtio_test.c:284:
+ 		" [--delayed-interrupt]"
++		" [--batch=random/N]"
+
+WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
+#66: FILE: tools/virtio/virtio_test.c:321:
++			if (0 == strcmp(optarg, "random")) {
+
+total: 0 errors, 2 warnings, 48 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 7add78b2a6b7 ("tools/virtio: Add --batch=random option") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

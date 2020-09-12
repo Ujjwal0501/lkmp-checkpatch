@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 91 lines checked
+
+Commit 752db83a5dfd ("regulator: extract voltage balancing code to the separate function") has no obvious style problems and is ready for submission.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 18 lines checked
+
+Commit a1a0e61f3c43 ("drm/amd/display: Revert to old formula in set_vtg_params") has no obvious style problems and is ready for submission.

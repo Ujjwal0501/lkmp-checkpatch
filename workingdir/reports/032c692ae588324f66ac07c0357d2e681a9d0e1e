@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 39 lines checked
+
+Commit 032c692ae588 ("soc: qcom: rpmh-rsc: read_tcs_reg()/write_tcs_reg() are not for IRQ") has no obvious style problems and is ready for submission.

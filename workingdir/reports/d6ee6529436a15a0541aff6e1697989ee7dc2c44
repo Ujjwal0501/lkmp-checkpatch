@@ -1,0 +1,17 @@
+ERROR:GIT_COMMIT_ID: Please use git commit description style 'commit <12+ chars of sha1> ("<title line>")' - ie: 'commit ce5e3f909fc0 ("efi/printf: Add 64-bit and 8-bit integer support")'
+#9: 
+  ce5e3f909fc0 ("efi/printf: Add 64-bit and 8-bit integer support")
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#12: 
+section coming from drivers/firmware/efi/libstub/vsprintf.stub.o. That section
+
+total: 1 errors, 1 warnings, 6 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit d6ee6529436a ("x86/boot: Discard .discard.unreachable for arch/x86/boot/compressed/vmlinux") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

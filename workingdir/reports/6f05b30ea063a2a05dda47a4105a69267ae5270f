@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 61 lines checked
+
+Commit 6f05b30ea063 ("ceph: reset i_requested_max_size if file write is not wanted") has no obvious style problems and is ready for submission.

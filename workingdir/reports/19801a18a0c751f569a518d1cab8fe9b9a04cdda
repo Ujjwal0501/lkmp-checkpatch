@@ -1,0 +1,21 @@
+WARNING:LONG_LINE: line length of 110 exceeds 100 columns
+#115: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_params.c:4082:
++										binary->sctbl_width_per_color,
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#116: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_params.c:4083:
++										binary->sctbl_height);
+
+WARNING:LONG_LINE: line length of 102 exceeds 100 columns
+#131: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_params.c:4451:
++									binary->sctbl_width_per_color,
+
+total: 0 errors, 3 warnings, 0 checks, 100 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 19801a18a0c7 ("media: atomisp: unify sh_css_params_shading_id_table_generate()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

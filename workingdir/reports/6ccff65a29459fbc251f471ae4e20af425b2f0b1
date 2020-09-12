@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 42 lines checked
+
+Commit 6ccff65a2945 ("mmc: sdricoh_cs: Drop redundant in-parameter to sdricoh_query_status()") has no obvious style problems and is ready for submission.

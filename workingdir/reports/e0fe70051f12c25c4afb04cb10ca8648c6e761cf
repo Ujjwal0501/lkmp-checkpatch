@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 66 lines checked
+
+Commit e0fe70051f12 ("spi: rspi: Use requested instead of maximum bit rate") has no obvious style problems and is ready for submission.

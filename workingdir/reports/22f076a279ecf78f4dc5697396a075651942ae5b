@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 6 lines checked
+
+Commit 22f076a279ec ("net: ethernet: mediatek: remove unnecessary spaces from Makefile") has no obvious style problems and is ready for submission.

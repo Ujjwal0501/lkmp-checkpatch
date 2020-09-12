@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 65 lines checked
+
+Commit 21b704d78352 ("drm/amdgpu/vcn: add shared memory restore after wake up from sleep.") has no obvious style problems and is ready for submission.

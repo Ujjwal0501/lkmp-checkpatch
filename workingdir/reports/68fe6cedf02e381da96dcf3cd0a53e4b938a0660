@@ -1,0 +1,13 @@
+WARNING:UNKNOWN_COMMIT_ID: Unknown commit id '90bc1ee6de9f', maybe rebased or not pulled?
+#7: 
+on the platform code as it used to be before commit 90bc1ee6de9f ("i2c:
+
+total: 0 errors, 1 warnings, 7 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 68fe6cedf02e ("i2c: designware: slave: Set DW I2C core module dependency") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 26 lines checked
+
+Commit 5b94ce2fcae2 ("tools/vm/page_owner_sort.c: filter out unneeded line") has no obvious style problems and is ready for submission.

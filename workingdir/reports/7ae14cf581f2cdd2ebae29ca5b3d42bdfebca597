@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 111 lines checked
+
+Commit 7ae14cf581f2 ("phy: ti: j721e-wiz: Implement DisplayPort mode to the wiz driver") has no obvious style problems and is ready for submission.

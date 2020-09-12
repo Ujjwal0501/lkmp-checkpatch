@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 7 lines checked
+
+Commit 55fffcb927ba ("media: atomisp: Remove second increment of count in atomisp_subdev_probe") has no obvious style problems and is ready for submission.

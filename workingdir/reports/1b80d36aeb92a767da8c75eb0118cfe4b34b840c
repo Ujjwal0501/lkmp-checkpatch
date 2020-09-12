@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 71 lines checked
+
+Commit 1b80d36aeb92 ("media: Kconfig: move the position of sub-driver autoselection") has no obvious style problems and is ready for submission.

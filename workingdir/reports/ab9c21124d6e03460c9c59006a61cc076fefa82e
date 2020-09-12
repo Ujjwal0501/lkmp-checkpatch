@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 107 lines checked
+
+Commit ab9c21124d6e ("drm/amdgpu: Add cmd to control XGMI link sleep") has no obvious style problems and is ready for submission.

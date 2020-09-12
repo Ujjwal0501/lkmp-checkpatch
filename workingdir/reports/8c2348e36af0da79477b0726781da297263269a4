@@ -1,0 +1,26 @@
+WARNING:BRACES: braces {} are not necessary for any arm of this statement
+#29: FILE: net/atm/ioctl.c:165:
++	if (cmd == ATM_GETNAMES) {
+[...]
++	} else {
+[...]
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#70: FILE: net/atm/resources.c:209:
++		compat_uptr_t cbuf;
++		iobuf_len = &ciobuf->length;
+
+WARNING:LINE_SPACING: Missing a blank line after declarations
+#84: FILE: net/atm/resources.c:216:
++		struct atm_iobuf __user *iobuf = arg;
++		iobuf_len = &iobuf->length;
+
+total: 0 errors, 3 warnings, 0 checks, 125 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit 8c2348e36af0 ("atm: separate ATM_GETNAMES handling from the rest of atm_dev_ioctl()") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

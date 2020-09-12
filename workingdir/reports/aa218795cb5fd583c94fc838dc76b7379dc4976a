@@ -1,0 +1,17 @@
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#215: FILE: mm/page_alloc.c:8813:
++			BUG_ON(page_count(page));
+
+WARNING:AVOID_BUG: Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()
+#216: FILE: mm/page_alloc.c:8814:
++			BUG_ON(PageBuddy(page));
+
+total: 0 errors, 2 warnings, 157 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+Commit aa218795cb5f ("mm: Allow to offline unmovable PageOffline() pages via MEM_GOING_OFFLINE") has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.

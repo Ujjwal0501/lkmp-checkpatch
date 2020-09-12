@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 19 lines checked
+
+Commit 90ca78deb004 ("drm/amdgpu: Sync with VM root BO when switching VM to CPU update mode") has no obvious style problems and is ready for submission.

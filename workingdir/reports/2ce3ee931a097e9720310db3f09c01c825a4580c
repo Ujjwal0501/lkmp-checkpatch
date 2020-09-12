@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 28 lines checked
+
+Commit 2ce3ee931a09 ("ext4: avoid utf8_strncasecmp() with unstable name") has no obvious style problems and is ready for submission.

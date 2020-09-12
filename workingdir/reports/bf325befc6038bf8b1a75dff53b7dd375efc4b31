@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 0 checks, 19 lines checked
+
+Commit bf325befc603 ("staging: wfx: rename wfx_tx_get_raw_link_id()") has no obvious style problems and is ready for submission.

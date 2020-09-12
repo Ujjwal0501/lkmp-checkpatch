@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 213 lines checked
+
+Commit bc1a85977b95 ("samples, bpf: Refactor tail call user progs with libbpf") has no obvious style problems and is ready for submission.

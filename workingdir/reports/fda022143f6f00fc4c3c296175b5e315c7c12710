@@ -1,0 +1,3 @@
+total: 0 errors, 0 warnings, 13 lines checked
+
+Commit fda022143f6f ("drm/exynos: mixer: Fix enabling of the runtime power management") has no obvious style problems and is ready for submission.
