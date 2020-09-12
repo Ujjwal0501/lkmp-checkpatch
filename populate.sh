@@ -29,7 +29,7 @@ run_script () {
 
     if [ ! -f "workingdir/checkpatch_result" ]; then
         echo -e "Running script on commits"
-        scripts/checkpatch.pl -g v5.7..v5.8 --terse --show-types | grep -o "[a-z0-9]*:[0-9]*: [A-Z_]*:[A-Z0-9_]*" > workingdir/checkpatch_result
+        scripts/checkpatch.pl -g v5.7..v5.8 --terse --show-types > workingdir/checkpatch_result
     else
         echo -e "\nFILE_EXISTS: workingdir/checkpatch_result"
     fi
@@ -39,6 +39,7 @@ run_script () {
 
 run_script_sequential () {
     if [ ! -d "reports" ]; then mkdir || exit 1; fi
+    if [ ! -f "commit_list_in5.8_and_not5.7" ]; then collect_commits; fi
     cd .. || exit 1
 
     echo -e "Running script sequentially on commits"
@@ -55,12 +56,18 @@ run_script_no_merges () {
     T=$(cat workingdir/commit_list_in5.8_and_not5.7)
     if [ ! -f "workingdir/checkpatch_result" ]; then
         echo -e "Running script on commits no-merges"
-        scripts/checkpatch.pl -g $T --terse --show-types | grep -o "[a-z0-9]*:[0-9]*: [A-Z_]*:[A-Z0-9_]*" > workingdir/checkpatch_result
+        scripts/checkpatch.pl -g $T --terse --show-types > workingdir/checkpatch_result
     else
         echo -e "\nFILE_EXISTS: workingdir/checkpatch_result"
     fi
 
     cd workingdir || exit 1
+}
+
+trim_script_result() {
+    if [ ! -f "checkpatch_result" ]; then run_script; fi
+
+    cat checkpatch_result | grep -o "[a-z0-9]*:[0-9]*: [A-Z_]*:[A-Z0-9_]*" > checkpatch_result_trimmed
 }
 
 
@@ -70,7 +77,7 @@ run_script_no_merges () {
 generate_report() {
     if [ ! -d "attention" ]; then mkdir attention || exit 1; fi
     if [ ! -d "type" ]; then mkdir type || exit 1; fi
-    if [ ! -f "checkpatch_result" ]; then run_script_no_merges; fi
+    if [ ! -f "checkpatch_result_trimmed" ]; then trim_script_result; fi
 
     rm attention/*
     rm type/*
@@ -93,7 +100,7 @@ generate_report() {
         if [ ! "$commit" = "$(touch attention/${attention}_type && tail -n 1 attention/${attention}_type)" ]; then
             echo $type >> "attention/${attention}_type"
         fi
-    done < checkpatch_result
+    done < checkpatch_result_trimmed
 
     sort attention/WARNING_type > temp
     uniq temp > attention/WARNING_type
@@ -107,11 +114,11 @@ generate_report() {
 }
 
 # ***************************************************************
-# BELOW WE COLLECT STATS FROM REPORTS
+# BELOW WE GENERATE STATS FROM REPORTS
 # ***************************************************************
 collect_stats() {
-    if [ ! -f "checkpatch_result" ]; then run_script_no_merges; fi
-    CHKPTCH=( "$(cat checkpatch_result)" )
+    if [ ! -f "checkpatch_result_trimmed" ]; then trim_script_result; fi
+    CHKPTCH=( "$(cat checkpatch_result_trimmed)" )
 
     if [ ! -f "stats" ]; then
         echo -e "\nCollecting statistics"
@@ -121,12 +128,14 @@ collect_stats() {
         echo "$CHKPTCH" | cut -f 2- -d ' ' | grep "WARNING" | sort | uniq -c | less | sort -nr >> stats
         echo "" >> stats
         echo "$CHKPTCH" | cut -f 2- -d ' ' | grep "CHECK" | sort | uniq -c | less | sort -nr >> stats
+        echo "" >> stats
 
         printf '\t%-15s %-15s %-40s\n' "OCCURRENCES" "COMMITS" "TYPE" >> stats
         VAL=$( for f in $(ls -1 "type/"); do \
                 printf '\t%-15s %-15s %-40s\n' "$(echo "$CHKPTCH" | grep $f -c)" "$(cat type/$f | wc -l)" "$f"; \
             done )
-        echo "$VAL" | sort -n >> stats
+        echo "$VAL" | sort -nr >> stats
+        echo "" >> stats
         
         echo -e "Total ERRORS:\t$(echo "$CHKPTCH" | grep ERROR: -c)" >> stats
         echo -e "Total WARNINGS:\t$(echo "$CHKPTCH" | grep WARNING: -c)" >> stats
@@ -143,6 +152,6 @@ collect_stats() {
 }
 
 collect_commits
-run_script
+#trim_script_result
 generate_report
 collect_stats
