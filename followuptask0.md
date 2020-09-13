@@ -55,17 +55,17 @@ and used the following command to run the script
 > scripts/checkpatch.pl -g bcf876870b95-17595 --show-types | grep -o "ERROR:.*:" | cut -d':' -f 2 > file.txt
 > ```
 
-Summary, we both ran the script on different set of commits. The part **'-g cf876870b95-17595'** and **'-g v5.7..v5.8'** run the script on ***same number of commits but completely different sets***. Hence the incosistency in the two statistics.
+Summary, we both ran the script on different set of commits. The parameter **'-g bcf876870b95-17595'** and **'-g v5.7..v5.8'** run the script on ***same number of commits but completely different sets***. Hence the incosistency in the two statistics.
 <br><br>
 
-### Where's the difference
+### The difference
 I collected commits as follows
 
-> // total count of commits: 17595<br>
+> // total count of commits: 17595 <br>
 > git log v5.7..v5.8 --format="%H" | sort > file1
 
 and 
-> // total count of commits: 17595<br>
+> // total count of commits: 17595 <br>
 > git log v5.8 -17595 --format="%H" | sort > file2
 
 and checked the difference
@@ -74,12 +74,7 @@ and checked the difference
 
 ![difference in commits](screenshots/commitsdiff.png)
 
-### Facts
-The count of commits from v5.7..v5.8 is 16306 excluding the merge commits<br>
+The count of commits from v5.7..v5.8 is 16306 excluding the merge commits <br>
 The count of commits from v5.7..v5.8 is 17595 including the merge commits
 
 ![image](screenshots/countofcommits.png)
-
-
-**My new statistics taking the merge commits into consideration is [available here](workingdir/stats_with_merge_commits).**
-
