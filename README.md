@@ -1,6 +1,7 @@
 # Tasks for the Project
 * Task 1
-* Follow up task [here](tasks.md)
+* Follow up task 1 [here](followuptask0.md)
+* Follow up task 2 [here](followuptask1.md)
 
 ## Task-1
 
